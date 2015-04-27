@@ -1,0 +1,9 @@
+# temporary files
+*.sw?
+
+# cocoda prototype
+cocoda
+
+# ignore all directories unless explicitly specified
+*/
+!publications
