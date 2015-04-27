@@ -1,0 +1,3 @@
+User-Agent: * 
+Disallow: /webhooks/
+Disallow: /dev/ 
