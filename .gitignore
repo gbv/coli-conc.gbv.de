@@ -7,3 +7,4 @@ cocoda
 # ignore all directories unless explicitly specified
 */
 !publications
+!concordances
