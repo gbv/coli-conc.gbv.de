@@ -1,0 +1,80 @@
+<table style="margin:5px 0px;width:100%;overflow:auto;" class="table table-hover table-condensed table-bordered">
+    <thead>
+        <tr>
+            <th><span>Target Scheme</span></th>
+            <th><span>Concept</span></th>
+            <th ng-if="type">
+                <span style="margin-right:3px;">Type</span>
+                <a ng-click="predicate = 'type.value';reverse = !reverse" href="" style="text-decoration:none;font-size:0.8em;">  
+                    <span class="glyphicon glyphicon-sort"></span>
+                </a>
+            </th>
+            <th>
+                <span style="margin-right:3px;">Creator</span>
+                <a ng-click="predicate = 'creator';reverse = !reverse" href="" style="text-decoration:none;font-size:0.8em;">
+                    <span class="glyphicon glyphicon-sort"></span>
+                </a>
+            </th>
+            <th style="width:100px;">
+                <span style="margin-right:3px;">Date</span>
+                <a ng-click="predicate = 'date';reverse = !reverse" href="" style="text-decoration:none;font-size:0.8em;">
+                    <span class="glyphicon glyphicon-sort"></span>
+                </a>
+            </th>
+            <th>
+                <span>Relevance</span>
+                <a ng-click="predicate = 'mappingRelevance';reverse = !reverse" href="" style="text-decoration:none;font-size:0.8em;">
+                    <span class="glyphicon glyphicon-sort"></span>
+                </a>
+            </th>
+            <!--
+            <th ng-if="select"></th>
+            -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="m in mapping | orderBy:predicate:reverse">
+            <td style="vertical-align:middle;">
+                <ul class="simple-list" style="margin-bottom:0px;text-align:center;">
+                    <li>
+                        <span class="classification">{{m.to.inScheme[0].notation}}</span>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul class="simple-list" style="margin-bottom:0px;">
+                    <li ng-repeat="t in m.to.conceptSet">
+                        <div class="skos-mapping-target" style="">
+                            <span ng-if="t.prefLabel" title="{{t.notation[0]}}" skos-label="t.prefLabel"></span>
+                            <span ng-if="!t.prefLabel" class="notation">{{t.notation[0]}}</span>
+                            <a ng-if="lookup" ng-class="{ 'link-disabled': m.to.inScheme[0].notation != schemes.target }" title="Select concept" class="action-icon" style="vertical-align:middle;">
+                                <span ng-click="lookup(t, m.to.inScheme[0].notation)">
+                                    <span style="top:2px;" class="glyphicon glyphicon-info-sign"></span>
+                                </span>
+                            </a>
+                            <a ng-if="select" ng-class="{ 'link-disabled': m.to.inScheme[0].notation != schemes.target }" title="Add concept to mapping" class="action-icon" style="vertical-align:middle;">
+                                <span ng-click="select(t, m.to.inScheme[0].notation)">
+                                    <span style="" class="glyphicon glyphicon-plus"></span>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </td>
+            <td ng-if="type">{{m.type.prefLabel}}</td>
+            <td class="skos-mapping-cell"><span>{{m.creator}}</span></td>
+            <td class="skos-mapping-cell" style="max-width:100px;"><span style="">{{m.date}}</span></td>
+            <td class="skos-mapping-cell">
+                <span ng-if="m.mappingType">{{m.mappingType}} ({{m.mappingRelevance}})</span>
+                <span ng-if="!m.mappingType && m.mappingRelevance">{{m.mappingRelevance}}</span>
+            </td>
+            <!--
+            <td ng-if="select" class="skos-mapping-cell">
+                <a style="cursor:pointer;text-decoration:none;" ng-class="{ 'link-disabled': m.to.inScheme[0].notation != schemes.target }" ng-click="select(m)" title="Select this mapping">
+                    <span>Use mapping</span>
+                </a>
+            </td>
+            -->
+        </tr>
+    </tbody>
+</table>

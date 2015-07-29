@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>coli-conc: publication</title>
+    <title>coli-conc: concordances</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
+    <script src="conc.js"></script>
+    <script src="lib/ng-skos/ng-skos.min.js"></script>
+    <script src="src/directives/skosMappingTable.js"></script>
+    <link rel="stylesheet" href="lib/ng-skos/ng-skos.css">
+    <link rel="stylesheet" href="conc.css">
+    <link rel="stylesheet" href="cocoda.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="../bootstrap-vzg.css">
     <!--[if lt IE 9]>
@@ -36,10 +43,45 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container" ng-app="Concordance">
       <h2>Concordances</h2>
-      <div class="alert alert-success" role="alert">
-        More information coming soon!
+      <div ng-controller="myController">
+        <div class="row">
+          <div class="conc-nav">
+            <form ng-submit="requestMappings(target.scheme)">
+              <div class="conc-inputs">
+                <span>Source Scheme:</span>
+                <input class="form-control" ng-model="source.scheme"></input>
+              </div>
+              <div class="conc-inputs">
+                <span>Notation:</span>
+                <input class="form-control"
+                  ng-model="source.notation"
+                  placeholder="Enter full notation"
+                  title="confirm by pressing ENTER"
+                />
+              </div>
+              <div class="conc-inputs">
+                <span>Target Scheme:</span>
+                <input class="form-control" ng-model="target.scheme"></input>
+              </div>
+              <div class="conc-inputs">
+                <span>Creator:</span>
+                <input class="form-control" ng-model="creator"></input>
+              </div>
+              <div class="conc-inputs">
+                <button type="submit" ng-disabled="!source.notation" />
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="conc-nav" ng-if="retrievedMapping.length" style="max-width:782px;"> 
+            <div skos-mapping-table="retrievedMapping" language="language"></div>
+          </div>
+        </div>
       </div>
     </div>
 

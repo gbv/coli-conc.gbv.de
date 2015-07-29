@@ -1,0 +1,228 @@
+/* Basic CSS for ng-skos default templates */
+/* in order of their occurrence in the demo */
+
+.tmpl-border {
+    border: 1px solid #999;
+    padding:10px 20px 5px 20px;
+    margin:5px 0px 10px 0px;
+    display:inline-block;
+}
+
+/* label styles */
+/* styles for identifiers */
+
+/*  icon-style for notations*/
+.notation{
+    background-color:#CCC;
+    border-radius:3px;
+    padding-left:3px;
+    padding-right:3px;
+    color:black;
+    cursor:default;
+    text-decoration:none;
+}
+/*  icon-style for concept-schemes */
+.classification{
+    background-color:#E6E681;
+    border-radius:3px;
+    padding-left:3px;
+    padding-right:3px;
+}
+/*  icon-style for databases */
+.dbase{
+    background-color:#B6D3FC;
+    border-radius:3px;
+    padding-left:3px;
+    padding-right:3px;
+}
+/*  uri-link style*/
+.uri{
+    padding-left:20px;
+}
+.uri:hover{
+    text-decoration:none;
+}
+/* SKOS-concept */
+
+/* ancestor styles */
+
+/* 'skos-concept-thesaurus' template styles  */
+/*  template also uses: .notation, .uri */
+
+ul.ancestors{
+    padding-left:0px;
+}
+ul.ancestors li {
+    display:inline;
+    cursor:pointer;
+    margin-bottom:10px;
+}
+.ancestor span{
+    padding-right:3px;
+}
+ul.ancestors li:hover{
+    background-color:#fff;
+}
+.ancestors-label:hover{
+    background-color:#eee;
+}
+.ancestors-greater{
+    font-weight:bold;
+    font-size:small;
+}
+.skos-concept-thesaurus ul{
+    margin:3px;
+    list-style-type:none;
+    padding-left:0px;
+}
+.skos-concept-thesaurus li:hover {
+    background-color:lightgrey;
+    border-radius:3px;
+    cursor:pointer;
+}
+.skos-concept-thesaurus-relation li{
+    text-decoration:underline;
+    padding:1px 3px 1px 3px;
+    display:inline-block;
+}
+.skos-concept-thesaurus-note{
+    border:1px solid #ddd;
+    margin-bottom:10px;
+}
+.top-classic{
+    margin-bottom:10px;
+    margin-top:10px;
+    border:1px solid #ddd;
+    padding:0px 3px 0px 3px;
+    border-radius:3px;
+    background-color:#eee;
+    display:inline-block;
+}
+/* 'skos-concept' template styles */
+/*  template also uses: .notation, .uri */
+.skos-concept-connected{
+    max-height:200px;
+    overflow:auto;
+    background-color:#FFF;
+    padding:3px;
+    min-width:250px;
+}
+.skos-concept{
+    padding:10px 15px;
+    margin-bottom:8px;
+}
+
+.skos-concept ul{
+    list-style-type:none;
+    margin-bottom:5px;
+    padding-left:0px;
+}
+.skos-concept li{
+    display:inline-block;
+}
+/* 'skos-concept' altLabel display*/
+.skos-concept-altlabel{
+    margin:4px 0px 5px 6px;
+    font-style:italic;
+}
+/* 'skos-concept' relations (broader, narrower, related) display */
+.skos-concept-relation li:hover {
+    cursor:pointer;
+}
+.skos-concept-relation li{
+    display:table-row;
+}
+.skos-concept-relation div{
+    display:table-cell;
+}
+.skos-concept-relation-label{
+    padding:0px 3px;
+}
+.skos-concept-relation-label:hover{
+    background-color:#ddd;
+}
+.skos-concept-relation ul{
+    margin: 0;
+}
+.skos-concept-relation span{
+    color:#428bca;
+}
+.skos-note{
+    font-style: italic;
+    display:inline-block;
+    list-style-type:none;
+    padding:4px 6px;
+    margin:6px;
+    background-color:#ddd;
+    border-radius:3px;
+}
+.skos-note li{
+    padding-left:5px;
+}
+/* styles for header, containing notation, prefLabel and uri-link */
+.top-alt{
+    margin-bottom:10px;
+}
+/* SKOS-search*/
+
+/* SKOS-tree */
+/*  template also uses: .notation*/
+.skos-tree{
+    margin-left:-20px;
+}
+.skos-tree ul{
+    list-style-type:none;
+
+}
+.skos-tree li{
+    padding-right:8px;
+}
+/* style for a single node */
+.set{
+    display:inline-table;
+    border-radius:3px;
+    padding-right:3px;
+}
+.set:hover{
+    background-color:#eee;
+}
+/* style for the label of a node*/
+.nlabel{
+    color:#803A22;
+    font-weight:bold;
+    cursor:pointer;
+    padding-left:3px;
+}
+.simple-list{
+    list-style-type:none;
+    padding:0px;
+}
+.notification{
+    color:red;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #EEE;
+}
+/* SKOS-browser */
+.typeahead-loading-right{
+    position:absolute;
+    top:9px;
+    right:6px;
+}
+/* SKOS-list*/
+.skos-simple-list{
+    list-style-type:none;
+    padding:0px;
+    margin-bottom:0px;
+}
+.skos-list-notation{
+    cursor:pointer;
+    white-space:nowrap;
+}
+.skos-list-label{
+    cursor:pointer;
+    padding-left:4px;
+}
+.list-item-selected{
+    background-color: #C6E2FF;
+}
