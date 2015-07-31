@@ -50,15 +50,16 @@
           <div class="conc-nav">
             <form ng-submit="requestMappings(target.scheme)">
               <div class="conc-inputs">
-                <span>Source Scheme:</span>
+                <span style="font-weight:bold;">Source Scheme:</span>
                 <input class="form-control" ng-model="source.scheme"></input>
               </div>
               <div class="conc-inputs">
-                <span>Notation:</span>
+                <span style="font-weight:bold;">Notation:</span>
                 <input class="form-control"
                   ng-model="source.notation"
                   placeholder="Enter full notation"
                   title="confirm by pressing ENTER"
+                  required
                 />
               </div>
               <div class="conc-inputs">
@@ -78,8 +79,20 @@
           </div>
         </div>
         <div class="row">
-          <div class="conc-nav" ng-if="retrievedMapping.length" style="max-width:782px;"> 
-            <div skos-mapping-table="retrievedMapping" language="language"></div>
+          <div class="conc-nav" style="max-width:782px;"> 
+            <div ng-if="retrievedMapping.length" skos-mapping-table="retrievedMapping" language="language"></div>
+            <div class="conc-message" ng-if="retrievalSuccess === false">
+              <span class="alert alert-warning">
+                No mappings found for specified notation!
+              </span>
+            </div>
+            <div class="conc-info" ng-if="!retrievedMapping.length && !retrievalSuccess">
+              <p>
+                This page provides the option to search for mappings in the coli-conc mapping database. 
+                The input of a specific notation is mandatory. Optionally, a specific target scheme and/or creator
+                can be selected by filling in the corresponding fields.
+              </p>
+            </div>
           </div>
         </div>
       </div>

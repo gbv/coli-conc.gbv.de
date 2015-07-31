@@ -7,9 +7,9 @@ conc.controller('myController',['$rootScope','$scope','$http','$q', function ($r
         notation: ''
     }
     $scope.target = {
-        scheme: 'all'
+        scheme: ''
     }
-    $scope.creator = 'all';
+    $scope.creator = '';
     $scope.language = 'en';
     
     $scope.retrievedMapping = [];
@@ -40,10 +40,10 @@ conc.controller('myController',['$rootScope','$scope','$http','$q', function ($r
         $scope.retrievedMapping = [];
         var url = "http://coli-conc.gbv.de/cocoda/api/mappings?";
         var get = $http.jsonp;
-        if(target != 'all'){
+        if(target != ''){
             url += "toSchemeNotation=" + target + "&";
         }
-        if($scope.creator != 'all'){
+        if($scope.creator != ''){
             url += "creator=" + $scope.creator + "&";
         }
         url += "fromNotation=" + $scope.source.notation;
@@ -53,8 +53,10 @@ conc.controller('myController',['$rootScope','$scope','$http','$q', function ($r
         get(url).success(function(data, status){
             $scope.transformData(data);
             
-            if(!$scope.retrievedMapping[0]){
-                $scope.retrievalSuccess = false;
+            if(!$scope.retrievedMapping.length){
+              $scope.retrievalSuccess = false;
+            }else{
+              $scope.retrievalSuccess = true;
             }
         }).error(function(data, status, headers){
             console.log("Failed!" + status);
