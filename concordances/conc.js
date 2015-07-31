@@ -40,11 +40,14 @@ conc.controller('myController',['$rootScope','$scope','$http','$q', function ($r
         $scope.retrievedMapping = [];
         var url = "http://coli-conc.gbv.de/cocoda/api/mappings?";
         var get = $http.jsonp;
+        if($scope.source.scheme != ''){
+          url += "fromSchemeNotation=" + $scope.source.scheme + "&";
+        }
         if(target != ''){
-            url += "toSchemeNotation=" + target + "&";
+          url += "toSchemeNotation=" + target + "&";
         }
         if($scope.creator != ''){
-            url += "creator=" + $scope.creator + "&";
+          url += "creator=" + $scope.creator + "&";
         }
         url += "fromNotation=" + $scope.source.notation;
         url += url.indexOf('?') == -1 ? '?' : '&';
