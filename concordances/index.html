@@ -86,7 +86,7 @@
                 No mappings found for specified notation!
               </span>
             </div>
-            <div class="conc-info" ng-if="!retrievedMapping.length && !retrievalSuccess">
+            <div class="conc-info" ng-if="!retrievedMapping.length && retrievalSuccess != false">
               <p>
                 This page provides the option to search for mappings in the coli-conc mapping database. 
                 The input of a specific notation is mandatory. Optionally, a specific target scheme and/or creator
