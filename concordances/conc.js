@@ -1,6 +1,20 @@
+/**
+ * Web Interface to coli-conc mapping database or any other database with JSOS-API.
+ */
 var conc = angular.module('Concordance', ['ngSKOS']);
 
-conc.controller('myController',['$rootScope','$scope','$http','$q', function ($rootScope, $scope, $http, $q){
+conc.constant('CONFIG', {
+    baseURL: 'http://coli-conc.gbv.de/cocoda/api'
+});
+
+conc.run(['$rootScope','$http','CONFIG',function($rootScope,$http,CONFIG) {
+    $rootScope.baseURL = CONFIG.baseURL;
+    $http.get(CONFIG.baseURL).success(function(data){
+        $rootScope.database = data;
+    });
+}]);
+
+conc.controller('searchMappingsController', ['$scope','$http','CONFIG', function ($scope, $http, CONFIG){
     
     $scope.source = {
         scheme: 'DDC',
@@ -13,56 +27,36 @@ conc.controller('myController',['$rootScope','$scope','$http','$q', function ($r
     $scope.language = 'en';
     
     $scope.retrievedMapping = [];
-    $scope.transformData = function(data){
-        angular.forEach(data, function(d){
-            if(d.value){
-                d = d.value;
-            }
-            var mt = "";
-            var mr = "";
-            if(d.mappingRelevance){
-                mr = d.mappingRelevance;
-            }
-            if(d.mappingType){
-                mt = d.mappingType;
-            }
-            var mapping = {
-                creator: d.creator,
-                mappingRelevance: mr,
-                mappingType: mt,
-                from: d.from,
-                to: d.to
-            }
-            $scope.retrievedMapping.push(mapping);
-        });
-    }
-    $scope.requestMappings = function(target){
-        $scope.retrievedMapping = [];
-        var url = "http://coli-conc.gbv.de/cocoda/api/mappings?";
-        var get = $http.jsonp;
-        if($scope.source.scheme != ''){
-          url += "fromSchemeNotation=" + $scope.source.scheme + "&";
-        }
-        if(target != ''){
-          url += "toSchemeNotation=" + target + "&";
-        }
-        if($scope.creator != ''){
-          url += "creator=" + $scope.creator + "&";
-        }
-        url += "fromNotation=" + $scope.source.notation;
-        url += url.indexOf('?') == -1 ? '?' : '&';
-        url += 'callback=JSON_CALLBACK';
+    $scope.requestMappings = function() {
 
-        get(url).success(function(data, status){
-            $scope.transformData(data);
-            
-            if(!$scope.retrievedMapping.length){
-              $scope.retrievalSuccess = false;
-            }else{
-              $scope.retrievalSuccess = true;
-            }
+        // set up query
+        var params = { };
+        if ($scope.source.notation != '') {
+            params.fromNotation = $scope.source.notation;
+        }
+        if ($scope.source.scheme != '') {
+            params.fromSchemeNotation = $scope.source.scheme;
+        }
+        if ($scope.target.scheme != ''){
+            params.toSchemeNotation = $scope.target.scheme;
+        }
+        if ($scope.creator != ''){
+            params.creator = $scope.creator;
+        }
+
+        // perform request
+        $scope.retrievedMapping = [];
+        $scope.mappingCount = null;
+        $scope.httpError = null;
+        $http.get(CONFIG.baseURL + "/mappings", { 
+            params: params,
+        }).success(function(data, status, headers) {
+            $scope.retrievedMapping = data;
+            $scope.mappingCount = headers('X-Total-Count');
         }).error(function(data, status, headers){
-            console.log("Failed!" + status);
+            $scope.httpError = data ? data : {
+                message: "HTTP request failed. The mapping database may be down."
+            };
         });
     }
 }])

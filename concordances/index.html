@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>coli-conc: concordances</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
-    <script src="conc.js"></script>
-    <script src="lib/ng-skos/ng-skos.min.js"></script>
-    <script src="src/directives/skosMappingTable.js"></script>
-    <link rel="stylesheet" href="lib/ng-skos/ng-skos.css">
-    <link rel="stylesheet" href="conc.css">
-    <link rel="stylesheet" href="cocoda.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="../bootstrap-vzg.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
+    <script src="conc.js"></script>
+    <script src="lib/ng-skos/ng-skos.min.js"></script>
+    <script src="src/directives/skosMappingTable.js"></script>
+    <link rel="stylesheet" href="lib/ng-skos/ng-skos.css">
+    <link rel="stylesheet" href="cocoda.css">
+
   </head>
   <body>
 
@@ -45,57 +46,76 @@
 
     <div class="container" ng-app="Concordance">
       <h2>Concordances</h2>
-      <div ng-controller="myController">
+      <p>
+        This page provides an early preview of 
+        <a href="http://coli-conc.gbv.de/cocoda/api">coli-conc mapping database</a>. 
+        <a ng-if="database.version" class="badge" style="background: green" href="{{baseURL}}">
+            cocoda-db {{database.version}}
+        </a>
+      </p>
+
+      <div ng-controller="searchMappingsController">
+        <h3>Search Mappings</h3>
         <div class="row">
-          <div class="conc-nav">
-            <form ng-submit="requestMappings(target.scheme)">
-              <div class="conc-inputs">
-                <span style="font-weight:bold;">Source Scheme:</span>
-                <input class="form-control" ng-model="source.scheme" required></input>
-              </div>
-              <div class="conc-inputs">
-                <span style="font-weight:bold;">Notation:</span>
-                <input class="form-control"
-                  ng-model="source.notation"
-                  placeholder="Enter full notation"
-                  title="confirm by pressing ENTER"
-                  required
-                />
-              </div>
-              <div class="conc-inputs">
-                <span>Target Scheme:</span>
-                <input class="form-control" ng-model="target.scheme"></input>
-              </div>
-              <div class="conc-inputs">
-                <span>Creator:</span>
-                <input class="form-control" ng-model="creator"></input>
-              </div>
-              <div class="conc-inputs">
-                <button type="submit" ng-disabled="!source.notation" />
-                    <span class="glyphicon glyphicon-search"></span>
-                </button>
-              </div>
-            </form>
+        <form class="form-horizontal" ng-submit="requestMappings()">
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Source</label>
+            <div class="col-sm-2">
+              <input class="form-control" ng-model="source.scheme" placeholder="scheme"></input>
+            </div>
+            <div class="col-sm-4">
+              <input class="form-control" ng-model="source.notation" placeholder="notation"></input>
+            </div>
           </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Target</label>
+            <div class="col-sm-2">
+              <input class="form-control" ng-model="target.scheme" placeholder="scheme"></input>
+            </div>
+            <div class="col-sm-4">
+              <input class="form-control" ng-model="target.notation" placeholder="notation"></input>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">Creator</label>
+            <div class="col-sm-4">
+                <input class="form-control" ng-model="creator"></input>
+            </div>
+            <div class="col-sm-2 text-right">
+              <button type="submit" class="btn btn-primary">
+                <span class="glyphicon glyphicon-search"></span>
+                search
+              </button>
+            </div>
+          </div>
+        </form>
         </div>
         <div class="row">
-          <div class="conc-nav" style="max-width:782px;"> 
-            <div ng-if="retrievedMapping.length" skos-mapping-table="retrievedMapping" language="language"></div>
-            <div class="conc-message" ng-if="retrievalSuccess === false">
-              <span class="alert alert-warning">
-                No mappings found for specified notation!
-              </span>
+          <div ng-if="retrievedMapping.length"> 
+            <div ng-if="mappingCount !== null">
+                Found {{mappingCount}} mappings<span 
+                  ng-if="retrievedMapping.length < mappingCount">,
+                  showing {{retrievedMapping.length}} of them</span>.
             </div>
-            <div class="conc-info" ng-if="!retrievedMapping.length && retrievalSuccess != false">
-              <p>
-                This page provides the option to search for mappings in the coli-conc mapping database. 
-                The input of a specific notation is mandatory. Optionally, a specific target scheme and/or creator
-                can be selected by filling in the corresponding fields.
-              </p>
-            </div>
+            <div skos-mapping-table="retrievedMapping" language="language"></div>
+          </div>
+          <div ng-if="httpError" class="alert alert-danger">
+            {{httpError.message}}
+          </div>
+          <div ng-if="mappingCount === 0" class="alert alert-warning">
+            No mappings found for specified query!
           </div>
         </div>
       </div>
+
+      <h3>Documentation</h3>
+      <p>
+        Coli-conc mapping database is accessible 
+        <a href="https://github.com/gbv/jskos-api">JSKOS-API</a>
+        at <a href="{{baseURL}}">{{baseURL}}</a>.
+        See <a href="https://github.com/gbv/cocoda-db">https://github.com/gbv/cocoda-db</a>
+        for source code and technical documentation.
+      </p>
     </div>
 
     <footer class="footer">
