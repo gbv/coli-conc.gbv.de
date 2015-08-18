@@ -4,7 +4,7 @@
 var conc = angular.module('Concordance', ['ngSKOS']);
 
 conc.constant('CONFIG', {
-    baseURL: 'http://coli-conc.gbv.de/cocoda/api'
+    baseURL: 'https://coli-conc.gbv.de/cocoda/api'
 });
 
 conc.run(['$rootScope','$http','CONFIG',function($rootScope,$http,CONFIG) {
