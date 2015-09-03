@@ -1,8 +1,10 @@
 <table style="margin:5px 0px;width:100%;overflow:auto;" class="table table-hover table-condensed table-bordered">
     <thead>
         <tr>
+            <th class="mapping-table-scheme"><span>Source Scheme</span></th>
+            <th class="mapping-table-scheme"><span>Source Notation</span></th>
             <th><span>Target Scheme</span></th>
-            <th><span>Concept</span></th>
+            <th><span>Target Concept</span></th>
             <th ng-if="type">
                 <span style="margin-right:3px;">Type</span>
                 <a ng-click="predicate = 'type.value';reverse = !reverse" href="" style="text-decoration:none;font-size:0.8em;">  
@@ -34,6 +36,20 @@
     </thead>
     <tbody>
         <tr ng-repeat="m in mapping | orderBy:predicate:reverse">
+            <td style="vertical-align:middle;">
+                <ul class="simple-list" style="margin-bottom:0px;text-align:center;">
+                    <li>
+                        <span class="classification">{{m.from.inScheme[0].notation}}</span>
+                    </li>
+                </ul>
+            </td>
+            <td style="vertical-align:middle;">
+                <ul class="simple-list" style="margin-bottom:0px;">
+                    <li>
+                        <span class="notation">{{m.from.conceptSet[0].notation[0]}}</span>
+                    </li>
+                </ul>
+            </td>
             <td style="vertical-align:middle;">
                 <ul class="simple-list" style="margin-bottom:0px;text-align:center;">
                     <li>

@@ -88,6 +88,9 @@
     font-weight:bold;
     font-size:1.2em;
 }
+.mapping-table-scheme{
+    max-width:150px;
+}
 .skos-mapping-cell{
     vertical-align:middle !important;
     text-align:center;
