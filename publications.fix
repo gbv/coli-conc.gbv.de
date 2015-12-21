@@ -1,0 +1,5 @@
+# remove fields not required
+remove_field(library)          # fixed
+remove_field(data.collections) # fixed
+remove_field(links)   # self and alternate
+remove_field(meta)    # who edited Zotero item

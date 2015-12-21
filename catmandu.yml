@@ -1,0 +1,12 @@
+---
+# Catmandu config file to import coli-conc publications from Zotero
+# usage:
+#   $ catmandu import publications to YAML
+
+importer:
+  publications:
+    package: Zotero
+    options:
+      groupID: 337975
+      collectionID: WCRJ5V4U
+      fix: publications.fix
