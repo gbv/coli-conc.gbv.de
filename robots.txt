@@ -1,4 +1,3 @@
 User-Agent: * 
 Disallow: /webhooks/
 Disallow: /dev/ 
-Disallow: /coli-conc.pdf
