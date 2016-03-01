@@ -183,3 +183,11 @@
     padding:2px;
     display:block;
 }
+.pagin-link-list{
+  list-style-type:none;
+  padding-left:0px;
+}
+.pagin-link-list li{
+  display:inline;
+  margin:0px 6px;
+}
