@@ -108,6 +108,11 @@
           <div ng-if="mappingCount === 0" class="alert alert-warning">
             No mappings found for specified query!
           </div>
+          <div>
+            <ul class="pagin-link-list">
+              <li ng-repeat="l in paginationLinks"><a href="" ng-click="requestMappings(l[0])">{{l[1]}} page</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 

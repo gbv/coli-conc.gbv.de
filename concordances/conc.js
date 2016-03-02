@@ -27,8 +27,8 @@ conc.controller('searchMappingsController', ['$scope','$http','CONFIG', function
     $scope.language = 'en';
     
     $scope.retrievedMapping = [];
-    $scope.requestMappings = function() {
-
+    $scope.requestMappings = function(link) {
+        var page = link;
         // set up query
         var params = { };
         if ($scope.source.notation != '') {
@@ -43,7 +43,10 @@ conc.controller('searchMappingsController', ['$scope','$http','CONFIG', function
         if ($scope.creator != ''){
             params.creator = $scope.creator;
         }
-
+        if(page){
+          page = link.split('page=');
+          params.page = page[1];
+        }
         // perform request
         $scope.retrievedMapping = [];
         $scope.mappingCount = null;
@@ -53,6 +56,18 @@ conc.controller('searchMappingsController', ['$scope','$http','CONFIG', function
         }).success(function(data, status, headers) {
             $scope.retrievedMapping = data;
             $scope.mappingCount = headers('X-Total-Count');
+            $scope.paginationLinks = [];
+            $scope.pLinkString = headers('Link');
+            if($scope.pLinkString){
+              $scope.pLinkString = $scope.pLinkString.split(", ");
+              if(typeof $scope.pLinkString === 'string'){
+                $scope.paginationLinks.push(link.replace(/"|<|>/g, '').replace("rel=", '').split('; '));
+              }else{
+                angular.forEach($scope.pLinkString, function(link){
+                  $scope.paginationLinks.push(link.replace(/"|<|>/g, '').replace("rel=", '').split('; '));
+                })
+              }
+            }
         }).error(function(data, status, headers){
             $scope.httpError = data ? data : {
                 message: "HTTP request failed. The mapping database may be down."
