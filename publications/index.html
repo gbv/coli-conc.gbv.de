@@ -21,6 +21,7 @@
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
 			<span class="icon-bar"></span>
@@ -30,9 +31,10 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="../">About</a></li>
+			<li><a href="../terminologies/">Terminologies</a></li>
+			<li><a href="../concordances/">Concordances</a></li>
             <li><a href="../cocoda/">Cocoda prototype</a></li>
             <li class="active"><a href="#">Publications</a></li>
-            <li><a href="../concordances/">Concordances</a></li>
 			<li><a href="../contact/">Contact</a></li>
           </ul>
         </div>
@@ -73,8 +75,19 @@
       </p>
       <ul>
         <li>
-          <a href="tr1.html">Cocoda Technical Report 1</a>. (April 2015)
+          <a href="tr1.html">coli-conc Technical Report 1: Cocoda primer</a>. (April 2015)
           <a href="http://dx.doi.org/10.5281/zenodo.16786">DOI 10.5281/zenodo.16786</a>.
+        </li>
+        <li>
+          <a href="tr2.html">coli-conc Technical Report 2: Open Source KOS software</a>. (March 2016)
+          <a href="http://dx.doi.org/10.5281/zenodo.48227">DOI 10.5281/zenodo.48227</a>.
+        </li>
+        <li>
+          <a href="tr3.html">coli-conc Technical Report 3: A novel approach to terminology mappings</a>. (April 2016)
+          <a href="http://dx.doi.org/10.5281/zenodo.48740">DOI 10.5281/zenodo.48740</a>.
+        </li>
+        <li>
+            DFG-Projekt: Coli-Conc. Das Mapping Tool Cocoda. In: O-Bib. Das Offene Bibliotheksjournal. Vol. 3, Nr. 1 (2016). <a href="http://dx.doi.org/10.5282/o-bib/2016H1S11-16">DOI 10.5282/o-bib/2016H1S11-16</a>.
         </li>
 <!--        <li>
             DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch, die Erstellung, und die Wartung von Konkordanzen zwischen bibliothekarischen Wissensorganisationssystemen (November 2014/August 2015).
@@ -125,21 +138,15 @@
           (<a href="https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2013/pdf/Balakrishnan_131120_RVK_WS_Konkordanz.pdf">PDF slides</a>)
         </li>
       </ul>
-      <h4>News</h4>
-      <ul>
-        <li>
-          Follow <i class="fa fa-twitter"></i>
-          <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">@coli_conc</a>
-          at Twitter for project updates and news.
-        </li>
-      </ul>
       <h4>Specifications</h4>
       <ul>
         <li>
-          <a href="https://gbv.github.io/jskos/">JSKOS</a> (draft)
+          <a href="https://gbv.github.io/jskos/">JSKOS</a> 
+          <a href="https://github.com/gbv/jskos/"><img src="https://img.shields.io/github/tag/gbv/jskos.svg"></a>
         </li>
         <li>
-          <a href="https://gbv.github.io/jskos-api">JSKOS-API</a> (draft)
+          <a href="https://gbv.github.io/jskos-api">JSKOS-API</a>
+          <a href="https://github.com/gbv/jskos-api"><img src="https://img.shields.io/github/tag/gbv/jskos-api.svg"></a>
         </li>
       </ul>
       <h4>Software
@@ -223,6 +230,19 @@
           </td>
           <td>
             <em>prototype</em>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/gbv/jskos-php-examples">jskos-php-examples</a>
+            Sample applications of jskos-php, e.g. wrappers of terminology
+            services to JSKOS-API
+          </td>
+          <td>
+            <a href="https://travis-ci.org/gbv/jskos-php-examples"><img src="https://travis-ci.org/gbv/jskos-php-examples.svg"></a>
+          </td>
+          <td>
+            <a href="https://jskos-php-examples.herokuapp.com/">live demo</a>
           </td>
         </tr>
        </table>
