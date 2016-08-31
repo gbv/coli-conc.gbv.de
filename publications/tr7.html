@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Jakob Voß">
+  <meta name="dcterms.date" content="2016-08-31">
+  <title>Open Source web applications for Knowledge Organization Systems</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-vzg.css">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">coli-conc</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../">About</a></li>
+            <li><a href="../cocoda/">Cocoda prototype</a></li>
+            <li class="active"><a href=".">Publications</a></li>
+            <li><a href="../concordances/">Concordances</a></li>
+			<li><a href="../contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div class="container">
+<h2>
+Open Source web applications for Knowledge Organization Systems
+<small>coli-conc report 7</small>
+</h2>
+<div class="author">
+    <div>
+        Jakob Voß
+        &lt;jakob.voss@gbv.de&gt;
+    </div>
+    <div>
+        Verbundzentrale des GBV (VZG)
+    </div>
+</div>
+
+<p>
+<div>2016-08-31</div>
+
+<div>DOI: <a href="https://dx.doi.org/10.5281/zenodo.61262">10.5281/zenodo.61262</a> (PDF)</div>
+<div>CC-BY-SA</div>
+</p>
+
+
+<p>This report gives an overview about Open Source web applications to create, manage, and publish Knowledge Organization Systems (KOS).</p>
+<h3 id="background">Background</h3>
+<p>To manage concordances between Knowledge Organization Systems (KOS) in project <a href="https://coli-conc.gbv.de/">coli-conc</a>, access to each of these KOS is required. To access and manage KOS there are several tools, as listed in a first report <span class="citation" data-cites="ColiConcTR2">(Voß 2016b)</span>. This new report contains an update of this list, narrowed down to web applications. The collection only contains applications with main focus on KOS management. More application exist to make use of controlled vocabularies as part of another task,<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> but their evaluation would require a much larger study.</p>
+<h3 id="open-source-web-applications-for-kos">Open Source web applications for KOS</h3>
+<p>The list given in <a href="http://coli-conc.gbv.de/publications/tr2.html">coli-conc report 2</a> has been updated with information about KOS editing and API features, source code repository, year of last update, and rough number of contributors.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name and Link</th>
+<th style="text-align: left;">Editor</th>
+<th style="text-align: left;">API</th>
+<th style="text-align: left;">Language</th>
+<th style="text-align: left;">License</th>
+<th style="text-align: left;">Source</th>
+<th style="text-align: left;">Update</th>
+<th style="text-align: left;">Contributors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://www.semantic-mediawiki.org">Semantic MediaWiki</a></td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">PHP</td>
+<td style="text-align: left;">GPL</td>
+<td style="text-align: left;"><a href="https://github.com/SemanticMediaWiki/SemanticMediaWiki/">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">50</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://wikiba.se/">Wikibase</a></td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">PHP</td>
+<td style="text-align: left;">GPL</td>
+<td style="text-align: left;"><a href="http://wikiba.se/components/">Wikimedia</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">30</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://vocabularyserver.com/">TemaTres</a></td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">PHP</td>
+<td style="text-align: left;">GPL</td>
+<td style="text-align: left;"><a href="https://github.com/tematres/TemaTres-Vocabulary-Server">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://iqvoc.net/">iQvoc</a></td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">Ruby</td>
+<td style="text-align: left;">Apache</td>
+<td style="text-align: left;"><a href="https://github.com/innoq/iqvoc">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-015-0043-z">SKOS Editor</a></td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">Java</td>
+<td style="text-align: left;">LGPL</td>
+<td style="text-align: left;"><a href="https://github.com/Blulab-Utah/SKOSEditor">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://culturecommunication.github.io/ginco/">Ginco</a></td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">Java</td>
+<td style="text-align: left;">CeCILL</td>
+<td style="text-align: left;"><a href="https://github.com/culturecommunication/ginco">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://vocbench.uniroma2.it/">VocBench</a></td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">Java</td>
+<td style="text-align: left;">?</td>
+<td style="text-align: left;"><a href="https://bitbucket.org/art-uniroma2/vocbench">Bitbucket</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://protegewiki.stanford.edu/wiki/WebProtege">Web Protégé</a></td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">?</td>
+<td style="text-align: left;">Java</td>
+<td style="text-align: left;">BSD</td>
+<td style="text-align: left;"><a href="http://github.com/protegeproject/webprotege">GitHub</a></td>
+<td style="text-align: left;">2015</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SKOSjs</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">JavaScript</td>
+<td style="text-align: left;">Apache</td>
+<td style="text-align: left;"><a href="https://github.com/tkurz/skosjs">GitHub</a></td>
+<td style="text-align: left;">2014</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">VoCol</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">JavaScript</td>
+<td style="text-align: left;">MIT</td>
+<td style="text-align: left;"><a href="https://github.com/vocol/vocol">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://openskos.org/">OpenSKOS</a></td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">PHP</td>
+<td style="text-align: left;">GPL</td>
+<td style="text-align: left;"><a href="https://github.com/OpenSKOS/OpenSKOS">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Django C.V.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">Python</td>
+<td style="text-align: left;">BSD</td>
+<td style="text-align: left;"><a href="https://github.com/unt-libraries/django-controlled-vocabularies">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Skosmos</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">PHP</td>
+<td style="text-align: left;">MIT</td>
+<td style="text-align: left;"><a href="https://github.com/NatLibFi/Skosmos">GitHub</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://labs.sparna.fr/skos-play/about">SKOS Play</a></td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">Java</td>
+<td style="text-align: left;">CC-BY-SA</td>
+<td style="text-align: left;"><a href="https://bitbucket.org/tfrancart/sparna">Bitbucket</a></td>
+<td style="text-align: left;">2016</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.sissvoc.info/">SISSVoc</a></td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">XSLT</td>
+<td style="text-align: left;">Apache</td>
+<td style="text-align: left;"><a href="https://github.com/SISS/sissvoc">GitHub</a></td>
+<td style="text-align: left;">2015</td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.askosi.org/">ASKOSI</a></td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">?</td>
+<td style="text-align: left;">Java</td>
+<td style="text-align: left;">GPL</td>
+<td style="text-align: left;"><a href="http://www.askosi.org/example/">Archive</a></td>
+<td style="text-align: left;">2011</td>
+<td style="text-align: left;">1</td>
+</tr>
+</tbody>
+</table>
+<h4 id="software-development">Software development</h4>
+<p>The updated list contains 16 web applications for knowledge organization systems, written in six different programming languages (Java: 7, PHP: 5, JavaScript: 2, Ruby/Python/XSLT: 1 each). All applications except SISSVoc and Django Controlled Vocabularies also use JavaScript for their web interface. All projects except ASKOSI use git for version control, mainly hosted at GitHub. At least half of the applications implement a web API to query or modify KOS content in machine-readable form.</p>
+<p>ASKOSI and SKOSjs will be excluded from the following evaluation because they have not been updated since more then two years. All remaining projects except SISSVoc have been updated in the last nine month, showing active development. The number of contributors gives a rough estimate of the developer community.</p>
+<h4 id="typology-of-kos-applications">Typology of KOS applications</h4>
+<p>The applications can be grouped by several criteria for further evaluation.</p>
+<h5 id="kos-tools-vs.-general-ontology-tools">KOS tools vs. general ontology tools</h5>
+<p>Semantic MediaWiki, Wikibase, and Web Protégé are no KOS applications in a stricter sense but they aim at the creation and management of ontologies, semantic neworks, or knowledge bases. It is possible to use them for KOSs but more serious work requires some configuration, usage guidelines, and additional tools or extensions <span class="citation" data-cites="Voss2016">(Voß 2016a)</span>.</p>
+<h5 id="kos-editors-vs.-kos-publishing-tools">KOS editors vs. KOS publishing tools</h5>
+<p>KOS editors can be used to create and modify taxonomies, thesauri, glossaries or other kinds of KOS. Nine applications (including the general ontology tools) can be used as KOS editor and five only provide read access. For instance VocBench provides advanced editing capabilities with workflow and user management but it recommends a SKOS Browser such as Skosmos to provide public access to the resulting systems. KOS editors can further be grouped into simple KOS editors and tools for KOS management. The latter include an editorial workflow with user roles (e.g. editors and publishers) and publication states (e.g. new, suggested, published, and deleted concepts).</p>
+<h5 id="resulting-categories">Resulting categories</h5>
+<p>The analysis of Open Source KOS web application types results in four categories. KOS management tools and editors can mostly be used also for KOS publishing but with less access-oriented features.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">applications</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Ontology editor</td>
+<td style="text-align: left;">Semantic MediaWiki, Wikibase, Web Protégé</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">KOS management</td>
+<td style="text-align: left;">iQvoc, TemaTres, VocBench, Ginco</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">KOS editor</td>
+<td style="text-align: left;">SKOS Editor, VoCol</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">KOS publishing</td>
+<td style="text-align: left;">OpenSKOS, Skosmos, SKOS Play, SISSVoc, Django Controlled Vocabularies</td>
+</tr>
+</tbody>
+</table>
+<p>Two applications should be sorted out before evaluation because of their specialized use case:</p>
+<ul>
+<li><p>SKOS Play generates visualizations and printable forms of KOS given in SKOS format.</p></li>
+<li><p>VoCol is a framework to support collaborative management of vocabularies in git repositories.</p></li>
+</ul>
+<h3 id="evaluation">Evaluation</h3>
+<p>An in-deep evaluation would first require definition of criteria and goals. This report only gives an overview and recommendations for project coli-conc. The project does not include editing KOS but creation of uniform access methods to KOS information from multiple sources in JSKOS format <span class="citation" data-cites="JSKOS">(Voß 2016c)</span>. For each KOS applications the question is whether to</p>
+<ul>
+<li>engage into adding JSKOS features to the software,</li>
+<li>create a wrapper to access the application's API,</li>
+<li>or to use exported SKOS files (if available).</li>
+</ul>
+<p>ASKOSI, SKOSjs, SKOS Play and VoCol have been selected to be ignored. For ontology editors it neither makes sense to create a dedicated JSKOS API. A wrapper to convert Wikidata (based on Wikibase) to JSKOS has already been started instead.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> Focus on most used programming languages also makes iQVoc (Ruby), Django Controlled Vocabularies (Python), and SISSVoc (XSLT) candidates for more wrappers instead of adding features to them.</p>
+<p>Engagement in developer community should be considered for six projects to natively support an API for querying KOS information in JSKOS format: TemaTres, Skosmos, OpenSKOS (PHP) and SKOS Editor, Ginco, VocBench (Java). A PHP framework for JSKOS processing and access is already being developed as part of project coli-conc to build on.<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a></p>
+<h3 id="summary">Summary</h3>
+<p>This report collected information about sixteen Open Source web applications for Knowledge Organization Systems (KOS). The applications can be grouped in four categories (ontology editor, KOS management, KOS editor, KOS publishing). The report does not include a detailed evaluation but recommendations for project coli-conc. Three PHP-based projects and three Java-based projects have been identified for possible collaboration in software development.</p>
+<div class="references">
+<h3 id="references" class="unnumbered">References</h3>
+<p>Voß, Jakob. 2016a. “Classification of Knowledge Organization Systems with Wikidata.” In <em>Proceedings of 15th European NKOS Workshop</em>. CEUR Workshop Proceedings.</p>
+<p>———. 2016b. <em>Open Source KOS Software</em>. Coli-Conc Technical Report 2. doi:<a href="http://dx.doi.org/10.5281/zenodo.48227">10.5281/zenodo.48227</a>.</p>
+<p>———. 2016c. <em>JSKOS Data Format for Knowledge Organization Systems</em>. Version 0.1.2. <a href="http://gbv.github.io/jskos/" class="uri">http://gbv.github.io/jskos/</a>.</p>
+</div>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>For instance Annotation applications such as <a href="http://annot.readthedocs.io/">Annot</a>.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Django Controlled Vocabularies<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>See <a href="https://github.com/gbv/jskos-php-examples" class="uri">https://github.com/gbv/jskos-php-examples</a><a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>See <a href="https://github.com/gbv/jskos-php" class="uri">https://github.com/gbv/jskos-php</a><a href="#fnref4">↩</a></p></li>
+</ol>
+</section>
+
+</div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 text-muted">
+  	        coli-conc is a project of the head office of GBV –
+            <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
+            – funded by German Research Foundation (DFG)
+          </div>
+          <div class="col-md-2 text-right text-muted">
+             <i class="fa fa-twitter"></i>
+             <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">
+                @coli_conc
+             </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 text-muted">
+          </div>
+          <div class="col-md-2 text-right text-muted">
+            <i class="fa fa-github"></i>
+            <a href="https://github.com/gbv/coli-conc-tr/blob/master/tr7/tr7.md">source</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
