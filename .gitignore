@@ -7,6 +7,7 @@ cocoda
 # ignore all directories unless explicitly specified
 */
 !publications
+publications/bartoc
 !concordances
 !concordances/**/**
 !jobs
