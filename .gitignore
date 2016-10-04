@@ -8,6 +8,7 @@ cocoda
 */
 !publications
 publications/bartoc
+!publications/licenses
 !concordances
 !concordances/**/**
 !jobs
