@@ -1,18 +1,24 @@
-# temporary files
+# ignore temporary files
 *.sw?
+*~
+*.DS_Store
 
-# cocoda prototype
-cocoda
-
-# ignore all directories unless explicitly specified
+# ignore all directories
 */
-!publications
-publications/bartoc
-!publications/licenses
-!concordances
-!concordances/**/**
-!jobs
+
+# unless explicitly specified
 !img
 !css
 !js
 !fonts
+
+!jobs
+!contact
+
+!publications
+!publications/**/**
+
+publications/bartoc
+
+!concordances
+!concordances/**/**
