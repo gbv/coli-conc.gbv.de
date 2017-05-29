@@ -14,9 +14,9 @@ include 'header.php';
         </p>
 		  <div class="alert alert-success" role="alert">
 			 <p>
-               Please register for
+               Slides from
 			   <a href="https://si-it-workshop.gbv.de/">Subject Indexing & Information Technology Workshop</a>
-			   at May 10/11<sup>th</sup> in Göttingen!
+			   at May 10/11<sup>th</sup> available!
 			 </p>
 			 
 		  </div>
