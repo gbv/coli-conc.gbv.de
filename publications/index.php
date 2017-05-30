@@ -67,7 +67,7 @@ include "$BASE/header.php";
         <li>
           <a href="tr7.html">coli-conc report 7: Open Source web applications for Knowledge Organization
           Systems</a>. (August 2016)
-          <a href="http://dx.doi.org/10.5281/zenodo.61262">http://doi.org/10.5281/zenodo.61262</a>.
+          <a href="https://doi.org/10.5281/zenodo.61262">https://doi.org/10.5281/zenodo.61262</a>.
         </li>
 	    <li>
 	        coli-conc report 8: Zusammenfassung des Zwischenberichts. (Februar 2017)
@@ -76,6 +76,10 @@ include "$BASE/header.php";
         <li>
             coli-conc report 9: Umfrage zur Basisklassifikation 2017 (Mai 2017)                <a href="https://si-it-workshop.gbv.de/wp-content/uploads/2017/01/BKUmfrage_Ergebnisse.pdf">PDF</a>
 	    </li>
+        <li>
+            coli-conc report 10: <a href="tr10.html">Ein Vergleich ausgewählter Normdatendienste</a> (May 2017)
+            <a href="https://doi.org/10.5281/zenodo.800577">https://doi.org/10.5281/zenodo.800577</a>
+        </li>
       </ul>
       <ul>
         <li>

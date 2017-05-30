@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Moritz Horn, Jakob Voß">
+  <meta name="dcterms.date" content="2017-03-31">
+  <title>Ein Vergleich ausgewählter Normdatendienste</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-vzg.css">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">coli-conc</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../">About</a></li>
+            <li><a href="../cocoda/">Cocoda prototype</a></li>
+            <li class="active"><a href=".">Publications</a></li>
+            <li><a href="../concordances/">Concordances</a></li>
+			<li><a href="../contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div class="container">
+<h2>
+Ein Vergleich ausgewählter Normdatendienste
+<small>coli-conc report 10</small>
+</h2>
+<div class="author">
+    <div>
+        Moritz Horn
+        &lt;moritz.horn@gbv.de&gt;
+    </div>
+    <div>
+        
+    </div>
+</div>
+<div class="author">
+    <div>
+        Jakob Voß
+        &lt;jakob.voss@gbv.de&gt;
+    </div>
+    <div>
+        Verbundzentrale des GBV (VZG)
+    </div>
+</div>
+
+<p>
+<div>2017-03-31</div>
+
+<div>DOI: <a href="https://dx.doi.org/10.5281/zenodo.800577">10.5281/zenodo.800577</a> (PDF)</div>
+<div>CC-BY-SA</div>
+</p>
+
+
+<p>Dieser Report fasst Ergebnisse eines Vergleichs von APIs zum Zugriff auf ausgewählte Wissensorganisationssysteme zusammen.</p>
+<h3 id="einführung">Einführung</h3>
+<p>Im Rahmen des Projekt <a href="https://coli-conc.gbv.de/">coli-conc</a> wurden in einem Workshop der DINI AG KIM allgemeine Anforderungen an Normdatendienste zum Zugriff auf verschiedene Wissenssorganisationssysteme ermittelt <span class="citation" data-cites="TR4">(Voß 2016a)</span>. Der vorliegende Report untersucht die Eigenschaften einiger vorhandener Normdatendienste. Die Untersuchung basiert auf den Ergebnissen eines umfangreicheren Vergleichs von APIs zum Zugriff auf kontrollierte Vokabulare <span class="citation" data-cites="Horn2016">(Horn 2016)</span>.</p>
+<h3 id="untersuchte-normdatendienste">Untersuchte Normdatendienste</h3>
+<p>Untersucht wurden vier Schnittstellen zum Zugriff auf die folgenden Vokabulare:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Vokabular</th>
+<th style="text-align: left;">Typ</th>
+<th style="text-align: left;">API-Betreiber</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Regensburger Verbundklassifikation (RVK)</td>
+<td style="text-align: left;">Klassifikation</td>
+<td style="text-align: left;"><a href="http://rvk.uni-regensburg.de/api/">Uni Regensburg</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gemeinsame Normdatei (GND)</td>
+<td style="text-align: left;">Normdatei</td>
+<td style="text-align: left;"><a href="http://lobid.org/api">hbz (lobid.org)</a><a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Standardthesaurus Wirtschaft (STW)</td>
+<td style="text-align: left;">Thesaurus</td>
+<td style="text-align: left;"><a href="http://zbw.eu/labs/de/project/econ-ws">ZBW</a><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Library of Congress Subject Headings (LCSH)</td>
+<td style="text-align: left;">Thesaurus</td>
+<td style="text-align: left;"><a href="http://id.loc.gov/authorities/subjects.html">LoC</a><a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="rückgabeformate">Rückgabeformate</h3>
+<p>Abgesehen von der RVK-API, die ein eigenes JSON- bzw. XML-Format verwendet, basieren die Rückgabeformate aller APIs auf RDF, das in unterschiedlichen Serialisierungen (RDF/XML, Turtle...) ausgewählt werden kann. Die RDF-Formate basieren bei STW und LCSH auf SKOS <span class="citation" data-cites="SKOS">(Miles und Bechhofer 2009)</span>, während für die GND eine eigene Ontologie definiert wurde <span class="citation" data-cites="Haffner2016">(Haffner 2016)</span>. Das Format der STW beschränkt sich weitgehend auf SKOS. Die Library of Congress bietet mit MADS/RDF zusätzlich eine Erweiterung an.<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> Noch umfangreicher ist die GND-Ontologie mit 228 Eigenschaften.</p>
+<h3 id="umfang-der-zurückgelieferten-daten">Umfang der zurückgelieferten Daten</h3>
+<p>Trotz unterschiedlicher Rückgabeformate lassen sich Gemeinsamkeiten in den über die verschiedenen APIs abfragbaren Datenfeldern ausmachen. Die folgende Übersicht beschränkt sich auf einen Vergleich der abfragbaren Verknüpfungen: Dies sind hierarchische (broader, narrower, ancestors) und assoziative Verknüpfungen (related) zwischen Begriffen eines Vokabulars sowie mappings auf andere Vokabulare.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Feld</th>
+<th style="text-align: left;">RVK</th>
+<th style="text-align: left;">GND</th>
+<th style="text-align: left;">STW</th>
+<th style="text-align: left;">LCSH</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">broader</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">narrower</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ancestors</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">related</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">mappings</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+</tr>
+</tbody>
+</table>
+<p>Die RVK-API bietet als einzige der untersuchten Dienste eine Möglichkeit alle transitiv übergeordneten Klassen (ancestors) einer Klasse abzufragen, was allerdings bei monohierarchischen Klassifikationen auch einfacher umzusetzen ist. Allerdings wird bei Auswahl einer Klasse nur mitgeteilt, ob untergeordneten Klassen vorhanden sind, die in diesem Fall mit einer weiteren Abfrage ermittelt werden können. In der GND fehlen untergeordnete Begriffe ganz.</p>
+<p>Die Einträge von STW zu GND und LCSH zu GND sind jeweils über Mappings miteinander verknüpft. Zudem enthält die LCSH Mappings auf die Normdatei RAMEAU der französischen Nationalbibliothek. In der GND sind diese Mappings zwar auch enthalten, werden aber nicht über die API mitgeliefert. Die GND enthält dafür Verknüpfungen zu den eigenen GND Subject Categories und der DDC. Sowohl GND als auch STW sind weiterhin (über de.wikipedia bzw. DBPedia) mit Wikipedia verknüpft<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>). In den STW-Daten sind zusätzlich Verlinkungen auf Einträge im Katalog des ZBW enthalten.</p>
+<h3 id="abfragemöglichkeiten-für-typische-anwendungsfälle">Abfragemöglichkeiten für typische Anwendungsfälle</h3>
+<p>Die folgende Tabelle liefert einen Vergleich der APIs mit den von <span class="citation" data-cites="TR4">Voß (2016a)</span> genannten Anwendungsfällen und Anforderungen mit Ausnahme von Schreib-Zugriffen.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Anforderung</th>
+<th style="text-align: left;">RVK</th>
+<th style="text-align: left;">GND</th>
+<th style="text-align: left;">STW</th>
+<th style="text-align: left;">LCSH</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Abfrage von Synonymen</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">(Fuzzy-)Suche in Normdateien</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">(X)</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Metasuche in mehreren Normdateien</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Multilinguale Suche</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Autovervollständigung/Typeahead</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Entity-Kurzinfo</td>
+<td style="text-align: left;">(X)</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">(X)</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Abfrage der kanonischen Form</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">(X)</td>
+<td style="text-align: left;">(X)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Abfrage von Konkordanzen und Mappings</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Abfrage von Änderungen</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">(X)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nutzungsstatistik</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ermittlung von indexierten Ressourcen</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">(X)</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+<p>Einige Anwendungsfälle können mit den vorhandenen APIs nicht oder nur eingeschränkt (z.B. indirekt über andere Abfragen) umgesetzt werden. Die APIs der STW bieten den weitesten Funktionsumfang, was allerdings auch mit der Komplexität des Vokabulars zusammenhängt. Die API der LCSH kann mit ihrer Beschränkung auf einfachem Linked Open Data, d.h. Abfrage per bekannter URI, den wenigsten Anforderungen genügen. Die Typeahead-Funktionen sind bei allen APIs mangelhaft, da sie anscheinend nicht auf Ranking-Verfahren basieren.</p>
+<h3 id="zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</h3>
+<p>Zusammenfassend lässt sich feststellen dass die verschiedenen untersuchten Normdatendienste trotz grundsätzlicher Vergleichbarkeit sehr unterschiedlich ausfallen. Selbst die RDF-basierten APIs sind uneinheitlich umgesetzt. Generell lassen sich mit SKOS zwar Ansätze einer Vereinheitlichung erkennen, solange aber SKOS-Erweiterungen, Umfang der zurückgelieferten Daten und Abfragemöglichkeiten variieren, ist eine einheitliche Abfrage verschiedener Normdatendienste aber nicht möglich.</p>
+<p>Im Rahmen des Projekt coli-conc wird deshalb neben der Vereinheitlichung von SKOS-Varianten mit dem Format JSKOS <span class="citation" data-cites="JSKOS">(Voß 2016d)</span> eine darauf basierende API zur Abfrage von Wissenssorganisationssystemen entwickelt. Eine Teilmenge dieser JSKOS-API wurde bereits unter dem Namen ELMA <span class="citation" data-cites="ELMA">(Voß 2016c)</span> festgelegt und umgesetzt.</p>
+<p>Zur weiteren Entwicklung und Evaluation von Normdatendiensten sollen im Verlauf des Projektes neben Normdatendiensten für einzelne Vokabulare die APIs verschiedener Webanwendungen zum Zugriff auf Wissensorganisationssysteme verglichen werden <span class="citation" data-cites="TR7">(Voß 2016b)</span>.</p>
+<h3 id="nachweise" class="unnumbered">Nachweise</h3>
+<div id="refs" class="references">
+<div id="ref-Haffner2016">
+<p>Haffner, Alexander. 2016. „GND Ontology“. DNB. <a href="http://d-nb.info/standards/elementset/gnd" class="uri">http://d-nb.info/standards/elementset/gnd</a>.</p>
+</div>
+<div id="ref-Horn2016">
+<p>Horn, Moritz. 2016. „Vergleich von webbasierten Programmierschnittstellen zum Zugriff auf kontrollierte Vokabulare“. Bachelorarbeit. Hochschule Hannover. <a href="http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:bsz:960-opus4-10538" class="uri">http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:bsz:960-opus4-10538</a>.</p>
+</div>
+<div id="ref-SKOS">
+<p>Miles, Alistair, und Sean Bechhofer, Hrsg. 2009. „SKOS Simple Knowledge Organization System Reference“. W3C Recommendation. <a href="http://www.w3.org/TR/skos-reference" class="uri">http://www.w3.org/TR/skos-reference</a>.</p>
+</div>
+<div id="ref-TR4">
+<p>Voß, Jakob. 2016a. „Anforderungen an Normdatendienste“. coli-conc technical report 4. doi:<a href="https://doi.org/10.5281/zenodo.50180">10.5281/zenodo.50180</a>.</p>
+</div>
+<div id="ref-TR7">
+<p>———. 2016b. „Open Source web applications for Knowledge Organization Systems“. coli-conc technical report 7. doi:<a href="https://doi.org/10.5281/zenodo.61262">10.5281/zenodo.61262</a>.</p>
+</div>
+<div id="ref-ELMA">
+<p>———. 2016c. „Entity Lookup Microservice API (ELMA)“. Version 0.0.4. <a href="http://gbv.github.io/elma/" class="uri">http://gbv.github.io/elma/</a>.</p>
+</div>
+<div id="ref-JSKOS">
+<p>———. 2016d. „JSKOS data format for Knowledge Organization Systems“. Version 0.1.2. <a href="http://gbv.github.io/jskos/" class="uri">http://gbv.github.io/jskos/</a>.</p>
+</div>
+</div>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="http://rvk.uni-regensburg.de/Portal_API/" class="uri">http://rvk.uni-regensburg.de/Portal_API/</a> (nicht dokumentierter Endpunkt)<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><a href="http://lobid.org/api" class="uri">http://lobid.org/api</a><a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p><a href="http://zbw.eu/labs/de/project/econ-ws" class="uri">http://zbw.eu/labs/de/project/econ-ws</a> (Sammlung mehrerer APIs)<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p><a href="http://id.loc.gov/authorities/subjects.html" class="uri">http://id.loc.gov/authorities/subjects.html</a><a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p><a href="http://www.loc.gov/standards/mads/rdf/" class="uri">http://www.loc.gov/standards/mads/rdf/</a><a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>Inzwischen wäre ein Mapping mit Wikidata sinnvoller.<a href="#fnref6">↩</a></p></li>
+</ol>
+</section>
+
+</div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 text-muted">
+  	        coli-conc is a project of the head office of GBV –
+            <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
+            – funded by German Research Foundation (DFG)
+          </div>
+          <div class="col-md-2 text-right text-muted">
+             <i class="fa fa-twitter"></i>
+             <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">
+                @coli_conc
+             </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 text-muted">
+          </div>
+          <div class="col-md-2 text-right text-muted">
+            <i class="fa fa-github"></i>
+            <a href="https://github.com/gbv/coli-conc-tr/blob/master/tr10/tr10.md">source</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
