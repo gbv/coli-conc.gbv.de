@@ -69,10 +69,13 @@ include "$BASE/header.php";
           Systems</a>. (August 2016)
           <a href="http://dx.doi.org/10.5281/zenodo.61262">http://doi.org/10.5281/zenodo.61262</a>.
         </li>
-	 <li>
+	    <li>
 	        coli-conc report 8: Zusammenfassung des Zwischenberichts. (Februar 2017)
 	        <a href="coli-conczusammenfassung.pdf">PDF</a>
-	    </li>      
+        </li>
+        <li>
+            coli-conc report 9: Umfrage zur Basisklassifikation 2017 (Mai 2017)                <a href="https://si-it-workshop.gbv.de/wp-content/uploads/2017/01/BKUmfrage_Ergebnisse.pdf">PDF</a>
+	    </li>
       </ul>
       <ul>
         <li>
