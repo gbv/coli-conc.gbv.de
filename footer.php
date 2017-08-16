@@ -15,7 +15,7 @@
         </div>
         <div class="row">
           <div class="col-md-10 text-muted">
-            <?=$LICENSE?>
+            <?=($LICENSE ?? 0) ? $LICENSE : '' ?>
           </div>
           <div class="col-md-2 text-right text-muted">
             <?php if($SOURCES) { ?>
@@ -30,5 +30,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="<?=$BASE?>/js/jquery.min.js"></script>
     <script src="<?=$BASE?>/js/bootstrap.min.js"></script>
+    <script src="<?=$BASE?>/js/jquery.tablesorter.min.js"></script>
+    <link href="<?=$BASE?>/css/tablesorter.gbv.css" rel="stylesheet">
+    <script type="text/javascript">
+      $(function(){ $(".table.sortable").tablesorter({'theme':'gbv'}); });
+    </script>
+
   </body>
 </html>

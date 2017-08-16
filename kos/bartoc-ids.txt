@@ -1,0 +1,36 @@
+474     # MSC (Mathematics Subject Classification)
+473     # PACS (Physics and Astronomy Classification Scheme)
+1699    # FKDigBib (Fachklassifikation digitale Bibliothek)
+1941    # KfM (Klassifikation für Musikbibliotheken)
+2030    # Klassifikation des Deutschen Patent- und Markenamts
+1324    # SEB (Systematik für evangelische Büchereien)
+1325    # Sachbuch-Systematik für Katholische öffentliche Büchereien
+1050    # KfKJ (Klassifikation für Kinder- und Jugendbibliotheken)
+1051    # SSD (Systematik der Stadtbibliothek Duisburg)
+743     # ESSB (Einheitssystematik für Südtiroler Bibliotheken)
+
+430     # GND (Gemeinsame Normdatei)
+
+313     # STW (Standard Thesaurus Wirtschaft)
+
+496     # UDK (Universelle-Dezimal-Klassifikation)
+241     # DDC (Dewey Dezimal Klassifikation)
+533     # RVK (Regensburger Verbundklassifikation)
+18562   # BK (Basisklassifikation)
+486     # LCC (Library of Congress Classification)
+197     # GHB (Gesamthochschulbibliotheken-Aufstellungssystematik)
+732     # ASB (Allgemeine Systematik für Öffentliche Bibliotheken)
+742     # ÖSÖB (Östereichische Systematik für Öffentliche Bibliotheken)
+335     # SfB (Systematik für Bibliotheken)
+1031    # KAB (Klassifikation für Allgemeinbibliotheken)
+
+1086    # Fachsystematik der Universitäts- und Landesbibliothek Düsseldorf
+495     # TUM-Systematik (naturwissenschaftlich-technische Systematik der Technischen Universität München)
+730     # Bremer Online Systematik
+1323    # Göttinger Online-Klassifikation
+1944    # Fachsystematiken der Universitätsbibliothek Dortmund
+1708    # Fachsystematik Bücher Universitätsbibliothek Paderborn
+1945    # Fachsystematiken der Universitätsbibliothek Marburg
+1707    # Systematik der Universitäts- und Landesbibliothek Bonn
+1443    # Konstanzer Systematik
+1302    # System des Real-Katalogs der Universitätsbibliothek zu Heidelberg

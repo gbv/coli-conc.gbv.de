@@ -30,6 +30,9 @@
         <div id="navbar" class="collapse navbar-collapse">        
           <ul class="nav navbar-nav">
 <?php 
+
+include_once 'vendor/autoload.php';
+
 $menu = [
     '' => 'About',
     'terminologies/' => 'KOS',

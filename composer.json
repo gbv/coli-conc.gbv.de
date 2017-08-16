@@ -1,0 +1,7 @@
+{
+    "require": {
+        "gbv/jskos": "0.1.6",
+        "gbv/bartoc-jskos": "^0.2.1",
+        "gbv/viaf-jskos": "^0.1.0"
+    }
+}

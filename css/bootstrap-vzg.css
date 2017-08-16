@@ -29,3 +29,13 @@ footer {
 }
 .fa-twitter { color: #55acee }
 .fa-github { color: #333333 }
+
+.collapsible-heading a:after {
+  font-family:'Glyphicons Halflings';
+  content:"\e114";
+  float: right;
+  color: grey;
+}
+.collapsible-heading a.collapsed:after {
+  content:"\e080";
+}
