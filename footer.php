@@ -1,31 +1,30 @@
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 text-muted">
-            coli-conc is a project of the head office of GBV –
-            <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
-            – funded by German Research Foundation (DFG)
-          </div>
-          <div class="col-md-2 text-right text-muted">
-             <i class="fa fa-twitter"></i>
-             <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">
-                @coli_conc
-             </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-10 text-muted">
-            <?=($LICENSE ?? 0) ? $LICENSE : '' ?>
-          </div>
-          <div class="col-md-2 text-right text-muted">
-            <?php if($SOURCES) { ?>
-            <i class="fa fa-github"></i>
-            <a href="<?=$SOURCES?>">sources</a>
-            <?php } ?>
-          </div>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
         </div>
       </div>
-    </footer>
+    </div>
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom hidden-xs">
+  <div class="col-sm-3 col-lg-2 hidden-xs">
+    <i class="fa fa-github"></i>
+    <a href="https://github.com/gbv/coli-conc.gbv.de/tree/master/<?=$SOURCE?>">source</a>
+
+     <i class="fa fa-twitter"></i>
+     <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">
+        @coli_conc
+     </a>
+
+    <?=($LICENSE ?? 0) ? $LICENSE : '' ?>
+
+  </div>
+  <div class="col-sm-9 col-lg-10 text-center">
+    coli-conc is a project of the head office of GBV –
+    <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
+    – funded by German Research Foundation (DFG)
+
+
+  </div>
+</nav>
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="<?=$BASE?>/js/jquery.min.js"></script>

@@ -1,35 +1,52 @@
-.navbar-inverse { 
+/* sidebar */
+.navbar-default .navbar-nav>li>a {
+  color: #c14e00;
+  background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #c14e00;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #c14e00;
+}
+.navbar-default {      
+  background-color: #fff;
+  border: none;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+/* header */
+.navbar-fixed-top { 
   background-color: #577fbb;
   border-color: #fff;
 }
-.navbar-inverse a {
-  font-weight: bold;
-}
-.navbar-inverse .navbar-nav>li>a,
-.navbar-inverse .navbar-brand {
-  color: #fff;
-}
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:hover,
-.navbar-inverse .navbar-nav>li>a:hover {
-  background-color: #577fbb;
-  color: #003399;
-} 
-.navbar-inverse .navbar-nav>li {
-  border-right: 1px solid #8BAFDF;
-}
 body {
-  padding-top: 50px;
+  padding-top: 1em;
 }
+@media (min-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+}
+
+/* footer */
+.navbar-fixed-bottom {
+  border-top: 10px solid #6791c9;
+  background: #fff;
+  font-size: small;
+  color: #777;
+}
+
+
 h2, h3, h4, h5 {
   color: #355FB8
 }
-footer {
-  border-top: 12px solid #6791c9;
-}
 .fa-twitter { color: #55acee }
 .fa-github { color: #333333 }
-
 .collapsible-heading a:after {
   font-family:'Glyphicons Halflings';
   content:"\e114";

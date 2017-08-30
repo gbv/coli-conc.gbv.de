@@ -1,16 +1,11 @@
 <?php
-
-$BASE='..';
-$SOURCES='https://github.com/gbv/coli-conc.gbv.de/blob/master/kos.php';
-$TITLE = 'Terminologies';
+$BASE = '..';
 include "$BASE/header.php";
-
-require "$BASE/vendor/autoload.php";
 
 $kostypes = [];
 
 foreach( file('kos.ndjson') as $line ) {
-    $kos = new JSKOS\ConceptScheme($line);
+    $kos = new JSKOS\ConceptScheme(json_decode($line, true));
     foreach ($kos->type as $type) {
         #if (preg_match('/nkostype/', $type)) {
             $kostypes[$type][] = $kos->uri;
@@ -36,9 +31,6 @@ function items($label, $items) {
 } 
 
 ?>
-<div class="container">
-  <h2>Terminologies</h2>
-
   <p>
     This list contains a collection of knowledge organization systems relevant to
     project coli-conc. The metadata is a subset of <a href="https://bartoc.org/">BARTOC</a>,

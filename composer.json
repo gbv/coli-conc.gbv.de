@@ -1,6 +1,8 @@
 {
     "require": {
-        "gbv/jskos": "0.1.6",
+        "gbv/jskos": "~0.2",
+        "gbv/jskos-http": ">=0.1.0",
+        "php-http/guzzle6-adapter": "~1.0",
         "gbv/bartoc-jskos": "^0.2.1",
         "gbv/viaf-jskos": "^0.1.0"
     }
