@@ -1,0 +1,15 @@
+{"uri":"http://w3id.org/nkos/nkostype#thesaurus","prefLabel":{"en":"thesaurus"}}
+{"uri":"http://w3id.org/nkos/nkostype#semantic_network","prefLabel":{"en":"semantic network"}}
+{"uri":"http://w3id.org/nkos/nkostype#glossary","prefLabel":{"en":"glossary"}}
+{"uri":"http://w3id.org/nkos/nkostype#dictionary","prefLabel":{"en":"dictionary"}}
+{"uri":"http://w3id.org/nkos/nkostype#name_authority_list","prefLabel":{"en":"name authority list"}}
+{"uri":"http://w3id.org/nkos/nkostype#taxonomy","prefLabel":{"en":"taxonomy"}}
+{"uri":"http://w3id.org/nkos/nkostype#subject_heading_scheme","prefLabel":{"en":"subject heading scheme"}}
+{"uri":"http://w3id.org/nkos/nkostype#synonym_ring","prefLabel":{"en":"synonym ring"}}
+{"uri":"http://w3id.org/nkos/nkostype#gazetteer","prefLabel":{"en":"gazetteer"}}
+{"uri":"http://w3id.org/nkos/nkostype#authority_file","prefLabel":{"en":"authority file"}}
+{"uri":"http://w3id.org/nkos/nkostype#ontology","prefLabel":{"en":"ontology"}}
+{"uri":"http://w3id.org/nkos/nkostype#classification_schema","prefLabel":{"en":"classification scheme"}}
+{"uri":"http://w3id.org/nkos/nkostype#terminology","prefLabel":{"en":"terminology"}}
+{"uri":"http://w3id.org/nkos/nkostype#categorization_schema","prefLabel":{"en":"categorization"}}
+{"uri":"http://w3id.org/nkos/nkostype#list","prefLabel":{"en":"list"}}

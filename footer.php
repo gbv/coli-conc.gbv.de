@@ -34,6 +34,8 @@
     <script type="text/javascript">
       $(function(){ $(".table.sortable").tablesorter({'theme':'gbv'}); });
     </script>
-
+    <?php foreach (($INCLUDEJS ?? []) as $url) {
+      echo "    <script src='$url'></script>\n";
+    } ?>
   </body>
 </html>

@@ -4,7 +4,7 @@
 $SOURCE = substr(get_included_files()[0], strlen(__DIR__)+1);
 $LOCATION = array_slice(explode('/', $SOURCE), 0, -1);
 $SECTION = $LOCATION[0];
-$TITLE = implode(': ', array_map('ucfirst', $LOCATION));
+$TITLE = $TITLE ??  ucfirst(end($LOCATION));
 
 require 'vendor/autoload.php';
 
@@ -14,7 +14,7 @@ require 'vendor/autoload.php';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>coli-conc<?= $TITLE ? ": $TITLE" : "" ?></title>
+    <title>coli-conc<?= implode(': ', array_map('ucfirst', $LOCATION)) ?></title>
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/navbar-fixed-side.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/font-awesome.min.css">
@@ -100,5 +100,5 @@ if ($SECTION != '/') {
   if (count($LOCATION)>1) {
      echo "<a href='../'>".ucfirst($SECTION)."</a>: ";
   }
-  echo ucfirst(end($LOCATION))."</h2>";
+  echo $TITLE."</h2>";
 }

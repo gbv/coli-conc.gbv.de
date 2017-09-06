@@ -1,15 +1,20 @@
 <?php
 $BASE = '..';
+$TITLE = 'Terminologies';
 include "$BASE/header.php";
 
-$kostypes = [];
+$kostype = [];
+$hastype = [];
+
+foreach( file('nkostype.ndjson') as $line ) {
+    $concept = new JSKOS\Concept(json_decode($line, true));
+    $kostype[$concept->uri] = $concept;
+}
 
 foreach( file('kos.ndjson') as $line ) {
     $kos = new JSKOS\ConceptScheme(json_decode($line, true));
     foreach ($kos->type as $type) {
-        #if (preg_match('/nkostype/', $type)) {
-            $kostypes[$type][] = $kos->uri;
-        #}
+        $hastype[$type][] = $kos->uri;
     }
     $schemes[$kos->uri] = $kos; 
 }
@@ -38,28 +43,40 @@ function items($label, $items) {
     See also <a href="../publications/bartoc">BARTOC dumps</a> for full downloads.
   </p>
 
-  <form>
+  <div class="btn-group">
 <?php
-foreach ($kostypes as $type => $koslist) {
-    echo "<label class='checkbox-inline'><input type='checkbox' value=''>";
-    echo "$type (".count($koslist).")";
-    echo "</label>";
+foreach ($kostype as $uri => $type) {
+    if ($hastype[$uri]) {
+        echo "<div type='button' class='btn btn-default'>";
+        echo "<label style='font-weight:normal'>";
+        echo "<input class='checkbox-inline' type='checkbox' checked='checked' value='$uri'>";
+        echo ucfirst($type->prefLabel['en']);
+        echo "</label></div>";
+    }
 }
 ?>
-  </form>
+  </div>
+<script language="Javascript">
+var type2kos=<?=json_encode($hastype)?>;
+</script>
+
+  <div class="btn-group pull-right">
+    <button type="button" class="btn btn-default" id="expand-all">expand all</button>
+    <button type="button" class="btn btn-default" id="collapse-all">collapse all</button>
+  </div>
 
   <table class="table sortable table-hover">
   <thead>
     <tr>
-     <th>ID</th>
+     <!--th>ID</th-->
      <th>title</th>
     </tr>
   </thead>
     <?php foreach($schemes as $kos) { 
         $id = substr($kos->uri, strrpos($kos->uri, '/')+1);
     ?>
-    <tr>
-      <td class="text-right"><a href="<?=$kos->uri?>"><?=$id?></a></td>
+      <tr id="kos-<?=$id?>">
+      <!--td class="text-right"><a href="<?=$kos->uri?>"><?=$id?></a></td-->
       <td id="kos-<?=$id?>">
         <div class="collapsible-heading">        
           <a data-toggle="collapse" data-target="#details-<?=$id?>" style="font-weight: bold">
@@ -69,7 +86,7 @@ foreach ($kostypes as $type => $koslist) {
             ?>
           </a>
         </div>
-        <div id="details-<?=$id?>" class="panel-collapse collapse in">
+        <div id="details-<?=$id?>" class="panel-collapse collapse out">
           <?php if ($kos->altLabel) { 
             echo '<div>= ';
             $n=0;
@@ -112,10 +129,10 @@ TODO: type(s)
           <?php } 
             if (count($kos->identifier)) {
               echo "<div>= ";
+              echo '<a href="'.$kos->uri."\">".$kos->uri."</a>";
               for ($i=0; $i<count($kos->identifier); $i++) {
-                if ($i>0) echo ", ";
                 $id = $kos->identifier[$i];
-                echo "<a href='$id'>$id</a></div>";
+                echo ", <a href='$id'>$id</a></div>";
               }
             }
           ?>
@@ -124,11 +141,8 @@ TODO: type(s)
     </tr>
    <?php } ?>
   </table>
-
 </div>
  
-<script type="text/javascript">
-
-</script>
-
-<?php include "$BASE/footer.php";
+<?php 
+$INCLUDEJS=['kos.js'];            
+include "$BASE/footer.php";
