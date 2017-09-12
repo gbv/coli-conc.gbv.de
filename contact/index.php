@@ -16,8 +16,8 @@ include "$BASE/header.php";
         <dd>Dr. J. Voß (voss@gbv.de)</dd>
     <dt>Software Development</dt>
         <dd>Morsheda Akter (akter@gbv.de)</dd>
-    <dt>Software Support</dt>
-        <dd>Moritz Horn (horn@gbv.de)</dd>
+    <dt>Student Assistant</dt>
+        <dd>Niklas Bendixen (niklas.bendixen@gbv.de)</dd>
     <dt>Library System Support</dt>
         <dd>Jana Maria Agne (agne@gbv.de)</dd>
     </dl>
