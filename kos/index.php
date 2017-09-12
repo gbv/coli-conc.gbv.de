@@ -1,6 +1,6 @@
 <?php
 $BASE = '..';
-$TITLE = 'Terminologies';
+$TITLE = 'KOS Registry';
 include "$BASE/header.php";
 
 $kostype = [];
