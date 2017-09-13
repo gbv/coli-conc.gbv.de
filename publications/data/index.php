@@ -15,10 +15,13 @@ include "$BASE/header.php";
     <a href="../concordances/wikidata">authority file mappings from Wikidata</a>.
   </li>
   <li>
-    <a href="bartoc">BARTOC database dumps</a>
+    <a href="../bartoc">BARTOC database dumps</a>
   </li>
   <li>
-    <a href="licenses">A list of common licenses</a>
+    <a href="../licenses">A list of common licenses</a>
+  </li>
+  <li>
+    <a href="../kostypes">A classification of Knowledge Organization Systems</a>
   </li>
 </ul>
 
