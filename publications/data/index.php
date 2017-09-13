@@ -8,20 +8,20 @@ include "$BASE/header.php";
 </p>
 <ul>
   <li>
-    <a href="../concordances/">Concordances</a>
+    <a href="../../concordances/">Concordances</a>
   </li>
   <li>
     We daily harvest and convert 
-    <a href="../concordances/wikidata">authority file mappings from Wikidata</a>.
+    <a href="../../concordances/wikidata">authority file mappings from Wikidata</a>.
   </li>
   <li>
     <a href="../bartoc">BARTOC database dumps</a>
   </li>
   <li>
-    <a href="../licenses">A list of common licenses</a>
+    <a href="../licenses">List of common licenses</a>
   </li>
   <li>
-    <a href="../kostypes">A classification of Knowledge Organization Systems</a>
+    <a href="../kostypes">Classification of Knowledge Organization Systems</a>
   </li>
 </ul>
 

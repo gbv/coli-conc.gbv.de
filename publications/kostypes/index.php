@@ -1,16 +1,50 @@
 <?php
 $BASE = '../..';
+$TITLE = 'Classification of Knowledge Organization Systems';
 include "$BASE/header.php";
 
+$kostypes = [];
+foreach (file('Q6423319.ndjson') as $line) {
+    $kos = new \JSKOS\Concept(json_decode($line, true));
+    $kostypes[$kos->uri] = $kos;
+}
 //$url = "http://api.dante.gbv.de/voc/license/top?properties=*";
 //$licenses = json_decode(file_get_contents($url), true);
 ?>
 
-<!--p>
+<p>
   The following classification of Knowledge Organization Systems has been extracted from Wikidata
-  <a href="#references"as described below</a>. 
-</p-->
+  <a href="#references">as described below</a>. Wikidata can change quickly so this is a snapshot
+  from <?= date('Y-m-d',filemtime('Q6423319.ndjson')) ?>. The data in JSKOS format can be get
+  <a href="Q6423319.ndjson">from here</a>.
+</p>
+<h3>Current classification</h3>
+<ul class="treeview">
+<?php
 
+function tree($uri) {
+    global $kostypes;
+    $e = $kostypes[$uri];
+    if (!$e) return;
+
+    echo "<li>". htmlspecialchars($e->prefLabel['en']) 
+        . " (<a href='{$e->uri}'>{$e->notation[0]}</a>)";
+    
+    if ($e->narrower) {
+        echo "<ul>";
+        foreach($e->narrower as $n) {
+            tree($n->uri);
+        }
+        echo "</ul>";
+    }
+
+    echo "</li>";
+}
+
+tree('http://www.wikidata.org/entity/Q6423319');
+
+?>
+</ul>
 <h3 id='references'>Background and references</h3>
 <p>
   <ul>
