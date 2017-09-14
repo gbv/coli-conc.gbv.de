@@ -26,6 +26,7 @@ require 'vendor/autoload.php';
     <![endif]-->
     <link rel="icon" href="<?=$BASE?>favicon.ico" sizes="16x16 32x32 64x64" type="image/vnd.microsoft.icon">
     <script src="<?=$BASE?>/js/jquery.min.js"></script>
+    <?php require_once 'piwik.php'; ?>
   </head>
   <body>
 

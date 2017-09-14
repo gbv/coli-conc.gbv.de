@@ -33,5 +33,9 @@ include "$BASE/header.php";
   </div>
 </div>
 
+<div class="row">
+<iframe style="border: 0; height: 240px; width: 100%;" scrolling="no" src="//piwik.gbv.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de"></iframe>
+</div>
+
 <?php
 include "$BASE/footer.php";
