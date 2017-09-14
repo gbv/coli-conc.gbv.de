@@ -16,7 +16,7 @@ $licenses = json_decode(file_get_contents($url), true);
   We strongly recommend to use a Public Domain license, if possible, such as
   <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC Zero</a>!
 </p>
-<table class="table">
+<table class="table sortable table-hover">
   <thead>
     <tr>
       <th>license</th>
@@ -38,20 +38,22 @@ $licenses = json_decode(file_get_contents($url), true);
           <?php } ?>
       </td>
       <td>
-        <?php $ids = $license->identifier->map(function($id) {
-            if (preg_match('/wikidata/', $id)) {
-              $name = "Wikidata";
-            } else if (preg_match('/bartoc/', $id)) {
-              $name = "BARTOC";
-            } else if (preg_match('/rdflicense/', $id)) {
-              $name = 'RDFLicense';
-            } else {
-              $name = $id;
-            } 
-            return "<a href='$id'>$name</a>";
-        });
-        arsort($ids);
-        echo implode(", ", $ids);
+        <?php if ($license->identifier) {
+            $ids = $license->identifier->map(function($id) {
+                if (preg_match('/wikidata/', $id)) {
+                  $name = "Wikidata";
+                } else if (preg_match('/bartoc/', $id)) {
+                  $name = "BARTOC";
+                } else if (preg_match('/rdflicense/', $id)) {
+                  $name = 'RDFLicense';
+                } else {
+                  $name = $id;
+                } 
+                return "<a href='$id'>$name</a>";
+            });
+            arsort($ids);
+            echo implode(", ", $ids);
+        }
         ?>
       </td>
     </tr>
