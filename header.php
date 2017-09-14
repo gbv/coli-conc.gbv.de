@@ -19,11 +19,13 @@ require 'vendor/autoload.php';
     <link rel="stylesheet" href="<?=$BASE?>/css/navbar-fixed-side.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap-vzg.css">
+    <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap-treeview.min.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="icon" href="<?=$BASE?>favicon.ico" sizes="16x16 32x32 64x64" type="image/vnd.microsoft.icon">
+    <script src="<?=$BASE?>/js/jquery.min.js"></script>
   </head>
   <body>
 
@@ -63,9 +65,16 @@ require 'vendor/autoload.php';
 $MENU = [
     '/' => 'About',
     'terminologies' => 'KOS Registry',
-    'concordances' => [ 'wikidata' ],
+    'concordances' => [
+        ['wikidata', 'Wikidata']
+    ],
     'cocoda' => 'Cocoda prototype',
-    'publications' => [ 'software', 'data', 'licenses' ],
+    'publications' => [ 
+        ['software', 'Software'],
+        ['data', 'Data'],
+        ['licenses', 'Licenses'],
+        ['kostypes', 'KOS types'],
+    ],
     'contact' => 'Contact'
 ];
 
@@ -78,8 +87,9 @@ foreach($MENU as $section => $entry) {
         echo "<a href='$BASE/$section'>".ucfirst($section)."</a>";
         echo "<ul class='dropdown-menu'>";
         foreach ($entry as $subentry) {
-            $active = end($LOCATION) == $subentry ? ' class="active"' : '';
-            echo "<li$active><a href='$BASE/$section/$subentry'>".ucfirst($subentry)."</a></li>";
+            list ($loc, $title) = $subentry;
+            $active = end($LOCATION) == $loc ? ' class="active"' : '';
+            echo "<li$active><a href='$BASE/$section/$loc'>$title</a></li>";
         }
         echo "</ul></li>";
     } else {

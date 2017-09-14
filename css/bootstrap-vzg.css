@@ -56,3 +56,17 @@ h2, h3, h4, h5 {
 .collapsible-heading a.collapsed:after {
   content:"\e080";
 }
+
+/* Badges */
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}

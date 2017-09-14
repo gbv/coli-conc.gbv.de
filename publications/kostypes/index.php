@@ -1,50 +1,87 @@
 <?php
 $BASE = '../..';
 $TITLE = 'Classification of Knowledge Organization Systems';
+$REQUIREJS[] = 'bootstrap-treeview.js';
 include "$BASE/header.php";
 
 $kostypes = [];
+
 foreach (file('Q6423319.ndjson') as $line) {
     $kos = new \JSKOS\Concept(json_decode($line, true));
-    $kostypes[$kos->uri] = $kos;
+    $kostypes[$kos->uri] = [ 'concept' => $kos ];
 }
-//$url = "http://api.dante.gbv.de/voc/license/top?properties=*";
-//$licenses = json_decode(file_get_contents($url), true);
+
+$csv = \League\Csv\Reader::createFromPath('Q6423319.csv','r');
+$csv->setHeaderOffset(0);
+
+foreach ($csv->getRecords() as $row) {
+    if (substr($row['level'],1,1)=='=') continue;
+    $uri = 'http://www.wikidata.org/entity/'.$row['id'];
+    $kostypes[$uri]['sites'] = $row['sites'];
+    $kostypes[$uri]['instances'] = $row['instances'];
+}
+
 ?>
 
 <p>
   The following classification of Knowledge Organization Systems has been extracted from Wikidata
-  <a href="#references">as described below</a>. Wikidata can change quickly so this is a snapshot
+  <a href="#references">as described below</a>.
+</p>
+<h3>Current classification</h3>
+<p>
+  Wikidata can change quickly so this is a snapshot
   from <?= date('Y-m-d',filemtime('Q6423319.ndjson')) ?>. The data in JSKOS format can be get
   <a href="Q6423319.ndjson">from here</a>.
 </p>
-<h3>Current classification</h3>
-<ul class="treeview">
+<p>
+  The number right of each KOS type indicate the
+  <span class="badge badge-default">number of instances</span> and the
+  <span class="badge badge-success">number of Wikipedia articles</span>.
+</p>
+<div id="tree"></div>
 <?php
 
-function tree($uri) {
+function makeTree($uri) {
     global $kostypes;
     $e = $kostypes[$uri];
-    if (!$e) return;
+    $c = $e['concept'];
+    if (!$c) return;
 
-    echo "<li>". htmlspecialchars($e->prefLabel['en']) 
-        . " (<a href='{$e->uri}'>{$e->notation[0]}</a>)";
-    
-    if ($e->narrower) {
-        echo "<ul>";
-        foreach($e->narrower as $n) {
-            tree($n->uri);
-        }
-        echo "</ul>";
+    $node = [ 
+        'text' => $c->prefLabel['en'],
+        'href' => $c->uri,
+        'qid' => $c->notation[0],
+        'selectable' => 0,
+        'tags' => [],
+    ];
+    if ($e['sites']) {
+        $node['tags'][] = [
+            'text' => $e['sites'],
+            'class' => 'badge badge-success',
+			'href' => $uri.'#sitelinks-wikipedia'
+        ];
+    }
+    if ($e['instances']) {
+        $node['tags'][] = [
+            'text' => $e['instances'],
+            'class' => 'badge badge-default',
+			'href' => "https://query.wikidata.org/#SELECT %3Fitem %3FitemLabel WHERE {%0A %3Fitem wdt%3AP31 <$uri> SERVICE wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"[AUTO_LANGUAGE]%2Cen\". }%0A}",
+        ];
+    }
+    if ($c->narrower) {
+        $node['nodes'] = array_filter(
+            $c->narrower->map( function ($n) {
+                return makeTree($n->uri);
+            } )
+        );
     }
 
-    echo "</li>";
+    return $node;
 }
 
-tree('http://www.wikidata.org/entity/Q6423319');
+$jsonTree = makeTree('http://www.wikidata.org/entity/Q6423319');
 
 ?>
-</ul>
 <h3 id='references'>Background and references</h3>
 <p>
   <ul>
@@ -63,6 +100,16 @@ tree('http://www.wikidata.org/entity/Q6423319');
     </li> 
   </ul>
 </p>
+
+<script type="text/javascript">
+  $(function(){ 
+    $('#tree').treeview({
+      data: [<?=json_encode($jsonTree);?>],
+      showTags: true,
+      depth: 2
+    });
+  })
+</script>
 
 <?php
 include "$BASE/footer.php";

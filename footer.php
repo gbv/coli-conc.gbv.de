@@ -27,15 +27,16 @@
 </nav>
 
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?=$BASE?>/js/jquery.min.js"></script>
     <script src="<?=$BASE?>/js/bootstrap.min.js"></script>
     <script src="<?=$BASE?>/js/jquery.tablesorter.min.js"></script>
     <link href="<?=$BASE?>/css/tablesorter.gbv.css" rel="stylesheet">
     <script type="text/javascript">
-      $(function(){ $(".table.sortable").tablesorter({'theme':'gbv'}); });
+      $(function(){ 
+        $(".table.sortable").tablesorter({'theme':'gbv'})
+      })
     </script>
-    <?php foreach (($INCLUDEJS ?? []) as $url) {
-      echo "    <script src='$url'></script>\n";
-    } ?>
+    <?php foreach (($REQUIREJS ?? []) as $script) { ?>
+    <script src='<?=$BASE?>/js/<?=$script?>'></script>
+    <?php } ?>
   </body>
 </html>

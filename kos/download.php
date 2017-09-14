@@ -4,42 +4,59 @@ if (PHP_SAPI != "cli") exit;
 
 require '../vendor/autoload.php';
 
-$viaf = new \VIAF\JSKOS\Service();
+use Cache\Adapter\PHPArray\ArrayCachePool;
+use Cache\Bridge\SimpleCache\SimpleCacheBridge;
+use JSKOS\CachedService;
+use JSKOS\Client;
+use JSKOS\Concept;
+use JSKOS\Service\VIAF;
 
-class CachedService extends \BARTOC\JSKOS\Service {
-    protected $cache;
+$cache = new SimpleCacheBridge(new ArrayCachePool());
 
-    function query(array $query) {
-        $key = md5(serialize($query));
-        if (!isset($this->cache[$key])) {
-            $this->cache[$key] = parent::query($query);
-        }
-        return $this->cache[$key];
-    }
-}
+$viaf = new CachedService(new VIAF(), $cache);
+$dante = new CachedService(new Client("http://api.dante.gbv.de/data"), $cache);
+
 
 $service = new \BARTOC\JSKOS\Service();
 
 foreach( file('bartoc-ids.txt') as $line ) {
     if (preg_match('/^(\d+)/', $line, $match)) {        
-        $jskos = $service->query(["notation" => $match[1]]);
-        
+        $r = $service->query(["notation" => $match[1]]);
+        if (!count($r)) continue;
+        $jskos = $r[0];
+
+        # Expand licenses
+        for($i=0; $i<count($jskos->license ?? []); $i++) {
+            $uri = $jskos->license[$i]->uri;
+            $result = $dante->query([
+                'uri' => $uri,
+                'properties'=> 'notation,prefLabel,depiction'
+            ]);
+            if (count($result)) {
+                $jskos->license[$i] = new Concept([
+                    'uri' => $result[0]->uri,
+                    'notation' => $result[0]->notation,
+                    'prefLabel' => $result[0]->prefLabel,
+                    'depiction' => $result[0]->depiction ?? null
+                ]);
+            }
+		}
+
         # Expand creators via VIAF
         if ($jskos->creator) {
-            $jskos->creator = array_map(
+            $jskos->creator = array_filter(array_map(
                 function ($c) {
                     global $viaf;
-                    return $viaf->query(['uri' => $c->uri]);
+                    $r = $viaf->query(['uri' => $c->uri]);
+                    return count($r) ? $r[0] : null;
                 },
                 iterator_to_array($jskos->creator)
-            );
+            ));
         }
 
         # TODO: expand types via Wikidata
-        # TODO: expand licenses via license-API
 
         echo "$jskos\n";
-        exit;
     }
 }
 ?>

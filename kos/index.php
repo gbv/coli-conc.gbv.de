@@ -1,6 +1,7 @@
 <?php
 $BASE = '..';
 $TITLE = 'KOS Registry';
+$REQUIREJS[] = 'kos.js';
 include "$BASE/header.php";
 
 $kostype = [];
@@ -144,5 +145,4 @@ TODO: type(s)
 </div>
  
 <?php 
-$INCLUDEJS=['kos.js'];            
 include "$BASE/footer.php";
