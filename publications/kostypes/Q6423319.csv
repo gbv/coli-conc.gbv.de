@@ -184,7 +184,7 @@ level,id,label,sites,instances,parents
 --,Q652594,hierarchical temporal memory,6,0,
 --,Q830115,concept map,26,0,^
 ==,Q1045785,semantic network,20,3,^^
---,Q1172480,data model,19,16,^
+--,Q1172480,data model,19,15,^
 ---,Q267136,database model,13,3,
 ---,Q1147639,data dictionary,15,0,^
 ---,Q1397073,data schema,3,0,
@@ -197,6 +197,8 @@ level,id,label,sites,instances,parents
 ----,Q17146953,logical data model,3,0,
 ---,Q1662581,information model,8,2,
 ====,Q632285,database schema,13,0,
+---,Q1924747,metadata standard,3,16,^
+----,Q18616720,bibliographic data format,1,3,
 ---,Q2262868,domain model,6,0,
 ---,Q2268965,conceptual schema,5,0,
 ---,Q3406872,application profile,3,0,
