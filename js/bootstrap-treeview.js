@@ -70,6 +70,8 @@
 		propagateCheckEvent: false,
 		wrapNodeText: false,
 
+        nodeFormatter: undefined,
+
 		// Event handlers
 		onLoading: undefined,
 		onLoadingFailed: undefined,
@@ -967,17 +969,10 @@
 			node.$el.append(node.text);
 		}
 
-        // Wikidata QID
-        if (node.qid) {
-            node.$el
-                .append(' (')
-                .append($('<a href="#"></a>')
-                    .attr('href', node.href)
-                    .append(node.qid)
-                )
-                .append(')')
+        // Add custom information
+        if (this._options.nodeFormatter) {
+            this._options.nodeFormatter(node, node.$el)
         }
-
 
 		// Add tags as badges
 		if (this._options.showTags && node.tags) {
@@ -996,6 +991,9 @@
 					.append(tag.text)
 				if (tag.href) {
                     e.attr('href', tag.href)
+				}
+				if (tag.title) {
+                    e.attr('title', tag.title)
 				}
 				node.$el.append(e)
 			}, this));

@@ -2,9 +2,9 @@ level,id,label,sites,instances,parents
 ,Q6423319,knowledge organization system,3,3,^^^
 -,Q5292,encyclopedia,185,567,^
 --,Q574634,anti-encyclopedia,2,0,
---,Q615699,Internet encyclopedia,29,58,^
+--,Q615699,Internet encyclopedia,29,59,^
 --,Q975413,encyclopedic dictionary,9,52,
----,Q1787111,biographical dictionary,9,138,^
+---,Q1787111,biographical dictionary,9,139,^
 ----,Q1499601,group biographical dictionary,1,1,
 ----,Q21050458,national biographical dictionary,1,1,
 ----,Q21050912,epoch biographical dictionary,1,0,
@@ -15,7 +15,7 @@ level,id,label,sites,instances,parents
 --,Q1673213,encyclopedia of misconceptions,1,2,
 --,Q4903126,Bible dictionary,4,2,
 --,Q13419255,hypertext encyclopedia,1,6,
--,Q23622,dictionary,132,325,^
+-,Q23622,dictionary,132,326,^
 --,Q8096,lexicon,38,7,^
 ---,Q8380731,terminology,1,5,
 ----,Q863247,nomenclature,27,14,^
@@ -43,7 +43,7 @@ level,id,label,sites,instances,parents
 --,Q1048400,pronouncing dictionary,6,0,
 --,Q1224346,Differentiae,1,0,^
 --,Q1304223,reverse dictionary,10,0,
----,Q179797,lexicographic thesaurus,48,9,
+---,Q179797,lexicographic thesaurus,48,8,
 ----,Q2376111,synonym dictionary,2,1,
 ---,Q2361647,conceptual dictionary,8,0,
 --,Q1327461,machine-readable dictionary,12,0,
@@ -79,13 +79,13 @@ level,id,label,sites,instances,parents
 --,Q7191193,picture dictionary,2,0,
 --,Q13135720,Frisian language dictionary,1,0,
 -,Q1469824,controlled vocabulary,10,13,^^
+--,Q36524,authority control,46,48,
 ==,Q859161,glossary,37,20,
 --,Q1673963,synonym ring,6,0,
 --,Q17152639,thesaurus,5,28,
 ---,Q2594143,word net,1,6,
 ---,Q29573701,microthesaurus,0,0,
 -,Q2352616,catalog,13,199,^^^
---,Q36524,authority control,46,47,
 --,Q201456,directory,43,14,^
 --,Q220393,telephone directory,30,1,^
 --,Q254213,civil registry,25,2,^
@@ -100,7 +100,7 @@ level,id,label,sites,instances,parents
 ---,Q1413174,Ōtabumi,4,0,
 --,Q780605,exhibition catalogue,5,82,
 --,Q815410,inventory,37,10,
----,Q15097084,heritage register,1,104,^
+---,Q15097084,heritage register,1,105,^
 ----,Q1003021,buildings at risk register,1,0,^
 --,Q897682,business directory,4,5,
 --,Q1006160,gazetteer,20,20,^
@@ -150,7 +150,7 @@ level,id,label,sites,instances,parents
 ---,Q3423635,metadata registry,4,9,
 -,Q2623243,conceptual model,15,1,^
 --,Q192833,mind map,47,0,^
---,Q193946,scientific model,35,51,
+--,Q193946,scientific model,35,52,
 ---,Q448916,stimulus–response model,4,0,
 ---,Q620920,climate model,13,0,
 ----,Q650994,general circulation model,18,0,
@@ -199,6 +199,7 @@ level,id,label,sites,instances,parents
 ====,Q632285,database schema,13,0,
 ---,Q2262868,domain model,6,0,
 ---,Q2268965,conceptual schema,5,0,
+---,Q3406872,application profile,3,0,
 ---,Q5033354,canonical model,2,0,
 ---,Q5227322,GIS data model,1,0,
 ----,Q5227321,ArcGIS data model,1,0,

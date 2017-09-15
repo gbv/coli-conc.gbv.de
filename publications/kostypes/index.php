@@ -21,6 +21,11 @@ foreach ($csv->getRecords() as $row) {
     $kostypes[$uri]['instances'] = $row['instances'];
 }
 
+$csv = \League\Csv\Reader::createFromPath('mappings.csv','r');
+foreach ($csv->getRecords() as $row) {
+    if ($kostypes[$row[0]]) $kostypes[$row[0]]['mappings'][] = $row[1];
+}
+
 ?>
 
 <p>
@@ -30,13 +35,11 @@ foreach ($csv->getRecords() as $row) {
 <h3>Current classification</h3>
 <p>
   Wikidata can change quickly so this is a snapshot
-  from <?= date('Y-m-d',filemtime('Q6423319.ndjson')) ?>. The data in JSKOS format can be get
-  <a href="Q6423319.ndjson">from here</a>.
-</p>
-<p>
-  The number right of each KOS type indicate the
-  <span class="badge badge-default">number of instances</span> and the
-  <span class="badge badge-success">number of Wikipedia articles</span>.
+  from <?= date('Y-m-d',filemtime('Q6423319.ndjson')) ?>.
+  <ul>
+    <li><a href="Q6423319.ndjson">JSKOS data</a></li>
+    <li><a href="mappings.csv">Mappings (CSV)</a></li>
+  </ul>
 </p>
 <div id="tree"></div>
 <?php
@@ -53,12 +56,14 @@ function makeTree($uri) {
         'qid' => $c->notation[0],
         'selectable' => 0,
         'tags' => [],
+        'mappings' => $e['mappings'],
     ];
     if ($e['sites']) {
         $node['tags'][] = [
             'text' => $e['sites'],
             'class' => 'badge badge-success',
-			'href' => $uri.'#sitelinks-wikipedia'
+            'href' => $uri.'#sitelinks-wikipedia',
+            'title' => 'number of Wikipedia articles',
         ];
     }
     if ($e['instances']) {
@@ -66,6 +71,7 @@ function makeTree($uri) {
             'text' => $e['instances'],
             'class' => 'badge badge-default',
 			'href' => "https://query.wikidata.org/#SELECT %3Fitem %3FitemLabel WHERE {%0A %3Fitem wdt%3AP31 <$uri> SERVICE wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"[AUTO_LANGUAGE]%2Cen\". }%0A}",
+            'title' => 'number of Wikidata instances',
         ];
     }
     if ($c->narrower) {
@@ -82,6 +88,13 @@ function makeTree($uri) {
 $jsonTree = makeTree('http://www.wikidata.org/entity/Q6423319');
 
 ?>
+
+<p>
+  The number right of each KOS type indicate the
+  <span class="badge badge-default">number of instances</span> and the
+  <span class="badge badge-success">number of Wikipedia articles</span>.
+</p>
+
 <h3 id='references'>Background and references</h3>
 <p>
   <ul>
@@ -103,10 +116,48 @@ $jsonTree = makeTree('http://www.wikidata.org/entity/Q6423319');
 
 <script type="text/javascript">
   $(function(){ 
+
+    const namespaces = {
+      fabio: 'http://purl.org/spar/fabio/',
+      nkos: 'http://w3id.org/nkos/nkostype#',
+      skos: 'http://www.w3.org/2004/02/skos/core#',
+      edma: 'http://edamontology.org/',
+    }
+
+    function qname(uri) {
+      for (prefix in namespaces) {
+        if (uri.startsWith(namespaces[prefix])) {
+          return prefix + ':' + uri.substr(namespaces[prefix].length)
+        }
+      }
+      return uri
+    }
+
+    function nodeFormatter(node, elem) {
+      elem
+        .append(' (')
+        .append($('<a href="#"></a>')
+          .attr('href', node.href)
+          .append(node.qid)
+        ).append(')')
+      if (node.mappings) {
+        elem.append(' ')
+        let sep = ' = '
+        node.mappings.forEach(function (uri) {
+          elem.append(sep)
+          sep = ' | '
+          elem.append(
+            $('<a href="#"></a>').attr('href', uri).text(qname(uri))
+          )
+        })
+      }
+    } 
+
     $('#tree').treeview({
       data: [<?=json_encode($jsonTree);?>],
       showTags: true,
-      depth: 2
+      depth: 2,
+      nodeFormatter: nodeFormatter,
     });
   })
 </script>
