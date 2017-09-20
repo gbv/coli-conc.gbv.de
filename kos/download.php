@@ -55,6 +55,7 @@ foreach( file('bartoc-ids.txt') as $line ) {
         }
 
         # TODO: expand types via Wikidata
+        //mappings../../kos/kos.ndjson
 
         echo "$jskos\n";
     }

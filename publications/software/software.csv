@@ -1,5 +1,6 @@
 name,status,language,travis,repository,release,description
 jskos-php,production,PHP,y,https://github.com/gbv/jskos-php,gbv/jskos,PHP library for JSKOS
+jskos-http,production,PHP,y,https://github.com/gbv/jskos-http,gbv/jskos-http,JSKOS API implementation
 jskos-rdf,production,PHP,y,https://github.com/gbv/jskos-rdf,gbv/jskos-rdf,PHP library to process JSKOS and RDF data
 orcid-jskos,production,PHP,,https://github.com/gbv/orcid-jskos,gbv/orcid-jskos,PHP wrapper to access ORCID in JSKOS format
 viaf-jskos,production,PHP,y,https://github.com/gbv/viaf-jskos,gbv/viaf-jskos,PHP wrapper to access VIAF in JSKOS format

@@ -7,7 +7,11 @@ include "$BASE/header.php";
 $kostype = [];
 $hastype = [];
 
-foreach( file('nkostype.ndjson') as $line ) {
+foreach(file('nkostype.ndjson') as $line) {
+    $concept = new JSKOS\Concept(json_decode($line, true));
+    $kostype[$concept->uri] = $concept;
+}
+foreach(file('../publications/kostypes/Q6423319.ndjson') as $line) {
     $concept = new JSKOS\Concept(json_decode($line, true));
     $kostype[$concept->uri] = $concept;
 }

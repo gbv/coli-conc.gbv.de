@@ -6,24 +6,48 @@ include "$BASE/header.php";
 
 $kostypes = [];
 
+use JSKOS\Concept;
+
 foreach (file('Q6423319.ndjson') as $line) {
-    $kos = new \JSKOS\Concept(json_decode($line, true));
+    $kos = new Concept(json_decode($line, true));
     $kostypes[$kos->uri] = [ 'concept' => $kos ];
 }
 
 $csv = \League\Csv\Reader::createFromPath('Q6423319.csv','r');
 $csv->setHeaderOffset(0);
 
-foreach ($csv->getRecords() as $row) {
+$totalInstances = 0;
+$totalSites = 0;
+$withSites = 0;
+$withInstances = 0;
+
+foreach ($csv as $row) {
     if (substr($row['level'],1,1)=='=') continue;
     $uri = 'http://www.wikidata.org/entity/'.$row['id'];
-    $kostypes[$uri]['sites'] = $row['sites'];
-    $kostypes[$uri]['instances'] = $row['instances'];
+
+    if ($row['sites'] > 0) {
+        $kostypes[$uri]['sites'] = $row['sites'];
+        $totalSites += $row['sites'];
+        $withSites++;
+    }
+    if ($row['instances'] > 0) {
+        $kostypes[$uri]['instances'] = $row['instances'];
+        $totalInstances += $row['instances'];
+        $withInstances++;
+    }
 }
 
 $csv = \League\Csv\Reader::createFromPath('mappings.csv','r');
-foreach ($csv->getRecords() as $row) {
-    if ($kostypes[$row[0]]) $kostypes[$row[0]]['mappings'][] = $row[1];
+$csv->setHeaderOffset(0);
+foreach ($csv as $row) {
+    $kos = $kostypes[$row['item']];
+    if (!$kos) continue;
+
+    if ($row['type'] == '=') {
+      $kos['mappings'][] = $row['match'];
+    } elseif ($row['type'] == '>') {
+      $kos['concept']->narrower->append(new Concept(['uri' => $row['match']]));
+    }
 }
 
 ?>
@@ -48,12 +72,17 @@ function makeTree($uri) {
     global $kostypes;
     $e = $kostypes[$uri];
     $c = $e['concept'];
-    if (!$c) return;
+    if (!$c) {
+        return [
+            'href' => $uri,            
+            'id' => $uri,
+        ];
+    }
 
     $node = [ 
         'text' => $c->prefLabel['en'],
         'href' => $c->uri,
-        'qid' => $c->notation[0],
+        'id' => $c->notation[0],
         'selectable' => 0,
         'tags' => [],
         'mappings' => $e['mappings'],
@@ -87,12 +116,21 @@ function makeTree($uri) {
 
 $jsonTree = makeTree('http://www.wikidata.org/entity/Q6423319');
 
+/*
+$kostypes[$uri]['sites'] = $row['sites'];
+    $kostypes[$uri]['instances'] = $row['instances'];
+ */
 ?>
 
 <p>
   The number right of each KOS type indicate the
-  <span class="badge badge-default">number of instances</span> and the
-  <span class="badge badge-success">number of Wikipedia articles</span>.
+  <span class="badge badge-default">number of instances</span>
+  (<?=$totalInstances ?> in total at <?=$withInstances?> of <?=count($kostypes)?> KOS types,
+  <?=sprintf("%2d%%", 100*$withInstances/count($kostypes))?>)
+  and the
+  <span class="badge badge-success">number of Wikipedia articles</span>
+  (<?=$totalSites ?> in total at <?=$withSites?> of <?=count($kostypes)?> KOS types,
+  <?=sprintf("%2d%%", 100*$withSites/count($kostypes))?>).
 </p>
 
 <h3 id='references'>Background and references</h3>
@@ -138,7 +176,7 @@ $jsonTree = makeTree('http://www.wikidata.org/entity/Q6423319');
         .append(' (')
         .append($('<a href="#"></a>')
           .attr('href', node.href)
-          .append(node.qid)
+          .append(node.id)
         ).append(')')
       if (node.mappings) {
         elem.append(' ')

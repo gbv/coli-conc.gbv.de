@@ -1,0 +1,5 @@
+SELECT ?item ?match ?type { 
+  { BIND ("=" AS ?type) ?item wdt:P279* wd:Q6423319; wdt:P2888 ?match }
+    UNION
+  { BIND (">" AS ?type) ?item wdt:P279* wd:Q6423319; wdt:P3950 ?match }
+}
