@@ -70,12 +70,7 @@ include "$BASE/header.php";
       <a href="https://doi.org/10.5281/zenodo.800577">https://doi.org/10.5281/zenodo.800577</a>
   </li>
 </ul>
-<ul>
-  <li>
-      Balakrishnan, U.: DFG-Projekt coli conc – Projektphase I </a>. 
-      In: VZG Aktuell. 2/2016 (September), p. 8-12 (<a href="vzgaktuell.pdf">PDF</a>)
-  </li>
-</ul>
+
 <h4>Presentations</h4>          
 <ul>
   <li>
@@ -174,6 +169,10 @@ include "$BASE/header.php";
     Das Projekt „coli-conc“ Ein Bericht zur semi-automatischen Erstellung von 
     Konkordanzen zur Dewey Dezimalklassifikation. (2013)
     <a href="https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/vzg_aktuell_2013_01.pdf">PDF, page 12-16</a>.
+  </li>
+  <li>
+    Balakrishnan, U.: DFG-Projekt coli conc – Projektphase I </a>. 
+    In: VZG Aktuell. 2/2016 (September), p. 8-12 (<a href="vzgaktuell.pdf">PDF</a>)
   </li>
  <!--<li>
     An EZB-DDC Condordance (2011).
