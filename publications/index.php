@@ -66,7 +66,7 @@ include "$BASE/header.php";
       coli-conc report 9: Umfrage zur Basisklassifikation 2017 (Mai 2017)                <a href="https://si-it-workshop.gbv.de/wp-content/uploads/2017/01/BKUmfrage_Ergebnisse.pdf">PDF</a>
   </li>
   <li>
-      coli-conc report 10: <a href="tr10.html">Ein Vergleich ausgewählter Normdatendienste</a> (May 2017)
+      coli-conc report 10: <a href="tr10.html">Ein Vergleich ausgewählter Normdatendienste</a> (Mai 2017)
       <a href="https://doi.org/10.5281/zenodo.800577">https://doi.org/10.5281/zenodo.800577</a>
   </li>
 </ul>
