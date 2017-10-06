@@ -74,6 +74,13 @@ include "$BASE/header.php";
 <h4>Presentations</h4>          
 <ul>
   <li>
+      coli-conc: Mapping Knowledge Organization System.
+      Presentation at
+      <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/programme.html">17<sup>th</sup> European NKOS Workshop</a>,
+      September, 15<sup>st</sup>, 2017 in Thessaloniki.
+      (<a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/content/akter.pdf">PDF slides</a>).
+  </li>
+  <li>
       Interoperability of KOS Metadata Schemas in BARTOC and JSKOS.
       Presentation at
       <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016-dc/programme.html">16<sup>th</sup> European NKOS Workshop</a>,
@@ -95,7 +102,7 @@ include "$BASE/header.php";
       Mapping Project coli-conc Progress, learning &amp; next steps.
       Presentation at <a href="http://edug.pansoft.de/tiki-index.php?page=2016+meeting">EDUG 2016 Symposium</a>,
       April 25<sup>th</sup>, 2016.
-      (<a href="http://edug.pansoft.de/tiki-download_file.php?fileId=143">PDF</a>)
+      (<a href="http://edug.pansoft.de/tiki-download_file.php?fileId=143">PDF slides</a>)
   </li>
   <li>
     The Cocoda Mapping Tool.
