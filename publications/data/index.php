@@ -8,6 +8,9 @@ include "$BASE/header.php";
 </p>
 <ul>
   <li>
+    Basisiklassifikation in <a href="bk.ttl">RDF (Turtle)</a> and <a href="bk.ndjson">JSKOS (ndjson)</a>
+  </li>
+  <li>
     <a href="../../concordances/">Concordances</a>
   </li>
   <li>

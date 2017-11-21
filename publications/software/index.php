@@ -19,6 +19,7 @@ $status = [
   <thead>
     <tr>
       <th>name and description</th>
+      <th>type</th>
       <th>status</th>
       <th></th>
       <th>language</th>
@@ -31,6 +32,7 @@ $status = [
       <a href="<?=$s['repository']?>"><?=$s['name']?></a>
       <?=htmlspecialchars($s['description'])?>
     </td>
+    <td><?=$s['type']?></td>
     <td><?php
         $class = $status[$s['status']] ?? '';
         echo "<span class='$class'>{$s['status']}</span>";

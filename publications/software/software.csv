@@ -1,16 +1,19 @@
-name,status,language,travis,repository,release,description
-jskos-php,production,PHP,y,https://github.com/gbv/jskos-php,gbv/jskos,PHP library for JSKOS
-jskos-http,production,PHP,y,https://github.com/gbv/jskos-http,gbv/jskos-http,JSKOS API implementation
-jskos-rdf,production,PHP,y,https://github.com/gbv/jskos-rdf,gbv/jskos-rdf,PHP library to process JSKOS and RDF data
-orcid-jskos,production,PHP,,https://github.com/gbv/orcid-jskos,gbv/orcid-jskos,PHP wrapper to access ORCID in JSKOS format
-viaf-jskos,production,PHP,y,https://github.com/gbv/viaf-jskos,gbv/viaf-jskos,PHP wrapper to access VIAF in JSKOS format
-bartoc-jskos,production,PHP,y,https://github.com/gbv/bartoc-jskos,gbv/bartoc-jskos,PHP wrapper to access BARTIC in JSKOS format
-wikidata-taxonomy,production,JavaScript,y,https://github.com/nichtich/wikidata-taxonomy,wikidata-taxonomy,command-line tool to extract taxonomies from Wikidata
-wdmapper,production,Python,y,https://github.com/gbv/wdmapper,wdmapper,Wikidata authority file mapping tool
-skos2jskos,prototype,Perl,y,https://github.com/gbv/skos2jskos,App-skos2jskos,Convert SKOS/RDF to JSKOS
-ng-suggest,prototype,JavaScript,y,https://github.com/gbv/ng-suggest,ng-suggest,AngularJS module for Typeahead via OpenSearch Suggestions
-ng-skos,prototype,JavaScript,y,https://github.com/gbv/ng-skos,ng-skos,AngularJS module for JSKOS
-cocoda-db,prototype,Perl,y,https://github.com/gbv/cocoda-db,https://github.com/gbv/cocoda-db/releases,database backend to store and serve JSKOS
-cocoda,prototype,JavaScript,y,https://github.com/gbv/cocoda,,web application mapping tool
-jskos-php-examples,demo,PHP,y,https://github.com/gbv/jskos-php-examples,https://jskos-php-examples.herokuapp.com/,Sample applications of jskos-php - e.g. wrappers of terminology services to JSKOS-API
-cocoda-mappings,demo,multiple,,https://github.com/gbv/cocoda-mappings,,"concordances, mappings and conversion scripts to create JSKOS mappings"
+name,type,status,language,travis,repository,release,description
+jskos-php,library,production,PHP,y,https://github.com/gbv/jskos-php,gbv/jskos,PHP library for JSKOS
+jskos-http,library,production,PHP,y,https://github.com/gbv/jskos-http,gbv/jskos-http,JSKOS API implementation
+jskos-rdf,library,production,PHP,y,https://github.com/gbv/jskos-rdf,gbv/jskos-rdf,PHP library to process JSKOS and RDF data
+orcid-jskos,library,production,PHP,,https://github.com/gbv/orcid-jskos,gbv/orcid-jskos,PHP wrapper to access ORCID in JSKOS format
+viaf-jskos,library,production,PHP,y,https://github.com/gbv/viaf-jskos,gbv/viaf-jskos,PHP wrapper to access VIAF in JSKOS format
+bartoc-jskos,library,production,PHP,y,https://github.com/gbv/bartoc-jskos,gbv/bartoc-jskos,PHP wrapper to access BARTIC in JSKOS format
+mc2skos,application,production,Python,y,https://github.com/scriptotek/mc2skos,mc2skos,command-line tool to convert MARC to SKOS
+skosify,application,production,Python,y,https://github.com/NatLibFi/Skosify,skosify,command-line tool to convert and check SKOS vocabularies
+bk2rdf,application,production,Perl,,https://github.com/gbv/bk2rdf,https://github.com/gbv/bk2rdf,extract and enrich BK records to MARC
+wikidata-taxonomy,application,production,JavaScript,y,https://github.com/nichtich/wikidata-taxonomy,wikidata-taxonomy,command-line tool to extract taxonomies from Wikidata
+wdmapper,application,production,Python,y,https://github.com/gbv/wdmapper,wdmapper,Wikidata authority file mapping tool
+skos2jskos,application,prototype,Perl,y,https://github.com/gbv/skos2jskos,App-skos2jskos,Convert SKOS/RDF to JSKOS
+ng-suggest,library,prototype,JavaScript,y,https://github.com/gbv/ng-suggest,ng-suggest,AngularJS module for Typeahead via OpenSearch Suggestions
+ng-skos,library,prototype,JavaScript,y,https://github.com/gbv/ng-skos,ng-skos,AngularJS module for JSKOS
+cocoda-db,application,prototype,Perl,y,https://github.com/gbv/cocoda-db,https://github.com/gbv/cocoda-db/releases,database backend to store and serve JSKOS
+cocoda,application,prototype,JavaScript,y,https://github.com/gbv/cocoda,,web application mapping tool
+jskos-php-examples,application,demo,PHP,y,https://github.com/gbv/jskos-php-examples,https://jskos-php-examples.herokuapp.com/,Sample applications of jskos-php (wrapper etc.)
+cocoda-mappings,library,demo,multiple,,https://github.com/gbv/cocoda-mappings,,"concordances, mappings and conversion scripts"
