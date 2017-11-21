@@ -74,11 +74,28 @@ include "$BASE/header.php";
 <h4>Presentations</h4>          
 <ul>
   <li>
+    Voraussetzungen für die offene Nutzung der RVK. Presentation at
+    <a href="https://rvk.uni-regensburg.de/2-uncategorised/156-rvk-anwendertreffen-2017">RVK Anwendertreffen</a>, 
+    November 8<sup>th</sup>, 2017 in Regensburg.
+    <a href="https://doi.org/10.5281/zenodo.1043635">https://doi.org/10.5281/zenodo.1043635</a>
+  </li>
+  <li>
+    State of identifiers in Wikidata. Presentation at
+    <a href="https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017">WikidataCon</a>, October, 28<sup>th</sup>, 2017 in Berlin.
+    <a href="https://doi.org/10.5281/zenodo.1037673">https://doi.org/10.5281/zenodo.1037673</a>
+  </li>
+  <li>
       coli-conc: Mapping Knowledge Organization System.
       Presentation at
       <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/programme.html">17<sup>th</sup> European NKOS Workshop</a>,
       September, 15<sup>st</sup>, 2017 in Thessaloniki.
       (<a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/content/akter.pdf">PDF slides</a>).
+  </li>
+  <li>
+   Wikidata as authority linking hub. Presented at
+   DINI AG KIM Workshop, May, 4<sup>th</sup>, 2017
+   and at <a href="http://elag2017.org/">ELAG 2017</a>, June 8<sup>th</sup>, 2017
+   (<a href="https://de.slideshare.net/jneubert/wikidata-as-authority-linking-hub">Slides</a>)
   </li>
   <li>
       Interoperability of KOS Metadata Schemas in BARTOC and JSKOS.
