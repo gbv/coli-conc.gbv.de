@@ -3,25 +3,6 @@ $BASE = '..';
 include "$BASE/header.php";
 ?>
 
-<p>
-  All publications and references are managed in a public
-  <a href="https://www.zotero.org/groups/coli-conc/items/">Zotero library</a>
-  categorized into the following groups:
-  <ul>
-    <li>
-      <a href="https://www.zotero.org/groups/coli-conc/items/collectionKey/WCRJ5V4U">coli-conc publications</a> 
-    </li>
-    <li>
-      <a href="https://www.zotero.org/groups/coli-conc/items/collectionKey/EEIKTSXF">general references</a>
-    </li>
-    <li>
-      <a href="https://www.zotero.org/groups/coli-conc/items/collectionKey/JFWNH78B">bibliographies &amp; registries</a>
-    </li>
-    <li>
-      <a href="https://www.zotero.org/groups/coli-conc/items/collectionKey/W5F4ENNP">software</a>
-    </li>
-  </ul>
-</p>
 <h4>Reports</h4>
 <p>
   See
@@ -155,6 +136,18 @@ include "$BASE/header.php";
 <h4>Reviewed articles</h4>
 <ul>
   <li>
+    Voß, Jakob; Bode, Laura; Hamasur, Diana; Isbanner, Laura; Jäger, Jan;
+    Kurtar, Ebru; Peters, Kim; Rufaioglu, Melis; Schneevogt, Christian; Stelter,
+    Romy; Wiegand, Jennifer; Wil, Ann Christin; Yildirimer, Remziye:
+    Erfassung von Wissensorganisationssystemen in BARTOC - Ergebnis eines Projektseminars an der Hochschule Hannover
+    In: Informationspraxis Bd. 3, Nr. 2. (2017)
+    <a href="http://dx.doi.org/10.11588/ip.2017.2.40335 ">http://dx.doi.org/10.11588/ip.2017.2.40335</a>
+  </li>
+  <li>
+    Balakrishnan, Uma; Akter, Morsheda: Project Coli-conc: Mapping Library Knowledge Organisation Systems. In: Proceedings of the 17th European Networked Knowledge Organization Systems Workshop co-located with the 21st International Conference on Theory and Practice of Digital Libraries 2017 (TPDL 2017). P. 53-61
+    <a href="http://ceur-ws.org/Vol-1937/paper5.pdf">PDF</a>
+  </li>
+  <li>
       Voß, Jakob; Ledl, Andreas and Balakrishnan, U.: Uniform description and access to Knowledge Organization Systems with BARTOC and JSKOS. In: Proceedings of TOTh conference 2016
       <a href="https://doi.org/10.5281/zenodo.438019">https://doi.org/10.5281/zenodo.438019</a>
   </li>
@@ -198,11 +191,11 @@ include "$BASE/header.php";
     Balakrishnan, U.: DFG-Projekt coli conc – Projektphase I </a>. 
     In: VZG Aktuell. 2/2016 (September), p. 8-12 (<a href="vzgaktuell.pdf">PDF</a>)
   </li>
- <!--<li>
+  <li>
     An EZB-DDC Condordance (2011).
     VZG-Project Colibri Sub: Project Coli-Conc.
     <a href="http://dx.doi.org/10.5281/zenodo.28263">http://doi.org/10.5281/zenodo.28263</a>.
-  </li>-->      
+  </li>
 </ul>
 <h4>Specifications</h4>
 <table class="table">
@@ -231,6 +224,10 @@ include "$BASE/header.php";
     </tr>
   </tbody>
 </table>
+
+<p>
+  See also our <a href="https://www.zotero.org/groups/coli-conc/items/">Zotero library</a>.
+</p>
 
 <?php
 include "$BASE/footer.php";
