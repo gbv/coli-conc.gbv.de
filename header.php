@@ -6,6 +6,16 @@ $LOCATION = array_slice(explode('/', $SOURCE), 0, -1);
 $SECTION = $LOCATION[0];
 $TITLE = $TITLE ?? ucfirst(end($LOCATION));
 
+// repository in a subdirectory  
+$REPO = preg_replace('/\.git\n$/', '', `git config --get remote.origin.url`);
+if ($BASE) {
+  $ROOT_REPO = preg_replace('/\.git\n$/', '', `git -C $BASE config --get remote.origin.url`);
+  if ($REPO != $ROOT_REPO) {
+    $SOURCE = implode('/',array_slice(explode('/',$SOURCE),1));
+  }
+}
+$SOURCE = "$REPO/tree/master/$SOURCE";
+
 require 'vendor/autoload.php';
 
 ?><!DOCTYPE html>

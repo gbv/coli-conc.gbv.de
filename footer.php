@@ -7,8 +7,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-bottom hidden-xs">
   <div class="col-sm-3 col-lg-2 hidden-xs">
     <i class="fa fa-github"></i>
-    <a href="https://github.com/gbv/coli-conc.gbv.de/tree/master/<?=$SOURCE?>">source</a>
-
+    <a href="<?=$SOURCE?>">source</a>
      <i class="fa fa-twitter"></i>
      <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">
         @coli_conc
