@@ -12,9 +12,7 @@ include "$BASE/header.php";
     </p>
       <div class="alert alert-success" role="alert">
          <p>
-           Slides from
-           <a href="https://si-it-workshop.gbv.de/">Subject Indexing & Information Technology Workshop</a>
-           at May 10/11<sup>th</sup> available!
+           We are <a href="jobs/">looking for a web developer</a>. Join our Team! 
          </p>
          
       </div>

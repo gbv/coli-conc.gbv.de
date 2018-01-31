@@ -14,12 +14,12 @@ include "$BASE/header.php";
         <dd>U. Balakrishnan (balakrishnan@gbv.de)</dd>
         <dt>Technical Coordination</dt>
         <dd>Dr. J. Voß (voss@gbv.de)</dd>
-    <dt>Software Development</dt>
-        <dd>Morsheda Akter (akter@gbv.de)</dd>
-    <dt>Student Assistant</dt>
-        <dd>Niklas Bendixen (niklas.bendixen@gbv.de)</dd>
-    <dt>Library System Support</dt>
+        <dt>Software Development</dt>
+        <dd><em>We are <a href="../jobs/">looking for a web developer</a>. Join our Team!</em></dt>
+        <dt>Library System Support</dt>
         <dd>Jana Maria Agne (agne@gbv.de)</dd>
+        <dt>Student Assistant</dt>
+        <dd><em>Please contact us if interested!</em></dd>
     </dl>
     </p>
   </div>
