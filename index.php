@@ -10,12 +10,6 @@ include "$BASE/header.php";
       Development of an infrastructure to facilitate management and exchange of
       concordances between library knowledge organization systems
     </p>
-      <div class="alert alert-success" role="alert">
-         <p>
-           We are <a href="jobs/">looking for a web developer</a>. Join our Team! 
-         </p>
-         
-      </div>
   </div>
 </div>
 

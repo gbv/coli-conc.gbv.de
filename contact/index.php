@@ -13,9 +13,9 @@ include "$BASE/header.php";
         <dt>Project Coordination</dt>
         <dd>U. Balakrishnan (balakrishnan@gbv.de)</dd>
         <dt>Technical Coordination</dt>
-        <dd>Dr. J. Voß (voss@gbv.de)</dd>
-        <dt>Software Development</dt>
-        <dd><em>We are <a href="../jobs/">looking for a web developer</a>. Join our Team!</em></dt>
+        <dd>Dr. Jakob Voß (voss@gbv.de)</dd>
+        <!--dt>Software Development</dt>
+        <dd><em>We are <a href="../jobs/">looking for a web developer</a>. Join our Team!</em></dt-->
         <dt>Library System Support</dt>
         <dd>Jana Maria Agne (agne@gbv.de)</dd>
         <dt>Student Assistant</dt>
