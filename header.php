@@ -77,7 +77,8 @@ $MENU = [
     '/' => 'About',
     'terminologies' => 'KOS Registry',
     'concordances' => [
-        ['wikidata', 'Wikidata']
+        ['wikidata', 'Wikidata'],
+        ['gnd', 'GND']
     ],
     'cocoda' => 'Cocoda prototype',
     'publications' => [ 
