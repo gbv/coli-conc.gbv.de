@@ -15,7 +15,7 @@ include "$BASE/header.php";
         <dt>Technical Coordination</dt>
         <dd>Dr. Jakob Voß (voss@gbv.de)</dd>
         <dt>Software Development</dt>
-        <dd>Stefan Peters (stefan.peters@gbv.de)</dd>
+        <dd>Stefan Peters (peters@gbv.de)</dd>
         <dt>Library System Support</dt>
         <dd>Jana Maria Agne (agne@gbv.de)</dd>
         <dt>Student Assistant</dt>
