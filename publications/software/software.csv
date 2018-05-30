@@ -1,4 +1,6 @@
 name,type,status,language,travis,repository,release,description
+mapping-api,application,prototype,JavaScript,y,https://github.com/gbv/mapping-api,,JSKOS mapping provider
+cocoda,application,prototype,JavaScript,y,https://github.com/gbv/cocoda,,web application mapping tool
 jskos-php,library,production,PHP,y,https://github.com/gbv/jskos-php,gbv/jskos,PHP library for JSKOS
 jskos-http,library,production,PHP,y,https://github.com/gbv/jskos-http,gbv/jskos-http,JSKOS API implementation
 jskos-rdf,library,production,PHP,y,https://github.com/gbv/jskos-rdf,gbv/jskos-rdf,PHP library to process JSKOS and RDF data
@@ -14,6 +16,5 @@ skos2jskos,application,prototype,Perl,y,https://github.com/gbv/skos2jskos,App-sk
 ng-suggest,library,prototype,JavaScript,y,https://github.com/gbv/ng-suggest,ng-suggest,AngularJS module for Typeahead via OpenSearch Suggestions
 ng-skos,library,prototype,JavaScript,y,https://github.com/gbv/ng-skos,ng-skos,AngularJS module for JSKOS
 cocoda-db,application,prototype,Perl,y,https://github.com/gbv/cocoda-db,https://github.com/gbv/cocoda-db/releases,database backend to store and serve JSKOS
-cocoda-prototype,application,prototype,JavaScript,y,https://github.com/gbv/cocoda-prototype,,web application mapping tool
 jskos-php-examples,application,demo,PHP,y,https://github.com/gbv/jskos-php-examples,https://jskos-php-examples.herokuapp.com/,Sample applications of jskos-php (wrapper etc.)
 cocoda-mappings,library,demo,multiple,,https://github.com/gbv/cocoda-mappings,,"concordances, mappings and conversion scripts"
