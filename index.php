@@ -41,7 +41,7 @@ include "$BASE/header.php";
     by the German Research Foundation (DFG)
     from December 2015 till November 2018.
     An abbreviated version of our grant proposal has been published
-    with DOI <a class="alert-link" href="http://dx.doi.org/10.5281/zenodo.28290">10.5281/zenodo.28290</a>.
+    with DOI <a class="alert-link" href="https://doi.org/10.5281/zenodo.28290">10.5281/zenodo.28290</a>.
     See the <a href="publications">publications section</a> for 
     additional project reports, specifications and software developed 
     as part of coli-conc!

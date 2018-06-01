@@ -12,19 +12,19 @@ include "$BASE/header.php";
 <ul>
   <li>
     <a href="tr1.html">coli-conc Technical Report 1: Cocoda primer</a>. (April 2015)
-    <a href="http://dx.doi.org/10.5281/zenodo.16786">http://doi.org/10.5281/zenodo.16786</a>.
+    <a href="https://doi.org/10.5281/zenodo.16786">https://doi.org/10.5281/zenodo.16786</a>.
   </li>
   <li>
     <a href="tr2.html">coli-conc Technical Report 2: Open Source KOS software</a>. (March 2016)
-    <a href="http://dx.doi.org/10.5281/zenodo.48227">http://doi.org/10.5281/zenodo.48227</a>.
+    <a href="https://doi.org/10.5281/zenodo.48227">https://doi.org/10.5281/zenodo.48227</a>.
   </li>
   <li>
     <a href="tr3.html">coli-conc Technical Report 3: A novel approach to terminology mappings</a>. (April 2016)
-    <a href="http://dx.doi.org/10.5281/zenodo.48740">http://doi.org/10.5281/zenodo.48740</a>.
+    <a href="https://doi.org/10.5281/zenodo.48740">https://doi.org/10.5281/zenodo.48740</a>.
   </li>
   <li>
     <a href="tr4.html">coli-conc report 4: Anforderungen an Normdatendienste</a>. (April 2016)
-    <a href="http://dx.doi.org/10.5281/zenodo.50180">http://doi.org/10.5281/zenodo.50180</a>.
+    <a href="https://doi.org/10.5281/zenodo.50180">https://doi.org/10.5281/zenodo.50180</a>.
   </li>
   <li>
       coli-conc report 5: European DDC Users Group (EDUG) Symposium &amp; Business Meeting. (August 2016)
@@ -52,7 +52,7 @@ include "$BASE/header.php";
   </li>
   <li>
       coli-conc report 11: <a href="tr11.html">Cocoda Technical Architecture</a> (May 2018)
-      <a href="https://dx.doi.org/10.5281/zenodo.1256498">https://dx.doi.org/10.5281/zenodo.1256498</a>
+      <a href="https://doi.org/10.5281/zenodo.1256498">https://doi.org/10.5281/zenodo.1256498</a>
   </li>
 </ul>
 
@@ -87,13 +87,13 @@ include "$BASE/header.php";
       Presentation at
       <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016-dc/programme.html">16<sup>th</sup> European NKOS Workshop</a>,
       October, 15<sup>th</sup>, 2016 in Copenhagen.
-      <a href="http://doi.org/10.5281/zenodo.160926">http://doi.org/10.5281/zenodo.160926</a>
+      <a href="https://doi.org/10.5281/zenodo.160926">https://doi.org/10.5281/zenodo.160926</a>
   </li>
   <li>
       Classification of Knowledge Organization Systems with Wikidata.
       Presentation at <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016/programme.html">15<sup>th</sup> European NKOS workshop at TPDL</a>,
       September, 9<sup>th</sup>, 2016 in Hannover.
-      <a href="http://dx.doi.org/10.5281/zenodo.61767">http://doi.org/10.5281/zenodo.61767</a>
+      <a href="https://doi.org/10.5281/zenodo.61767">https://doi.org/10.5281/zenodo.61767</a>
   </li>
   <li>
       Describing Knowledge Organization Systems in BARTOC and JSKOS.
@@ -145,7 +145,7 @@ include "$BASE/header.php";
     Romy; Wiegand, Jennifer; Wil, Ann Christin; Yildirimer, Remziye:
     Erfassung von Wissensorganisationssystemen in BARTOC - Ergebnis eines Projektseminars an der Hochschule Hannover
     In: Informationspraxis Bd. 3, Nr. 2. (2017)
-    <a href="http://dx.doi.org/10.11588/ip.2017.2.40335 ">http://dx.doi.org/10.11588/ip.2017.2.40335</a>
+    <a href="https://doi.org/10.11588/ip.2017.2.40335 ">https://doi.org/10.11588/ip.2017.2.40335</a>
   </li>
   <li>
     Balakrishnan, Uma; Akter, Morsheda: Project Coli-conc: Mapping Library Knowledge Organisation Systems. In: Proceedings of the 17th European Networked Knowledge Organization Systems Workshop co-located with the 21st International Conference on Theory and Practice of Digital Libraries 2017 (TPDL 2017). P. 53-61
@@ -167,7 +167,7 @@ include "$BASE/header.php";
   </li>
   <li>
       Balakrishnan, U.: DFG-Projekt: Coli-Conc. Das Mapping Tool "Cocoda". In: O-Bib. Das Offene Bibliotheksjournal. Vol. 3, Nr. 1 (2016).
-      <a href="http://dx.doi.org/10.5282/o-bib/2016H1S11-16">http://doi.org/10.5282/o-bib/2016H1S11-16</a>
+      <a href="https://doi.org/10.5282/o-bib/2016H1S11-16">https://doi.org/10.5282/o-bib/2016H1S11-16</a>
   </li>
 </ul>
 <h4>Posters</h4>
@@ -183,7 +183,7 @@ include "$BASE/header.php";
 <ul>
   <li>
       DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch, die Erstellung, und die Wartung von Konkordanzen zwischen bibliothekarischen Wissensorganisationssystemen (November 2014/August 2015).
-    <a href="http://dx.doi.org/10.5281/zenodo.28290">http://doi.org/10.5281/zenodo.28290</a>
+    <a href="https://doi.org/10.5281/zenodo.28290">https://doi.org/10.5281/zenodo.28290</a>
     (coli-conc grant proposal, abbreviated version)
   </li>
   <li>
@@ -198,7 +198,7 @@ include "$BASE/header.php";
   <li>
     An EZB-DDC Condordance (2011).
     VZG-Project Colibri Sub: Project Coli-Conc.
-    <a href="http://dx.doi.org/10.5281/zenodo.28263">http://doi.org/10.5281/zenodo.28263</a>.
+    <a href="https://doi.org/10.5281/zenodo.28263">https://doi.org/10.5281/zenodo.28263</a>.
   </li>
 </ul>
 <h4>Specifications</h4>
