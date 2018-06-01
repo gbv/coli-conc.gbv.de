@@ -25,6 +25,9 @@ require 'vendor/autoload.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>coli-conc <?= implode(': ', array_map('ucfirst', $LOCATION)) ?></title>
+<?php if ($AUTHOR) { ?>
+    <meta name="author" content="<?=$AUTHOR?>"/>
+<?php } ?>
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/navbar-fixed-side.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/font-awesome.min.css">
@@ -77,8 +80,7 @@ $MENU = [
     '/' => 'About',
     'terminologies' => 'KOS Registry',
     'concordances' => [
-        ['wikidata', 'Wikidata'],
-        ['gnd', 'GND']
+        ['wikidata', 'Wikidata']
     ],
     'cocoda' => 'Cocoda prototype',
     'publications' => [ 

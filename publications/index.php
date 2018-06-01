@@ -50,6 +50,10 @@ include "$BASE/header.php";
       coli-conc report 10: <a href="tr10.html">Ein Vergleich ausgewählter Normdatendienste</a> (Mai 2017)
       <a href="https://doi.org/10.5281/zenodo.800577">https://doi.org/10.5281/zenodo.800577</a>
   </li>
+  <li>
+      coli-conc report 11: <a href="tr11.html">Cocoda Technical Architecture</a> (May 2018)
+      <a href="https://dx.doi.org/10.5281/zenodo.1256498">https://dx.doi.org/10.5281/zenodo.1256498</a>
+  </li>
 </ul>
 
 <h4>Presentations</h4>          

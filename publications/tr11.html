@@ -1,0 +1,98 @@
+<?php
+$TITLE = 'Cocoda Technical Architecture';
+$AUTHOR = 'Jakob Voß';
+
+$BASE = '..';
+include "$BASE/header.php";
+?>
+
+<p>coli-conc Technical Report 11</p>
+<div class="author">
+    <div>
+        Jakob Voß
+        &lt;jakob.voss@gbv.de&gt;
+    </div>
+    <div>
+        Verbundzentrale des GBV (VZG)
+    </div>
+</div>
+
+<p>
+<div>2018-05-31</div>
+
+<div>DOI: <a href="https://dx.doi.org/10.5281/zenodo.1256498">10.5281/zenodo.1256498</a> (PDF)</div>
+<div>CC-BY-SA</div>
+</p>
+
+
+<p>This report gives an update on the architecture of Cocoda, a mapping tool for concordances between library knowledge organization systems that is being developed at the head office of GBV Common Library Network (VZG). A new implementation or Cocoda has been started from scratch.</p>
+<h4 id="background">Background</h4>
+<p>The aim of project coli-conc is an infrastructure to facilitate management and exchange of concordances between library knowledge organization systems. In particular this includes a web application to manage, create, and evaluate mappings. Since its beginning in 2015, the technical and organizational background of the project and its mapping tool have evolved. After some attempts with a monolithical Java application we revisited our original plan of a modularized web application. Based on experiences with two prototypes and the mapping data collected so far we started with a new implementation in May 2018. This report supersedes the Cocoda primer <span class="citation">(Voß 2015)</span> with an overview of the current technical architecture.</p>
+<h4 id="jskos-data-format">JSKOS Data Format</h4>
+<p>The core of the concordances infrastructure turned out to be the <a href="https://gbv.github.io/jskos/">JSKOS data format</a> for knowledge organization systems. In short this format is an application profile of JSON-LD <span class="citation">(Kellogg, Lanthaler, and Sporny 2014)</span> for SKOS <span class="citation">(Miles and Bechhofer 2009)</span> extended by support of mappings, concordances, usage statistics, and optional closed world statements <span class="citation">(Voß 2018)</span>. The specification has reached a stable state with only minor additions to be discussed.</p>
+<h4 id="cocoda-web-application">Cocoda Web Application</h4>
+<p>The new version of Cocoda is build as singe page web application using the <a href="https://vuejs.org/">Vue JavaScript framework</a> instead of AngularJS. We had some good experiences with the latter <span class="citation">(Voß and Horn 2014)</span> but Vue turned out to be more manageable. The application can be broken down into four main components:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td align="left"><strong>concept browser</strong></td>
+<td align="left">based on a hierarchical navigation and a detailled display of selected concepts</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>mapping editor</strong></td>
+<td align="left">to create, modify, and annotate mappings</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>mapping browser</strong></td>
+<td align="left">to show existing mappings and mapping recommendations from multiple sources</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>occurrences table</strong></td>
+<td align="left">to show the number of times selected concepts are used in library catalogs</td>
+</tr>
+</tbody>
+</table>
+<p>These components shall also be usable independently from Cocoda for instance to provide hierarchical browsing in one classification. Additional parts of the application for interaction with backend services may be pubished as <a href="https://www.npmjs.com">npm modules</a> which can also be used for server side applications.</p>
+<p>The web application is developed publically at <a href="https://github.com/gbv/cocoda" class="uri">https://github.com/gbv/cocoda</a> with technical documentation published at <a href="https://gbv.github.io/cocoda/" class="uri">https://gbv.github.io/cocoda/</a>. We use a Kanban board at <a href="https://waffle.io">Waffle.io</a> for project management and <a href="https://travis-ci.org">travis-ci</a> for continuous integration.</p>
+<h4 id="backend-web-services">Backend Web Services</h4>
+<p>The web application communicates with independent backend services, mainly in JSKOS format:</p>
+<ul>
+<li><strong>terminology services</strong> such <a href="https://api.dante.gbv.de/" class="uri">https://api.dante.gbv.de/</a>, Skosmos etc. <span class="citation">(Voß et al. 2016)</span></li>
+<li><strong>mapping providers</strong> with concordances and mapping recommendations</li>
+<li><strong>occurrence services</strong> that look up (combined) usage of concepts in library catalogs</li>
+<li><strong>mapping stores</strong> allow creation, modification, and annotation of mappings</li>
+<li><strong>identiy providers</strong> manage user accounts and provide access tokens via OAuth2</li>
+</ul>
+<h4 id="additional-data-processing">Additional Data Processing</h4>
+<p>Backend services and additional data processing pipelines are implemented with different technologies. In particular we use and contribute to:</p>
+<ul>
+<li><p><strong><a href="https://pypi.python.org/pypi/mc2skos">mc2skos</a></strong> command line application for converting MARC 21 records to JSKOS</p></li>
+<li><p><strong><a href="https://metacpan.org/pod/distribution/Catmandu/lib/Catmandu/Introduction.pod">Catmandu</a></strong> data processing toolkit for access to and transformation of other library data</p></li>
+<li><p><strong><a href="https://www.npmjs.org/package/wikidata-taxonomy">wikidata-taxonomy</a></strong> and <strong><a href="https://wdmapper.readthedocs.io/">wdmapper</a></strong> Wikidata authority file extraction and mapping tools</p></li>
+</ul>
+<h4 id="references" class="unnumbered">References</h4>
+<div id="refs" class="references">
+<div id="ref-JSONLD">
+<p>Kellogg, Gregg, Markus Lanthaler, and Manu Sporny. 2014. “JSON-LD 1.0.” W3C Recommendation. W3C.</p>
+</div>
+<div id="ref-SKOS">
+<p>Miles, Alistair, and Sean Bechhofer, eds. 2009. “SKOS Simple Knowledge Organization System Reference.” W3C Recommendation. <a href="http://www.w3.org/TR/skos-reference" class="uri">http://www.w3.org/TR/skos-reference</a>.</p>
+</div>
+<div id="ref-tr1">
+<p>Voß, Jakob. 2015. <em>Cocoda Technical Report 1</em>. doi:<a href="https://doi.org/10.5281/zenodo.16786">10.5281/zenodo.16786</a>.</p>
+</div>
+<div id="ref-JSKOS">
+<p>———. 2018. “JSKOS Data Format for Knowledge Organization Systems.” Version 0.3.2. <a href="http://gbv.github.io/jskos/" class="uri">http://gbv.github.io/jskos/</a>.</p>
+</div>
+<div id="ref-poster">
+<p>Voß, Jakob, Jana Maria Agne, Uma Balakrishnan, and Morsheda Akter. 2016. “Terminology Registries and Services.” doi:<a href="https://doi.org/10.5281/zenodo.166717">10.5281/zenodo.166717</a>.</p>
+</div>
+<div id="ref-code4lib">
+<p>Voß, Jakob, and Moritz Horn. 2014. “Exposing Library Services with AngularJS.” <em>Cod4lib Journal</em>, no. 26 (October). <a href="https://journal.code4lib.org/articles/10023" class="uri">https://journal.code4lib.org/articles/10023</a>.</p>
+</div>
+</div>
+
+</div>
+
+<?php
+include "$BASE/footer.php";
