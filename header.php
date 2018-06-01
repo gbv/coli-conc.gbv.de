@@ -6,7 +6,7 @@ $LOCATION = array_slice(explode('/', $SOURCE), 0, -1);
 $SECTION = $LOCATION[0];
 $TITLE = $TITLE ?? ucfirst(end($LOCATION));
 
-// repository in a subdirectory  
+// repository in a subdirectory
 $REPO = preg_replace('/\.git\n$/', '', `git config --get remote.origin.url`);
 if ($BASE) {
   $ROOT_REPO = preg_replace('/\.git\n$/', '', `git -C $BASE config --get remote.origin.url`);
@@ -72,9 +72,9 @@ require 'vendor/autoload.php';
             <span class="visible-xs">coli-conc</span>
          </a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">        
+        <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-<?php 
+<?php
 
 $MENU = [
     '/' => 'About',
@@ -82,8 +82,8 @@ $MENU = [
     'concordances' => [
         ['wikidata', 'Wikidata']
     ],
-    'cocoda' => 'Cocoda prototype',
-    'publications' => [ 
+    'cocoda/' => 'Cocoda prototype',
+    'publications' => [
         ['software', 'Software'],
         ['data', 'Data'],
         ['licenses', 'Licenses'],
@@ -94,7 +94,7 @@ $MENU = [
 
 foreach($MENU as $section => $entry) {
     if ($section == '/') $section = '';
-    $active = (count($LOCATION) < 2 && $section == $SECTION) 
+    $active = (count($LOCATION) < 2 && $section == $SECTION)
             ? ' class="active"' : '';
     if (is_array($entry)) {
         echo "<li$active>";
@@ -117,7 +117,7 @@ foreach($MENU as $section => $entry) {
     </nav>
   </div>
   <div class="col-sm-9 col-lg-10">
-  <?php 
+  <?php
 
 if ($SECTION != '/') {
   echo "<h2>";
