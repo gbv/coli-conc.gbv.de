@@ -78,11 +78,15 @@ require 'vendor/autoload.php';
 
 $MENU = [
     '/' => 'About',
-    'terminologies' => 'KOS Registry',
-    'concordances' => [
-        ['wikidata', 'Wikidata']
+    'services' => [
+      ['../terminologies', 'KOS Registry'],
+      ['../concordances', 'Concordance Registry'],
+      ['../cocoda/', 'Mapping Tool'],
     ],
-    'cocoda/' => 'Cocoda prototype',
+    'concordances' => [
+        ['wikidata', 'Wikidata'],
+        ['gnd', 'GND'],
+    ],
     'publications' => [
         ['software', 'Software'],
         ['data', 'Data'],
