@@ -16,7 +16,7 @@ if ($BASE) {
 }
 $SOURCE = "$REPO/tree/master/$SOURCE";
 
-// require 'vendor/autoload.php';
+require 'vendor/autoload.php';
 
 ?><!DOCTYPE html>
 <html lang="en">
@@ -80,7 +80,7 @@ $MENU = [
     '/' => 'About',
     'partners' => 'Partners',
     'services' => [
-      ['kostypes', 'KOS Types'],
+      ['../publications/kostypes', 'KOS Types'],
       ['../terminologies', 'KOS Registry'],
       ['../concordances', 'Concordance Registry'],
       ['../concordances/wikidata', 'Wikidata Mappings'],
