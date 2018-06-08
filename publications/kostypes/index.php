@@ -48,7 +48,7 @@ include "$BASE/header.php";
     <li>
     Presentation at <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016/programme.html">15<sup>th</sup> European NKOS workshop at TPDL</a>,
     September, 9<sup>th</sup>, 2016 in Hannover.
-    <a href="http://dx.doi.org/10.5281/zenodo.61767">http://doi.org/10.5281/zenodo.61767</a>
+    <a href="https://doi.org/10.5281/zenodo.61767">https://doi.org/10.5281/zenodo.61767</a>
     </li>
     <li>
     <a href="https://github.com/nichtich/wikidata-taxonomy">wikidata-taxonomy</a> command-line tool to extract taxonomies from Wikidata
