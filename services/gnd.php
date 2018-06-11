@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-use JSKOS\{Server, Service,  Result};
+use JSKOS\{Server, Service,  Result, ConceptScheme};
 use JSKOS\RDF\Mapper;
 use Symfony\Component\Yaml\Yaml;
 
@@ -21,6 +21,10 @@ class GNDService extends JSKOS\ConfiguredService {
         $jskos = $this->queryUriSpace($query);
         if (!count($jskos)) return $jskos;
 
+        foreach ($jskos as $concept) {
+            $concept->inScheme = [ new ConceptScheme(["uri" => "http://bartoc.org/en/node/430"]) ];
+        }
+
         $uri = $jskos[0]->uri;
         $rdf = Mapper::loadRDF($uri ."/about/lds", $uri);
         if (!$rdf) return $jskos;
@@ -29,6 +33,7 @@ class GNDService extends JSKOS\ConfiguredService {
         #error_log($rdf->getGraph()->serialise('turtle'));
 
         $this->mapper->applyAtResource($rdf->getGraph()->resource($uri), $jskos[0]);
+
         return $jskos;
     }
 }
