@@ -1,0 +1,365 @@
+---
+_ns:
+    foaf: http://xmlns.com/foaf/0.1/
+    gnd: http://d-nb.info/standards/elementset/gnd#
+    owl: http://www.w3.org/2002/07/owl#
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+
+_defaultLanguage: de
+
+_uriSpace:
+    Concept:
+        uriSpace: http://d-nb.info/gnd/
+        notationPattern: /^[0-9X-]+$/
+
+# JSKOS object fields
+
+type:
+    type: URI
+    properties:
+        - rdf:type
+
+created:
+    type: plain
+    unique: true
+    properties:
+        - gnd:dateOfPublication
+
+creator:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:accreditedArtist
+        - gnd:accreditedAuthor
+        - gnd:accreditedComposer
+        - gnd:arist
+        - gnd:author
+        - gnd:citedArist
+        - gnd:citedAuthor
+        - gnd:citedComposer
+        - gnd:composer
+        - gnd:creator
+        - gnd:director
+        - gnd:doubtfulArtist
+        - gnd:doubtfulAuthor
+        - gnd:doubtfulComposer
+        - gnd:fictitiousAuthor
+        - gnd:firstArtist
+        - gnd:firstAuthor
+        - gnd:firstComposer
+        - gnd:architect
+
+contributor:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:arranger
+        - gnd:benefactor
+        - gnd:contributingCorporateBody
+        - gnd:contributingFamily
+        - gnd:contributingPerson
+        - gnd:curator
+        - gnd:directorOfPhotography
+        - gnd:lithographer
+        - gnd:manufacturer
+        - gnd:narrator
+        - gnd:printer
+        - gnd:restorer
+        - gnd:revisor
+        - gnd:singer
+        - gnd:sponsorOrPatron
+        - gnd:subeditor
+
+publisher:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:editor
+
+# JSKOS Item fields
+
+identifier:
+    type: URI
+    properties:
+        - owl:sameAs
+
+url:
+    type: URI
+    unique: true
+    properties:    
+        - gnd:homepage
+ 
+prefLabel:
+    type: literal
+    unique: true
+    properties:
+        - gnd:preferredName
+        - gnd:preferredNameForThePerson
+        - gnd:preferredNameForTheConferenceOrEvent
+        - gnd:preferredNameForThePlaceOrGeographicName
+        - gnd:preferredNameForTheFamily
+        - gnd:preferredNameForTheSubjectHeading
+        - gnd:preferredNameForTheCorporateBody
+        - gnd:preferredNameForTheWork
+          
+altLabel:
+    type: literal
+    properties:
+        - gnd:variantName
+        - gnd:variantNameForTheConferenceOrEvent
+        - gnd:variantNameForTheCorporateBody
+        - gnd:variantNameForTheFamily
+        - gnd:variantNameForThePerson
+        - gnd:variantNameForThePlaceOrGeographicName
+        - gnd:variantNameForTheSubjectHeading
+        - gnd:variantNameForTheWork
+
+scopeNote:
+    type: literal
+    properties:
+        - gnd:biographicalOrHistoricalInformation
+
+definition:
+    type: literal
+    properties:
+        - gnd:definition
+
+subject:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:celebratedCorporateBody
+        - gnd:celebratedFamily
+        - gnd:celebratedPerson
+        - gnd:celebratedTopic
+        - gnd:gndSubjectCategory
+        - gnd:relatedDdcWithDegreeOfDeterminacy1
+        - gnd:relatedDdcWithDegreeOfDeterminacy2
+#        - gnd:relatedDdcWithDegreeOfDeterminacy3
+#        - gnd:relatedDdcWithDegreeOfDeterminacy4
+
+subjectOf:
+    type: URI
+    jskos: Concept
+    properties:    
+        - foaf:page
+ 
+
+# JSKOS concept fields
+
+broader:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:broaderTerm
+        - gnd:broaderTermGeneral
+        - gnd:broaderTermGeneric
+        - gnd:broaderTermInstantial
+        - gnd:broaderTermPartitive
+#        - gnd:broaderTermWithMoreThanOneElement
+        - gnd:hierarchicalSuperior       
+        - gnd:hierarchicalSuperiorOfPlaceOrGeographicName
+        - gnd:hierarchicalSuperiorOfTheConferenceOrEvent
+        - gnd:hierarchicalSuperiorOfTheCorporateBody
+
+narrower:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:narrowerTermGeneral
+        - gnd:narrowerTermGeneric
+        - gnd:narrowerTermInstantial
+        - gnd:narrowerTermPartitive
+
+related:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:accordingWork
+        - gnd:acquaintanceshipOrFriendship
+        - gnd:familialRelationship
+        - gnd:memberOfTheFamily
+        - gnd:relatedConferenceOrEvent
+        - gnd:relatedFamily
+        - gnd:relatedPerson
+        - gnd:relatedSubjecHeading
+        - gnd:relatedTerm
+        - gnd:topic
+
+previous:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:precedingConferenceOrEvent
+        - gnd:precedingCorporateBody
+        - gnd:precedingPlaceOrGeographicName
+        - gnd:precedingSubject
+        - gnd:precedingWork
+        - gnd:predecessor
+
+next:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:succeedingConferenceOrEvent
+        - gnd:succeedingCorporateBody
+        - gnd:succeedingPlaceOrGeographicName
+        - gnd:succeedingSubjectHeading
+        - gnd:succeedingWork
+        - gnd:successor
+
+startDate:
+    type: plain
+    unique: true    # FIXME: can be repeated in GND, e.g. http://d-nb.info/gnd/5055902-3
+    properties:
+        - gnd:dateOfBirth
+        - gnd:dateOfEstablishment
+
+endDate:
+    type: plain
+    unique: true
+    properties:
+        - gnd:dateOfDeath
+        - gnd:dateOfTermination
+
+relatedDate:
+    type: plain
+    properties:
+        - gnd:associatedDate
+        - gnd:dateOfDiscovery
+        - gnd:periodOfActivity
+
+# OTHER
+
+relatedPlace:
+    type: URI
+    jskos: Concept
+    properties:
+        - gnd:associatedPlace
+        - gnd:characteristicPlace
+        - gnd:otherPlace
+        - gnd:spatialAreaOfActivity
+        - gnd:relatedPlaceOrGeographicName
+        - gnd:place
+ 
+
+# List of remaining GND Ontology properties
+
+# Addressee
+# Affiliation
+# Annotator
+# Bookbinder
+# Bookdesigner
+# Building owner
+# Cartographer
+# Choreographer
+# Collector
+# Compiler
+# Complex see reference - subject
+# Conferrer
+# Contributing place orgeographic name
+# Copist
+# Corporate body is member
+# Correspondent
+# Dedicatee
+# Designer
+# Engraver
+# Etcher
+# Exhibitor
+# Field of activity
+# Field of study
+# Former owner
+# Form of work and expression
+# Founder
+# Function or role
+# Gender
+# Geographic Area Code
+# Illustrator or illuminator
+# Initiator
+# instrument
+# Instrumentalist
+# Inventor
+# Language
+# Language code
+# Librettist
+# Literary source
+# Medium of performance
+# Member
+# Musician
+# Occasion
+# Occasion of the subject heading
+# Occasion of the work
+# Organizer or host
+# Owner
+# Painter
+# Photographer
+# Place of activity
+# Place of Birth
+# Place of business
+# Place of conference or event
+# Place of custody
+# Place of death
+# Place of discovery
+# Place of Exile
+# Place of manufacture
+# Place or geographic name is member
+# Played instrument
+# Poet
+# Preferred name entity for the person
+# Professional relationship
+# Profession or occupation
+# Pseudonym
+# Related Corporate Body
+# Related Dewey Decimal Classification with degree of determinacy 3
+# Related Dewey Decimal Classification with degree of determinacy 4
+# Screenwriter
+# Scriptorium
+# Sculptor
+# Starting or final point of a distance
+# Super-property pf
+# Temporary name
+# Temporary name of the conference or event
+# Temporary name of the corporate body
+# Temporary name of the place or geographic name
+# Title of nobility
+# Translator
+# Type of coordinates
+# Variant name entity for the person
+# Writer of added commentary
+# Academic degree
+# Addition (deprecated)
+# Affiliation (Literal)
+# Beginning of a period
+# Coordinates
+# Counting
+# Date of birth and death
+# Date of conference or event
+# Date of establishment and termination
+# Date of production
+# Easternmost longitude
+# End of a period
+# Epithet
+# generic name
+# title or territory (deprecated)
+# Forename
+# Function or role (Literal)
+# Key of the version
+# Key of the work
+# Name addition
+# Northernmost latitude
+# Old authority number
+# Opus numeric designation of musical work
+# Personal name
+# Place of Birth (Literal)
+# Place of death (Literal)
+# Prefix
+# Profession or occupation (Literal)
+# Publication
+# Serial numeric designation of musical work
+# Southernmost latitude
+# Surname
+# Thematic index numeric designation of musical work
+# Title of nobility (Literal)
+# UDK-Code
+# Westernmost longitude
+
