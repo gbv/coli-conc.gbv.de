@@ -1,0 +1,5 @@
+_uriSpace:
+    Concept:
+        uriSpace: http://www.wikidata.org/entity/
+        notationPattern: /^[QP][0-9]+$/i
+        notationNormalizer: strtoupper
