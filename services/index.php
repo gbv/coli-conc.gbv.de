@@ -12,8 +12,8 @@ include "$BASE/header.php";
   <li><a href="../concordances/wikidata/">Wikidata Mappings</a></li>
   <li><a href="../concordances/gnd/">GND Mappings</a></li>
   <li><a href="../cocoda/">Cocoda Mapping Tool</a></li>
-  <li>Catalogue Oc-Occurrences (documentation will follow)</a>
-  <li>JSKOS API (documentation will follow)</a>
+  <li><a href="../occurrences/">Catalogue Oc-Occurrences</a></li>
+  <li>JSKOS API (documentation will follow)</li>
  </ul>
 </p>
 

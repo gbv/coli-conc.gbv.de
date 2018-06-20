@@ -65,24 +65,9 @@ class WikidataService extends JSKOS\ConfiguredService {
 
 		# TODO: type (item or property) wikibase:Item / wikibase:Property / ...
 
-        #foreach ($jskos as $concept) {
-
-        #    $concept->inScheme = [ new ConceptScheme(["uri" => "http://bartoc.org/en/node/430"]) ];
-        #}
-/*
-        $uri = $jskos[0]->uri;
-        $rdf = Mapper::loadRDF($uri ."/about/lds", $uri);
-        if (!$rdf) return new Result();
-
-        # TODO: fix date format
-        #error_log($rdf->getGraph()->serialise('turtle'));
-        try {
-            # FIXME: relatedDate and other fields may throw an error, better ignore instead
-            $this->mapper->applyAtResource($rdf->getGraph()->resource($uri), $jskos[0]);
-        } catch(Exception $e) {
-            return $jskos;
-        }
- */
+        $concept->inScheme = [ 
+            new ConceptScheme(["uri" => "http://bartoc.org/en/node/1940"]) 
+        ];
 
         # depiction
         $depictions = static::mainsnakValues($data, 'P18', 'commonsMedia');
