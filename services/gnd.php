@@ -27,12 +27,16 @@ class GNDService extends JSKOS\ConfiguredService {
 
         $uri = $jskos[0]->uri;
         $rdf = Mapper::loadRDF($uri ."/about/lds", $uri);
-        if (!$rdf) return $jskos;
+        if (!$rdf) return new Result();
 
         # TODO: fix date format
         #error_log($rdf->getGraph()->serialise('turtle'));
-
-        $this->mapper->applyAtResource($rdf->getGraph()->resource($uri), $jskos[0]);
+        try {
+            # FIXME: relatedDate and other fields may throw an error, better ignore instead
+            $this->mapper->applyAtResource($rdf->getGraph()->resource($uri), $jskos[0]);
+        } catch(Exception $e) {
+            return $jskos;
+        }
 
         return $jskos;
     }
