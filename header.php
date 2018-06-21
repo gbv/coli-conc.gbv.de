@@ -1,5 +1,7 @@
 <?php
 
+require_once 'vendor/autoload.php';
+
 // get title and location of current page from its filename
 $SOURCE = substr(get_included_files()[0], strlen(__DIR__)+1);
 $LOCATION = array_slice(explode('/', $SOURCE), 0, -1);
@@ -16,7 +18,6 @@ if ($BASE) {
 }
 $SOURCE = "$REPO/tree/master/$SOURCE";
 
-require 'vendor/autoload.php';
 
 ?><!DOCTYPE html>
 <html lang="en">
@@ -47,7 +48,7 @@ require 'vendor/autoload.php';
 
   <div class="navbar-inverse navbar-fixed-top">
     <div class="col-sm-3 col-lg-2 vcenter hidden-xs">
-      <a href="//www.gbv.de/"><img src="<?=$BASE?>/img/vzg-logo.jpg" style="padding: 10px"/></a>
+      <a href="//www.gbv.de/"><img src="<?=$BASE?>/img/vzg-logo.jpg" style="padding: 5px"/></a>
     </div><!--
     --><div class="col-sm-9 col-lg-10 text-right vcenter">
      <span style="color:#fff">Verbundzentrale des GBV (VZG)
@@ -67,7 +68,7 @@ require 'vendor/autoload.php';
             <span class="icon-bar"></span>
 			<span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?=$BASE?>/">
+          <a class="navbar-brand" style="padding: 5px" href="<?=$BASE?>/">
             <img class="hidden-xs" src="<?="$BASE/img/coli-conc-logo.svg"?>" alt="coli-conc"/>
             <span class="visible-xs">coli-conc</span>
          </a>
@@ -76,32 +77,17 @@ require 'vendor/autoload.php';
           <ul class="nav navbar-nav">
 <?php
 
-$MENU = [
-    '/' => 'About',
-    'partners' => 'Partners',
-    'services' => [
-      ['../publications/kostypes', 'KOS Types'],
-      ['../terminologies', 'KOS Registry'],
-      ['../concordances', 'Concordance Registry'],
-      ['../concordances/wikidata', 'Wikidata Mappings'],
-      ['../concordances/gnd', 'GND Mappings'],
-    ],
-    'cocoda/' => "Cocoda Mapping Tool",
-    'publications' => [
-        ['software', 'Software'],
-        ['data', 'Data'],
-        ['licenses', 'Licenses'],
-    ],
-    'contact' => 'Contact'
-];
+use Symfony\Component\Yaml\Yaml;
+$MENU = Yaml::parseFile("$BASE/menu.yaml");
 
 foreach($MENU as $section => $entry) {
     if ($section == '/') $section = '';
     $active = (count($LOCATION) < 2 && $section == $SECTION)
             ? ' class="active"' : '';
     if (is_array($entry)) {
+        $title =  $section === '' ? 'About' : ucfirst($section);
         echo "<li$active>";
-        echo "<a href='$BASE/$section'>".ucfirst($section)."</a>";
+        echo "<a href='$BASE/$section'>$title</a>";
         echo "<ul class='dropdown-menu'>";
         foreach ($entry as $subentry) {
             list ($loc, $title) = $subentry;

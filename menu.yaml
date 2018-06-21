@@ -1,0 +1,15 @@
+---
+/: 
+  - [partners, Partners]
+services:
+  - [../publications/kostypes, KOS Types]
+  - [../terminologies, KOS Registry]
+  - [../concordances, Concordance Registry]
+  - [../concordances/wikidata, Wikidata Mappings]
+  - [../concordances/gnd, GND Mappings]
+cocoda: Cocoda Mapping Tool
+publications:
+  - [software, Software]
+  - [data, Data]
+  - [licenses, Licenses]
+contact: Contact

@@ -22,7 +22,7 @@ $PARTNERS = [
   foreach($PARTNERS as $side) {
     echo '<div class="col-md-6" style="text-align: center;">';
     foreach($side as $logo => $url) {
-      echo "<p><a href='$url' target='_blank'><img src='/img/$logo.png' width='300px' style='margin: 30px'></a></p>";
+      echo "<p><a href='$url' target='_blank'><img src='../img/$logo.png' width='300px' style='margin: 30px'></a></p>";
     }
     echo '</div>';
   }
