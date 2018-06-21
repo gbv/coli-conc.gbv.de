@@ -1,13 +1,14 @@
 name,type,status,language,travis,repository,release,description
-mapping-api,application,prototype,JavaScript,y,https://github.com/gbv/mapping-api,,JSKOS mapping provider
 cocoda,application,prototype,JavaScript,y,https://github.com/gbv/cocoda,,web application mapping tool
+jskos-server,application,prototype,JavaScript,y,https://github.com/gbv/jskos-server,,JSKOS mapping provider
+occurrences-api,prototype,production,Perl,y,https://github.com/gbv/occurrences-api,gbv/occurrences-api,API to query catalog (co)occurrences
+mc2skos,application,production,Python,y,https://github.com/scriptotek/mc2skos,mc2skos,command-line tool to convert MARC to SKOS
 jskos-php,library,production,PHP,y,https://github.com/gbv/jskos-php,gbv/jskos,PHP library for JSKOS
 jskos-http,library,production,PHP,y,https://github.com/gbv/jskos-http,gbv/jskos-http,JSKOS API implementation
 jskos-rdf,library,production,PHP,y,https://github.com/gbv/jskos-rdf,gbv/jskos-rdf,PHP library to process JSKOS and RDF data
 orcid-jskos,library,production,PHP,,https://github.com/gbv/orcid-jskos,gbv/orcid-jskos,PHP wrapper to access ORCID in JSKOS format
 viaf-jskos,library,production,PHP,y,https://github.com/gbv/viaf-jskos,gbv/viaf-jskos,PHP wrapper to access VIAF in JSKOS format
 bartoc-jskos,library,production,PHP,y,https://github.com/gbv/bartoc-jskos,gbv/bartoc-jskos,PHP wrapper to access BARTIC in JSKOS format
-mc2skos,application,production,Python,y,https://github.com/scriptotek/mc2skos,mc2skos,command-line tool to convert MARC to SKOS
 skosify,application,production,Python,y,https://github.com/NatLibFi/Skosify,skosify,command-line tool to convert and check SKOS vocabularies
 bk2rdf,application,production,Perl,,https://github.com/gbv/bk2rdf,https://github.com/gbv/bk2rdf,extract and enrich BK records to MARC
 wikidata-taxonomy,application,production,JavaScript,y,https://github.com/nichtich/wikidata-taxonomy,wikidata-taxonomy,command-line tool to extract taxonomies from Wikidata
