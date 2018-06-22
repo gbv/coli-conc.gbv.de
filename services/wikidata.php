@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-use JSKOS\{Server, Service,  Result, ConceptScheme};
+use JSKOS\{Server, Service,  Result, ConceptScheme, Concept};
 use Symfony\Component\Yaml\Yaml;
 
 class WikidataService extends JSKOS\ConfiguredService {
