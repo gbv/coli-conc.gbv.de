@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-use JSKOS\{Server, Service,  Result, ConceptScheme, Concept};
+use JSKOS\{Server, Service,  Result, ConceptScheme, Concept, DataType};
 use Symfony\Component\Yaml\Yaml;
 
 class WikidataService extends JSKOS\ConfiguredService {
@@ -83,7 +83,7 @@ class WikidataService extends JSKOS\ConfiguredService {
         # startDate
         foreach (['P569','P571','P580'] as $p) {
             $date = static::mainsnakValues($data, $p, 'time', 'time');
-            if (count($date)) {
+            if (count($date) && DataType::isdate($date[0])) {
                 $concept->startDate = preg_replace('/^\+/','',$date[0]);
                 break;
             }
@@ -91,7 +91,7 @@ class WikidataService extends JSKOS\ConfiguredService {
         # endDate
         foreach (['P570','P576','P582'] as $p) {
             $date = static::mainsnakValues($data, $p, 'time', 'time');
-            if (count($date)) {
+            if (count($date) && DataType::isdate($date[0])) {
                 $concept->endDate = preg_replace('/^\+/','',$date[0]);
                 break;
             }
