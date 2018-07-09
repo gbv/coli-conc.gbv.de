@@ -28,3 +28,6 @@ publications/bartoc
 
 !concordances
 !concordances/**/**
+
+!occurrences
+!occurrences/**/**

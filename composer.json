@@ -9,7 +9,8 @@
         "league/csv": "^9.0",
         "puli/composer-plugin": "^1.0@beta",
         "php-http/message": "^1.6",
-        "guzzlehttp/psr7": "^1.4"
+        "guzzlehttp/psr7": "^1.4",
+        "erusev/parsedown-extra": "^0.7.1"
     },
     "minimum-stability": "dev",
     "prefer-stable": true

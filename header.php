@@ -26,7 +26,7 @@ $SOURCE = "$REPO/tree/master/$SOURCE";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>coli-conc <?= implode(': ', array_map('ucfirst', $LOCATION)) ?></title>
-<?php if ($AUTHOR) { ?>
+<?php if ($AUTHOR ?? null) { ?>
     <meta name="author" content="<?=$AUTHOR?>"/>
 <?php } ?>
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap.min.css">
@@ -114,4 +114,13 @@ if ($SECTION != '/') {
      echo "<a href='../'>".ucfirst($SECTION)."</a>: ";
   }
   echo $TITLE."</h2>";
+}
+
+if (($FORMAT ?? '') == 'markdown') {
+  $parsedown = ParsedownExtra::instance();
+  $content = file_get_contents(debug_backtrace()[0]['file']);
+  $content = preg_replace('/<[?].*?([?]>|\Z)/sm', '', $content);
+  echo $parsedown->text($content);
+  include 'footer.php';
+  exit;
 }
