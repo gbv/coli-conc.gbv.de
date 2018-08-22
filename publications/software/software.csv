@@ -1,6 +1,7 @@
 name,type,status,language,travis,repository,release,description
 cocoda,application,prototype,JavaScript,y,https://github.com/gbv/cocoda,,web application mapping tool
 jskos-server,application,prototype,JavaScript,y,https://github.com/gbv/jskos-server,,JSKOS mapping provider
+jskos-tools,library,production,JavaScript,y,https://github.com/gbv/jskos-tools,,JSKOS mapping provider
 occurrences-api,prototype,production,Perl,y,https://github.com/gbv/occurrences-api,gbv/occurrences-api,API to query catalog (co)occurrences
 mc2skos,application,production,Python,y,https://github.com/scriptotek/mc2skos,mc2skos,command-line tool to convert MARC to SKOS
 jskos-php,library,production,PHP,y,https://github.com/gbv/jskos-php,gbv/jskos,PHP library for JSKOS
