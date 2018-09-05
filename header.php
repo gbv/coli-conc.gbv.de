@@ -30,7 +30,6 @@ $SOURCE = "$REPO/tree/master/$SOURCE";
     <meta name="author" content="<?=$AUTHOR?>"/>
 <?php } ?>
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?=$BASE?>/css/navbar-fixed-side.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap-vzg.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap-treeview.min.css">
@@ -44,37 +43,25 @@ $SOURCE = "$REPO/tree/master/$SOURCE";
   </head>
   <body>
 
-<div class="container-fluid">
+  <nav class="navbar navbar-dark fixed-top">
+    <a href="//www.gbv.de/" class="navbar-brand d-none d-sm-block">
+	  <img src="<?=$BASE?>/img/vzg-logo.svg" height="40px" alt="Verbundzentrale des GBV (VZG)"/>
+	</a>
+    <div class="navbar-brand">
+	  <small>Verbundzentrale des GBV (VZG)</small>
+	</div>
+  </nav>
 
-  <div class="navbar-inverse navbar-fixed-top">
-    <div class="col-sm-3 col-lg-2 vcenter hidden-xs">
-      <a href="//www.gbv.de/"><img src="<?=$BASE?>/img/vzg-logo.jpg" style="padding: 5px"/></a>
-    </div><!--
-    --><div class="col-sm-9 col-lg-10 text-right vcenter">
-     <span style="color:#fff">Verbundzentrale des GBV (VZG)
-    </div>
-  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="sidebar" class="col-md-3 col-xl-2">
+        <ul class="list-group sticky-top sticky-offset">
+          <li class="list-group-item logo-separator d-flex justify-content-center">
+            <a class="navbar-brand d-none d-md-block" style="padding: 5px" href="<?=$BASE?>/">
+              <img src="<?="$BASE/img/coli-conc-logo.svg"?>" alt="coli-conc"/>
+            </a>
+          </li>
 
-  <div class="row">
-    <div class="col-sm-3 col-lg-2">
-
-    <nav class="navbar navbar-default navbar-fixed-side">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" style="padding: 5px" href="<?=$BASE?>/">
-            <img class="hidden-xs" src="<?="$BASE/img/coli-conc-logo.svg"?>" alt="coli-conc"/>
-            <span class="visible-xs">coli-conc</span>
-         </a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
 <?php
 
 use Symfony\Component\Yaml\Yaml;
@@ -82,33 +69,30 @@ $MENU = Yaml::parseFile("$BASE/menu.yaml");
 
 foreach($MENU as $section => $entry) {
     if ($section == '/') $section = '';
-    $active = (count($LOCATION) < 2 && $section == $SECTION)
-            ? ' class="active"' : '';
+    $class = (count($LOCATION) < 2 && $section == $SECTION)
+            ? 'active' : '';
+	$class .= ' list-group-item';
     if (is_array($entry)) {
         $title =  $section === '' ? 'About' : ucfirst($section);
-        echo "<li$active>";
-        echo "<a href='$BASE/$section'>$title</a>";
-        echo "<ul class='dropdown-menu'>";
+        echo "<li class='$class submenu'><a href='$BASE/$section'>$title</a></li>";
         foreach ($entry as $subentry) {
             list ($loc, $title) = $subentry;
-            $active = end($LOCATION) == $loc ? ' class="active"' : '';
-            echo "<li$active><a href='$BASE/$section/$loc'>$title</a></li>";
+            $class = end($LOCATION) == $loc ? 'active' : '';
+            echo "<li class='$class list-group-item submenu-item'>";
+			echo "<a href='$BASE/$section/$loc'>$title</a></li>";
         }
-        echo "</ul></li>";
+        //echo "</ul></li>";
     } else {
-        echo "<li$active><a href='$BASE/$section'>$entry</a></li>";
+       echo "<li class='$class'><a href='$BASE/$section'>$entry</a></li>";
     }
 }
 ?>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <div class="col-sm-9 col-lg-10">
+      </ul>
+    </div>
+    <div id="main" class="col-md-9 col-xl-10">
   <?php
 
-if ($SECTION != '/') {
+if ($SECTION != '/' && $TITLE) {
   echo "<h2>";
   if (count($LOCATION)>1) {
      echo "<a href='../'>".ucfirst($SECTION)."</a>: ";

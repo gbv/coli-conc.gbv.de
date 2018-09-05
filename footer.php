@@ -1,29 +1,28 @@
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
-        </div>
       </div>
     </div>
-
-<nav class="navbar navbar-inverse navbar-fixed-bottom hidden-xs">
-  <div class="col-sm-3 col-lg-2 hidden-xs">
-    <i class="fa fa-github"></i>
-    <a href="<?=$SOURCE?>">source</a>
-     <i class="fa fa-twitter"></i>
-     <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">
-        @coli_conc
-     </a>
-
-    <?=($LICENSE ?? 0) ? $LICENSE : '' ?>
-
   </div>
-  <div class="col-sm-9 col-lg-10 text-center">
-    coli-conc is a project of the head office of GBV –
-    <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
-    – funded by German Research Foundation (DFG)
+</div>
 
-
+<footer> <!--nav class="navbar navbar-inverse navbar-fixed-bottom hidden-xs"-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-3 col-md-2">
+        <i class="fa fa-github"></i>
+        <a href="<?=$SOURCE?>">source</a>
+        <i class="fa fa-twitter"></i>
+        <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">
+            @coli_conc
+        </a>
+        <?=($LICENSE ?? 0) ? $LICENSE : '' ?>
+      </div>
+      <div class="col-xs-9 col-md-10 text-center">
+        coli-conc is a project of the head office of GBV –
+        <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
+        – funded by German Research Foundation (DFG)
+      </div>
+    </div>
   </div>
-</nav>
+</footer>
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="<?=$BASE?>/js/bootstrap.min.js"></script>

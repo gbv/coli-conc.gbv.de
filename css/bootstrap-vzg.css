@@ -1,50 +1,77 @@
-/* sidebar */
-.navbar-default .navbar-nav>li>a {
-  color: #c14e00;
-  background-color: #fff;
-}
-.navbar-default .navbar-nav>li>a:hover {
-  color: #c14e00;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #c14e00;
-}
-.navbar-default {      
-  background-color: #fff;
-  border: none;
-}
-.vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
-}
-
 /* header */
-.navbar-fixed-top { 
+nav.fixed-top { 
+  padding: 4px 16px 4px 16px;
+  height: 40px;
   background-color: #577fbb;
-  border-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
 }
 body {
-  padding-top: 1em;
-}
-@media (min-width: 768px) {
-  body {
-    padding-top: 70px;
-  }
+  padding-top: 40px; 
 }
 
+/* sidebar */
+.sticky-offset {
+  top: 40px;
+}
+#sidebar .list-group-item, #sidebar .list-group-item .active {
+  border: 1px solid #e7e7e7;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+}
+#sidebar a {
+  color: #c14e00;
+}
+#sidebar li:hover {
+  color: #c14e00;
+  background-color: #e7e7e7;
+}
+.logo-separator:hover {
+  background: none !important;
+}
+#sidebar li:hover a {
+  text-decoration: none;
+}
+#sidebar .active {
+  background-color: #e7e7e7;
+}
+.submenu {
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #e7e7e7 !important;
+}
+#sidebar li.submenu-item {
+  padding-left: 2.25rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+.submenu-item + .submenu-item {
+  border: none !important;
+}
+#sidebar li.submenu-item a {
+  color: #777 !important;
+}
+
+/* content */
+body > .container-fluid {
+  padding-left: 0;
+}
+#main {
+  margin-top: 1em;
+}
+h2, h3, h4, h5 {
+  color: #355FB8
+}
+
+
 /* footer */
-.navbar-fixed-bottom {
+footer {
   border-top: 10px solid #6791c9;
   background: #fff;
   font-size: small;
   color: #777;
 }
 
-
-h2, h3, h4, h5 {
-  color: #355FB8
-}
+/* TODO: remove/replace the following */
 .fa-twitter { color: #55acee }
 .fa-github { color: #333333 }
 .collapsible-heading a:after {
@@ -56,8 +83,6 @@ h2, h3, h4, h5 {
 .collapsible-heading a.collapsed:after {
   content:"\e080";
 }
-
-/* Badges */
 .badge-success {
   background-color: #468847;
 }
