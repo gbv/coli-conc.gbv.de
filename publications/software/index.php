@@ -69,7 +69,6 @@ $status = [
               echo "<img src='https://img.shields.io/$shield/v/{$s['release']}.svg?style=flat'/></a>";
             } else {
               echo "<a href='$url'>";
-              echo "<span class='glyphicon glyphicon-arrow-right'/>";
             }
             echo "</a>";
         }

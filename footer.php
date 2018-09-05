@@ -7,9 +7,9 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-3 col-md-2">
-        <i class="fa fa-github"></i>
+        <i class="fab fa-github"></i>
         <a href="<?=$SOURCE?>">source</a>
-        <i class="fa fa-twitter"></i>
+        <i class="fab fa-twitter"></i>
         <a href="https://twitter.com/coli_conc" title="follow @coli_conc at twitter">
             @coli_conc
         </a>
