@@ -1,9 +1,12 @@
 /* header */
 nav.fixed-top { 
-  padding: 4px 16px 4px 16px;
+  padding: 0px 16px 0px 16px;
   height: 40px;
   background-color: #577fbb;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+.fixed-top a.navbar-brand { 
+  padding-top: 0;
 }
 body {
   padding-top: 40px; 
@@ -70,6 +73,7 @@ footer {
   font-size: small;
   color: #777;
 }
+
 
 .fa-twitter { color: #55acee }
 .fa-github { color: #333333 }
