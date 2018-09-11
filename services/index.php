@@ -43,8 +43,10 @@ knowledge organization systemes in [JSKOS format](https://gbv.github.io/jskos/).
   Access to terminologies and concepts from central terminology service of VZG.
 
 * **[Mappings API](../api/mappings)**<br>
-  Access to collected mappings.
+  Access to collected mappings and concordances.
 
 * **[Occurrences API](../occurrences/)**<br>
   Look up occurrences and co-occurrences of concepts in library catalogs. 
 
+* **[Wikidata JSKOS API](wikidata/)**<br>
+  Access Wikidata in JSKOS format with [wikidata-jskos](https://github.com/gbv/wikidata-jskos).
