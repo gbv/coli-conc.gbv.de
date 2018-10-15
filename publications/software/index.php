@@ -40,7 +40,7 @@ $status = [
     </td>
     <td>
     <?php if ($s['travis']) {
-        $url = str_replace('github.com','travis-ci.org',$s['repository']);
+        $url = str_replace('github.com','travis-ci.'.$s['travis'],$s['repository']);
         echo "<a href='$url'><img src='$url.svg'></a>";
     } ?>
     </td>
