@@ -39,7 +39,7 @@ include "$BASE/header.php";
     Project coli-conc 
     <a href="http://gepris.dfg.de/gepris/projekt/276843344">is funded</a>
     by the German Research Foundation (DFG)
-    from December 2015 till November 2018.
+    from December 2015 till April 2019.
     An abbreviated version of our grant proposal has been published
     with DOI <a class="alert-link" href="https://doi.org/10.5281/zenodo.28290">10.5281/zenodo.28290</a>.
     See the <a href="publications">publications section</a> for 
