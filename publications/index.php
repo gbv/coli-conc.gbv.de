@@ -147,6 +147,14 @@ include "$BASE/header.php";
 <h4>Reviewed articles</h4>
 <ul>
   <li>
+    Balakrishnan, Uma; Voß, Jakob; Soergel, Dagobert:
+    Towards integrated systems for KOS management, mapping, and access. 
+    Coli-conc and its collaborative computer-assisted KOS mapping tool Cocoda.
+    In: Ribeiro, Fernanda; Cerveira, Maria Elisa (eds.): 
+    Challenges and Opportunities for Knowledge Organization in the Digital Age.
+    Proceedings of the Fifteenth International ISKO Conference 9-11 July 2018 Porto. pp. 693-701
+  </li>
+  <li>
     Voß, Jakob; Bode, Laura; Hamasur, Diana; Isbanner, Laura; Jäger, Jan;
     Kurtar, Ebru; Peters, Kim; Rufaioglu, Melis; Schneevogt, Christian; Stelter,
     Romy; Wiegand, Jennifer; Wil, Ann Christin; Yildirimer, Remziye:
