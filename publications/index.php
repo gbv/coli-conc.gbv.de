@@ -44,7 +44,8 @@ include "$BASE/header.php";
       <a href="coli-conczusammenfassung.pdf">PDF</a>
   </li>
   <li>
-      coli-conc report 9: Umfrage zur Basisklassifikation 2017 (Mai 2017)                <a href="https://si-it-workshop.gbv.de/wp-content/uploads/2017/01/BKUmfrage_Ergebnisse.pdf">PDF</a>
+      coli-conc report 9: Umfrage zur Basisklassifikation 2017 (Mai 2017)
+      <a href="https://si-it-workshop.gbv.de/wp-content/uploads/2017/01/BKUmfrage_Ergebnisse.pdf">PDF</a>
   </li>
   <li>
       coli-conc report 10: <a href="tr10.html">Ein Vergleich ausgewählter Normdatendienste</a> (Mai 2017)
@@ -58,6 +59,12 @@ include "$BASE/header.php";
 
 <h4>Presentations</h4>          
 <ul>
+  <li>
+    Werkstattbericht Coli-conc: Stand des Mapping-Tools Cocoda. Presentation at
+    <a href="https://rvk.uni-regensburg.de/2-uncategorised/171-rvk-anwendertreffen-2018-anmeldung-programm">RVK Anwendertreffen</a>, 
+    November 7<sup>th</sup>, 2018 in Regensburg.
+    <a href="https://doi.org/10.5281/zenodo.1477899">https://doi.org/10.5281/zenodo.1477899</a>
+  </li>
   <li>
     Voraussetzungen für die offene Nutzung der RVK. Presentation at
     <a href="https://rvk.uni-regensburg.de/2-uncategorised/156-rvk-anwendertreffen-2017">RVK Anwendertreffen</a>, 
