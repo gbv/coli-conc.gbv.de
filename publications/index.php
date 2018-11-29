@@ -55,6 +55,10 @@ include "$BASE/header.php";
       coli-conc report 11: <a href="tr11.html">Cocoda Technical Architecture</a> (May 2018)
       <a href="https://doi.org/10.5281/zenodo.1256498">https://doi.org/10.5281/zenodo.1256498</a>
   </li>
+  <li>
+      coli-conc report 12: <a href="tr12.html">Übersicht von GND-Konkordanzen</a> (November 2018)
+      <a href="https://doi.org/10.5281/zenodo.1689997">https://doi.org/10.5281/zenodo.1689997</a>
+  </li>
 </ul>
 
 <h4>Presentations</h4>          
