@@ -3,12 +3,15 @@ $BASE = '..';
 include "$BASE/header.php";
 ?>
 
+<h4>Videos</h4>
+<ul>
+  <li>
+    <a href="https://vimeo.com/296616305">Kurzeinführung Mapping mit Cocoda (0.5.1)</a> 
+    German Screencast introducing Cocoda 0.5.1 in 3 minutes (2018-10-23)
+  </li>
+</ul>
+
 <h4>Reports</h4>
-<p>
-  See
-    <a href="https://www.zotero.org/groups/coli-conc/items/collectionKey/WCRJ5V4U">coli-conc publications</a> 
-   for a full bibliography.
-</p>
 <ul>
   <li>
     <a href="tr1.html">coli-conc Technical Report 1: Cocoda primer</a>. (April 2015)
@@ -220,6 +223,11 @@ include "$BASE/header.php";
     <a href="https://doi.org/10.5281/zenodo.28263">https://doi.org/10.5281/zenodo.28263</a>.
   </li>
 </ul>
+<p>
+  The <a href="https://www.zotero.org/groups/coli-conc/items/collectionKey/WCRJ5V4U">coli-conc publications</a> 
+  bibliography at Zotero contains additional publication but it is not updated anymore.
+</p>
+
 <h4>Specifications</h4>
 <table class="table">
   <thead>
