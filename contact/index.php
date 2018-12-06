@@ -16,8 +16,6 @@ include "$BASE/header.php";
         <dd>Dr. Jakob Voß (voss@gbv.de)</dd>
         <dt>Software Development</dt>
         <dd>Stefan Peters (peters@gbv.de)</dd>
-        <dt>Library System Support</dt>
-        <dd>Jana Maria Agne (agne@gbv.de)</dd>
         <dt>Student Assistant</dt>
         <dd><em>Please contact us if interested!</em></dd>
     </dl>

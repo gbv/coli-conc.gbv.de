@@ -6,6 +6,13 @@
 <footer> <!--nav class="navbar navbar-inverse navbar-fixed-bottom hidden-xs"-->
   <div class="container-fluid">
     <div class="row">
+      <div class="col-xs-8 col-md-10">
+        coli-conc is a project of 
+        <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
+        (<a href="https://www.gbv.de/impressum">Impressum</a> |
+        <a href="https://www.gbv.de/datenschutz">Datenschutz</a>),
+        funded by German Research Foundation (DFG)
+      </div>
       <div class="col-xs-3 col-md-2">
         <i class="fab fa-github"></i>
         <a href="<?=$SOURCE?>">source</a>
@@ -14,11 +21,6 @@
             @coli_conc
         </a>
         <?=($LICENSE ?? 0) ? $LICENSE : '' ?>
-      </div>
-      <div class="col-xs-9 col-md-10 text-center">
-        coli-conc is a project of the head office of GBV –
-        <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
-        – funded by German Research Foundation (DFG)
       </div>
     </div>
   </div>
