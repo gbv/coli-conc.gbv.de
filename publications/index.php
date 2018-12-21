@@ -6,8 +6,12 @@ include "$BASE/header.php";
 <h4>Videos</h4>
 <ul>
   <li>
+    <a href="https://vimeo.com/307653028">Mapping mit Cocoda 0.6.0</a> 
+    German screencast introducing Cocoda 0.6.0 in 5 minutes (2018-12-21)
+  </li>
+  <li>
     <a href="https://vimeo.com/296616305">Kurzeinführung Mapping mit Cocoda (0.5.1)</a> 
-    German Screencast introducing Cocoda 0.5.1 in 3 minutes (2018-10-23)
+    German screencast introducing Cocoda 0.5.1 in 3 minutes (2018-10-23)
   </li>
 </ul>
 
