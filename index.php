@@ -1,21 +1,59 @@
 <?php
 $BASE = '.';
+$FORMAT = 'markdown';
 include "$BASE/header.php";
 ?>
 
-<div class="jumbotron">
+<div class="jumbotron" style="padding: 1rem">
   <div class="container">
     <h1>coli-conc</h1>
     <p>
-      Development of an infrastructure to facilitate management and exchange of
+      Infrastructure to facilitate management and exchange of
       concordances between library knowledge organization systems
+    </p>
+    <p xml:lang="de">
+      <i>Verwaltung und Bereitstellung von Konkordanzen zwischen
+         bibliothekarischen Wissensorganisationsystemen</i>
     </p>
   </div>
 </div>
 
-<div class="container">
-  <h2>About</h2>
-  <p>
+
+Coli-conc provides free [services](services) by the [head office of GBV Common Library Network](https://www.gbv.de/?set_language=en) (VZG) to access and exchange knowledge organisation systems (KOS) and their mappings. This includes:
+
+* uniform access to knowledge organization systems and their metadata 
+  with [JSKOS format](https://gbv.github.io/jskos/)
+
+* an open [concordance registry](concordances) to share concept mappings
+
+* the mapping tool [cocoda](cocoda) to easily create and evaluate mappings
+
+* free [software](publications/software) to import and export KOS and mapping data
+
+The current focus is on library classifications Dewey Decimal Classification (DDC),
+Regensburg Classification (RVK), and Basisklassifikation (BK) to build complete
+concordances for German libraries. The infrastructure can also be used for 
+other systems such as Wikidata and GND.
+
+---
+
+<i>
+Mit coli-conc stellt die [VZG](https://www.gbv.de/) Dienste für den Zugriff auf und Austausch von Wissensorganisationsystemen und Konkordanzen bereit. Dies beinhaltet:
+
+* Einheitlicher Zugriff auf Wissensorganisationssysteme und ihre Metadaten mit dem
+  [JSKOS Format](http://gbv.github.io/jskos/)
+
+* Eine offene [Konkordanz-Datenbank](concordances) zum Austausch von Mappings
+
+* Die Webanwendung **[cocoda](cocoda)** zur vereinfachten Erstellung und Bewertung von Mappings
+
+* Freie [Software](publications/software) zum Im- und Export- von Daten zu Mappings und Wissensorganisationssystemen.
+
+Der Schwerpunkt liegt momentan auf den Bibliotheksklassifikationen Dewey Dezimalklassifikation (DDC), Regensburger Verbundklassifikation (RVK) und Basisklassifikation (BK) um vollständige Konkordanzen für Bibliotheken im Deutschsprachigen Raum zu erstellen. Die Infrastruktur kann darüber hinaus für beliebige andere Systeme wie zum Beispiel Wikidata und die GND verwendet werden.
+</i>
+
+<!--
+<p>
     The availability of tools and standards has increased the use and
     exchange of knowledge organisation systems (KOS) during the last few years.
     Concordances between these systems, are, however,  rather rare.  Project coli-conc
@@ -46,7 +84,4 @@ include "$BASE/header.php";
     additional project reports, specifications and software developed 
     as part of coli-conc!
   </p>
-</div>
-
-<?php 
-include 'footer.php';
+-->

@@ -11,7 +11,8 @@
         <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
         (<a href="https://www.gbv.de/impressum">Impressum</a> |
         <a href="https://www.gbv.de/datenschutz">Datenschutz</a>),
-        funded by German Research Foundation (DFG)
+        <a href="http://gepris.dfg.de/gepris/projekt/276843344">funded by</a>
+        German Research Foundation (DFG)
       </div>
       <div class="col-xs-3 col-md-2">
         <i class="fab fa-github"></i>
