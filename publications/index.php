@@ -1,268 +1,182 @@
 <?php
 $BASE = '..';
+$FORMAT = 'markdown';
 include "$BASE/header.php";
 ?>
 
-<h4>Videos</h4>
-<ul>
-  <li>
-    <a href="https://vimeo.com/307653028">Mapping mit Cocoda 0.6.0</a> 
-    German screencast introducing Cocoda 0.6.0 in 5 minutes (2018-12-21)
-  </li>
-  <li>
-    <a href="https://vimeo.com/296616305">Kurzeinführung Mapping mit Cocoda (0.5.1)</a> 
-    German screencast introducing Cocoda 0.5.1 in 3 minutes (2018-10-23)
-  </li>
-</ul>
+#### Videos
 
-<h4>Reports</h4>
-<ul>
-  <li>
-    <a href="tr1.html">coli-conc Technical Report 1: Cocoda primer</a>. (April 2015)
-    <a href="https://doi.org/10.5281/zenodo.16786">https://doi.org/10.5281/zenodo.16786</a>.
-  </li>
-  <li>
-    <a href="tr2.html">coli-conc Technical Report 2: Open Source KOS software</a>. (March 2016)
-    <a href="https://doi.org/10.5281/zenodo.48227">https://doi.org/10.5281/zenodo.48227</a>.
-  </li>
-  <li>
-    <a href="tr3.html">coli-conc Technical Report 3: A novel approach to terminology mappings</a>. (April 2016)
-    <a href="https://doi.org/10.5281/zenodo.48740">https://doi.org/10.5281/zenodo.48740</a>.
-  </li>
-  <li>
-    <a href="tr4.html">coli-conc report 4: Anforderungen an Normdatendienste</a>. (April 2016)
-    <a href="https://doi.org/10.5281/zenodo.50180">https://doi.org/10.5281/zenodo.50180</a>.
-  </li>
-  <li>
-      coli-conc report 5: European DDC Users Group (EDUG) Symposium &amp; Business Meeting. (August 2016)
-      <a href="EDUG2016Bericht.pdf">PDF</a>
-  </li>
-   <li>
-      coli-conc report 6: Ergebnisse der Online-Umfrage zur Sacherschließung und Konkordanzprojekten. (August 2016)
-      <a href="Umfrageergebnisse.pdf">PDF</a>
-  </li>
-  <li>
-    <a href="tr7.html">coli-conc report 7: Open Source web applications for Knowledge Organization
-    Systems</a>. (August 2016)
-    <a href="https://doi.org/10.5281/zenodo.61262">https://doi.org/10.5281/zenodo.61262</a>.
-  </li>
-  <li>
-      coli-conc report 8: Zusammenfassung des Zwischenberichts. (Februar 2017)
-      <a href="coli-conczusammenfassung.pdf">PDF</a>
-  </li>
-  <li>
-      coli-conc report 9: Umfrage zur Basisklassifikation 2017 (Mai 2017)
-      <a href="https://si-it-workshop.gbv.de/wp-content/uploads/2017/01/BKUmfrage_Ergebnisse.pdf">PDF</a>
-  </li>
-  <li>
-      coli-conc report 10: <a href="tr10.html">Ein Vergleich ausgewählter Normdatendienste</a> (Mai 2017)
-      <a href="https://doi.org/10.5281/zenodo.800577">https://doi.org/10.5281/zenodo.800577</a>
-  </li>
-  <li>
-      coli-conc report 11: <a href="tr11.html">Cocoda Technical Architecture</a> (May 2018)
-      <a href="https://doi.org/10.5281/zenodo.1256498">https://doi.org/10.5281/zenodo.1256498</a>
-  </li>
-  <li>
-      coli-conc report 12: <a href="tr12.html">Übersicht von GND-Konkordanzen</a> (November 2018)
-      <a href="https://doi.org/10.5281/zenodo.1689997">https://doi.org/10.5281/zenodo.1689997</a>
-  </li>
-</ul>
+-   [Mapping mit Cocoda 0.6.0](https://vimeo.com/307653028) German
+    screencast introducing Cocoda 0.6.0 in 5 minutes (2018-12-21)
+-   [Kurzeinführung Mapping mit Cocoda
+    (0.5.1)](https://vimeo.com/296616305) German screencast introducing
+    Cocoda 0.5.1 in 3 minutes (2018-10-23)
 
-<h4>Presentations</h4>          
-<ul>
-  <li>
-    Werkstattbericht Coli-conc: Stand des Mapping-Tools Cocoda. Presentation at
-    <a href="https://rvk.uni-regensburg.de/2-uncategorised/171-rvk-anwendertreffen-2018-anmeldung-programm">RVK Anwendertreffen</a>, 
-    November 7<sup>th</sup>, 2018 in Regensburg.
-    <a href="https://doi.org/10.5281/zenodo.1477899">https://doi.org/10.5281/zenodo.1477899</a>
-  </li>
-  <li>
-    Voraussetzungen für die offene Nutzung der RVK. Presentation at
-    <a href="https://rvk.uni-regensburg.de/2-uncategorised/156-rvk-anwendertreffen-2017">RVK Anwendertreffen</a>, 
-    November 8<sup>th</sup>, 2017 in Regensburg.
-    <a href="https://doi.org/10.5281/zenodo.1043635">https://doi.org/10.5281/zenodo.1043635</a>
-  </li>
-  <li>
-    State of identifiers in Wikidata. Presentation at
-    <a href="https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017">WikidataCon</a>, October, 28<sup>th</sup>, 2017 in Berlin.
-    <a href="https://doi.org/10.5281/zenodo.1037673">https://doi.org/10.5281/zenodo.1037673</a>
-  </li>
-  <li>
-      coli-conc: Mapping Knowledge Organization System.
-      Presentation at
-      <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/programme.html">17<sup>th</sup> European NKOS Workshop</a>,
-      September, 15<sup>st</sup>, 2017 in Thessaloniki.
-      (<a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/content/akter.pdf">PDF slides</a>).
-  </li>
-  <li>
-   Wikidata as authority linking hub. Presented at
-   DINI AG KIM Workshop, May, 4<sup>th</sup>, 2017
-   and at <a href="http://elag2017.org/">ELAG 2017</a>, June 8<sup>th</sup>, 2017
-   (<a href="https://de.slideshare.net/jneubert/wikidata-as-authority-linking-hub">Slides</a>)
-  </li>
-  <li>
-      Interoperability of KOS Metadata Schemas in BARTOC and JSKOS.
-      Presentation at
-      <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016-dc/programme.html">16<sup>th</sup> European NKOS Workshop</a>,
-      October, 15<sup>th</sup>, 2016 in Copenhagen.
-      <a href="https://doi.org/10.5281/zenodo.160926">https://doi.org/10.5281/zenodo.160926</a>
-  </li>
-  <li>
-      Classification of Knowledge Organization Systems with Wikidata.
-      Presentation at <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016/programme.html">15<sup>th</sup> European NKOS workshop at TPDL</a>,
-      September, 9<sup>th</sup>, 2016 in Hannover.
-      <a href="https://doi.org/10.5281/zenodo.61767">https://doi.org/10.5281/zenodo.61767</a>
-  </li>
-  <li>
-      Describing Knowledge Organization Systems in BARTOC and JSKOS.
-      Presentation at <a href="http://sf.cbs.dk/gtw/conferences_terminology_and_knowledge_engineering/tke_2016_copenhagen">TKE 2016</a>, June 24<sup>th</sup>, 2016.
-      <a href="http://hdl.handle.net/10760/29572">http://hdl.handle.net/10760/29572</a>
-  </li>
-  <li>
-      Mapping Project coli-conc Progress, learning &amp; next steps.
-      Presentation at <a href="http://edug.pansoft.de/tiki-index.php?page=2016+meeting">EDUG 2016 Symposium</a>,
-      April 25<sup>th</sup>, 2016.
-      (<a href="http://edug.pansoft.de/tiki-download_file.php?fileId=143">PDF slides</a>)
-  </li>
-  <li>
-    The Cocoda Mapping Tool.
-    Presentation at
-    <a href="https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2015/programme.html">14th European Networked Knowledge Organization Systems (NKOS) Workshop</a>,
-    September 18<sup>th</sup>, 2015.
-    (<a href="http://eprints.rclis.org/28007/">Abstract and PDF</a>)
-  </li>
-  <li>
-    The mapping tool "Cocoda".
-    Presentation at
-    <a href="http://ecda2015.com/">European Conference on Data Analysis 2015</a>, 
-    September 3<sup>rd</sup>, 2015.
-  <li>
-    Cocoda - ein Konkordanztool für bibliothekarische Klassifikationssysteme.
-    Vortrag auf dem 104. Deutscher Bibliothekartag in Nürnberg 2015,
-    May 27<sup>th</sup>, 2015.
-    (<a href="https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/1676">Abstract</a>)
-  </li>
-  <li>
-    Mapping Tool „Colibri Concordance Database (Cocoda)“.
-    Presentation at
-    <a href="http://edug.pansoft.de/tiki-index.php?page=2015meeting">European DDC Users Group (EDUG)</a>, 
-    April 15<sup>th</sup>, 2015.
-    (<a href="http://edug.pansoft.de/tiki-download_file.php?fileId=106">PDF slides</a>)
-  </li>
-  <li>
-    Das VZG-Projekt „coli-conc“ - Brückenbildung zwischen DDC und RVK.
-    November 20<sup>th</sup>, 2013.
-    (<a href="https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2013/pdf/Balakrishnan_131120_RVK_WS_Konkordanz.pdf">PDF slides</a>)
-  </li>
-</ul>
-<h4>Reviewed articles</h4>
-<ul>
-  <li>
-    Balakrishnan, Uma; Voß, Jakob; Soergel, Dagobert:
-    Towards integrated systems for KOS management, mapping, and access. 
-    Coli-conc and its collaborative computer-assisted KOS mapping tool Cocoda.
-    In: Ribeiro, Fernanda; Cerveira, Maria Elisa (eds.): 
-    Challenges and Opportunities for Knowledge Organization in the Digital Age.
-    Proceedings of the Fifteenth International ISKO Conference 9-11 July 2018 Porto. pp. 693-701
-  </li>
-  <li>
-    Voß, Jakob; Bode, Laura; Hamasur, Diana; Isbanner, Laura; Jäger, Jan;
-    Kurtar, Ebru; Peters, Kim; Rufaioglu, Melis; Schneevogt, Christian; Stelter,
-    Romy; Wiegand, Jennifer; Wil, Ann Christin; Yildirimer, Remziye:
-    Erfassung von Wissensorganisationssystemen in BARTOC - Ergebnis eines Projektseminars an der Hochschule Hannover
+#### Reports
+
+-   [coli-conc Technical Report 1: Cocoda primer](tr1.html). (April
+    2015) <https://doi.org/10.5281/zenodo.16786>.
+-   [coli-conc Technical Report 2: Open Source KOS software](tr2.html).
+    (March 2016) <https://doi.org/10.5281/zenodo.48227>.
+-   [coli-conc Technical Report 3: A novel approach to terminology
+    mappings](tr3.html). (April 2016)
+    <https://doi.org/10.5281/zenodo.48740>.
+-   [coli-conc report 4: Anforderungen an Normdatendienste](tr4.html).
+    (April 2016) <https://doi.org/10.5281/zenodo.50180>.
+-   coli-conc report 5: European DDC Users Group (EDUG) Symposium &
+    Business Meeting. (August 2016) [PDF](EDUG2016Bericht.pdf)
+-   coli-conc report 6: Ergebnisse der Online-Umfrage zur
+    Sacherschließung und Konkordanzprojekten. (August 2016)
+    [PDF](Umfrageergebnisse.pdf)
+-   [coli-conc report 7: Open Source web applications for Knowledge
+    Organization Systems](tr7.html). (August 2016)
+    <https://doi.org/10.5281/zenodo.61262>.
+-   coli-conc report 8: Zusammenfassung des Zwischenberichts. (Februar
+    2017) [PDF](coli-conczusammenfassung.pdf)
+-   coli-conc report 9: Umfrage zur Basisklassifikation 2017 (Mai 2017)
+    [PDF](https://si-it-workshop.gbv.de/wp-content/uploads/2017/01/BKUmfrage_Ergebnisse.pdf)
+-   coli-conc report 10: [Ein Vergleich ausgewählter
+    Normdatendienste](tr10.html) (Mai 2017)
+    <https://doi.org/10.5281/zenodo.800577>
+-   coli-conc report 11: [Cocoda Technical Architecture](tr11.html) (May
+    2018) <https://doi.org/10.5281/zenodo.1256498>
+-   coli-conc report 12: [Übersicht von GND-Konkordanzen](tr12.html)
+    (November 2018) <https://doi.org/10.5281/zenodo.1689997>
+
+#### Presentations
+
+-   Werkstattbericht Coli-conc: Stand des Mapping-Tools Cocoda.
+    Presentation at [RVK
+    Anwendertreffen](https://rvk.uni-regensburg.de/2-uncategorised/171-rvk-anwendertreffen-2018-anmeldung-programm),
+    November 7ᵗʰ, 2018 in Regensburg.
+    <https://doi.org/10.5281/zenodo.1477899>
+-   Voraussetzungen für die offene Nutzung der RVK. Presentation at [RVK
+    Anwendertreffen](https://rvk.uni-regensburg.de/2-uncategorised/156-rvk-anwendertreffen-2017),
+    November 8ᵗʰ, 2017 in Regensburg.
+    <https://doi.org/10.5281/zenodo.1043635>
+-   State of identifiers in Wikidata. Presentation at
+    [WikidataCon](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017),
+    October, 28ᵗʰ, 2017 in Berlin.
+    <https://doi.org/10.5281/zenodo.1037673>
+-   coli-conc: Mapping Knowledge Organization System. Presentation at
+    [17ᵗʰ European NKOS
+    Workshop](https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/programme.html),
+    September, 15ˢᵗ, 2017 in Thessaloniki. ([PDF
+    slides](https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/content/akter.pdf)).
+-   Wikidata as authority linking hub. Presented at DINI AG KIM
+    Workshop, May, 4ᵗʰ, 2017 and at [ELAG 2017](http://elag2017.org/),
+    June 8ᵗʰ, 2017
+    ([Slides](https://de.slideshare.net/jneubert/wikidata-as-authority-linking-hub))
+-   Interoperability of KOS Metadata Schemas in BARTOC and JSKOS.
+    Presentation at [16ᵗʰ European NKOS
+    Workshop](https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016-dc/programme.html),
+    October, 15ᵗʰ, 2016 in Copenhagen.
+    <https://doi.org/10.5281/zenodo.160926>
+-   Classification of Knowledge Organization Systems with Wikidata.
+    Presentation at [15ᵗʰ European NKOS workshop at
+    TPDL](https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016/programme.html),
+    September, 9ᵗʰ, 2016 in Hannover.
+    <https://doi.org/10.5281/zenodo.61767>
+-   Describing Knowledge Organization Systems in BARTOC and JSKOS.
+    Presentation at [TKE
+    2016](http://sf.cbs.dk/gtw/conferences_terminology_and_knowledge_engineering/tke_2016_copenhagen),
+    June 24ᵗʰ, 2016. <http://hdl.handle.net/10760/29572>
+-   Mapping Project coli-conc Progress, learning & next steps.
+    Presentation at [EDUG 2016
+    Symposium](http://edug.pansoft.de/tiki-index.php?page=2016+meeting),
+    April 25ᵗʰ, 2016. ([PDF
+    slides](http://edug.pansoft.de/tiki-download_file.php?fileId=143))
+-   The Cocoda Mapping Tool. Presentation at [14th European Networked
+    Knowledge Organization Systems (NKOS)
+    Workshop](https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2015/programme.html),
+    September 18ᵗʰ, 2015. ([Abstract and
+    PDF](http://eprints.rclis.org/28007/))
+-   The mapping tool \"Cocoda\". Presentation at [European Conference on
+    Data Analysis 2015](http://ecda2015.com/), September 3ʳᵈ, 2015.
+-   Cocoda - ein Konkordanztool für bibliothekarische
+    Klassifikationssysteme. Vortrag auf dem 104. Deutscher
+    Bibliothekartag in Nürnberg 2015, May 27ᵗʰ, 2015.
+    ([Abstract](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/1676))
+-   Mapping Tool „Colibri Concordance Database (Cocoda)". Presentation
+    at [European DDC Users Group
+    (EDUG)](http://edug.pansoft.de/tiki-index.php?page=2015meeting),
+    April 15ᵗʰ, 2015. ([PDF
+    slides](http://edug.pansoft.de/tiki-download_file.php?fileId=106))
+-   Das VZG-Projekt „coli-conc" - Brückenbildung zwischen DDC und RVK.
+    November 20ᵗʰ, 2013. ([PDF
+    slides](https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2013/pdf/Balakrishnan_131120_RVK_WS_Konkordanz.pdf))
+
+#### Reviewed articles
+
+-   Balakrishnan, Uma; Voß, Jakob; Soergel, Dagobert: Towards integrated
+    systems for KOS management, mapping, and access. Coli-conc and its
+    collaborative computer-assisted KOS mapping tool Cocoda. In:
+    Ribeiro, Fernanda; Cerveira, Maria Elisa (eds.): Challenges and
+    Opportunities for Knowledge Organization in the Digital Age.
+    Proceedings of the Fifteenth International ISKO Conference 9-11 July
+    2018 Porto. pp. 693-701
+-   Voß, Jakob; Bode, Laura; Hamasur, Diana; Isbanner, Laura; Jäger,
+    Jan; Kurtar, Ebru; Peters, Kim; Rufaioglu, Melis; Schneevogt,
+    Christian; Stelter, Romy; Wiegand, Jennifer; Wil, Ann Christin;
+    Yildirimer, Remziye: Erfassung von Wissensorganisationssystemen in
+    BARTOC - Ergebnis eines Projektseminars an der Hochschule Hannover
     In: Informationspraxis Bd. 3, Nr. 2. (2017)
-    <a href="https://doi.org/10.11588/ip.2017.2.40335 ">https://doi.org/10.11588/ip.2017.2.40335</a>
-  </li>
-  <li>
-    Balakrishnan, Uma; Akter, Morsheda: Project Coli-conc: Mapping Library Knowledge Organisation Systems. In: Proceedings of the 17th European Networked Knowledge Organization Systems Workshop co-located with the 21st International Conference on Theory and Practice of Digital Libraries 2017 (TPDL 2017). P. 53-61
-    <a href="http://ceur-ws.org/Vol-1937/paper5.pdf">PDF</a>
-  </li>
-  <li>
-      Voß, Jakob; Ledl, Andreas and Balakrishnan, U.: Uniform description and access to Knowledge Organization Systems with BARTOC and JSKOS. In: Proceedings of TOTh conference 2016
-      <a href="https://doi.org/10.5281/zenodo.438019">https://doi.org/10.5281/zenodo.438019</a>
-  </li>
-  <li>
-      Voß, Jakob: 
-      Classification of Knowledge Organization Systems with Wikidata.
-      In: <a href="http://ceur-ws.org/Vol-1676/">Proceedings of the 15th European Networked Knowledge Organization Systems Workshop (NKOS 2016)</a>, p 15-22. CEUR Workshop Proceedings, Volume 1676.
-      <a href="http://ceur-ws.org/Vol-1676/paper2.pdf">http://ceur-ws.org/Vol-1676/paper2.pdf</a>
-  <li>
-      Ledl, Andreas and Voss, Jakob: Describing Knowledge Organization Systems in BARTOC and JSKOS.
-      In: Proceedings of International Conference on Terminology and Knowledge Engineering (TKE 2016). p. 168-178. ISBN 978-87-999179-0-7
-      <a href="http://hdl.handle.net/10760/29366">http://hdl.handle.net/10760/29366</a>
-  </li>
-  <li>
-      Balakrishnan, U.: DFG-Projekt: Coli-Conc. Das Mapping Tool "Cocoda". In: O-Bib. Das Offene Bibliotheksjournal. Vol. 3, Nr. 1 (2016).
-      <a href="https://doi.org/10.5282/o-bib/2016H1S11-16">https://doi.org/10.5282/o-bib/2016H1S11-16</a>
-  </li>
-</ul>
-<h4>Posters</h4>
-<ul>
-    <li>
-      Voß, Jakob;  Agne, Jana Maria; Balakrishnan, U.; Akter, Morsheda:
-      Terminology Registries and Services. Presented at
-      Research Data Alliance Deutschland Treffen and SWIB 2016.
-      <a href="https://doi.org/10.5281/zenodo.166717">https://doi.org/10.5281/zenodo.166717</a>
-    </li>
-</ul>
-<h4>Other articles</h4>
-<ul>
-  <li>
-      DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch, die Erstellung, und die Wartung von Konkordanzen zwischen bibliothekarischen Wissensorganisationssystemen (November 2014/August 2015).
-    <a href="https://doi.org/10.5281/zenodo.28290">https://doi.org/10.5281/zenodo.28290</a>
-    (coli-conc grant proposal, abbreviated version)
-  </li>
-  <li>
-    Das Projekt „coli-conc“ Ein Bericht zur semi-automatischen Erstellung von 
-    Konkordanzen zur Dewey Dezimalklassifikation. (2013)
-    <a href="https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/vzg_aktuell_2013_01.pdf">PDF, page 12-16</a>.
-  </li>
-  <li>
-    Balakrishnan, U.: DFG-Projekt coli conc – Projektphase I </a>. 
-    In: VZG Aktuell. 2/2016 (September), p. 8-12 (<a href="vzgaktuell.pdf">PDF</a>)
-  </li>
-  <li>
-    An EZB-DDC Condordance (2011).
-    VZG-Project Colibri Sub: Project Coli-Conc.
-    <a href="https://doi.org/10.5281/zenodo.28263">https://doi.org/10.5281/zenodo.28263</a>.
-  </li>
-</ul>
-<p>
-  The <a href="https://www.zotero.org/groups/coli-conc/items/collectionKey/WCRJ5V4U">coli-conc publications</a> 
-  bibliography at Zotero contains additional publication but it is not updated anymore.
-</p>
+    [https://doi.org/10.11588/ip.2017.2.40335](https://doi.org/10.11588/ip.2017.2.40335%20)
+-   Balakrishnan, Uma; Akter, Morsheda: Project Coli-conc: Mapping
+    Library Knowledge Organisation Systems. In: Proceedings of the 17th
+    European Networked Knowledge Organization Systems Workshop
+    co-located with the 21st International Conference on Theory and
+    Practice of Digital Libraries 2017 (TPDL 2017). P. 53-61
+    [PDF](http://ceur-ws.org/Vol-1937/paper5.pdf)
+-   Voß, Jakob; Ledl, Andreas and Balakrishnan, U.: Uniform description
+    and access to Knowledge Organization Systems with BARTOC and JSKOS.
+    In: Proceedings of TOTh conference 2016
+    <https://doi.org/10.5281/zenodo.438019>
+-   Voß, Jakob: Classification of Knowledge Organization Systems with
+    Wikidata. In: [Proceedings of the 15th European Networked Knowledge
+    Organization Systems Workshop
+    (NKOS 2016)](http://ceur-ws.org/Vol-1676/), p 15-22. CEUR Workshop
+    Proceedings, Volume 1676. <http://ceur-ws.org/Vol-1676/paper2.pdf>
+-   Ledl, Andreas and Voss, Jakob: Describing Knowledge Organization
+    Systems in BARTOC and JSKOS. In: Proceedings of International
+    Conference on Terminology and Knowledge Engineering (TKE 2016). p.
+    168-178. ISBN 978-87-999179-0-7 <http://hdl.handle.net/10760/29366>
+-   Balakrishnan, U.: DFG-Projekt: Coli-Conc. Das Mapping Tool
+    "Cocoda". In: O-Bib. Das Offene Bibliotheksjournal. Vol. 3, Nr. 1
+    (2016). <https://doi.org/10.5282/o-bib/2016H1S11-16>
 
-<h4>Specifications</h4>
-<table class="table">
-  <thead>
-    <tr>
-      <th>name and link</th>
-      <th>description</th>
-      <th>status</th> 
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://gbv.github.io/jskos/">JSKOS</a></td>
-      <td>JSON based data format for KOS</td>
-      <td><a href="https://github.com/gbv/jskos/"><img src="https://img.shields.io/github/tag/gbv/jskos.svg"></a></td>
-    </tr>
-    <tr>
-      <td><a href="https://gbv.github.io/elma/">ELMA</a></td>
-      <td>Simple subset of JSKOS-API</td>
-      <td><a href="https://github.com/gbv/elma/"><img src="https://img.shields.io/github/tag/gbv/elma.svg"></a></td>
-    </tr>
-    <tr>
-      <td><a href="https://gbv.github.io/jskos-api">JSKOS-API</a></td>
-      <td>API to access KOS data</td>
-      <td><!--a href="https://github.com/gbv/jskos-api"><img src="https://img.shields.io/github/tag/gbv/jskos-api.svg"></a--><em>early notes</em></td>
-    </tr>
-  </tbody>
-</table>
+#### Posters
 
-<p>
-  See also our <a href="https://www.zotero.org/groups/coli-conc/items/">Zotero library</a>.
-</p>
+-   Voß, Jakob; Agne, Jana Maria; Balakrishnan, U.; Akter, Morsheda:
+    Terminology Registries and Services. Presented at Research Data
+    Alliance Deutschland Treffen and SWIB 2016.
+    <https://doi.org/10.5281/zenodo.166717>
 
-<?php
-include "$BASE/footer.php";
+#### Other articles
+
+-   DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch,
+    die Erstellung, und die Wartung von Konkordanzen zwischen
+    bibliothekarischen Wissensorganisationssystemen (November
+    2014/August 2015). <https://doi.org/10.5281/zenodo.28290> (coli-conc
+    grant proposal, abbreviated version)
+-   Das Projekt „coli-conc" Ein Bericht zur semi-automatischen
+    Erstellung von Konkordanzen zur Dewey Dezimalklassifikation. (2013)
+    [PDF, page
+    12-16](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/vzg_aktuell_2013_01.pdf).
+-   Balakrishnan, U.: DFG-Projekt coli conc -- Projektphase I . In: VZG
+    Aktuell. 2/2016 (September), p. 8-12 ([PDF](vzgaktuell.pdf))
+-   An EZB-DDC Condordance (2011). VZG-Project Colibri Sub: Project
+    Coli-Conc. <https://doi.org/10.5281/zenodo.28263>.
+
+The [coli-conc
+publications](https://www.zotero.org/groups/coli-conc/items/collectionKey/WCRJ5V4U)
+bibliography at Zotero contains additional publication but it is not
+updated anymore.
+
+#### Specifications
+
+- [JSKOS](https://gbv.github.io/jskos/)          JSON based data format for KOS   [![](https://img.shields.io/github/tag/gbv/jskos.svg)](https://github.com/gbv/jskos/)
+-  [ELMA](https://gbv.github.io/elma/)            Simple subset of JSKOS-API       [![](https://img.shields.io/github/tag/gbv/elma.svg)](https://github.com/gbv/elma/)
+-  [JSKOS-API](https://gbv.github.io/jskos-api)   API to access KOS data           *early notes*
+
+See also our [Zotero library](https://www.zotero.org/groups/coli-conc/items/).
