@@ -23,4 +23,10 @@ We also prepared some screencasts (in German):
 * [Mapping mit Cocoda 0.6.0](https://vimeo.com/307653028) (5 minutes, 2018-12-21)
 * [Kurzeinführung Mapping mit Cocoda 0.5.1](https://vimeo.com/296616305) (3 minutes, 2018-10-23)
 
+#### History
+
+The first prototype of Cocoda was started in February 2014: the source 
+is [archived at GitHub](https://github.com/gbv/cocoda-prototype) and 
+[this screencast](https://vimeo.com/309446476) gives an impression.
+
 <!-- See also <https://github.com/gbv/cocoda/issues/237> to improve documentation!  -->
