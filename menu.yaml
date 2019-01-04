@@ -7,6 +7,7 @@ services:
   - [../concordances, Concordance Registry]
   - [../concordances/wikidata, Wikidata Mappings]
   - [../concordances/gnd, GND Mappings]
+  - [../registry, Registries]
 cocoda/: Cocoda Mapping Tool
 publications:
   - [software, Software]
