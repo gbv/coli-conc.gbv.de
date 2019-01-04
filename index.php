@@ -19,7 +19,7 @@ include "$BASE/header.php";
 </div>
 
 
-Coli-conc provides free [services](services) by the [GBV Common Library Network](https://www.gbv.de/?set_language=en) (VZG) to access and exchange knowledge organisation systems (KOS) and their mappings. This includes:
+Coli-conc provides free [services](services) to access to and exchange of knowledge organisation systems (KOS) and their mappings. This includes:
 
 * uniform access to knowledge organization systems and their metadata 
   with [JSKOS format](https://gbv.github.io/jskos/)
