@@ -6,6 +6,8 @@ include "$BASE/header.php";
 
 #### Screencasts
 
+-   [Neue Features in Cocoda 0.7.0](https://vimeo.com/312681760) German
+    screencast briefly introducing some Cocoda 0.7.0 features (2019-01-22)
 -   [Mapping mit Cocoda 0.6.0](https://vimeo.com/307653028) German
     screencast introducing Cocoda 0.6.0 in 5 minutes (2018-12-21)
 -   [Kurzeinführung Mapping mit Cocoda
