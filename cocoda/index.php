@@ -10,7 +10,7 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 ### Use Cocoda mapping tool
 
 * latest **[release version](app/)**
-* current [development version](https://gbv.github.io/cocoda/dev/)
+* current [development version](dev/)
 * [source code repository](https://github.com/gbv/cocoda)
 
 ### Get started
@@ -26,8 +26,8 @@ We also prepared some screencasts (in German):
 
 #### History
 
-The first prototype of Cocoda was started in February 2014: the source 
-is [archived at GitHub](https://github.com/gbv/cocoda-prototype) and 
+The first prototype of Cocoda was started in February 2014: the source
+is [archived at GitHub](https://github.com/gbv/cocoda-prototype) and
 [this screencast](https://vimeo.com/309446476) gives an impression.
 
 <!-- See also <https://github.com/gbv/cocoda/issues/237> to improve documentation!  -->
