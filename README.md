@@ -25,3 +25,9 @@ Verzeichnisse die im Repsoitory verwaltet werden, müssen in der Datei
 
 Die Bearbeitung kann bei kleinen Änderungen direkt im GitHub-Webinterface und
 bei umfrangreichere Arbeiten in einem lokalen Clone des Repositories erfolgen.
+
+## Installation
+
+Requires PHP >=7.0 with DOM extension:
+    
+    sudo apt-get install php-xml

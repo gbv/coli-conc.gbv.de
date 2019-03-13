@@ -10,7 +10,9 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 ### Use Cocoda mapping tool
 
 * latest **[release version](app/)**
-* current [development version](dev/)
+* current development version
+    * [at coli-conc.gbv.de](https://coli-conc.gbv.de/cocoda/dev/) (recommended)
+    * [at gbv.github.io](https://gbv.github.io/cocoda/dev/)
 * [source code repository](https://github.com/gbv/cocoda)
 
 ### Get started
