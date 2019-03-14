@@ -8,7 +8,9 @@ services:
   - [../concordances/wikidata, Wikidata Mappings]
   - [../concordances/gnd, GND Mappings]
   - [../registry, Registries]
+  - [../occurrences, (Co-)Occurrences]
 cocoda/: Cocoda Mapping Tool
+ccmapper/: ccmapper
 publications:
   - [software, Software]
   - [data, Data]
