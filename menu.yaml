@@ -7,8 +7,9 @@ services:
   - [../concordances, Concordance Registry]
   - [../concordances/wikidata, Wikidata Mappings]
   - [../concordances/gnd, GND Mappings]
-  - [../registry, Registries]
+  - [../registry, KOS data registries]
   - [../occurrences, (Co-)Occurrences]
+  - [../coli-ana, DDC Analysis]
 cocoda/: Cocoda Mapping Tool
 ccmapper/: ccmapper
 publications:

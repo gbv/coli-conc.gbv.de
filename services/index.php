@@ -11,6 +11,8 @@ We provide a several applictaions, data sets and APIs for public use.
 
 Core or the project is **[Cocoda Mapping Tool](../cocoda/)**.
 
+We further evaluate [ccmapper mapping tool](../ccmapper/) for mapping against DDC.
+
 See [software](../publications/software/) for a full list of programming libraries and applications.
 
 ### Data sets
