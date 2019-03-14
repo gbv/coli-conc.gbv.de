@@ -28,6 +28,11 @@ bei umfrangreichere Arbeiten in einem lokalen Clone des Repositories erfolgen.
 
 ## Installation
 
-Requires PHP >=7.0 with DOM extension:
+Requires PHP >=7.0 with DOM extension and ext-mbstring:
     
-    sudo apt-get install php-xml
+    sudo apt-get install php-xml php-mbstring
+
+Required packages are listed in `composer.json`. Install via:
+
+    sudo apt-get install composer
+    composer install
