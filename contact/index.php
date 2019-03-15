@@ -17,7 +17,7 @@ include "$BASE/header.php";
         <dt>Software Development</dt>
         <dd>Stefan Peters (peters@gbv.de)</dd>
         <dt>Student Assistant</dt>
-        <dd><em>Please contact us if interested!</em></dd>
+        <dd>Dennis Tobola</dd>
     </dl>
     </p>
   </div>
