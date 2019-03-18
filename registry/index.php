@@ -1,25 +1,37 @@
 <?php
 $BASE = '..';
-$TITLE = 'Registries';
+$TITLE = 'Data sources and registries';
 include "$BASE/header.php";
 ?>
 
-<p>Uniform access to knowledge organization systems and concordances from diverse sources is established with:</p>
-<ul>
-<li>a data format that all related information as converted to (<a href="https://gbv.github.io/jskos/">JSKOS format</a>)</li>
-<li>a set of web services that provide JSKOS format (JSKOS API, not fully specified yet)</li>
-<li>a set of Node libraries to access data sources in JSKOS format (see <a href="../publications/software">software</a>)</li>
-</ul>
-<p><a href="../cocoda">Cocoda web application</a> makes use of these unification via <strong>registries</strong>. A registry is an individual source of data, for instance the <a href="../concordances">concordance registry</a> or another public web service (see <a href="https://gbv.github.io/cocoda/#registries">Cocoda manual</a>).</p>
+<p>
+  Data about Knowledge organization systems and their concordances can be 
+  available from many sources. We unify access to diverse data sources,
+  including those with write-access, by mapping their data formats to
+  <a href="https://gbv.github.io/jskos/">JSKOS format</a>.
+  <a href="../cocoda">Cocoda</a> organizes access to multiple data sources
+  as <strong>registries</strong>. A registry is an individual source of data
+  with known capabilities
+  (see <a href="https://gbv.github.io/cocoda/#registries">Cocoda manual</a>).
+</p>
 
-<h4>Available registries</h4>
+<h4>Supported registries</h4>
+<p>See <a href="registries.ndjson">registries.ndjson</a> for full list and metadata.</p>
 <?php
 require_once 'registries.php';
-echo '<ul>';
+echo '<ul style="padding-left: 1em;">';
 foreach ($registries as $reg) {
     $title = $reg['prefLabel']['en'] ?? $reg['prefLabel']['de'];
-    $url = $reg['uri'];
-    echo "<li><a href='$url'>$title</a></li>";
+    $uri = $reg['uri'];
+    $descr = $reg['definition']['en'][0] ?? '';
+    $notation = $reg['notation'][0];
+?>
+    <li style="list-style:none; margin-bottom: 10px;">
+      <b><?=$notation?></b> 
+      <a href='<?=$uri?>'><?=$title?></a>
+      <?php if ($descr) { echo "<br>$descr"; } ?>
+    </li>
+<?php
 }
 echo '</ul>';
 ?>
