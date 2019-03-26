@@ -50,7 +50,7 @@ include "$BASE/header.php";
 
 #### Presentations
 
--   Vortrag auf dem Bibliothekskongress.
+-   Vortrag auf dem Bibliothekskongress: Nutzung und Erstellung von Normdaten-Mappings.
      Presentation at [7. Bibliothekskongress](https://www.bid-kongress-leipzig.de/), 
      March 20ᵗʰ, 2019 in Leipzig. 
      <https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/16404>
