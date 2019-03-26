@@ -50,6 +50,10 @@ include "$BASE/header.php";
 
 #### Presentations
 
+-   Vortrag auf dem Bibliothekskongress.
+     Presentation at [7. Bibliothekskongress](https://www.bid-kongress-leipzig.de/), 
+     March 20ᵗʰ, 2019 in Leipzig. 
+     <https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/16404>
 -   Werkstattbericht Coli-conc: Stand des Mapping-Tools Cocoda.
     Presentation at [RVK
     Anwendertreffen](https://rvk.uni-regensburg.de/2-uncategorised/171-rvk-anwendertreffen-2018-anmeldung-programm),
