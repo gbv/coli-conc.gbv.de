@@ -18,27 +18,32 @@ class GNDService extends JSKOS\ConfiguredService {
     }
 
     public function query(array $query, string $path=''): Result {
-        $jskos = $this->queryUriSpace($query);
-        if (!count($jskos)) return $jskos;
+        $result = new Result();
 
-        foreach ($jskos as $concept) {
+        foreach (explode('|', $query['uri'] ?? '') as $uri) {
+            $query['uri'] = $uri;
+
+            $jskos = $this->queryUriSpace($query);
+            if (!count($jskos)) continue;
+
+            $concept = $jskos[0];
             $concept->inScheme = [ new ConceptScheme(["uri" => "http://bartoc.org/en/node/430"]) ];
+
+            $uri = $concept->uri;
+            $rdf = Mapper::loadRDF($uri ."/about/lds", $uri);
+            if ($rdf) {
+                # TODO: fix date format
+                #error_log($rdf->getGraph()->serialise('turtle'));
+                try {
+                    # FIXME: relatedDate and other fields may throw an error, better ignore instead
+                    $this->mapper->applyAtResource($rdf->getGraph()->resource($uri), $concept);
+                } catch(Exception $e) {
+                }
+                $result->append($concept);
+            }
         }
 
-        $uri = $jskos[0]->uri;
-        $rdf = Mapper::loadRDF($uri ."/about/lds", $uri);
-        if (!$rdf) return new Result();
-
-        # TODO: fix date format
-        #error_log($rdf->getGraph()->serialise('turtle'));
-        try {
-            # FIXME: relatedDate and other fields may throw an error, better ignore instead
-            $this->mapper->applyAtResource($rdf->getGraph()->resource($uri), $jskos[0]);
-        } catch(Exception $e) {
-            return $jskos;
-        }
-
-        return $jskos;
+        return $result;
     }
 }
 
