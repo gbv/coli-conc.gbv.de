@@ -40,5 +40,8 @@ publications/bartoc
 !ccmapper
 !ccmapper/**/**
 
+!rvk
+!rvk/index.php
+
 !coli-ana
 !coli-ana/**/**
