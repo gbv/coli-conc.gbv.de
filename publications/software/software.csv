@@ -1,9 +1,12 @@
 name,type,status,language,travis,repository,release,description
 cocoda,application,production,JavaScript,org,https://github.com/gbv/cocoda,,web application mapping tool
 jskos-server,application,production,JavaScript,com,https://github.com/gbv/jskos-server,,JSKOS mapping provider
-jskos-tools,library,production,JavaScript,com,https://github.com/gbv/jskos-tools,jskos-tools,JSKOS mapping provider
+jskos-tools,library,production,JavaScript,com,https://github.com/gbv/jskos-tools,jskos-tools,JSKOS tool library
+jskos-validate,library,production,JavaScript,com,https://github.com/gbv/jskos-validate,jskos-validate,JSKOS validation library
 wikidata-jskos,library,production,JavaScript,com,http://github.com/gbv/wikidata-jskos,,Access Wikidata in JSKOS format
 occurrences-api,prototype,production,Perl,com,https://github.com/gbv/occurrences-api,,API to query catalog (co)occurrences
+login-server,application,production,JavaScript,com,https://github.com/gbv/login-server,,single sign-on login server
+login-client,library,production,JavaScript,com,https://github.com/gbv/login-client,gbv-login-client,library for login-server
 mc2skos,application,production,Python,com,https://github.com/scriptotek/mc2skos,mc2skos,command-line tool to convert MARC to SKOS
 jskos-php,library,production,PHP,org,https://github.com/gbv/jskos-php,gbv/jskos,PHP library for JSKOS
 jskos-http,library,production,PHP,org,https://github.com/gbv/jskos-http,gbv/jskos-http,JSKOS API implementation
