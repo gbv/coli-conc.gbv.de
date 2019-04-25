@@ -123,7 +123,8 @@ include "$BASE/header.php";
     Ribeiro, Fernanda; Cerveira, Maria Elisa (eds.): Challenges and
     Opportunities for Knowledge Organization in the Digital Age.
     Proceedings of the Fifteenth International ISKO Conference 9-11 July
-    2018 Porto. pp. 693-701
+    2018 Porto. pp. 693-701.
+    [https://doi.org/10.5771/9783956504211-693](https://doi.org/10.5771/9783956504211-693)
 -   Voß, Jakob; Bode, Laura; Hamasur, Diana; Isbanner, Laura; Jäger,
     Jan; Kurtar, Ebru; Peters, Kim; Rufaioglu, Melis; Schneevogt,
     Christian; Stelter, Romy; Wiegand, Jennifer; Wil, Ann Christin;
