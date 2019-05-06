@@ -169,6 +169,8 @@ include "$BASE/header.php";
     bibliothekarischen Wissensorganisationssystemen (November
     2014/August 2015). <https://doi.org/10.5281/zenodo.28290> (coli-conc
     grant proposal, abbreviated version)
+-   Projekt coli-conc Zwischenbericht 01.05.2018 - 30.04.2019.
+    (coli-conc grant report) <https://doi.org/10.5281/zenodo.2668205>.
 -   Das Projekt „coli-conc" Ein Bericht zur semi-automatischen
     Erstellung von Konkordanzen zur Dewey Dezimalklassifikation. (2013)
     [PDF, page
