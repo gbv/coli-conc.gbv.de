@@ -50,6 +50,9 @@ include "$BASE/header.php";
 
 #### Presentations
 
+-   Lessons learned while building the vocabulary mapping tool Cocoda.
+    May 8ᵗʰ, 2019 at [ELAG 2019 conference](https://www.elag2019.de) in Berlin. 
+    <https://doi.org/10.5281/zenodo.2677601>
 -   Vortrag auf dem Bibliothekskongress: Nutzung und Erstellung von Normdaten-Mappings.
      Presentation at [7. Bibliothekskongress](https://www.bid-kongress-leipzig.de/), 
      March 20ᵗʰ, 2019 in Leipzig. 
