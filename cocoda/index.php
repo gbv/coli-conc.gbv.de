@@ -10,6 +10,7 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 <figure style="float:right;">
   <a href="../img/cocoda-quick-screencast.mp4">
   <video autoplay loop muted width="600px" style="border: 2px solid black">
+    <source src="../img/cocoda-quick-screencast.webm" type="video/webm">
     <source src="../img/cocoda-quick-screencast.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
