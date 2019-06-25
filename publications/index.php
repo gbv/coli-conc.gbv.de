@@ -50,6 +50,9 @@ include "$BASE/header.php";
 
 #### Presentations
 
+- Concept mapping through a hub: Coli-conc pilot study.
+April 10ᵗʰ, 2019 at [ISKO-LC 2019 conference](https://isko-lc.org/) in Brüssel.
+<https://isko-lc.org/timetable/event/concept-mapping-through-a-hub-coli-conc-pilot-study/>
 -   Lessons learned while building the vocabulary mapping tool Cocoda.
     May 8ᵗʰ, 2019 at [ELAG 2019 conference](https://www.elag2019.de) in Berlin. 
     <https://doi.org/10.5281/zenodo.2677601>
