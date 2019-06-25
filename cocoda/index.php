@@ -31,7 +31,7 @@ The [cocoda manual](https://gbv.github.io/cocoda/#manual) gives a short introduc
 
 We also prepared some screencasts (mostly in German):
 
-* [Quick Demo of Cocoda 0.9.3](../img/cocoda-quick-screencast.mp4) (22 seconds, 2019-06-25)
+* [Quick Demo of Cocoda 0.9.3](../img/cocoda-quick-screencast.mp4) (30 seconds, 2019-06-25)
 * [Neue Features in Cocoda 0.8.0](https://vimeo.com/323457260) (7 minutes, 2019-03-13)
 * [Neue Features in Cocoda 0.7.0](https://vimeo.com/312681760) (3 minutes, 2019-01-22)
 * [Mapping mit Cocoda 0.6.0](https://vimeo.com/307653028) (5 minutes, 2018-12-21)
