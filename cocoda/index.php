@@ -5,19 +5,20 @@ $FORMAT = 'markdown';
 include "$BASE/header.php";
 ?>
 
-Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri. See [cocoda documentation](https://gbv.github.io/cocoda/) for details and [git repository](https://github.com/gbv/cocoda) for source code.
+Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri.
 
-### Use Cocoda mapping tool
+<video autoplay loop width="600px" style="float:right; border: 2px solid black">
+  <source src="../img/cocoda-quick-screencast.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-* latest **[release version](app/)**
-* current development version
-    * [at coli-conc.gbv.de](https://coli-conc.gbv.de/cocoda/dev/) (recommended)
-    * [at gbv.github.io](https://gbv.github.io/cocoda/dev/)
-* [source code repository](https://github.com/gbv/cocoda)
+* **Try out the most recent [release version](app/)**!
+* See [cocoda documentation](https://gbv.github.io/cocoda/) for details
+* Our current development version 
+   [is available here](https://coli-conc.gbv.de/cocoda/dev/) (and [at gbv.github.io](https://gbv.github.io/cocoda/dev/))
+* [Source code repository](https://github.com/gbv/cocoda) and [issue tracker](https://github.com/gbv/cocoda/issues) are public
 
-### Get started
-
-*We highly recommend to just try out the [release version](app/) and start mapping!*
+### Introductions
 
 The [cocoda manual](https://gbv.github.io/cocoda/#manual) gives a short introduction.
 
