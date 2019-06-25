@@ -8,7 +8,7 @@ include "$BASE/header.php";
 Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri.
 
 <figure style="float:right;">
-  <a href="../img/cocoda-quick-screencast.mp4">
+  <a href="../img/cocoda-quick-screencast.webm">
   <video autoplay loop muted width="600px" style="border: 2px solid black">
     <source src="../img/cocoda-quick-screencast.webm" type="video/webm">
     <source src="../img/cocoda-quick-screencast.mp4" type="video/mp4">
