@@ -51,8 +51,11 @@ include "$BASE/header.php";
 #### Presentations
 
 - Concept mapping through a hub: Coli-conc pilot study.
-April 10ᵗʰ, 2019 at [ISKO-LC 2019 conference](https://isko-lc.org/) in Brüssel.
+June 21st, 2019 at [ISKO-LC 2019 conference](https://isko-lc.org/) in Brüssel.
 <https://isko-lc.org/timetable/event/concept-mapping-through-a-hub-coli-conc-pilot-study/>
+- coli-conc : Mapping Knowledge Organisation Systems.
+May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page=2019+meeting) in Stockholm.
+<http://edug.pansoft.de/tiki-download_file.php?fileId=194>
 -   Lessons learned while building the vocabulary mapping tool Cocoda.
     May 8ᵗʰ, 2019 at [ELAG 2019 conference](https://www.elag2019.de) in Berlin. 
     <https://doi.org/10.5281/zenodo.2677601>
