@@ -8,14 +8,14 @@ include "$BASE/header.php";
 Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri.
 
 <figure style="float:right;">
-  <video autoplay loop width="600px" style="border: 2px solid black">
+  <a href="../img/cocoda-quick-screencast.mp4">
+  <video autoplay loop muted width="600px" style="border: 2px solid black">
     <source src="../img/cocoda-quick-screencast.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+  </a>
   <figcaption style="text-align:center;">
-    mapping 
-    <a href="../img/cocoda-quick-screencast.mp4">is easy</a>
-    with Cocoda: <a href="app/">give it a try!</a>
+    mapping with Cocoda is easy: <a href="app/">give it a try!</a>
   </figcaption>
 </figure>
 
