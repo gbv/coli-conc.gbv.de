@@ -5,9 +5,7 @@ $FORMAT = 'markdown';
 include "$BASE/header.php";
 ?>
 
-Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri.
-
-<figure style="float:right;">
+<figure style="float:right; padding-left: 1em;">
   <a href="../img/cocoda-quick-screencast.webm">
   <video autoplay loop muted width="600px" style="border: 2px solid black">
     <source src="../img/cocoda-quick-screencast.webm" type="video/webm">
@@ -20,17 +18,19 @@ Cocoda is a web application to manage and create mappings between knowledge orga
   </figcaption>
 </figure>
 
-* **Use the most recent [release version](app/)**
-* See [cocoda documentation](https://gbv.github.io/cocoda/) for details
+Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri. The [cocoda manual](https://gbv.github.io/cocoda/#manual) gives a short introduction.
+
+##### ➡  [Start the current Cocoda release version](app/)
+
+&nbsp;
+
+#### Additional resources
+
 * Our current development version 
    [is available here](https://coli-conc.gbv.de/cocoda/dev/) (and [at gbv.github.io](https://gbv.github.io/cocoda/dev/))
 * [Source code repository](https://github.com/gbv/cocoda) and [issue tracker](https://github.com/gbv/cocoda/issues) are public
 
-### Introductions
-
-The [cocoda manual](https://gbv.github.io/cocoda/#manual) gives a short introduction.
-
-We also prepared some screencasts (mostly in German):
+##### Screencasts
 
 * [Quick Demo of Cocoda 0.9.3](../img/cocoda-quick-screencast.mp4) (30 seconds, 2019-06-25)
 * [Neue Features in Cocoda 0.8.0](https://vimeo.com/323457260) (7 minutes, 2019-03-13)
@@ -38,14 +38,14 @@ We also prepared some screencasts (mostly in German):
 * [Mapping mit Cocoda 0.6.0](https://vimeo.com/307653028) (5 minutes, 2018-12-21)
 * [Kurzeinführung Mapping mit Cocoda 0.5.1](https://vimeo.com/296616305) (3 minutes, 2018-10-23)
 
-#### History
+##### Release history
 
 The following table lists all releases, most of them can still be used.
 The first prototype of Cocoda was started in February 2014: the source
 is [archived at GitHub](https://github.com/gbv/cocoda-prototype) and
 [this screencast](https://vimeo.com/309446476) gives an impression. 
 
-<table class="table" id="release-table">
+<table class="table table-sm" id="release-table" style="width: 60%">
  <tr>
    <th>version</th>
    <th>date</th>
