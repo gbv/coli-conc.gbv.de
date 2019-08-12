@@ -18,7 +18,7 @@ include "$BASE/header.php";
   </figcaption>
 </figure>
 
-Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri. The [cocoda manual](https://gbv.github.io/cocoda/#manual) gives a short introduction.
+Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri. The [cocoda manual](https://gbv.github.io/cocoda/#manual) (see also the [manual in German](https://coli-conc.gbv.de/cocoda/app/user-manual-de.html)) gives a short introduction.
 
 ##### ➡  [Start the current Cocoda release version](app/)
 
