@@ -48,7 +48,11 @@ include "$BASE/header.php";
 -   coli-conc report 12: [Übersicht von GND-Konkordanzen](tr12.html)
     (November 2018) <https://doi.org/10.5281/zenodo.1689997>
 
-#### Presentations
+#### Presentations and Workshops
+
+- RVK-Mapping mit cocoda und ccmapper. 2019-08-14 13:30-16:00 at UB Regensburg (Tutorial & Workshop)
+
+- Short presentation at [International Dewey Users Meeting](https://www.eventbrite.com/e/oclc-at-ifla-wlic-2019-tickets-64562192255), August 27th, Athens 
 
 - Concept mapping through a hub: [Coli-conc pilot study](https://isko-lc.org/timetable/event/concept-mapping-through-a-hub-coli-conc-pilot-study/).
 June 21st, 2019 at [ISKO-LC 2019 conference](https://isko-lc.org/) in Brüssel.
