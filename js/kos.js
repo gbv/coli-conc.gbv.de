@@ -1,37 +1,32 @@
 $(function() {
-  $('#collapse-all').on('click', function() { $('.collapse').collapse('hide'); });
-  $('#expand-all').on('click', function() { $('.collapse').collapse('show'); });
-  $('.collapse').collapse("hide");
-
-  $(':checkbox').prop('checked', true);
-
-  var kos2type = {};
-  for (type in type2kos) {
-      type2kos[type].forEach(function(kos) {
-          if (!kos2type[kos]) kos2type[kos] = [];
-          kos2type[kos].push(type);
-      });
+  function supportedSystem(notation) {
+    return notation.match(/^(DDC|RVK|BK|GND|BOS|ixtheo)$/)
   }
-  $(':checkbox').change(function() {      
-    var checked = this.checked;
-    var type = this.value;
-    type2kos[type].forEach(function(uri) {
-      var id = uri.substring(uri.lastIndexOf('/')+1)
-      if (checked) {
-        $("#kos-"+id).show();
-      } else {
-        // don't hide if other type is checked
-        var types = kos2type[uri];
-        for(var i=0; i<types.length; i++) {
-            if (types[i] != type) {
-                if ($("input[type=checkbox][value='"+types[i]+"']:checked").length) {
-                    return;
-                }
-            }
-        }
-        $("#kos-"+id).hide();
-      }
-    });
-  });
-});
+  $.getJSON('kos.json', function(registry) {
+    const table = $('#registry-table tbody')
+    registry.forEach(function (scheme) {
+      const row = $('<tr>')
 
+      var name = scheme.prefLabel.en ||scheme.prefLabel.de
+      if (scheme.notation && scheme.notation.length) {
+        name += " (" + scheme.notation[0] + ")"
+      }
+
+      if (supportedSystem(scheme.notation[0])) { 
+        var url = 'https://coli-conc.gbv.de/cocoda/app/?fromScheme='+scheme.uri
+        var a = $('<a>').text(name).attr('href', url)
+        $('<td>').append(a).appendTo(row)
+      } else {
+        $('<td>').text(name).appendTo(row)
+      }
+
+      if (scheme.PICAPATH) {
+        $('<td>').append($('<code>').text(scheme.PICAPATH)).appendTo(row)
+      } else {
+        $('<td>').appendTo(row)
+      }
+      
+      row.appendTo(table)
+    })
+  })
+});
