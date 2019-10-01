@@ -9,7 +9,7 @@ include "$BASE/header.php";
 **General Contact**<br>
 coli-conc@gbv.de
 
-**Project Coordination**<br>
+**Project Lead**<br>
 Uma Balakrishnan (balakrishnan@gbv.de)
 
 **Technical Coordination**<br>
@@ -17,9 +17,6 @@ Dr. Jakob Voß (voss@gbv.de)
 
 **Software Development**<br>
 Stefan Peters (peters@gbv.de)
-
-**Student Assistant**<br>
-Dennis Tobola
 
 
 ### News
