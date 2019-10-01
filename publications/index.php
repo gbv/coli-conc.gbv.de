@@ -173,6 +173,8 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 #### Posters
 
+-   Voß, Jakob: [Cocoda web application for mapping Wikidata and authority files](https://commons.wikimedia.org/wiki/File:Cocoda-poster-wikidatacon2019.pdf).
+    Presented at [WikidataCon 2019](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2019)
 -   Voß, Jakob; Agne, Jana Maria; Balakrishnan, U.; Akter, Morsheda:
     Terminology Registries and Services. Presented at Research Data
     Alliance Deutschland Treffen and SWIB 2016.
