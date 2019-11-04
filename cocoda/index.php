@@ -22,6 +22,10 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 
 ##### ➡  [Start the current Cocoda release version](app/)
 
+##### ➡  [Start Cocoda instance optimized for RVK](rvk/)
+
+##### ➡  [Start Cocoda instance optimized for Wikidata](wikidata/)
+
 &nbsp;
 
 #### Additional resources
