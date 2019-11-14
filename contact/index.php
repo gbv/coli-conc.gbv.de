@@ -6,9 +6,6 @@ include "$BASE/header.php";
 
 ### Team
 
-**General Contact**<br>
-coli-conc@gbv.de
-
 **Project Lead**<br>
 Uma Balakrishnan (balakrishnan@gbv.de)
 
@@ -18,6 +15,8 @@ Dr. Jakob Voß (voss@gbv.de)
 **Software Development**<br>
 Stefan Peters (peters@gbv.de)
 
+**Mailing list**<br>
+coli-conc@gbv.de
 
 ### News
 
