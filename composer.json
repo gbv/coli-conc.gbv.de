@@ -2,7 +2,7 @@
     "require": {
         "gbv/jskos": "~0.3",
         "gbv/jskos-http": ">=0.3.1",
-        "gbv/jskos-rdf": ">=0.3.1",
+        "gbv/jskos-rdf": ">=0.3.2",
         "php-http/guzzle6-adapter": "~1.0",
         "symfony/yaml": "^3.4",
         "gbv/bartoc-jskos": "^0.2.1",

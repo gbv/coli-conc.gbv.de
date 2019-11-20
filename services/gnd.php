@@ -30,7 +30,7 @@ class GNDService extends JSKOS\ConfiguredService {
             $concept->inScheme = [ new ConceptScheme(["uri" => "http://bartoc.org/en/node/430"]) ];
 
             $uri = $concept->uri;
-            $rdf = Mapper::loadRDF($uri ."/about/lds", $uri);
+            $rdf = Mapper::loadRDF($uri ."/about/lds", $uri, null, true);
             if ($rdf) {
                 # TODO: fix date format
                 #error_log($rdf->getGraph()->serialise('turtle'));
