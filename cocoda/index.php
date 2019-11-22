@@ -30,7 +30,8 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 
 #### Additional resources
 
-* [German user manual](user-manual-de.pdf)
+* German user manual ([A4 PDF](user-manual-de.pdf) / [Foldable sheets](user-manual-de-book.pdf)
+* [Virtual Machine with Cocoda pre-installed](../download) (see [Cocoda workshop](https://github.com/gbv/cocoda-workshop/) for more information)
 * Our [**current development version**](https://coli-conc.gbv.de/cocoda/dev/) (and [at gbv.github.io](https://gbv.github.io/cocoda/dev/))
 * [Source code repository](https://github.com/gbv/cocoda) and [issue tracker](https://github.com/gbv/cocoda/issues) are public
 
