@@ -1,0 +1,18 @@
+{
+  "name": "coli-conc.gbv.de",
+  "version": "1.0.0",
+  "description": "The new coli-conc homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --no-source-map --style=compressed _scss:_includes/css",
+    "serve": "npm run sass -- --watch & eleventy --serve",
+    "build": "npm run sass && eleventy"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "sass": "^1.26.9"
+  }
+}

@@ -1,0 +1,46 @@
+
+.coli-conc-logo > img {
+  max-width: 250px;
+  width: 25%;
+  min-width: 100px;
+}
+
+.cocoda {
+  display: flex;
+  padding-top: 40px;
+  text-align: left;
+}
+.cocoda > :first-child {
+  flex: 1;
+  align-self: flex-start;
+  box-shadow: -4px 8px 99px #26262633;
+  margin-top: 20px;
+}
+.cocoda > :last-child {
+  flex: 1;
+  padding-left: 30px;
+}
+.cocoda > :last-child > h3 {
+  margin-top: 0px;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .coli-conc-logo {
+    margin-top: 100px;
+  }
+
+  .cocoda > :first-child {
+    margin-top: 0px;
+  }
+  .cocoda {
+    padding-top: 75px;
+  }
+}

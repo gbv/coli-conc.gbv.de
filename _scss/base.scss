@@ -1,0 +1,117 @@
+@use "colors";
+@use "fonts";
+@use "weights";
+@use "header";
+
+body {
+  margin: 0;
+  font-family: fonts.$main, fonts.$fallback;
+  font-weight: weights.$regular;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+  color: colors.$orange;
+  font-weight: weights.$regular;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+h2 {
+  font-size: 1.35em;
+  margin: 12px 0;
+}
+h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+h4 {
+  font-size: 1.05em;
+  margin: 8px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Normal links
+a {
+  color: colors.$orange;
+  text-decoration: none;
+  font-weight: weights.$bold;
+}
+section.dark a {
+  color: colors.$lightorange;
+}
+a:hover {
+  color: colors.$lightorange;
+}
+section.dark a:hover {
+  color: colors.$orange;
+}
+// Button links
+a.button {
+  background-color: colors.$orange;
+  color: colors.$white;
+  padding: 4px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.button:hover {
+  background-color: colors.$lightorange;
+}
+
+section {
+  text-align: justify;
+  position: relative;
+  padding: 20px 5%;
+}
+section.dark {
+  background: colors.$background-dark;
+  color: colors.$white;
+}
+section.light {
+  background: colors.$background-light;
+  color: colors.$black;
+}
+section.novpadding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+// For larger screens
+@media (min-width: 768px) {
+  body {
+    font-size: 1.25em;
+  }
+  h1 {
+    font-size: 1.75em;
+    margin: 18px 0;
+  }
+  h2 {
+    font-size: 1.6em;
+    margin: 15px 0;
+  }
+  h3 {
+    font-size: 1.45em;
+    margin: 12px 0;
+  }
+  h4 {
+    font-size: 1.3em;
+    margin: 10px 0;
+  }
+  a.button {
+    padding: 6px 25px;
+  }
+  section {
+    padding: 75px 20%;
+  }
+}

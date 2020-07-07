@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <style>
+    {% include "css/base.css" ignore missing -%}
+    {%- for css_ in css | default([]) -%}
+      {%- include "css/" + css_ + ".css" ignore missing -%}
+    {%- endfor -%}
+  </style>
+</head>
+<body>
+  <header class="header">
+    {# TODO: Remove this #}
+    <div style="width: 100%; text-align: center; background: red;">This is a preview!</div>
+    <a href="" class="vzg-logo">
+      <img src="images/vzg.png">
+    </a>
+    <input type="checkbox" id="menu-button" />
+    <label class="menu-icon" for="menu-button"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="{{ '/news/' | url }}">News</a></li>
+      <li><a href="{{ '/partners/' | url }}">Partners</a></li>
+      <li><a href="{{ '/services/' | url }}">Services</a></li>
+      <li><a href="{{ '/publications/' | url }}">Publications</a></li>
+      <li><a href="{{ '/team/' | url }}">Team</a></li>
+    </ul>
+    <div style="clear: both;"></div>
+  </header>
+  <main>
+    {% block content %}
+    {{ content | safe }}
+    {% endblock %}
+  </main>
+</body>
+</html>
