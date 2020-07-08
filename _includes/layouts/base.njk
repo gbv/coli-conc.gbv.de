@@ -5,6 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>coli-conc - {{ title }}</title>
   <style>
+    /* roboto-300 - latin */
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      src: url('{{ "/fonts/roboto-v20-latin-300.eot" | url }}'); /* IE9 Compat Modes */
+      src: local('Roboto Light'), local('Roboto-Light'),
+          url('{{ "/fonts/roboto-v20-latin-300.eot?#iefix" | url }}') format('embedded-opentype'), /* IE6-IE8 */
+          url('{{ "/fonts/roboto-v20-latin-300.woff2" | url }}') format('woff2'), /* Super Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-300.woff" | url }}') format('woff'), /* Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-300.ttf" | url }}') format('truetype'), /* Safari, Android, iOS */
+          url('{{ "/fonts/roboto-v20-latin-300.svg#Roboto" | url }}') format('svg'); /* Legacy iOS */
+    }
+    /* roboto-regular - latin */
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      src: url('{{ "/fonts/roboto-v20-latin-regular.eot" | url }}'); /* IE9 Compat Modes */
+      src: local('Roboto'), local('Roboto-Regular'),
+          url('{{ "/fonts/roboto-v20-latin-regular.eot?#iefix" | url }}') format('embedded-opentype'), /* IE6-IE8 */
+          url('{{ "/fonts/roboto-v20-latin-regular.woff2" | url }}') format('woff2'), /* Super Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-regular.woff" | url }}') format('woff'), /* Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-regular.ttf" | url }}') format('truetype'), /* Safari, Android, iOS */
+          url('{{ "/fonts/roboto-v20-latin-regular.svg#Roboto" | url }}') format('svg'); /* Legacy iOS */
+    }
+    /* roboto-500 - latin */
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      src: url('{{ "/fonts/roboto-v20-latin-500.eot" | url }}'); /* IE9 Compat Modes */
+      src: local('Roboto Medium'), local('Roboto-Medium'),
+          url('{{ "/fonts/roboto-v20-latin-500.eot?#iefix" | url }}') format('embedded-opentype'), /* IE6-IE8 */
+          url('{{ "/fonts/roboto-v20-latin-500.woff2" | url }}') format('woff2'), /* Super Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-500.woff" | url }}') format('woff'), /* Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-500.ttf" | url }}') format('truetype'), /* Safari, Android, iOS */
+          url('{{ "/fonts/roboto-v20-latin-500.svg#Roboto" | url }}') format('svg'); /* Legacy iOS */
+    }
     {% include "css/base.css" ignore missing -%}
     {%- for css_ in css | default([]) -%}
       {%- include "css/" + css_ + ".css" ignore missing -%}
@@ -16,7 +55,7 @@
     {# TODO: Remove this #}
     <div style="width: 100%; text-align: center; background: red;">This is a preview!</div>
     <a href="" class="vzg-logo">
-      <img src="images/vzg.png">
+      <img src="{{ '/images/vzg.png' | url }}">
     </a>
     <input type="checkbox" id="menu-button" />
     <label class="menu-icon" for="menu-button"><span class="navicon"></span></label>
@@ -25,7 +64,7 @@
       <li><a href="{{ '/partners/' | url }}">Partners</a></li>
       <li><a href="{{ '/services/' | url }}">Services</a></li>
       <li><a href="{{ '/publications/' | url }}">Publications</a></li>
-      <li><a href="{{ '/team/' | url }}">Team</a></li>
+      <li><a href="{{ '/contact/' | url }}">Team</a></li>
     </ul>
     <div style="clear: both;"></div>
   </header>
