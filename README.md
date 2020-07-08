@@ -21,6 +21,11 @@ Content of this section.
 
 The parameter can be `"dark"`, `"light"`, or empty.
 
+## Style Guide
+### Sections
+- Always start with a white section (`{% section %}...{% endsection %}`)
+- Then follow with dark and light sections (`{% section "dark" %}...{% endsection %}{% section "light" %}...{% endsection %}{% section "dark" %}...{% endsection %}...`)
+- Use h4 (`####`) for section headers because they are styled in a specific way
 
 ## Ideas
 

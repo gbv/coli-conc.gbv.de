@@ -35,6 +35,15 @@ h3 {
 h4 {
   font-size: 1.05em;
   margin: 8px 0;
+  padding: 12px 30px;
+  display: inline-block;
+  font-weight: weights.$bold;
+  background-color: colors.$background-dark;
+  color: colors.$lightorange;
+}
+section.dark h4 {
+  background-color: colors.$background-light;
+  color: colors.$orange;
 }
 
 .text-center {
@@ -64,6 +73,7 @@ a.button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 10px;
 }
 a.button:hover {
   background-color: colors.$lightorange;
