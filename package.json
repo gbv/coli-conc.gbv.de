@@ -2,6 +2,16 @@
   "name": "coli-conc.gbv.de",
   "version": "1.0.0",
   "description": "The new coli-conc homepage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbv/coli-conc-next.git"
+  },
+  "author": "Stefan Peters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gbv/coli-conc-next/issues"
+  },
+  "homepage": "https://github.com/gbv/coli-conc-next",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +19,6 @@
     "serve": "npm run sass -- --watch & eleventy --serve",
     "build": "npm run sass && eleventy"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "sass": "^1.26.9"

@@ -16,6 +16,9 @@ module.exports = eleventyConfig => {
     `
   })
 
+  // Paired Shortcode for Markdown
+  eleventyConfig.addPairedShortcode("markdown", content => markdownIt.render(content))
+
   // Passthrough for fonts and images
   eleventyConfig.addPassthroughCopy("fonts")
   eleventyConfig.addPassthroughCopy("images")
