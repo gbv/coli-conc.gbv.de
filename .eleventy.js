@@ -5,6 +5,7 @@ module.exports = eleventyConfig => {
     html: true,
   }
   const markdownIt = require("markdown-it")(markdownItOptions)
+    .use(require('markdown-it-anchor'))
   eleventyConfig.setLibrary("md", markdownIt);
 
   // Paired Shortcode for section
@@ -13,6 +14,17 @@ module.exports = eleventyConfig => {
 <section class="${variant}">
   ${markdownIt.render(content)}
 </section>
+    `
+  })
+
+  eleventyConfig.addShortcode("clear", () => `<div style="clear: both;"></div>`)
+
+  // Paired Shortcode for floating elements
+  eleventyConfig.addPairedShortcode("float", (content) => {
+    return `
+<div class="float">
+  ${markdownIt.render(content)}
+</div>
     `
   })
 

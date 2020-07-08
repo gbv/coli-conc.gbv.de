@@ -22,6 +22,64 @@ The current focus is on library classifications Dewey Decimal Classification (DD
 
 {% section "light" %}
 
-Light section
+#### News
+...
+
+{% endsection %}
+
+{% section "dark" %}
+
+#### Services
+
+### Applications
+...
+
+### Data Sets
+...
+
+### APIs
+...
+
+{% endsection %}
+
+{% section "light" %}
+
+#### Partners
+...
+
+{% endsection %}
+
+{% section "dark" %}
+
+#### Team
+
+{% clear %}
+{% float %}
+**General**
+
+coli-conc@gbv.de
+{% endfloat %}
+{% float %}
+**Project Lead**
+
+Uma Balakrishnan
+
+(balakrishnan@gbv.de)
+{% endfloat %}
+{% float %}
+**Technical Coordination**
+
+Dr. Jakob Voß
+
+(voss@gbv.de)
+{% endfloat %}
+{% float %}
+**Software Development**
+
+Stefan Peters
+
+(peters@gbv.de)
+{% endfloat %}
+{% clear %}
 
 {% endsection %}

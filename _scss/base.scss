@@ -126,6 +126,14 @@ section.novpadding {
   }
 }
 
+.float {
+  float: left;
+  padding: 5px 15px;
+}
+.float p {
+  margin: 8px 0;
+}
+
 .footer {
   padding: 10px;
   text-align: center;
