@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="text-center">
+  <a href="{{ '/' | url }}">
+    <img src="{{ '/images/coli-conc.svg' | url }}">
+  </a>
+</div>
+
+{% section "text-center novpadding" %}
+
+# {{ title }}
+{{ subtitle }}
+
+{% endsection %}
+
+{{ content | safe }}
