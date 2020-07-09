@@ -63,6 +63,17 @@
       <li><a href="{{ '/#partners' | url }}">Partners</a></li>
       <li><a href="{{ '/publications/' | url }}">Publications</a></li>
       <li><a href="{{ '/#contact' | url }}">Contact</a></li>
+      <li>
+        {% if locale == "de" %}
+        <a href="{{ '/' | urla }}">
+          <img src="{{ '/images/flag-en.svg' | urla }}" width="20px">
+        </a>
+        {% else %}
+        <a href="{{ '/de/' | url }}">
+          <img src="{{ '/images/flag-de.svg' | urla }}" width="20px">
+        </a>
+        {% endif %}
+      </li>
     </ul>
     {% clear %}
   </header>

@@ -70,7 +70,8 @@ module.exports = eleventyConfig => {
     htmlTemplateEngine: "njk",
     dir: {
       input: "en",
-      includes: "../_includes"
+      includes: "../_includes",
+      data: "../_data",
     },
   }
 }
