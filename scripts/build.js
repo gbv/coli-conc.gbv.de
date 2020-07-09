@@ -70,7 +70,7 @@ console.log()
 // 2. Build English site
 console.log("Building English site...")
 execSync(
-  'node_modules/.bin/eleventy build' + (pathprefix ? `--pathprefix=${pathprefix}` : ""),
+  'node_modules/.bin/eleventy build' + (pathprefix ? ` --pathprefix=${pathprefix}` : ""),
   { stdio: 'inherit' }
 )
 console.log()
