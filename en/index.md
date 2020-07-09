@@ -23,7 +23,20 @@ The current focus is on library classifications Dewey Decimal Classification (DD
 {% section "light" %}
 
 #### News
-...
+{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
+{%- for post in collections.news | reverse -%}
+  <!-- Show 6 latest news. -->
+  {% if loop.index0 < 6 %}
+  {% flex %}
+  {{ post.date | date("YYYY-MM-DD") }}
+
+  [{{ post.data.title }}]({{ post.url }})
+
+  {{ post.data.excerpt }}
+  {% endflex %}
+  {% endif %}
+{%- endfor -%}
+{% endflexbox %}
 
 {% endsection %}
 

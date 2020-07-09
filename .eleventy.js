@@ -1,3 +1,5 @@
+const moment = require("moment")
+
 module.exports = eleventyConfig => {
 
   // Prepare MarkdownIt
@@ -45,6 +47,11 @@ module.exports = eleventyConfig => {
 
   // Paired Shortcode for Markdown
   eleventyConfig.addPairedShortcode("markdown", content => markdownIt.render(content))
+
+  // date filter
+  eleventyConfig.addFilter("date", (date, format) => {
+    return moment(date).format(format)
+  })
 
   // Passthrough for fonts and images
   eleventyConfig.addPassthroughCopy("fonts")
