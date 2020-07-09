@@ -35,6 +35,11 @@ The current focus is on library classifications Dewey Decimal Classification (DD
   {{ post.data.excerpt }}
   {% endflex %}
   {% endif %}
+  {% if loop.index0 == 6 %}
+  {% flex %}
+  [All Posts]({{ "/blog/" | url }})
+  {% endflex %}
+  {% endif %}
 {%- endfor -%}
 {% endflexbox %}
 

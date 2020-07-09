@@ -22,5 +22,24 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 
 {% section "dark" %}
 #### More Posts
-...
+{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
+{%- for post in collections.news | reverse -%}
+  <!-- Show 6 latest news. -->
+  {% if loop.index0 < 6 and page.url != post.url %}
+  {% flex %}
+  {{ post.date | date("YYYY-MM-DD") }}
+
+  [{{ post.data.title }}]({{ post.url | url }})
+
+  {{ post.data.excerpt }}
+  {% endflex %}
+  {% endif %}
+  {% if loop.index0 == 6 %}
+  {% flex %}
+  [All Posts]({{ "/blog/" | url }})
+  {% endflex %}
+  {% endif %}
+{%- endfor -%}
+{% endflexbox %}
+
 {% endsection %}
