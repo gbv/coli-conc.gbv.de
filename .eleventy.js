@@ -53,6 +53,11 @@ module.exports = eleventyConfig => {
     return moment(date).format(format)
   })
 
+  // absolute URL filter
+  eleventyConfig.addFilter("urla", (url) => {
+    return eleventyConfig.getFilter("url")(url).replace("/de/", "/")
+  })
+
   // Passthrough for fonts and images
   eleventyConfig.addPassthroughCopy("fonts")
   eleventyConfig.addPassthroughCopy("images")

@@ -2,10 +2,16 @@
 Currently under development.
 
 ### URLs
-Run all absolute URLs through Eleventy's `url` filter so that they will point to the correct path:
+Run all URLs through Eleventy's `url` filter so that they will point to the correct path:
 
 ```
 [some link]({{ "/path/" | url }})
+```
+
+For static assets that stay the same for both the German and the English site, use the custom `urla` filter instead:
+
+```md
+![]({{ "/images/myimage.png" | urla }})
 ```
 
 ### Sections
@@ -20,6 +26,8 @@ Content of this section.
 ```
 
 The parameter can be `"dark"`, `"light"`, or empty.
+
+Exception: Blog/news posts (using the template under `en/blog/YYYY-MM-DD-template.md`), do NOT use sections here.
 
 ## Style Guide
 ### Sections

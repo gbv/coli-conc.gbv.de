@@ -10,39 +10,39 @@
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 300;
-      src: url('{{ "/fonts/roboto-v20-latin-300.eot" | url }}'); /* IE9 Compat Modes */
+      src: url('{{ "/fonts/roboto-v20-latin-300.eot" | urla }}'); /* IE9 Compat Modes */
       src: local('Roboto Light'), local('Roboto-Light'),
-          url('{{ "/fonts/roboto-v20-latin-300.eot?#iefix" | url }}') format('embedded-opentype'), /* IE6-IE8 */
-          url('{{ "/fonts/roboto-v20-latin-300.woff2" | url }}') format('woff2'), /* Super Modern Browsers */
-          url('{{ "/fonts/roboto-v20-latin-300.woff" | url }}') format('woff'), /* Modern Browsers */
-          url('{{ "/fonts/roboto-v20-latin-300.ttf" | url }}') format('truetype'), /* Safari, Android, iOS */
-          url('{{ "/fonts/roboto-v20-latin-300.svg#Roboto" | url }}') format('svg'); /* Legacy iOS */
+          url('{{ "/fonts/roboto-v20-latin-300.eot?#iefix" | urla }}') format('embedded-opentype'), /* IE6-IE8 */
+          url('{{ "/fonts/roboto-v20-latin-300.woff2" | urla }}') format('woff2'), /* Super Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-300.woff" | urla }}') format('woff'), /* Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-300.ttf" | urla }}') format('truetype'), /* Safari, Android, iOS */
+          url('{{ "/fonts/roboto-v20-latin-300.svg#Roboto" | urla }}') format('svg'); /* Legacy iOS */
     }
     /* roboto-regular - latin */
     @font-face {
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
-      src: url('{{ "/fonts/roboto-v20-latin-regular.eot" | url }}'); /* IE9 Compat Modes */
+      src: url('{{ "/fonts/roboto-v20-latin-regular.eot" | urla }}'); /* IE9 Compat Modes */
       src: local('Roboto'), local('Roboto-Regular'),
-          url('{{ "/fonts/roboto-v20-latin-regular.eot?#iefix" | url }}') format('embedded-opentype'), /* IE6-IE8 */
-          url('{{ "/fonts/roboto-v20-latin-regular.woff2" | url }}') format('woff2'), /* Super Modern Browsers */
-          url('{{ "/fonts/roboto-v20-latin-regular.woff" | url }}') format('woff'), /* Modern Browsers */
-          url('{{ "/fonts/roboto-v20-latin-regular.ttf" | url }}') format('truetype'), /* Safari, Android, iOS */
-          url('{{ "/fonts/roboto-v20-latin-regular.svg#Roboto" | url }}') format('svg'); /* Legacy iOS */
+          url('{{ "/fonts/roboto-v20-latin-regular.eot?#iefix" | urla }}') format('embedded-opentype'), /* IE6-IE8 */
+          url('{{ "/fonts/roboto-v20-latin-regular.woff2" | urla }}') format('woff2'), /* Super Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-regular.woff" | urla }}') format('woff'), /* Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-regular.ttf" | urla }}') format('truetype'), /* Safari, Android, iOS */
+          url('{{ "/fonts/roboto-v20-latin-regular.svg#Roboto" | urla }}') format('svg'); /* Legacy iOS */
     }
     /* roboto-500 - latin */
     @font-face {
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 500;
-      src: url('{{ "/fonts/roboto-v20-latin-500.eot" | url }}'); /* IE9 Compat Modes */
+      src: url('{{ "/fonts/roboto-v20-latin-500.eot" | urla }}'); /* IE9 Compat Modes */
       src: local('Roboto Medium'), local('Roboto-Medium'),
-          url('{{ "/fonts/roboto-v20-latin-500.eot?#iefix" | url }}') format('embedded-opentype'), /* IE6-IE8 */
-          url('{{ "/fonts/roboto-v20-latin-500.woff2" | url }}') format('woff2'), /* Super Modern Browsers */
-          url('{{ "/fonts/roboto-v20-latin-500.woff" | url }}') format('woff'), /* Modern Browsers */
-          url('{{ "/fonts/roboto-v20-latin-500.ttf" | url }}') format('truetype'), /* Safari, Android, iOS */
-          url('{{ "/fonts/roboto-v20-latin-500.svg#Roboto" | url }}') format('svg'); /* Legacy iOS */
+          url('{{ "/fonts/roboto-v20-latin-500.eot?#iefix" | urla }}') format('embedded-opentype'), /* IE6-IE8 */
+          url('{{ "/fonts/roboto-v20-latin-500.woff2" | urla }}') format('woff2'), /* Super Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-500.woff" | urla }}') format('woff'), /* Modern Browsers */
+          url('{{ "/fonts/roboto-v20-latin-500.ttf" | urla }}') format('truetype'), /* Safari, Android, iOS */
+          url('{{ "/fonts/roboto-v20-latin-500.svg#Roboto" | urla }}') format('svg'); /* Legacy iOS */
     }
     {% include "css/base.css" ignore missing -%}
     {%- for css_ in css | default([]) -%}
@@ -53,7 +53,7 @@
 <body>
   <header class="header">
     <a href="" class="vzg-logo">
-      <img src="{{ '/images/vzg.png' | url }}">
+      <img src="{{ '/images/vzg.png' | urla }}">
     </a>
     <input type="checkbox" id="menu-button" />
     <label class="menu-icon" for="menu-button"><span class="navicon"></span></label>

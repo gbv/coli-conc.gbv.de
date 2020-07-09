@@ -16,12 +16,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --no-source-map --style=compressed _scss:_includes/css",
-    "serve": "npm run sass -- --watch & eleventy --serve",
-    "build": "npm run sass && eleventy"
+    "serve": "(sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --serve",
+    "build": "node scripts/build.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "markdown-it-anchor": "^5.3.0",
+    "meow": "^7.0.1",
     "moment": "^2.27.0",
     "sass": "^1.26.9"
   }
