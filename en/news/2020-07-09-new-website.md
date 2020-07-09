@@ -7,8 +7,4 @@ tags:
 - news
 ---
 
-{% section "dark" %}
-
 We are currently working on this shiny new website design.
-
-{% endsection %}

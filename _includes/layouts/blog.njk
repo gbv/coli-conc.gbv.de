@@ -16,4 +16,11 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 
 {% endsection %}
 
+{% section %}
 {{ content | safe }}
+{% endsection %}
+
+{% section "dark" %}
+#### More Posts
+...
+{% endsection %}
