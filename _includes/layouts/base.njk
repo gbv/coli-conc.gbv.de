@@ -58,11 +58,11 @@
     <input type="checkbox" id="menu-button" />
     <label class="menu-icon" for="menu-button"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a href="{{ '/#news' | url }}">News</a></li>
-      <li><a href="{{ '/#services' | url }}">Services</a></li>
-      <li><a href="{{ '/#partners' | url }}">Partners</a></li>
-      <li><a href="{{ '/publications/' | url }}">Publications</a></li>
-      <li><a href="{{ '/#contact' | url }}">Contact</a></li>
+      <li><a href="{{ '/#news' | url }}">{{ strings.navbar.news | localize }}</a></li>
+      <li><a href="{{ '/#services' | url }}">{{ strings.navbar.services | localize }}</a></li>
+      <li><a href="{{ '/#partners' | url }}">{{ strings.navbar.partners | localize }}</a></li>
+      <li><a href="{{ '/publications/' | url }}">{{ strings.navbar.publications | localize }}</a></li>
+      <li><a href="{{ '/#contact' | url }}">{{ strings.navbar.contact | localize }}</a></li>
       <li>
         {% if locale == "de" %}
         <a href="{{ '/' | urla }}">

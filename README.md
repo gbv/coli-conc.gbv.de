@@ -29,6 +29,12 @@ The parameter can be `"dark"`, `"light"`, or empty.
 
 Exception: Blog/news posts (using the template under `en/blog/YYYY-MM-DD-template.md`), do NOT use sections here.
 
+### Localization
+English is the default language and all content should be created in English first (folder `en`). Then there are two ways to localize the content to German:
+
+1. Create the exact same file in folder `de` (same path, same filename) with German content.
+2. Use `_data/strings.js` to define strings with keys `en` and `de`, then use the `localize` filter in your file like this: `{{ strings.mykey | localize }}`
+
 ## Style Guide
 ### Sections
 - Always start with a white section (`{% section %}...{% endsection %}`)

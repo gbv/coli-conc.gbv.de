@@ -58,6 +58,10 @@ module.exports = eleventyConfig => {
     return eleventyConfig.getFilter("url")(url).replace("/de/", "/")
   })
 
+  eleventyConfig.addFilter("localize", function(string) {
+    return string[this.ctx.locale] || string.en
+  })
+
   // Passthrough for fonts and images
   eleventyConfig.addPassthroughCopy("fonts")
   eleventyConfig.addPassthroughCopy("images")
