@@ -30,7 +30,7 @@ The current focus is on library classifications Dewey Decimal Classification (DD
   {% flex %}
   {{ post.date | date("YYYY-MM-DD") }}
 
-  [{{ post.data.title }}]({{ post.url }})
+  [{{ post.data.title }}]({{ post.url | url }})
 
   {{ post.data.excerpt }}
   {% endflex %}
