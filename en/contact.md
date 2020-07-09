@@ -1,4 +1,4 @@
 ---
 layout: layouts/page
-title: Team
+title: Contact
 ---

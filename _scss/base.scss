@@ -126,11 +126,13 @@ section.novpadding {
   }
 }
 
-.float {
-  float: left;
+.flexbox {
+  display: flex;
+}
+.flex {
   padding: 5px 15px;
 }
-.float p {
+.flex p {
   margin: 8px 0;
 }
 

@@ -51,35 +51,45 @@ The current focus is on library classifications Dewey Decimal Classification (DD
 
 {% section "dark" %}
 
-#### Team
+#### Contact
 
-{% clear %}
-{% float %}
+{% flexbox "row", "text-align: center;" %}
+
+{% flex %}{% endflex %}
+{% flex %}{% icon "user", "75%" %}{% endflex %}
+{% flex %}{% icon "user", "75%" %}{% endflex %}
+{% flex %}{% icon "user", "75%" %}{% endflex %}
+{% flex %}{% endflex %}
+
+{% endflexbox %}
+
+{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
+{% flex %}
 **General**
 
 coli-conc@gbv.de
-{% endfloat %}
-{% float %}
+{% endflex %}
+{% flex %}
 **Project Lead**
 
 Uma Balakrishnan
 
 (balakrishnan@gbv.de)
-{% endfloat %}
-{% float %}
+{% endflex %}
+{% flex %}
 **Technical Coordination**
 
 Dr. Jakob Voß
 
 (voss@gbv.de)
-{% endfloat %}
-{% float %}
+{% endflex %}
+{% flex %}
 **Software Development**
 
 Stefan Peters
 
 (peters@gbv.de)
-{% endfloat %}
-{% clear %}
+{% endflex %}
+{% endflexbox %}
 
 {% endsection %}
