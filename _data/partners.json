@@ -1,0 +1,34 @@
+[
+  {
+    "image": "fub.png",
+    "url": "https://www.fu-berlin.de/"
+  },
+  {
+    "image": "ur.png",
+    "url": "http://www.uni-regensburg.de/"
+  },
+  {
+    "image": "zbw.png",
+    "url": "http://www.leibniz-transfer.de/einrichtungen/wirtschafts-und-sozialwissenschaften-raumwissenschaften/deutsche-zentralbibliothek-fuer-wirtschaftswissenschaften-ao-leibniz-informationszentrum-wirtschaft/"
+  },
+  {
+    "image": "usg.png",
+    "url": "https://www.unisg.ch/"
+  },
+  {
+    "image": "gesis.png",
+    "url": "https://www.gesis.org/home/"
+  },
+  {
+    "image": "ulb.png",
+    "url": "https://www.uibk.ac.at/ulb/index.html.de"
+  },
+  {
+    "image": "stabi.png",
+    "url": "http://staatsbibliothek-berlin.de/"
+  },
+  {
+    "image": "wikimedia.png",
+    "url": "https://wikimedia.de/"
+  }
+]
