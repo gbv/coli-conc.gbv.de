@@ -22,7 +22,7 @@ The current focus is on library classifications Dewey Decimal Classification (DD
 
 {% section "light" %}
 
-#### News
+#### {{ strings.sections.news | localize }}
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
 {%- for post in collections.news | reverse -%}
   <!-- Show 6 latest news. -->
@@ -47,7 +47,7 @@ The current focus is on library classifications Dewey Decimal Classification (DD
 
 {% section "dark" %}
 
-#### Services
+#### {{ strings.sections.services | localize }}
 
 ### Applications
 ...
@@ -62,7 +62,7 @@ The current focus is on library classifications Dewey Decimal Classification (DD
 
 {% section "light" %}
 
-#### Partners
+#### {{ strings.sections.partners | localize }}
 
 <!-- Using data from global `partners.json` file. Warning: Code duplication! -->
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
@@ -80,7 +80,7 @@ The current focus is on library classifications Dewey Decimal Classification (DD
 
 {% section "dark" %}
 
-#### Contact
+#### {{ strings.sections.contact | localize }}
 
 {% flexbox "row", "text-align: center;" %}
 

@@ -1,5 +1,5 @@
 module.exports = {
-  navbar: {
+  sections: {
     news: {
       en: "News",
     },
