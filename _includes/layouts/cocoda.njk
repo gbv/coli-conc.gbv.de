@@ -4,10 +4,11 @@ layout: layouts/page.njk
 
 {% section %}
 
-  <video autoplay controls loop muted playsinline style="border: 2px solid black; float: right; margin: 20px; width: 90%; max-width: 600px;">
+  <video autoplay controls loop muted playsinline style="border: 2px solid black; float: right; margin: 10px 20px; width: 90%; max-width: 600px;">
     <source src="{{ '/images/cocoda-quick-screencast.webm' | urla }}" type="video/webm">
     <source src="{{ '/images/cocoda-quick-screencast.mp4' | urla }}" type="video/mp4">
   </video>
+	<div style="display: inline-block; height: 0; width: 11em;"></div>
   {{ content | safe }}
 
 {% endsection %}
