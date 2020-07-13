@@ -7,7 +7,7 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 
 {% clear %}
 
-→ [Start the current Cocoda release version](https://coli-conc.gbv.de/cocoda/app/)
+{% button "https://coli-conc.gbv.de/cocoda/app/", "Start the current Cocoda release version" %}
 
 → [Start Cocoda instance optimized for RVK](https://coli-conc.gbv.de/cocoda/rvk/)
 

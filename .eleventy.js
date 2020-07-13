@@ -53,6 +53,9 @@ module.exports = eleventyConfig => {
   // Paired Shortcode for Markdown
   eleventyConfig.addPairedShortcode("markdown", content => markdownIt.render(content))
 
+  // Shortcode for button
+  eleventyConfig.addShortcode("button", (url, text, style, onclick) => `<a href="${url.startsWith("http") ? url : eleventyConfig.getFilter("url")(url)}" class="button" style="${style}" onclick="${onclick}">${text}</a>`)
+
   // date filter
   eleventyConfig.addFilter("date", (date, format) => {
     return moment(date).format(format)
