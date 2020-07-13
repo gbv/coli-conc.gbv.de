@@ -46,9 +46,20 @@ section.dark h4 {
   background-color: colors.$background-light;
   color: colors.$orange;
 }
+section.dark h1, section.dark h2, section.dark h3 {
+  color: colors.$lightorange;
+}
 
 .text-center {
   text-align: center;
+}
+
+// Lists in sections
+section li {
+  margin-top: 20px;
+}
+section li > p {
+  margin: 5px 0;
 }
 
 // Normal links
