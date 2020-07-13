@@ -9,7 +9,7 @@ css:
 
 {% section "dark" %}
 
-coli-conc provides free [services]({{ "/services/" | url }}) to access to and exchange of knowledge organisation systems (KOS) and their mappings. This includes:
+coli-conc provides free [services](#services) to access to and exchange of knowledge organisation systems (KOS) and their mappings. This includes:
 
 - uniform access to knowledge organization systems and their metadata with [JSKOS format](https://gbv.github.io/jskos/)
 - an open concordance registry to share concept mappings
