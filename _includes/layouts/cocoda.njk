@@ -1,0 +1,43 @@
+---
+layout: layouts/page.njk
+---
+
+{% section %}
+
+  <video autoplay controls loop muted playsinline style="border: 2px solid black; float: right; margin: 20px; width: 90%; max-width: 600px;">
+    <source src="{{ '/images/cocoda-quick-screencast.webm' | urla }}" type="video/webm">
+    <source src="{{ '/images/cocoda-quick-screencast.mp4' | urla }}" type="video/mp4">
+  </video>
+  {{ content | safe }}
+
+{% endsection %}
+
+{% section "dark" %}
+{% markdown %}
+
+#### Release History
+The following table lists all releases; most of them can still be used. The first prototype of Cocoda was started in February 2014: The source is [archived on GitHub](https://github.com/gbv/cocoda-prototype) and [this screencast](https://vimeo.com/309446476) gives an impression.
+{% endmarkdown %}
+
+  <table style="width: 100%; text-align: center;"> 
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for build in cocoda %}
+  <tr>
+    <td>{{ build.name }}</td>
+    <td>{{ build.date | date('YYYY-MM-DD')  }}</td>
+    <td>
+      <a href="https://coli-conc.gbv.de/cocoda/{{ build.name }}/">start</a>
+    </td>
+  </tr>
+  {%- endfor -%}
+  </tbody>
+  </table>
+
+{% endsection %}
