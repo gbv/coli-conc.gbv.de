@@ -2,6 +2,7 @@
 @use "fonts";
 @use "weights";
 @use "header";
+@use "responsive";
 
 body {
   margin: 0;
@@ -98,7 +99,7 @@ section.novpadding {
 }
 
 // For larger screens
-@media (min-width: 768px) {
+@media (min-width: responsive.$small) {
   body {
     font-size: 1.25em;
   }
