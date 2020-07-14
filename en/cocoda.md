@@ -5,13 +5,15 @@ title: Cocoda
 
 Cocoda is a web application to manage and create mappings between knowledge organization systems, such as classifications, authority files, and thesauri. The [Cocoda manual](https://gbv.github.io/cocoda/#manual) (see also the [manual in German](https://coli-conc.gbv.de/cocoda/app/user-manual-de.html)) gives a short introduction.
 
-{% clear %}
+<div class="cocoda-clear"></div> <!-- see cocoda.scss for details -->
 
 {% button "https://coli-conc.gbv.de/cocoda/app/", "Start the current Cocoda release version" %}
 
 → [Start Cocoda instance optimized for RVK](https://coli-conc.gbv.de/cocoda/rvk/)
 
 → [Start Cocoda instance optimized for Wikidata](https://coli-conc.gbv.de/cocoda/wikidata/)
+
+{% clear %}
 
 ### Additional Resources
 - German user manual ([A4 PDF](https://coli-conc.gbv.de/cocoda/user-manual-de.pdf) / [foldable sheets](https://coli-conc.gbv.de/cocoda/user-manual-de-book.pdf))
