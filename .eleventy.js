@@ -8,6 +8,23 @@ module.exports = eleventyConfig => {
   }
   const markdownIt = require("markdown-it")(markdownItOptions)
     .use(require('markdown-it-anchor'))
+
+  // Open external links in new tab, adapted from https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer
+  const mdDefaultLinkOpen = markdownIt.renderer.rules.link_open || function(tokens, idx, options, env, self) {
+    return self.renderToken(tokens, idx, options);
+  }
+  markdownIt.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+    if (tokens[idx].attrGet("href").startsWith("http")) {
+      const aIndex = tokens[idx].attrIndex('target')
+      if (aIndex < 0) {
+        tokens[idx].attrPush(['target', '_blank'])
+      } else {
+        tokens[idx].attrs[aIndex][1] = '_blank'
+      }
+    }
+    return mdDefaultLinkOpen(tokens, idx, options, env, self)
+  }
+
   eleventyConfig.setLibrary("md", markdownIt);
 
   // Paired Shortcode for section
