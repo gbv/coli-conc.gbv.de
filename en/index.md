@@ -131,27 +131,41 @@ Several web services are being developed to query information related to knowled
 **General**
 
 coli-conc@gbv.de
+
+{% small %}
+[Twitter](https://twitter.com/coli_conc)
+{% endsmall %}
 {% endflex %}
 {% flex %}
 **Project Lead**
 
 Uma Balakrishnan
 
-(balakrishnan@gbv.de)
+{% small %}
+balakrishnan@gbv.de
+{% endsmall%}
 {% endflex %}
 {% flex %}
 **Technical Coordination**
 
 Dr. Jakob Voß
 
-(voss@gbv.de)
+{% small %}
+voss@gbv.de
+
+[GitHub](https://github.com/stefandesu)
+{% endsmall %}
 {% endflex %}
 {% flex %}
 **Software Development**
 
 Stefan Peters
 
-(peters@gbv.de)
+{% small %}
+peters@gbv.de
+
+[GitHub](https://github.com/nichtich)
+{% endsmall %}
 {% endflex %}
 {% endflexbox %}
 

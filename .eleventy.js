@@ -39,6 +39,15 @@ module.exports = eleventyConfig => {
     `
   })
 
+  // Paired Shortcode for smaller text
+  eleventyConfig.addPairedShortcode("small", (content) => {
+    return `
+<small>
+  ${markdownIt.render(content)}
+</small>
+    `
+  })
+
   eleventyConfig.addShortcode("flexBreakRow", () => `<div style="flex-basis: 100%; height: 0;"></div>`)
 
   eleventyConfig.addShortcode("icon", (name, width = "20px") => {
