@@ -153,7 +153,7 @@ Dr. Jakob Voß
 {% small %}
 voss@gbv.de
 
-[GitHub](https://github.com/stefandesu)
+[GitHub](https://github.com/nichtich)
 {% endsmall %}
 {% endflex %}
 {% flex %}
@@ -164,7 +164,7 @@ Stefan Peters
 {% small %}
 peters@gbv.de
 
-[GitHub](https://github.com/nichtich)
+[GitHub](https://github.com/stefandesu)
 {% endsmall %}
 {% endflex %}
 {% endflexbox %}
