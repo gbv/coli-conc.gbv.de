@@ -1,6 +1,7 @@
 @use "colors";
 @use "fonts";
 @use "weights";
+@use "responsive";
 
 /* header */
 .header {
@@ -103,7 +104,7 @@
   top: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: responsive.$small) {
   .header {
     padding: 15px 20px 0 20px;
   }
