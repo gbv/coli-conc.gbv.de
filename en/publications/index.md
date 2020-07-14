@@ -13,6 +13,8 @@ title: Publications
 - [Other Articles](#other-articles)
 - [Specifications](#specifications)
 
+Subpages: [Software]({{ "/publications/software/" | url }}) ・ [Data]({{ "/publications/data/" | url }}) ・ [Licenses]({{ "/publications/licenses/" | url }})
+
 {% endsection %}
 
 {% section "dark" %}
