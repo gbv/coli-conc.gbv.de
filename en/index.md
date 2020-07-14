@@ -3,8 +3,6 @@ layout: layouts/index
 title: Welcome to coli-conc
 subtitle: Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems
 cocodaStartButton: start here
-css:
-- index
 ---
 
 {% section "dark" %}
