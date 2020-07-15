@@ -6,7 +6,7 @@ title:
 ---
 
 {% section %}
-
 {% include locale + "/contact.md" %}
-
 {% endsection %}
+
+{% section "dark" %}{% endsection %}

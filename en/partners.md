@@ -10,3 +10,5 @@ title:
 {% include locale + "/partners.md" %}
 
 {% endsection %}
+
+{% section "dark" %}{% endsection %}
