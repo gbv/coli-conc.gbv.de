@@ -15,8 +15,6 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
 {%- for post in pagination.items -%}
-  <!-- Show 6 latest news. -->
-  {% if loop.index0 < 6 %}
   {% flex %}
   {{ post.date | date("YYYY-MM-DD") }}
 
@@ -24,18 +22,24 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
 
   {{ post.data.excerpt }}
   {% endflex %}
-  {% endif %}
 {%- endfor -%}
 {% endflexbox %}
 
 {% if pagination.href.previous or pagination.href.next %}
 <br>
+{% set previousPage = { en: "Previous Page", de: "Vorherige Seite" } | localize %}
+{% set nextPage = { en: "Next Page", de: "Nächste Seite" } | localize %}
 
-{% if pagination.href.previous %}[Previous Page]({{ pagination.href.previous | url }}){% else %}Previous Page{% endif %}
+{% if pagination.href.previous %}[{{ previousPage }}]({{ pagination.href.previous | url }}){% else %}{{ previousPage }}{% endif %}
 |
-{% if pagination.href.next %}[Next Page]({{ pagination.href.next | url }}){% else %}Next Page{% endif %}
+{% if pagination.href.next %}[{{ nextPage }}]({{ pagination.href.next | url }}){% else %}{{ nextPage }}{% endif %}
 {% endif %}
 
 {% endsection %}
 
-{% section "dark" %}{% endsection %}
+{% section "dark" %}
+#### Feeds
+- {{ { en: "Important News", de: "Wichtige Neuigkeiten" } | localize }}: [RSS]({{ "/rss/news.xml" | url }})
+- {{ { en: "All Posts", de: "Alle Beiträge" } | localize }}: [RSS]({{ "/rss/blog.xml" | url }})
+
+{% endsection %}
