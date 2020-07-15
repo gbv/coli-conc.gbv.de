@@ -86,11 +86,11 @@
       <li><a href="{{ ('/#' + contactAnchor) | url }}">{{ strings.sections.contact | localize }}</a></li>
       <li class="menu-item-reduced-padding">
         {% if locale == "de" %}
-        <a href="{{ '/' | urla }}">
+        <a href="{{ page.url | urla }}">
           <img src="{{ '/images/flag-en.svg' | urla }}" width="20px">
         </a>
         {% else %}
-        <a href="{{ '/de/' | url }}">
+        <a href="{{ ('/de' + page.url) | url }}">
           <img src="{{ '/images/flag-de.svg' | urla }}" width="20px">
         </a>
         {% endif %}
