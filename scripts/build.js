@@ -86,6 +86,17 @@ for (let file of files) {
     fs.copyFileSync(file, fileGerman)
     filesCopied.push(fileGerman)
     console.log(`- copied ${file} to ${fileGerman}`)
+    // Add isFallback front matter variable to fallback site
+    if (!fileGerman.includes("_includes")) {
+      let fileContent = fs.readFileSync(fileGerman, "utf-8")
+      const addition = "isFallback: true"
+      if (fileContent.startsWith("---")) {
+        fileContent = fileContent.replace("---", `---\n${addition}`)
+      } else {
+        fileContent = `---\n${addition}\n---\n${fileContent}`
+      }
+      fs.writeFileSync(fileGerman, fileContent)
+    }
   }
 }
 console.log()
