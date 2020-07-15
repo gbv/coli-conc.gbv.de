@@ -10,7 +10,7 @@ Several web services are being developed to query information related to knowled
 
   Access to collected mappings and concordances.
 
-- [Occurrences API](https://coli-conc.gbv.de/occurrences/)
+- [Occurrences API]({{ "/occurrences/" | url }})
 
   Look up occurrences and co-occurrences of concepts in library catalogs.
 
