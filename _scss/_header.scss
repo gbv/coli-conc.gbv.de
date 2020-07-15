@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  overflow: hidden;
 }
 .header li a {
   display: block;
@@ -111,6 +112,9 @@
 @media (min-width: responsive.$small) {
   .header {
     padding: 15px 20px 0 20px;
+  }
+  .header ul {
+    overflow: visible;
   }
   .header li {
     float: left;
