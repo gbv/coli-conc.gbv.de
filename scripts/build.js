@@ -111,13 +111,15 @@ for (let file of filesCopied) {
 console.log()
 
 // 6. Delete fonts and images folder in German site
-console.log("Delete static files from German site...")
+console.log("Delete some static and unnecessary files...")
 const foldersToDelete = [
-  "fonts",
-  "images",
+  `${siteGerman}/fonts`,
+  `${siteGerman}/images`,
+  `${siteGerman}/_includes`,
+  `_includes`
 ]
 for (folder of foldersToDelete) {
-  folder = `_site/${siteGerman}/${folder}`
+  folder = `_site/${folder}`
   try {
     fs.rmdirSync(folder, { recursive: true })
     console.log(`- ${folder} deleted`)
