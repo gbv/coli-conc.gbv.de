@@ -1,6 +1,8 @@
 ---
 layout: layouts/page
-title: News and Blog
+title:
+  en: News and Blog
+  de: Neuigkeiten und Blog
 pagination:
   data: collections.blog
   size: 9
