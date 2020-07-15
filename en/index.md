@@ -44,52 +44,15 @@ cocodaStartButton:
 
 {% section "dark" %}
 
-#### {{ strings.sections.services | localize }}
+#### [{{ strings.sections.services | localize }}]({{ "/services/" | url }})
 
-### Applications
-- [Cocoda]({{ "/cocoda/" | url }})
+{% set servicesText %}
+{% include locale + "/services-applications.md" %}
+{% include locale + "/services-datasets.md" %}
+{% include locale + "/services-apis.md" %}
+{% endset %}
 
-  Mapping Tool
-
-### Data Sets
-- [KOS Types]({{ "/publications/kostypes/" | url }})
-
-  Classification of knowledge organization systems. Data extracted from Wikidata.
-
-- [KOS Registry]({{ "/terminologies/" | url }})
-
-  Description of knowledge organization systems relevant to project coli-conc. Data extracted from BARTOC.
-
-- [Concordance Registry]({{ "/concordances/" | url }})
-
-  Concordances collected and unified in project coli-conc. Data collected manually.
-
-- [Wikidata Mappings]({{ "/concordances/wikidata/" | url }})
-
-  Collected mappings between Wikidata and other systems. Data extracted from Wikidata.
-
-- [GND Mappings]({{ "/concordances/gnd/" | url }})
-
-  Collected mappings between the Integrated Authority File (GND) and other systems. Work in progress.
-
-### APIs
-Several web services are being developed to query information related to knowledge organization systemes in [JSKOS format](https://gbv.github.io/jskos/).
-
-- [DANTE API](https://api.dante.gbv.de/)
-
-  Access to terminologies and concepts from central terminology service of VZG.
-
-- [Mappings API](https://coli-conc.gbv.de/api/mappings)
-
-  Access to collected mappings and concordances.
-
-- [Occurrences API](https://coli-conc.gbv.de/occurrences/)
-
-  Look up occurrences and co-occurrences of concepts in library catalogs.
-
-- [Wikidata JSKOS API](https://coli-conc.gbv.de/services/wikidata/)
-
-  Access Wikidata in JSKOS format with [wikidata-jskos](https://github.com/gbv/wikidata-jskos).
+{{ servicesText | replace("####", "###") }}
 
 {% endsection %}
 

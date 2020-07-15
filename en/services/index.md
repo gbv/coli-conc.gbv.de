@@ -1,29 +1,19 @@
 ---
 layout: layouts/page
-title: Services
-subtitle: We provide a several applictaions, data sets and APIs for public use.
+title:
+  en: Services
+subtitle:
+  en: We provide a several applictaions, data sets and APIs for public use.
 ---
 
 {% section %}
-
-#### Applications
-
-...
-
+{% include locale + "/services-applications.md" %}
 {% endsection %}
 
 {% section "dark" %}
-
-#### Data Sets
-
-...
-
+{% include locale + "/services-datasets.md" %}
 {% endsection %}
 
 {% section "light" %}
-
-#### APIs
-
-...
-
+{% include locale + "/services-apis.md" %}
 {% endsection %}
