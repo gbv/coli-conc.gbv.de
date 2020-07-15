@@ -1,4 +1,16 @@
 {% flexbox "row", "text-align: center;" %}
+{% flex %}
+**{{ { en: "General", de: "Allgemein" } | localize }}**
+
+coli-conc@gbv.de
+
+{% small %}
+[Twitter](https://twitter.com/coli_conc)
+{% endsmall %}
+{% endflex %}
+{% endflexbox %}
+
+{% flexbox "row", "text-align: center;" %}
 
 {% flex %}{% endflex %}
 {% flex %}{% icon "user", "75%" %}{% endflex %}
@@ -10,16 +22,7 @@
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
 {% flex %}
-**General**
-
-coli-conc@gbv.de
-
-{% small %}
-[Twitter](https://twitter.com/coli_conc)
-{% endsmall %}
-{% endflex %}
-{% flex %}
-**Project Lead**
+**{{ { en: "Project Lead", de: "Projektleitung" } | localize }}**
 
 Uma Balakrishnan
 
@@ -28,7 +31,7 @@ balakrishnan@gbv.de
 {% endsmall%}
 {% endflex %}
 {% flex %}
-**Technical Coordination**
+**{{ { en: "Technical Coordination", de: "Technische Koordination" } | localize }}**
 
 Dr. Jakob Voß
 
@@ -39,7 +42,7 @@ voss@gbv.de
 {% endsmall %}
 {% endflex %}
 {% flex %}
-**Software Development**
+**{{ { en: "Software Development", de: "Software-Entwicklung" } | localize }}**
 
 Stefan Peters
 
