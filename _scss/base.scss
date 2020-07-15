@@ -87,6 +87,15 @@ a:hover {
 section.dark a:hover {
   color: colors.$orange;
 }
+
+// Fix h4 links
+section.dark h4 > a {
+  color: colors.$orange;
+}
+section.light h4 > a {
+  color: colors.$lightorange;
+}
+
 // Button links
 a.button {
   background-color: colors.$orange;

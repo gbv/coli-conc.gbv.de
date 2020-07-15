@@ -19,7 +19,7 @@ cocodaStartButton:
 
 {% section "light" %}
 
-#### {{ strings.sections.news | localize }}
+#### [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
 {%- for post in collections.news | reverse -%}
   <!-- Show 6 latest news. -->
@@ -58,7 +58,7 @@ cocodaStartButton:
 
 {% section "light" %}
 
-#### {{ strings.sections.partners | localize }}
+#### [{{ strings.sections.partners | localize }}]({{ "/partners/" | url }})
 
 {% include locale + "/partners.md" %}
 
@@ -66,7 +66,7 @@ cocodaStartButton:
 
 {% section "dark" %}
 
-#### {{ strings.sections.contact | localize }}
+#### [{{ strings.sections.contact | localize }}]({{ "/contact/" | url }})
 
 {% include locale + "/contact.md" %}
 
