@@ -1,8 +1,14 @@
 ---
 layout: layouts/index
-title: Welcome to coli-conc
-subtitle: Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems
-cocodaStartButton: start here
+title:
+  en: Welcome to coli-conc
+  de: Willkommen bei coli-conc
+subtitle:
+  en: Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems
+  de: Verwaltung und Bereitstellung von Konkordanzen zwischen bibliothekarischen Wissensorganisationsystemen
+cocodaStartButton:
+  en: start here
+  de: starte hier
 ---
 
 {% section "dark" %}

@@ -11,8 +11,8 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 
 {% section "text-center novpadding" %}
 
-# {{ title }}
-{{ subtitle }}
+# {{ title | localize }}
+{{ subtitle | localize }}
 
 {% endsection %}
 

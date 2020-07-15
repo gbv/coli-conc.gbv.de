@@ -1,6 +1,8 @@
 ---
 layout: layouts/page
-title: Contact
+title:
+  en: Contact
+  de: Kontakt
 ---
 
 {% section %}

@@ -10,8 +10,8 @@ css:
 
 {% section "text-center novpadding" %}
 
-# {{ title }}
-{{ subtitle }}
+# {{ title | localize }}
+{{ subtitle | localize }}
 
 <div class="cocoda">
   <img
@@ -19,7 +19,7 @@ css:
     width="55%">
   <div>
     <h3>Cocoda Mapping Tool</h3>
-    {% button "/cocoda/", cocodaStartButton %}
+    {% button "/cocoda/", cocodaStartButton | localize %}
   </div>
 </div>
 

@@ -100,6 +100,10 @@ module.exports = eleventyConfig => {
   })
 
   eleventyConfig.addFilter("localize", function(string) {
+    string = string || ""
+    if (typeof string === "string") {
+      return string
+    }
     return string[this.ctx.locale] || string.en
   })
 
