@@ -1,0 +1,42 @@
+---
+pagination:
+  data: feeds
+  alias: feed
+  size: 1
+feeds:
+  - name: blog
+    title: coli-conc Blog
+  - name: news
+    title: coli-conc News
+permalink: rss/{{ feed.name }}.xml
+eleventyExcludeFromCollections: true
+metadata:
+  author:
+    name: coli-conc
+    email: coli-conc@gbv.de
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ feed.title | localize }}</title>
+  <subtitle>{{ metadata.subtitle | localize }}</subtitle>
+  <link href="{{ env.URL + 'rss/' + feed.name + '.xml' }}" rel="self"/>
+  <link href="{{ env.URL }}"/>
+  <updated>{{ collections[feed.name] | rssLastUpdatedDate }}</updated>
+  <id>{{ env.URL }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for post in collections[feed.name] %}
+  {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title | localize }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ post.date | rssDate }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">
+      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+    </content>
+  </entry>
+  {%- endfor %}
+</feed>

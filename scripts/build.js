@@ -8,6 +8,7 @@ const cli = meow(`
 
   Options
     --pathprefix pathprefix option that is passed to eleventy
+    --url base URL for where the website is hosted
 
   Examples
     $ ./build.js --pathprefix=test
@@ -15,14 +16,32 @@ const cli = meow(`
   flags: {
     pathprefix: {
       type: 'string'
-    }
+    },
+    url: {
+      type: "string",
+      isRequired: true,
+    },
   }
 })
 
 let pathprefix = cli.flags.pathprefix
-// Remove trailing slash
+// Add trailing slash
 if (pathprefix && !pathprefix.endsWith("/")) {
   pathprefix += "/"
+}
+// Remove leading slash
+if (pathprefix && pathprefix.startsWith("/")) {
+  pathprefix = pathprefix.slice(1)
+}
+
+let url = cli.flags.url
+// Add trailing slash
+if (!url.endsWith("/")) {
+  url += "/"
+}
+// Add pathprefix if necessary
+if (pathprefix) {
+  url += pathprefix
 }
 
 const fs = require("fs")
@@ -70,7 +89,7 @@ console.log()
 // 2. Build English site
 console.log("Building English site...")
 execSync(
-  'node_modules/.bin/eleventy build' + (pathprefix ? ` --pathprefix=${pathprefix}` : ""),
+  `URL=${url} ` + 'node_modules/.bin/eleventy build' + (pathprefix ? ` --pathprefix=${pathprefix}` : ""),
   { stdio: 'inherit' }
 )
 console.log()
@@ -104,7 +123,7 @@ console.log()
 // 4. Build German site
 console.log("Building German site...")
 execSync(
-  `node_modules/.bin/eleventy build --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=_site/${siteGerman}`,
+  `URL=${url}${siteGerman}/ ` + `node_modules/.bin/eleventy build --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=_site/${siteGerman}`,
   { stdio: 'inherit' }
 )
 console.log()

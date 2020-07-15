@@ -1,6 +1,10 @@
 const moment = require("moment")
+const pluginRss = require("@11ty/eleventy-plugin-rss")
 
 module.exports = eleventyConfig => {
+
+  // Add plugins
+  eleventyConfig.addPlugin(pluginRss)
 
   // Prepare MarkdownIt
   const markdownItOptions = {
