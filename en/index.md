@@ -98,17 +98,7 @@ Several web services are being developed to query information related to knowled
 
 #### {{ strings.sections.partners | localize }}
 
-<!-- Using data from global `partners.json` file. Warning: Code duplication! -->
-{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
-{% for partner in partners %}
-{% flex "1", "padding: 25px;" %}
-[{% image "/images/partners/" + partner.image, "max-width: 350px; width: 80%; min-width: 200px;" %}]({{ partner.url }})
-{% endflex %}
-{% if loop.index % 2 == 0 %}
-{% flexBreakRow %}
-{% endif %}
-{% endfor %}
-{% endflexbox %}
+{% include locale + "/partners.md" %}
 
 {% endsection %}
 
@@ -116,57 +106,6 @@ Several web services are being developed to query information related to knowled
 
 #### {{ strings.sections.contact | localize }}
 
-{% flexbox "row", "text-align: center;" %}
-
-{% flex %}{% endflex %}
-{% flex %}{% icon "user", "75%" %}{% endflex %}
-{% flex %}{% icon "user", "75%" %}{% endflex %}
-{% flex %}{% icon "user", "75%" %}{% endflex %}
-{% flex %}{% endflex %}
-
-{% endflexbox %}
-
-{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
-{% flex %}
-**General**
-
-coli-conc@gbv.de
-
-{% small %}
-[Twitter](https://twitter.com/coli_conc)
-{% endsmall %}
-{% endflex %}
-{% flex %}
-**Project Lead**
-
-Uma Balakrishnan
-
-{% small %}
-balakrishnan@gbv.de
-{% endsmall%}
-{% endflex %}
-{% flex %}
-**Technical Coordination**
-
-Dr. Jakob Voß
-
-{% small %}
-voss@gbv.de
-
-[GitHub](https://github.com/nichtich)
-{% endsmall %}
-{% endflex %}
-{% flex %}
-**Software Development**
-
-Stefan Peters
-
-{% small %}
-peters@gbv.de
-
-[GitHub](https://github.com/stefandesu)
-{% endsmall %}
-{% endflex %}
-{% endflexbox %}
+{% include locale + "/contact.md" %}
 
 {% endsection %}
