@@ -5,12 +5,15 @@ CSS for /cocoda page
 .cocoda-video {
   width: 100%;
 }
-.cocoda-video > video {
-  display: block;
+.cocoda-video > div {
   margin: 10px auto;
   width: 90%;
   max-width: 600px;
   border: 2px solid black;
+}
+.cocoda-video > div > video {
+  display: block;
+  width: 100%;
 }
 
 // Center video for smaller screens
@@ -19,7 +22,7 @@ CSS for /cocoda page
     float: right;
     width: auto;
   }
-  .cocoda-video > video {
+  .cocoda-video > div {
     margin: 10px 0 10px 20px;
   }
 }

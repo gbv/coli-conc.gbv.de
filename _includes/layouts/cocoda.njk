@@ -7,10 +7,12 @@ css:
 {% section %}
 
   <div class="cocoda-video">
-    <video autoplay controls loop muted playsinline>
-      <source src="{{ '/images/cocoda-quick-screencast.webm' | urla }}" type="video/webm">
-      <source src="{{ '/images/cocoda-quick-screencast.mp4' | urla }}" type="video/mp4">
-    </video>
+    <div>
+      <video autoplay controls loop muted playsinline>
+        <source src="{{ '/images/cocoda-quick-screencast.webm' | urla }}" type="video/webm">
+        <source src="{{ '/images/cocoda-quick-screencast.mp4' | urla }}" type="video/mp4">
+      </video>
+    </div>
   </div>
   {{ content | safe }}
 
