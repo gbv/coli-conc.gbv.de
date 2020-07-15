@@ -142,4 +142,9 @@
     min-width: 100%;
     padding-bottom: 20px;
   }
+  .dropdown-menu > div {
+    position: relative;
+    z-index: 1000;
+    background-color: colors.$background;
+  }
 }
