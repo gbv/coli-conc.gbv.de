@@ -1,16 +1,4 @@
 ---
-layout: layouts/page
-title: "Publications: Licenses"
+layout: layouts/base
+redirect: https://uri.gbv.de/terminology/license/
 ---
-
-{% section %}
-
-TODO
-
-{% endsection %}
-
-{% section "dark" %}
-
-[All Publications]({{ "/publications/" | url }})
-
-{% endsection %}
