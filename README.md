@@ -83,6 +83,18 @@ If there is a page with dynamic content, you can use Vue.js in the following way
 
 3. Now you can refer to your data/computed inside the current page with `${variableName}`. You can also use Vue's attribute names (like `v-if` etc.) on your HTML tags.
 
+### Redirects
+If you want to have a redirecting page, create a file with only front matter:
+
+```yml
+---
+layout: layouts/base
+redirect: https://example.com
+---
+```
+
+`layout` is necessary because the base layout is handling the redirect. The redirect happens both with a meta tag and JavaScript as a fallback.
+
 ## Style Guide
 ### Sections
 - Always start with a white section (`{% section %}...{% endsection %}`)

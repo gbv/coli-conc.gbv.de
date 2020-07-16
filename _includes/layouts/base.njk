@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {# Handle redirects #}
+  {% if redirect %}
+  <meta http-equiv="refresh" content="0; url={{ redirect }}">
+  <script type="text/javascript">
+      window.location.href = "{{ redirect }}"
+  </script>
+  {% endif %}
   <title>coli-conc - {{ title | localize }}</title>
   <style>
     /* roboto-300 - latin */
@@ -122,9 +129,16 @@
     {% clear %}
   </header>
   <main id="main">
-    {% block content %}
-    {{ content | safe }}
-    {% endblock %}
+    {% if redirect %}
+      {% section "text-center" %}
+{{ { en: "Redirecting to", de: "Weiterleitung auf" } | localize }} [{{ redirect }}]({{ redirect }}) ({{ { en: "click link if nothing happens", de: "Link anklicken, falls nichts passiert" } | localize }})...
+      {% endsection %}
+      {% section "dark" %}{% endsection %}
+    {% else %}
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
+    {% endif %}
   </main>
   <footer class="footer">
     {% markdown %}
