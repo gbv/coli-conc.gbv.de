@@ -114,6 +114,7 @@ module.exports = eleventyConfig => {
   // Passthrough for fonts and images
   eleventyConfig.addPassthroughCopy("fonts")
   eleventyConfig.addPassthroughCopy("images")
+  eleventyConfig.addPassthroughCopy("js")
 
   // We can't use gitignore because Eleventy will ignore changes in CSS files
   eleventyConfig.setUseGitIgnore(false)

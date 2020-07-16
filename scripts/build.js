@@ -145,6 +145,7 @@ console.log("Delete some static and unnecessary files...")
 const foldersToDelete = [
   `${siteGerman}/fonts`,
   `${siteGerman}/images`,
+  `${siteGerman}/js`,
   `${siteGerman}/_includes`,
   `_includes`
 ]
