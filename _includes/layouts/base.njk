@@ -51,6 +51,15 @@
   </style>
 </head>
 <body>
+  {# Included hypothes.is when deloyed to GitHub Pages #}
+  {% if env.URL.startsWith("https://gbv.github.io") %}
+  <script type="application/json" class="js-hypothesis-config">
+  {
+    "showHighlights": "whenSidebarOpen",
+  }
+  </script>
+  <script async src="https://hypothes.is/embed.js"></script>
+  {% endif %}
   <a name="top"></a>
   <header class="header">
     <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" class="vzg-logo">
