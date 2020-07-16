@@ -17,6 +17,8 @@
 }
 .cocoda > :first-child {
   flex: 1;
+  display: block;
+  width: 50vw;
   align-self: flex-start;
   box-shadow: -4px 8px 99px #26262633;
   margin-top: 20px;
@@ -44,6 +46,7 @@
 
   .cocoda > :first-child {
     margin-top: 0px;
+    width: 35vw;
   }
   .cocoda {
     padding-top: 75px;

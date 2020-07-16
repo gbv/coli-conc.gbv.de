@@ -79,7 +79,10 @@
   <a name="top"></a>
   <header class="header">
     <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" class="vzg-logo">
-      <img src="{{ '/images/vzg.png' | urla }}">
+      <img
+        src="{{ '/images/vzg-300px.png' | urla }}"
+        srcset="{{ '/images/vzg-150px.png' | urla }} 150w, {{ '/images/vzg-300px.png' | urla }} 300w"
+        sizes="150px">
     </a>
     <input type="checkbox" id="menu-button" />
     <label class="menu-icon" for="menu-button"><span class="navicon"></span></label>
