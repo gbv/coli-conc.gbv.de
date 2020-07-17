@@ -110,7 +110,6 @@
           <div><a href="https://coli-conc.gbv.de/api/mappings" target="_blank">{{ strings.sections.services.mappingsApi | localize }}</a></div>
         </div>
       </li>
-      <li><a href="{{ partnersLink }}">{{ strings.sections.partners | localize }}</a></li>
       <li class="dropdown">
         <a href="{{ '/publications/' | url }}">{{ strings.sections.publications | localize }}</a>
         <div class="dropdown-menu">
@@ -119,6 +118,7 @@
           <div><a href="{{ '/publications/licenses/' | url }}">{{ strings.sections.publications.licenses | localize }}</a></div>
         </div>
       </li>
+      <li><a href="{{ partnersLink }}">{{ strings.sections.partners | localize }}</a></li>
       <li><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>
       <li class="menu-item-reduced-padding">
         {% if locale == "de" %}

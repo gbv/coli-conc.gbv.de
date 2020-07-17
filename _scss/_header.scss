@@ -147,4 +147,7 @@
     z-index: 1000;
     background-color: colors.$background;
   }
+  .dropdown-menu > div > a {
+    text-align: left;
+  }
 }
