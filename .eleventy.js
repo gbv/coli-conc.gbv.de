@@ -1,10 +1,14 @@
 const moment = require("moment")
 const pluginRss = require("@11ty/eleventy-plugin-rss")
+const yaml = require("js-yaml")
 
 module.exports = eleventyConfig => {
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss)
+
+  // Add yml
+  eleventyConfig.addDataExtension("yml", contents => yaml.safeLoad(contents))
 
   // Prepare MarkdownIt
   const markdownItOptions = {
@@ -12,6 +16,7 @@ module.exports = eleventyConfig => {
   }
   const markdownIt = require("markdown-it")(markdownItOptions)
     .use(require('markdown-it-anchor'))
+    .disable("code")
 
   // Open external links in new tab, adapted from https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer
   const mdDefaultLinkOpen = markdownIt.renderer.rules.link_open || function(tokens, idx, options, env, self) {
