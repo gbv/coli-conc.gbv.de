@@ -12,6 +12,7 @@
   {% endif %}
   <title>coli-conc - {{ title | localize }}</title>
   <style>
+    {% set totalcss %}
     /* roboto-300 - latin */
     @font-face {
       font-family: 'Roboto';
@@ -58,6 +59,8 @@
     {%- for css_ in css | default([]) -%}
       {%- include "css/" + css_ + ".css" ignore missing -%}
     {%- endfor -%}
+    {% endset %}
+    {{ totalcss | cssmin | safe }}
   </style>
 </head>
 <body>
