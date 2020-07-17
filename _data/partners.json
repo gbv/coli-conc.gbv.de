@@ -1,34 +1,42 @@
 [
   {
-    "image": "fub.png",
+    "image": "fub-300px.png",
+    "image2x": "fub-600px.png",
     "url": "https://www.fu-berlin.de/"
   },
   {
-    "image": "ur.png",
+    "image": "ur-300px.png",
+    "image2x": "ur-600px.png",
     "url": "http://www.uni-regensburg.de/"
   },
   {
-    "image": "zbw.png",
+    "image": "zbw-300px.png",
+    "image2x": "zbw-600px.png",
     "url": "http://www.leibniz-transfer.de/einrichtungen/wirtschafts-und-sozialwissenschaften-raumwissenschaften/deutsche-zentralbibliothek-fuer-wirtschaftswissenschaften-ao-leibniz-informationszentrum-wirtschaft/"
   },
   {
-    "image": "usg.png",
+    "image": "usg-300px.png",
+    "image2x": "usg-600px.png",
     "url": "https://www.unisg.ch/"
   },
   {
-    "image": "stabi.png",
+    "image": "stabi-300px.png",
+    "image2x": "stabi-600px.png",
     "url": "http://staatsbibliothek-berlin.de/"
   },
   {
-    "image": "ulb.png",
+    "image": "ulb-300px.png",
+    "image2x": "ulb-600px.png",
     "url": "https://www.uibk.ac.at/ulb/index.html.de"
   },
   {
-    "image": "gesis.png",
+    "image": "gesis-300px.png",
+    "image2x": "gesis-600px.png",
     "url": "https://www.gesis.org/home/"
   },
   {
-    "image": "wikimedia.png",
+    "image": "wikimedia-300px.png",
+    "image2x": "wikimedia-600px.png",
     "url": "https://wikimedia.de/"
   }
 ]
