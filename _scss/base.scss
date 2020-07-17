@@ -19,7 +19,7 @@ body {
   font-family: fonts.$main, fonts.$fallback;
   font-weight: weights.$regular;
   line-height: 1.5;
-  font-size: 1em;
+  font-size: calc(1em + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 * {
@@ -32,19 +32,19 @@ h1, h2, h3, h4 {
   line-height: 1.2;
 }
 h1 {
-  font-size: 1.5em;
+  font-size: calc(1.5em + (28 - 24) * ((100vw - 300px) / (1600 - 300)));
   margin: 20px 0 12px 0;
 }
 h2 {
-  font-size: 1.35em;
+  font-size: calc(1.35em + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
   margin: 20px 0 10px 0;
 }
 h3 {
-  font-size: 1.2em;
+  font-size: calc(1.2em + (23 - 19) * ((100vw - 300px) / (1600 - 300)));
   margin: 20px 0 7px 0;
 }
 h4 {
-  font-size: 1.05em;
+  font-size: calc(1.05em + (21 - 17) * ((100vw - 300px) / (1600 - 300)));
   margin: 8px 0;
   padding: 12px 30px;
   display: inline-block;
@@ -100,7 +100,7 @@ section.light h4 > a {
 a.button {
   background-color: colors.$orange;
   color: colors.$white;
-  padding: 4px 15px;
+  padding: calc(2px + (6 - 2) * ((100vw - 300px) / (1600 - 300))) calc(15px + (25 - 15) * ((100vw - 300px) / (1600 - 300)));
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -113,7 +113,7 @@ a.button:hover {
 section {
   text-align: justify;
   position: relative;
-  padding: 20px 5%;
+  padding: calc(10px + (100vh - 500px) / 15) calc((100vw - 250px) / 4.5);
 }
 section.dark {
   background: colors.$background-dark;
@@ -126,35 +126,6 @@ section.light {
 section.novpadding {
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-// For larger screens
-@media (min-width: responsive.$small) {
-  body {
-    font-size: 1.25em;
-  }
-  h1 {
-    font-size: 1.75em;
-    margin: 30px 0 18px 0;
-  }
-  h2 {
-    font-size: 1.6em;
-    margin: 30px 0 15px 0;
-  }
-  h3 {
-    font-size: 1.45em;
-    margin: 30px 0 12px 0;
-  }
-  h4 {
-    font-size: 1.3em;
-    margin: 10px 0;
-  }
-  a.button {
-    padding: 6px 25px;
-  }
-  section {
-    padding: 75px 20%;
-  }
 }
 
 .flexbox {

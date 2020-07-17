@@ -8,6 +8,7 @@
   width: 100%;
   font-size: 16px;
   font-weight: weights.$bold;
+  padding: calc(0px + (15) * ((100vw - 300px) / (1600 - 300))) calc(0px + (20) * ((100vw - 300px) / (1600 - 300))) 0 calc(0px + (20) * ((100vw - 300px) / (1600 - 300)));
 }
 .header ul {
   margin: 0;
@@ -110,9 +111,6 @@
 }
 
 @media (min-width: responsive.$small) {
-  .header {
-    padding: 15px 20px 0 20px;
-  }
   .header ul {
     overflow: visible;
   }

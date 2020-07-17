@@ -17,7 +17,7 @@ CSS for /cocoda page
 }
 
 // Center video for smaller screens
-@media (min-width: 1450px) {
+@media (min-width: 1300px) {
   .cocoda-video {
     float: right;
     width: auto;
@@ -28,7 +28,7 @@ CSS for /cocoda page
 }
 
 // Only clear up to a certain screen width (after that, the buttons fit next to the video)
-@media (max-width: 1750px) {
+@media (max-width: 1700px) {
   .cocoda-clear {
     clear: both;
   }

@@ -2,6 +2,7 @@
 
 .coli-conc-logo {
   display: block;
+  margin-top: calc(0px + (100) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .coli-conc-logo > img {
@@ -12,23 +13,23 @@
 
 .cocoda {
   display: flex;
-  padding-top: 40px;
+  padding-top: calc(40px + (75 - 40) * ((100vw - 300px) / (1600 - 300)));;
   text-align: left;
 }
 .cocoda > :first-child {
   flex: 1;
   display: block;
-  width: 50vw;
+  width: calc(35vw + (50 - 35) * ((100vw - 300px) / (1600 - 300)));;
   align-self: flex-start;
   box-shadow: -4px 8px 99px #26262633;
-  margin-top: 20px;
+  margin-top: calc(0px + (20) * ((100vw - 300px) / (1600 - 300)));;
 }
 .cocoda > :last-child {
   flex: 1;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .cocoda > :last-child > h3 {
-  margin-top: 0px;
+  margin-top: calc(0px + (30) * ((100vw - 300px) / (1600 - 300)));;
 }
 
 .wave {
@@ -37,18 +38,4 @@
   z-index: -1;
   bottom: 0;
   left: 0;
-}
-
-@media (min-width: responsive.$small) {
-  .coli-conc-logo {
-    margin-top: 100px;
-  }
-
-  .cocoda > :first-child {
-    margin-top: 0px;
-    width: 35vw;
-  }
-  .cocoda {
-    padding-top: 75px;
-  }
 }
