@@ -1,5 +1,47 @@
-# New coli-conc Homepage
+# New coli-conc Website
 Currently under development.
+
+## Install and Build
+The website uses [Eleventy](https://www.11ty.dev) as a static site generator. Eleventy is built in JavaScript and we are extending some of its functionality with additional packages, therefore node/npm is necessary.
+
+### Installation
+```bash
+git clone https://github.com/gbv/coli-conc-next.git
+cd coli-conc-next
+npm install
+```
+
+### Build
+As we are doing some things that are currently not possible with native Eleventy functionality, we are using a build script which wraps around Eleventy's own build process.
+
+```bash
+npm run build -- --pathprefix=coli-conc-next --url=https://gbv.github.io
+# The site is now available under _site/
+```
+
+This would build the site to be deployed to https://gbv.github.io/coli-conc-next/. `--pathprefix` is optional and only needed if the site is not deployed to the root folder of a domain. `--url` is always necessary.
+
+### Development
+A hot-reloading development server is included, though it **only serves the English version** of the site (note that the German version might still be accessible, but only because of an older build; both `build` and `serve` use the `_site` directory).
+
+```bash
+npm run serve
+```
+
+The site should be served on http://localhost:8080/. If the port is unavailable, the script will increment the port until an available port is found (please refer to the output).
+
+Alternatively, if hot reloading is not required and you would like to locally preview the whole page (including the German version of the site), building the site is quick, and you can use a simple HTTP server like [http-server](https://www.npmjs.com/package/http-server) to serve the site:
+
+```bash
+# Install http-server globally
+npm i -g http-server
+# Build and run (adjust port if necessary)
+PORT=8091; npm run build -- --url=http://localhost:$PORT; http-server -p $PORT _site
+```
+
+The site should now be served on http://localhost:8081, including the German version.
+
+## Notes
 
 ### URLs
 Run all URLs through Eleventy's `url` filter so that they will point to the correct path:
