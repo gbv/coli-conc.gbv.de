@@ -168,6 +168,22 @@ section.novpadding {
   margin: 8px 0;
 }
 
+table {
+  width: 100%;
+  text-align: left;
+  font-size: 0.8em;
+}
+th, td {
+  vertical-align: middle;
+  padding: 5px 5px;
+}
+tr:nth-child(even) {
+  background-color: colors.$background-light;
+}
+section.dark tr:nth-child(even) {
+  background-color: colors.$black;
+}
+
 .footer {
   padding: 10px;
   text-align: center;
