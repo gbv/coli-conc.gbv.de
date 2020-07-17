@@ -183,6 +183,9 @@ tr:nth-child(even) {
 section.dark tr:nth-child(even) {
   background-color: colors.$black;
 }
+table img {
+  display: block;
+}
 
 .footer {
   padding: 10px;
