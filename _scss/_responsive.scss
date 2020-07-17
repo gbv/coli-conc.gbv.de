@@ -1,2 +1,21 @@
+$tiny: 500px;
 $small: 800px;
 $medium: 1200px;
+
+@media (max-width: $tiny) {
+  .tiny-hide {
+    display: none;
+  }
+}
+
+@media (max-width: $small) {
+  .small-hide {
+    display: none;
+  }
+}
+
+@media (max-width: $medium) {
+  .medium-hide {
+    display: none;
+  }
+}

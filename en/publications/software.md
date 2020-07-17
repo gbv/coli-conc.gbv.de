@@ -9,10 +9,10 @@ title: "Publications: Software"
   <thead>
     <tr>
       <th>name and description</th>
-      <th>type</th>
+      <th class="tiny-hide">type</th>
       <th>status</th>
-      <th></th>
-      <th>language</th>
+      <th class="medium-hide"></th>
+      <th class="small-hide">language</th>
       <th>release</th>
     </tr>
   </thead>
@@ -23,15 +23,15 @@ title: "Publications: Software"
         <a href="{{ item.repository }}" target="_blank">{{ item.name }}</a>
         {{ item.description }}
       </td>
-      <td>{{ item.type }}</td>
+      <td class="tiny-hide">{{ item.type }}</td>
       <td>{{ item.status }}</td>
-      <td>
+      <td class="medium-hide">
         {%- if item.travis -%}
         {%- set url = item.repository | replace("github.com", "travis-ci." + item.travis) -%}
         <a href="{{ url }}"><img src="{{ url }}.svg"></a>
         {%- endif -%}
       </td>
-      <td>{{ item.language }}</td>
+      <td class="small-hide">{{ item.language }}</td>
       <td>
         {%- if item.release -%}
           {%- set shield = "" -%}
