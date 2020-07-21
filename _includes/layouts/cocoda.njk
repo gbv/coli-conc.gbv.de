@@ -21,15 +21,19 @@ css:
 {% section "dark" %}
 {% markdown %}
 
-#### Release History
+#### {{ { en: "Release History", de: "Versionsgeschichte" } | localize }}
+{% if locale == "de" %}
+Die nachfolgende Tabelle listet alle vergangenen Releases auf; die meisten davon können weiterhin genutzt werden. Der erste Prototyp von Cocoda wurde im Februar 2014 gestartet: Der Quellcode ist [auf GitHub archiviert](https://github.com/gbv/cocoda-prototype) und [dieser Screencast](https://vimeo.com/309446476) vermittelt einen Eindruck.
+{% else %}
 The following table lists all releases; most of them can still be used. The first prototype of Cocoda was started in February 2014: The source is [archived on GitHub](https://github.com/gbv/cocoda-prototype) and [this screencast](https://vimeo.com/309446476) gives an impression.
+{% endif %}
 {% endmarkdown %}
 
   <table style="width: 100%; text-align: center;">
   <thead>
     <tr>
       <th>Version</th>
-      <th>Date</th>
+      <th>{{ { en: "Date", de: "Datum" } | localize}}</th>
       <th>Link</th>
     </tr>
   </thead>
