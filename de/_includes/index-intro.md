@@ -1,5 +1,5 @@
 
-Mit coli-conc stellt die [VZG](https://www.gbv.de/) [Dienste](#{{ strings.sections.services | localize | slug }}) für den Zugriff auf und Austausch von Wissensorganisationsystemen und Konkordanzen bereit. Dies beinhaltet:
+Mit coli-conc stellt die VZG [Dienste](#{{ strings.sections.services | localize | slug }}) für den Zugriff auf und Austausch von Wissensorganisationsystemen und Konkordanzen bereit. Dies beinhaltet:
 
 - Einheitlicher Zugriff auf Wissensorganisationssysteme und ihre Metadaten mit dem [JSKOS-Format](https://gbv.github.io/jskos/)
 - Eine offene Konkordanz-Datenbank zum Austausch von Mappings
