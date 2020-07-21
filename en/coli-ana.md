@@ -31,7 +31,7 @@ The synthesized DDC number [700.90440747471](https://coli-conc.gbv.de/cocoda/app
 The following mockup show how integration of coli-ana into [Cocoda mapping
 tool]({{ "/cocoda/" | url }}) could look like:
 
-![mockup of coli-ana]({{ "/images/coli-ana.png" | urla }})
+{% image "/images/coli-ana.png", "", "mockup of coli-ana" %}
 
 In [JSKOS data format](https://gbv.github.io/jskos/) this would be expressed as:
 

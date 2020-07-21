@@ -161,6 +161,30 @@ table img {
   display: block;
 }
 
+pre {
+  overflow: scroll;
+  border-radius: 5px;
+  margin: 0;
+  padding: 4px 8px;
+  background-color: colors.$background-light;
+}
+section.light pre {
+  background-color: colors.$background;
+}
+section.dark pre {
+  background-color: colors.$black;
+}
+
+section img.image {
+  border: 5px solid colors.$background-light;
+}
+section.light img.image {
+  border-color: colors.$background;
+}
+section.dark img.image {
+  border-color: colors.$black;
+}
+
 .footer {
   padding: 10px;
   text-align: center;

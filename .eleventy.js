@@ -104,7 +104,7 @@ module.exports = eleventyConfig => {
   })
 
   // Shortcode for images
-  eleventyConfig.addShortcode("image", (url, style) => `<img src="${eleventyConfig.getFilter("urla")(url)}" style="${style}">`)
+  eleventyConfig.addShortcode("image", (url, style, alt = "") => `<img class="image" src="${eleventyConfig.getFilter("urla")(url)}" style="${style}" alt="${alt}">`)
 
   // Paired Shortcode for Markdown
   eleventyConfig.addPairedShortcode("markdown", content => markdownIt.render(content))
