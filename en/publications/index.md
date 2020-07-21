@@ -6,14 +6,15 @@ title: Publications
 {% section %}
 
 - [Screencasts](#screencasts)
+- [Software](#software)
+- [Data](#data)
 - [Reports](#reports)
 - [Presentations and Workshops](#presentations-and-workshops)
 - [Reviewed Articles](#reviewed-articles)
 - [Posters](#posters)
 - [Other Articles](#other-articles)
 - [Specifications](#specifications)
-
-Subpages: [Software]({{ "/publications/software/" | url }}) ・ [Data]({{ "/publications/data/" | url }}) ・ [Licenses]({{ "/publications/licenses/" | url }})
+- [Licenses](https://uri.gbv.de/terminology/license/)
 
 {% endsection %}
 
@@ -33,6 +34,94 @@ Subpages: [Software]({{ "/publications/software/" | url }}) ・ [Data]({{ "/publ
     (0.5.1)](https://vimeo.com/296616305) German screencast introducing
     Cocoda 0.5.1 in 3 minutes (2018-10-23)
 -   [Cocoda first prototype 2014/15](https://vimeo.com/309446476)
+
+{% endsection %}
+
+{% section "light" %}
+
+#### Software
+
+<table>
+  <thead>
+    <tr>
+      <th>name and description</th>
+      <th class="tiny-hide">type</th>
+      <th>status</th>
+      <th class="medium-hide"></th>
+      <th class="small-hide">language</th>
+      <th>release</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in software %}
+    <tr>
+      <td>
+        <a href="{{ item.repository }}" target="_blank">{{ item.name }}</a>
+        {{ item.description }}
+      </td>
+      <td class="tiny-hide">{{ item.type }}</td>
+      <td>{{ item.status }}</td>
+      <td class="medium-hide">
+        {%- if item.travis -%}
+        {%- set url = item.repository | replace("github.com", "travis-ci." + item.travis) -%}
+        <a href="{{ url }}"><img src="{{ url }}.svg"></a>
+        {%- endif -%}
+      </td>
+      <td class="small-hide">{{ item.language }}</td>
+      <td>
+        {%- if item.release -%}
+          {%- set shield = "" -%}
+          {%- set regExp = r/^https?:/ -%}
+          {%- if regExp.test(item.release) -%}
+            {%- set url = item.release -%}
+          {%- elif item.language == "PHP" -%}
+            {%- set url = "https://packagist.org/packages/" -%}
+            {%- set shield = "packagist" -%}
+          {%- elif item.language == "JavaScript" -%}
+            {%- set url = "https://www.npmjs.com/package/" -%}
+            {%- set shield = "npm" -%}
+          {%- elif item.language == "Python" -%}
+            {%- set url = "https://pypi.python.org/pypi/" -%}
+            {%- set shield = "pypi" -%}
+          {%- elif item.language == "Perl" -%}
+            {%- set url = "https://metacpan.org/release/" -%}
+            {%- set shield = "cpan" -%}
+          {%- endif -%}
+          {%- if shield -%}
+            [![](https://img.shields.io/{{ shield }}/v/{{ item.release }}.svg?style=flat)]({{ url + item.release }})
+          {%- else -%}
+            [link]({{ url }})
+          {%- endif -%}
+        {%- endif -%}
+      </td>
+    </tr>
+    {% endfor %}
+  <tbody>
+</table>
+
+{% endsection %}
+
+{% section "dark" %}
+
+#### Data
+
+We collect and (re)publish data related to concordances and knowledge organization systems.
+
+-   Basisiklassifikation in [RDF (Turtle)](bk.ttl) and [JSKOS (ndjson)](bk.ndjson)
+
+-   [Concordances](../../concordances/)
+
+-   We daily harvest and convert [authority file mappings from
+    Wikidata](../../concordances/wikidata).
+
+-   [BARTOC database dumps](../bartoc)
+
+-   [List of common licenses](../licenses)
+
+-   [Classification of Knowledge Organization Systems](../kostypes)
+
+See also [jskos-data](https://github.com/gbv/jskos-data) repository for
+a collection of knowledge organization systems encoded in JSKOS
 
 {% endsection %}
 

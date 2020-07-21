@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {# Handle redirects #}
   {% if redirect %}
+  {% set redirect = redirect | url %}
   <meta http-equiv="refresh" content="0; url={{ redirect }}">
   <script type="text/javascript">
       window.location.href = "{{ redirect }}"
@@ -115,11 +116,11 @@
       </li>
       <li class="dropdown">
         <a href="{{ '/publications/' | url }}">{{ strings.sections.publications | localize }}</a>
-        <div class="dropdown-menu">
+        {# <div class="dropdown-menu">
           <div><a href="{{ '/publications/software/' | url }}">{{ strings.sections.publications.software | localize }}</a></div>
           <div><a href="{{ '/publications/data/' | url }}">{{ strings.sections.publications.data | localize }}</a></div>
           <div><a href="{{ '/publications/licenses/' | url }}" target="_blank">{{ strings.sections.publications.licenses | localize }}</a></div>
-        </div>
+        </div> #}
       </li>
       <li><a href="{{ partnersLink }}">{{ strings.sections.partners | localize }}</a></li>
       <li><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>

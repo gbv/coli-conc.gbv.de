@@ -151,6 +151,9 @@ th, td {
 tr:nth-child(even) {
   background-color: colors.$background-light;
 }
+section.light tr:nth-child(even) {
+  background-color: colors.$background;
+}
 section.dark tr:nth-child(even) {
   background-color: colors.$black;
 }
