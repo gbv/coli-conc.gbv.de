@@ -1,4 +1,4 @@
-[back to top](#top)
+[↑ back to top](#top)
 
 coli-conc is a project of [Verbundzentrale des GBV (VZG)](https://www.gbv.de/), [funded by](http://gepris.dfg.de/gepris/projekt/276843344) German Research Foundation (DFG)
 
