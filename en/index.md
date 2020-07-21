@@ -9,6 +9,9 @@ subtitle:
 cocodaStartButton:
   en: start here
   de: starte hier
+cocodaInfoButton:
+  en: about Cocoda
+  de: über Cocoda
 ---
 
 {% section "dark" %}
