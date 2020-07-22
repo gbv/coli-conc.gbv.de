@@ -7,7 +7,7 @@ Cocoda ist eine Web&shy;anwendung zur Verwaltung und Erstellung von Mappings zwi
 
 <div class="cocoda-clear"></div> <!-- see cocoda.scss for details -->
 
-{% button "https://coli-conc.gbv.de/cocoda/app/", "Starte die aktuelle Release-Version von Cocoda" %}
+{% button "https://coli-conc.gbv.de/cocoda/app/", "Starte aktuelle Release-Version von Cocoda" %}
 
 → [Starte Cocoda-Instanz optimiert für RVK](https://coli-conc.gbv.de/cocoda/rvk/)
 
