@@ -89,7 +89,7 @@ console.log()
 // 2. Build English site
 console.log("Building English site...")
 execSync(
-  `URL=${url} ` + 'node_modules/.bin/eleventy build' + (pathprefix ? ` --pathprefix=${pathprefix}` : ""),
+  `URL=${url} ` + 'node_modules/.bin/eleventy build --passthroughall' + (pathprefix ? ` --pathprefix=${pathprefix}` : ""),
   { stdio: 'inherit' }
 )
 console.log()
@@ -123,7 +123,7 @@ console.log()
 // 4. Build German site
 console.log("Building German site...")
 execSync(
-  `URL=${url}${siteGerman}/ ` + `node_modules/.bin/eleventy build --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=_site/${siteGerman}`,
+  `URL=${url}${siteGerman}/ ` + `node_modules/.bin/eleventy build --passthroughall --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=_site/${siteGerman}`,
   { stdio: 'inherit' }
 )
 console.log()

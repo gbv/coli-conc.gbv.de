@@ -36,8 +36,8 @@ The following classification of Knowledge Organization Systems has been extracte
 
 Wikidata can change quickly so this is a snapshot from 2017-11-29.
 
-- JSKOS data (full classification)
-- JSKOS data (classes only)
+- [JSKOS data (full classification)]({{ "/publications/kostypes/Q6423319.json" | urla }})
+- [JSKOS data (classes only)]({{ "/publications/kostypes/Q6423319.ndjson" | urla }})
 
 ---
 

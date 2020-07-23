@@ -16,7 +16,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --no-source-map --style=compressed _scss:_includes/css",
-    "serve": "(sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --serve",
+    "serve": "(sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --passthroughall --serve",
     "build": "node scripts/build.js"
   },
   "devDependencies": {
