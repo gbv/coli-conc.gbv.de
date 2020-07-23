@@ -192,3 +192,61 @@ section.dark img.image {
 .footer, small {
   font-size: 0.8em;
 }
+
+.badge {
+  display: inline-block;
+  padding: 4px 4px 3px 4px;
+  margin: 0 4px;
+  font-size: 75%;
+  font-weight: weights.$bold;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: .25rem;
+}
+.badge-default {
+  background-color: colors.$background-dark;
+  color: colors.$white;
+}
+.badge-alternative {
+  background-color: colors.$background-light;
+  color: colors.$black;
+}
+
+.collapsible, .collapsible ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 25px;
+}
+.collapsible {
+  padding-left: 0px;
+}
+.collapsible li::before {
+  content: "\200B";
+}
+.collapsible li > input[type="checkbox"] ~ label {
+  user-select: none;
+}
+.collapsible li.has-children > input[type="checkbox"] ~ label {
+  cursor: pointer;
+}
+.collapsible li > input[type="checkbox"] ~ label::before {
+  width: 25px;
+  display: inline-block;
+  content: " ";
+}
+.collapsible li.has-children > input[type="checkbox"] ~ label::before {
+  content: " ▶️";
+}
+.collapsible li.has-children > input[type="checkbox"]:checked ~ label::before {
+  content: " 🔽";
+}
+.collapsible input[type="checkbox"] {
+  width: 0px;
+}
+.collapsible input[type="checkbox"] ~ ul{
+  display: none;
+}
+.collapsible input[type="checkbox"]:checked ~ ul{
+  display: block;
+}

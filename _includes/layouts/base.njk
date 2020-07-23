@@ -61,7 +61,7 @@
       {%- include "css/" + css_ + ".css" ignore missing -%}
     {%- endfor -%}
     {% endset %}
-    {{ totalcss | cssmin | safe }}
+    {{ totalcss | safe }}
   </style>
 </head>
 <body>
