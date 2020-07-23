@@ -232,7 +232,7 @@ section.dark img.image {
   cursor: pointer;
 }
 .collapsible li > input[type="checkbox"] ~ label::before {
-  width: 25px;
+  width: calc(24px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
   display: inline-block;
   content: " ";
 }
