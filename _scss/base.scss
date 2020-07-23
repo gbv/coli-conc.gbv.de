@@ -226,6 +226,7 @@ section.dark img.image {
 }
 .collapsible li > input[type="checkbox"] ~ label {
   user-select: none;
+  -webkit-user-select: none;
 }
 .collapsible li.has-children > input[type="checkbox"] ~ label {
   cursor: pointer;
@@ -243,6 +244,7 @@ section.dark img.image {
 }
 .collapsible input[type="checkbox"] {
   width: 0px;
+  opacity: 0;
 }
 .collapsible input[type="checkbox"] ~ ul{
   display: none;
