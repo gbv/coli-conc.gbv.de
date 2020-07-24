@@ -3,7 +3,7 @@ layout: layouts/cocoda
 title: Cocoda
 ---
 
-Cocoda ist eine Web&shy;anwendung zur Verwaltung und Erstellung von Mappings zwischen Wissens&shy;organisations&shy;systemen wie Klassifikationen, Norm&shy;dateien und Thesauri. Das [Cocoda-Benutzer&shy;handbuch](https://coli-conc.gbv.de/cocoda/app/user-manual-de.html) bietet eine kurze Einführung in das Tool.
+Cocoda ist eine Web&#173;anwendung zur Verwaltung und Erstellung von Mappings zwischen Wissens&#173;organisations&#173;systemen wie Klassifikationen, Norm&#173;dateien und Thesauri. Das [Cocoda-Benutzer&#173;handbuch](https://coli-conc.gbv.de/cocoda/app/user-manual-de.html) bietet eine kurze Einführung in das Tool.
 
 <div class="cocoda-clear"></div> <!-- see cocoda.scss for details -->
 
