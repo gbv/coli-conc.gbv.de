@@ -19,7 +19,7 @@
     "serve": "(sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --passthroughall --serve",
     "build": "node scripts/build.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "axios": "^0.19.2",
@@ -33,5 +33,5 @@
     "sass": "^1.26.9",
     "sharp": "^0.25.4"
   },
-  "dependencies": {}
+  "devDependencies": {}
 }
