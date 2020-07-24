@@ -2,7 +2,6 @@ const moment = require("moment")
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const yaml = require("js-yaml")
 const htmlmin = require("html-minifier")
-const CleanCSS = require("clean-css")
 
 module.exports = eleventyConfig => {
 
@@ -20,15 +19,11 @@ module.exports = eleventyConfig => {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
+        minifyCSS: true,
       })
       return minified
     }
     return content
-  })
-  // Add filter to minify inline CSS
-  // See: https://www.11ty.dev/docs/quicktips/inline-css/
-  eleventyConfig.addFilter("cssmin", (code) => {
-    return new CleanCSS({}).minify(code).styles
   })
 
   // Prepare MarkdownIt

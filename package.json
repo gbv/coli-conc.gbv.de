@@ -15,7 +15,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --no-source-map --style=compressed _scss:_includes/css",
+    "sass": "sass --no-source-map _scss:_includes/css",
     "serve": "(sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --passthroughall --serve",
     "build": "node scripts/build.js"
   },
@@ -23,7 +23,6 @@
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "axios": "^0.19.2",
-    "clean-css": "^4.2.3",
     "dotenv": "^8.2.0",
     "html-minifier": "^4.0.0",
     "js-yaml": "^3.14.0",
@@ -33,5 +32,6 @@
     "moment": "^2.27.0",
     "sass": "^1.26.9",
     "sharp": "^0.25.4"
-  }
+  },
+  "dependencies": {}
 }
