@@ -31,26 +31,26 @@ module.exports = eleventyConfig => {
     html: true,
   }
   const markdownIt = require("markdown-it")(markdownItOptions)
-    .use(require('markdown-it-anchor'))
+    .use(require("markdown-it-anchor"))
     .disable("code")
 
   // Open external links in new tab, adapted from https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer
   const mdDefaultLinkOpen = markdownIt.renderer.rules.link_open || function(tokens, idx, options, env, self) {
-    return self.renderToken(tokens, idx, options);
+    return self.renderToken(tokens, idx, options)
   }
   markdownIt.renderer.rules.link_open = function (tokens, idx, options, env, self) {
     if (tokens[idx].attrGet("href").startsWith("http")) {
-      const aIndex = tokens[idx].attrIndex('target')
+      const aIndex = tokens[idx].attrIndex("target")
       if (aIndex < 0) {
-        tokens[idx].attrPush(['target', '_blank'])
+        tokens[idx].attrPush(["target", "_blank"])
       } else {
-        tokens[idx].attrs[aIndex][1] = '_blank'
+        tokens[idx].attrs[aIndex][1] = "_blank"
       }
     }
     return mdDefaultLinkOpen(tokens, idx, options, env, self)
   }
 
-  eleventyConfig.setLibrary("md", markdownIt);
+  eleventyConfig.setLibrary("md", markdownIt)
 
   // Paired Shortcode for section
   eleventyConfig.addPairedShortcode("section", (content, variant = "") => {
@@ -61,7 +61,7 @@ module.exports = eleventyConfig => {
     `
   })
 
-  eleventyConfig.addShortcode("clear", () => `<div style="clear: both;"></div>`)
+  eleventyConfig.addShortcode("clear", () => "<div style=\"clear: both;\"></div>")
 
   // Paired Shortcode for flexbox
   eleventyConfig.addPairedShortcode("flexbox", (content, direction = "row", extra = "") => {
@@ -90,7 +90,7 @@ module.exports = eleventyConfig => {
     `
   })
 
-  eleventyConfig.addShortcode("flexBreakRow", () => `<div style="flex-basis: 100%; height: 0;"></div>`)
+  eleventyConfig.addShortcode("flexBreakRow", () => "<div style=\"flex-basis: 100%; height: 0;\"></div>")
 
   eleventyConfig.addShortcode("icon", (name, width = "20px") => {
     return {
@@ -111,7 +111,7 @@ module.exports = eleventyConfig => {
       target="${url.startsWith("http") ? "_blank" : ""}"
       class="button"
       style="${style}"
-      onclick="${onclick}">${text}</a>`
+      onclick="${onclick}">${text}</a>`,
   )
 
   // date filter

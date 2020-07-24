@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const meow = require('meow')
+const meow = require("meow")
 
 const cli = meow(`
   Usage
@@ -17,7 +17,7 @@ const cli = meow(`
       type: "string",
       isRequired: true,
     },
-  }
+  },
 })
 
 const widths = cli.flags.widths.split(",").map(w => parseInt(w))

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const meow = require('meow')
+const meow = require("meow")
 
 const cli = meow(`
   Usage
@@ -15,13 +15,13 @@ const cli = meow(`
 `, {
   flags: {
     pathprefix: {
-      type: 'string'
+      type: "string",
     },
     url: {
       type: "string",
       isRequired: true,
     },
-  }
+  },
 })
 
 let pathprefix = cli.flags.pathprefix
@@ -46,16 +46,16 @@ if (pathprefix) {
 
 const fs = require("fs")
 const path = require("path")
-const { execSync } = require('child_process')
+const { execSync } = require("child_process")
 
 // from: https://stackoverflow.com/a/34509653/11050851
 function ensureDirectoryExistence(filePath) {
-  var dirname = path.dirname(filePath);
+  var dirname = path.dirname(filePath)
   if (fs.existsSync(dirname)) {
-    return true;
+    return true
   }
-  ensureDirectoryExistence(dirname);
-  fs.mkdirSync(dirname);
+  ensureDirectoryExistence(dirname)
+  fs.mkdirSync(dirname)
 }
 
 const getAllFiles = function(dirPath, arrayOfFiles) {
@@ -80,8 +80,8 @@ const siteGerman = "de"
 // 1. Build SASS
 console.log("Building SASS...")
 execSync(
-  'npm run sass',
-  { stdio: 'inherit' }
+  "npm run sass",
+  { stdio: "inherit" },
 )
 console.log()
 
@@ -89,8 +89,8 @@ console.log()
 // 2. Build English site
 console.log("Building English site...")
 execSync(
-  `URL=${url} ` + 'node_modules/.bin/eleventy build --passthroughall' + (pathprefix ? ` --pathprefix=${pathprefix}` : ""),
-  { stdio: 'inherit' }
+  `URL=${url} ` + "node_modules/.bin/eleventy build --passthroughall" + (pathprefix ? ` --pathprefix=${pathprefix}` : ""),
+  { stdio: "inherit" },
 )
 console.log()
 
@@ -124,7 +124,7 @@ console.log()
 console.log("Building German site...")
 execSync(
   `URL=${url}${siteGerman}/ ` + `node_modules/.bin/eleventy build --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=_site/${siteGerman}`,
-  { stdio: 'inherit' }
+  { stdio: "inherit" },
 )
 console.log()
 
@@ -147,9 +147,9 @@ const foldersToDelete = [
   `${siteGerman}/images`,
   `${siteGerman}/js`,
   `${siteGerman}/_includes`,
-  `_includes`
+  "_includes",
 ]
-for (folder of foldersToDelete) {
+for (let folder of foldersToDelete) {
   folder = `_site/${folder}`
   try {
     fs.rmdirSync(folder, { recursive: true })

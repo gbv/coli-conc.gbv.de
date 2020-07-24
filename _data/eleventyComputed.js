@@ -7,5 +7,5 @@ module.exports = {
       source = source.replace("/de/", "/en/")
     }
     return source
-  }
+  },
 }
