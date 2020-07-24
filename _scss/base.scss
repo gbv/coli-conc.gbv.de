@@ -111,7 +111,6 @@ a.button:hover {
 }
 
 section {
-  text-align: justify;
   position: relative;
   padding: calc(10px + (100vh - 500px) / 15) calc((100vw - 250px) / 4.5);
 }
@@ -141,7 +140,6 @@ section.novpadding {
 
 table {
   width: 100%;
-  text-align: left;
   font-size: 0.8em;
 }
 th, td {
@@ -215,7 +213,6 @@ section.dark img.image {
 
 .collapsible, .collapsible ul {
   list-style: none;
-  text-align: left;
   padding-left: 25px;
 }
 .collapsible {
