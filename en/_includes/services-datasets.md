@@ -19,3 +19,5 @@
 - [GND Mappings]({{ "/concordances/gnd/" | url }})
 
   Collected mappings between the Integrated Authority File (GND) and other systems. Work in progress.
+
+We have unified the access to sources that offer JSKOS data via registries. For more information, see [Data Sources and Registries]({{ "/registry/" | url }}).
