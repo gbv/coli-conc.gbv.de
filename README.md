@@ -41,6 +41,42 @@ PORT=8091; npm run build -- --url=http://localhost:$PORT; http-server -p $PORT _
 
 The site should now be served on http://localhost:8081, including the German version.
 
+## Dependencies on Other Services
+The website links to several services that have to be run independently from hosting the website. It is likely necessary to configure a proxy so that certain services are correctly served under certain subfolders. The following is a (not yet exhaustive) list of those services:
+
+- **Cocoda Instances**
+   - Served under `/cocoda/<idOrTag>/`
+- **Registries**
+   - Served under `/registry/<name>`
+   - Serves the registries that are defined in `/registry/registries.ndjson`
+   - Service is available in repository *TODO*
+- **GND Service**
+   - Served under `/services/gnd.php`
+   - Offers JSKOS access to GND
+- ? **BARTOC Dumps**
+   - Served under `/publications/bartoc/`
+   - https://github.com/gbv/bartoc-dumps
+- **JSKOS Server (Production)**
+   - Served under `/api/`
+- **JSKOS Server (Development)**
+   - Served under `/dev-api/`
+- **RVK API**
+   - Served under `/rvk/api/`
+   - Instance of jskos-server only offering RVK
+- **RVK Dumps**
+   - Served under `/rvk/data/`
+- ? **BK Dumps**
+   - Served under `/publications/data/bk.ttl`/`/publications/data/bk.ndjson`
+- **CCMapper API**
+   - Served under `/ccmapper/api/`
+   - Instance of jskos-server only offering RVK-DDC mapping suggestions
+- **Occurrences API**
+   - Served under `/occurrences/api/`
+   - https://github.com/gbv/occurrences-api (to be replaced with https://github.com/gbv/occurrences-server)
+- **Wikidata JSKOS API**
+   - Served under `/services/wikidata/`
+   - https://github.com/gbv/wikidata-jskos/
+
 ## Notes
 
 ### URLs
