@@ -7,11 +7,9 @@ subtitle:
   en: Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems
   de: Verwaltung und Bereitstellung von Konkordanzen zwischen bibliothekarischen Wissensorganisationsystemen
 cocodaStartButton:
-  en: start here
-  de: starte hier
+  en: Start
 cocodaInfoButton:
-  en: about Cocoda
-  de: über Cocoda
+  en: Information
 ---
 
 {% section "dark" %}
