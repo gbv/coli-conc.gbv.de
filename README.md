@@ -178,3 +178,6 @@ redirect: https://example.com
 - Always start with a white section (`{% section %}...{% endsection %}`)
 - Then follow with dark and light sections (`{% section "dark" %}...{% endsection %}{% section "light" %}...{% endsection %}{% section "dark" %}...{% endsection %}...`)
 - Use h4 (`####`) for section headers because they are styled in a specific way
+
+## TO-DOs
+- Optimize `screenshot-kos-registry.png` for different sizes.

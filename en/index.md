@@ -49,13 +49,14 @@ cocodaInfoButton:
 
 #### [{{ strings.sections.services | localize }}]({{ "/services/" | url }})
 
-{% set servicesText %}
-{% include locale + "/services-applications.md" %}
-{% include locale + "/services-datasets.md" %}
-{% include locale + "/services-apis.md" %}
-{% endset %}
-
-{{ servicesText | replace("####", "###") }}
+{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
+  {% flex %}
+  [{% image "/images/screenshot-kos-registry.png", "width: 40vw; max-width: 400px;" %}<br>KOS Registry]({{ "/terminologies/" | url }})
+  {% endflex %}
+  {% flex %}
+  [{{ { en: "All Services", de: "Alle Dienste" } | localize }}]({{ "/services/" | url }})
+  {% endflex %}
+{% endflexbox %}
 
 {% endsection %}
 
