@@ -65,15 +65,6 @@
   </style>
 </head>
 <body>
-  {# Included hypothes.is when deloyed to GitHub Pages #}
-  {% if env.URL.startsWith("https://gbv.github.io") %}
-  <script type="application/json" class="js-hypothesis-config">
-  {
-    "showHighlights": "whenSidebarOpen",
-  }
-  </script>
-  <script async src="https://hypothes.is/embed.js"></script>
-  {% endif %}
   {% if js and js.vue %}
   <script src="{{ '/js/vue.min.js' | urla }}"></script>
   {% endif %}
