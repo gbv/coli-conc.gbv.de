@@ -49,10 +49,16 @@ cocodaInfoButton:
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
   {% flex %}
-  [{% image "/images/screenshot-kos-registry.png", "width: 40vw; max-width: 400px;" %}<br>KOS Registry]({{ "/terminologies/" | url }})
+  [<!--{% image "/images/screenshot-kos-registry.png", "width: 40vw; max-width: 400px;" %}<br>-->{{ strings.sections.services.kosRegistry | localize }}]({{ "/terminologies/" | url }})
   {% endflex %}
   {% flex %}
-  [{{ { en: "All Services", de: "Alle Dienste" } | localize }}]({{ "/services/" | url }})
+  [{{ strings.sections.services.concordanceRegistry | localize }}]({{ "/concordances/" | url }})
+  {% endflex %}
+  {% flex %}
+  [{{ strings.sections.services.kosTypes | localize }}]({{ "/publications/kostypes/" | url }})
+  {% endflex %}
+  {% flex %}
+  [{{ { en: "... and more", de: "... und mehr" } | localize }}]({{ "/services/" | url }})
   {% endflex %}
 {% endflexbox %}
 
