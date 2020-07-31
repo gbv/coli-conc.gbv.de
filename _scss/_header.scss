@@ -8,7 +8,7 @@
   width: 100%;
   font-size: 16px;
   font-weight: weights.$bold;
-  padding: calc(0px + (15) * ((100vw - 300px) / (1600 - 300))) calc(0px + (20) * ((100vw - 300px) / (1600 - 300))) 0 calc(0px + (20) * ((100vw - 300px) / (1600 - 300)));
+  padding: calc(0px + (20) * ((100vw - 300px) / (1600 - 300))) calc(0px + (25) * ((100vw - 300px) / (1600 - 300))) 0 calc(0px + (25) * ((100vw - 300px) / (1600 - 300)));
 }
 .header ul {
   margin: 0;
@@ -24,7 +24,7 @@
   color: colors.$black;
 }
 .header li a:hover {
-  background-color: colors.$background-light;
+  background-color: colors.$highlight-light;
 }
 .header li.menu-item-reduced-padding a {
   padding: 15px 10px;
@@ -131,7 +131,7 @@
   }
   .dropdown:hover .dropdown-menu {
     display: block;
-    box-shadow: 0 5px 5px colors.$background-light;
+    box-shadow: 0 5px 5px colors.$highlight-light;
   }
   .dropdown .dropdown-menu {
     position: absolute;
@@ -143,7 +143,7 @@
   .dropdown-menu > div {
     position: relative;
     z-index: 1000;
-    background-color: colors.$background;
+    background-color: colors.$background-light;
   }
   .dropdown-menu > div > a {
     text-align: left;

@@ -1,8 +1,9 @@
 @use "responsive";
+@use "colors";
 
 .coli-conc-logo {
   display: block;
-  margin-top: calc(0px + (100) * ((100vw - 300px) / (1600 - 300)));
+  margin-top: calc(0px + (50) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .coli-conc-logo > img {
@@ -38,4 +39,8 @@
   z-index: -1;
   bottom: 0;
   left: 0;
+}
+
+.wave > path {
+  fill: colors.$highlight-light;
 }
