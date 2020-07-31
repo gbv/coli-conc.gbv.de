@@ -73,7 +73,10 @@
   {% endif %}
   <a name="top"></a>
   <header class="header">
-    <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" class="vzg-logo">
+    {% if page.url != "/" %}<a href="{{ '/' | url }}" class="coli-conc-logo-small">
+      <img src="{{ '/images/coli-conc.svg' | urla }}">
+    </a>{% endif %}
+    <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" class="vzg-logo {% if page.url != '/' %}tiny-hide{% endif %}">
       <img
         src="{{ '/images/vzg-300px.png' | urla }}"
         srcset="{{ '/images/vzg-150px.png' | urla }} 150w, {{ '/images/vzg-300px.png' | urla }} 300w"
