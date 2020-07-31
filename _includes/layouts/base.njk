@@ -94,8 +94,8 @@
         {% set contactLink = "#" + (strings.sections.contact | localize | slug) %}
       {% else %}
       {% endif %}#}
-      <li><a href="{{ newsLink }}">{{ strings.sections.news | localize }}</a></li>
-      <li class="dropdown">
+      <li class="{% if page.url == '/blog/' %}current{% endif %}"><a href="{{ newsLink }}">{{ strings.sections.news | localize }}</a></li>
+      <li class="dropdown {% if page.url == '/services/' %}current{% endif %}">
         <a href="{{ servicesLink }}">{{ strings.sections.services | localize }}</a>
         <div class="dropdown-menu">
           <div><a href="{{ '/cocoda/' | url }}">Cocoda</a></div>
@@ -105,7 +105,7 @@
           <div><a href="https://coli-conc.gbv.de/api/mappings" target="_blank">{{ strings.sections.services.mappingsApi | localize }}</a></div>
         </div>
       </li>
-      <li class="dropdown">
+      <li class="dropdown {% if page.url == '/publications/' %}current{% endif %}">
         <a href="{{ '/publications/' | url }}">{{ strings.sections.publications | localize }}</a>
         {# <div class="dropdown-menu">
           <div><a href="{{ '/publications/software/' | url }}">{{ strings.sections.publications.software | localize }}</a></div>
@@ -113,8 +113,8 @@
           <div><a href="{{ '/publications/licenses/' | url }}" target="_blank">{{ strings.sections.publications.licenses | localize }}</a></div>
         </div> #}
       </li>
-      <li><a href="{{ partnersLink }}">{{ strings.sections.partners | localize }}</a></li>
-      <li><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>
+      <li class="{% if page.url == '/partners/' %}current{% endif %}"><a href="{{ partnersLink }}">{{ strings.sections.partners | localize }}</a></li>
+      <li class="{% if page.url == '/contact/' %}current{% endif %}"><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>
       <li class="menu-item-reduced-padding">
         {% if locale == "de" %}
         <a href="{{ page.url | urla }}">

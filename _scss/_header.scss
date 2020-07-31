@@ -23,8 +23,15 @@
   text-align: center;
   color: colors.$black;
 }
+.header li.current > a {
+  background-color: colors.$background-dark;
+  color: colors.$white;
+}
 .header li a:hover {
   background-color: colors.$highlight-light;
+}
+.header li.current > a:hover {
+  background-color: colors.$highlight-dark;
 }
 .header li.menu-item-reduced-padding a {
   padding: 15px 10px;
