@@ -23,7 +23,7 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 {% section "dark" %}
 #### {{ { en: "More Posts", de: "Mehr Beiträge" } | localize }}
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
-{%- for post in collections.news | reverse -%}
+{%- for post in collections.blog | reverse -%}
   <!-- Show 6 latest news. -->
   {% if loop.index0 < 6 and page.url != post.url %}
   {% flex %}
