@@ -6,5 +6,6 @@ coli-conc ist ein Projekt der [Verbundzentrale des GBV (VZG)](https://www.gbv.de
 | [Datenschutz](https://www.gbv.de/datenschutz)
 | [Quellcode]({{ source }})
 | [Twitter @coli_conc](https://twitter.com/coli_conc)
+| [News (RSS)]({{ "/rss/blog.xml" | url }})
 
 Bitte beachten, dass diese Seite zur Zeit in Entwicklung ist.
