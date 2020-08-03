@@ -181,3 +181,4 @@ redirect: https://example.com
 
 ## TO-DOs
 - Optimize `screenshot-kos-registry.png` for different sizes.
+- Add more icons for services on start page.

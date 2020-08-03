@@ -55,7 +55,7 @@ cocodaInfoButton:
   [{{ strings.sections.services.concordanceRegistry | localize }}]({{ "/concordances/" | url }})
   {% endflex %}
   {% flex %}
-  [{{ strings.sections.services.kosTypes | localize }}]({{ "/publications/kostypes/" | url }})
+  [{% image "/images/services-api.svg", "width: 15vw; padding: 1vw; border: none;" %}APIs]({{ "/services/#apis" | url }})
   {% endflex %}
   {% flex %}
   [{{ { en: "... and more", de: "... und mehr" } | localize }}]({{ "/services/" | url }})
