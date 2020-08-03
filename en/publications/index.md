@@ -105,8 +105,8 @@ title: Publications
 
 #### Specifications
 
-- [JSKOS](https://gbv.github.io/jskos/)          JSON based data format for KOS   [![](https://img.shields.io/github/tag/gbv/jskos.svg)](https://github.com/gbv/jskos/)
--  [ELMA](https://gbv.github.io/elma/)            Simple subset of JSKOS-API       [![](https://img.shields.io/github/tag/gbv/elma.svg)](https://github.com/gbv/elma/)
+- [JSKOS](https://gbv.github.io/jskos/)          JSON based data format for KOS
+-  [ELMA](https://gbv.github.io/elma/)            Simple subset of JSKOS-API
 -  [JSKOS-API](https://gbv.github.io/jskos-api)   API to access KOS data           *early notes*
 
 {% endsection %}
@@ -333,4 +333,3 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     Coli-Conc. <https://doi.org/10.5281/zenodo.28263>.
 
 {% endsection %}
-
