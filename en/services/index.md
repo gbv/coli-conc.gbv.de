@@ -21,6 +21,29 @@ subtitle:
 
 {% section "dark" %}
 
+#### APIs
+Several web services are being developed to query information related to knowledge organization systemes in [JSKOS format](https://gbv.github.io/jskos/).
+
+- [DANTE API](https://api.dante.gbv.de/)
+
+  Access to terminologies and concepts from central terminology service of VZG.
+
+- [Mappings API](https://coli-conc.gbv.de/api/mappings)
+
+  Access to collected mappings and concordances.
+
+- [Occurrences API]({{ "/occurrences/" | url }})
+
+  Look up occurrences and co-occurrences of concepts in library catalogs.
+
+- [Wikidata JSKOS API](https://coli-conc.gbv.de/services/wikidata/)
+
+  Access Wikidata in JSKOS format with [wikidata-jskos](https://github.com/gbv/wikidata-jskos).
+
+{% endsection %}
+
+{% section "light" %}
+
 #### Data Sets
 - [KOS Types]({{ "/publications/kostypes/" | url }})
 
@@ -43,29 +66,6 @@ subtitle:
   Collected mappings between the Integrated Authority File (GND) and other systems. Work in progress.
 
 We have unified the access to sources that offer JSKOS data via registries. For more information, see [Data Sources and Registries]({{ "/registry/" | url }}).
-
-{% endsection %}
-
-{% section "light" %}
-
-#### APIs
-Several web services are being developed to query information related to knowledge organization systemes in [JSKOS format](https://gbv.github.io/jskos/).
-
-- [DANTE API](https://api.dante.gbv.de/)
-
-  Access to terminologies and concepts from central terminology service of VZG.
-
-- [Mappings API](https://coli-conc.gbv.de/api/mappings)
-
-  Access to collected mappings and concordances.
-
-- [Occurrences API]({{ "/occurrences/" | url }})
-
-  Look up occurrences and co-occurrences of concepts in library catalogs.
-
-- [Wikidata JSKOS API](https://coli-conc.gbv.de/services/wikidata/)
-
-  Access Wikidata in JSKOS format with [wikidata-jskos](https://github.com/gbv/wikidata-jskos).
 
 {% endsection %}
 
