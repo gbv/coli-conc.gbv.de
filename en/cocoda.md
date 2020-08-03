@@ -22,6 +22,7 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 - Public [source code repository](https://github.com/gbv/cocoda) and [issue tracker](https://github.com/gbv/cocoda/issues) on GitHub
 
 ### Screencasts (German)
+- [Normdaten-Mapping mit Cocoda @vBIB20](https://doi.org/10.5446/36465) German (2020-05-27)
 - [Wikidata-Mappings mit Cocoda 1.1.0](https://vimeo.com/357295989) (13 minutes, 2019-09-02)
 - [Neue Features in Cocoda 0.8.0](https://vimeo.com/323457260) (7 minutes, 2019-03-13)
 - [Neue Features in Cocoda 0.7.0](https://vimeo.com/312681760) (3 minutes, 2019-01-22)
