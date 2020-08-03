@@ -68,3 +68,6 @@ Several web services are being developed to query information related to knowled
   Access Wikidata in JSKOS format with [wikidata-jskos](https://github.com/gbv/wikidata-jskos).
 
 {% endsection %}
+
+{% section "dark" %}
+{% endsection %}
