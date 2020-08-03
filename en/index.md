@@ -47,7 +47,7 @@ cocodaInfoButton:
 
 #### [{{ strings.sections.services | localize }}]({{ "/services/" | url }})
 
-{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
+{% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-end;" %}
   {% flex %}
   [<!--{% image "/images/screenshot-kos-registry.png", "width: 40vw; max-width: 400px;" %}<br>-->{{ strings.sections.services.kosRegistry | localize }}]({{ "/terminologies/" | url }})
   {% endflex %}
