@@ -3,12 +3,6 @@ layout: layouts/base.njk
 permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 ---
 
-<div class="text-center">
-  <a href="{{ '/' | url }}">
-    <img src="{{ '/images/coli-conc.svg' | urla }}">
-  </a>
-</div>
-
 {% section "text-center novpadding" %}
 
 # {{ title | localize }}
