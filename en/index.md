@@ -22,7 +22,7 @@ cocodaInfoButton:
 
 #### [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
-{%- for post in collections.news | reverse -%}
+{%- for post in collections.blog | reverse -%}
   <!-- Show 6 latest news. -->
   {% if loop.index0 < 6 %}
   {% flex %}
