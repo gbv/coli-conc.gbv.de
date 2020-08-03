@@ -100,13 +100,13 @@
       <li class="{% if page.url == '/blog/' %}current{% endif %}"><a href="{{ newsLink }}">{{ strings.sections.news | localize }}</a></li>
       <li class="dropdown {% if page.url == '/services/' %}current{% endif %}">
         <a href="{{ servicesLink }}">{{ strings.sections.services | localize }}</a>
-        <div class="dropdown-menu">
+        {# <div class="dropdown-menu">
           <div><a href="{{ '/cocoda/' | url }}">Cocoda</a></div>
           <div><a href="{{ '/publications/kostypes/' | url }}">{{ strings.sections.services.kosTypes | localize }}</a></div>
           <div><a href="{{ '/terminologies/' | url }}">{{ strings.sections.services.kosRegistry | localize }}</a></div>
           <div><a href="{{ '/concordances/' | url }}">{{ strings.sections.services.concordanceRegistry | localize }}</a></div>
           <div><a href="https://coli-conc.gbv.de/api/mappings" target="_blank">{{ strings.sections.services.mappingsApi | localize }}</a></div>
-        </div>
+        </div> #}
       </li>
       <li class="dropdown {% if page.url == '/publications/' %}current{% endif %}">
         <a href="{{ '/publications/' | url }}">{{ strings.sections.publications | localize }}</a>
