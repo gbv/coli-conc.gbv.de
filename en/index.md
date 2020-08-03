@@ -55,10 +55,10 @@ cocodaInfoButton:
   [{{ strings.sections.services.concordanceRegistry | localize }}]({{ "/concordances/" | url }})
   {% endflex %}
   {% flex %}
-  [{% image "/images/services-api.svg", "width: 15vw; padding: 1vw; border: none;" %}APIs]({{ "/services/#apis" | url }})
+  [{% image "/images/services-api.svg", "width: 15vw; padding: 1vw; border: none;" %}<br>APIs]({{ "/services/#apis" | url }})
   {% endflex %}
   {% flex %}
-  [{{ { en: "... and more", de: "... und mehr" } | localize }}]({{ "/services/" | url }})
+  [{% image "/images/ellipsis.svg", "width: 10vw; padding: 1vw; border: none;" %}<br>{{ { en: "... and more", de: "... und mehr" } | localize }}]({{ "/services/" | url }})
   {% endflex %}
 {% endflexbox %}
 
