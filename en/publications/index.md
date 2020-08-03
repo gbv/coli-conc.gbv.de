@@ -322,11 +322,6 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 -   An EZB-DDC Condordance (2011). VZG-Project Colibri Sub: Project
     Coli-Conc. <https://doi.org/10.5281/zenodo.28263>.
 
-The [coli-conc
-publications](https://www.zotero.org/groups/coli-conc/items/collectionKey/WCRJ5V4U)
-bibliography at Zotero contains additional publication but it is not
-updated anymore.
-
 {% endsection %}
 
 {% section "dark" %}
@@ -336,7 +331,5 @@ updated anymore.
 - [JSKOS](https://gbv.github.io/jskos/)          JSON based data format for KOS   [![](https://img.shields.io/github/tag/gbv/jskos.svg)](https://github.com/gbv/jskos/)
 -  [ELMA](https://gbv.github.io/elma/)            Simple subset of JSKOS-API       [![](https://img.shields.io/github/tag/gbv/elma.svg)](https://github.com/gbv/elma/)
 -  [JSKOS-API](https://gbv.github.io/jskos-api)   API to access KOS data           *early notes*
-
-See also our [Zotero library](https://www.zotero.org/groups/coli-conc/items/).
 
 {% endsection %}
