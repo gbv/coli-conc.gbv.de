@@ -38,8 +38,4 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
 {% endsection %}
 
 {% section "dark" %}
-#### Feeds
-- {{ { en: "Important News", de: "Wichtige Neuigkeiten" } | localize }}: [RSS]({{ "/rss/news.xml" | url }})
-- {{ { en: "All Posts", de: "Alle Beiträge" } | localize }}: [RSS]({{ "/rss/blog.xml" | url }})
-
 {% endsection %}
