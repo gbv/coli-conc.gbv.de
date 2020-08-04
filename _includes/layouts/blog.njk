@@ -29,7 +29,9 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
   {% endflex %}
   {% endif %}
   {% if loop.index0 == 6 %}
-  {% flex %}
+  {% flex "1", "flex-basis: 300px;" %}
+  <p>&#8203;</p>
+
   [{{ { en: "All Posts", de: "Alle Beiträge" } | localize }}]({{ "/blog/" | url }})
   {% endflex %}
   {% endif %}

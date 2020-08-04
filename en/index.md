@@ -34,7 +34,9 @@ cocodaInfoButton:
   {% endflex %}
   {% endif %}
   {% if loop.index0 == 6 %}
-  {% flex %}
+  {% flex "1", "flex-basis: 300px;" %}
+  <p>&#8203;</p>
+
   [All Posts]({{ "/blog/" | url }})
   {% endflex %}
   {% endif %}
