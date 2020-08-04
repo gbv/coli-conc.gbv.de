@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
+{% set title = title | default(strings.pages[page.fileSlug]) | default(page.fileSlug) %}
 
 {% section "text-center novpadding" %}
 

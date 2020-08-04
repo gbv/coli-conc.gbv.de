@@ -47,4 +47,10 @@ module.exports = {
       de: "Kontakt",
     },
   },
+  pages: {
+    "partner-projects": {
+      en: "Partner Projects",
+      de: "Partnerprojekte",
+    },
+  },
 }
