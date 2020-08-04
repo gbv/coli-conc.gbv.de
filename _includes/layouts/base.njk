@@ -122,10 +122,12 @@
         {% if locale == "de" %}
         <a href="{{ page.url | urla }}">
           <span class="font-weight-light">EN</span><br>DE
+          <div class="line"></div>
         </a>
         {% else %}
         <a href="{{ ('/de' + page.url) | url }}">
           EN<br><span class="font-weight-light">DE</span>
+          <div class="line"></div>
         </a>
         {% endif %}
       </li>

@@ -43,6 +43,18 @@
   font-size: 14px; // TODO: Put into variable?
   line-height: 24px;
   padding: 3px 10px;
+  position: relative;
+}
+.header li.menu-item-language a > .line {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 0;
+  max-width: 25px;
+  margin: 0 auto;
 }
 .header .vzg-logo, .header .coli-conc-logo-small {
   float: left;
