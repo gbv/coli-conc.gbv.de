@@ -192,7 +192,7 @@ section:nth-child(2n+3) img.image {
 
 .badge {
   display: inline-block;
-  padding: 4px 4px 3px 4px;
+  padding: 4px 5px 3px 5px;
   margin: 0 4px;
   font-size: 75%;
   font-weight: weights.$bold;
@@ -202,11 +202,11 @@ section:nth-child(2n+3) img.image {
   border-radius: .25rem;
 }
 .badge-default {
-  background-color: colors.$background-dark;
+  background-color: colors.$highlight-dark;
   color: colors.$white;
 }
 .badge-alternative {
-  background-color: colors.$background-light;
+  background-color: colors.$highlight-light;
   color: colors.$black;
 }
 
