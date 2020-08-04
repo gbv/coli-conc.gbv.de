@@ -1,6 +1,6 @@
 [↑ nach oben](#top)
 
-coli-conc ist ein Projekt der [Verbundzentrale des GBV (VZG)](https://www.gbv.de/), [gefördert von](http://gepris.dfg.de/gepris/projekt/276843344) der Deutschen Forschungsgemeinschaft (DFG)
+**coli-conc** ist ein Projekt der [Verbundzentrale des GBV (VZG)](https://www.gbv.de/). Es wird von der Deutschen Forschungsgemeinschaft (DFG) [gefördert](http://gepris.dfg.de/gepris/projekt/276843344).
 
 [Impressum](https://www.gbv.de/impressum)
 | [Datenschutz](https://www.gbv.de/datenschutz)
@@ -8,4 +8,4 @@ coli-conc ist ein Projekt der [Verbundzentrale des GBV (VZG)](https://www.gbv.de
 | [Twitter @coli_conc](https://twitter.com/coli_conc)
 | [News (RSS)]({{ "/rss/blog.xml" | url }})
 
-Bitte beachten, dass diese Seite zur Zeit in Entwicklung ist.
+*Bitte beachten, dass diese Seite zur Zeit in Entwicklung ist.*
