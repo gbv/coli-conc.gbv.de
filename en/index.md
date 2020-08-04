@@ -21,12 +21,12 @@ cocodaInfoButton:
 {% section "light" %}
 
 #### [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
-{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
+{% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
 {%- for post in collections.blog | reverse -%}
   <!-- Show 6 latest news. -->
   {% if loop.index0 < 6 %}
-  {% flex %}
-  {{ post.date | date("YYYY-MM-DD") }}
+  {% flex "1", "flex-basis: 300px;" %}
+  <span class="font-weight-bold">{{ post.date | date("YYYY-MM-DD") }}</span>
 
   [{{ post.data.title }}]({{ post.url | url }})
 

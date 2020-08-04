@@ -13,10 +13,10 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
 
 {% section "text-center" %}
 
-{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
+{% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
 {%- for post in pagination.items -%}
-  {% flex %}
-  {{ post.date | date("YYYY-MM-DD") }}
+  {% flex "1", "flex-basis: 300px;" %}
+  <span class="font-weight-bold">{{ post.date | date("YYYY-MM-DD") }}</span>
 
   [{{ post.data.title }}]({{ post.url | url }})
 
