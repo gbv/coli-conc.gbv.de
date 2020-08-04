@@ -14,7 +14,7 @@
 
 .cocoda {
   display: flex;
-  padding: 0 calc((100vw - 250px) / 10);
+  padding: 0 calc((100vw - 250px) / 6);
   padding-top: calc(30px + (75 - 40) * ((100vw - 300px) / (1600 - 300)));;
   text-align: left;
 }
