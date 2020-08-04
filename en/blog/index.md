@@ -37,5 +37,5 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 {% endsection %}

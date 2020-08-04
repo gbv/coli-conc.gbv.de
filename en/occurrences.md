@@ -15,4 +15,4 @@ API](//coli-conc.gbv.de/occurrences/api/) to query GBV databases for
 
 {% endsection %}
 
-{% section "dark" %}{% endsection %}
+{% section %}{% endsection %}

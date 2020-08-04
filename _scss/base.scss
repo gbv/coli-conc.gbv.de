@@ -53,11 +53,11 @@ h4 {
   background-color: colors.$background-dark;
   color: colors.$lightorange;
 }
-section.dark h4 {
+section:nth-child(2n+3) h4 {
   background-color: colors.$background-light;
   color: colors.$orange;
 }
-section.dark h1, section.dark h2, section.dark h3 {
+section:nth-child(2n+3) h1, section:nth-child(2n+3) h2, section:nth-child(2n+3) h3 {
   color: colors.$lightorange;
 }
 
@@ -79,22 +79,22 @@ a {
   text-decoration: none;
   font-weight: weights.$bold;
 }
-section.dark a {
+section:nth-child(2n+3) a {
   color: colors.$lightorange;
 }
 a:hover {
   color: colors.$lightorange;
 }
-section.dark a:hover {
+section:nth-child(2n+3) a:hover {
   color: colors.$orange;
 }
 
 // Fix h4 links
-section.dark h4 > a {
-  color: colors.$orange;
-}
-section.light h4 > a {
+section h4 > a {
   color: colors.$lightorange;
+}
+section:nth-child(2n+3) h4 > a {
+  color: colors.$orange;
 }
 
 // Button links
@@ -114,14 +114,11 @@ a.button:hover {
 section {
   position: relative;
   padding: calc(10px + (100vh - 500px) / 15) calc((100vw - 250px) / 4.5);
+  color: colors.$black;
 }
-section.dark {
+section:nth-child(2n+3) {
   background: colors.$background-dark;
   color: colors.$white;
-}
-section.light {
-  background: colors.$background-light;
-  color: colors.$black;
 }
 section.novpadding {
   padding-top: 0px;
@@ -147,13 +144,10 @@ th, td {
   vertical-align: middle;
   padding: 5px 5px;
 }
-tr:nth-child(even) {
-  background-color: colors.$background-light;
-}
-section.light tr:nth-child(even) {
+section tr:nth-child(even) {
   background-color: colors.$highlight-light;
 }
-section.dark tr:nth-child(even) {
+section:nth-child(2n+3) tr:nth-child(even) {
   background-color: colors.$highlight-dark;
 }
 table img {
@@ -171,20 +165,20 @@ pre {
   padding: 4px 8px;
   background-color: colors.$background-light;
 }
-section.light pre {
+section pre {
   background-color: colors.$highlight-light;
 }
-section.dark pre {
+section:nth-child(2n+3) pre {
   background-color: colors.$highlight-dark;
 }
 
 section img.image {
   border: 5px solid colors.$background-light;
 }
-section.light img.image {
+section img.image {
   border-color: colors.$highlight-light;
 }
-section.dark img.image {
+section:nth-child(2n+3) img.image {
   border-color: colors.$highlight-dark;
 }
 

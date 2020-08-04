@@ -17,7 +17,7 @@ More information about coli-ana can be found in the presentation [Automatic Anal
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### Example
 

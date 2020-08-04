@@ -8,4 +8,4 @@ layout: layouts/page
 
 {% endsection %}
 
-{% section "dark" %}{% endsection %}
+{% section %}{% endsection %}

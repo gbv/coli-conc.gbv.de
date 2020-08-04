@@ -9,4 +9,4 @@ title:
 {% include locale + "/contact.md" %}
 {% endsection %}
 
-{% section "dark" %}{% endsection %}
+{% section %}{% endsection %}

@@ -21,7 +21,7 @@ So far, we have collected ${concordanceCount} concordances with ${mappingsCount}
 
 {% endsection %}
 
-{% section "dark" %}{% endsection %}
+{% section %}{% endsection %}
 
 <script>
 const app = new Vue({

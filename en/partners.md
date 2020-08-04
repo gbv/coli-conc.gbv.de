@@ -11,4 +11,4 @@ title:
 
 {% endsection %}
 
-{% section "dark" %}{% endsection %}
+{% section %}{% endsection %}

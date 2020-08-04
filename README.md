@@ -96,14 +96,14 @@ For static assets that stay the same for both the German and the English site, u
 All content should use sections. There is a custom paired shortcode `section` which can be used for this:
 
 ```
-{% section "dark" %}
+{% section %}
 
 Content of this section.
 
 {% endsection %}
 ```
 
-The parameter can be `"dark"`, `"light"`, or empty.
+You can add one string parameter with CSS classes if necessary, e.g. `{% section "text-center" %}`.
 
 Exception: Blog/news posts (using the template under `en/blog/YYYY-MM-DD-template.md`), do NOT use sections here.
 
@@ -175,9 +175,9 @@ redirect: https://example.com
 
 ## Style Guide
 ### Sections
-- Always start with a white section (`{% section %}...{% endsection %}`)
-- Then follow with dark and light sections (`{% section "dark" %}...{% endsection %}{% section "light" %}...{% endsection %}{% section "dark" %}...{% endsection %}...`)
-- Use h4 (`####`) for section headers because they are styled in a specific way
+- Sections are styled automatically. Every odd section (starting from the third child) will have a dark background with light text.
+- Use h4 (`####`) for section headers because they are styled in a specific way.
+- Try to choose the number of sections so that it ends with a dark section. If necessary, add an empty section (`{% section %}{% endsection %}`).
 
 ## TO-DOs
 - Optimize `screenshot-kos-registry.png` for different sizes.

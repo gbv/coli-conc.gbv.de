@@ -145,7 +145,7 @@
       {% section "text-center" %}
 {{ { en: "Redirecting to", de: "Weiterleitung auf" } | localize }} [{{ redirect }}]({{ redirect }}) ({{ { en: "click link if nothing happens", de: "Link anklicken, falls nichts passiert" } | localize }})...
       {% endsection %}
-      {% section "dark" %}{% endsection %}
+      {% section %}{% endsection %}
     {% else %}
       {% block content %}
         {{ content | safe }}

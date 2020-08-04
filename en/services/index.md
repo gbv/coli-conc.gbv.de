@@ -19,7 +19,7 @@ subtitle:
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### APIs
 Several web services are being developed to query information related to knowledge organization systemes in [JSKOS format](https://gbv.github.io/jskos/).
@@ -42,7 +42,7 @@ Several web services are being developed to query information related to knowled
 
 {% endsection %}
 
-{% section "light" %}
+{% section %}
 
 #### Data Sets
 - [KOS Types]({{ "/publications/kostypes/" | url }})
@@ -69,5 +69,5 @@ We have unified the access to sources that offer JSKOS data via registries. For 
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 {% endsection %}

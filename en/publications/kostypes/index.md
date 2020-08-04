@@ -53,7 +53,7 @@ The number right of each KOS type indicate the <span class="badge badge-default"
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### Background and References
 

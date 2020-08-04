@@ -10,7 +10,7 @@ Data about Knowledge organization systems and their concordances can be availabl
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### Supported Registries
 See [registries.ndjson]({{ "/registries/registries.ndjson" | urla }}) for full list and metadata.

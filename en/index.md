@@ -12,13 +12,13 @@ cocodaInfoButton:
   en: Information
 ---
 
-{% section "dark" %}
+{% section %}
 
 {% include locale + "/index-intro.md" %}
 
 {% endsection %}
 
-{% section "light" %}
+{% section %}
 
 #### [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
@@ -45,7 +45,7 @@ cocodaInfoButton:
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### [{{ strings.sections.services | localize }}]({{ "/services/" | url }})
 
@@ -66,7 +66,7 @@ cocodaInfoButton:
 
 {% endsection %}
 
-{% section "light" %}
+{% section %}
 
 #### [{{ strings.sections.partners | localize }}]({{ "/partners/" | url }})
 
@@ -74,7 +74,7 @@ cocodaInfoButton:
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### [{{ strings.sections.contact | localize }}]({{ "/contact/" | url }})
 

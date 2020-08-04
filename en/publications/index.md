@@ -17,7 +17,7 @@ title: Publications
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### Screencasts
 
@@ -37,7 +37,7 @@ title: Publications
 
 {% endsection %}
 
-{% section "light" %}
+{% section %}
 
 #### Software
 
@@ -101,7 +101,7 @@ title: Publications
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### Specifications
 
@@ -111,7 +111,7 @@ title: Publications
 
 {% endsection %}
 
-{% section "light" %}
+{% section %}
 
 #### Data
 
@@ -135,7 +135,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### Presentations and Workshops
 
@@ -220,7 +220,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% endsection %}
 
-{% section "light" %}
+{% section %}
 
 #### Reviewed Articles
 
@@ -264,7 +264,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### Posters
 
@@ -277,7 +277,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% endsection %}
 
-{% section "light" %}
+{% section %}
 
 #### Reports
 
@@ -312,7 +312,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% endsection %}
 
-{% section "dark" %}
+{% section %}
 
 #### Other Articles
 
