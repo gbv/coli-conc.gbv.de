@@ -14,11 +14,12 @@
 
 .cocoda {
   display: flex;
-  padding-top: calc(40px + (75 - 40) * ((100vw - 300px) / (1600 - 300)));;
+  padding: 0 calc((100vw - 250px) / 10);
+  padding-top: calc(30px + (75 - 40) * ((100vw - 300px) / (1600 - 300)));;
   text-align: left;
 }
 .cocoda > :first-child {
-  flex: 1;
+  flex: 1.5;
   display: block;
   width: calc(35vw + (50 - 35) * ((100vw - 300px) / (1600 - 300)));;
   align-self: flex-start;
