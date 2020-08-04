@@ -39,6 +39,11 @@
 .header li.menu-item-reduced-padding a {
   padding: 15px 10px;
 }
+.header li.menu-item-language a {
+  font-size: 14px; // TODO: Put into variable?
+  line-height: 24px;
+  padding: 3px 10px;
+}
 .header .vzg-logo, .header .coli-conc-logo-small {
   float: left;
   padding: 10px 5px 10px 15px;

@@ -118,14 +118,14 @@
       </li>
       <li class="{% if page.url == '/partners/' %}current{% endif %}"><a href="{{ partnersLink }}">{{ strings.sections.partners | localize }}</a></li>
       <li class="{% if page.url == '/contact/' %}current{% endif %}"><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>
-      <li class="menu-item-reduced-padding">
+      <li class="menu-item-language">
         {% if locale == "de" %}
         <a href="{{ page.url | urla }}">
-          EN
+          DE<br><span class="font-weight-light">EN</span>
         </a>
         {% else %}
         <a href="{{ ('/de' + page.url) | url }}">
-          DE
+          EN<br><span class="font-weight-light">DE</span>
         </a>
         {% endif %}
       </li>

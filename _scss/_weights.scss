@@ -1,3 +1,13 @@
 $light: 300;
 $regular: 400;
 $bold: 500;
+
+.font-weight-light {
+  font-weight: $light;
+}
+.font-weight-regular {
+  font-weight: $regular;
+}
+.font-weight-bold {
+  font-weight: $bold;
+}
