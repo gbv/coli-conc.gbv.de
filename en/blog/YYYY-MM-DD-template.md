@@ -7,8 +7,4 @@ excerpt: "Excerpt if necessary"
 # - blog
 ---
 
-{% section "dark" %}
-
 The content.
-
-{% endsection %}
