@@ -1,42 +1,67 @@
-[
-  {
-    "image": "fub-300px.png",
-    "image2x": "fub-600px.png",
-    "url": "https://www.fu-berlin.de/"
-  },
-  {
-    "image": "ur-300px.png",
-    "image2x": "ur-600px.png",
-    "url": "http://www.uni-regensburg.de/"
-  },
-  {
-    "image": "zbw-300px.png",
-    "image2x": "zbw-600px.png",
-    "url": "http://www.leibniz-transfer.de/einrichtungen/wirtschafts-und-sozialwissenschaften-raumwissenschaften/deutsche-zentralbibliothek-fuer-wirtschaftswissenschaften-ao-leibniz-informationszentrum-wirtschaft/"
-  },
-  {
-    "image": "usg-300px.png",
-    "image2x": "usg-600px.png",
-    "url": "https://www.unisg.ch/"
-  },
-  {
-    "image": "stabi-300px.png",
-    "image2x": "stabi-600px.png",
-    "url": "http://staatsbibliothek-berlin.de/"
-  },
-  {
-    "image": "ulb-300px.png",
-    "image2x": "ulb-600px.png",
-    "url": "https://www.uibk.ac.at/ulb/index.html.de"
-  },
-  {
-    "image": "gesis-300px.png",
-    "image2x": "gesis-600px.png",
-    "url": "https://www.gesis.org/home/"
-  },
-  {
-    "image": "wikimedia-300px.png",
-    "image2x": "wikimedia-600px.png",
-    "url": "https://wikimedia.de/"
-  }
-]
+{
+  "institutions": [
+    {
+      "image": "fub-300px.png",
+      "image2x": "fub-600px.png",
+      "url": "https://www.fu-berlin.de/"
+    },
+    {
+      "image": "ur-300px.png",
+      "image2x": "ur-600px.png",
+      "url": "http://www.uni-regensburg.de/"
+    },
+    {
+      "image": "zbw-300px.png",
+      "image2x": "zbw-600px.png",
+      "url": "http://www.leibniz-transfer.de/einrichtungen/wirtschafts-und-sozialwissenschaften-raumwissenschaften/deutsche-zentralbibliothek-fuer-wirtschaftswissenschaften-ao-leibniz-informationszentrum-wirtschaft/"
+    },
+    {
+      "image": "usg-300px.png",
+      "image2x": "usg-600px.png",
+      "url": "https://www.unisg.ch/"
+    },
+    {
+      "image": "stabi-300px.png",
+      "image2x": "stabi-600px.png",
+      "url": "http://staatsbibliothek-berlin.de/"
+    },
+    {
+      "image": "ulb-300px.png",
+      "image2x": "ulb-600px.png",
+      "url": "https://www.uibk.ac.at/ulb/index.html.de"
+    },
+    {
+      "image": "gesis-300px.png",
+      "image2x": "gesis-600px.png",
+      "url": "https://www.gesis.org/home/"
+    },
+    {
+      "image": "wikimedia2-300px.png",
+      "image2x": "wikimedia2-600px.png",
+      "url": "https://wikimedia.de/"
+    }
+  ],
+  "projects": [
+    {
+      "image": "bartoc.svg",
+      "url": "https://bartoc.org/"
+    },
+    {
+      "text": "coli-ana",
+      "url": "/coli-ana/"
+    },
+    {
+      "image": "",
+      "url": "https://www.eurospider.com/de/relevancy-produkt/digitaler-assistent-da-3",
+      "text": "Digitaler Assistent (DA-3)"
+    },
+    {
+      "text": "Concept Mapping",
+      "url": ""
+    },
+    {
+      "text": "MAQUIS",
+      "url": ""
+    }
+  ]
+}
