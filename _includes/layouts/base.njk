@@ -74,9 +74,6 @@
   {% endif %}
   <a name="top"></a>
   <header class="header">
-    {% if page.url != "/" %}<a href="{{ '/' | url }}" class="coli-conc-logo-small">
-      <img src="{{ '/images/coli-conc.svg' | urla }}">
-    </a>{% endif %}
     <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" class="vzg-logo {% if page.url != '/' %}tiny-hide{% endif %}">
       <img
         src="{{ '/images/vzg-300px.png' | urla }}"
@@ -135,6 +132,9 @@
         {% endif %}
       </li>
     </ul>
+    {% if page.url != "/" %}<a href="{{ '/' | url }}" class="coli-conc-logo-small">
+      <img src="{{ '/images/coli-conc.svg' | urla }}">
+    </a>{% endif %}
     {% clear %}
   </header>
   <main id="main">
