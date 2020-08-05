@@ -117,11 +117,8 @@
           <div><a href="{{ '/publications/licenses/' | url }}" target="_blank">{{ strings.sections.publications.licenses | localize }}</a></div>
         </div> #}
       </li>
-      <li class="dropdown {% if page.url == '/partners/' %}current{% endif %}">
+      <li class="{% if page.url == '/partners/' %}current{% endif %}">
         <a href="{{ partnersLink }}">{{ strings.sections.partners | localize }}</a>
-        <div class="dropdown-menu">
-          <div><a href="{{ '/partner-projects/' | url }}">{{ strings.pages["partner-projects"] | localize }}</a></div>
-        </div>
       </li>
       <li class="{% if page.url == '/contact/' %}current{% endif %}"><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>
       <li class="menu-item-language">
