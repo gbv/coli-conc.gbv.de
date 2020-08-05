@@ -51,7 +51,7 @@ cocodaInfoButton:
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
   {% flex %}
-  [{% image "/images/empty.svg", "width: 13vw; padding: 1vw; border: none;" %}<br>{{ strings.sections.services.kosRegistry | localize }}]({{ "/terminologies/" | url }})
+  [{% image "/images/bartoc-logo.svg", "width: 13vw; height: 13vw; padding: 1vw; border: none;" %}<br>{{ strings.sections.services.kosRegistry | localize }}]({{ "/terminologies/" | url }})
   {% endflex %}
   {% flex %}
   [{% image "/images/services-concordance-registry.svg", "width: 13vw; padding: 1vw; border: none;" %}<br>{{ strings.sections.services.concordanceRegistry | localize }}]({{ "/concordances/" | url }})
