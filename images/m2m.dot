@@ -1,0 +1,16 @@
+# convert with: circo -Tpng m2m.dot > m2m.png
+digraph{
+    graph[dpi=110,size="2,2"];
+    edge [arrowhead=vee,arrowtail=vee,dir=both];
+    node [shape=circle,label="",width=.3,fixedsize=true];
+    A -> B;
+    A -> C;
+    A -> D;
+    A -> E;
+    B -> C;
+    B -> D;
+    B -> E;
+    C -> D;
+    C -> E;
+    D -> E;
+}
