@@ -27,25 +27,17 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   color: colors.$orange;
   font-weight: weights.$regular;
   line-height: 1.2;
 }
 h1 {
-  font-size: calc(1.5em + (28 - 24) * ((100vw - 300px) / (1600 - 300)));
+  font-size: fonts.$size-largestest;
   margin: 20px 0 12px 0;
 }
 h2 {
-  font-size: calc(1.35em + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
-  margin: 20px 0 10px 0;
-}
-h3 {
-  font-size: calc(1.2em + (23 - 19) * ((100vw - 300px) / (1600 - 300)));
-  margin: 20px 0 7px 0;
-}
-h4 {
-  font-size: calc(1.2em + (23 - 19) * ((100vw - 300px) / (1600 - 300)));
+  font-size: fonts.$size-largest;
   margin: 8px 0;
   padding: 12px 30px;
   display: inline-block;
@@ -53,12 +45,28 @@ h4 {
   background-color: colors.$background-dark;
   color: colors.$lightorange;
 }
-section:nth-child(2n+3) h4 {
+section:nth-child(2n+3) h2 {
   background-color: colors.$background-light;
   color: colors.$orange;
 }
-section:nth-child(2n+3) h1, section:nth-child(2n+3) h2, section:nth-child(2n+3) h3 {
+h3 {
+  font-size: fonts.$size-largest;
+  margin: 20px 0 10px 0;
+}
+h4 {
+  font-size: fonts.$size-larger;
+  margin: 20px 0 7px 0;
+}
+section:nth-child(2n+3) h1, section:nth-child(2n+3) h3, section:nth-child(2n+3) h4, section:nth-child(2n+3) h5, section:nth-child(2n+3) h6 {
   color: colors.$lightorange;
+}
+h5 {
+  font-size: fonts.$size-large;
+  margin: 20px 0 7px 0;
+}
+h6 {
+  font-size: fonts.$size-medium;
+  margin: 20px 0 7px 0;
 }
 
 .text-center {
@@ -90,10 +98,10 @@ section:nth-child(2n+3) a:hover {
 }
 
 // Fix h4 links
-section h4 > a {
+section h2 > a {
   color: colors.$lightorange;
 }
-section:nth-child(2n+3) h4 > a {
+section:nth-child(2n+3) h2 > a {
   color: colors.$orange;
 }
 
@@ -138,7 +146,7 @@ section.novpadding {
 
 table {
   width: 100%;
-  font-size: fonts.$size-smaller;
+  font-size: fonts.$size-small;
 }
 th, td {
   vertical-align: middle;
@@ -185,9 +193,7 @@ section:nth-child(2n+3) img.image {
 .footer {
   padding: 10px;
   text-align: center;
-}
-.footer {
-  font-size: fonts.$size-smaller;
+  font-size: fonts.$size-small;
 }
 
 .badge {

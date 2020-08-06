@@ -20,7 +20,7 @@ cocodaInfoButton:
 
 {% section %}
 
-#### [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
+## [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
 {%- for post in collections.blog | reverse -%}
   <!-- Show 6 latest news. -->
@@ -47,7 +47,7 @@ cocodaInfoButton:
 
 {% section %}
 
-#### [{{ strings.sections.services | localize }}]({{ "/services/" | url }})
+## [{{ strings.sections.services | localize }}]({{ "/services/" | url }})
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
   {% flex %}
@@ -68,7 +68,7 @@ cocodaInfoButton:
 
 {% section %}
 
-#### [{{ strings.sections.partners | localize }}]({{ "/partners/" | url }})
+## [{{ strings.sections.partners | localize }}]({{ "/partners/" | url }})
 
 <!-- Zero width space to force an empty paragraph for some space -->
 &#8203;
@@ -79,7 +79,7 @@ cocodaInfoButton:
 
 {% section %}
 
-#### [{{ strings.sections.contact | localize }}]({{ "/contact/" | url }})
+## [{{ strings.sections.contact | localize }}]({{ "/contact/" | url }})
 
 {% include locale + "/contact.md" %}
 

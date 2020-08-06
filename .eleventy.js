@@ -90,6 +90,11 @@ module.exports = eleventyConfig => {
     `
   })
 
+  // Paired Shortcode for badge
+  eleventyConfig.addShortcode("badge", (text, variant = "default") => {
+    return `<span class="badge badge-${variant}">${text}</span>`
+  })
+
   // Paired Shortcode for smaller text
   eleventyConfig.addPairedShortcode("small", (content) => {
     return `

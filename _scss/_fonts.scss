@@ -2,16 +2,23 @@
 $main: Roboto;
 $fallback: Helvetica, sans-serif;
 
-$size-smaller: calc(0.6em + 4 * ((100vw - 500px) / (1200 - 500)));
-$size-small: calc(0.8em + 4 * ((100vw - 300px) / (1600 - 300)));
-$size-normal: calc(1em + 4 * ((100vw - 300px) / (1600 - 300)));
-$size-medium: calc(1.2em + 4 * ((100vw - 300px) / (1600 - 300)));
-$size-large: calc(1.4em + 4 * ((100vw - 300px) / (1600 - 300)));
+$size-smallest: 12px;
+$size-smaller: 14px;
+$size-small: 16px;
+$size-normal: 18px;
+$size-medium: 20px;
+$size-large: 24px;
+$size-larger: 28px;
+$size-largest: 32px;
+$size-largestest: 40px;
 
-.font-size-smaller, small {
+.font-size-smallest {
+  font-size: $size-smallest ;
+}
+.font-size-smaller {
   font-size: $size-smaller;
 }
-.font-size-small{
+.font-size-small, small {
   font-size: $size-small;
 }
 .font-size-normal {
@@ -22,4 +29,13 @@ $size-large: calc(1.4em + 4 * ((100vw - 300px) / (1600 - 300)));
 }
 .font-size-large {
   font-size: $size-large;
+}
+.font-size-larger {
+  font-size: $size-larger;
+}
+.font-size-largest {
+  font-size: $size-largest;
+}
+.font-size-largestest {
+  font-size: $size-largestest;
 }
