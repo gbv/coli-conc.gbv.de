@@ -4,6 +4,9 @@ layout: layouts/base.njk
 {% set title = title | default(strings.pages[page.fileSlug]) | default(page.fileSlug) %}
 
 {% section "text-center novpadding" %}
+<a href="{{ '/' | url }}" class="coli-conc-logo-small">
+  <img src="{{ '/images/coli-conc.svg' | urla }}">
+</a>
 
 # {{ title | localize }}
 {{ subtitle | localize }}

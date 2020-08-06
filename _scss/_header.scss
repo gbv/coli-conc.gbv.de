@@ -66,15 +66,16 @@
   height: 28px;
   margin-top: 12px;
 }
-.header .coli-conc-logo-small {
-  float: right;
-}
 .coli-conc-logo-small > img {
-  height: 100%;
+  max-width: 150px;
+  width: 20%;
+  min-width: 100px;
+  margin-top: -5px;
 }
 
 /* menu */
 .header .menu {
+  clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
 }
@@ -119,12 +120,7 @@
   display: none;
 }
 .header #menu-button:checked ~ .menu {
-  clear: both;
-  max-height: 350px;
-}
-// Hide coli-conc-logo because otherwise it'll jump down due to the clear: both; above.
-.header #menu-button:checked ~ .coli-conc-logo-small {
-  display: none;
+  max-height: 320px;
 }
 /* hides middle line when checked (i.e. clicked) */
 .header #menu-button:checked ~ .menu-icon .navicon {
@@ -187,5 +183,8 @@
   }
   .dropdown-menu > div > a {
     text-align: left;
+  }
+  .coli-conc-logo-small > img {
+    margin-top: -40px;
   }
 }
