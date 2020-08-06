@@ -43,7 +43,8 @@
   ],
   "projects": [
     {
-      "image": "bartoc.svg",
+      "text": "BARTOC.org",
+      "_image": "bartoc.svg",
       "url": "https://bartoc.org/"
     },
     {
