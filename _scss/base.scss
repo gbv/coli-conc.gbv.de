@@ -113,7 +113,7 @@ a.button:hover {
 
 section {
   position: relative;
-  padding: calc(10px + (100vh - 500px) / 15) calc((100vw - 250px) / 4.5);
+  padding: calc(10px + (50vh + 50vw - 800px) / 15) calc((100vw - 250px) / 4.5);
   color: colors.$black;
 }
 section:nth-child(2n+3) {
