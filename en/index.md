@@ -70,9 +70,6 @@ cocodaInfoButton:
 
 ## [{{ strings.sections.partners | localize }}]({{ "/partners/" | url }})
 
-<!-- Zero width space to force an empty paragraph for some space -->
-&#8203;
-
 {% include locale + "/partners.md" %}
 
 {% endsection %}
