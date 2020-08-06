@@ -36,6 +36,10 @@
       "url": "https://www.gesis.org/home/"
     },
     {
+      "image": "dnb.svg",
+      "url": "https://www.dnb.de"
+    },
+    {
       "image": "wikimedia2-300px.png",
       "image2x": "wikimedia2-600px.png",
       "url": "https://wikimedia.de/"
