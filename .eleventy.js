@@ -66,7 +66,7 @@ module.exports = eleventyConfig => {
   // Paired Shortcode for flexbox
   eleventyConfig.addPairedShortcode("flexbox", (content, direction = "row", extra = "") => {
     return `
-<div class="flexbox", style="flex-direction: ${direction}; ${extra}">
+<div class="flexbox" style="flex-direction: ${direction}; ${extra}">
   ${markdownIt.render(content)}
 </div>
     `
