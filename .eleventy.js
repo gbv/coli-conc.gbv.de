@@ -81,6 +81,15 @@ module.exports = eleventyConfig => {
     `
   })
 
+  // Paired Shortcode for div element
+  eleventyConfig.addPairedShortcode("div", (content, classes = "", style = "") => {
+    return `
+<div class="${classes}" style="${style}">
+  ${markdownIt.render(content)}
+</div>
+    `
+  })
+
   // Paired Shortcode for smaller text
   eleventyConfig.addPairedShortcode("small", (content) => {
     return `
