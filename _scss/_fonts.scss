@@ -1,3 +1,25 @@
 
 $main: Roboto;
 $fallback: Helvetica, sans-serif;
+
+$size-smaller: calc(0.6em + 4 * ((100vw - 500px) / (1200 - 500)));
+$size-small: calc(0.8em + 4 * ((100vw - 300px) / (1600 - 300)));
+$size-normal: calc(1em + 4 * ((100vw - 300px) / (1600 - 300)));
+$size-medium: calc(1.2em + 4 * ((100vw - 300px) / (1600 - 300)));
+$size-large: calc(1.4em + 4 * ((100vw - 300px) / (1600 - 300)));
+
+.font-size-smaller, small {
+  font-size: $size-smaller;
+}
+.font-size-small{
+  font-size: $size-small;
+}
+.font-size-normal {
+  font-size: $size-normal;
+}
+.font-size-medium {
+  font-size: $size-medium;
+}
+.font-size-large {
+  font-size: $size-large;
+}
