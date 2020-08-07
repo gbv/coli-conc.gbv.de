@@ -19,7 +19,7 @@ More information about coli-ana can be found in the presentation [Automatic Anal
 
 {% section %}
 
-## Example
+###### Example
 
 The synthesized DDC number [700.90440747471](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F700.90440747471%2Fe23%2F) can be composed from:
 

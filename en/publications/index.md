@@ -19,7 +19,7 @@ title: Publications
 
 {% section %}
 
-## Screencasts
+###### Screencasts
 
 - [Normdaten-Mapping mit Cocoda @vBIB20](https://doi.org/10.5446/36465) German (2020-05-27)
 -   [Wikidata-Mappings mit Cocoda 1.1.0](https://vimeo.com/357295989) German (2019-09-02)
@@ -39,7 +39,7 @@ title: Publications
 
 {% section %}
 
-## Software
+###### Software
 
 <table>
   <thead>
@@ -103,7 +103,7 @@ title: Publications
 
 {% section %}
 
-## Specifications
+###### Specifications
 
 - [JSKOS](https://gbv.github.io/jskos/)          JSON based data format for KOS
 -  [ELMA](https://gbv.github.io/elma/)            Simple subset of JSKOS-API
@@ -113,7 +113,7 @@ title: Publications
 
 {% section %}
 
-## Data
+###### Data
 
 We collect and (re)publish data related to concordances and knowledge organization systems.
 
@@ -137,7 +137,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 {% section %}
 
-## Presentations and Workshops
+###### Presentations and Workshops
 
 - RVK-Mapping mit cocoda und ccmapper. 2019-08-14 13:30-16:00 at UB Regensburg (Tutorial & Workshop)
 
@@ -222,7 +222,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% section %}
 
-## Reviewed Articles
+###### Reviewed Articles
 
 -   Balakrishnan, Uma; Voß, Jakob; Soergel, Dagobert: Towards integrated
     systems for KOS management, mapping, and access. Coli-conc and its
@@ -266,7 +266,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% section %}
 
-## Posters
+###### Posters
 
 -   Voß, Jakob: [Cocoda web application for mapping Wikidata and authority files](https://commons.wikimedia.org/wiki/File:Cocoda-poster-wikidatacon2019.pdf).
     Presented at [WikidataCon 2019](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2019)
@@ -279,7 +279,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% section %}
 
-## Reports
+###### Reports
 
 -   [coli-conc Technical Report 1: Cocoda primer](tr1.html). (April
     2015) <https://doi.org/10.5281/zenodo.16786>.
@@ -314,7 +314,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% section %}
 
-## Other Articles
+###### Other Articles
 
 -   DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch,
     die Erstellung, und die Wartung von Konkordanzen zwischen

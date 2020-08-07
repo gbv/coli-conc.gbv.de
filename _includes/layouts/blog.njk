@@ -18,7 +18,7 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 {% endsection %}
 
 {% section %}
-## {{ { en: "More Posts", de: "Mehr Beiträge" } | localize }}
+###### {{ { en: "More Posts", de: "Mehr Beiträge" } | localize }}
 {% flexbox "row", "flex-wrap: wrap; text-align: center;  align-items: flex-start;" %}
 {%- for post in collections.blog | reverse -%}
   <!-- Show 6 latest news. -->

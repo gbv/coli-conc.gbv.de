@@ -32,7 +32,7 @@ title:
 
 The following classification of Knowledge Organization Systems has been extracted from Wikidata [as described below](#background-and-references).
 
-## Current Classification
+###### Current Classification
 
 Wikidata can change quickly so this is a snapshot from 2017-11-29.
 
@@ -55,7 +55,7 @@ The number right of each KOS type indicate the <span class="badge badge-default"
 
 {% section %}
 
-## Background and References
+###### Background and References
 
 - Voß, Jakob: Classification of Knowledge Organization Systems with Wikidata. In: [Proceedings of the 15th European Networked Knowledge Organization Systems Workshop (NKOS 2016)](http://ceur-ws.org/Vol-1676/), p 15-22. CEUR Workshop Proceedings, Volume 1676. [http://ceur-ws.org/Vol-1676/paper2.pdf](http://ceur-ws.org/Vol-1676/paper2.pdf)
 - Presentation at [15th European NKOS workshop at TPDL](https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2016/programme.html), September, 9th, 2016 in Hannover. [https://doi.org/10.5281/zenodo.61767](https://doi.org/10.5281/zenodo.61767)

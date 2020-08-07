@@ -3,7 +3,7 @@
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
 
 {% flex "2.5", "text-align: left; margin-right: 30px;" %}
-### {{ { en: "Institutions", de: "Institutionen" } | localize }}
+## {{ { en: "Institutions", de: "Institutionen" } | localize }}
 
 {% flexbox "row", "flex-wrap: wrap;" %}
 {% for partner in partners.institutions %}
@@ -22,7 +22,7 @@
 {% endflex %}
 
 {% flex "1", "flex-basis: 250px; text-align: left;" %}
-### {{ { en: "Projects", de: "Projekte" } | localize }}
+## {{ { en: "Projects", de: "Projekte" } | localize }}
 
 {% for partner in partners.projects %}
 {% set image1x = ("/images/partners/" + partner.image) | urla %}

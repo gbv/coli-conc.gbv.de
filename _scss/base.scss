@@ -28,16 +28,32 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: colors.$orange;
   font-weight: weights.$regular;
   line-height: 1.2;
 }
 h1 {
+  color: colors.$orange;
   font-size: fonts.$size-largestest;
   margin: 20px 0 12px 0;
 }
 h2 {
   font-size: fonts.$size-largest;
+  margin: 20px 0 10px 0;
+}
+h3 {
+  font-size: fonts.$size-larger;
+  margin: 20px 0 7px 0;
+}
+h4 {
+  font-size: fonts.$size-large;
+  margin: 20px 0 7px 0;
+}
+h5 {
+  font-size: fonts.$size-medium;
+  margin: 20px 0 7px 0;
+}
+h6 {
+  font-size: fonts.$size-larger;
   margin: 8px 0;
   padding: 12px 30px;
   display: inline-block;
@@ -45,28 +61,12 @@ h2 {
   background-color: colors.$background-dark;
   color: colors.$lightorange;
 }
-section:nth-child(2n+3) h2 {
+section:nth-child(2n+3) h6 {
   background-color: colors.$background-light;
   color: colors.$orange;
 }
-h3 {
-  font-size: fonts.$size-largest;
-  margin: 20px 0 10px 0;
-}
-h4 {
-  font-size: fonts.$size-larger;
-  margin: 20px 0 7px 0;
-}
-section:nth-child(2n+3) h1, section:nth-child(2n+3) h3, section:nth-child(2n+3) h4, section:nth-child(2n+3) h5, section:nth-child(2n+3) h6 {
+section:nth-child(2n+3) h1 {
   color: colors.$lightorange;
-}
-h5 {
-  font-size: fonts.$size-large;
-  margin: 20px 0 7px 0;
-}
-h6 {
-  font-size: fonts.$size-medium;
-  margin: 20px 0 7px 0;
 }
 
 .text-center {
@@ -97,11 +97,11 @@ section:nth-child(2n+3) a:hover {
   color: colors.$orange;
 }
 
-// Fix h4 links
-section h2 > a {
+// Fix h6 links
+section h6 > a {
   color: colors.$lightorange;
 }
-section:nth-child(2n+3) h2 > a {
+section:nth-child(2n+3) h6 > a {
   color: colors.$orange;
 }
 

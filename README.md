@@ -176,7 +176,7 @@ redirect: https://example.com
 ## Style Guide
 ### Sections
 - Sections are styled automatically. Every odd section (starting from the third child) will have a dark background with light text.
-- Use h2 (`##`) for section headers because they are styled in a specific way.
+- Use h6 (`######`) for section headers because they are styled in a specific way.
 - Try to choose the number of sections so that it ends with a dark section. If necessary, add an empty section (`{% section %}{% endsection %}`).
 
 ## TO-DOs

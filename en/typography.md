@@ -12,24 +12,24 @@ title: Typography
 
 # H1 Heading {% badge "40px" %}
 
-## H2 Heading {% badge "32px", "alternative" %}
+## H2 Heading {% badge "32px" %}
 
-### H3 Heading {% badge "32px" %}
+### H3 Heading {% badge "28px" %}
 
-#### H4 Heading {% badge "28px" %}
+#### H4 Heading {% badge "24px" %}
 
-##### H5 Heading {% badge "24px" %}
+##### H5 Heading {% badge "20px" %}
 
-###### H6 Heading {% badge "20px" %}
+###### H6 Heading {% badge "28px + background", "alternative" %}
 
 {% raw %}
 ```markdown
 # H1 Heading {% badge "40px" %}
-## H2 Heading {% badge "32px", "alternative" %}
-### H3 Heading {% badge "32px" %}
-#### H4 Heading {% badge "28px" %}
-##### H5 Heading {% badge "24px" %}
-###### H6 Heading {% badge "20px" %}
+## H2 Heading {% badge "32px" %}
+### H3 Heading {% badge "28px" %}
+#### H4 Heading {% badge "24px" %}
+##### H5 Heading {% badge "20px" %}
+###### H6 Heading {% badge "28px + background", "alternative" %}
 ```
 {% endraw %}
 
