@@ -29,6 +29,7 @@ module.exports = eleventyConfig => {
   // Prepare MarkdownIt
   const markdownItOptions = {
     html: true,
+    linkify: true,
   }
   const markdownIt = require("markdown-it")(markdownItOptions)
     .use(require("markdown-it-anchor"))
