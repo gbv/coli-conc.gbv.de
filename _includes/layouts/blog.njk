@@ -8,8 +8,6 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
   <img src="{{ '/images/coli-conc.svg' | urla }}">
 </a>
 
-{% set title = title | default(series + " " + number) %}
-
 # {{ title | localize }}
 {{ subtitle | localize }}
 

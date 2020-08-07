@@ -11,7 +11,6 @@
       window.location.href = "{{ redirect }}"
   </script>
   {% endif %}
-  {% set title = title | default(strings.pages[page.fileSlug]) | default(page.fileSlug) %}
   <title>coli-conc - {{ title | localize }}</title>
   <style>
     {% set totalcss %}

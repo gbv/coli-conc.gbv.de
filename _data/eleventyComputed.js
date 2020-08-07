@@ -8,4 +8,6 @@ module.exports = {
     }
     return source
   },
+  // Set the title
+  title: data => data.title || (data.series && `${data.series} ${data.number}`) || data.strings.pages[data.page.fileSlug] || data.page.fileSlug,
 }
