@@ -28,7 +28,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: weights.$regular;
+  font-weight: weights.$bold;
   line-height: 1.2;
 }
 h1 {
@@ -57,7 +57,6 @@ h6 {
   margin: 8px 0;
   padding: 12px 30px;
   display: inline-block;
-  font-weight: weights.$bold;
   background-color: colors.$background-dark;
   color: colors.$lightorange;
 }
