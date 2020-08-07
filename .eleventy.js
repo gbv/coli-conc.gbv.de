@@ -54,9 +54,9 @@ module.exports = eleventyConfig => {
   eleventyConfig.setLibrary("md", markdownIt)
 
   // Paired Shortcode for section
-  eleventyConfig.addPairedShortcode("section", (content, classes = "") => {
+  eleventyConfig.addPairedShortcode("section", (content, classes = "", style = "") => {
     return `
-<section class="${classes}">
+<section class="${classes}" style="${style}">
   ${markdownIt.render(content)}
 </section>
     `

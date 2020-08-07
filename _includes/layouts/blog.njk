@@ -8,12 +8,27 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
   <img src="{{ '/images/coli-conc.svg' | urla }}">
 </a>
 
+{% set title = title | default(series + " " + number) %}
+
 # {{ title | localize }}
 {{ subtitle | localize }}
 
+{{ page.date | date("YYYY-MM-DD") }}
+
+{% div "", "text-align: left;" %}
+
+{% for author in author | default([]) %}
+  {{ author.name }} {% if author.email %}<[{{ author.email }}](mailto:{{ author.email }})>{% endif %}
+  {% if author.affiliation %}<br>{{ author.affiliation }}{% endif %}
+{% endfor %}
+{% if doi %}DOI: [{{ doi }}](https://doi.org/{{ doi }}){% endif %}
+{% if license %}<br>{{ license }}{% endif %}
+
+{% enddiv %}
+
 {% endsection %}
 
-{% section %}
+{% section "", "padding-top: 5px;" %}
 {{ content | safe }}
 {% endsection %}
 
