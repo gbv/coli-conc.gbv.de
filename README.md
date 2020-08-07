@@ -79,33 +79,120 @@ The website links to several services that have to be run independently from hos
 
 ## Notes
 
-### URLs
-Run all URLs through Eleventy's `url` filter so that they will point to the correct path:
+### Markdown
+We use Markdown for most of the content (there's some inline HTML as well). You can find an overview of Markdown's basic syntax [here](https://www.markdownguide.org/basic-syntax/). Files ending in `.md` always contain Markdown content, but layout files (usually ending in `.njk`) might also contain Markdown using Nunjucks shortcodes (see below).
+
+### Front Matter
+Each page (except for [_includes files](#shared-markdown-content)) needs to provide some front matter at the beginning of the file. Front matter looks like this:
 
 ```
+---
+layout: layouts/page
+title: Title of the page
+---
+
+... (actual content of the page)
+```
+
+Here are some values you should or can provide:
+
+- `layout` - Please specify for **every** page. Currently, only `layouts/page` (normal page) and `layouts/blog` (blog post) should be used.
+- `title` - It is recommended to specify a title. It will be displayed on the very top of the page, under the coli-conc logo. If no title is specified, a fallback title will be generated (e.g. the page's slug file slug = inputPath filename minus template file extension).
+- `subtitle` - Optional. It will be shown centered under the title of the page.
+- `excerpt` - Optional, only used for blog posts. A small summary of the posts that will be shown in the list of posts.
+- `date` - Optional. For blog posts (pages with the `blog` tag), the date can be specified here or be prefexed to the file name (see examples in `/en/blog/`). This is important for the order in which blog posts are displayed. For more info, especially about the date's format, see [the Content Dates section in the Eleventy documentation](https://www.11ty.dev/docs/dates/).
+- `tags` - Optional. Currently only used for blog posts like this:
+
+   ```yml
+   tags:
+   - blog
+   ```
+- `redirect` - If the page is only a redirect to another page, specify the redirect URL here. It will be run through the `url` filter so that internal URLs are properly resolved.
+- You can also specify any other variable here and use it inside the current page.
+
+### Nunjucks
+We are using [Nunjucks](https://mozilla.github.io/nunjucks/) as a blog templating engine. You can find the documentation [here](https://mozilla.github.io/nunjucks/templating.html). You can use Nunjucks everywhere **except in [_includes files](#shared-markdown-content)**. In the following, I will describe some parts of Nunjucks and some custom shortcodes we have added to make things easier.
+
+#### URLs
+Run all internal URLs through the `url` filter so that they will point to the correct path:
+
+```md
 [some link]({{ "/path/" | url }})
 ```
 
-For static assets that stay the same for both the German and the English site, use the custom `urla` filter instead:
+For static assets that stay the same for both the German and the English site (e.g. images), use the custom `urla` filter instead:
 
 ```md
 ![]({{ "/images/myimage.png" | urla }})
 ```
 
-### Sections
+#### Sections
 All content should use sections. There is a custom paired shortcode `section` which can be used for this:
 
-```
+```md
 {% section %}
+###### Optional Heading (always use h6 because it has special styling)
 
-Content of this section.
+Content of this section (can also contain Markdown as usual).
 
 {% endsection %}
 ```
 
-You can add one string parameter with CSS classes if necessary, e.g. `{% section "text-center" %}`.
+You can add one string parameter with CSS classes if necessary, e.g. `{% section "text-center" %}` for centered text.
 
-Exception: Blog/news posts (using the template under `en/blog/YYYY-MM-DD-template.md`), do NOT use sections here.
+Exception: Blog/news posts (with `layout: layouts/blog`), do **NOT use sections here**.
+
+Some notes about sections:
+- Sections are styled automatically. Every odd section (starting from the third child) will have a dark background with light text.
+- Use h6 (`######`) for section headers because they are styled in a specific way (as in the example above).
+- Try to choose the number of sections so that it ends with a dark section. If necessary, add an empty section at the end (`{% section %}{% endsection %}`).
+
+#### `<div>` with Markdown Content
+For some special layout, you can use the custom paired shortcode `div` to wrap content inside a div:
+
+```md
+{% div "css-classes", "margin-left: 10px;" %}
+
+We can have **Markdown content** here.
+
+{% enddiv %}
+```
+
+The first parameter is the string for CSS classes (i.e. the `class` attribute in HTML), the second parameter are styles (i.e. the `style` attribute in HTML).
+
+#### Markdown content inside a HTML tag
+If you need to use Markdown inside some other HTML tag, or you need more control, use the `markdown` paired shortcode:
+
+```md
+{% markdown %}
+## Heading
+
+Here is a [link]().
+{% endmarkdown %}
+```
+
+#### Dates
+If you need to display dates (e.g. a blog post's date), run it through the `date` filter:
+
+```
+{{ page.date | date("YYYY-MM-DD") }}
+```
+
+#### Eleventy Supplied Data
+[Eleventy](https://www.11ty.dev), the engine that drives this website, supplies certain data for each page. Please refer the the [Eleventy documentation](https://www.11ty.dev/docs/data-eleventy-supplied/) for more information.
+
+### Content Overview
+For most content, you can just navigate to the page on https://gbv.github.io/coli-conc-next/, scroll to the bottom, and click on "Source" (after "Impressum" and "Datenschutz"). It will forward you to the file for the current page on GitHub where you can edit the content. However, the are some things to note here:
+
+- Some pages import content from the `_includes` folder (see [below](#shared-markdown-content)). In that case, you need to find the respective file for that. Here is a list of files where this is currently the case:
+
+   - The intro text below the Cocoda screenshot on the start page ([English](https://github.com/gbv/coli-conc-next/blob/master/en/_includes/index-intro.md) / [German](https://github.com/gbv/coli-conc-next/blob/master/de/_includes/index-intro.md))
+   - The footer text ([English](https://github.com/gbv/coli-conc-next/blob/master/en/_includes/footer.md) / [German](https://github.com/gbv/coli-conc-next/blob/master/de/_includes/footer.md))
+   - The partners page ([English/German](https://github.com/gbv/coli-conc-next/blob/master/en/_includes/partners.md) - Warning: Heavy custom code here. The list of partner institutions and projects is actually defined in a [data file](https://github.com/gbv/coli-conc-next/blob/master/_data/partners.json))
+   - The contact page ([English/German](https://github.com/gbv/coli-conc-next/blob/master/en/_includes/contact.md) - Warning: Also heavy custom code here, but the content is defined inline.)
+
+- If a page is not translated, the Source link will refer to the English version of that page. See [Localization](#localization) for more info.
+- Some pages have heavy custom code, especially the index page ([`/en/index.md`](https://github.com/gbv/coli-conc-next/blob/master/en/index.md)) and the KOS registry ([`/en/terminologies.md`](https://github.com/gbv/coli-conc-next/blob/master/en/terminologies.md)). Please be careful when editing those pages.
 
 ### Localization
 English is the default language and all content should be created in English first (folder `en`). Then there are two ways to localize the content to German:
@@ -113,7 +200,7 @@ English is the default language and all content should be created in English fir
 1. Create the exact same file in folder `de` (same path, same filename) with German content.
 2. Use `_data/strings.js` to define strings with keys `en` and `de`, then use the `localize` filter in your file like this: `{{ strings.mykey | localize }}`
 
-   - You can also define these in the current page's front matter or even inline: `{{ { en: "English string", de: "German string" } | localize }}`
+   - You can also define these in the current page's front matter (for `title` and `subtitle`) or even inline: `{{ { en: "English string", de: "German string" } | localize }}`
 
 ### Shared Markdown Content
 If there is certain Markdown content that is shared between two or more files, you can use the `_includes` folder inside the language folders (**not** the global `_includes` folder).
@@ -173,12 +260,6 @@ redirect: https://example.com
 
 `layout` is necessary because the base layout is handling the redirect. The redirect happens both with a meta tag and JavaScript as a fallback.
 
-## Style Guide
-### Sections
-- Sections are styled automatically. Every odd section (starting from the third child) will have a dark background with light text.
-- Use h6 (`######`) for section headers because they are styled in a specific way.
-- Try to choose the number of sections so that it ends with a dark section. If necessary, add an empty section (`{% section %}{% endsection %}`).
-
 ## TO-DOs
 - Optimize `screenshot-kos-registry.png` for different sizes.
-- Add more icons for services on start page.
+- ...
