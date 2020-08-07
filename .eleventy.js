@@ -33,6 +33,7 @@ module.exports = eleventyConfig => {
   }
   const markdownIt = require("markdown-it")(markdownItOptions)
     .use(require("markdown-it-anchor"))
+    .use(require("markdown-it-footnote"))
     .disable("code")
 
   // Open external links in new tab, adapted from https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer
@@ -50,6 +51,13 @@ module.exports = eleventyConfig => {
     }
     return mdDefaultLinkOpen(tokens, idx, options, env, self)
   }
+
+  // Adjust rendering of markdown-it-footnote (i.e. remove <section> element)
+  markdownIt.renderer.rules.footnote_block_open = (tokens, idx, options) => (
+    (options.xhtmlOut ? "<hr class=\"footnotes-sep\" />\n" : "<hr class=\"footnotes-sep\">\n") +
+    "<ol class=\"footnotes-list\">\n"
+  )
+  markdownIt.renderer.rules.render_footnote_block_close = () => "</ol>\n"
 
   eleventyConfig.setLibrary("md", markdownIt)
 
