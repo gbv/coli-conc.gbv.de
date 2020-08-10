@@ -18,11 +18,9 @@
 {% enddiv %}
 {% endfor %}
 
+<br><br>
+
 ###### {{ { en: "Partners", de: "Partner" } | localize }}
-{{ {
-  en: "Some of coli-conc's major partner institutions.",
-  de: "Einige wichtige Partner-Institutionen von coli-conc."
-} | localize }}
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
 {% for partner in partners.institutions %}
