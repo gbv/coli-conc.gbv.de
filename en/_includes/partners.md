@@ -14,4 +14,4 @@
 {% endfor %}
 {% endflexbox %}
 
-{% button "/partner-projects/", { en: "Projects", de: "Projekte" } | localize, "display: block; margin: 0 auto; width: 200px;" %}
+{% button "/partner-projects/", { en: "Projects", de: "Projekte" } | localize, "font-size-large", "display: block; margin: 0 auto; width: 200px;" %}
