@@ -74,8 +74,16 @@ cocodaInfoButton:
 
 {% section %}
 
+{% include locale + "/projects.md" %}
+
+{% endsection %}
+
+{% section %}
+
 ###### [{{ strings.sections.contact | localize }}]({{ "/contact/" | url }})
 
 {% include locale + "/contact.md" %}
 
 {% endsection %}
+
+{% section %}{% endsection %}

@@ -8,4 +8,8 @@ layout: layouts/page
 
 {% endsection %}
 
-{% section %}{% endsection %}
+{% section %}
+
+{% include locale + "/projects.md" %}
+
+{% endsection %}
