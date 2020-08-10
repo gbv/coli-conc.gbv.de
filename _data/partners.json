@@ -53,28 +53,48 @@
     {
       "text": "BARTOC.org",
       "_image": "bartoc.svg",
-      "url": "https://bartoc.org/"
+      "url": "https://bartoc.org/",
+      "description": {
+        "en": "A database of Knowledge Organization Systems and KOS related registries."
+      }
     },
     {
       "text": "coli-ana",
-      "url": "/coli-ana/"
+      "url": "/coli-ana/",
+      "description": {
+        "en": "A tool for analysis of synthesized DDC numbers."
+      }
     },
     {
       "image": "",
       "url": "https://www.eurospider.com/de/relevancy-produkt/digitaler-assistent-da-3",
-      "text": "Digitaler Assistent (DA-3)"
+      "text": "Digitaler Assistent (DA-3)",
+      "description": {
+        "en": "",
+        "de": "Ein Tool zur Unterstützung verbaler und klassifikatorischer Erschließung von Büchern und Aufsätzen."
+      }
     },
     {
       "text": "KENOM",
-      "url": "https://www.kenom.de"
+      "url": "https://www.kenom.de",
+      "description": {
+        "en": "An online portal for numismatics.",
+        "de": "Kooperative Erschließung und Nutzung der Objektdaten von Münzsammlungen = ein Online-Portal zur Numismatik."
+      }
     },
     {
       "text": "Concept Mapping",
-      "url": ""
+      "url": "",
+      "description": {
+        "en": ""
+      }
     },
     {
       "text": "MAQUIS",
-      "url": ""
+      "url": "",
+      "description": {
+        "en": ""
+      }
     }
   ]
 }
