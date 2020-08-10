@@ -56,7 +56,7 @@
   max-width: 25px;
   margin: 0 auto;
 }
-.header .vzg-logo, .header .coli-conc-logo-small {
+.header .vzg-logo {
   float: left;
   padding: 10px 5px 10px 15px;
   height: 68px;
@@ -67,10 +67,11 @@
   margin-top: 12px;
 }
 .coli-conc-logo-small > img {
-  max-width: 150px;
-  width: 20%;
+  max-width: 130px;
+  width: 15%;
   min-width: 100px;
   margin-top: -5px;
+  margin-bottom: 10px;
 }
 
 /* menu */
