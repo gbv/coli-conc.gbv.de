@@ -68,8 +68,6 @@ cocodaInfoButton:
 
 {% section %}
 
-###### [{{ strings.sections.partners | localize }}]({{ "/partners/" | url }})
-
 {% include locale + "/partners.md" %}
 
 {% endsection %}

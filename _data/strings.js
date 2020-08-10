@@ -23,10 +23,6 @@ module.exports = {
         de: "Mapping-API",
       },
     },
-    partners: {
-      en: "Partners",
-      de: "Partner",
-    },
     publications: {
       en: "Publications",
       de: "Publikationen",
@@ -48,9 +44,9 @@ module.exports = {
     },
   },
   pages: {
-    "partner-projects": {
-      en: "Partner Projects",
-      de: "Partnerprojekte",
+    partners: {
+      en: "Projects & Partners",
+      de: "Projekte & Partner",
     },
   },
 }

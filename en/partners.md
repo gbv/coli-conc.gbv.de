@@ -1,8 +1,5 @@
 ---
 layout: layouts/page
-title:
-  en: Partners
-  de: Partner
 ---
 
 {% section %}
