@@ -1,6 +1,6 @@
 <!-- Using data from global `partners.json` file. -->
 
-{% flexbox "row", "flex-wrap: wrap;" %}
+{% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
 {% for partner in partners.institutions %}
 {% flex "1", "padding: 20px 30px;" %}
 {% set image1x = ("/images/partners/" + partner.image) | urla %}
