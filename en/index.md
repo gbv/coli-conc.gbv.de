@@ -51,16 +51,16 @@ cocodaInfoButton:
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
   {% flex %}
-  [{% image "/images/services-kos-registry5.svg", "width: 13vw; padding: 2vw; border: none;" %}<br>{{ strings.sections.services.kosRegistry | localize }}]({{ "/terminologies/" | url }})
+  [{% image "/images/services-kos-registry5.svg", "width: 13vw; padding: 2vw; border: none;", "KOS Registry" %}<br>{{ strings.sections.services.kosRegistry | localize }}]({{ "/terminologies/" | url }})
   {% endflex %}
   {% flex %}
-  [{% image "/images/services-concordance-registry.svg", "width: 13vw; padding: 1vw; border: none;" %}<br>{{ strings.sections.services.concordanceRegistry | localize }}]({{ "/concordances/" | url }})
+  [{% image "/images/services-concordance-registry.svg", "width: 13vw; padding: 1vw; border: none;", "Concordance Registry" %}<br>{{ strings.sections.services.concordanceRegistry | localize }}]({{ "/concordances/" | url }})
   {% endflex %}
   {% flex %}
-  [{% image "/images/services-api.svg", "width: 13vw; padding: 1vw; border: none;" %}<br>APIs]({{ "/services/#apis" | url }})
+  [{% image "/images/services-api.svg", "width: 13vw; padding: 1vw; border: none;", "APIs" %}<br>APIs]({{ "/services/#apis" | url }})
   {% endflex %}
   {% flex %}
-  [{% image "/images/ellipsis.svg", "width: 13vw; padding: 3vw; border: none;" %}<br>{{ { en: "... and more", de: "... und mehr" } | localize }}]({{ "/services/" | url }})
+  [{% image "/images/ellipsis.svg", "width: 13vw; padding: 3vw; border: none;", "more services" %}<br>{{ { en: "... and more", de: "... und mehr" } | localize }}]({{ "/services/" | url }})
   {% endflex %}
 {% endflexbox %}
 
