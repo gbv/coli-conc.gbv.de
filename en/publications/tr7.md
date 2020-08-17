@@ -4,7 +4,7 @@ permalink: /publications/tr7.html
 tags:
   - blog
 title: Open Source web applications for Knowledge Organization Systems
-excerpt: ....
+excerpt: Web applications to create, manage, and publish Knowledge Organization Systems
 series: coli-conc report
 number: 7
 author:
