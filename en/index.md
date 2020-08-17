@@ -4,8 +4,8 @@ title:
   en: Welcome to coli-conc
   de: Willkommen bei coli-conc
 subtitle:
-  en: Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems.<br>A service provided by Verbundzentrale des GBV (VZG).
-  de: Verwaltung und Bereitstellung von Konkordanzen zwischen bibliothekarischen Wissensorganisationsystemen.<br>Ein Service der Verbundzentrale des GBV (VZG).
+  en: <b>A service provided by Verbundzentrale des GBV (VZG).</b><br>Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems.
+  de: <b>Ein Service der Verbundzentrale des GBV (VZG).</b><br>Verwaltung und Bereitstellung von Konkordanzen zwischen bibliothekarischen Wissensorganisationsystemen.
 cocodaStartButton:
   en: Start
 cocodaInfoButton:
