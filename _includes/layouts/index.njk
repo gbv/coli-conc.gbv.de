@@ -5,7 +5,7 @@ css:
 ---
 
 <a href="{{ '/' | url }}" class="coli-conc-logo text-center">
-  <img src="{{ '/images/coli-conc.svg' | urla }}">
+  <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
 </a>
 
 {# We need a dummy element here so that the wave can be correctly positioned. #}
@@ -26,7 +26,8 @@ css:
         {{ ('/images/screenshot-index-'+width+'px.png') | urla }} {{ width }}w{% if not loop.last %},{% endif %}
         {%- endfor -%}
       "
-      sizes="(max-width: 800px) 50vw, 35vw">
+      sizes="(max-width: 800px) 50vw, 35vw"
+      alt="Cocoda Mapping Tool Screenshot">
     <div>
       <p>
         Cocoda Mapping Tool

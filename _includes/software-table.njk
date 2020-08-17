@@ -21,7 +21,7 @@
       <td class="medium-hide">
         {%- if item.travis -%}
         {%- set url = item.repository | replace("github.com", "travis-ci." + item.travis) -%}
-        <a href="{{ url }}"><img src="{{ url }}.svg"></a>
+        <a href="{{ url }}"><img alt="Travis badge" src="{{ url }}.svg"></a>
         {%- endif -%}
       </td>
       <td class="small-hide">{{ item.language }}</td>
@@ -55,4 +55,3 @@
     {% endfor %}
   <tbody>
 </table>
-
