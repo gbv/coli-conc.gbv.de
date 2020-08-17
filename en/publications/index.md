@@ -9,7 +9,7 @@ title: Publications
 {% flex %}
 - [Reviewed Articles](#reviewed-articles)
 - [Presentations and Workshops](#presentations-and-workshops)
-- [Reports and Posters](#reports-and-posters)
+- [Project Reports](#project-reports)
 - [Other Articles](#other-articles)
 {% endflex %}
 {% flex %}
@@ -147,7 +147,7 @@ a collection of knowledge organization systems encoded in JSKOS
 June 21st, 2019 at [ISKO-LC 2019 conference](https://isko-lc.org/) in Brüssel.
 <https://doi.org/10.5281/zenodo.3257136>
 
-- coli-conc : Mapping Knowledge Organisation Systems.
+-   coli-conc : Mapping Knowledge Organisation Systems.
 May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page=2019+meeting) in Stockholm.
 <http://edug.pansoft.de/tiki-download_file.php?fileId=194>
 -   Lessons learned while building the vocabulary mapping tool Cocoda.
@@ -218,29 +218,36 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     November 20ᵗʰ, 2013. ([PDF
     slides](https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2013/pdf/Balakrishnan_131120_RVK_WS_Konkordanz.pdf))
 
+## Posters
+
+-   Voß, Jakob: [Cocoda web application for mapping Wikidata and authority files](https://commons.wikimedia.org/wiki/File:Cocoda-poster-wikidatacon2019.pdf).
+    Presented at [WikidataCon 2019](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2019)
+-   Voß, Jakob; Agne, Jana Maria; Balakrishnan, U.; Akter, Morsheda:
+    Terminology Registries and Services. Presented at Research Data
+    Alliance Deutschland Treffen and SWIB 2016.
+    <https://doi.org/10.5281/zenodo.166717>
+
 {% endsection %}
 
 {% section %}
 
-###### Reports & Posters
+###### Project Reports
 
-## Project Reports
-
--   [coli-conc Technical Report 1: Cocoda primer](tr1.html). (April
+-   coli-conc Technical Report 1: [Cocoda primer](tr1.html). (April
     2015) <https://doi.org/10.5281/zenodo.16786>.
--   [coli-conc Technical Report 2: Open Source KOS software](tr2.html).
+-   coli-conc Technical Report 2: [Open Source KOS software](tr2.html).
     (March 2016) <https://doi.org/10.5281/zenodo.48227>.
--   [coli-conc Technical Report 3: A novel approach to terminology
+-   coli-conc Technical Report 3: [A novel approach to terminology
     mappings](tr3.html). (April 2016)
     <https://doi.org/10.5281/zenodo.48740>.
--   [coli-conc report 4: Anforderungen an Normdatendienste](tr4.html).
+-   coli-conc report 4: [Anforderungen an Normdatendienste](tr4.html).
     (April 2016) <https://doi.org/10.5281/zenodo.50180>.
 -   coli-conc report 5: European DDC Users Group (EDUG) Symposium &
     Business Meeting. (August 2016) [PDF](EDUG2016Bericht.pdf)
 -   coli-conc report 6: Ergebnisse der Online-Umfrage zur
     Sacherschließung und Konkordanzprojekten. (August 2016)
     [PDF](Umfrageergebnisse.pdf)
--   [coli-conc report 7: Open Source web applications for Knowledge
+-   coli-conc report 7: [Open Source web applications for Knowledge
     Organization Systems](tr7.html). (August 2016)
     <https://doi.org/10.5281/zenodo.61262>.
 -   coli-conc report 8: Zusammenfassung des Zwischenberichts. (Februar
@@ -254,15 +261,6 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     2018) <https://doi.org/10.5281/zenodo.1256498>
 -   coli-conc report 12: [Übersicht von GND-Konkordanzen](tr12.html)
     (November 2018) <https://doi.org/10.5281/zenodo.1689997>
-
-## Posters
-
--   Voß, Jakob: [Cocoda web application for mapping Wikidata and authority files](https://commons.wikimedia.org/wiki/File:Cocoda-poster-wikidatacon2019.pdf).
-    Presented at [WikidataCon 2019](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2019)
--   Voß, Jakob; Agne, Jana Maria; Balakrishnan, U.; Akter, Morsheda:
-    Terminology Registries and Services. Presented at Research Data
-    Alliance Deutschland Treffen and SWIB 2016.
-    <https://doi.org/10.5281/zenodo.166717>
 
 {% endsection %}
 
