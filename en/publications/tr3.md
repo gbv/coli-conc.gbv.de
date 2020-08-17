@@ -2,18 +2,20 @@
 layout: layouts/blog
 permalink: /publications/tr3.html
 tags:
- - blog
-series: coli-conc Technical Report
-number: 3
+  - blog
 title: A novel approach to terminology mappings
 excerpt: This report presents a new architecture for managing large numbers of concordances
-author:
-- name: Jakob Voß
-  email: jakob.voss@gbv.de
-  affiliation: Verbundzentrale des GBV (VZG)
 date: 2016-04-01
+series: coli-conc Technical Report
+number: 3
+author:
+  - name: Jakob Voß
+    email: jakob.voss@gbv.de
+    affiliation: Verbundzentrale des GBV (VZG)
 doi: 10.5281/zenodo.48740
 license: CC-BY-SA
+lang: en
+language: english
 ---
 
 # Introduction

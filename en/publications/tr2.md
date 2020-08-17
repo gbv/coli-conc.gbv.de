@@ -2,18 +2,20 @@
 layout: layouts/blog
 permalink: /publications/tr2.html
 tags:
- - blog
+  - blog
 title: Open Source KOS software
 excerpt: This report gives an overview about Open Source software for Knowledge Organization Systems (KOS)
 date: 2016-03-24
-author:
-- name: Jakob Voß
-  email: jakob.voss@gbv.de
-  affiliation: Verbundzentrale des GBV (VZG)
-doi: 10.5281/zenodo.48227
-license: CC-BY-SA
 series: coli-conc Technical Report
 number: 2
+author:
+  - name: Jakob Voß
+    email: jakob.voss@gbv.de
+    affiliation: Verbundzentrale des GBV (VZG)
+doi: 10.5281/zenodo.48227
+license: CC-BY-SA
+lang: en
+language: english
 ---
 
 This report gives an overview about Open Source software for Knowledge
