@@ -21,6 +21,8 @@ title: Publications
 
 ###### Screencasts
 
+Short videos introducing our [services]({{ "/services/" | url }}).
+
 - [Normdaten-Mapping mit Cocoda @vBIB20](https://doi.org/10.5446/36465) German (2020-05-27)
 -   [Wikidata-Mappings mit Cocoda 1.1.0](https://vimeo.com/357295989) German (2019-09-02)
 -   [Quick Demo of Cocoda 0.9.3](../img/cocoda-quick-screencast.mp4) (2019-06-25)
@@ -41,63 +43,9 @@ title: Publications
 
 ###### Software
 
-<table>
-  <thead>
-    <tr>
-      <th>name and description</th>
-      <th class="tiny-hide">type</th>
-      <th>status</th>
-      <th class="medium-hide"></th>
-      <th class="small-hide">language</th>
-      <th>release</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for item in software %}
-    <tr>
-      <td>
-        <a href="{{ item.repository }}" target="_blank">{{ item.name }}</a>
-        {{ item.description }}
-      </td>
-      <td class="tiny-hide">{{ item.type }}</td>
-      <td>{{ item.status }}</td>
-      <td class="medium-hide">
-        {%- if item.travis -%}
-        {%- set url = item.repository | replace("github.com", "travis-ci." + item.travis) -%}
-        <a href="{{ url }}"><img src="{{ url }}.svg"></a>
-        {%- endif -%}
-      </td>
-      <td class="small-hide">{{ item.language }}</td>
-      <td>
-        {%- if item.release -%}
-          {%- set shield = "" -%}
-          {%- set regExp = r/^https?:/ -%}
-          {%- if regExp.test(item.release) -%}
-            {%- set url = item.release -%}
-          {%- elif item.language == "PHP" -%}
-            {%- set url = "https://packagist.org/packages/" -%}
-            {%- set shield = "packagist" -%}
-          {%- elif item.language == "JavaScript" -%}
-            {%- set url = "https://www.npmjs.com/package/" -%}
-            {%- set shield = "npm" -%}
-          {%- elif item.language == "Python" -%}
-            {%- set url = "https://pypi.python.org/pypi/" -%}
-            {%- set shield = "pypi" -%}
-          {%- elif item.language == "Perl" -%}
-            {%- set url = "https://metacpan.org/release/" -%}
-            {%- set shield = "cpan" -%}
-          {%- endif -%}
-          {%- if shield -%}
-            [![](https://img.shields.io/{{ shield }}/v/{{ item.release }}.svg?style=flat)]({{ url + item.release }})
-          {%- else -%}
-            [link]({{ url }})
-          {%- endif -%}
-        {%- endif -%}
-      </td>
-    </tr>
-    {% endfor %}
-  <tbody>
-</table>
+All software developed in project coli-conc is made available as Open Source.
+
+{% include 'software-table.njk' %}
 
 {% endsection %}
 

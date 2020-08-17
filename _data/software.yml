@@ -80,6 +80,14 @@
     release: mc2skos
     description: command-line tool to convert MARC to SKOS
 -
+    name: coli-rich
+    type: application
+    language: JavaScript
+    status: demo
+    travis: org
+    repository: https://github.com/gbv/coli-rich
+    description: Enrichment of PICA catalog records with subject indexing data from concordances
+-
     name: jskos-php
     type: library
     status: production
