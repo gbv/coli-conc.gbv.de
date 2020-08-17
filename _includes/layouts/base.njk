@@ -80,8 +80,8 @@
         sizes="150px"
         alt="Verbundzentrale des GBV (VZG) Logo">
     </a>
-    <input type="checkbox" id="menu-button" />
-    <label class="menu-icon" for="menu-button"><span class="navicon"></span></label>
+    <input type="checkbox" id="menu-button" aria-hidden="true" />
+    <label class="menu-icon" for="menu-button" aria-hidden="true"><span class="navicon"></span></label>
     <ul class="menu">
       {% set newsLink = "/blog/" | url %}
       {% set servicesLink = "/services/" | url %}
