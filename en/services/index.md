@@ -9,13 +9,14 @@ subtitle:
 {% section %}
 
 ###### Applications
+
 - [Cocoda]({{ "/cocoda/" | url }})
 
-  Mapping Tool
+  The Mapping Tool is our main application
 
 - [coli-ana]({{ "/coli-ana/" | url }})
 
-  DDC Analysis
+  A tool for analysis of synthesized DDC numbers is being worked on.
 
 {% endsection %}
 
