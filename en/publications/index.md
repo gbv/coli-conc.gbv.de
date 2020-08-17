@@ -5,15 +5,20 @@ title: Publications
 
 {% section %}
 
+{% flexbox %}
+{% flex %}
+- [Reviewed Articles](#reviewed-articles)
+- [Presentations and Workshops](#presentations-and-workshops)
+- [Reports and Posters](#reports-and-posters)
+- [Other Articles](#other-articles)
+{% endflex %}
+{% flex %}
 - [Screencasts](#screencasts)
 - [Software](#software)
 - [Specifications](#specifications)
 - [Data](#data)
-- [Presentations and Workshops](#presentations-and-workshops)
-- [Reviewed Articles](#reviewed-articles)
-- [Posters](#posters)
-- [Reports](#reports)
-- [Other Articles](#other-articles)
+{% endflex %}
+{% endflexbox %}
 
 {% endsection %}
 
@@ -53,9 +58,11 @@ All software developed in project coli-conc is made available as Open Source.
 
 ###### Specifications
 
-- [JSKOS](https://gbv.github.io/jskos/)          JSON based data format for KOS
--  [ELMA](https://gbv.github.io/elma/)            Simple subset of JSKOS-API
--  [JSKOS-API](https://gbv.github.io/jskos-api)   API to access KOS data           *early notes*
+* The most important specification developed in this project is **[JSKOS data format](https://gbv.github.io/jskos/)** to encode KOS data based in JSON and JSON-LD.
+
+* The **[JSKOS-API](https://gbv.github.io/jskos-api)** to uniformly access KOS data has not been formally specified yet. See [jskos-server](https://github.com/gbv/jskos-server#api) as reference implementation.
+
+* [ELMA](https://gbv.github.io/elma/) is a small subset of JSKOS-API.
 
 {% endsection %}
 
@@ -82,6 +89,51 @@ See also [jskos-data](https://github.com/gbv/jskos-data) repository for
 a collection of knowledge organization systems encoded in JSKOS
 
 {% endsection %}
+
+{% section %}
+
+###### Reviewed Articles
+
+-   Balakrishnan, Uma; Voß, Jakob; Soergel, Dagobert: Towards integrated
+    systems for KOS management, mapping, and access. Coli-conc and its
+    collaborative computer-assisted KOS mapping tool Cocoda. In:
+    Ribeiro, Fernanda; Cerveira, Maria Elisa (eds.): Challenges and
+    Opportunities for Knowledge Organization in the Digital Age.
+    Proceedings of the Fifteenth International ISKO Conference 9-11 July
+    2018 Porto. pp. 693-701.
+    [https://doi.org/10.5771/9783956504211-693](https://doi.org/10.5771/9783956504211-693)
+-   Voß, Jakob; Bode, Laura; Hamasur, Diana; Isbanner, Laura; Jäger,
+    Jan; Kurtar, Ebru; Peters, Kim; Rufaioglu, Melis; Schneevogt,
+    Christian; Stelter, Romy; Wiegand, Jennifer; Wil, Ann Christin;
+    Yildirimer, Remziye: Erfassung von Wissensorganisationssystemen in
+    BARTOC - Ergebnis eines Projektseminars an der Hochschule Hannover
+    In: Informationspraxis Bd. 3, Nr. 2. (2017)
+    [https://doi.org/10.11588/ip.2017.2.40335](https://doi.org/10.11588/ip.2017.2.40335%20)
+-   Balakrishnan, Uma; Akter, Morsheda: Project Coli-conc: Mapping
+    Library Knowledge Organisation Systems. In: Proceedings of the 17th
+    European Networked Knowledge Organization Systems Workshop
+    co-located with the 21st International Conference on Theory and
+    Practice of Digital Libraries 2017 (TPDL 2017). P. 53-61
+    [PDF](http://ceur-ws.org/Vol-1937/paper5.pdf)
+-   Voß, Jakob; Ledl, Andreas and Balakrishnan, U.: Uniform description
+    and access to Knowledge Organization Systems with BARTOC and JSKOS.
+    In: Proceedings of TOTh conference 2016
+    <https://doi.org/10.5281/zenodo.438019>
+-   Voß, Jakob: Classification of Knowledge Organization Systems with
+    Wikidata. In: [Proceedings of the 15th European Networked Knowledge
+    Organization Systems Workshop
+    (NKOS 2016)](http://ceur-ws.org/Vol-1676/), p 15-22. CEUR Workshop
+    Proceedings, Volume 1676. <http://ceur-ws.org/Vol-1676/paper2.pdf>
+-   Ledl, Andreas and Voss, Jakob: Describing Knowledge Organization
+    Systems in BARTOC and JSKOS. In: Proceedings of International
+    Conference on Terminology and Knowledge Engineering (TKE 2016). p.
+    168-178. ISBN 978-87-999179-0-7 <http://hdl.handle.net/10760/29366>
+-   Balakrishnan, U.: DFG-Projekt: Coli-Conc. Das Mapping Tool
+    "Cocoda". In: O-Bib. Das Offene Bibliotheksjournal. Vol. 3, Nr. 1
+    (2016). <https://doi.org/10.5282/o-bib/2016H1S11-16>
+
+{% endsection %}
+
 
 {% section %}
 
@@ -170,64 +222,9 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% section %}
 
-###### Reviewed Articles
+###### Reports & Posters
 
--   Balakrishnan, Uma; Voß, Jakob; Soergel, Dagobert: Towards integrated
-    systems for KOS management, mapping, and access. Coli-conc and its
-    collaborative computer-assisted KOS mapping tool Cocoda. In:
-    Ribeiro, Fernanda; Cerveira, Maria Elisa (eds.): Challenges and
-    Opportunities for Knowledge Organization in the Digital Age.
-    Proceedings of the Fifteenth International ISKO Conference 9-11 July
-    2018 Porto. pp. 693-701.
-    [https://doi.org/10.5771/9783956504211-693](https://doi.org/10.5771/9783956504211-693)
--   Voß, Jakob; Bode, Laura; Hamasur, Diana; Isbanner, Laura; Jäger,
-    Jan; Kurtar, Ebru; Peters, Kim; Rufaioglu, Melis; Schneevogt,
-    Christian; Stelter, Romy; Wiegand, Jennifer; Wil, Ann Christin;
-    Yildirimer, Remziye: Erfassung von Wissensorganisationssystemen in
-    BARTOC - Ergebnis eines Projektseminars an der Hochschule Hannover
-    In: Informationspraxis Bd. 3, Nr. 2. (2017)
-    [https://doi.org/10.11588/ip.2017.2.40335](https://doi.org/10.11588/ip.2017.2.40335%20)
--   Balakrishnan, Uma; Akter, Morsheda: Project Coli-conc: Mapping
-    Library Knowledge Organisation Systems. In: Proceedings of the 17th
-    European Networked Knowledge Organization Systems Workshop
-    co-located with the 21st International Conference on Theory and
-    Practice of Digital Libraries 2017 (TPDL 2017). P. 53-61
-    [PDF](http://ceur-ws.org/Vol-1937/paper5.pdf)
--   Voß, Jakob; Ledl, Andreas and Balakrishnan, U.: Uniform description
-    and access to Knowledge Organization Systems with BARTOC and JSKOS.
-    In: Proceedings of TOTh conference 2016
-    <https://doi.org/10.5281/zenodo.438019>
--   Voß, Jakob: Classification of Knowledge Organization Systems with
-    Wikidata. In: [Proceedings of the 15th European Networked Knowledge
-    Organization Systems Workshop
-    (NKOS 2016)](http://ceur-ws.org/Vol-1676/), p 15-22. CEUR Workshop
-    Proceedings, Volume 1676. <http://ceur-ws.org/Vol-1676/paper2.pdf>
--   Ledl, Andreas and Voss, Jakob: Describing Knowledge Organization
-    Systems in BARTOC and JSKOS. In: Proceedings of International
-    Conference on Terminology and Knowledge Engineering (TKE 2016). p.
-    168-178. ISBN 978-87-999179-0-7 <http://hdl.handle.net/10760/29366>
--   Balakrishnan, U.: DFG-Projekt: Coli-Conc. Das Mapping Tool
-    "Cocoda". In: O-Bib. Das Offene Bibliotheksjournal. Vol. 3, Nr. 1
-    (2016). <https://doi.org/10.5282/o-bib/2016H1S11-16>
-
-{% endsection %}
-
-{% section %}
-
-###### Posters
-
--   Voß, Jakob: [Cocoda web application for mapping Wikidata and authority files](https://commons.wikimedia.org/wiki/File:Cocoda-poster-wikidatacon2019.pdf).
-    Presented at [WikidataCon 2019](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2019)
--   Voß, Jakob; Agne, Jana Maria; Balakrishnan, U.; Akter, Morsheda:
-    Terminology Registries and Services. Presented at Research Data
-    Alliance Deutschland Treffen and SWIB 2016.
-    <https://doi.org/10.5281/zenodo.166717>
-
-{% endsection %}
-
-{% section %}
-
-###### Reports
+## Project Reports
 
 -   [coli-conc Technical Report 1: Cocoda primer](tr1.html). (April
     2015) <https://doi.org/10.5281/zenodo.16786>.
@@ -258,11 +255,20 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 -   coli-conc report 12: [Übersicht von GND-Konkordanzen](tr12.html)
     (November 2018) <https://doi.org/10.5281/zenodo.1689997>
 
+## Posters
+
+-   Voß, Jakob: [Cocoda web application for mapping Wikidata and authority files](https://commons.wikimedia.org/wiki/File:Cocoda-poster-wikidatacon2019.pdf).
+    Presented at [WikidataCon 2019](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2019)
+-   Voß, Jakob; Agne, Jana Maria; Balakrishnan, U.; Akter, Morsheda:
+    Terminology Registries and Services. Presented at Research Data
+    Alliance Deutschland Treffen and SWIB 2016.
+    <https://doi.org/10.5281/zenodo.166717>
+
 {% endsection %}
 
 {% section %}
 
-###### Other Articles
+## Other Articles
 
 -   DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch,
     die Erstellung, und die Wartung von Konkordanzen zwischen
