@@ -122,7 +122,12 @@ module.exports = eleventyConfig => {
   })
 
   // Shortcode for images
-  eleventyConfig.addShortcode("image", (url, style, alt = "") => `<img class="image" src="${eleventyConfig.getFilter("urla")(url)}" style="${style}" alt="${alt}">`)
+  eleventyConfig.addShortcode("image", function(url, style, alt = "") {
+    if (!alt) {
+      console.warn(`Warning: Do not embed images without alt text (${this.page.inputPath} - ${url})!`)
+    }
+    return `<img class="image" src="${eleventyConfig.getFilter("urla")(url)}" style="${style}" alt="${alt}">`
+  })
 
   // Paired Shortcode for Markdown
   eleventyConfig.addPairedShortcode("markdown", content => markdownIt.render(content))
