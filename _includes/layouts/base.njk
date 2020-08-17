@@ -120,12 +120,12 @@
       <li class="{% if page.url == '/contact/' %}current{% endif %}"><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>
       <li class="menu-item-language">
         {% if locale == "de" %}
-        <a href="{{ page.url | urla }}">
+        <a href="{{ page.url | urla }}" title="Change language to English">
           <span class="font-weight-light">EN</span><br>DE
           <div class="line"></div>
         </a>
         {% else %}
-        <a href="{{ ('/de' + page.url) | url }}">
+        <a href="{{ ('/de' + page.url) | url }}" title="Wechsle Sprache zu Deutsch">
           EN<br><span class="font-weight-light">DE</span>
           <div class="line"></div>
         </a>
