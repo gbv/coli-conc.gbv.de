@@ -8,9 +8,9 @@ number: 3
 title: A novel approach to terminology mappings
 excerpt: This report presents a new architecture for managing large numbers of concordances
 author:
-    name: Jakob Voß
-    email: jakob.voss@gbv.de
-    affiliation: Verbundzentrale des GBV (VZG)
+- name: Jakob Voß
+  email: jakob.voss@gbv.de
+  affiliation: Verbundzentrale des GBV (VZG)
 date: 2016-04-01
 doi: 10.5281/zenodo.48740
 license: CC-BY-SA

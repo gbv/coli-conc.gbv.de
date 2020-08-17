@@ -10,19 +10,19 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 
 # {{ title | localize }}
 {{ subtitle | localize }}
+{% if series %}
+ [{{ series }} {{ number }}]({{"/publications/#reports" | url }})
+{% endif %}
 
 {{ page.date | date("YYYY-MM-DD") }}
 
-{% div "", "text-align: left;" %}
+{% if doi %}<https://doi.org/{{ doi }}>{% endif %}
+{% if license %}{{ license }}{% endif %}
 
 {% for author in author | default([]) %}
   {{ author.name }} {% if author.email %}<[{{ author.email }}](mailto:{{ author.email }})>{% endif %}
-  {% if author.affiliation %}<br>{{ author.affiliation }}{% endif %}
+  {% if author.affiliation %}({{ author.affiliation }}){% endif %}
 {% endfor %}
-{% if doi %}DOI: [{{ doi }}](https://doi.org/{{ doi }}){% endif %}
-{% if license %}<br>{{ license }}{% endif %}
-
-{% enddiv %}
 
 {% endsection %}
 

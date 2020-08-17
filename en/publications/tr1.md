@@ -6,13 +6,12 @@ tags:
 title: Cocoda primer
 excerpt: This report briefly summarizes prototype and architecture of a mapping tool that is being created as part of project coli-conc.
 date: 2015-04-13
-# following metadata copied from old TR, not fully processed yet!
 series: coli-conc Technical Report
 number: 1
 author:
-    name: Jakob Voß
-    email: jakob.voss@gbv.de
-    affiliation: Verbundzentrale des GBV (VZG)
+- name: Jakob Voß
+  email: jakob.voss@gbv.de
+  affiliation: Verbundzentrale des GBV (VZG)
 doi: 10.5281/zenodo.16786
 license: CC-BY-SA
 ---
