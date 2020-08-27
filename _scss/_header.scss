@@ -16,9 +16,6 @@
   list-style: none;
   overflow: hidden;
 }
-.header ul, .menu-icon {
-  margin-top: 10px;
-}
 .header li a {
   display: block;
   padding: 15px 20px;
@@ -58,20 +55,17 @@
 }
 .header .vzg-logo {
   float: left;
-  padding: 10px 5px 10px 15px;
-  height: 68px;
+  padding: 10px 5px 0px 15px;
+  height: 48px;
   text-decoration: none;
 }
 .vzg-logo > img {
   height: 28px;
-  margin-top: 12px;
 }
 .coli-conc-logo-small > img {
   max-width: 130px;
   width: 15%;
   min-width: 100px;
-  margin-top: -5px;
-  margin-bottom: 10px;
 }
 
 /* menu */
@@ -145,8 +139,8 @@
 }
 
 @media (min-width: responsive.$small) {
-  .header {
-    margin-bottom: 30px;
+  .header ul, .menu-icon {
+    margin-top: 10px;
   }
   .header ul {
     overflow: visible;
@@ -185,7 +179,7 @@
   .dropdown-menu > div > a {
     text-align: left;
   }
-  .coli-conc-logo-small > img {
-    margin-top: -20px;
+  .vzg-logo > img {
+    margin-top: 12px;
   }
 }

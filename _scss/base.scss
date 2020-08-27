@@ -34,23 +34,23 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   color: colors.$orange;
   font-size: fonts.$size-largestest;
-  margin: 20px 0 12px 0;
+  margin: 10px 0 12px 0;
 }
 h2 {
   font-size: fonts.$size-largest;
-  margin: 20px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 h3 {
   font-size: fonts.$size-larger;
-  margin: 20px 0 7px 0;
+  margin: 10px 0 7px 0;
 }
 h4 {
   font-size: fonts.$size-large;
-  margin: 20px 0 7px 0;
+  margin: 10px 0 7px 0;
 }
 h5 {
   font-size: fonts.$size-medium;
-  margin: 20px 0 7px 0;
+  margin: 10px 0 7px 0;
 }
 h6 {
   font-size: fonts.$size-larger;
@@ -68,8 +68,13 @@ h6, h6 > a {
 }
 
 // Lists in sections
+section ul {
+  list-style-type: square;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
 section li {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 section li > p {
   margin: 5px 0;
@@ -101,7 +106,7 @@ a.button:hover {
 
 section {
   position: relative;
-  padding: calc(10px + (100vw - 300px) / 20) calc((100vw - 250px) / 4.5);
+  padding: calc(0px + (100vw - 300px) / 50) calc((100vw - 250px) / 6);
   color: colors.$text-primary;
 }
 // section:after {
@@ -142,10 +147,6 @@ section tr:nth-child(even) {
 }
 table img {
   display: block;
-}
-
-ul {
-  list-style-type: square;
 }
 
 pre {

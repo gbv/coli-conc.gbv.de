@@ -4,19 +4,17 @@
 
 .coli-conc-logo {
   display: block;
-  margin-top: calc(0px + (20) * ((100vw - 300px) / (1600 - 300)));
+  margin-top: calc(0px + (10) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .coli-conc-logo > img {
-  max-width: 240px;
-  width: 24%;
+  max-width: 200px;
+  width: 20%;
   min-width: 100px;
 }
 
 .cocoda {
   display: flex;
-  padding: 0 calc((100vw - 250px) / 6);
-  padding-top: calc(30px + (75 - 40) * ((100vw - 300px) / (1600 - 300)));;
   text-align: left;
 }
 .cocoda > :first-child {
