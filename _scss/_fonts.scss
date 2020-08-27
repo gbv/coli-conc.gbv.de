@@ -2,19 +2,15 @@
 $main: Roboto;
 $fallback: Helvetica, sans-serif;
 
-$size-smallest: 12px;
-$size-smaller: 14px;
-$size-small: 16px;
-$size-normal: 18px;
+$size-smaller: 12px;
+$size-small: 14px;
+$size-normal: 16px;
 $size-medium: 20px;
 $size-large: 24px;
 $size-larger: 28px;
 $size-largest: 32px;
 $size-largestest: 40px;
 
-.font-size-smallest {
-  font-size: $size-smallest ;
-}
 .font-size-smaller {
   font-size: $size-smaller;
 }

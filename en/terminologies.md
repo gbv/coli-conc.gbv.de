@@ -60,5 +60,3 @@ This list contains a collection of knowledge organization systems relevant to pr
 </table>
 
 {% endsection %}
-
-{% section %}{% endsection %}
