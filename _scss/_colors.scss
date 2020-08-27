@@ -1,11 +1,14 @@
-$background-dark: #332B2B;
-$background-light: #F6F4F4;
-
 $orange: #C14517;
 $lightorange: #DB7A57;
 $black: #212121;
 $white: #F2F1EF;
 $blue: #5780C1; // potentially not needed
 
-$highlight-dark: $black;
-$highlight-light: #ebe0e0;
+$background-primary: #F6F4F4;
+$background-secondary: #332B2B;
+
+$text-primary: $black;
+$text-secondary: $white;
+
+$highlight-primary: #ebe0e0;
+$highlight-secondary: $black;

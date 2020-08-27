@@ -24,17 +24,17 @@
   padding: 15px 20px;
   text-decoration: none;
   text-align: center;
-  color: colors.$black;
+  color: colors.$text-primary;
 }
 .header li.current > a {
-  background-color: colors.$background-dark;
-  color: colors.$white;
+  background-color: colors.$background-secondary;
+  color: colors.$text-secondary;
 }
 .header li a:hover {
-  background-color: colors.$highlight-light;
+  background-color: colors.$highlight-primary;
 }
 .header li.current > a:hover {
-  background-color: colors.$highlight-dark;
+  background-color: colors.$highlight-secondary;
 }
 .header li.menu-item-reduced-padding a {
   padding: 15px 10px;
@@ -168,7 +168,7 @@
   }
   .dropdown:hover .dropdown-menu {
     display: block;
-    box-shadow: 0 5px 5px colors.$highlight-light;
+    box-shadow: 0 5px 5px colors.$highlight-primary;
   }
   .dropdown .dropdown-menu {
     position: absolute;
@@ -180,7 +180,7 @@
   .dropdown-menu > div {
     position: relative;
     z-index: 1000;
-    background-color: colors.$background-light;
+    background-color: colors.$background-primary;
   }
   .dropdown-menu > div > a {
     text-align: left;

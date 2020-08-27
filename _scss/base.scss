@@ -20,7 +20,7 @@ body {
   font-weight: weights.$regular;
   line-height: 1.5;
   font-size: fonts.$size-normal;
-  background-color: colors.$background-light;
+  background-color: colors.$background-primary;
 }
 
 * {
@@ -57,15 +57,10 @@ h6 {
   margin: 8px 0;
   padding: 12px 30px;
   display: inline-block;
-  background-color: colors.$background-dark;
-  color: colors.$lightorange;
+  background-color: colors.$background-secondary;
 }
-section:nth-child(2n+3) h6 {
-  background-color: colors.$background-light;
-  color: colors.$orange;
-}
-section:nth-child(2n+3) h1 {
-  color: colors.$lightorange;
+h6, h6 > a {
+  color: colors.$white;
 }
 
 .text-center {
@@ -86,22 +81,8 @@ a {
   text-decoration: none;
   font-weight: weights.$bold;
 }
-section:nth-child(2n+3) a {
-  color: colors.$lightorange;
-}
 a:hover {
   color: colors.$lightorange;
-}
-section:nth-child(2n+3) a:hover {
-  color: colors.$orange;
-}
-
-// Fix h6 links
-section h6 > a {
-  color: colors.$lightorange;
-}
-section:nth-child(2n+3) h6 > a {
-  color: colors.$orange;
 }
 
 // Button links
@@ -121,12 +102,17 @@ a.button:hover {
 section {
   position: relative;
   padding: calc(10px + (100vw - 300px) / 20) calc((100vw - 250px) / 4.5);
-  color: colors.$black;
+  color: colors.$text-primary;
 }
-section:nth-child(2n+3) {
-  background: colors.$background-dark;
-  color: colors.$white;
-}
+// section:after {
+//   content: "";
+//   background: black;
+//   position: absolute;
+//   bottom: 0;
+//   left: 15%;
+//   width: 70%;
+//   height: 2px;
+// }
 section.novpadding {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -152,10 +138,7 @@ th, td {
   padding: 5px 5px;
 }
 section tr:nth-child(even) {
-  background-color: colors.$highlight-light;
-}
-section:nth-child(2n+3) tr:nth-child(even) {
-  background-color: colors.$highlight-dark;
+  background-color: colors.$highlight-primary;
 }
 table img {
   display: block;
@@ -170,23 +153,17 @@ pre {
   border-radius: 5px;
   margin: 0;
   padding: 4px 8px;
-  background-color: colors.$background-light;
+  background-color: colors.$background-primary;
 }
 section pre {
-  background-color: colors.$highlight-light;
-}
-section:nth-child(2n+3) pre {
-  background-color: colors.$highlight-dark;
+  background-color: colors.$highlight-primary;
 }
 
 section img.image {
-  border: 5px solid colors.$background-light;
+  border: 5px solid colors.$background-primary;
 }
 section img.image {
-  border-color: colors.$highlight-light;
-}
-section:nth-child(2n+3) img.image {
-  border-color: colors.$highlight-dark;
+  border-color: colors.$highlight-primary;
 }
 
 .footer {
@@ -207,12 +184,12 @@ section:nth-child(2n+3) img.image {
   border-radius: .25rem;
 }
 .badge-default {
-  background-color: colors.$highlight-dark;
-  color: colors.$white;
+  background-color: colors.$highlight-secondary;
+  color: colors.$text-secondary;
 }
 .badge-alternative {
-  background-color: colors.$highlight-light;
-  color: colors.$black;
+  background-color: colors.$highlight-primary;
+  color: colors.$text-primary;
 }
 
 .collapsible, .collapsible ul {

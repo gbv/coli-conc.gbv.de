@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 {% set title = title | default(strings.pages[page.fileSlug]) | default(page.fileSlug) %}
 
-{% section "text-center novpadding" %}
+{% div "text-center" %}
 <a href="{{ '/' | url }}" class="coli-conc-logo-small" title="Go to start page">
   <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
 </a>
@@ -11,6 +11,6 @@ layout: layouts/base.njk
 # {{ title | localize }}
 {{ subtitle | localize }}
 
-{% endsection %}
+{% enddiv %}
 
 {{ content | safe }}
