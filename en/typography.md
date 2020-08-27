@@ -10,7 +10,7 @@ title: Typography
 
 ### Headings
 
-# H1 Heading {% badge "40px" %}
+# H1 Heading {% badge "36px" %}
 
 ## H2 Heading {% badge "32px" %}
 
@@ -24,7 +24,7 @@ title: Typography
 
 {% raw %}
 ```markdown
-# H1 Heading {% badge "40px" %}
+# H1 Heading {% badge "36px" %}
 ## H2 Heading {% badge "32px" %}
 ### H3 Heading {% badge "28px" %}
 #### H4 Heading {% badge "24px" %}
@@ -63,13 +63,13 @@ font-size-larger {% badge "28px" %} = h4
 font-size-largest {% badge "32px" %} = h3/h2
 {% enddiv %}
 {% div "font-size-largestest" %}
-font-size-largestest {% badge "40px" %} = h1
+font-size-largestest {% badge "36px" %} = h1
 {% enddiv %}
 
 {% raw %}
 ```markdown
 {% div "font-size-largestest" %}
-font-size-largestest {% badge "40px" %} = h1
+font-size-largestest {% badge "36px" %} = h1
 {% enddiv %}
 ```
 {% endraw %}

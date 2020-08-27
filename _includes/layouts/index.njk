@@ -13,7 +13,7 @@ css:
 <div style="position: relative;">
   {% section "text-center novpadding" %}
 
-  # {{ title | localize }}
+  # {{ title | localize | safe }}
   {{ subtitle | localize | safe }}
 
   <div class="cocoda">
