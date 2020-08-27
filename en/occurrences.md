@@ -14,5 +14,3 @@ API](//coli-conc.gbv.de/occurrences/api/) to query GBV databases for
 *more documentation will follow!*
 
 {% endsection %}
-
-{% section %}{% endsection %}

@@ -41,17 +41,14 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 
 ### Font Sizes
 
-{% div "font-size-smallest" %}
-font-size-smallest {% badge "12px" %}
-{% enddiv %}
 {% div "font-size-smaller" %}
-font-size-smaller {% badge "14px" %}
+font-size-smaller {% badge "12px" %}
 {% enddiv %}
 {% div "font-size-small" %}
-font-size-small {% badge "16px" %}
+font-size-small {% badge "14px" %}
 {% enddiv %}
 {% div "font-size-normal" %}
-font-size-normal {% badge "18px" %}
+font-size-normal {% badge "16px" %}
 {% enddiv %}
 {% div "font-size-medium" %}
 font-size-medium {% badge "20px" %} = h6

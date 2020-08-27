@@ -21,8 +21,6 @@ So far, we have collected ${concordanceCount} concordances with ${mappingsCount}
 
 {% endsection %}
 
-{% section %}{% endsection %}
-
 <script>
 const app = new Vue({
   delimiters: ["${", "}"],
