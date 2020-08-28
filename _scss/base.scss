@@ -54,8 +54,8 @@ h5 {
 }
 h6 {
   font-size: fonts.$size-larger;
-  margin: 8px 0;
-  padding: 12px 30px;
+  margin: 8px 0 20px 0;
+  padding: 10px 30px;
   display: inline-block;
   background-color: colors.$background-secondary;
 }
@@ -106,7 +106,7 @@ a.button:hover {
 
 section {
   position: relative;
-  padding: calc(0px + (50vw - 300px) / 50) calc((100vw - 250px) / 6);
+  padding: calc(0px + (100vw - 300px) / 50) calc((100vw - 250px) / 6);
   color: colors.$text-primary;
 }
 // section:after {
