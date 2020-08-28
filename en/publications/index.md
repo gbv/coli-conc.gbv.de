@@ -266,7 +266,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% section %}
 
-## Other Articles
+###### Other Articles
 
 -   DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch,
     die Erstellung, und die Wartung von Konkordanzen zwischen
