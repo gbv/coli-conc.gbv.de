@@ -109,6 +109,9 @@ section {
   padding: calc(0px + (100vw - 300px) / 50) calc((100vw - 250px) / 6);
   color: colors.$text-primary;
 }
+section:nth-child(2n+3) {
+  background-color: colors.$background-tertiary;
+}
 // section:after {
 //   content: "";
 //   background: black;
