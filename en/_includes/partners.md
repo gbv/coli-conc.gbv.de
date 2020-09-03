@@ -3,12 +3,17 @@
 ###### {{ { en: "Partners", de: "Partner" } | localize }}
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
-{% for partner in partners.institutions %}
-{% flex "1", "padding: 20px 30px;" %}
-{% set image1x = ("/images/partners/" + partner.image) | urla %}
-{% set image2x = ("/images/partners/" + partner.image2x | default(partner.image)) | urla %}
-{% set text = partner.text | localize %}
-[<img alt="{{ text }}" src="{{ image1x }}" srcset="{{ image1x }} 1x, {{ image2x }} 2x" sizes="300px" style="width: {{ partner.width | default('250px') }}">]({{ partner.url }})
-{% endflex %}
-{% endfor %}
+  {% for partner in partners.institutions %}
+    {% set image1x = ("/images/partners/" + partner.image) | urla %}
+    {% set image2x = ("/images/partners/" + partner.image2x | default(partner.image)) | urla %}
+    {% set text = partner.text | localize %}
+    {% set flexStyle = "padding: 15px 10px;" %}
+    {# Empty text = divider #}
+    {% if text == "" %}
+      {% set flexStyle = "max-height: 1px;" %}
+    {% endif %}
+    {% flex "1 0 " + partner.flexBase, flexStyle %}
+      [<img alt="{{ text }}" src="{{ image1x }}" srcset="{{ image1x }} 1x, {{ image2x }} 2x" sizes="300px" style="min-width: {{ partner.maxWidth | default('100px') }}; max-width: {{ partner.maxWidth | default('100%') }};">]({{ partner.url }})
+    {% endflex %}
+  {% endfor %}
 {% endflexbox %}
