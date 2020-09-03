@@ -19,7 +19,7 @@ Weitere Informationen und technische Details befinden sich im [coli-rich git Rep
 
 {% section %}
 
-## Benutzerinterface
+###### Benutzerinterface
 
 Mit dem coli-rich Benutzerinterface lässt sich eine Konfiguration erstellen die bestimmt, welche Art von Anreicherung auf Grundlage welcher Mappings erstellt werden sollen. Auch lässt sich das Ergebnis der konfigurierten Anreicherung an beliebigen Datensätzen direkt ausprobieren.
 
@@ -33,7 +33,7 @@ Der aktuelle Prototyp der coli-rich Webanwendung steht unter <https://gbv.github
 
 {% section %}
 
-### Webservice
+###### Webservice
 
 Der Webservice ist für automatische Massenabfragen gedacht. Er steht noch nicht zur Verfügung.
 
@@ -41,7 +41,7 @@ Der Webservice ist für automatische Massenabfragen gedacht. Er steht noch nicht
 
 {% section %}
 
-## Weitere Komponenten
+###### Weitere Komponenten
 
 Die Auswahl welche Datensätze angereichert werden sollen und die Eintragung der Änderung im PICA-Katalog und ist *nicht* Bestandteil von coli-rich. Dies hat den Vorteil dass Anreicherung gezielt vorgenommen werden kann und die Datenbank nicht mit Massen von Änderungen überlastet wird. Stattdessen können gezielt Datensätze angereichert werden, die beispielsweise
 
@@ -52,5 +52,3 @@ Die Auswahl welche Datensätze angereichert werden sollen und die Eintragung der
 Bei Bedarf können im Rahmen von coli-rich allerdings Abfragen bereitgestellt werden die Datensätze ermitteln bei denen eine Anreicherung aussichtsreich ist. Im Handbuch *Einführung in die Verarbeitung von PICA-Daten* ist hierfür [ein Beispiel enthalten](https://pro4bib.github.io/pica/#/verarbeitung?id=schnittstellen).
 
 {% endsection %}
-
-{% section %}{% endsection %}
