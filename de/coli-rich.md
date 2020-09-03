@@ -25,7 +25,7 @@ Mit dem coli-rich Benutzerinterface lässt sich eine Konfiguration erstellen die
 
 Die vorgeschlagene Anreicherung kann beispielsweise mit der Software WinIBW in den betreffenden Datensatz eingetragen werden.
 
-[![Screenshot coli-rich]({{"/images/screenshot-coli-rich-2020-08-24.png" | urla }})](https://gbv.github.io/coli-rich/)
+[{% image "/images/screenshot-coli-rich-2020-08-24.png", "", "Screenshot coli-rich" %}](https://gbv.github.io/coli-rich/)
 
 Der aktuelle Prototyp der coli-rich Webanwendung steht unter <https://gbv.github.io/coli-rich/> zur Verfügung.
 
