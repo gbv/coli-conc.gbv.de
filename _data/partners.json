@@ -4,59 +4,69 @@
       "image": "fub-300px.png",
       "image2x": "fub-600px.png",
       "url": "https://www.fu-berlin.de/",
-      "text": "Freie Universität Berlin"
+      "text": "Freie Universität Berlin",
+      "width": "280px"
     },
     {
       "image": "ur-300px.png",
       "image2x": "ur-600px.png",
       "url": "http://www.uni-regensburg.de/",
-      "text": "Universität Regensburg"
+      "text": "Universität Regensburg",
+      "width": "260px"
     },
     {
       "image": "zbw-300px.png",
       "image2x": "zbw-600px.png",
       "url": "http://www.leibniz-transfer.de/einrichtungen/wirtschafts-und-sozialwissenschaften-raumwissenschaften/deutsche-zentralbibliothek-fuer-wirtschaftswissenschaften-ao-leibniz-informationszentrum-wirtschaft/",
-      "text": "Leibniz-Informationszentrum Wirtschaft"
+      "text": "Leibniz-Informationszentrum Wirtschaft",
+      "width": "280px"
     },
     {
       "image": "usg-300px.png",
       "image2x": "usg-600px.png",
       "url": "https://www.unisg.ch/",
-      "text": "Universität St.Gallen"
+      "text": "Universität St.Gallen",
+      "width": "280px"
     },
     {
       "image": "stabi-300px.png",
       "image2x": "stabi-600px.png",
       "url": "http://staatsbibliothek-berlin.de/",
-      "text": "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz"
+      "text": "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
+      "width": "280px"
     },
     {
       "image": "ulb-300px.png",
       "image2x": "ulb-600px.png",
       "url": "https://www.uibk.ac.at/ulb/index.html.de",
-      "text": "Universitäts- und Landesbibliothek Tirol"
+      "text": "Universitäts- und Landesbibliothek Tirol",
+      "width": "260px"
     },
     {
       "image": "gesis-300px.png",
       "image2x": "gesis-600px.png",
       "url": "https://www.gesis.org/home/",
-      "text": "gesis - Leipniz-Institut für Sozialwissenschaften"
+      "text": "gesis - Leipniz-Institut für Sozialwissenschaften",
+      "width": "200px"
     },
     {
       "image": "dnb.svg",
       "url": "https://www.dnb.de",
-      "text": "Deutsche Nationalbibliothek"
+      "text": "Deutsche Nationalbibliothek",
+      "width": "200px"
     },
     {
       "image": "subhh.svg",
       "url": "https://www.sub.uni-hamburg.de",
-      "text": "Staats- und Universitätsbibliothek Hamburg"
+      "text": "Staats- und Universitätsbibliothek Hamburg",
+      "width": "200px"
     },
     {
       "image": "wikimedia2-300px.png",
       "image2x": "wikimedia2-600px.png",
       "url": "https://wikimedia.de/",
-      "text": "Wikimedia Deutschland"
+      "text": "Wikimedia Deutschland",
+      "width": "220px"
     }
   ],
   "projects": [
