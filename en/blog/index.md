@@ -11,19 +11,17 @@ pagination:
 permalink: "/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 
-{% section "text-center" %}
+{% section %}
 
-{% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
+{% div "news" %}
 {%- for post in pagination.items -%}
-  {% flex "1", "flex-basis: 300px;" %}
-  <span class="font-weight-bold">{{ post.date | date("YYYY-MM-DD") }}</span>
-
-  [{{ post.data.title }}]({{ post.url | url }})
-
-  {{ post.data.excerpt }}
-  {% endflex %}
+  {% div "entry" %}
+    {% div "date" %}{{ post.date | date("YYYY-MM-DD") }}{% enddiv %}
+    {% div "title" %}[{{ post.data.title }}]({{ post.url | url }}){% enddiv %}
+    {% div "excerpt" %}{{ post.data.excerpt }}{% enddiv %}
+  {% enddiv %}
 {%- endfor -%}
-{% endflexbox %}
+{% enddiv %}
 
 {% if pagination.href.previous or pagination.href.next %}
 <br>

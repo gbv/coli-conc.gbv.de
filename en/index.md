@@ -21,27 +21,21 @@ cocodaInfoButton:
 {% section %}
 
 ###### [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
-{% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
+{% div "news" %}
 {%- for post in collections.blog | reverse -%}
   <!-- Show 6 latest news. -->
   {% if loop.index0 < 6 %}
-  {% flex "1", "flex-basis: 300px;" %}
-  <span class="font-weight-bold">{{ post.date | date("YYYY-MM-DD") }}</span>
-
-  [{{ post.data.title }}]({{ post.url | url }})
-
-  {{ post.data.excerpt }}
-  {% endflex %}
-  {% endif %}
-  {% if loop.index0 == 6 %}
-  {% flex "1", "flex-basis: 300px;" %}
-  <p>&#8203;</p>
-
-  [All Posts]({{ "/blog/" | url }})
-  {% endflex %}
+    {% div "entry" %}
+      {% div "date" %}{{ post.date | date("YYYY-MM-DD") }}{% enddiv %}
+      {% div "title" %}[{{ post.data.title }}]({{ post.url | url }}){% enddiv %}
+      {% div "excerpt" %}{{ post.data.excerpt }}{% enddiv %}
+    {% enddiv %}
   {% endif %}
 {%- endfor -%}
-{% endflexbox %}
+{% enddiv %}
+{% if collections.blog.length > 6 %}
+  {% div "news-more" %}[{{ { en: "All Posts", de: "Alle Beiträge" } | localize }}]({{ "/blog/" | url }}){% enddiv %}
+{% endif %}
 
 {% endsection %}
 

@@ -32,26 +32,24 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 
 {% section %}
 ###### {{ { en: "More Posts", de: "Mehr Beiträge" } | localize }}
-{% flexbox "row", "flex-wrap: wrap; text-align: center;  align-items: flex-start;" %}
+{% div "news" %}
+{% set postLimit = 6 %}
 {%- for post in collections.blog | reverse -%}
-  <!-- Show 6 latest news. -->
-  {% if loop.index0 < 6 and page.url != post.url %}
-  {% flex "1", "flex-basis: 300px;" %}
-  <span class="font-weight-bold">{{ post.date | date("YYYY-MM-DD") }}</span>
-
-  [{{ post.data.title }}]({{ post.url | url }})
-
-  {{ post.data.excerpt }}
-  {% endflex %}
-  {% endif %}
-  {% if loop.index0 == 6 %}
-  {% flex "1", "flex-basis: 300px;" %}
-  <p>&#8203;</p>
-
-  [{{ { en: "All Posts", de: "Alle Beiträge" } | localize }}]({{ "/blog/" | url }})
-  {% endflex %}
+  {# Show 6 latest news. #}
+  {% if page.url == post.url %}
+    {# If list includes current post, up the limit to 7 posts. #}
+    {% set postLimit = 7 %}
+  {% elif loop.index0 < postLimit %}
+    {% div "entry" %}
+      {% div "date" %}{{ post.date | date("YYYY-MM-DD") }}{% enddiv %}
+      {% div "title" %}[{{ post.data.title }}]({{ post.url | url }}){% enddiv %}
+      {% div "excerpt" %}{{ post.data.excerpt }}{% enddiv %}
+    {% enddiv %}
   {% endif %}
 {%- endfor -%}
-{% endflexbox %}
+{% enddiv %}
+{% if collections.blog.length > postLimit %}
+  {% div "news-more" %}[{{ { en: "All Posts", de: "Alle Beiträge" } | localize }}]({{ "/blog/" | url }}){% enddiv %}
+{% endif %}
 
 {% endsection %}

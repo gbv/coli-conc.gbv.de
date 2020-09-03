@@ -231,3 +231,33 @@ section img.image {
 .collapsible input[type="checkbox"]:checked ~ ul{
   display: block;
 }
+
+// News entries
+.news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.news p {
+  margin: 0;
+}
+.news > .entry {
+  flex: 1 0 255px;
+  max-width: 450px;
+  margin: 10px 10px;
+}
+.news > .entry > .date {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+.news > .entry > .title {
+  margin-bottom: 5px;
+}
+// .news > .entry > .excerpt {}
+.news-more {
+  text-align: center;
+}
