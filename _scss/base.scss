@@ -57,9 +57,9 @@ h6 {
   margin: 8px 0 20px 0;
   padding: 10px 30px;
   display: inline-block;
-  background-color: colors.$background-secondary;
+  background-color: colors.$orange;
 }
-h6, h6 > a {
+h6, h6 > a, h6 > a:hover {
   color: colors.$white;
 }
 
