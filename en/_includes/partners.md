@@ -13,7 +13,7 @@
       {% set flexStyle = "max-height: 1px;" %}
     {% endif %}
     {% flex "1 0 " + partner.flexBase, flexStyle %}
-      [<img alt="{{ text }}" src="{{ image1x }}" srcset="{{ image1x }} 1x, {{ image2x }} 2x" sizes="300px" style="min-width: {{ partner.maxWidth | default('100px') }}; max-width: {{ partner.maxWidth | default('100%') }};">]({{ partner.url }})
+      [<img alt="{{ text }}" src="{{ image1x }}" srcset="{{ image1x }} 1x, {{ image2x }} 2x" sizes="300px" style="min-width: {{ partner.imageWidth | default('100px') }}; max-width: {{ partner.imageWidth | default('100%') }};">]({{ partner.url }})
     {% endflex %}
   {% endfor %}
 {% endflexbox %}

@@ -6,7 +6,7 @@
       "url": "https://www.fu-berlin.de/",
       "text": "Freie Universität Berlin",
       "flexBase": "33%",
-      "maxWidth": "280px"
+      "imageWidth": "280px"
     },
     {
       "image": "ur-300px.png",
@@ -14,7 +14,7 @@
       "url": "http://www.uni-regensburg.de/",
       "text": "Universität Regensburg",
       "flexBase": "33%",
-      "maxWidth": "260px"
+      "imageWidth": "260px"
     },
     {
       "image": "zbw-300px.png",
@@ -22,7 +22,7 @@
       "url": "http://www.leibniz-transfer.de/einrichtungen/wirtschafts-und-sozialwissenschaften-raumwissenschaften/deutsche-zentralbibliothek-fuer-wirtschaftswissenschaften-ao-leibniz-informationszentrum-wirtschaft/",
       "text": "Leibniz-Informationszentrum Wirtschaft",
       "flexBase": "33%",
-      "maxWidth": "280px"
+      "imageWidth": "280px"
     },
     {
       "image": "usg-300px.png",
@@ -30,7 +30,7 @@
       "url": "https://www.unisg.ch/",
       "text": "Universität St.Gallen",
       "flexBase": "33%",
-      "maxWidth": "280px"
+      "imageWidth": "280px"
     },
     {
       "image": "stabi-300px.png",
@@ -38,7 +38,7 @@
       "url": "http://staatsbibliothek-berlin.de/",
       "text": "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
       "flexBase": "33%",
-      "maxWidth": "280px"
+      "imageWidth": "280px"
     },
     {
       "image": "ulb-300px.png",
@@ -46,7 +46,7 @@
       "url": "https://www.uibk.ac.at/ulb/index.html.de",
       "text": "Universitäts- und Landesbibliothek Tirol",
       "flexBase": "33%",
-      "maxWidth": "260px"
+      "imageWidth": "260px"
     },
     {
       "flexBase": "100%"
@@ -57,21 +57,21 @@
       "url": "https://www.gesis.org/home/",
       "text": "gesis - Leipniz-Institut für Sozialwissenschaften",
       "flexBase": "25%",
-      "maxWidth": "200px"
+      "imageWidth": "200px"
     },
     {
       "image": "dnb.svg",
       "url": "https://www.dnb.de",
       "text": "Deutsche Nationalbibliothek",
       "flexBase": "25%",
-      "maxWidth": "200px"
+      "imageWidth": "200px"
     },
     {
       "image": "subhh.svg",
       "url": "https://www.sub.uni-hamburg.de",
       "text": "Staats- und Universitätsbibliothek Hamburg",
       "flexBase": "25%",
-      "maxWidth": "200px"
+      "imageWidth": "200px"
     },
     {
       "image": "wikimedia2-300px.png",
@@ -79,7 +79,7 @@
       "url": "https://wikimedia.de/",
       "text": "Wikimedia Deutschland",
       "flexBase": "25%",
-      "maxWidth": "220px"
+      "imageWidth": "220px"
     }
   ],
   "projects": [
