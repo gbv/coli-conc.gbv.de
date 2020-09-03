@@ -8,3 +8,5 @@ title:
 {% section %}
 {% include locale + "/contact.md" %}
 {% endsection %}
+
+{% section %}{% endsection %}

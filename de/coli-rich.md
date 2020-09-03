@@ -21,7 +21,7 @@ Weitere Informationen und technische Details befinden sich im [coli-rich git Rep
 
 ## Benutzerinterface
 
-Mit dem coli-rich Benutzerinterface lässt sich eine Konfiguration erstellen die bestimmt, welche Art von Anreicherung auf Grundlage welcher Mappings erstellt werden sollen. Auch lässt sich das Ergebnis der konfigurierten Anreicherung an beliebigen Datensätzen direkt ausprobieren. 
+Mit dem coli-rich Benutzerinterface lässt sich eine Konfiguration erstellen die bestimmt, welche Art von Anreicherung auf Grundlage welcher Mappings erstellt werden sollen. Auch lässt sich das Ergebnis der konfigurierten Anreicherung an beliebigen Datensätzen direkt ausprobieren.
 
 Die vorgeschlagene Anreicherung kann beispielsweise mit der Software WinIBW in den betreffenden Datensatz eingetragen werden.
 
@@ -52,3 +52,5 @@ Die Auswahl welche Datensätze angereichert werden sollen und die Eintragung der
 Bei Bedarf können im Rahmen von coli-rich allerdings Abfragen bereitgestellt werden die Datensätze ermitteln bei denen eine Anreicherung aussichtsreich ist. Im Handbuch *Einführung in die Verarbeitung von PICA-Daten* ist hierfür [ein Beispiel enthalten](https://pro4bib.github.io/pica/#/verarbeitung?id=schnittstellen).
 
 {% endsection %}
+
+{% section %}{% endsection %}

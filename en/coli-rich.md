@@ -1,7 +1,7 @@
 ---
 layout: layouts/page
 title: coli-rich
-subtitle: catalog enrichment via concordances 
+subtitle: catalog enrichment via concordances
 ---
 
 {% section %}
@@ -14,3 +14,5 @@ subtitle: catalog enrichment via concordances
 Targeted at PICA-based library databases, the application is mainly documented in German. More information can be found [at the German version of this page]({{ "/de/coli-rich/" | url }}) and in the [coli-rich git repository](https://github.com/gbv/coli-rich#readme).
 
 {% endsection %}
+
+{% section %}{% endsection %}
