@@ -245,7 +245,8 @@ section img.image {
   margin: 0;
 }
 .news > .entry {
-  flex: 1 0 255px;
+  flex: 1 0 calc(33% - 20px);
+  min-width: 255px;
   max-width: 450px;
   margin: 10px 10px;
 }

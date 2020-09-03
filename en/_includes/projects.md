@@ -8,7 +8,7 @@
 
 {% div "", "display: flex; flex-direction: row; flex-wrap: wrap; align-items: flex-start; justify-content: space-evenly; margin-bottom: 10px;" %}
   {% for partner in partners.projects %}
-    {% div "", "flex: 1 0 255px; max-width: 450px; margin: 12px 10px; padding-left: 20px; border-left: 1px solid black;" %}
+    {% div "", "flex: 1 0 calc(33% - 20px); min-width: 255px; max-width: 450px; margin: 12px 10px; padding-left: 20px; border-left: 1px solid black;" %}
       {% set text = partner.text | localize %}
       {% set description = partner.description | localize %}
       {% div "font-size-large", "margin: -25px 0 -15px 0;" %}
