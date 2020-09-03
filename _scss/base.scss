@@ -261,3 +261,11 @@ section img.image {
 .news-more {
   text-align: center;
 }
+
+// User icon for index and contact
+.user-icon > g {
+  stroke: colors.$background-secondary;
+}
+.user-icon > path {
+  fill: colors.$background-secondary;
+}
