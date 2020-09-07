@@ -11,7 +11,7 @@
       window.location.href = "{{ redirect }}"
   </script>
   {% endif %}
-  <title>coli-conc - {{ title | localize }}</title>
+  <title>coli-conc - {{ title | localize | striptags }}</title>
   <style>
     {% set totalcss %}
     /* roboto-300 - latin */
