@@ -62,10 +62,14 @@
 .vzg-logo > img {
   height: 28px;
 }
-.coli-conc-logo-small > img {
-  max-width: 130px;
-  width: 15%;
-  min-width: 100px;
+.header .coli-conc-logo-small {
+  float: left;
+  text-decoration: none;
+  padding: 5px 0 0 10px;
+  height: 55px;
+}
+.header .coli-conc-logo-small > img {
+  height: 100%;
 }
 
 /* menu */
@@ -155,6 +159,10 @@
   }
   .header .menu-icon {
     display: none;
+  }
+  .header .coli-conc-logo-small {
+    padding: 10px 0 0 0;
+    height: 70px;
   }
   // Dropdown menu
   .dropdown {

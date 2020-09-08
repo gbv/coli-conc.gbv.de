@@ -2,6 +2,19 @@
 
 ###### {{ { en: "Partners", de: "Partner" } | localize }}
 
+<p class="text-center">
+  <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" target="_blank">
+    <img
+      src="{{ '/images/vzg-600px.png' | urla }}"
+      srcset="{{ '/images/vzg-300px.png' | urla }} 300w, {{ '/images/vzg-600px.png' | urla }} 600w"
+      sizes="300px"
+      alt="Verbundzentrale des GBV (VZG) Logo">
+  </a>
+  {% div "text-center" %}
+    **coli-conc** is a project of [Verbundzentrale des GBV (VZG)](https://www.gbv.de/).
+  {% enddiv %}
+</p>
+
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
   {% for partner in partners.institutions %}
     {% set image1x = ("/images/partners/" + partner.image) | urla %}

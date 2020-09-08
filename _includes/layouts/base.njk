@@ -73,12 +73,8 @@
   {% endif %}
   <a name="top"></a>
   <header class="header">
-    <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" class="vzg-logo">
-      <img
-        src="{{ '/images/vzg-300px.png' | urla }}"
-        srcset="{{ '/images/vzg-150px.png' | urla }} 150w, {{ '/images/vzg-300px.png' | urla }} 300w"
-        sizes="150px"
-        alt="Verbundzentrale des GBV (VZG) Logo">
+    <a href="{{ '/' | url }}" class="coli-conc-logo-small" title="Go to start page">
+      <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
     </a>
     <input type="checkbox" id="menu-button" aria-hidden="true" />
     <label class="menu-icon" for="menu-button" aria-hidden="true"><span class="navicon"></span></label>

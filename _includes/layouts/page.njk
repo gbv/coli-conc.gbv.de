@@ -4,9 +4,6 @@ layout: layouts/base.njk
 {% set title = title | default(strings.pages[page.fileSlug]) | default(page.fileSlug) %}
 
 {% div "text-center" %}
-<a href="{{ '/' | url }}" class="coli-conc-logo-small" title="Go to start page">
-  <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
-</a>
 
 # {{ title | localize }}
 {{ subtitle | localize }}
