@@ -164,7 +164,10 @@ section pre {
 }
 
 section img.image {
-  border: 3px solid colors.$background-secondary;
+  border: 3px solid colors.$background-tertiary;
+}
+section:nth-child(2n+3) img.image {
+  border: 3px solid colors.$background-primary;
 }
 
 .footer {
