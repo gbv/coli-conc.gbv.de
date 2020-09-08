@@ -9,33 +9,27 @@ css:
 
 {# We need a dummy element here so that the wave can be correctly positioned. #}
 {# Also, we're including the section here because the content below needs to start off as an odd element #}
-<div style="position: relative;">
+<div class="cocoda-wrapper" style="position: relative;">
   {% section "text-center novpadding" %}
 
   # {{ title | localize | safe }}
   {{ subtitle | localize | safe }}
 
+  ### Cocoda Mapping Tool
+
+  {% button "/cocoda/", cocodaInfoButton | localize %}
+  {% button "https://coli-conc.gbv.de/cocoda/app/", cocodaStartButton | localize, "", "margin: 2px;" %}
+
   <div class="cocoda">
-    <div>
-      <img
-        src="{{ '/images/screenshot-index-1600px.png' | urla }}"
-        srcset="
-          {%- for width in [200,300,400,600,800,1000,1200,1400,1600] -%}
-          {{ ('/images/screenshot-index-'+width+'px.png') | urla }} {{ width }}w{% if not loop.last %},{% endif %}
-          {%- endfor -%}
-        "
-        sizes="(max-width: 800px) 50vw, 35vw"
-        alt="Cocoda Mapping Tool Screenshot">
-      </div>
-    <div>
-      <p>
-        Cocoda Mapping Tool
-      </p>
-      {% button "/cocoda/", cocodaInfoButton | localize %}
-      <span class="small-hide">
-        {% button "https://coli-conc.gbv.de/cocoda/app/", cocodaStartButton | localize, "", "margin: 2px;" %}
-      </span>
-    </div>
+    <img
+      src="{{ '/images/screenshot-index-1600px.png' | urla }}"
+      srcset="
+        {%- for width in [200,300,400,600,800,1000,1200,1400,1600] -%}
+        {{ ('/images/screenshot-index-'+width+'px.png') | urla }} {{ width }}w{% if not loop.last %},{% endif %}
+        {%- endfor -%}
+      "
+      sizes="(max-width: 800px) 50vw, 45vw"
+      alt="Cocoda Mapping Tool Screenshot">
   </div>
 
   {% endsection %}

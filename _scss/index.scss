@@ -13,36 +13,26 @@
   min-width: 100px;
 }
 
-.cocoda {
-  display: flex;
-  text-align: left;
+.cocoda-wrapper p {
+  margin: 5px 0 10px 0;
 }
-.cocoda > :first-child {
-  flex: 1.5;
+.cocoda-wrapper h3 {
+  margin-bottom: 0px;
+  color: colors.$orange;
+}
+
+.cocoda {
   display: block;
-  width: calc(35vw + (50 - 35) * ((100vw - 300px) / (1600 - 300)));;
-  align-self: flex-end;
-  margin-top: calc(0px + (20) * ((100vw - 300px) / (1600 - 300)));;
+  width: 100%;
   display:flex;justify-content:center;align-items:flex-end;
 }
-.cocoda > :first-child > img {
-  width: 100%;
+.cocoda > img {
+  width: calc(45vw + (50 - 45) * ((100vw - 300px) / (1600 - 300)));;
+  min-width: 300px;
   max-width: 600px;
   box-shadow: -4px 8px 99px #26262633;
   border: 3px solid colors.$background-tertiary;
   border-bottom-style: none;
-}
-.cocoda > :last-child {
-  flex: 1;
-  padding-left: 20px;
-}
-.cocoda > :last-child > p {
-  margin: 0;
-  margin-top: calc(0px + (30) * ((100vw - 300px) / (1600 - 300)));;
-  margin-bottom: calc(5px + (10) * ((100vw - 300px) / (1600 - 300)));;
-  font-size: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300)));
-  color: colors.$orange;
-  font-weight: weights.$bold;
 }
 
 .wave {
