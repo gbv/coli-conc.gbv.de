@@ -6,8 +6,7 @@ title:
 
 {% section %}
 
-<!-- TODO: Link kos file and Cocoda properly -->
-This list contains a collection of knowledge organization systems relevant to project coli-conc. It is a subset of all systems known to coli-conc. The list is also available [for download](kos.ndjson) (JSKOS Concept Schemes). It is a subset of [kos-registry](https://github.com/gbv/kos-registry), the set of all systems known to the project. Please use [Cocoda](../cocoda/) to select and browse within the systems!
+This list contains a collection of knowledge organization systems relevant to project coli-conc. It is a subset of all systems known to coli-conc. It is a subset of the full [KOS Registry](https://github.com/gbv/kos-registry), the set of all systems known to the project (you can find the download to the latest release [here](https://github.com/gbv/kos-registry/releases/latest)). Please use [Cocoda]({{ "/cocoda/" | url }}) to select and browse within the systems!
 
 <table>
   <thead>
