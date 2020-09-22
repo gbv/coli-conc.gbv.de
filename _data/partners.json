@@ -127,6 +127,13 @@
       "description": {
         "en": "MAQUIS is a tool for measurement of quality and analysis of subject indexing."
       }
+    },
+    {
+      "text": "CCMapper",
+      "url": "/ccmapper/",
+      "description": {
+        "en": "CCMapper is a mapping application specialized on mapping vocabularies against the Dewey Decimal Classification (DDC)."
+      }
     }
   ]
 }
