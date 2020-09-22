@@ -10,3 +10,6 @@ The **Integrated Authority File (GND)** is an authority file for Persons, Corpor
 An overview of GND mappings as of November 2018 is been given in [coli-conc report 12](../../publications/tr12.html) <https://doi.org/10.5281/zenodo.1689997> (in German).
 
 {% endsection %}
+
+{% section %}
+{% endsection %}
