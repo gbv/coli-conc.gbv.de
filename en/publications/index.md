@@ -243,15 +243,15 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 -   coli-conc report 4: [Anforderungen an Normdatendienste](tr4.html).
     (April 2016) <https://doi.org/10.5281/zenodo.50180>.
 -   coli-conc report 5: European DDC Users Group (EDUG) Symposium &
-    Business Meeting. (August 2016) [PDF]({{ "EDUG2016Bericht.pdf" | urla }})
+    Business Meeting. (August 2016) [PDF]({{ "/publications/EDUG2016Bericht.pdf" | urla }})
 -   coli-conc report 6: Ergebnisse der Online-Umfrage zur
     Sacherschließung und Konkordanzprojekten. (August 2016)
-    [PDF]({{ "Umfrageergebnisse.pdf" | urla }})
+    [PDF]({{ "/publications/Umfrageergebnisse.pdf" | urla }})
 -   coli-conc report 7: [Open Source web applications for Knowledge
     Organization Systems](tr7.html). (August 2016)
     <https://doi.org/10.5281/zenodo.61262>.
 -   coli-conc report 8: Zusammenfassung des Zwischenberichts. (Februar
-    2017) [PDF]({{ "coli-conczusammenfassung.pdf" | urla }})
+    2017) [PDF]({{ "/publications/coli-conczusammenfassung.pdf" | urla }})
 -   coli-conc report 9: Umfrage zur Basisklassifikation 2017 (Mai 2017)
     [PDF](https://si-it-workshop.gbv.de/wp-content/uploads/2017/01/BKUmfrage_Ergebnisse.pdf)
 -   coli-conc report 10: [Ein Vergleich ausgewählter
