@@ -130,7 +130,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addShortcode("button",
     (url, text, classes, style, onclick) => `<a
       href="${url.startsWith("http") ? url : eleventyConfig.getFilter("url")(url)}"
-      target="${url.startsWith("http") ? "_blank" : ""}"
+      ${url.startsWith("http") ? "target=\"_blank\"" : ""}
       class="button ${classes}"
       style="${style}"
       onclick="${onclick}">${text}</a>`,
