@@ -7,9 +7,10 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-8 col-md-10">
-        coli-conc is a project of 
+        coli-conc is a project of
         <a href="https://www.gbv.de/">Verbundzentrale des GBV (VZG)</a>
         (<a href="https://www.gbv.de/impressum">Impressum</a> |
+        <a href="<?=$BASE?>/erklaerung-zur-barrierefreiheit/">Barrierefreiheit</a> |
         <a href="https://www.gbv.de/datenschutz">Datenschutz</a>),
         <a href="http://gepris.dfg.de/gepris/projekt/276843344">funded by</a>
         German Research Foundation (DFG)
@@ -32,7 +33,7 @@
     <script src="<?=$BASE?>/js/jquery.tablesorter.min.js"></script>
     <link href="<?=$BASE?>/css/tablesorter.gbv.css" rel="stylesheet">
     <script type="text/javascript">
-      $(function(){ 
+      $(function(){
         $(".table.sortable").tablesorter({'theme':'gbv'})
       })
     </script>
