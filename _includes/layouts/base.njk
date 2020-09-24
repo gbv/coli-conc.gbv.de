@@ -64,14 +64,13 @@
     {{ totalcss | safe }}
   </style>
 </head>
-<body>
+<body id="top">
   {% if js and js.vue %}
   <script src="{{ '/js/vue.min.js' | urla }}"></script>
   {% endif %}
   {% if js and js.axios %}
   <script src="{{ '/js/axios.min.js' | urla }}"></script>
   {% endif %}
-  <a name="top"></a>
   <header class="header">
     <a href="{{ '/' | url }}" class="coli-conc-logo-small" title="Go to start page">
       <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
