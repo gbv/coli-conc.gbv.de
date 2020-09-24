@@ -12,7 +12,7 @@ Diese Erklärung zur Barrierefreiheit gilt für die Website https://coli-conc.gb
 ### Stand der Vereinbarkeit mit den Anforderungen
 Die Website https://coli-conc.gbv.de und deren Funktionalität und Darstellungsform auf gängigen Endgeräten, sind mit der Richtlinie (EU) 2016/2102 und mit den Web Content Accessibility Guidlines 2.0 teilweise vereinbar.
 
-Für die Website wird demnächst ein BITV-Selbsttest durchgeführt und das Testergebnis an dieser Stelle veröffentlicht.
+Wir arbeiten an einer neuen Version unseres Webauftritts, die in Kürze veröffentlicht wird. Daher wird der BITV-Selbsttest nicht mehr für diese Website durchgeführt.
 
 ### Erstellung dieser Erklärung zur Barrierefreiheit
 Diese Erklärung wurde am 24.09.2020 erstellt.
