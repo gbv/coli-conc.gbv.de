@@ -1,10 +1,9 @@
 <?php
 $BASE = '..';
+$TITLE = 'Erklärung zur Barrierefreiheit';
 $FORMAT = 'markdown';
 include "$BASE/header.php";
 ?>
-
-## Erklärung zur Barrierefreiheit
 
 Die Verbundzentrale des GBV (VZG) ist bemüht, ihre Webauftritte und mobile Anwendungen im Einklang mit den nationalen Rechtsvorschriften zur Umsetzung der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates barrierefrei zugänglich zu machen.
 
