@@ -107,9 +107,9 @@ module.exports = eleventyConfig => {
   // Paired Shortcode for smaller text
   eleventyConfig.addPairedShortcode("small", (content) => {
     return `
-<small>
+<div class="font-size-small">
   ${markdownIt.render(content)}
-</small>
+</div>
     `
   })
 
