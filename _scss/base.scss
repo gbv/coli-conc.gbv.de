@@ -92,7 +92,7 @@ a:hover {
 a.button {
   background-color: colors.$orange;
   color: colors.$white;
-  padding: calc(2px + (6 - 2) * ((100vw - 300px) / (1600 - 300))) calc(15px + (25 - 15) * ((100vw - 300px) / (1600 - 300)));
+  padding: calc(2px + 4 * ((100vw - 300px) / 1300)) calc(15px + 10 * ((100vw - 300px) / 1300));
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -213,7 +213,7 @@ section:nth-child(2n+3) img.image {
   cursor: pointer;
 }
 .collapsible li > input[type="checkbox"] ~ label::before {
-  width: calc(24px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
+  width: calc(24px + 4 * ((100vw - 300px) / 1300));
   display: inline-block;
   content: " ";
 }

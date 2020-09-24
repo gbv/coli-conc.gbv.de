@@ -4,7 +4,7 @@
 
 .coli-conc-logo {
   display: block;
-  margin-top: calc(0px + (10) * ((100vw - 300px) / (1600 - 300)));
+  margin-top: calc(0px + (10) * ((100vw - 300px) / 1300));
 }
 
 .coli-conc-logo > img {
@@ -27,7 +27,7 @@
   display:flex;justify-content:center;align-items:flex-end;
 }
 .cocoda > img {
-  width: calc(45vw + (50 - 45) * ((100vw - 300px) / (1600 - 300)));;
+  width: calc(45vw + 5 * ((100vw - 300px) / 1300));;
   min-width: 300px;
   max-width: 600px;
   box-shadow: -4px 8px 99px #26262633;
