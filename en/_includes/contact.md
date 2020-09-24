@@ -1,6 +1,6 @@
 {% set userIcon %}
 <svg class="user-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 115 115">
-  <g id="Ellipse_3" data-name="Ellipse 3" fill="#ffffff00" stroke-width="1">
+  <g data-name="Ellipse 3" fill="#ffffff00" stroke-width="1">
     <circle cx="57.5" cy="57.5" r="57.5" stroke="none"/>
     <circle cx="57.5" cy="57.5" r="57" fill="none"/>
   </g>
