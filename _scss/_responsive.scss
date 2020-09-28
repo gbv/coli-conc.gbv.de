@@ -2,20 +2,27 @@ $tiny: 500px;
 $small: 820px;
 $medium: 1200px;
 
+.small-show {
+  display: none !important;
+}
+
 @media (max-width: $tiny) {
   .tiny-hide {
-    display: none;
+    display: none !important;
   }
 }
 
 @media (max-width: $small) {
   .small-hide {
-    display: none;
+    display: none !important;
+  }
+  .small-show {
+    display: initial !important;
   }
 }
 
 @media (max-width: $medium) {
   .medium-hide {
-    display: none;
+    display: none !important;
   }
 }
