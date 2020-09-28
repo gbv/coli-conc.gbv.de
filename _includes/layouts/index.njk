@@ -22,6 +22,18 @@ css:
   {% section "text-center novpadding" %}
 
   # {{ title | localize | safe }}
+
+  <div class="service">
+    <p class="font-weight-bold">{{ { en: "A service provided by", de: "Ein Service der" } | localize }}</p>
+    <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" target="_blank">
+      <img
+        src="{{ '/images/vzg-600px.png' | urla }}"
+        srcset="{{ '/images/vzg-300px.png' | urla }} 300w, {{ '/images/vzg-600px.png' | urla }} 600w"
+        sizes="200px"
+        alt="Verbundzentrale des GBV (VZG) Logo">
+    </a>
+  </div>
+
   {{ subtitle | localize | safe }}
 
   <div class="small-show">

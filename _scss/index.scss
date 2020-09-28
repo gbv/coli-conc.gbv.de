@@ -21,6 +21,15 @@
   color: colors.$orange;
 }
 
+.cocoda-wrapper .service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cocoda-wrapper .service > * {
+  padding: 0 5px;
+}
+
 .cocoda {
   position: relative;
   width: 100%;

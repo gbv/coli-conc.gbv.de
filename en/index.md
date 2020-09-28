@@ -4,8 +4,8 @@ title:
   en: "Welcome to <span style='white-space: nowrap;'>coli-conc</span>"
   de: "Willkommen bei <span style='white-space: nowrap;'>coli-conc</span>"
 subtitle:
-  en: <b>A service provided by Verbundzentrale des GBV (VZG)</b><br>Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems
-  de: <b>Ein Service der Verbundzentrale des GBV (VZG)</b><br>Verwaltung und Bereitstellung von Konkordanzen zwischen bibliothekarischen Wissensorganisationsystemen
+  en: Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems
+  de: Verwaltung und Bereitstellung von Konkordanzen zwischen bibliothekarischen Wissensorganisationsystemen
 cocodaStartButton:
   en: Start
 cocodaInfoButton:
