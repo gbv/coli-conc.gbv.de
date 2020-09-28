@@ -17,7 +17,7 @@
   margin: 10px 0 15px 0;
 }
 .cocoda-wrapper h3 {
-  margin: 15px 0 0 0;
+  margin: 0px 0 0 0;
   color: colors.$orange;
 }
 
@@ -28,6 +28,10 @@
 }
 .cocoda-wrapper .service > * {
   padding: 0 5px;
+}
+
+.cocoda-wrapper .subtitle {
+  margin: 10px 0 25px 0;
 }
 
 .cocoda {
@@ -45,7 +49,7 @@
 }
 .cocoda > div {
   flex: 1;
-  align-self: flex-start;
+  align-self: center;
   padding: 0 10px;
 }
 
