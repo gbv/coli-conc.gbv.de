@@ -2,18 +2,6 @@
 
 ###### {{ { en: "Partners", de: "Partner" } | localize }}
 
-{% div "text-center", "margin: -15px 0 40px 0;" %}
-  **coli-conc** {{ { en: "is a project of", de: "ist ein Projekt der" } | localize }}
-
-  <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" target="_blank">
-    <img
-      src="{{ '/images/vzg-600px.png' | urla }}"
-      srcset="{{ '/images/vzg-300px.png' | urla }} 300w, {{ '/images/vzg-600px.png' | urla }} 600w"
-      sizes="280px"
-      alt="Verbundzentrale des GBV (VZG) Logo">
-  </a>
-{% enddiv %}
-
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
   {% for partner in partners.institutions %}
     {% set image1x = ("/images/partners/" + partner.image) | urla %}
