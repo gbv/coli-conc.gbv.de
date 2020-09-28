@@ -128,12 +128,14 @@ module.exports = eleventyConfig => {
 
   // Shortcode for button
   eleventyConfig.addShortcode("button",
-    (url, text, classes, style, onclick) => `<a
-      href="${url.startsWith("http") ? url : eleventyConfig.getFilter("url")(url)}"
-      ${url.startsWith("http") ? "target=\"_blank\"" : ""}
-      class="button ${classes}"
-      style="${style}"
-      onclick="${onclick}">${text}</a>`,
+    (url, text, classes = "", style = "", onclick = "") =>
+      `<a
+        href="${url.startsWith("http") ? url : eleventyConfig.getFilter("url")(url)}"
+        ${url.startsWith("http") ? "target=\"_blank\"" : ""} class="button ${classes}"
+        style="${style}"
+        onclick="${onclick}">
+        ${text}
+      </a>`,
   )
 
   // date filter
