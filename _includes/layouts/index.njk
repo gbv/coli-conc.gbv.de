@@ -7,6 +7,15 @@ css:
 {# Dummy element that simply causes the sections to be styled correctly... #}
 <div></div>
 
+{# Cocoda heading and buttons because they are used at two different places #}
+{% set cocodaStuff %}
+  <h3>Cocoda <span style="white-space: nowrap;">Mapping Tool</span></h3>
+  <p>
+    {% button "/cocoda/", cocodaInfoButton | localize %}
+    {% button "https://coli-conc.gbv.de/cocoda/app/", cocodaStartButton | localize, "small-hide", "margin: 2px;" %}
+  </p>
+{% endset %}
+
 {# We need a dummy element here so that the wave can be correctly positioned. #}
 {# Also, we're including the section here because the content below needs to start off as an odd element #}
 <div class="cocoda-wrapper" style="position: relative;">
@@ -15,12 +24,13 @@ css:
   # {{ title | localize | safe }}
   {{ subtitle | localize | safe }}
 
-  ### Cocoda Mapping Tool
+  <div class="small-show">
+    {{ cocodaStuff | safe }}
+  </div>
 
-  {% button "/cocoda/", cocodaInfoButton | localize %}
-  {% button "https://coli-conc.gbv.de/cocoda/app/", cocodaStartButton | localize, "", "margin: 2px;" %}
-
+  {% endsection %}
   <div class="cocoda">
+    <div class="small-hide"></div>
     <img
       src="{{ '/images/screenshot-index-1600px.png' | urla }}"
       srcset="
@@ -30,9 +40,10 @@ css:
       "
       sizes="(max-width: 800px) 50vw, 45vw"
       alt="Cocoda Mapping Tool Screenshot">
+    <div class="small-hide">
+      {{ cocodaStuff | safe }}
+    </div>
   </div>
-
-  {% endsection %}
 
   <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill-opacity="1" d="M0,256L60,245.3C120,235,240,213,360,224C480,235,600,277,720,298.7C840,320,960,320,1080,298.7C1200,277,1320,235,1380,213.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
