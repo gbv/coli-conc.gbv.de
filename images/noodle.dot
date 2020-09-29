@@ -1,0 +1,8 @@
+# convert with: dot -Tpng noodle.dot > noodle.png
+digraph {
+    graph [rankdir=LR, dpi=110, size="4.5,0.5"];
+    edge [arrowhead=vee,arrowtail=vee,dir=both];
+    node [shape=circle,label="",width=.3,fixedsize=true];
+    G [shape=plaintext,label="..."];
+    A -> B -> C -> D -> E -> F -> G;
+}

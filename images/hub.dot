@@ -1,0 +1,12 @@
+# convert with: circo -Tpng hub.dot > hub.png
+digraph{
+    graph[mindist=0.8,dpi=110,size="2,2"];
+    edge [arrowhead=vee,arrowtail=vee,dir=both];
+    node [shape=circle,label="",width=.3,fixedsize=true];
+    A [style=filled,color=black];
+    A -> B;
+    A -> C;
+    A -> D;
+    A -> E;
+    A -> F;
+}
