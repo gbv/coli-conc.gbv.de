@@ -1,6 +1,6 @@
 <!-- Using data from global `partners.json` file. -->
 
-###### {{ { en: "Partners", de: "Partner" } | localize }}
+## {{ { en: "Partners", de: "Partner" } | localize }}
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center;" %}
   {% for partner in partners.institutions %}

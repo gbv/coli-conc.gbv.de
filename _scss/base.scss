@@ -48,18 +48,18 @@ h4 {
   font-size: fonts.$size-large;
   margin: 10px 0 7px 0;
 }
-h5 {
+h5, h6 {
   font-size: fonts.$size-medium;
   margin: 10px 0 7px 0;
 }
-h6 {
+.section > h2:first-child {
   font-size: fonts.$size-larger;
   margin: 8px 0 20px 0;
   padding: 10px 30px;
   display: inline-block;
   background-color: colors.$orange;
 }
-h6, h6 > a, h6 > a:hover {
+.section > h2:first-child, .section > h2:first-child > a, .section > h2:first-child > a:hover {
   color: colors.$white;
 }
 

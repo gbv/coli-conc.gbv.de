@@ -131,7 +131,7 @@ All content should use sections. There is a custom paired shortcode `section` wh
 
 ```md
 {% section %}
-###### Optional Heading (always use h6 because it has special styling)
+## Optional Heading (always use h2 because it has special styling at the beginning of sections)
 
 Content of this section (can also contain Markdown as usual).
 
@@ -144,7 +144,7 @@ Exception: Blog/news posts (with `layout: layouts/blog`), do **NOT use sections 
 
 Some notes about sections:
 - Sections are styled automatically. Every odd section (starting from the third child) will have a dark background with light text.
-- Use h6 (`######`) for section headers because they are styled in a specific way (as in the example above).
+- Use h6 (`##`) for section headers because they are styled in a specific way (as in the example above).
 - Try to choose the number of sections so that it ends with a dark section. If necessary, add an empty section at the end (`{% section %}{% endsection %}`).
 
 #### `<div>` with Markdown Content

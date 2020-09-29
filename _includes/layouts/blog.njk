@@ -28,7 +28,7 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 {% endsection %}
 
 {% section %}
-###### {{ { en: "More Posts", de: "Mehr Beiträge" } | localize }}
+## {{ { en: "More Posts", de: "Mehr Beiträge" } | localize }}
 {% div "news" %}
 {% set postLimit = 6 %}
 {%- for post in collections.blog | reverse -%}

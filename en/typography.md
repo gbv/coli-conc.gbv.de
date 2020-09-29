@@ -6,7 +6,7 @@ title: Typography
 {% for title in ["Light Section", "Dark Section"] %}
 {% section %}
 
-# {{ title }}
+## {{ title }}
 
 ### Headings
 
@@ -20,7 +20,7 @@ title: Typography
 
 ##### H5 Heading {% badge "20px" %}
 
-###### H6 Heading {% badge "28px + background", "alternative" %}
+###### H6 Heading {% badge "20px" %}
 
 {% raw %}
 ```markdown
@@ -29,9 +29,11 @@ title: Typography
 ### H3 Heading {% badge "28px" %}
 #### H4 Heading {% badge "24px" %}
 ##### H5 Heading {% badge "20px" %}
-###### H6 Heading {% badge "28px + background", "alternative" %}
+###### H6 Heading {% badge "20px" %}
 ```
 {% endraw %}
+
+Note: `h2` has a special styling when it is at the beginning of a section (font size 28px, white text, orange background, see section heading).
 
 ### Paragraphs
 
@@ -51,16 +53,16 @@ font-size-small {% badge "14px" %}
 font-size-normal {% badge "16px" %}
 {% enddiv %}
 {% div "font-size-medium" %}
-font-size-medium {% badge "20px" %} = h6
+font-size-medium {% badge "20px" %} = h6/h5
 {% enddiv %}
 {% div "font-size-large" %}
-font-size-large {% badge "24px" %} = h5
+font-size-large {% badge "24px" %} = h4
 {% enddiv %}
 {% div "font-size-larger" %}
-font-size-larger {% badge "28px" %} = h4
+font-size-larger {% badge "28px" %} = h3
 {% enddiv %}
 {% div "font-size-largest" %}
-font-size-largest {% badge "32px" %} = h3/h2
+font-size-largest {% badge "32px" %} = h2
 {% enddiv %}
 {% div "font-size-largestest" %}
 font-size-largestest {% badge "36px" %} = h1

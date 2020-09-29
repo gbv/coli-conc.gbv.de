@@ -8,7 +8,7 @@ subtitle:
 
 {% section %}
 
-###### Applications
+## Applications
 
 - [Cocoda]({{ "/cocoda/" | url }})
 
@@ -26,7 +26,7 @@ subtitle:
 
 {% section %}
 
-###### APIs
+## APIs
 Several web services are being developed to query information related to knowledge organization systemes in [JSKOS format](https://gbv.github.io/jskos/).
 
 - [DANTE API](https://api.dante.gbv.de/)
@@ -49,7 +49,7 @@ Several web services are being developed to query information related to knowled
 
 {% section %}
 
-###### Data Sets
+## Data Sets
 - [KOS Types]({{ "/publications/kostypes/" | url }})
 
   Classification of knowledge organization systems. Data extracted from Wikidata.

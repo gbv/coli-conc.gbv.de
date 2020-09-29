@@ -1,5 +1,5 @@
 
-###### {{ { en: "Projects", de: "Projekte" } | localize }}
+## {{ { en: "Projects", de: "Projekte" } | localize }}
 
 {{ {
   en: "Some of the major projects in which coli-conc is involved.",
