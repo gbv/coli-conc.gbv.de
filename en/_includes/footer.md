@@ -8,5 +8,3 @@
 | [Source]({{ source }})
 | [Twitter @coli_conc](https://twitter.com/coli_conc)
 | [News (RSS)]({{ "/rss/blog.xml" | url }})
-
-*Please note that this site is currently under development.*
