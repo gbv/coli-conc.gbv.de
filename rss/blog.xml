@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/"/>
-  <updated>2020-08-25T00:00:00+00:00</updated>
+  <updated>2020-09-29T00:00:00+00:00</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/</id>
   <author>
     <name>coli-conc</name>
@@ -1340,17 +1340,6 @@ authority file extraction and mapping tools&lt;/p&gt;
     </content>
   </entry>
   <entry>
-    <title>New Website</title>
-    <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/07/09/new-website/"/>
-    <updated>2020-07-09T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/07/09/new-website/</id>
-    <summary>... is currently under development!</summary>
-    <content type="html">
-      &lt;p&gt;After more than five years the coli-conc website at &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;https://coli-conc.gbv.de/&lt;/a&gt; got a fresh layout and internal refactoring. All URLs should be working still! The sources are managed &lt;a href=&quot;https://github.com/gbv/coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;in a public git repository&lt;/a&gt; like &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/#software&quot;&gt;all of our software&lt;/a&gt;.&lt;/p&gt;
-
-    </content>
-  </entry>
-  <entry>
     <title>Prototyp von coli-rich zur Kataloganreicherung</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/08/24/coli-rich-prototype/"/>
     <updated>2020-08-24T00:00:00+00:00</updated>
@@ -1373,6 +1362,17 @@ authority file extraction and mapping tools&lt;/p&gt;
     <content type="html">
       &lt;p&gt;Release 1.4.1 of &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; contains a few bugfixes and updated dependencies. DDC and SDNB notations are now displayed in a special way.&lt;/p&gt;
 &lt;p&gt;You can find the full release notes &lt;a href=&quot;https://github.com/gbv/cocoda/releases/tag/1.4.1&quot; target=&quot;_blank&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>New Website</title>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/09/29/new-website/"/>
+    <updated>2020-09-29T00:00:00+00:00</updated>
+    <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/09/29/new-website/</id>
+    <summary>Our new website is now live!</summary>
+    <content type="html">
+      &lt;p&gt;After more than five years the coli-conc website at &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;https://coli-conc.gbv.de/&lt;/a&gt; got a fresh layout and internal refactoring. All URLs should be working still! The sources are managed &lt;a href=&quot;https://github.com/gbv/coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;in a public GitHub repository&lt;/a&gt; like &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/#software&quot;&gt;all of our software&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
