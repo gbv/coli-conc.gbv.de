@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>coli-conc News</title>
-  <link href="https://gbv.github.io/coli-conc-next/de/rss/blog.xml" rel="self"/>
-  <link href="https://gbv.github.io/coli-conc-next/de/"/>
+  <link href="https://gbv.github.io/coli-conc.gbv.de/de/rss/blog.xml" rel="self"/>
+  <link href="https://gbv.github.io/coli-conc.gbv.de/de/"/>
   <updated>2020-08-25T00:00:00+00:00</updated>
-  <id>https://gbv.github.io/coli-conc-next/de/</id>
+  <id>https://gbv.github.io/coli-conc.gbv.de/de/</id>
   <author>
     <name>coli-conc</name>
     <email>coli-conc@gbv.de</email>
   </author>
   <entry>
     <title>Cocoda primer</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/publications/tr1.html"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/publications/tr1.html"/>
     <updated>2015-04-13T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/publications/tr1.html</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/publications/tr1.html</id>
     <summary>This report briefly summarizes prototype and architecture of a mapping tool that is being created as part of project coli-conc.</summary>
     <content type="html">
       &lt;p&gt;This report briefly summarizes prototype and architecture of a mapping tool
@@ -133,9 +133,9 @@ for illustration and testing.&lt;/p&gt;
   </entry>
   <entry>
     <title>Open Source KOS software</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/publications/tr2.html"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/publications/tr2.html"/>
     <updated>2016-03-24T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/publications/tr2.html</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/publications/tr2.html</id>
     <summary>This report gives an overview about Open Source software for Knowledge Organization Systems (KOS)</summary>
     <content type="html">
       &lt;p&gt;This report gives an overview about Open Source software for Knowledge
@@ -315,9 +315,9 @@ A first start has been made with a
   </entry>
   <entry>
     <title>A novel approach to terminology mappings</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/publications/tr3.html"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/publications/tr3.html"/>
     <updated>2016-04-01T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/publications/tr3.html</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/publications/tr3.html</id>
     <summary>This report presents a new architecture for managing large numbers of concordances</summary>
     <content type="html">
       &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
@@ -398,9 +398,9 @@ data as explained by @Shaw2015. &lt;a href=&quot;#fnref2&quot; class=&quot;footn
   </entry>
   <entry>
     <title>Anforderungen an Normdatendienste</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/publications/tr4.html"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/publications/tr4.html"/>
     <updated>2016-04-21T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/publications/tr4.html</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/publications/tr4.html</id>
     <summary>Ergebnis einer Session &quot;Anforderungen an Normdatendienste&quot; auf den DINI AG KIM Workshop 2016</summary>
     <content type="html">
       &lt;p&gt;Die vorliegende Übersicht fasst das Ergebnis einer Session &amp;quot;Anforderungen an Normdatendienste&amp;quot; auf dem &lt;a href=&quot;https://wiki.dnb.de/display/DINIAGKIM/KIM+WS+2016&quot; target=&quot;_blank&quot;&gt;DINI AG KIM Workshop am 4./5. April&lt;/a&gt; in Mannheim zusammen.&lt;/p&gt;
@@ -503,9 +503,9 @@ ist jedoch aufgrund des Arbeitsumfangs eine zusätzliche Förderung angebracht.&
   </entry>
   <entry>
     <title>Open Source web applications for Knowledge Organization Systems</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/publications/tr7.html"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/publications/tr7.html"/>
     <updated>2016-08-31T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/publications/tr7.html</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/publications/tr7.html</id>
     <summary>Web applications to create, manage, and publish Knowledge Organization Systems</summary>
     <content type="html">
       &lt;p&gt;This report gives an overview about Open Source web applications to create,
@@ -821,9 +821,9 @@ applications such as &lt;a href=&quot;http://annot.readthedocs.io/&quot; target=
   </entry>
   <entry>
     <title>Ein Vergleich ausgewählter Normdatendienste</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/publications/tr10.html"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/publications/tr10.html"/>
     <updated>2017-05-31T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/publications/tr10.html</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/publications/tr10.html</id>
     <summary>Vergleichs von APIs zum Zugriff auf ausgewählte Wissensorganisationssysteme</summary>
     <content type="html">
       &lt;p&gt;Dieser Report fasst Ergebnisse eines Vergleichs von APIs zum Zugriff auf
@@ -1088,9 +1088,9 @@ verglichen werden [@TR7].&lt;/p&gt;
   </entry>
   <entry>
     <title>Cocoda Technical Architecture</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/publications/tr11.html"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/publications/tr11.html"/>
     <updated>2018-05-31T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/publications/tr11.html</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/publications/tr11.html</id>
     <summary>An update on the architecture of Cocoda</summary>
     <content type="html">
       &lt;p&gt;This report gives an update on the architecture of Cocoda, a mapping tool for
@@ -1189,9 +1189,9 @@ authority file extraction and mapping tools&lt;/p&gt;
   </entry>
   <entry>
     <title>Übersicht von GND-Konkordanzen</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/publications/tr12.html"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/publications/tr12.html"/>
     <updated>2018-11-29T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/publications/tr12.html</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/publications/tr12.html</id>
     <summary>Vorhandene Mappings zwischen GND und anderen Vokabularen</summary>
     <content type="html">
       &lt;p&gt;Diese Übersicht fasst vorhandene Mappings zwischen der Gemeinsamen Normdatei (GND) und anderen Vokabularen zusammen soweit diese ermittelt werden konnten (Stand November 2018).&lt;/p&gt;
@@ -1329,21 +1329,21 @@ authority file extraction and mapping tools&lt;/p&gt;
   </entry>
   <entry>
     <title>Cocoda 1.4.0</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/blog/2020/06/30/cocoda-1.4.0/"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/06/30/cocoda-1.4.0/"/>
     <updated>2020-06-30T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/blog/2020/06/30/cocoda-1.4.0/</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/06/30/cocoda-1.4.0/</id>
     <summary>Neue Cocoda-Version mit Docker und Refactoring</summary>
     <content type="html">
-      &lt;p&gt;Die neue Version 1.4.0 des &lt;a href=&quot;https://gbv.github.io/coli-conc-next/de/cocoda/&quot;&gt;Mapping-Tool Cocoda&lt;/a&gt; beinhaltet neben mehreren Bugfixes interne Umstrukturierung (Refactoring): wesentliche Funktionen zum Zugriff auf Vokabulare und andere JSKOS-Daten können mit dem Modul &lt;a href=&quot;https://github.com/gbv/cocoda-sdk&quot; target=&quot;_blank&quot;&gt;cocoda-sdk&lt;/a&gt; nun auch unabhängig von Cocoda genutzt werden. Außerdem wir mit der Bereitstellung von Docker-Images begonen, um die Installation von Cocoda weiter zu vereinfachen.&lt;/p&gt;
+      &lt;p&gt;Die neue Version 1.4.0 des &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/cocoda/&quot;&gt;Mapping-Tool Cocoda&lt;/a&gt; beinhaltet neben mehreren Bugfixes interne Umstrukturierung (Refactoring): wesentliche Funktionen zum Zugriff auf Vokabulare und andere JSKOS-Daten können mit dem Modul &lt;a href=&quot;https://github.com/gbv/cocoda-sdk&quot; target=&quot;_blank&quot;&gt;cocoda-sdk&lt;/a&gt; nun auch unabhängig von Cocoda genutzt werden. Außerdem wir mit der Bereitstellung von Docker-Images begonen, um die Installation von Cocoda weiter zu vereinfachen.&lt;/p&gt;
 &lt;p&gt;Weitere Details zur neuen Version finden sich in den &lt;a href=&quot;https://github.com/gbv/cocoda/releases/tag/1.4.0&quot; target=&quot;_blank&quot;&gt;Release-Notes bei GitHub&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
   <entry>
     <title>Neue Webseite</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/blog/2020/07/09/new-website/"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/07/09/new-website/"/>
     <updated>2020-07-09T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/blog/2020/07/09/new-website/</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/07/09/new-website/</id>
     <summary>... ist aktuell in Entwicklung!</summary>
     <content type="html">
       &lt;p&gt;Wir arbeiten gerade an dieser tollen neuen Webseite.&lt;/p&gt;
@@ -1352,13 +1352,13 @@ authority file extraction and mapping tools&lt;/p&gt;
   </entry>
   <entry>
     <title>Prototyp von coli-rich zur Kataloganreicherung</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/blog/2020/08/24/coli-rich-prototype/"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/08/24/coli-rich-prototype/"/>
     <updated>2020-08-24T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/blog/2020/08/24/coli-rich-prototype/</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/08/24/coli-rich-prototype/</id>
     <summary>Webanwendung zur Anreicherung der Sacherschließung durch Mappings</summary>
     <content type="html">
-      &lt;p&gt;Unter &lt;a href=&quot;https://gbv.github.io/coli-rich/&quot; target=&quot;_blank&quot;&gt;https://gbv.github.io/coli-rich/&lt;/a&gt; gibt es einen ersten Prototyp der Webanwendung &lt;a href=&quot;https://gbv.github.io/coli-conc-next/de/coli-rich/&quot;&gt;&lt;strong&gt;coli-rich&lt;/strong&gt;&lt;/a&gt; zur Anreicherung der Sacherschließung mittels Konkordanzen. Über die Weboberfläche lassen sich Datensätze aus dem &lt;a href=&quot;https://opac.k10plus.de/&quot; target=&quot;_blank&quot;&gt;K10Plus-Katalog&lt;/a&gt; laden und die darin vorhandenen Sacherschließungsdaten analysieren. Falls das coli-conc Konkordanz-Register passende Mappings zu Vokabularen enthält, mit denen der Datensatz noch nicht erschlossen ist, wird eine entsprechende Anreicherung vorgeschlagen. Mappings können mit &lt;a href=&quot;https://gbv.github.io/coli-conc-next/de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; direkt zum Konkordanz-Register hinzugefügt oder dort bewertet werden.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gbv.github.io/coli-rich/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;image&quot; src=&quot;https://gbv.github.io/coli-conc-next/images/screenshot-coli-rich-2020-08-24.png&quot; style=&quot;&quot; alt=&quot;Screenshot coli-rich&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Unter &lt;a href=&quot;https://gbv.github.io/coli-rich/&quot; target=&quot;_blank&quot;&gt;https://gbv.github.io/coli-rich/&lt;/a&gt; gibt es einen ersten Prototyp der Webanwendung &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/coli-rich/&quot;&gt;&lt;strong&gt;coli-rich&lt;/strong&gt;&lt;/a&gt; zur Anreicherung der Sacherschließung mittels Konkordanzen. Über die Weboberfläche lassen sich Datensätze aus dem &lt;a href=&quot;https://opac.k10plus.de/&quot; target=&quot;_blank&quot;&gt;K10Plus-Katalog&lt;/a&gt; laden und die darin vorhandenen Sacherschließungsdaten analysieren. Falls das coli-conc Konkordanz-Register passende Mappings zu Vokabularen enthält, mit denen der Datensatz noch nicht erschlossen ist, wird eine entsprechende Anreicherung vorgeschlagen. Mappings können mit &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; direkt zum Konkordanz-Register hinzugefügt oder dort bewertet werden.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gbv.github.io/coli-rich/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;image&quot; src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/screenshot-coli-rich-2020-08-24.png&quot; style=&quot;&quot; alt=&quot;Screenshot coli-rich&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Im Laufe des Jahres soll coli-rich erweitert werden, so dass nur geprüfte Mappings Verwendung finden. Wenn sich Mappings als falsch herausstellen, kann die Anreicherung zurückverfolgt und automatisch korrigiert werden. Nach der Testphase wird die Anreicherung auf größerer Teile des K10Plus-Katalog ausgeweitet und automatisiert.&lt;/p&gt;
 &lt;p&gt;Bislang werden Basisklassifikation (BK), Regensburger Verbundklassifikation (RVK), Sachgruppen der Deutschen Nationalbibliografie und Dewey-Dezimalklassifikation (DDC) unterstützt.&lt;/p&gt;
 
@@ -1366,12 +1366,12 @@ authority file extraction and mapping tools&lt;/p&gt;
   </entry>
   <entry>
     <title>Cocoda 1.4.1</title>
-    <link href="https://gbv.github.io/coli-conc-next/de/blog/2020/08/25/cocoda-1.4.1/"/>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/08/25/cocoda-1.4.1/"/>
     <updated>2020-08-25T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc-next/de/blog/2020/08/25/cocoda-1.4.1/</id>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/08/25/cocoda-1.4.1/</id>
     <summary>DDC/SDNB notation handling and small fixes</summary>
     <content type="html">
-      &lt;p&gt;Release 1.4.1 of &lt;a href=&quot;https://gbv.github.io/coli-conc-next/de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; contains a few bugfixes and updated dependencies. DDC and SDNB notations are now displayed in a special way.&lt;/p&gt;
+      &lt;p&gt;Release 1.4.1 of &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; contains a few bugfixes and updated dependencies. DDC and SDNB notations are now displayed in a special way.&lt;/p&gt;
 &lt;p&gt;You can find the full release notes &lt;a href=&quot;https://github.com/gbv/cocoda/releases/tag/1.4.1&quot; target=&quot;_blank&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
 
     </content>
