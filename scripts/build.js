@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const meow = require("meow")
+const defaultOutput = "_site"
 
 const cli = meow(`
   Usage
@@ -9,6 +10,7 @@ const cli = meow(`
   Options
     --pathprefix pathprefix option that is passed to eleventy
     --url base URL for where the website is hosted
+    --output output folder for site
 
   Examples
     $ ./build.js --pathprefix=test
@@ -20,6 +22,10 @@ const cli = meow(`
     url: {
       type: "string",
       isRequired: true,
+    },
+    output: {
+      type: "string",
+      default: defaultOutput,
     },
   },
 })
@@ -42,6 +48,15 @@ if (!url.endsWith("/")) {
 // Add pathprefix if necessary
 if (pathprefix) {
   url += pathprefix
+}
+let output = cli.flags.output
+// Remove trailing slash
+if (output.endsWith("/")) {
+  output = output.slice(0, output.length - 1)
+}
+if (output != defaultOutput) {
+  console.log(`Building site into ${output}...`)
+  console.log()
 }
 
 const fs = require("fs")
@@ -89,7 +104,7 @@ console.log()
 // 2. Build English site
 console.log("Building English site...")
 execSync(
-  `URL=${url} ` + "node_modules/.bin/eleventy build --passthroughall" + (pathprefix ? ` --pathprefix=${pathprefix}` : ""),
+  `URL=${url} ` + `node_modules/.bin/eleventy build --passthroughall ${pathprefix ? ` --pathprefix=${pathprefix}` : ""} --output=${output}`,
   { stdio: "inherit" },
 )
 console.log()
@@ -123,7 +138,7 @@ console.log()
 // 4. Build German site
 console.log("Building German site...")
 execSync(
-  `URL=${url}${siteGerman}/ ` + `node_modules/.bin/eleventy build --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=_site/${siteGerman}`,
+  `URL=${url}${siteGerman}/ ` + `node_modules/.bin/eleventy build --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=${output}/${siteGerman}`,
   { stdio: "inherit" },
 )
 console.log()
@@ -150,7 +165,7 @@ const foldersToDelete = [
   "_includes",
 ]
 for (let folder of foldersToDelete) {
-  folder = `_site/${folder}`
+  folder = `${output}/${folder}`
   try {
     fs.rmdirSync(folder, { recursive: true })
     console.log(`- ${folder} deleted`)
