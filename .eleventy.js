@@ -64,9 +64,9 @@ module.exports = eleventyConfig => {
   // Paired Shortcode for section
   eleventyConfig.addPairedShortcode("section", (content, classes = "", style = "") => {
     return `
-<section class="${classes}" style="${style}">
+<div class="section ${classes}" style="${style}">
   ${markdownIt.render(content)}
-</section>
+</div>
     `
   })
 
