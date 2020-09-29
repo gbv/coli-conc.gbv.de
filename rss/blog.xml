@@ -1372,7 +1372,9 @@ authority file extraction and mapping tools&lt;/p&gt;
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/09/29/new-website/</id>
     <summary>Our new website is now live!</summary>
     <content type="html">
-      &lt;p&gt;After more than five years the coli-conc website at &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;https://coli-conc.gbv.de/&lt;/a&gt; got a fresh layout and internal refactoring. All URLs should be working still! The sources are managed &lt;a href=&quot;https://github.com/gbv/coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;in a public GitHub repository&lt;/a&gt; like &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/#software&quot;&gt;all of our software&lt;/a&gt;.&lt;/p&gt;
+      &lt;p&gt;After more than five years, the coli-conc website at &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;https://coli-conc.gbv.de/&lt;/a&gt; got a fresh layout and internal refactoring. All URLs should still be working! (If not, please let us know.) The sources are managed &lt;a href=&quot;https://github.com/gbv/coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;in a public GitHub repository&lt;/a&gt; like &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/#software&quot;&gt;all of our software&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Instead of being served through PHP, the website is now built via a static site generator called &lt;a href=&quot;https://www.11ty.dev/&quot; target=&quot;_blank&quot;&gt;Eleventy&lt;/a&gt;. This made it possible to separate logic from content, so the content sources are now Markdown files.&lt;/p&gt;
+&lt;p&gt;This post is also part of our new blog! We converted some Technical Reports to blog posts, so there are already &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/blog/&quot;&gt;some posts available&lt;/a&gt;. We will also share updates about the project and our services here from now on. You can subscribe to our blog via &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/rss/blog.xml&quot;&gt;RSS&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
