@@ -6,8 +6,8 @@ The website uses [Eleventy](https://www.11ty.dev) as a static site generator. El
 
 ### Installation
 ```bash
-git clone https://github.com/gbv/coli-conc-next.git
-cd coli-conc-next
+git clone https://github.com/gbv/coli-conc.gbv.de.git
+cd coli-conc.gbv.de
 npm install
 ```
 
@@ -15,11 +15,11 @@ npm install
 As we are doing some things that are currently not possible with native Eleventy functionality, we are using a build script which wraps around Eleventy's own build process.
 
 ```bash
-npm run build -- --pathprefix=coli-conc-next --url=https://gbv.github.io
+npm run build -- --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io
 # The site is now available under _site/
 ```
 
-This would build the site to be deployed to https://gbv.github.io/coli-conc-next/. `--pathprefix` is optional and only needed if the site is not deployed to the root folder of a domain. `--url` is always necessary.
+This would build the site to be deployed to https://gbv.github.io/coli-conc.gbv.de/. `--pathprefix` is optional and only needed if the site is not deployed to the root folder of a domain. `--url` is always necessary.
 
 ### Development
 A hot-reloading development server is included, though it **only serves the English version** of the site (note that the German version might still be accessible, but only because of an older build; both `build` and `serve` use the `_site` directory).
@@ -182,17 +182,17 @@ If you need to display dates (e.g. a blog post's date), run it through the `date
 [Eleventy](https://www.11ty.dev), the engine that drives this website, supplies certain data for each page. Please refer the the [Eleventy documentation](https://www.11ty.dev/docs/data-eleventy-supplied/) for more information.
 
 ### Content Overview
-For most content, you can just navigate to the page on https://gbv.github.io/coli-conc-next/, scroll to the bottom, and click on "Source" (after "Impressum" and "Datenschutz"). It will forward you to the file for the current page on GitHub where you can edit the content. However, the are some things to note here:
+For most content, you can just navigate to the page on https://gbv.github.io/coli-conc.gbv.de/, scroll to the bottom, and click on "Source" (after "Impressum" and "Datenschutz"). It will forward you to the file for the current page on GitHub where you can edit the content. However, the are some things to note here:
 
 - Some pages import content from the `_includes` folder (see [below](#shared-markdown-content)). In that case, you need to find the respective file for that. Here is a list of files where this is currently the case:
 
-   - The intro text below the Cocoda screenshot on the start page ([English](https://github.com/gbv/coli-conc-next/blob/master/en/_includes/index-intro.md) / [German](https://github.com/gbv/coli-conc-next/blob/master/de/_includes/index-intro.md))
-   - The footer text ([English](https://github.com/gbv/coli-conc-next/blob/master/en/_includes/footer.md) / [German](https://github.com/gbv/coli-conc-next/blob/master/de/_includes/footer.md))
-   - The partners page ([English/German](https://github.com/gbv/coli-conc-next/blob/master/en/_includes/partners.md) - Warning: Heavy custom code here. The list of partner institutions and projects is actually defined in a [data file](https://github.com/gbv/coli-conc-next/blob/master/_data/partners.json))
-   - The contact page ([English/German](https://github.com/gbv/coli-conc-next/blob/master/en/_includes/contact.md) - Warning: Also heavy custom code here, but the content is defined inline.)
+   - The intro text below the Cocoda screenshot on the start page ([English](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/index-intro.md) / [German](https://github.com/gbv/coli-conc.gbv.de/blob/main/de/_includes/index-intro.md))
+   - The footer text ([English](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/footer.md) / [German](https://github.com/gbv/coli-conc.gbv.de/blob/main/de/_includes/footer.md))
+   - The partners page ([English/German](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/partners.md) - Warning: Heavy custom code here. The list of partner institutions and projects is actually defined in a [data file](https://github.com/gbv/coli-conc.gbv.de/blob/main/_data/partners.json))
+   - The contact page ([English/German](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/contact.md) - Warning: Also heavy custom code here, but the content is defined inline.)
 
 - If a page is not translated, the Source link will refer to the English version of that page. See [Localization](#localization) for more info.
-- Some pages have heavy custom code, especially the index page ([`/en/index.md`](https://github.com/gbv/coli-conc-next/blob/master/en/index.md)) and the KOS registry ([`/en/terminologies.md`](https://github.com/gbv/coli-conc-next/blob/master/en/terminologies.md)). Please be careful when editing those pages.
+- Some pages have heavy custom code, especially the index page ([`/en/index.md`](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/index.md)) and the KOS registry ([`/en/terminologies.md`](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/terminologies.md)). Please be careful when editing those pages.
 
 Here's an explanation of some of the folders/files in this project:
 - `_data` - contains data which will be available to use via Nunjucks in all pages

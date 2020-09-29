@@ -10,7 +10,7 @@ jobs:
         with:
           node-version: '12'
       - run: npm install
-      - run: npm run build -- --pathprefix=coli-conc-next --url=https://gbv.github.io
+      - run: npm run build -- --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

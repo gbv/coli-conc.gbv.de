@@ -2,7 +2,7 @@ const data = require("./kosTypes-data.json")
 const _ = require("lodash")
 
 // Build tree of concepts
-// Some of the code taken from https://github.com/gbv/coli-conc.gbv.de/blob/master/publications/kostypes/jskos-treeview.js
+// Some of the code taken from https://github.com/gbv/coli-conc.gbv.de/blob/pre-2020/publications/kostypes/jskos-treeview.js
 
 const namespaces = {
   fabio: "http://purl.org/spar/fabio/",
