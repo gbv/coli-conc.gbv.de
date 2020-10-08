@@ -139,6 +139,8 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+- Webinar coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. 2020-10-08 ([PDF](publications/2020-10-08-coli-conc-webinar.pdf))
+
 - RVK-Mapping mit cocoda und ccmapper. 2019-08-14 13:30-16:00 at UB Regensburg (Tutorial & Workshop)
 
 - Short presentation at [International Dewey Users Meeting](https://www.eventbrite.com/e/oclc-at-ifla-wlic-2019-tickets-64562192255), August 27th, Athens
