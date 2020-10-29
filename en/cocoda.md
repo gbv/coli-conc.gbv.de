@@ -11,7 +11,7 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 
 → [Start Cocoda instance optimized for RVK](https://coli-conc.gbv.de/cocoda/rvk/)
 
-→ [Start Cocoda instance optimized for Wikidata](https://coli-conc.gbv.de/cocoda/wikidata/)<br>See [documentation in Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/Cocoda)
+→ [Start Cocoda instance optimized for Wikidata](https://coli-conc.gbv.de/cocoda/wikidata/) (see [documentation in Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/Cocoda))
 
 {% clear %}
 
