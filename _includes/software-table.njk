@@ -17,7 +17,9 @@
         {{ item.description }}
       </td>
       <td class="tiny-hide">{{ item.type }}</td>
-      <td>{{ item.status }}</td>
+      <td>
+         {%- if item.status == "production" %}<b>production</b>{%- else %}{{ item.status }}{%- endif %}
+      </td>
       <td class="medium-hide">
         {%- if item.travis -%}
         {%- set url = item.repository | replace("github.com", "travis-ci." + item.travis) -%}

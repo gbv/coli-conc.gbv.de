@@ -44,15 +44,6 @@
     release:
     description: Access Wikidata in JSKOS format
 -
-    name: occurrences-api
-    type: prototype
-    status: production
-    language: Perl
-    travis: com
-    repository: https://github.com/gbv/occurrences-api
-    release:
-    description: API to query catalog (co)occurrences
--
     name: login-server
     type: application
     status: production
@@ -71,6 +62,15 @@
     release: gbv-login-client
     description: library for login-server
 -
+    name: occurrences-api
+    type: prototype
+    status: production
+    language: Perl
+    travis: com
+    repository: https://github.com/gbv/occurrences-api
+    release:
+    description: API to query catalog (co)occurrences
+-
     name: mc2skos
     type: application
     status: production
@@ -79,6 +79,13 @@
     repository: https://github.com/scriptotek/mc2skos
     release: mc2skos
     description: command-line tool to convert MARC to SKOS
+-
+    name: coli-conc-examples
+    type: demo
+    language: multiple
+    status: demo
+    repository: https://github.com/gbv/coli-conc-examples
+    description: Examples of using coli-conc services and libraries
 -
     name: coli-rich
     type: application
@@ -90,7 +97,7 @@
 -
     name: jskos-php
     type: library
-    status: production
+    status: deprecated
     language: PHP
     travis: org
     repository: https://github.com/gbv/jskos-php
@@ -99,7 +106,7 @@
 -
     name: jskos-http
     type: library
-    status: production
+    status: deprecated
     language: PHP
     travis: org
     repository: https://github.com/gbv/jskos-http
@@ -108,7 +115,7 @@
 -
     name: jskos-rdf
     type: library
-    status: production
+    status: deprecated
     language: PHP
     travis: org
     repository: https://github.com/gbv/jskos-rdf
@@ -117,7 +124,7 @@
 -
     name: orcid-jskos
     type: library
-    status: production
+    status: deprecated
     language: PHP
     travis:
     repository: https://github.com/gbv/orcid-jskos
@@ -126,7 +133,7 @@
 -
     name: viaf-jskos
     type: library
-    status: production
+    status: deprecated
     language: PHP
     travis: org
     repository: https://github.com/gbv/viaf-jskos
@@ -135,7 +142,7 @@
 -
     name: bartoc-jskos
     type: library
-    status: production
+    status: deprecated
     language: PHP
     travis: org
     repository: https://github.com/gbv/bartoc-jskos
