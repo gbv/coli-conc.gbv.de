@@ -80,6 +80,43 @@
     release: mc2skos
     description: command-line tool to convert MARC to SKOS
 -
+    name: skos2jskos
+    type: application
+    status: production
+    language: Perl
+    travis: org
+    repository: https://github.com/gbv/skos2jskos
+    release: App-skos2jskos
+    description: Convert SKOS/RDF to JSKOS
+-
+    name: bk2rdf
+    type: application
+    status: production
+    language: Perl
+    travis:
+    repository: https://github.com/gbv/bk2rdf
+    release: https://github.com/gbv/bk2rdf
+    description: extract and enrich BK records to MARC
+-
+    name: wikidata-taxonomy
+    type: application
+    status: production
+    language: JavaScript
+    travis: org
+    repository: https://github.com/nichtich/wikidata-taxonomy
+    release: wikidata-taxonomy
+    description: command-line tool to extract taxonomies from Wikidata
+-
+    name: wdmapper
+    type: application
+    status: production
+    language: Python
+    travis: org
+    repository: https://github.com/gbv/wdmapper
+    release: wdmapper
+    description: Wikidata authority file mapping tool
+
+-
     name: coli-conc-examples
     type: demo
     language: multiple
@@ -148,51 +185,6 @@
     repository: https://github.com/gbv/bartoc-jskos
     release: gbv/bartoc-jskos
     description: PHP wrapper to access BARTIC in JSKOS format
--
-    name: skosify
-    type: application
-    status: production
-    language: Python
-    travis: org
-    repository: https://github.com/NatLibFi/Skosify
-    release: skosify
-    description: command-line tool to convert and check SKOS vocabularies
--
-    name: bk2rdf
-    type: application
-    status: production
-    language: Perl
-    travis:
-    repository: https://github.com/gbv/bk2rdf
-    release: https://github.com/gbv/bk2rdf
-    description: extract and enrich BK records to MARC
--
-    name: wikidata-taxonomy
-    type: application
-    status: production
-    language: JavaScript
-    travis: org
-    repository: https://github.com/nichtich/wikidata-taxonomy
-    release: wikidata-taxonomy
-    description: command-line tool to extract taxonomies from Wikidata
--
-    name: wdmapper
-    type: application
-    status: production
-    language: Python
-    travis: org
-    repository: https://github.com/gbv/wdmapper
-    release: wdmapper
-    description: Wikidata authority file mapping tool
--
-    name: skos2jskos
-    type: application
-    status: prototype
-    language: Perl
-    travis: org
-    repository: https://github.com/gbv/skos2jskos
-    release: App-skos2jskos
-    description: Convert SKOS/RDF to JSKOS
 -
     name: ng-suggest
     type: library
