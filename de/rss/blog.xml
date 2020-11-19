@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/"/>
-  <updated>2020-11-04T00:00:00+00:00</updated>
+  <updated>2020-11-19T00:00:00+00:00</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/de/</id>
   <author>
     <name>coli-conc</name>
@@ -1399,6 +1399,18 @@ authority file extraction and mapping tools&lt;/p&gt;
       &lt;p&gt;Die &lt;a href=&quot;https://www.gbv.de/&quot; target=&quot;_blank&quot;&gt;Verbundzentrale des GBV (VZG)&lt;/a&gt; hat zum November 2020 den Betrieb des Vokabular-Verzeichnis &lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;BARTOC&lt;/a&gt; übernommen. BARTOC enthält Informationen zu über mehr als 5.000 Wissensorganisationssysteme wie Klassifikationen, Thesauri, Ontologien und Normdateien. Die Inhalte werden durch eine &lt;a href=&quot;http://bartoc.org/contact&quot; target=&quot;_blank&quot;&gt;internationale Gruppe von Redakteuren&lt;/a&gt; betreut und stehen in verschiedener Form frei zur Verfügung. Das &amp;quot;Basic Register of Thesauri, Ontologies &amp;amp; Classifications&amp;quot; (bisher &amp;quot;Basel Register of Thesauri, Ontologies &amp;amp; Classifications&amp;quot;) wurde 2013 von Andreas Ledl an der UB Basel entwickelt und dort betrieben. Mit dem Umzug an die VZG in Göttingen wurde die Datenbank auf eine neue technische Infrastruktur im Rahmen des &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;Projekt coli-conc&lt;/a&gt; umgestellt. BARTOC wird damit zu einem zentralen Bestandteil weiterer Normdatendienste wie der Webanwendung &lt;a href=&quot;https://coli-conc.gbv.de/de/cocoda/&quot; target=&quot;_blank&quot;&gt;Cocoda&lt;/a&gt; zur Erstellung und Pflege von Konkordanzen und den einheitlichen Schnittstellen zum Zugriff auf Vokabulare.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://bartoc.org/img/bartoc-logo.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Die Adresse &lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;https://bartoc.org/&lt;/a&gt; und alle BARTOC-URLs bleiben bestehen. Das Redaktionsteam freut sich über Hinweise auf Ergänzungen und Korrekturen.&lt;/p&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>Mapping Wikidata and other vocabularies with Cocoda</title>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/11/19/wikidata-mapping/"/>
+    <updated>2020-11-19T00:00:00+00:00</updated>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/11/19/wikidata-mapping/</id>
+    <summary>At WikiCite Virtual conference we showed how to map Wikidata and other vocabularies with Cocoda mapping application</summary>
+    <content type="html">
+      &lt;p&gt;Last month the &lt;a href=&quot;https://meta.wikimedia.org/wiki/WikiCite/2020_Virtual_conference&quot; target=&quot;_blank&quot;&gt;WikiCite Virtual Conference&lt;/a&gt; took place with 32 hours of presentations and discussion in 5 languages. Recordings are available, there is a lot of interesting input! In particular we co-organized a &lt;a href=&quot;https://meta.wikimedia.org/wiki/WikiCite/2020_Virtual_conference#Wissensorganisation_und_Bibliographische_Daten&quot; target=&quot;_blank&quot;&gt;session on Knowledge Organization and bibliographic data&lt;/a&gt;. After a keynote by Andrea Scharnhorst we gave a German introduction how to create and manage mappings between Wikidata and other vocabularies using &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/cocoda/&quot;&gt;Cocoda&lt;/a&gt;. The presentation was later &lt;a href=&quot;https://www.wikidata.org/wiki/File:Wikidata_Cocoda_Screencast.webm&quot; target=&quot;_blank&quot;&gt;repeated in English&lt;/a&gt; as well (7 minutes).&lt;/p&gt;
+&lt;p&gt;In Wikidata there is also &lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:Tools/Cocoda&quot; target=&quot;_blank&quot;&gt;a detailled documentation page&lt;/a&gt; about Cocoda. Have a look and &lt;a href=&quot;https://coli-conc.gbv.de/cocoda/wikidata/&quot; target=&quot;_blank&quot;&gt;try out mapping&lt;/a&gt;!&lt;/p&gt;
 
     </content>
   </entry>
