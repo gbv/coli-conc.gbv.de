@@ -28,7 +28,8 @@ title: Publications
 
 Short videos introducing our [services]({{ "/services/" | url }}).
 
-- [Normdaten-Mapping mit Cocoda @vBIB20](https://doi.org/10.5446/36465) German (2020-05-27)
+-   [Cocoda for mapping Wikidata and other vocabularies](https://www.wikidata.org/wiki/File:Wikidata_Cocoda_Screencast.webm) English (2020-10-30)
+-   [Normdaten-Mapping mit Cocoda @vBIB20](https://doi.org/10.5446/36465) German (2020-05-27)
 -   [Wikidata-Mappings mit Cocoda 1.1.0](https://vimeo.com/357295989) German (2019-09-02)
 -   [Quick Demo of Cocoda 0.9.3](../img/cocoda-quick-screencast.mp4) (2019-06-25)
 -   [Neue Features in Cocoda 0.8.0](https://vimeo.com/323457260) German
