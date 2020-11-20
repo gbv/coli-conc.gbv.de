@@ -29,13 +29,13 @@ subtitle:
 ## APIs
 Several web services are being developed to query information related to knowledge organization systemes in [JSKOS format](https://gbv.github.io/jskos/).
 
+- [Mappings API](https://coli-conc.gbv.de/api/mappings)
+
+  Access to collected mappings and concordances (see [API Base](https://coli-conc.gbv.de/api/))
+
 - [DANTE API](https://api.dante.gbv.de/)
 
   Access to terminologies and concepts from central terminology service of VZG.
-
-- [Mappings API](https://coli-conc.gbv.de/api/mappings)
-
-  Access to collected mappings and concordances.
 
 - [Occurrences API]({{ "/occurrences/" | url }})
 
