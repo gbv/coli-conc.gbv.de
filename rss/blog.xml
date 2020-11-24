@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/"/>
-  <updated>2020-11-19T00:00:00+00:00</updated>
+  <updated>2020-11-24T00:00:00+00:00</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/</id>
   <author>
     <name>coli-conc</name>
@@ -1400,6 +1400,18 @@ authority file extraction and mapping tools&lt;/p&gt;
     <content type="html">
       &lt;p&gt;Last month the &lt;a href=&quot;https://meta.wikimedia.org/wiki/WikiCite/2020_Virtual_conference&quot; target=&quot;_blank&quot;&gt;WikiCite Virtual Conference&lt;/a&gt; took place with 32 hours of presentations and discussion in 5 languages. Recordings are available, there is a lot of interesting input! In particular we co-organized a &lt;a href=&quot;https://meta.wikimedia.org/wiki/WikiCite/2020_Virtual_conference#Wissensorganisation_und_Bibliographische_Daten&quot; target=&quot;_blank&quot;&gt;session on Knowledge Organization and bibliographic data&lt;/a&gt;. After a keynote by Andrea Scharnhorst we gave a German introduction how to create and manage mappings between Wikidata and other vocabularies using &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/cocoda/&quot;&gt;Cocoda&lt;/a&gt;. The presentation was later &lt;a href=&quot;https://www.wikidata.org/wiki/File:Wikidata_Cocoda_Screencast.webm&quot; target=&quot;_blank&quot;&gt;repeated in English&lt;/a&gt; as well (7 minutes).&lt;/p&gt;
 &lt;p&gt;In Wikidata there is also &lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:Tools/Cocoda&quot; target=&quot;_blank&quot;&gt;a detailled documentation page&lt;/a&gt; about Cocoda. Have a look and &lt;a href=&quot;https://coli-conc.gbv.de/cocoda/wikidata/&quot; target=&quot;_blank&quot;&gt;try out mapping&lt;/a&gt;!&lt;/p&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>Cocoda 1.4.3</title>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/11/24/cocoda-1.4.3/"/>
+    <updated>2020-11-24T00:00:00+00:00</updated>
+    <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/11/24/cocoda-1.4.3/</id>
+    <summary>Support for Skosmos hierarchies and sharing mapping searches</summary>
+    <content type="html">
+      &lt;p&gt;Release 1.4.3 of &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; contains a few bugfixes and updated dependencies. It also adds support for Skomos hierarchies (including the ILC vocabulary) as well as a &amp;quot;Share Link&amp;quot; for mapping searches.&lt;/p&gt;
+&lt;p&gt;You can find the full release notes &lt;a href=&quot;https://github.com/gbv/cocoda/releases/tag/1.4.3&quot; target=&quot;_blank&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
