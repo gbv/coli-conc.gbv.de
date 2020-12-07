@@ -95,6 +95,11 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Reviewed Articles
 
+-   Balakrishnan, Uma; Soergel, Dagobert; Helfer, Olivia:
+    Representing Concepts through Description Logic Expressions for Knowledge Organization System (KOS) Mapping.
+    In: Lykke, Marianne; Svarre, Tanja; Skov, Mette; Martínez-Ávila, Daniel (eds.):
+    Proceedings of the Sixteenth International ISKO Conference, 2020. pp. 455-459.
+    <https://doi.org/10.5771/9783956507762-455>
 -   Balakrishnan, Uma; Voß, Jakob; Soergel, Dagobert: Towards integrated
     systems for KOS management, mapping, and access. Coli-conc and its
     collaborative computer-assisted KOS mapping tool Cocoda. In:
@@ -102,7 +107,7 @@ a collection of knowledge organization systems encoded in JSKOS
     Opportunities for Knowledge Organization in the Digital Age.
     Proceedings of the Fifteenth International ISKO Conference 9-11 July
     2018 Porto. pp. 693-701.
-    [https://doi.org/10.5771/9783956504211-693](https://doi.org/10.5771/9783956504211-693)
+    <https://doi.org/10.5771/9783956504211-693>
 -   Voß, Jakob; Bode, Laura; Hamasur, Diana; Isbanner, Laura; Jäger,
     Jan; Kurtar, Ebru; Peters, Kim; Rufaioglu, Melis; Schneevogt,
     Christian; Stelter, Romy; Wiegand, Jennifer; Wil, Ann Christin;
