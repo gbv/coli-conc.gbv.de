@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/"/>
-  <updated>2020-11-24T00:00:00+00:00</updated>
+  <updated>2020-12-08T00:00:00+00:00</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/</id>
   <author>
     <name>coli-conc</name>
@@ -1412,6 +1412,17 @@ authority file extraction and mapping tools&lt;/p&gt;
     <content type="html">
       &lt;p&gt;Release 1.4.3 of &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; contains a few bugfixes and updated dependencies. It also adds support for Skomos hierarchies (including the ILC vocabulary) as well as a &amp;quot;Share Link&amp;quot; for mapping searches.&lt;/p&gt;
 &lt;p&gt;You can find the full release notes &lt;a href=&quot;https://github.com/gbv/cocoda/releases/tag/1.4.3&quot; target=&quot;_blank&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>Approval of DFG Funding</title>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/12/08/dfg-funding/"/>
+    <updated>2020-12-08T00:00:00+00:00</updated>
+    <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/12/08/dfg-funding/</id>
+    <summary>Approval of DFG funding for the final phase of project coli-conc (2021/2022)</summary>
+    <content type="html">
+      &lt;p&gt;We are glad to inform you that project coli-conc has received a further two year funding by the DFG for its concluding phase in 2021/2022. We will regularly post updates with the results along the way.&lt;/p&gt;
 
     </content>
   </entry>
