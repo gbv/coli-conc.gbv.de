@@ -6,4 +6,4 @@ tags:
 - blog
 ---
 
-Wir freuen uns mitzuteilen, dass das Projekt coli-conc für die abschließende Projektphase 2021/2022 eine weitere zweijährige finanzielle Unterstützung von der DFG bewilligt bekommen hat. Wir werden regelmäßige Updates zu den Ergebnissen veröffentlichen.
+Wir freuen uns mitzuteilen, dass das Projekt coli-conc für die abschließende Projektphase 2021/2022 eine weitere zweijährige finanzielle Unterstützung von der DFG bewilligt bekommen hat. Wir werden an dieser Stelle regelmäßige Updates zum weiteren Projektverlauf veröffentlichen.
