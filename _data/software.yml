@@ -40,7 +40,7 @@
     status: production
     language: JavaScript
     travis: com
-    repository: http://github.com/gbv/wikidata-jskos
+    repository: https://github.com/gbv/wikidata-jskos
     release:
     description: Access Wikidata in JSKOS format
 -

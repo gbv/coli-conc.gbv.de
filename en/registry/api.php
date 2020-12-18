@@ -1,5 +1,5 @@
 <?php
-$base = 'http://coli-conc.gbv.de/registry/';
+$base = 'https://coli-conc.gbv.de/registry/';
 $id = $_GET['id'] ?? '';
 $uri = $base.$id;
 
