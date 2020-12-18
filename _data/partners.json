@@ -11,7 +11,7 @@
     {
       "image": "ur-300px.png",
       "image2x": "ur-600px.png",
-      "url": "http://www.uni-regensburg.de/",
+      "url": "https://www.uni-regensburg.de/",
       "text": "Universität Regensburg",
       "flexBase": "33%",
       "imageWidth": "260px"
@@ -19,7 +19,7 @@
     {
       "image": "zbw-300px.png",
       "image2x": "zbw-600px.png",
-      "url": "http://www.leibniz-transfer.de/einrichtungen/wirtschafts-und-sozialwissenschaften-raumwissenschaften/deutsche-zentralbibliothek-fuer-wirtschaftswissenschaften-ao-leibniz-informationszentrum-wirtschaft/",
+      "url": "https://www.zbw.eu",
       "text": "Leibniz-Informationszentrum Wirtschaft",
       "flexBase": "33%",
       "imageWidth": "280px"
@@ -35,7 +35,7 @@
     {
       "image": "stabi-300px.png",
       "image2x": "stabi-600px.png",
-      "url": "http://staatsbibliothek-berlin.de/",
+      "url": "https://staatsbibliothek-berlin.de/",
       "text": "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
       "flexBase": "33%",
       "imageWidth": "280px"
