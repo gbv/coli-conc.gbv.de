@@ -22,22 +22,22 @@
     "build-local": "node scripts/build.js --pathprefix=coli-conc-next --url=http://localhost/coli-conc-next/"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-plugin-rss": "^1.0.9",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "html-minifier": "^4.0.0",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^4.0.0",
     "lodash": "^4.17.20",
-    "markdown-it-anchor": "^5.3.0",
+    "markdown-it-anchor": "^7.0.0",
     "markdown-it-footnote": "^3.0.2",
-    "meow": "^7.1.1",
-    "moment": "^2.28.0",
-    "sass": "^1.26.11",
-    "sharp": "^0.26.1"
+    "meow": "^8.1.0",
+    "moment": "^2.29.1",
+    "sass": "^1.32.0",
+    "sharp": "^0.27.0"
   },
   "devDependencies": {
-    "eslint": "^7.9.0",
-    "eslint-config-gbv": "git+https://github.com/gbv/eslint-config-gbv.git"
+    "eslint": "^7.17.0",
+    "eslint-config-gbv": "~1.0.1"
   }
 }

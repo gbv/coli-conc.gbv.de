@@ -9,7 +9,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(pluginRss)
 
   // Add yml
-  eleventyConfig.addDataExtension("yml", contents => yaml.safeLoad(contents))
+  eleventyConfig.addDataExtension("yml", contents => yaml.load(contents))
 
   // Add transformation to minify HTML
   // See: https://www.11ty.dev/docs/config/#transforms
