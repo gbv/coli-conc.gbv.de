@@ -269,6 +269,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     2018) <https://doi.org/10.5281/zenodo.1256498>
 -   coli-conc report 12: [Übersicht von GND-Konkordanzen](tr12.html)
     (November 2018) <https://doi.org/10.5281/zenodo.1689997>
+-   VZG-Colibri-Bericht 1/2008: Reiner, Ulrike: Bewertung von automatisch DDC-klassifizierten Titeldatensätzen der Deutschen Nationalbibliothek (DNB). ([PDF]({{ "/publications/colibri05.pdf" | urla }}))
 
 {% endsection %}
 
