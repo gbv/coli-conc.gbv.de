@@ -137,6 +137,8 @@ a collection of knowledge organization systems encoded in JSKOS
 -   Balakrishnan, U.: DFG-Projekt: Coli-Conc. Das Mapping Tool
     "Cocoda". In: O-Bib. Das Offene Bibliotheksjournal. Vol. 3, Nr. 1
     (2016). <https://doi.org/10.5282/o-bib/2016H1S11-16>
+-   Reiner, U.: Automatic Analysis of Dewey Decimal Classification Notations.
+    In: 31. Jahrestagung der Gesellschaft für Klassifikation (2007) p. 697-704 [urn:nbn:de:swb:ch1-200701390](https://nbn-resolving.org/urn:nbn:de:swb:ch1-200701390)
 
 {% endsection %}
 
@@ -241,6 +243,8 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 ## Project Reports
 
+## coli-conc
+
 -   coli-conc Technical Report 1: [Cocoda primer](tr1.html). (April
     2015) <https://doi.org/10.5281/zenodo.16786>.
 -   coli-conc Technical Report 2: [Open Source KOS software](tr2.html).
@@ -270,9 +274,9 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 -   coli-conc report 12: [Übersicht von GND-Konkordanzen](tr12.html)
     (November 2018) <https://doi.org/10.5281/zenodo.1689997>
 
-### Project Colibri
+### Colibri/DDC
 
-VZG-Project Colibri was started in 2003 by Ulrike Reiner.
+VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of subprojects coli-ana, coli-auto, coli-corr and coli-conc.
 
 -   VZG-Colibri-Bericht 1/2003: Ulrike Reiner: VZG-Projekt Colibri: Überblick, Stand, Ergebnisse Juli-Dezember 2003 (2003) ([PDF](https://verbundwiki.gbv.de/download/attachments/884990/colibri01-04-03-11-without-appendix.pdf))
 -   VZG-Colibri-Bericht 2/2004: Ulrike Reiner: DDC-Notationsanalyse und synthese September 2004-Februar 2005. (2005) ([PDF]({{ "/publications/colibri03.pdf" | urla }}))
