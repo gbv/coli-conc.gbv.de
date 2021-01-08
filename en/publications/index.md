@@ -270,10 +270,12 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 -   coli-conc report 12: [Übersicht von GND-Konkordanzen](tr12.html)
     (November 2018) <https://doi.org/10.5281/zenodo.1689997>
 
-Reports of project Colibri:
+### Project Colibri
+
+VZG-Project Colibri was started in 2003 by Ulrike Reiner.
 
 -   VZG-Colibri-Bericht 1/2003: Ulrike Reiner: VZG-Projekt Colibri: Überblick, Stand, Ergebnisse Juli-Dezember 2003 (2003) ([PDF](https://verbundwiki.gbv.de/download/attachments/884990/colibri01-04-03-11-without-appendix.pdf))
--   VZG-Colibri-Bericht 2/2004: Ulrike Reiner: DDC-Notationsanalyse und synthese (2005)
+-   VZG-Colibri-Bericht 2/2004: Ulrike Reiner: DDC-Notationsanalyse und synthese September 2004-Februar 2005. (2005) ([PDF]({{ "/publications/colibri03.pdf" | urla }}))
 -   VZG-Colibri-Bericht 1/2008: Ulrike Reiner: Bewertung von automatisch DDC-klassifizierten Titeldatensätzen der Deutschen Nationalbibliothek (DNB). (2008) ([PDF]({{ "/publications/colibri05.pdf" | urla }}))
 -   VZG-Colibri-Bericht 1/2011: Uma Balakrishnan: An EZB-DDC Concordance (June 2011) <https://doi.org/10.5281/zenodo.28263>
 
