@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/"/>
-  <updated>2020-12-08T00:00:00+00:00</updated>
+  <updated>2021-02-04T00:00:00+00:00</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/de/</id>
   <author>
     <name>coli-conc</name>
@@ -1434,6 +1434,18 @@ authority file extraction and mapping tools&lt;/p&gt;
     <summary>DFG-Bewilligung für die abschließende Phase des coli-conc Projekts (2021/2022)</summary>
     <content type="html">
       &lt;p&gt;Wir freuen uns mitzuteilen, dass das Projekt coli-conc für die abschließende Projektphase 2021/2022 eine weitere zweijährige finanzielle Unterstützung von der DFG bewilligt bekommen hat. Wir werden an dieser Stelle regelmäßige Updates zum weiteren Projektverlauf veröffentlichen.&lt;/p&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>Stable release of BARTOC.org</title>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/02/04/bartoc-1-0/"/>
+    <updated>2021-02-04T00:00:00+00:00</updated>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/02/04/bartoc-1-0/</id>
+    <summary>We released a stable release 1.0.0 of BARTOC.org database interface.</summary>
+    <content type="html">
+      &lt;p&gt;At the end of 2020 the &lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;terminology registry BARTOC&lt;/a&gt; was migrated to the head office of common library network (VZG). Team coli-conc is responsible for its maintenance since then. In the last month we fixed the pending bugs and polished the user interface to finally reach a stable &lt;a href=&quot;https://github.com/gbv/bartoc.org/releases/tag/v1.0.0&quot; target=&quot;_blank&quot;&gt;release version 1.0.0&lt;/a&gt;. Major improvements include an enhanced &lt;a href=&quot;http://bartoc.org/vocabularies&quot; target=&quot;_blank&quot;&gt;search&lt;/a&gt; with multiple sort options and improved vocabulary editing.&lt;/p&gt;
+&lt;p&gt;BARTOC is continuously extended, your &lt;a href=&quot;https://github.com/gbv/bartoc.org/issues&quot; target=&quot;_blank&quot;&gt;feedback and suggestions are highly appreciated&lt;/a&gt;! To add or modify vocabulary metadata please &lt;a href=&quot;http://bartoc.org/contact&quot; target=&quot;_blank&quot;&gt;contact the editors&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
