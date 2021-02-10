@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/"/>
-  <updated>2021-02-04T00:00:00+00:00</updated>
+  <updated>2021-02-10T00:00:00+00:00</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/de/</id>
   <author>
     <name>coli-conc</name>
@@ -1328,25 +1328,6 @@ authority file extraction and mapping tools&lt;/p&gt;
     </content>
   </entry>
   <entry>
-    <title>Stellenausschreibung</title>
-    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/02/10/stellenausschreibung/"/>
-    <updated>2020-02-10T00:00:00+00:00</updated>
-    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/02/10/stellenausschreibung/</id>
-    <summary>Wir suchen zum nächstmöglichen Zeitpunkt Verstärkung für unser Team</summary>
-    <content type="html">
-      &lt;p&gt;Wir suchen zum nächstmöglichen Zeitpunkt als Verstärkung für &lt;a href=&quot;https://coli-conc.gbv.de/contact/&quot; target=&quot;_blank&quot;&gt;unser Team&lt;/a&gt; eine&lt;em&gt;n Systembibliothekar&lt;/em&gt;in. Die Stelle ist teilzeitgeeignet mit umfangreicher Möglichkeit zur Telearbeit, ein Umzug nach Göttingen ist also nicht notwendig. Zu den geplanten Tätigkeiten gehört&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Erstellung und Bewertung von Normdaten-Konkordanzen und Vokabularpflege&lt;/li&gt;
-&lt;li&gt;Datenpflege, Datenkonvertierung und Aufbereitung von Statistiken&lt;/li&gt;
-&lt;li&gt;Erstellung von Informationsmaterial&lt;/li&gt;
-&lt;li&gt;Durchführung von Workshops und Schulungen (bis auf Weiteres primär online)&lt;/li&gt;
-&lt;li&gt;Kommunikation mit bibliothekarischen Einrichtungen und Herausgeberinnen und Herausgeber&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Bewerbungsschluss ist Ende März. Weitere Details &lt;a href=&quot;https://www.gbv.de/stellen/pdf/stellenausschreibung-systembibliothekarin-2021.pdf&quot; target=&quot;_blank&quot;&gt;in der Stellenausschreibung&lt;/a&gt;. Für Rückfragen stehen wir gerne zur Verfügung!&lt;/p&gt;
-
-    </content>
-  </entry>
-  <entry>
     <title>Cocoda 1.4.0</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2020/06/30/cocoda-1.4.0/"/>
     <updated>2020-06-30T00:00:00+00:00</updated>
@@ -1465,6 +1446,25 @@ authority file extraction and mapping tools&lt;/p&gt;
     <content type="html">
       &lt;p&gt;At the end of 2020 the &lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;terminology registry BARTOC&lt;/a&gt; was migrated to the head office of common library network (VZG). Team coli-conc is responsible for its maintenance since then. In the last month we fixed the pending bugs and polished the user interface to finally reach a stable &lt;a href=&quot;https://github.com/gbv/bartoc.org/releases/tag/v1.0.0&quot; target=&quot;_blank&quot;&gt;release version 1.0.0&lt;/a&gt;. Major improvements include an enhanced &lt;a href=&quot;http://bartoc.org/vocabularies&quot; target=&quot;_blank&quot;&gt;search&lt;/a&gt; with multiple sort options and improved vocabulary editing.&lt;/p&gt;
 &lt;p&gt;BARTOC is continuously extended, your &lt;a href=&quot;https://github.com/gbv/bartoc.org/issues&quot; target=&quot;_blank&quot;&gt;feedback and suggestions are highly appreciated&lt;/a&gt;! To add or modify vocabulary metadata please &lt;a href=&quot;http://bartoc.org/contact&quot; target=&quot;_blank&quot;&gt;contact the editors&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>Stellenausschreibung</title>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/02/10/stellenausschreibung/"/>
+    <updated>2021-02-10T00:00:00+00:00</updated>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/02/10/stellenausschreibung/</id>
+    <summary>Wir suchen zum nächstmöglichen Zeitpunkt Verstärkung für unser Team</summary>
+    <content type="html">
+      &lt;p&gt;Wir suchen zum nächstmöglichen Zeitpunkt als Verstärkung für &lt;a href=&quot;https://coli-conc.gbv.de/contact/&quot; target=&quot;_blank&quot;&gt;unser Team&lt;/a&gt; eine&lt;em&gt;n Systembibliothekar&lt;/em&gt;in. Die Stelle ist teilzeitgeeignet mit umfangreicher Möglichkeit zur Telearbeit, ein Umzug nach Göttingen ist also nicht notwendig. Zu den geplanten Tätigkeiten gehört&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Erstellung und Bewertung von Normdaten-Konkordanzen und Vokabularpflege&lt;/li&gt;
+&lt;li&gt;Datenpflege, Datenkonvertierung und Aufbereitung von Statistiken&lt;/li&gt;
+&lt;li&gt;Erstellung von Informationsmaterial&lt;/li&gt;
+&lt;li&gt;Durchführung von Workshops und Schulungen (bis auf Weiteres primär online)&lt;/li&gt;
+&lt;li&gt;Kommunikation mit bibliothekarischen Einrichtungen und Herausgeberinnen und Herausgeber&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bewerbungsschluss ist Ende März. Weitere Details &lt;a href=&quot;https://www.gbv.de/stellen/pdf/stellenausschreibung-systembibliothekarin-2021.pdf&quot; target=&quot;_blank&quot;&gt;in der Stellenausschreibung&lt;/a&gt;. Für Rückfragen stehen wir gerne zur Verfügung!&lt;/p&gt;
 
     </content>
   </entry>
