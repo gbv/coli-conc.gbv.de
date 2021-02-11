@@ -1446,6 +1446,10 @@ authority file extraction and mapping tools&lt;/p&gt;
     <content type="html">
       &lt;p&gt;At the end of 2020 the &lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;terminology registry BARTOC&lt;/a&gt; was migrated to the head office of common library network (VZG). Team coli-conc is responsible for its maintenance since then. In the last month we fixed the pending bugs and polished the user interface to finally reach a stable &lt;a href=&quot;https://github.com/gbv/bartoc.org/releases/tag/v1.0.0&quot; target=&quot;_blank&quot;&gt;release version 1.0.0&lt;/a&gt;. Major improvements include an enhanced &lt;a href=&quot;http://bartoc.org/vocabularies&quot; target=&quot;_blank&quot;&gt;search&lt;/a&gt; with multiple sort options and improved vocabulary editing.&lt;/p&gt;
 &lt;p&gt;BARTOC is continuously extended, your &lt;a href=&quot;https://github.com/gbv/bartoc.org/issues&quot; target=&quot;_blank&quot;&gt;feedback and suggestions are highly appreciated&lt;/a&gt;! To add or modify vocabulary metadata please &lt;a href=&quot;http://bartoc.org/contact&quot; target=&quot;_blank&quot;&gt;contact the editors&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;New layout:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/bartoc-screenshot-2021.png&quot; alt=&quot;BARTOC after migration&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Old layout:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/bartoc-screenshot-2020.png&quot; alt=&quot;BARTOC before migration&quot;&gt;&lt;/p&gt;
 
     </content>
   </entry>
