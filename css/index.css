@@ -1,0 +1,112 @@
+.small-show {
+  display: none !important;
+}
+
+@media (max-width: 500px) {
+  .tiny-hide {
+    display: none !important;
+  }
+}
+@media (max-width: 820px) {
+  .small-hide {
+    display: none !important;
+  }
+
+  .small-show {
+    display: initial !important;
+  }
+}
+@media (max-width: 1200px) {
+  .medium-hide {
+    display: none !important;
+  }
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-weight-bold {
+  font-weight: 500;
+}
+
+.coli-conc-logo {
+  display: block;
+  margin-top: calc(0px + (10) * ((100vw - 300px) / 1300));
+}
+
+.coli-conc-logo > img {
+  max-width: 200px;
+  width: 20%;
+  min-width: 100px;
+}
+
+.cocoda-wrapper p {
+  margin: 10px 0 15px 0;
+}
+
+.cocoda-wrapper h3 {
+  margin: 0px 0 0 0;
+  color: #b13f13;
+}
+
+.cocoda-wrapper .service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cocoda-wrapper .service > * {
+  padding: 0 5px;
+}
+
+.cocoda-wrapper .subtitle {
+  margin: 10px 0 25px 0;
+}
+
+.cocoda {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cocoda > img {
+  flex: 0 0 calc(45vw + 5 * ((100vw - 300px) / 1300));
+  min-width: 300px;
+  max-width: 600px;
+  box-shadow: -4px 8px 99px #26262633;
+  border: 3px solid #E9E1E1;
+  border-bottom-style: none;
+}
+
+.cocoda > div {
+  flex: 1;
+  align-self: center;
+  padding: 0 10px;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  bottom: 0px;
+  left: 0;
+}
+
+.wave > path {
+  fill: #f1eaea;
+}

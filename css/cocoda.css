@@ -1,0 +1,34 @@
+/**
+CSS for /cocoda page
+*/
+.cocoda-video {
+  width: 100%;
+}
+
+.cocoda-video > div {
+  margin: 10px auto;
+  width: 90%;
+  max-width: 600px;
+  border: 2px solid black;
+}
+
+.cocoda-video > div > video {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 1150px) {
+  .cocoda-video {
+    float: right;
+    width: auto;
+  }
+
+  .cocoda-video > div {
+    margin: 10px 0 10px 20px;
+  }
+}
+@media (max-width: 1330px) {
+  .cocoda-clear {
+    clear: both;
+  }
+}
