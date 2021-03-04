@@ -59,7 +59,7 @@ if (output != defaultOutput) {
   console.log()
 }
 
-const fs = require("fs")
+const fs = require("fs-extra")
 const path = require("path")
 const { execSync } = require("child_process")
 
@@ -98,6 +98,8 @@ execSync(
   "npm run sass",
   { stdio: "inherit" },
 )
+console.log(`- Copying resulting CSS into ${output}/css/...`)
+fs.copySync("_includes/css", `${output}/css`)
 console.log()
 
 
