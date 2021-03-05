@@ -17,6 +17,8 @@ html {
 body {
   margin: 0;
   font-family: fonts.$main, fonts.$fallback;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: weights.$regular;
   line-height: 1.5;
   font-size: fonts.$size-normal;

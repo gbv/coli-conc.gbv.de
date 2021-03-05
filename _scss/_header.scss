@@ -6,7 +6,7 @@
 /* header */
 .header {
   width: 100%;
-  font-size: 16px;
+  font-size: fonts.$size-normal;
   font-weight: weights.$bold;
   padding: 0 calc(0px + 25 * ((100vw - 300px) / 1300)) 0 calc(0px + 25 * ((100vw - 300px) / 1300));
 }
