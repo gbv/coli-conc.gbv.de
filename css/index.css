@@ -31,15 +31,15 @@
 }
 
 .font-weight-light {
-  font-weight: 300;
-}
-
-.font-weight-regular {
   font-weight: 400;
 }
 
+.font-weight-regular {
+  font-weight: 600;
+}
+
 .font-weight-bold {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .coli-conc-logo {
