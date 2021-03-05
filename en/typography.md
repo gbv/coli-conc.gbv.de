@@ -76,6 +76,29 @@ font-size-largestest {% badge "36px" %} = h1
 ```
 {% endraw %}
 
+### Font Weights
+
+{% div "font-size-normal font-weight-light" %}
+font-size-normal font-weight-light {% badge "16px" %} {% badge "Weight: 400" %}
+{% enddiv %}
+{% div "font-size-normal font-weight-regular" %}
+font-size-normal font-weight-regular {% badge "16px" %} {% badge "Weight: 600" %}
+{% enddiv %}
+{% div "font-size-normal font-weight-bold" %}
+font-size-normal font-weight-bold {% badge "16px" %} {% badge "Weight: 700" %}
+{% enddiv %}
+
+{% div "font-size-large font-weight-light" %}
+font-size-large font-weight-light {% badge "32px" %} {% badge "Weight: 400" %}
+{% enddiv %}
+{% div "font-size-large font-weight-regular" %}
+font-size-large font-weight-regular {% badge "32px" %} {% badge "Weight: 600" %}
+{% enddiv %}
+{% div "font-size-large font-weight-bold" %}
+font-size-large font-weight-bold {% badge "32px" %} {% badge "Weight: 700" %}
+{% enddiv %}
+
+
 ### Markdown Semantic Text Elements
 
 **Bold** `**Bold**`
