@@ -14,13 +14,13 @@ subtitle:
 
   The Mapping Tool is our main application
 
-- [coli-rich]({{ "/coli-rich/" | url }})
-
-  Catalog enrichment via concordances
-
 - [coli-ana]({{ "/coli-ana/" | url }})
 
   A tool for analysis of synthesized DDC numbers is being worked on.
+
+- [coli-rich]({{ "/coli-rich/" | url }})
+
+  Catalog enrichment via concordances
 
 {% endsection %}
 
