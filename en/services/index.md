@@ -14,6 +14,10 @@ subtitle:
 
   The Mapping Tool is our main application
 
+- [BARTOC](https://bartoc.org/)
+
+  A database of Knowledge Organization Systems and KOS related registries.
+
 - [coli-ana]({{ "/coli-ana/" | url }})
 
   A tool for analysis of synthesized DDC numbers is being worked on.
