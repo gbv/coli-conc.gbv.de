@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/"/>
-  <updated>2021-02-04T00:00:00+00:00</updated>
+  <updated>2021-02-04T00:00:00Z</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/</id>
   <author>
     <name>coli-conc</name>
@@ -12,7 +12,7 @@
   <entry>
     <title>Cocoda primer</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/publications/tr1.html"/>
-    <updated>2015-04-13T00:00:00+00:00</updated>
+    <updated>2015-04-13T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr1.html</id>
     <summary>This report briefly summarizes prototype and architecture of a mapping tool that is being created as part of project coli-conc.</summary>
     <content type="html">
@@ -134,7 +134,7 @@ for illustration and testing.&lt;/p&gt;
   <entry>
     <title>Open Source KOS software</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/publications/tr2.html"/>
-    <updated>2016-03-24T00:00:00+00:00</updated>
+    <updated>2016-03-24T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr2.html</id>
     <summary>This report gives an overview about Open Source software for Knowledge Organization Systems (KOS)</summary>
     <content type="html">
@@ -316,14 +316,14 @@ A first start has been made with a
   <entry>
     <title>A novel approach to terminology mappings</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html"/>
-    <updated>2016-04-01T00:00:00+00:00</updated>
+    <updated>2016-04-01T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html</id>
     <summary>This report presents a new architecture for managing large numbers of concordances</summary>
     <content type="html">
       &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;The need of mappings between terminologies, vocabularies, ontologies, and other
 kinds of knowledge organization systems has been articulated since introduction
-of such systems at large scale.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; For this
+of such systems at large scale.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; For this
 reason &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;project coli-conc&lt;/a&gt; aims at developing an
 infrastructure to facilitate management and exchange of (cross-)concordances
 between terminologies.  This report outlines a novel architecure of terminology
@@ -346,8 +346,8 @@ architecure.&lt;/p&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://gbv.github.io/images/m2m.png&quot; alt=&quot;&quot;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;https://gbv.github.io/images/hub.png&quot; alt=&quot;&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://gbv.github.io/images/m2m.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://gbv.github.io/images/hub.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -366,7 +366,7 @@ resulting data structure has the shape of a very long noodle.&lt;/p&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;https://gbv.github.io/images/noodle.png&quot; alt=&quot;&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://gbv.github.io/images/noodle.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -378,18 +378,18 @@ the whole data structure is managed as blockchain: this kind of distributed
 database known from Bitcoin can be applied to other domains as well
 [@Nakamoto2008].&lt;/p&gt;
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
-&lt;p&gt;This report introduces a novel approach to manage a very large&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; number of mappings between any kind of
+&lt;p&gt;This report introduces a novel approach to manage a very large&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; number of mappings between any kind of
 knowledge organization systems. The so called noodle architecture combines the
 benefit of a hub architecture with less struggle about which system to use as
 central hub.&lt;/p&gt;
 &lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
-&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;For instance at the 1910 conference of the
-International Federation for Information and Documentation (FID). &lt;a href=&quot;#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+International Federation for Information and Documentation (FID). &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;In notions of big
-data as explained by @Shaw2015. &lt;a href=&quot;#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+data as explained by @Shaw2015. &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -399,7 +399,7 @@ data as explained by @Shaw2015. &lt;a href=&quot;#fnref2&quot; class=&quot;footn
   <entry>
     <title>Anforderungen an Normdatendienste</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/publications/tr4.html"/>
-    <updated>2016-04-21T00:00:00+00:00</updated>
+    <updated>2016-04-21T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr4.html</id>
     <summary>Ergebnis der Session &quot;Anforderungen an Normdatendienste&quot; auf dem DINI AG KIM Workshop 2016</summary>
     <content type="html">
@@ -504,7 +504,7 @@ ist jedoch aufgrund des Arbeitsumfangs eine zusätzliche Förderung angebracht.&
   <entry>
     <title>Open Source web applications for Knowledge Organization Systems</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html"/>
-    <updated>2016-08-31T00:00:00+00:00</updated>
+    <updated>2016-08-31T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html</id>
     <summary>Web applications to create, manage, and publish Knowledge Organization Systems</summary>
     <content type="html">
@@ -517,7 +517,7 @@ required.  To access and manage KOS there are several tools, as listed in a
 first report [@ColiConcTR2]. This new report contains an update of this list,
 narrowed down to web applications. The collection only contains applications
 with main focus on KOS management. More application exist to make use of
-controlled vocabularies as part of another task, &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but their
+controlled vocabularies as part of another task, &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but their
 evaluation would require a much larger study.&lt;/p&gt;
 &lt;h1 id=&quot;open-source-web-applications-for-kos&quot;&gt;Open Source web applications for KOS&lt;/h1&gt;
 &lt;p&gt;The list given in &lt;a href=&quot;http://coli-conc.gbv.de/publications/tr2.html&quot; target=&quot;_blank&quot;&gt;coli-conc report
@@ -649,7 +649,7 @@ last update, and rough number of contributors.&lt;/p&gt;
 &lt;td&gt;10&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Django C.V.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;td&gt;Django C.V.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;td&gt;no&lt;/td&gt;
 &lt;td&gt;no&lt;/td&gt;
 &lt;td&gt;Python&lt;/td&gt;
@@ -786,7 +786,7 @@ applications the question is whether to&lt;/p&gt;
 &lt;p&gt;ASKOSI, SKOSjs, SKOS Play and VoCol have been selected to be ignored.  For
 ontology editors it neither makes sense to create a dedicated JSKOS API. A
 wrapper to convert Wikidata (based on Wikibase) to JSKOS has already been
-started instead.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt; Focus on
+started instead.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt; Focus on
 most used programming languages also makes iQVoc (Ruby), Django Controlled
 Vocabularies (Python), and SISSVoc (XSLT) candidates for more wrappers instead
 of adding features to them.&lt;/p&gt;
@@ -794,7 +794,7 @@ of adding features to them.&lt;/p&gt;
 natively support an API for querying KOS information in JSKOS format: TemaTres,
 Skosmos, OpenSKOS (PHP) and SKOS Editor, Ginco, VocBench (Java). A PHP
 framework for JSKOS processing and access is already being developed as part of
-project coli-conc to build on.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+project coli-conc to build on.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;This report collected information about sixteen Open Source web applications
 for Knowledge Organization Systems (KOS). The applications can be grouped in
@@ -803,16 +803,16 @@ The report does not include a detailed evaluation but recommendations for
 project coli-conc. Three PHP-based projects and three Java-based projects have
 been identified for possible collaboration in software development.&lt;/p&gt;
 &lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
-&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;For instance Annotation
-applications such as &lt;a href=&quot;http://annot.readthedocs.io/&quot; target=&quot;_blank&quot;&gt;Annot&lt;/a&gt;. &lt;a href=&quot;#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+applications such as &lt;a href=&quot;http://annot.readthedocs.io/&quot; target=&quot;_blank&quot;&gt;Annot&lt;/a&gt;. &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Django Controlled Vocabularies &lt;a href=&quot;#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Django Controlled Vocabularies &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;See &lt;a href=&quot;https://github.com/gbv/jskos-php-examples&quot; target=&quot;_blank&quot;&gt;https://github.com/gbv/jskos-php-examples&lt;/a&gt; &lt;a href=&quot;#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;See &lt;a href=&quot;https://github.com/gbv/jskos-php-examples&quot; target=&quot;_blank&quot;&gt;https://github.com/gbv/jskos-php-examples&lt;/a&gt; &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;See &lt;a href=&quot;https://github.com/gbv/jskos-php&quot; target=&quot;_blank&quot;&gt;https://github.com/gbv/jskos-php&lt;/a&gt; &lt;a href=&quot;#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;See &lt;a href=&quot;https://github.com/gbv/jskos-php&quot; target=&quot;_blank&quot;&gt;https://github.com/gbv/jskos-php&lt;/a&gt; &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -822,7 +822,7 @@ applications such as &lt;a href=&quot;http://annot.readthedocs.io/&quot; target=
   <entry>
     <title>Ein Vergleich ausgewählter Normdatendienste</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html"/>
-    <updated>2017-05-31T00:00:00+00:00</updated>
+    <updated>2017-05-31T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html</id>
     <summary>Vergleichs von APIs zum Zugriff auf ausgewählte Wissensorganisationssysteme</summary>
     <content type="html">
@@ -850,22 +850,22 @@ umfangreicheren Vergleichs von APIs zum Zugriff auf kontrollierte Vokabulare
 &lt;tr&gt;
 &lt;td&gt;Regensburger Verbundklassifikation (RVK)&lt;/td&gt;
 &lt;td&gt;Klassifikation&lt;/td&gt;
-&lt;td&gt;&lt;a href=&quot;http://rvk.uni-regensburg.de/api/&quot; target=&quot;_blank&quot;&gt;Uni Regensburg&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://rvk.uni-regensburg.de/api/&quot; target=&quot;_blank&quot;&gt;Uni Regensburg&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Gemeinsame Normdatei (GND)&lt;/td&gt;
 &lt;td&gt;Normdatei&lt;/td&gt;
-&lt;td&gt;&lt;a href=&quot;http://lobid.org/api&quot; target=&quot;_blank&quot;&gt;hbz (lobid.org)&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://lobid.org/api&quot; target=&quot;_blank&quot;&gt;hbz (lobid.org)&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Standardthesaurus Wirtschaft (STW)&lt;/td&gt;
 &lt;td&gt;Thesaurus&lt;/td&gt;
-&lt;td&gt;&lt;a href=&quot;http://zbw.eu/labs/de/project/econ-ws&quot; target=&quot;_blank&quot;&gt;ZBW&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://zbw.eu/labs/de/project/econ-ws&quot; target=&quot;_blank&quot;&gt;ZBW&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Library of Congress Subject Headings (LCSH)&lt;/td&gt;
 &lt;td&gt;Thesaurus&lt;/td&gt;
-&lt;td&gt;&lt;a href=&quot;http://id.loc.gov/authorities/subjects.html&quot; target=&quot;_blank&quot;&gt;LoC&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://id.loc.gov/authorities/subjects.html&quot; target=&quot;_blank&quot;&gt;LoC&lt;/a&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -876,7 +876,7 @@ Serialisierungen (RDF/XML, Turtle...) ausgewählt werden kann. Die RDF-Formate
 basieren bei STW und LCSH auf SKOS [@SKOS], während für die GND eine eigene
 Ontologie definiert wurde [@Haffner2016]. Das Format der STW beschränkt sich
 weitgehend auf SKOS. Die Library of Congress bietet mit MADS/RDF zusätzlich
-eine Erweiterung an.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn5&quot; id=&quot;fnref5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt; Noch
+eine Erweiterung an.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fn5&quot; id=&quot;fnref5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt; Noch
 umfangreicher ist die GND-Ontologie mit 228 Eigenschaften.&lt;/p&gt;
 &lt;h1 id=&quot;umfang-der-zur%C3%BCckgelieferten-daten&quot;&gt;Umfang der zurückgelieferten Daten&lt;/h1&gt;
 &lt;p&gt;Trotz unterschiedlicher Rückgabeformate lassen sich Gemeinsamkeiten in den über
@@ -946,7 +946,7 @@ der französischen Nationalbibliothek. In der GND sind diese Mappings zwar auch
 enthalten, werden aber nicht über die API mitgeliefert.  Die GND enthält dafür
 Verknüpfungen zu den eigenen GND Subject Categories und der DDC.  Sowohl GND
 als auch STW sind weiterhin (über de.wikipedia bzw. DBPedia) mit Wikipedia
-verknüpft&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn6&quot; id=&quot;fnref6&quot;&gt;[6]&lt;/a&gt;&lt;/sup&gt;).  In den
+verknüpft&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fn6&quot; id=&quot;fnref6&quot;&gt;[6]&lt;/a&gt;&lt;/sup&gt;).  In den
 STW-Daten sind zusätzlich Verlinkungen auf Einträge im Katalog des ZBW
 enthalten.&lt;/p&gt;
 &lt;h1 id=&quot;abfragem%C3%B6glichkeiten-f%C3%BCr-typische-anwendungsf%C3%A4lle&quot;&gt;Abfragemöglichkeiten für typische Anwendungsfälle&lt;/h1&gt;
@@ -1067,19 +1067,19 @@ des Projektes neben Normdatendiensten für einzelne Vokabulare die APIs
 verschiedener Webanwendungen zum Zugriff auf Wissensorganisationssysteme
 verglichen werden [@TR7].&lt;/p&gt;
 &lt;h1 id=&quot;nachweise&quot;&gt;Nachweise&lt;/h1&gt;
-&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://rvk.uni-regensburg.de/Portal_API/&quot; target=&quot;_blank&quot;&gt;http://rvk.uni-regensburg.de/Portal_API/&lt;/a&gt; (nicht dokumentierter Endpunkt) &lt;a href=&quot;#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://rvk.uni-regensburg.de/Portal_API/&quot; target=&quot;_blank&quot;&gt;http://rvk.uni-regensburg.de/Portal_API/&lt;/a&gt; (nicht dokumentierter Endpunkt) &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://lobid.org/api&quot; target=&quot;_blank&quot;&gt;http://lobid.org/api&lt;/a&gt; &lt;a href=&quot;#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://lobid.org/api&quot; target=&quot;_blank&quot;&gt;http://lobid.org/api&lt;/a&gt; &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://zbw.eu/labs/de/project/econ-ws&quot; target=&quot;_blank&quot;&gt;http://zbw.eu/labs/de/project/econ-ws&lt;/a&gt; (Sammlung mehrerer APIs) &lt;a href=&quot;#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://zbw.eu/labs/de/project/econ-ws&quot; target=&quot;_blank&quot;&gt;http://zbw.eu/labs/de/project/econ-ws&lt;/a&gt; (Sammlung mehrerer APIs) &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://id.loc.gov/authorities/subjects.html&quot; target=&quot;_blank&quot;&gt;http://id.loc.gov/authorities/subjects.html&lt;/a&gt; &lt;a href=&quot;#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://id.loc.gov/authorities/subjects.html&quot; target=&quot;_blank&quot;&gt;http://id.loc.gov/authorities/subjects.html&lt;/a&gt; &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.loc.gov/standards/mads/rdf/&quot; target=&quot;_blank&quot;&gt;http://www.loc.gov/standards/mads/rdf/&lt;/a&gt; &lt;a href=&quot;#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.loc.gov/standards/mads/rdf/&quot; target=&quot;_blank&quot;&gt;http://www.loc.gov/standards/mads/rdf/&lt;/a&gt; &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn6&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Inzwischen wäre ein Mapping mit Wikidata sinnvoller. &lt;a href=&quot;#fnref6&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn6&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Inzwischen wäre ein Mapping mit Wikidata sinnvoller. &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fnref6&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -1089,7 +1089,7 @@ verglichen werden [@TR7].&lt;/p&gt;
   <entry>
     <title>Cocoda Technical Architecture</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/publications/tr11.html"/>
-    <updated>2018-05-31T00:00:00+00:00</updated>
+    <updated>2018-05-31T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr11.html</id>
     <summary>An update on the architecture of Cocoda</summary>
     <content type="html">
@@ -1190,7 +1190,7 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>Übersicht von GND-Konkordanzen</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html"/>
-    <updated>2018-11-29T00:00:00+00:00</updated>
+    <updated>2018-11-29T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html</id>
     <summary>Vorhandene Mappings zwischen GND und anderen Vokabularen</summary>
     <content type="html">
@@ -1243,7 +1243,7 @@ authority file extraction and mapping tools&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Die umfangreichste Konkordanz mit der Virtual International Authority File (VIAF) wird algorithmisch bestimmt [@Hickey2014] während Mappings in Wikidata manuell und offen von Freiwilligen eingetragen werden. Zuvor wurden seit 2005 Wikipedia-Personenartikel mit PND-IDs versehen [@Voss2005].&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; VIAF und Wikidata weisen beide die Besonderheit auf, dass es sich um Mapping-Hubs handelt, die neben der GND mit weiteren Vokabularen verknüpft werden; sie können also auch genutzt werden um von GND indirekt auf andere Vokabulare zu mappen. Alle anderen hier aufgeführten Konkordanzen wurden von Expert*innen erstellt.&lt;/p&gt;
+&lt;p&gt;Die umfangreichste Konkordanz mit der Virtual International Authority File (VIAF) wird algorithmisch bestimmt [@Hickey2014] während Mappings in Wikidata manuell und offen von Freiwilligen eingetragen werden. Zuvor wurden seit 2005 Wikipedia-Personenartikel mit PND-IDs versehen [@Voss2005].&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; VIAF und Wikidata weisen beide die Besonderheit auf, dass es sich um Mapping-Hubs handelt, die neben der GND mit weiteren Vokabularen verknüpft werden; sie können also auch genutzt werden um von GND indirekt auf andere Vokabulare zu mappen. Alle anderen hier aufgeführten Konkordanzen wurden von Expert*innen erstellt.&lt;/p&gt;
 &lt;h2 id=&quot;konkordanzen-von-der-gnd&quot;&gt;Konkordanzen von der GND&lt;/h2&gt;
 &lt;p&gt;Mappings von GND-Datensätzen werden zum größten Teil direkt in der GND eingetragen. Bei Personendatensätzen wird dafür PICA-Field &lt;code&gt;024&lt;/code&gt; mit &lt;a href=&quot;http://www.loc.gov/standards/sourcelist/standard-identifier.html&quot; target=&quot;_blank&quot;&gt;Standard Identifier Source Codes&lt;/a&gt; [@IdentifierSourceCodes] verwendet, dabei sind jedoch nur 1-zu-1-Mappings möglich. Die DDC-Mappings stehen mit unterschiedlichem Determiniertheitsgrad in PICA-Feld &lt;code&gt;083&lt;/code&gt;. Weitere Mappings sind bereits im RDF-Format verfügbar. Mit dem Projekt GNDmul sollen ab 2020 alle vorhandenen Mappings in der GND eingetragen und in verschiedenen Formaten verfügbar gemacht werden.&lt;/p&gt;
 &lt;!--Darüber hinaus gibt es innerhalb der GND 1-zu-n Mappings in Form von Hinweissätzen (z.B. Ötzi $\Rightarrow$ Hauslabjoch $+$ Gletscherleiche).--&gt;
@@ -1314,13 +1314,13 @@ authority file extraction and mapping tools&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&quot;nutzung-der-gnd-konkordanzen&quot;&gt;Nutzung der GND-Konkordanzen&lt;/h2&gt;
-&lt;p&gt;Die Mappings aller vorhandenen Konkordanzen werden nach und nach in die coli-conc-Konkordanzdatenbank eingetragen und können dort abgefragt und heruntergeladen werden. Eine aktuelle Übersicht speziell von GND-Mappings findet sich unter &lt;a href=&quot;http://coli-conc.gbv.de/concordances/gnd&quot; target=&quot;_blank&quot;&gt;http://coli-conc.gbv.de/concordances/gnd&lt;/a&gt;. Zur Erstellung und Pflege weiterer Mappings steht die Webanwendung Cocoda zur Verfügung.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; Eine Auswertung vorhandener Mappings nach Abdeckungsgrad und Konsistenz steht noch aus.&lt;/p&gt;
+&lt;p&gt;Die Mappings aller vorhandenen Konkordanzen werden nach und nach in die coli-conc-Konkordanzdatenbank eingetragen und können dort abgefragt und heruntergeladen werden. Eine aktuelle Übersicht speziell von GND-Mappings findet sich unter &lt;a href=&quot;http://coli-conc.gbv.de/concordances/gnd&quot; target=&quot;_blank&quot;&gt;http://coli-conc.gbv.de/concordances/gnd&lt;/a&gt;. Zur Erstellung und Pflege weiterer Mappings steht die Webanwendung Cocoda zur Verfügung.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; Eine Auswertung vorhandener Mappings nach Abdeckungsgrad und Konsistenz steht noch aus.&lt;/p&gt;
 &lt;h2 id=&quot;literatur&quot;&gt;Literatur&lt;/h2&gt;
-&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Siehe &lt;a href=&quot;https://de.wikipedia.org/wiki/Hilfe:GND&quot; target=&quot;_blank&quot;&gt;https://de.wikipedia.org/wiki/Hilfe:GND&lt;/a&gt;. Die Wikipedia-Mappings sind weitgehend nach Wikidata migriert, werden aber von der deutschprachigen Wikipedia-Community noch parallel weitergepflegt. &lt;a href=&quot;#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Siehe &lt;a href=&quot;https://de.wikipedia.org/wiki/Hilfe:GND&quot; target=&quot;_blank&quot;&gt;https://de.wikipedia.org/wiki/Hilfe:GND&lt;/a&gt;. Die Wikipedia-Mappings sind weitgehend nach Wikidata migriert, werden aber von der deutschprachigen Wikipedia-Community noch parallel weitergepflegt. &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Siehe &lt;a href=&quot;https://coli-conc.gbv.de/cocoda/&quot; target=&quot;_blank&quot;&gt;https://coli-conc.gbv.de/cocoda/&lt;/a&gt; und &lt;a href=&quot;https://github.com/gbv/cocoda&quot; target=&quot;_blank&quot;&gt;https://github.com/gbv/cocoda&lt;/a&gt;. &lt;a href=&quot;#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Siehe &lt;a href=&quot;https://coli-conc.gbv.de/cocoda/&quot; target=&quot;_blank&quot;&gt;https://coli-conc.gbv.de/cocoda/&lt;/a&gt; und &lt;a href=&quot;https://github.com/gbv/cocoda&quot; target=&quot;_blank&quot;&gt;https://github.com/gbv/cocoda&lt;/a&gt;. &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -1330,7 +1330,7 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>Cocoda 1.4.0</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/06/30/cocoda-1.4.0/"/>
-    <updated>2020-06-30T00:00:00+00:00</updated>
+    <updated>2020-06-30T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/06/30/cocoda-1.4.0/</id>
     <summary>Docker, refactoring, and more</summary>
     <content type="html">
@@ -1342,12 +1342,12 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>Prototyp von coli-rich zur Kataloganreicherung</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/08/24/coli-rich-prototype/"/>
-    <updated>2020-08-24T00:00:00+00:00</updated>
+    <updated>2020-08-24T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/08/24/coli-rich-prototype/</id>
     <summary>Webanwendung zur Anreicherung der Sacherschließung durch Mappings</summary>
     <content type="html">
       &lt;p&gt;Unter &lt;a href=&quot;https://gbv.github.io/coli-rich/&quot; target=&quot;_blank&quot;&gt;https://gbv.github.io/coli-rich/&lt;/a&gt; gibt es einen ersten Prototyp der Webanwendung &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/coli-rich/&quot;&gt;&lt;strong&gt;coli-rich&lt;/strong&gt;&lt;/a&gt; zur Anreicherung der Sacherschließung mittels Konkordanzen. Über die Weboberfläche lassen sich Datensätze aus dem &lt;a href=&quot;https://opac.k10plus.de/&quot; target=&quot;_blank&quot;&gt;K10Plus-Katalog&lt;/a&gt; laden und die darin vorhandenen Sacherschließungsdaten analysieren. Falls das coli-conc Konkordanz-Register passende Mappings zu Vokabularen enthält, mit denen der Datensatz noch nicht erschlossen ist, wird eine entsprechende Anreicherung vorgeschlagen. Mappings können mit &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; direkt zum Konkordanz-Register hinzugefügt oder dort bewertet werden.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gbv.github.io/coli-rich/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;image&quot; src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/screenshot-coli-rich-2020-08-24.png&quot; style=&quot;&quot; alt=&quot;Screenshot coli-rich&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gbv.github.io/coli-rich/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;image&quot; src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/screenshot-coli-rich-2020-08-24.png&quot; style=&quot;&quot; alt=&quot;Screenshot coli-rich&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Im Laufe des Jahres soll coli-rich erweitert werden, so dass nur geprüfte Mappings Verwendung finden. Wenn sich Mappings als falsch herausstellen, kann die Anreicherung zurückverfolgt und automatisch korrigiert werden. Nach der Testphase wird die Anreicherung auf größerer Teile des K10Plus-Katalog ausgeweitet und automatisiert.&lt;/p&gt;
 &lt;p&gt;Bislang werden Basisklassifikation (BK), Regensburger Verbundklassifikation (RVK), Sachgruppen der Deutschen Nationalbibliografie und Dewey-Dezimalklassifikation (DDC) unterstützt.&lt;/p&gt;
 
@@ -1356,7 +1356,7 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>Cocoda 1.4.1</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/08/25/cocoda-1.4.1/"/>
-    <updated>2020-08-25T00:00:00+00:00</updated>
+    <updated>2020-08-25T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/08/25/cocoda-1.4.1/</id>
     <summary>DDC/SDNB notation handling and small fixes</summary>
     <content type="html">
@@ -1368,7 +1368,7 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>New Website</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/09/29/new-website/"/>
-    <updated>2020-09-29T00:00:00+00:00</updated>
+    <updated>2020-09-29T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/09/29/new-website/</id>
     <summary>Our new website is now live!</summary>
     <content type="html">
@@ -1381,12 +1381,12 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>BARTOC relaunch at Common Library Network GBV</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/11/04/bartoc/"/>
-    <updated>2020-11-04T00:00:00+00:00</updated>
+    <updated>2020-11-04T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/11/04/bartoc/</id>
     <summary>The terminology registry will be run by project coli-conc</summary>
     <content type="html">
       &lt;p&gt;The &lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;terminology registry BARTOC&lt;/a&gt; has been moved to the head office of common library network &lt;a href=&quot;https://www.gbv.de/Verbundzentrale-en/about-vzg/information-about-gbv-and-the-head-office-vzg&quot; target=&quot;_blank&quot;&gt;Gemeinsamer Bibliotheksverbund (GBV)&lt;/a&gt;. BARTOC contains information about more than 5.000 knowledge organization systems such as thesauri, ontologies, and authority files. The content is curated by an &lt;a href=&quot;https://bartoc.org/contact&quot; target=&quot;_blank&quot;&gt;international group of editors&lt;/a&gt; and it is published as open content in human-readable and machine-readable form. The migration includes a change of the name from &amp;quot;Basel Register of Thesauri, Ontologies &amp;amp; Classifications&amp;quot; to &amp;quot;Basic Register of Thesauri, Ontologies &amp;amp; Classifications&amp;quot;. BARTOC was developed and hosted at &lt;a href=&quot;https://www.unibas.ch/en/University/University-Society/University-Library-Basel-.html&quot; target=&quot;_blank&quot;&gt;University Library Basel&lt;/a&gt; by Andreas Ledl starting in 2013. Its new technical infrastructure is based on &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;project coli-conc&lt;/a&gt;. With the relaunch BARTOC becomes a central element of authority based services such as uniform lookup in vocabularies and authority file mappings with the &lt;a href=&quot;https://coli-conc.gbv.de/cocoda/&quot; target=&quot;_blank&quot;&gt;web application Cocoda&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://bartoc.org/img/bartoc-logo.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://bartoc.org/img/bartoc-logo.svg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The URL of BARTOC stays at &lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;https://bartoc.org/&lt;/a&gt; and we made sure to keep all existing links and content. Feedback, corrections and hints on additional vocabularies are welcome by the BARTOC editors!&lt;/p&gt;
 
     </content>
@@ -1394,7 +1394,7 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>Mapping Wikidata and other vocabularies with Cocoda</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/11/19/wikidata-mapping/"/>
-    <updated>2020-11-19T00:00:00+00:00</updated>
+    <updated>2020-11-19T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/11/19/wikidata-mapping/</id>
     <summary>At WikiCite Virtual conference we showed how to map Wikidata and other vocabularies with Cocoda mapping application</summary>
     <content type="html">
@@ -1406,7 +1406,7 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>Cocoda 1.4.3</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/11/24/cocoda-1.4.3/"/>
-    <updated>2020-11-24T00:00:00+00:00</updated>
+    <updated>2020-11-24T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/11/24/cocoda-1.4.3/</id>
     <summary>Support for Skosmos hierarchies and sharing mapping searches</summary>
     <content type="html">
@@ -1418,7 +1418,7 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>Approval of DFG Funding</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2020/12/08/dfg-funding/"/>
-    <updated>2020-12-08T00:00:00+00:00</updated>
+    <updated>2020-12-08T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2020/12/08/dfg-funding/</id>
     <summary>Approval of DFG funding for the final phase of project coli-conc (2021/2022)</summary>
     <content type="html">
@@ -1429,16 +1429,16 @@ authority file extraction and mapping tools&lt;/p&gt;
   <entry>
     <title>Stable release of BARTOC.org</title>
     <link href="https://gbv.github.io/coli-conc.gbv.de/blog/2021/02/04/bartoc-1-0/"/>
-    <updated>2021-02-04T00:00:00+00:00</updated>
+    <updated>2021-02-04T00:00:00Z</updated>
     <id>https://gbv.github.io/coli-conc.gbv.de/blog/2021/02/04/bartoc-1-0/</id>
     <summary>We released a stable release 1.0.0 of BARTOC.org database interface.</summary>
     <content type="html">
       &lt;p&gt;At the end of 2020 the &lt;a href=&quot;https://bartoc.org/&quot; target=&quot;_blank&quot;&gt;terminology registry BARTOC&lt;/a&gt; was migrated to the head office of common library network (VZG). Team coli-conc is responsible for its maintenance since then. In the last month we fixed the pending bugs and polished the user interface to finally reach a stable &lt;a href=&quot;https://github.com/gbv/bartoc.org/releases/tag/v1.0.0&quot; target=&quot;_blank&quot;&gt;release version 1.0.0&lt;/a&gt;. Major improvements include an enhanced &lt;a href=&quot;http://bartoc.org/vocabularies&quot; target=&quot;_blank&quot;&gt;search&lt;/a&gt; with multiple sort options and improved vocabulary editing.&lt;/p&gt;
 &lt;p&gt;BARTOC is continuously extended, your &lt;a href=&quot;https://github.com/gbv/bartoc.org/issues&quot; target=&quot;_blank&quot;&gt;feedback and suggestions are highly appreciated&lt;/a&gt;! To add or modify vocabulary metadata please &lt;a href=&quot;http://bartoc.org/contact&quot; target=&quot;_blank&quot;&gt;contact the editors&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;New layout:&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/bartoc-screenshot-2021.png&quot; alt=&quot;BARTOC after migration&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/bartoc-screenshot-2021.png&quot; alt=&quot;BARTOC after migration&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Old layout:&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/bartoc-screenshot-2020.png&quot; alt=&quot;BARTOC before migration&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/bartoc-screenshot-2020.png&quot; alt=&quot;BARTOC before migration&quot; /&gt;&lt;/p&gt;
 
     </content>
   </entry>
