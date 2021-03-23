@@ -390,18 +390,21 @@ a:hover {
   color: #d16842;
 }
 
-a.button {
+.button {
   background-color: #b13f13;
   color: #F2F1EF;
   padding: calc(2px + 4 * ((100vw - 300px) / 1300)) calc(15px + 10 * ((100vw - 300px) / 1300));
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border: none;
   border-radius: 20px;
 }
 
-a.button:hover {
+.button:hover {
+  color: #F2F1EF;
   background-color: #d16842;
+  cursor: pointer;
 }
 
 .section {
