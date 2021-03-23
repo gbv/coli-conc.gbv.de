@@ -101,6 +101,7 @@ a:hover {
   border: none;
   border-radius: 20px;
   font-weight: weights.$bold;
+  font-family: fonts.$main, fonts.$fallback;
 }
 .button:hover {
   color: colors.$white;
