@@ -399,6 +399,7 @@ a:hover {
   display: inline-block;
   border: none;
   border-radius: 20px;
+  font-weight: 700;
 }
 
 .button:hover {
