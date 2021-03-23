@@ -147,6 +147,8 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+- Unification of vocabulary services in BARTOC. 2021-03-23. Poster at [Code4Lib 2021](https://2021.code4lib.org/). <https://doi.org/10.5281/zenodo.4629367>
+
 - Webinar coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. 2020-10-08 ([PDF]({{ "/publications/2020-10-08-coli-conc-webinar.pdf" | url }}))
 
 - RVK-Mapping mit cocoda und ccmapper. 2019-08-14 13:30-16:00 at UB Regensburg (Tutorial & Workshop)
