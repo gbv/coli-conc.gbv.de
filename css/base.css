@@ -400,6 +400,7 @@ a:hover {
   border: none;
   border-radius: 20px;
   font-weight: 700;
+  font-family: Nunito, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 .button:hover {
