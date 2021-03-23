@@ -90,18 +90,21 @@ a:hover {
   color: colors.$lightorange;
 }
 
-// Button links
-a.button {
+// Buttons
+.button {
   background-color: colors.$orange;
   color: colors.$white;
   padding: calc(2px + 4 * ((100vw - 300px) / 1300)) calc(15px + 10 * ((100vw - 300px) / 1300));
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border: none;
   border-radius: 20px;
 }
-a.button:hover {
+.button:hover {
+  color: colors.$white;
   background-color: colors.$lightorange;
+  cursor: pointer;
 }
 
 .section {
