@@ -140,7 +140,7 @@ a collection of knowledge organization systems encoded in JSKOS
 -   Reiner, U.: Automatische DDC-Klassifizierung. In: Dialog mit Bibliotheken 2010/1. pp. 23-29. [urn:nbn:de:101-2011012860](https://nbn-resolving.org/urn:nbn:de:101-2011012860)
 -   Reiner, U.: Automatic Analysis of Dewey Decimal Classification Notations.
     In: 31. Jahrestagung der Gesellschaft für Klassifikation (2007) p. 697-704 [urn:nbn:de:swb:ch1-200701390](https://nbn-resolving.org/urn:nbn:de:swb:ch1-200701390)
--   Reiner, U: Automatic Analysis of Dewey Decimal Classification Notations. In: Proceedings of the 31st Annual Conference of GfKl (2007), pp 697-704. <https://doi.org/10.1007/978-3-540-78246-9_82>
+-   Reiner, U: Automatic Analysis of Dewey Decimal Classification Notations. In: Proceedings of the 31st Annual Conference of GfKl (2007), pp 697-704. <https://doi.org/10.1007/978-3-540-78246-9_82> [PDF](https://www.gbv.de/Verbundzentrale/Publikationen/2008/2008/pdf/pdf_3936.pdf)
 
 {% endsection %}
 
@@ -233,6 +233,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     November 20ᵗʰ, 2013. ([PDF
     slides](https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2013/pdf/Balakrishnan_131120_RVK_WS_Konkordanz.pdf))
 -   Computer-aided Assignment of DDC Numbers. [32nd Annual Conference of the German Classification Society](https://web.archive.org/web/20081222041725/http://gfkl2008.hsu-hh.de/) July 17, 2008. [urn:nbn:de:bsz:ch1-200801508](https://nbn-resolving.org/urn:nbn:de:bsz:ch1-200801508).
+-   Automatic Analysis of DDC Notations. Presented at EDUG Workshop June 11, 2007 [PDF](https://www.gbv.de/Verbundzentrale/Publikationen/2007/2007/pdf/pdf_3024.pdf)
 -   DDC-basierte Suche in heterogenen digitalen Bibliotheks- und Wissensbeständen. 94. Deutscher Bibliothekartag, March 15, 2005. [urn:nbn:de:0290-opus-1112](https://nbn-resolving.org/urn:nbn:de:0290-opus-1112)
 
 ## Posters
