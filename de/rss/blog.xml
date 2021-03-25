@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/"/>
-  <updated>2021-03-23T00:00:00Z</updated>
+  <updated>2021-03-25T00:00:00Z</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/de/</id>
   <author>
     <name>coli-conc</name>
@@ -1483,6 +1483,17 @@ authority file extraction and mapping tools&lt;/p&gt;
 &lt;p&gt;Based on these APIs we started to implement searching and browsing in vocabularies as part of BARTOC user interface. See &lt;a href=&quot;http://bartoc.org/en/node/18538#content&quot; target=&quot;_blank&quot;&gt;Library of Congress Genre/Form Terms&lt;/a&gt;, &lt;a href=&quot;http://bartoc.org/en/node/15#content&quot; target=&quot;_blank&quot;&gt;EuroVoc&lt;/a&gt;, &lt;a href=&quot;https://bartoc.org/en/node/533#content&quot; target=&quot;_blank&quot;&gt;Regensburger Verbundklassifikation (RVK)&lt;/a&gt;, and &lt;a href=&quot;http://bartoc.org/en/node/241#content&quot; target=&quot;_blank&quot;&gt;DDC&lt;/a&gt;. The latter is only available in German because of the license.&lt;/p&gt;
 &lt;p&gt;Unification of vocabulary services in BARTOC will be presented at poster at &lt;a href=&quot;https://2021.code4lib.org/&quot; target=&quot;_blank&quot;&gt;Code4Lib 2021 conference&lt;/a&gt;. A small slideset is available via &lt;a href=&quot;https://doi.org/10.5281/zenodo.4629367&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5281/zenodo.4629367&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://bartoc.org/en/node/18538#content&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/bartoc-vocabulary-browsing.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>Analysis of Synthesized DDC Numbers</title>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/03/25/coli-ana/"/>
+    <updated>2021-03-25T00:00:00Z</updated>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/03/25/coli-ana/</id>
+    <summary>We present an API and web interface to look up which DDC classes are contained in a synthesized DDC number</summary>
+    <content type="html">
+      &lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Dewey_Decimal_Classification&quot; target=&quot;_blank&quot;&gt;Dewey Decimal Classification (DDC)&lt;/a&gt; is used since more than 100 years in libraries in more than 138 countries around the world. In addition to the classes listed in the schedules the DDC classification system allows to build so called &lt;em&gt;synthesized numbers&lt;/em&gt; based on sophisticated rules. The way back is not straigthforward and it cannot easily seen which DDC classes are contained in a synthesized DDC number. The automatic analysis of DDC numbers is carried out at the VZG as part of the project Colibri/DDC by Ulrike Reiner, PhD. We are happy to share the first publicly available version of an &lt;a href=&quot;https://coli-conc.gbv.de/coli-ana/&quot; target=&quot;_blank&quot;&gt;API and web interface&lt;/a&gt; to look up and show the most detailed anaylsis of synthesized DDC numbers. As of today, the database contains 11,360 analyzed DDC numbers from the main classes 100 and 700. More information can be found at the &lt;a href=&quot;https://coli-conc.gbv.de/coli-ana/&quot; target=&quot;_blank&quot;&gt;coli-ana project page&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
