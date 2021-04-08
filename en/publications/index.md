@@ -154,7 +154,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - [Making use of the coli-conc infrastructure for controlled vocabularies](https://swib.org/swib20/programme.html#abs06). Workshop at SWIB 2020-11-24.
 
-- [Mapping Wikidata and other vocabularies with Cocoda](https://www.wikidata.org/wiki/File:Wikidata_Cocoda_Screencast.webm). WikiCite Virtual Conference 2020 (see also [event description](https://coli-conc.gbv.de/de/blog/2020/11/19/wikidata-mapping/)
+- [Mapping Wikidata and other vocabularies with Cocoda](https://www.wikidata.org/wiki/File:Wikidata_Cocoda_Screencast.webm). WikiCite Virtual Conference 2020 (see also [event description](https://coli-conc.gbv.de/de/blog/2020/11/19/wikidata-mapping/))
 
 - Wikidata-Normdatenverknüpfung mit Cocoda. WikiCite Virtual Conference 2020. <https://doi.org/10.5446/51060>
 
