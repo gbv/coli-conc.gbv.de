@@ -28,6 +28,7 @@ title: Publications
 
 Short videos introducing our [services]({{ "/services/" | url }}).
 
+-   [Analysis of Synthesized DDC Numbers](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s) English Code4Lib 2021 lightening talk (2021-04-06)
 -   [Cocoda for mapping Wikidata and other vocabularies](https://www.wikidata.org/wiki/File:Wikidata_Cocoda_Screencast.webm) English (2020-10-30)
 -   [Normdaten-Mapping mit Cocoda @vBIB20](https://doi.org/10.5446/36465) German (2020-05-27)
 -   [Wikidata-Mappings mit Cocoda 1.1.0](https://vimeo.com/357295989) German (2019-09-02)

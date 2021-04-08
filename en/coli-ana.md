@@ -24,6 +24,8 @@ By now it only contains a limited set of notations imported from vz_day:
 
 {% section %}
 
+A brief introduction was given [in this Code4Lib 2021 lightening talk](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s).
+
 ## Example
 
 Given a synthesized DDC number, it can be hard to find out how the number was build. For instance the DDC number **700.90440747471** contains the following DDC classes:
