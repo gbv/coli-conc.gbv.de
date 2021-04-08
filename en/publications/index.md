@@ -152,11 +152,19 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - Unification of vocabulary services in BARTOC. 2021-03-23. Poster at [Code4Lib 2021](https://2021.code4lib.org/). <https://doi.org/10.5281/zenodo.4629367>
 
+- [Making use of the coli-conc infrastructure for controlled vocabularies](https://swib.org/swib20/programme.html#abs06). Workshop at SWIB 2020-11-24.
+
+- [Mapping Wikidata and other vocabularies with Cocoda](https://www.wikidata.org/wiki/File:Wikidata_Cocoda_Screencast.webm). WikiCite Virtual Conference 2020 (see also [event description](https://coli-conc.gbv.de/de/blog/2020/11/19/wikidata-mapping/)
+
+- Wikidata-Normdatenverknüpfung mit Cocoda. WikiCite Virtual Conference 2020. <https://doi.org/10.5446/51060>
+
 - Webinar coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. 2020-10-08 ([PDF]({{ "/publications/2020-10-08-coli-conc-webinar.pdf" | url }}))
+
+- Das Projekt coli-conc. Bericht der FAG  Erschließung und Informationsvermittlung auf der Verbundkonferenzen des GBV, 2020-24-08 ([PDF](https://verbundkonferenz.gbv.de/wp-content/uploads/2020/08/Bericht_FAG_EI_VK2020.pdf))
 
 - RVK-Mapping mit cocoda und ccmapper. 2019-08-14 13:30-16:00 at UB Regensburg (Tutorial & Workshop)
 
-- Short presentation at [International Dewey Users Meeting](https://www.eventbrite.com/e/oclc-at-ifla-wlic-2019-tickets-64562192255), August 27th, Athens
+- Short presentation at [International Dewey Users Meeting](https://www.eventbrite.com/e/oclc-at-ifla-wlic-2019-tickets-64562192255), August 27th 2019, Athens
 
 - Concept mapping through a hub: [Coli-conc pilot study](https://isko-lc.org/timetable/event/concept-mapping-through-a-hub-coli-conc-pilot-study/).
 June 21st, 2019 at [ISKO-LC 2019 conference](https://isko-lc.org/) in Brüssel.
