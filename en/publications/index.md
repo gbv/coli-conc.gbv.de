@@ -152,13 +152,17 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+### 2021
+
 - BARTOC: Looking both ways, then and now as it prepares for the future of Knowledge Organisation. [ISKO UK Research Observatory](https://www.iskouk.org/event-4255162). 2021-05-19 <https://doi.org/10.5281/zenodo.4766970>
 
 - BARTOC & coli-conc: The story of a partnership and future plans. [EDUG 2021](https://edug.pansoft.de/tiki-index.php?page=2021+meeting). 2021-05-06. ([PDF]({{ "/publications/2021-05-06-bartoc-coli-conc.pdf" | url }}))
 
-- Analysis of Synthesized DDC Numbers. [Code4Lib 2021]. 2021-04-06 <https://doi.org/10.5281/zenodo.4637183> (see also [the recording](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s))
+- Analysis of Synthesized DDC Numbers. [Code4Lib 2021](https://2021.code4lib.org/). 2021-04-06 <https://doi.org/10.5281/zenodo.4637183> (see also [the recording](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s))
 
 - Unification of vocabulary services in BARTOC. 2021-03-23. Poster at [Code4Lib 2021](https://2021.code4lib.org/). <https://doi.org/10.5281/zenodo.4629367>
+
+### 2020
 
 - [Making use of the coli-conc infrastructure for controlled vocabularies](https://swib.org/swib20/programme.html#abs06). Workshop at SWIB 2020-11-24.
 
@@ -170,6 +174,8 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - Das Projekt coli-conc. Bericht der FAG  Erschließung und Informationsvermittlung auf der Verbundkonferenzen des GBV, 2020-24-08 ([PDF](https://verbundkonferenz.gbv.de/wp-content/uploads/2020/08/Bericht_FAG_EI_VK2020.pdf))
 
+### 2019
+
 - RVK-Mapping mit cocoda und ccmapper. 2019-08-14 13:30-16:00 at UB Regensburg (Tutorial & Workshop)
 
 - Short presentation at [International Dewey Users Meeting](https://www.eventbrite.com/e/oclc-at-ifla-wlic-2019-tickets-64562192255), August 27th 2019, Athens
@@ -178,23 +184,25 @@ a collection of knowledge organization systems encoded in JSKOS
 June 21st, 2019 at [ISKO-LC 2019 conference](https://isko-lc.org/) in Brüssel.
 <https://doi.org/10.5281/zenodo.3257136>
 
--   coli-conc : Mapping Knowledge Organisation Systems.
+- coli-conc : Mapping Knowledge Organisation Systems.
 May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page=2019+meeting) in Stockholm.
 <http://edug.pansoft.de/tiki-download_file.php?fileId=194>
--   Lessons learned while building the vocabulary mapping tool Cocoda.
-    May 8ᵗʰ, 2019 at [ELAG 2019 conference](https://www.elag2019.de) in Berlin.
-    <https://doi.org/10.5281/zenodo.2677601>
--   Vortrag auf dem Bibliothekskongress: Nutzung und Erstellung von Normdaten-Mappings.
-     Presentation at [7. Bibliothekskongress](https://www.bid-kongress-leipzig.de/),
-     March 20ᵗʰ, 2019 in Leipzig.
-     <https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/16404>
--   Werkstattbericht Coli-conc: Stand des Mapping-Tools Cocoda.
-    Presentation at [RVK
-    Anwendertreffen](https://rvk.uni-regensburg.de/2-uncategorised/171-rvk-anwendertreffen-2018-anmeldung-programm),
-    November 7ᵗʰ, 2018 in Regensburg.
-    <https://doi.org/10.5281/zenodo.1477899>
--   Voraussetzungen für die offene Nutzung der RVK. Presentation at [RVK
-    Anwendertreffen](https://rvk.uni-regensburg.de/2-uncategorised/156-rvk-anwendertreffen-2017),
+
+- Lessons learned while building the vocabulary mapping tool Cocoda.
+  May 8ᵗʰ, 2019 at [ELAG 2019 conference](https://www.elag2019.de) in Berlin.
+  <https://doi.org/10.5281/zenodo.2677601>
+
+- Vortrag auf dem Bibliothekskongress: Nutzung und Erstellung von Normdaten-Mappings. Presentation at [7. Bibliothekskongress](https://www.bid-kongress-leipzig.de/), March 20ᵗʰ, 2019 in Leipzig. <https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/16404>
+
+### 2018
+
+- Werkstattbericht Coli-conc: Stand des Mapping-Tools Cocoda.
+  Presentation at [RVK Anwendertreffen](https://rvk.uni-regensburg.de/2-uncategorised/171-rvk-anwendertreffen-2018-anmeldung-programm),
+  November 7ᵗʰ, 2018 in Regensburg. <https://doi.org/10.5281/zenodo.1477899>
+
+### 2017
+
+- Voraussetzungen für die offene Nutzung der RVK. Presentation at [RVK Anwendertreffen](https://rvk.uni-regensburg.de/2-uncategorised/156-rvk-anwendertreffen-2017),
     November 8ᵗʰ, 2017 in Regensburg.
     <https://doi.org/10.5281/zenodo.1043635>
 -   State of identifiers in Wikidata. Presentation at
@@ -210,6 +218,9 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     Workshop, May, 4ᵗʰ, 2017 and at [ELAG 2017](http://elag2017.org/),
     June 8ᵗʰ, 2017
     ([Slides](https://de.slideshare.net/jneubert/wikidata-as-authority-linking-hub))
+
+### 2016
+
 -   Automatic Analysis of DDC Numbers based on MARC21. Presented at EDUG Symposium 2016. [PDF](https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2016/pdf/reiner_160425_EDUG_Symposium.pdf)
 -   Interoperability of KOS Metadata Schemas in BARTOC and JSKOS.
     Presentation at [16ᵗʰ European NKOS
@@ -230,6 +241,9 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     Symposium](http://edug.pansoft.de/tiki-index.php?page=2016+meeting),
     April 25ᵗʰ, 2016. ([PDF
     slides](http://edug.pansoft.de/tiki-download_file.php?fileId=143))
+
+### 2015
+
 -   The Cocoda Mapping Tool. Presentation at [14th European Networked
     Knowledge Organization Systems (NKOS)
     Workshop](https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2015/programme.html),
@@ -246,11 +260,17 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     (EDUG)](http://edug.pansoft.de/tiki-index.php?page=2015meeting),
     April 15ᵗʰ, 2015. ([PDF
     slides](http://edug.pansoft.de/tiki-download_file.php?fileId=106))
+
+### before 2015
+
 -   Das VZG-Projekt „coli-conc" - Brückenbildung zwischen DDC und RVK.
     November 20ᵗʰ, 2013. ([PDF
     slides](https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2013/pdf/Balakrishnan_131120_RVK_WS_Konkordanz.pdf))
+
 -   Computer-aided Assignment of DDC Numbers. [32nd Annual Conference of the German Classification Society](https://web.archive.org/web/20081222041725/http://gfkl2008.hsu-hh.de/) July 17, 2008. [urn:nbn:de:bsz:ch1-200801508](https://nbn-resolving.org/urn:nbn:de:bsz:ch1-200801508).
+
 -   Automatic Analysis of DDC Notations. Presented at EDUG Workshop June 11, 2007 [PDF](https://www.gbv.de/Verbundzentrale/Publikationen/2007/2007/pdf/pdf_3024.pdf)
+
 -   DDC-basierte Suche in heterogenen digitalen Bibliotheks- und Wissensbeständen. 94. Deutscher Bibliothekartag, March 15, 2005. [urn:nbn:de:0290-opus-1112](https://nbn-resolving.org/urn:nbn:de:0290-opus-1112)
 
 ## Posters
