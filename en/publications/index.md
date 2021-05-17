@@ -152,6 +152,12 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+- BARTOC: Looking both ways, then and now as it prepares for the future of Knowledge Organisation. [ISKO UK Research Observatory](https://www.iskouk.org/event-4255162). 2021-05-19 <https://doi.org/10.5281/zenodo.4766970>
+
+- BARTOC & coli-conc: The story of a partnership and future plans. [EDUG 2021](https://edug.pansoft.de/tiki-index.php?page=2021+meeting). 2021-05-06. ([PDF]({{ "/publications/2021-05-06-bartoc-coli-conc.pdf" | url }}))
+
+- Analysis of Synthesized DDC Numbers. [Code4Lib 2021]. 2021-04-06 <https://doi.org/10.5281/zenodo.4637183> (see also [the recording](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s))
+
 - Unification of vocabulary services in BARTOC. 2021-03-23. Poster at [Code4Lib 2021](https://2021.code4lib.org/). <https://doi.org/10.5281/zenodo.4629367>
 
 - [Making use of the coli-conc infrastructure for controlled vocabularies](https://swib.org/swib20/programme.html#abs06). Workshop at SWIB 2020-11-24.
