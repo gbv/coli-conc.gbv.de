@@ -24,8 +24,6 @@ By now it only contains a limited set of notations imported from vz_day:
 
 {% section %}
 
-A brief introduction was given [in this Code4Lib 2021 lightening talk](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s).
-
 ## Example
 
 Given a synthesized DDC number, it can be hard to find out how the number was build. For instance the DDC number **700.90440747471** contains the following DDC classes:
@@ -41,7 +39,11 @@ With coli-ana it is possible [to look up the DDC number](https://coli-conc.gbv.d
 
 {% section %}
 
-## Background
+## Documentation
+
+A brief introduction to coli-ana was given [in this Code4Lib 2021 lightening talk](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s).
+
+The primary application of coli-ana is to enrich the [K10plus union catalog](https://www.bszgbv.de/services/k10plus/). Bibliographic records with DDC number will be extended [in PICA format](https://format.k10plus.de/k10plushelp.pl?cmd=kat&val=5400&katalog=Standard).
 
 More information about coli-ana can be found in the presentation [Automatic Analysis of DDC Numbers based on MARC21](https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2016/pdf/reiner_160425_EDUG_Symposium.pdf) given by Ulrike Reiner at the EDUG Symposium 2016 and in the article [Automatic Analysis of Dewey Decimal Classification Notations](https://www.gbv.de/Verbundzentrale/Publikationen/2008/2008/pdf/pdf_3936.pdf) (2008). An earlier attempt to decompose DDC numbers was conducted by Songqiao Liu, see the article [Decomposing DDC Synthesized Numbers](http://archive.ifla.org/IV/ifla62/62-sonl.htm) (1996).
 
