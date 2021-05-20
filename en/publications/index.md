@@ -152,6 +152,18 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+## Upcoming
+
+- [SI & IT 2022](https://si-it-workshop.gbv.de/)
+
+- BARTOC Editor Meeting 2021
+
+- coli-conc Expert Meeting 2021
+
+- [Mini ELAG II](https://elag.org/2021/04/07/mini-elag-ii/). 2021-06-30
+
+- Vom Vokabularverzeichnis zum interdisziplinären KOS-Datendienst: 8 Jahre BARTOC. [109. Bibliothekartag](https://bibliothekartag2021.de/) 2021-06-16
+
 ### 2021
 
 - BARTOC: Looking both ways, then and now as it prepares for the future of Knowledge Organisation. [ISKO UK Research Observatory](https://www.iskouk.org/event-4255162). 2021-05-19 <https://doi.org/10.5281/zenodo.4766970>
