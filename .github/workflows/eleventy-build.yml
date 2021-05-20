@@ -3,12 +3,12 @@ on: [push]
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: '12'
+          node-version: '14'
       - run: npm install
       - run: npm run build -- --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io
       - name: Deploy
