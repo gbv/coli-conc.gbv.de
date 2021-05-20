@@ -5,17 +5,17 @@ title: Erklärung zur Barrierefreiheit
 
 {% section %}
 
-Die Verbundzentrale des GBV (VZG) ist bemüht, ihre Webauftritte und mobile Anwendungen im Einklang mit den nationalen Rechtsvorschriften zur Umsetzung der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates barrierefrei zugänglich zu machen.
+Die Verbundzentrale des GBV (VZG) ist bemüht, ihre Webauftritte und mobile Anwendungen im Einklang mit den nationalen Rechtsvorschriften zur Umsetzung der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates, dem Niedersächsischen Behindertengleichstellungsgesetz (NBGG) sowie der Niedersächsischen Verordnung über barrierefreie Informationstechnik öffentlicher Stellen (NBITVO) barrierefrei zugänglich zu machen.
 
 Diese Erklärung zur Barrierefreiheit gilt für die Website https://coli-conc.gbv.de.
 
 ### Stand der Vereinbarkeit mit den Anforderungen
-Die Website https://coli-conc.gbv.de und deren Funktionalität und Darstellungsform auf gängigen Endgeräten, sind mit der Richtlinie (EU) 2016/2102 und mit den Web Content Accessibility Guidlines 2.0 teilweise vereinbar.
+Die Website https://coli-conc.gbv.de und deren Funktionalität und Darstellungsform auf gängigen Endgeräten sind mit den Web Content Accessibility Guidlines 2.1 (WCAG 2.1) Level AA und den Vorgaben der harmonisierten europäischen Norm EN 301 549 V2.1.2 (08-2018) teilweise vereinbar.
 
-Für die Website wird demnächst ein BITV-Selbsttest durchgeführt und das Testergebnis an dieser Stelle veröffentlicht.
+Für die Website wird demnächst ein Selbsttest durchgeführt und das Testergebnis an dieser Stelle veröffentlicht.
 
 ### Erstellung dieser Erklärung zur Barrierefreiheit
-Diese Erklärung wurde am 24.09.2020 erstellt.
+Diese Erklärung wurde am 20.05.2021 erstellt.
 
 ### Barrieren melden: Feedback und Kontaktangaben
 Bitte informieren Sie uns, wenn Sie in unseren Webauftritten auf erläuterungsbedürftige Inhalte oder Inhalte, die schwer zugänglich sind, stoßen:
