@@ -166,6 +166,8 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2021
 
+- Wie verlinken wir unsere Daten mit der GND? Mapping mit Cocoda. [GNDCon 2021](https://wiki.dnb.de/display/GNDCON/Programm++%7C+GNDCon+2.0). 2021-06-10 ([PDF]({{ "/publications/gndcon2021.pdf" | url }}))
+
 - BARTOC: Looking both ways, then and now as it prepares for the future of Knowledge Organisation. [ISKO UK Research Observatory](https://www.iskouk.org/event-4255162). 2021-05-19 <https://doi.org/10.5281/zenodo.4766970>
 
 - BARTOC & coli-conc: The story of a partnership and future plans. [EDUG 2021](https://edug.pansoft.de/tiki-index.php?page=2021+meeting). 2021-05-06. ([PDF]({{ "/publications/2021-05-06-bartoc-coli-conc.pdf" | url }}))
