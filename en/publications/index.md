@@ -166,6 +166,8 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2021
 
+- Sacherschließungsdienste und -projekte der VZG – ein Überblick. Sprechstunde Bibliothekartag 2021. 2021-06-16 ([PDF]({{ "/publications/2021-06-17-sprechstunde-bibliothekartag.pdf" | url }}))
+
 - Wie verlinken wir unsere Daten mit der GND? Mapping mit Cocoda. [GNDCon 2021](https://wiki.dnb.de/display/GNDCON/Programm++%7C+GNDCon+2.0). 2021-06-10 ([PDF]({{ "/publications/gndcon2021.pdf" | url }}))
 
 - BARTOC: Looking both ways, then and now as it prepares for the future of Knowledge Organisation. [ISKO UK Research Observatory](https://www.iskouk.org/event-4255162). 2021-05-19 <https://doi.org/10.5281/zenodo.4766970>
