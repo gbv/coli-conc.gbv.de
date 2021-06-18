@@ -1,0 +1,32 @@
+---
+isFallback: true
+layout: layouts/blog
+title: Präsentationen zu BARTOC und Sacherschließung
+excerpt: Auf dem Bibliothekstag haben wir BARTOC und aktuelle Dienste und Projekte im Bereich Sacherschließung vorgestellt
+# Uncomment this:
+# tags:
+# - blog
+---
+
+Das Projekt coli-conc umfasst inzwischen mehrere Dienste und Projekte im Bereich der Sacherschließung an der VZG. Aus diesem Grund haben wir im Rahmen des [Bibliothekstag 2021](https://bibliothekartag2021.de/) den aktuellen Stand und neue Entwicklungen im Rahmen einer Sprechstund vorgestellt. Die dazu gehörigen Folien [gibt es hier]({{ "/publications/2021-06-17-sprechstunde-bibliothekartag.pdf" | url }}). Außerdem haben wir in einem Vortrag das Vokabularverzeichnis [BARTOC](https://bartoc.org/) genauer vorgestellt und sind auf die aktuelle Entwicklung zu einem vollständigen Datendienst zu Vokabulardaten eingegangen.
+
+...Vortragsfolien (OPUS), Aufzeichnung des Vortrags (?)...
+
+...direkte Links von Einträgen eines Vokabulars in Kataloge. Derzeit ist diese Funktion für folgende Vokabulare umgesetzt:
+
+* [Regensburger Verbundklassifikation (RVK)](http://bartoc.org/en/node/533)
+* [Basisklassifikation (BK)](http://bartoc.org/en/node/18785)
+* [Dewey-Dezimalklassifikation](http://bartoc.org/en/node/241)
+* [Sondersammelgebiets-Nummer (SSG)](http://bartoc.org/en/node/18928)
+* [Sachgruppen der DBV ab 2004](http://bartoc.org/en/node/18497)
+* [Sachgruppen der DNB bis 2003](http://bartoc.org/en/node/20049)
+
+Geplant ist die Erweiterung um mindestens folgende Vokabulare:
+
+* [Gemeinsame Normdatei (GND)](http://bartoc.org/en/node/430)
+* [Standard Thesaurus Wirtschaft](http://bartoc.org/en/node/313)
+* [Mathematics Subject Classification (MSC)](http://bartoc.org/en/node/474)
+* [Library of Congress Subject Headings (LCSH)](http://bartoc.org/en/node/454)
+* [Library of Congress Classification (LCC)](http://bartoc.org/en/node/486)
+* [National Library of Medicine Classification (NLM)](http://bartoc.org/en/node/528)
+
