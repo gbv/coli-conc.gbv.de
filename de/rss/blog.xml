@@ -3,7 +3,7 @@
   <title>coli-conc News</title>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/rss/blog.xml" rel="self"/>
   <link href="https://gbv.github.io/coli-conc.gbv.de/de/"/>
-  <updated>2021-03-25T00:00:00Z</updated>
+  <updated>2021-06-21T00:00:00Z</updated>
   <id>https://gbv.github.io/coli-conc.gbv.de/de/</id>
   <author>
     <name>coli-conc</name>
@@ -1494,6 +1494,25 @@ authority file extraction and mapping tools&lt;/p&gt;
     <summary>We present an API and web interface to look up which DDC classes are contained in a synthesized DDC number</summary>
     <content type="html">
       &lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Dewey_Decimal_Classification&quot; target=&quot;_blank&quot;&gt;Dewey Decimal Classification (DDC)&lt;/a&gt; has been in use for more than 100 years in libraries in more than 138 countries around the world. In addition to the classes listed in the schedules, the DDC system allows to build so called &lt;em&gt;synthesized numbers&lt;/em&gt; based on sophisticated rules. The way back is not straigthforward and it cannot easily be seen which DDC classes are contained in a synthesized DDC number. The automatic analysis of DDC numbers is carried out at the VZG as part of the project Colibri/DDC by Ulrike Reiner, PhD. We are happy to share the first publicly available version of an &lt;a href=&quot;https://coli-conc.gbv.de/coli-ana/app/&quot; target=&quot;_blank&quot;&gt;API and web interface&lt;/a&gt; to look up and show the most detailed anaylsis of synthesized DDC numbers. As of today, the database contains 11,360 analyzed DDC numbers from the main classes 100 and 700. More information and a short screencast can be found on the &lt;a href=&quot;https://coli-conc.gbv.de/coli-ana/&quot; target=&quot;_blank&quot;&gt;coli-ana project page&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>Cocoda 1.4.5</title>
+    <link href="https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/06/21/cocoda-1.4.5/"/>
+    <updated>2021-06-21T00:00:00Z</updated>
+    <id>https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/06/21/cocoda-1.4.5/</id>
+    <summary>coli-ana integration</summary>
+    <content type="html">
+      &lt;p&gt;Release 1.4.5 of &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/cocoda/&quot;&gt;Cocoda&lt;/a&gt; contains a few bugfixes and updated dependencies. It also adds direct integration of &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/coli-ana/&quot;&gt;coli-ana&lt;/a&gt; to allow analyzing synthesized DDC numbers right in Cocoda.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/06/21/cocoda-1.4.5/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;You can find the full release notes &lt;a href=&quot;https://github.com/gbv/cocoda/releases/tag/1.4.5&quot; target=&quot;_blank&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img title=&quot;Image showing coli-ana integration in Cocoda&quot; src=&quot;https://gbv.github.io/coli-conc.gbv.de/images/cocoda-1.4.5.png&quot; srcset=&quot;https://gbv.github.io/coli-conc.gbv.de/images/cocoda-1.4.5@2x.png 2x&quot; /&gt;&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Note that this integration is still a work in progress. For more information, please refer to &lt;a href=&quot;https://github.com/gbv/cocoda/issues/524&quot; target=&quot;_blank&quot;&gt;this GitHub issue&lt;/a&gt;. &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/de/blog/2021/06/21/cocoda-1.4.5/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
 
     </content>
   </entry>
