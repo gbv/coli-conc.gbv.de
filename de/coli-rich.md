@@ -8,22 +8,6 @@ subtitle: Kataloganreicherung durch Konkordanzen
 
 Das Teilprojekt **coli-rich** hat zum Ziel, die vorhandene heterogene Sacherschließung in Bibliothekskatalogen mittels Konkordanzen zwischen verschiedenen Erschließungssystemen anzureichern.  Die Konkordanzen werden im Rahmen von coli-conc mit der Webanwendung [Cocoda](https://coli-conc.gbv.de/cocoda/) verwaltet.
 
-<!--
-**coli-rich** ist eine Anwendung zur
-
-Die Anwendung besteht aus zwei Teile:
-
-1. Ein [Benutzerinterface](#benutzerinterface) zum Ausprobieren der Anreicherung
-2. Ein [Webservice](#webservice) zur Abfrage von Anreicherungen in maschinenlesbarer Form
-
-Als Eingabe dient jeweils die PPN eines Datensatz und das Datenbankkürzel einer PICA-Datenbank (standardmäßig der [K10Plus-Katalog](https://opac.k10plus.de/). Außerdem lässt sich bestimmen, welche Mappings bei der Anreicherung zu berücksichtigen sind (standardmäßig alle). Zurückgeliefert wird als Kataloganreicherung eine Liste von PICA-Feldern die hinzugefügt, geändert oder entfernt werden sollen. Bei neuen Erschließungsfeldern wird in Unterfeld `$A` die URI des Mappings eingetragen auf Grundlage welcher die Anreicherung ermittelt wurde. Bei Änderungen an Mappings kann die Anreicherung automatisch korrigiert werden.
-
-Weitere Informationen und technische Details befinden sich im [coli-rich git Repository](https://github.com/gbv/coli-rich#readme).
-
-* [coli-rich Produktivinstanz](https://coli-conc.gbv.de/coli-rich/app/)
-* [coli-rich Entwicklungsinstanz](https://coli-conc.gbv.de/coli-rich/dev/)
--->
-
 {% endsection %}
 
 {% section %}
@@ -40,6 +24,20 @@ Unterfeld `$A` ist im K10plus in Suchschlüssel IKT 8559 (SEQ=Sacherschliessungs
 {% endsection %}
 
 <!--
+**coli-rich** ist eine Anwendung zur
+
+Die Anwendung besteht aus zwei Teile:
+
+1. Ein [Benutzerinterface](#benutzerinterface) zum Ausprobieren der Anreicherung
+2. Ein [Webservice](#webservice) zur Abfrage von Anreicherungen in maschinenlesbarer Form
+
+Als Eingabe dient jeweils die PPN eines Datensatz und das Datenbankkürzel einer PICA-Datenbank (standardmäßig der [K10Plus-Katalog](https://opac.k10plus.de/). Außerdem lässt sich bestimmen, welche Mappings bei der Anreicherung zu berücksichtigen sind (standardmäßig alle). Zurückgeliefert wird als Kataloganreicherung eine Liste von PICA-Feldern die hinzugefügt, geändert oder entfernt werden sollen. Bei neuen Erschließungsfeldern wird in Unterfeld `$A` die URI des Mappings eingetragen auf Grundlage welcher die Anreicherung ermittelt wurde. Bei Änderungen an Mappings kann die Anreicherung automatisch korrigiert werden.
+
+Weitere Informationen und technische Details befinden sich im [coli-rich git Repository](https://github.com/gbv/coli-rich#readme).
+
+* [coli-rich Produktivinstanz](https://coli-conc.gbv.de/coli-rich/app/)
+* [coli-rich Entwicklungsinstanz](https://coli-conc.gbv.de/coli-rich/dev/)
+
 ## Benutzerinterface
 
 Mit dem [coli-rich Benutzerinterface](https://coli-conc.gbv.de/coli-rich/app/) lässt sich eine Konfiguration erstellen die bestimmt, welche Art von Anreicherung auf Grundlage welcher Mappings erstellt werden sollen. Auch lässt sich das Ergebnis der konfigurierten Anreicherung an beliebigen Datensätzen direkt ausprobieren.
