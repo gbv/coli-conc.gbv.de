@@ -50,17 +50,9 @@ Die vorgeschlagene Anreicherung kann beispielsweise mit der Software WinIBW in d
 
 Der aktuelle Prototyp der coli-rich Webanwendung steht unter <https://gbv.github.io/coli-rich/> zur Verfügung.
 
-{% endsection %}
-
-{% section %}
-
 ## Webservice
 
 Der [Webservice](https://coli-conc.gbv.de/coli-rich/app/api) ist für automatische Massenabfragen von Kataloganreicherung gedacht.
-
-{% endsection %}
-
-{% section %}
 
 ## Weitere Komponenten
 
@@ -72,5 +64,4 @@ Die Auswahl welche Datensätze angereichert werden sollen und die Eintragung der
 
 Bei Bedarf können im Rahmen von coli-rich allerdings Abfragen bereitgestellt werden die Datensätze ermitteln bei denen eine Anreicherung aussichtsreich ist. Im Handbuch *Einführung in die Verarbeitung von PICA-Daten* ist hierfür [ein Beispiel enthalten](https://pro4bib.github.io/pica/#/verarbeitung?id=schnittstellen).
 
-{% endsection %}
 -->
