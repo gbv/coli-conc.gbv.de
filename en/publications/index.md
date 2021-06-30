@@ -160,11 +160,11 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - coli-conc Expert Meeting 2021
 
-- [Mini ELAG II](https://elag.org/2021/04/07/mini-elag-ii/). 2021-06-30
+### 2021
+
+- Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | url }}))
 
 - Vom Vokabularverzeichnis zum interdisziplinären KOS-Datendienst: 8 Jahre BARTOC. [109. Bibliothekartag](https://bibliothekartag2021.de/) 2021-06-16
-
-### 2021
 
 - Sacherschließungsdienste und -projekte der VZG – ein Überblick. Sprechstunde Bibliothekartag 2021. 2021-06-16 ([PDF]({{ "/publications/2021-06-17-sprechstunde-bibliothekartag.pdf" | url }}))
 
