@@ -164,7 +164,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | url }}))
 
-- Vom Vokabularverzeichnis zum interdisziplinären KOS-Datendienst: 8 Jahre BARTOC. [109. Bibliothekartag](https://bibliothekartag2021.de/) 2021-06-16
+- Vom Vokabularverzeichnis zum interdisziplinären KOS-Datendienst: 8 Jahre BARTOC. [109. Bib*tag](https://bibliothekartag2021.de/) 2021-06-16 [urn:nbn:de:0290-opus4-175636](https://nbn-resolving.org/urn:nbn:de:0290-opus4-175636)
 
 - Sacherschließungsdienste und -projekte der VZG – ein Überblick. Sprechstunde Bibliothekartag 2021. 2021-06-16 ([PDF]({{ "/publications/2021-06-17-sprechstunde-bibliothekartag.pdf" | url }}))
 
