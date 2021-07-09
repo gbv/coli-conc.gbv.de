@@ -24,7 +24,7 @@ subtitle:
 
 - [coli-rich]({{ "/coli-rich/" | url }})
 
-  Catalog enrichment via concordances
+  Catalog enrichment via concordances 
 
 {% endsection %}
 
@@ -48,6 +48,11 @@ Several web services are being developed to query information related to knowled
 - [Wikidata JSKOS API](https://coli-conc.gbv.de/services/wikidata/)
 
   Access Wikidata in JSKOS format with [wikidata-jskos](https://github.com/gbv/wikidata-jskos).
+  
+- [Login Server API](https://coli-conc.gbv.de/login/)
+
+  Authentication for our services via [Login Server](https://github.com/gbv/login-server).
+
 
 {% endsection %}
 
