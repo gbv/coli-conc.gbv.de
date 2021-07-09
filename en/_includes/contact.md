@@ -58,4 +58,15 @@ peters@gbv.de
 [GitHub](https://github.com/stefandesu)
 {% endsmall %}
 {% endflex %}
+{% flex %}
+{{ userIcon | safe }}
+
+**{{ { en: "Public Relations", de: "Öffentlichkeitsarbeit" } | localize }}**
+
+Anne Schuchardt
+
+{% small %}
+schuchardt@gbv.de
+{% endsmall %}
+{% endflex %}
 {% endflexbox %}
