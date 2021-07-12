@@ -166,13 +166,13 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - Vom Vokabularverzeichnis zum interdisziplinären KOS-Datendienst: 8 Jahre BARTOC. [109. Bib*tag](https://bibliothekartag2021.de/) 2021-06-16 [urn:nbn:de:0290-opus4-175636](https://nbn-resolving.org/urn:nbn:de:0290-opus4-175636)
 
-- Sacherschließungsdienste und -projekte der VZG – ein Überblick. Sprechstunde Bibliothekartag 2021. 2021-06-16 ([PDF]({{ "/publications/2021-06-17-sprechstunde-bibliothekartag.pdf" | url }}))
+- Sacherschließungsdienste und -projekte der VZG – ein Überblick. Sprechstunde Bibliothekartag 2021. 2021-06-16 ([PDF](https://coli-conc.gbv.de/publications/2021-06-17-sprechstunde-bibliothekartag.pdf))
 
-- Wie verlinken wir unsere Daten mit der GND? Mapping mit Cocoda. [GNDCon 2021](https://wiki.dnb.de/display/GNDCON/Programm++%7C+GNDCon+2.0). 2021-06-10 ([PDF]({{ "/publications/gndcon2021.pdf" | url }}))
+- Wie verlinken wir unsere Daten mit der GND? Mapping mit Cocoda. [GNDCon 2021](https://wiki.dnb.de/display/GNDCON/Programm++%7C+GNDCon+2.0). 2021-06-10 ([PDF](publications/gndcon2021.pdf))
 
 - BARTOC: Looking both ways, then and now as it prepares for the future of Knowledge Organisation. [ISKO UK Research Observatory](https://www.iskouk.org/event-4255162). 2021-05-19 <https://doi.org/10.5281/zenodo.4766970>
 
-- BARTOC & coli-conc: The story of a partnership and future plans. [EDUG 2021](https://edug.pansoft.de/tiki-index.php?page=2021+meeting). 2021-05-06. ([PDF]({{ "/publications/2021-05-06-bartoc-coli-conc.pdf" | url }}))
+- BARTOC & coli-conc: The story of a partnership and future plans. [EDUG 2021](https://edug.pansoft.de/tiki-index.php?page=2021+meeting). 2021-05-06. ([PDF](https://coli-conc.gbv.de/publications/2021-05-06-bartoc-coli-conc.pdf))
 
 - Analysis of Synthesized DDC Numbers. [Code4Lib 2021](https://2021.code4lib.org/). 2021-04-06 <https://doi.org/10.5281/zenodo.4637183> (see also [the recording](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s))
 
@@ -186,7 +186,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - Wikidata-Normdatenverknüpfung mit Cocoda. WikiCite Virtual Conference 2020. <https://doi.org/10.5446/51060>
 
-- Webinar coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. 2020-10-08 ([PDF]({{ "/publications/2020-10-08-coli-conc-webinar.pdf" | url }}))
+- Webinar coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. 2020-10-08 ([PDF](https://coli-conc.gbv.de/publications/2020-10-08-coli-conc-webinar.pdf))
 
 - Das Projekt coli-conc. Bericht der FAG  Erschließung und Informationsvermittlung auf der Verbundkonferenzen des GBV, 2020-24-08 ([PDF](https://verbundkonferenz.gbv.de/wp-content/uploads/2020/08/Bericht_FAG_EI_VK2020.pdf))
 
