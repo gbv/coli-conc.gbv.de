@@ -115,34 +115,44 @@ console.log()
 console.log("Copying missing files to German site...")
 const files = getAllFiles(site)
 const filesCopied = []
-for (let file of files) {
-  const fileGerman = file.replace(site, siteGerman)
-  if (!fs.existsSync(fileGerman)) {
-    ensureDirectoryExistence(fileGerman)
-    fs.copyFileSync(file, fileGerman)
-    filesCopied.push(fileGerman)
-    console.log(`- copied ${file} to ${fileGerman}`)
-    // Add isFallback front matter variable to fallback site
-    if (!fileGerman.includes("_includes")) {
-      let fileContent = fs.readFileSync(fileGerman, "utf-8")
-      const addition = "isFallback: true"
-      if (fileContent.startsWith("---")) {
-        fileContent = fileContent.replace("---", `---\n${addition}`)
-      } else {
-        fileContent = `---\n${addition}\n---\n${fileContent}`
+try {
+  for (let file of files) {
+    const fileGerman = file.replace(site, siteGerman)
+    if (!fs.existsSync(fileGerman)) {
+      ensureDirectoryExistence(fileGerman)
+      fs.copyFileSync(file, fileGerman)
+      filesCopied.push(fileGerman)
+      console.log(`- copied ${file} to ${fileGerman}`)
+      // Add isFallback front matter variable to fallback site
+      if (!fileGerman.includes("_includes")) {
+        let fileContent = fs.readFileSync(fileGerman, "utf-8")
+        const addition = "isFallback: true"
+        if (fileContent.startsWith("---")) {
+          fileContent = fileContent.replace("---", `---\n${addition}`)
+        } else {
+          fileContent = `---\n${addition}\n---\n${fileContent}`
+        }
+        fs.writeFileSync(fileGerman, fileContent)
       }
-      fs.writeFileSync(fileGerman, fileContent)
     }
   }
+} catch (error) {
+  console.error("- Error while copying missing files to German site:", error)
+  console.log("- Contuining anyway...")
 }
 console.log()
 
 // 4. Build German site
 console.log("Building German site...")
-execSync(
-  `URL=${url}${siteGerman}/ ` + `node_modules/.bin/eleventy build --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=${output}/${siteGerman}`,
-  { stdio: "inherit" },
-)
+try {
+  execSync(
+    `URL=${url}${siteGerman}/ ` + `node_modules/.bin/eleventy build --pathprefix=${pathprefix || ""}${siteGerman} --input=${siteGerman} --output=${output}/${siteGerman}`,
+    { stdio: "inherit" },
+  )
+} catch (error) {
+  console.error("- Error building German site:", error)
+  console.log("- Contuining anyway...")
+}
 console.log()
 
 // 5. Delete copied files
