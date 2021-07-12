@@ -1,5 +1,4 @@
-# New coli-conc Website
-Currently under development.
+# coli-conc Website
 
 ## Install and Build
 The website uses [Eleventy](https://www.11ty.dev) as a static site generator. Eleventy is built in JavaScript and we are extending some of its functionality with additional packages, therefore node/npm is necessary.
