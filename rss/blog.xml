@@ -22,7 +22,7 @@ at the head office of GBV Common Library Network (VZG). Project coli-conc aims
 at developing an infrastructure to facilitate management and exchange of
 concordances between library knowledge organization systems. This includes a
 modular web application named Cocoda.&lt;/p&gt;
-&lt;h1 id=&quot;overview&quot;&gt;Overview&lt;/h1&gt;
+&lt;h1 id=&quot;overview&quot; tabindex=&quot;-1&quot;&gt;Overview&lt;/h1&gt;
 &lt;p&gt;For the most part knowledge organization systems in Cocoda are represented in
 the popular &lt;a href=&quot;http://www.w3.org/TR/skos-reference/&quot; target=&quot;_blank&quot;&gt;SKOS&lt;/a&gt; data model: a
 particular knowledge organization system is called a &lt;strong&gt;concept scheme&lt;/strong&gt;
@@ -32,7 +32,7 @@ from one concept scheme to concepts of another concept scheme. A set of
 mappings between two concept schemes is called &lt;strong&gt;concordance&lt;/strong&gt;. The main
 application of Cocoda is going to be the creation and evaluation of mappings
 and concordances with Dewey Decimal Classification (DDC) as primary use case.&lt;/p&gt;
-&lt;h1 id=&quot;technical-architecture&quot;&gt;Technical architecture&lt;/h1&gt;
+&lt;h1 id=&quot;technical-architecture&quot; tabindex=&quot;-1&quot;&gt;Technical architecture&lt;/h1&gt;
 &lt;p&gt;The technical architecture of Cocoda consists of seven layers. The
 following table lists each of them with current status and choice of
 technologies:&lt;/p&gt;
@@ -87,11 +87,11 @@ technologies:&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&quot;web-interface&quot;&gt;Web interface&lt;/h2&gt;
+&lt;h2 id=&quot;web-interface&quot; tabindex=&quot;-1&quot;&gt;Web interface&lt;/h2&gt;
 &lt;p&gt;The current user interface of Cocoda web application is only a
 preliminary prototype to test functionalities. Later versions will be
 subject to usability studies.&lt;/p&gt;
-&lt;h2 id=&quot;javascript-client-modules&quot;&gt;JavaScript client modules&lt;/h2&gt;
+&lt;h2 id=&quot;javascript-client-modules&quot; tabindex=&quot;-1&quot;&gt;JavaScript client modules&lt;/h2&gt;
 &lt;p&gt;The web interface is build of independent JavaScript modules, which can also be
 used in other applications. Two of these modules have already been published as
 early alpha releases: &lt;a href=&quot;https://gbv.github.io/ng-skos/&quot; target=&quot;_blank&quot;&gt;ng-skos&lt;/a&gt; is a general
@@ -101,13 +101,13 @@ OpenSearch Suggestions API. All modules are based on
 &lt;a href=&quot;https://angularjs.org/&quot; target=&quot;_blank&quot;&gt;AngularJS&lt;/a&gt; because it seemed to be the most popular
 web application framework. A later version may also choose Web Components,
 plain jQuery or another JavaScript framework.&lt;/p&gt;
-&lt;h2 id=&quot;jskos-data-format&quot;&gt;JSKOS data format&lt;/h2&gt;
+&lt;h2 id=&quot;jskos-data-format&quot; tabindex=&quot;-1&quot;&gt;JSKOS data format&lt;/h2&gt;
 &lt;p&gt;The JSKOS representation of knowledge organization system data is being
 developed based on SKOS and &lt;a href=&quot;http://json-ld.org/&quot; target=&quot;_blank&quot;&gt;JSON-LD&lt;/a&gt;. This format combines the
 benefit of RDF for data aggregation and JSON for easy manipulation and
 storage. The current draft of JSKOS is available at
 &lt;a href=&quot;http://couchdb.apache.org/&quot; target=&quot;_blank&quot;&gt;https://gbv.github.io/jskos/&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;jskos-api-and-wrappers&quot;&gt;JSKOS API and wrappers&lt;/h2&gt;
+&lt;h2 id=&quot;jskos-api-and-wrappers&quot; tabindex=&quot;-1&quot;&gt;JSKOS API and wrappers&lt;/h2&gt;
 &lt;p&gt;Several APIs and services exist to query and store knowledge organization
 systems (&lt;a href=&quot;https://github.com/NatLibFi/Skosmos/&quot; target=&quot;_blank&quot;&gt;Skosmos&lt;/a&gt;,
 &lt;a href=&quot;http://www.poolparty.biz/&quot; target=&quot;_blank&quot;&gt;Poolparty&lt;/a&gt;
@@ -117,12 +117,12 @@ As part of coli-conc we will evaluate and compare these APIs and create
 wrappers to a common JSKOS-API. The current prototype makes use of API of
 &lt;a href=&quot;http://lobid.org/&quot; target=&quot;_blank&quot;&gt;lobid.org&lt;/a&gt; RVK. Both wrappers and API specification will be made available at
 &lt;a href=&quot;https://github.com/NatLibFi/Skosmos/&quot; target=&quot;_blank&quot;&gt;https://gbv.github.io/jskos-api/&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;jskos-databases&quot;&gt;JSKOS databases&lt;/h2&gt;
+&lt;h2 id=&quot;jskos-databases&quot; tabindex=&quot;-1&quot;&gt;JSKOS databases&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://couchdb.apache.org/&quot; target=&quot;_blank&quot;&gt;CouchDB&lt;/a&gt; databases are used to store concepts and
 mappings in JSKOS format. A copy of German DDC in MARCXML has been transformed
 to this format for easy access with Cocoda web application. Both database and
 DDC data are not public by now.&lt;/p&gt;
-&lt;h2 id=&quot;mapping-recommendation-services&quot;&gt;Mapping recommendation services&lt;/h2&gt;
+&lt;h2 id=&quot;mapping-recommendation-services&quot; tabindex=&quot;-1&quot;&gt;Mapping recommendation services&lt;/h2&gt;
 &lt;p&gt;The creation and management of mappings will be supported by several
 mapping recommendation services based automatic search for concept
 labels, existing mappings, connected concepts, and occurrences in
@@ -140,7 +140,7 @@ for illustration and testing.&lt;/p&gt;
     <content type="html">
       &lt;p&gt;This report gives an overview about Open Source software for Knowledge
 Organization Systems (KOS).&lt;/p&gt;
-&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;/h1&gt;
+&lt;h1 id=&quot;motivation&quot; tabindex=&quot;-1&quot;&gt;Motivation&lt;/h1&gt;
 &lt;p&gt;Project &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;coli-conc&lt;/a&gt; aims at concordances between
 Knowledge Organization Systems (KOS). To manage such concordances it first
 requires access to KOS and its concepts. The lack of a satisfying general data
@@ -160,7 +160,7 @@ First examples of the second option are given at
 scale to larger number of KOS. Open source luckily allows to extend existing
 software. For this reason an overview of Open Source software for Knowledge
 Organization Systems (KOS) is needed.&lt;/p&gt;
-&lt;h1 id=&quot;existing-lists-of-kos-software-(a-metabibliography)&quot;&gt;Existing lists of KOS software (a metabibliography)&lt;/h1&gt;
+&lt;h1 id=&quot;existing-lists-of-kos-software-(a-metabibliography)&quot; tabindex=&quot;-1&quot;&gt;Existing lists of KOS software (a metabibliography)&lt;/h1&gt;
 &lt;p&gt;Project coli-conc does not include creation of software to manage KOS because
 such software already exists in form of thesaurus editors, vocabulary
 management systems and similar tools.  The following lists of KOS software were
@@ -184,7 +184,7 @@ of Research Data Alliance (RDA). It contains 39 software systems, some of&lt;/p&
 &lt;/ul&gt;
 &lt;p&gt;Several more lists of taxonomy tools, ontology editors etc. exists so some
 tools may have been missed. Feedback is welcome!&lt;/p&gt;
-&lt;h1 id=&quot;open-source-kos-software&quot;&gt;Open Source KOS software&lt;/h1&gt;
+&lt;h1 id=&quot;open-source-kos-software&quot; tabindex=&quot;-1&quot;&gt;Open Source KOS software&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -301,7 +301,7 @@ tools may have been missed. Feedback is welcome!&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;h1 id=&quot;summary&quot; tabindex=&quot;-1&quot;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;The resulting list of software contains small and large projects, web
 applications and desktop applications, popular and less used software.
 Additional evaluation is needed to decide which products to focus on.
@@ -320,7 +320,7 @@ A first start has been made with a
     <id>https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html</id>
     <summary>This report presents a new architecture for managing large numbers of concordances</summary>
     <content type="html">
-      &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+      &lt;h1 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;The need of mappings between terminologies, vocabularies, ontologies, and other
 kinds of knowledge organization systems has been articulated since introduction
 of such systems at large scale.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; For this
@@ -328,7 +328,7 @@ reason &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot
 infrastructure to facilitate management and exchange of (cross-)concordances
 between terminologies.  This report outlines a novel architecure of terminology
 mappings to ultimately connect all knowledge organization systems.&lt;/p&gt;
-&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+&lt;h1 id=&quot;background&quot; tabindex=&quot;-1&quot;&gt;Background&lt;/h1&gt;
 &lt;p&gt;As soon as concordances cross more than two vocabularies, multiple
 architectures can be applied [@ISO25964-2]. For small numbers, a many-to-many
 architecture is feasable, but for more terminologies a hub architecture becomes
@@ -351,7 +351,7 @@ architecure.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1 id=&quot;the-noodle-architecture&quot;&gt;The noodle architecture&lt;/h1&gt;
+&lt;h1 id=&quot;the-noodle-architecture&quot; tabindex=&quot;-1&quot;&gt;The noodle architecture&lt;/h1&gt;
 &lt;p&gt;We propose the &amp;quot;noodle achitecture&amp;quot; as opposed to the many-to-many architecture
 and the hub architecture for managing a large number of concordances. In our
 model each knowledge organization system is once mapped to one other system.
@@ -377,12 +377,12 @@ ensure that only one terminology is added at a time at the end of the noodle,
 the whole data structure is managed as blockchain: this kind of distributed
 database known from Bitcoin can be applied to other domains as well
 [@Nakamoto2008].&lt;/p&gt;
-&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;h1 id=&quot;summary&quot; tabindex=&quot;-1&quot;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;This report introduces a novel approach to manage a very large&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr3.html#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; number of mappings between any kind of
 knowledge organization systems. The so called noodle architecture combines the
 benefit of a hub architecture with less struggle about which system to use as
 central hub.&lt;/p&gt;
-&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+&lt;h1 id=&quot;references&quot; tabindex=&quot;-1&quot;&gt;References&lt;/h1&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;For instance at the 1910 conference of the
@@ -404,7 +404,7 @@ data as explained by @Shaw2015. &lt;a href=&quot;https://gbv.github.io/coli-conc
     <summary>Ergebnis der Session &quot;Anforderungen an Normdatendienste&quot; auf dem DINI AG KIM Workshop 2016</summary>
     <content type="html">
       &lt;p&gt;Die vorliegende Übersicht fasst das Ergebnis einer Session &amp;quot;Anforderungen an Normdatendienste&amp;quot; auf dem &lt;a href=&quot;https://wiki.dnb.de/display/DINIAGKIM/KIM+WS+2016&quot; target=&quot;_blank&quot;&gt;DINI AG KIM Workshop am 4./5. April&lt;/a&gt; in Mannheim zusammen.&lt;/p&gt;
-&lt;h1 id=&quot;einleitung&quot;&gt;Einleitung&lt;/h1&gt;
+&lt;h1 id=&quot;einleitung&quot; tabindex=&quot;-1&quot;&gt;Einleitung&lt;/h1&gt;
 &lt;p&gt;Normdaten im weitesten Sinne, d.h. Wissensorganisationssysteme wie
 Klassifikationen, Thesauri und Normdateien, ermöglichen die verlässliche
 Identifizierung von Personen, Orten, Sachgebieten und anderen Entitäten.  Daher
@@ -415,7 +415,7 @@ bereitgestellt werden. In der Session &amp;quot;Anforderungen an Normdatendienst
 dem Workshop der DINI AG KIM wurde deshalb am 5. April 2016 der Frage
 nachgegangen, welche Nutzungsarten von Normdaten besonders relevant sind und
 wie diese über einheitliche Schnittstellen bereitgestellt werden können.&lt;/p&gt;
-&lt;h1 id=&quot;vorgehen&quot;&gt;Vorgehen&lt;/h1&gt;
+&lt;h1 id=&quot;vorgehen&quot; tabindex=&quot;-1&quot;&gt;Vorgehen&lt;/h1&gt;
 &lt;p&gt;Um den rund 50 TeilnehmerInnen eine konstruktive Diskussion zu ermöglichen,
 wurden Gruppen von etwa sechs Personen gebildet, deren MitgliederInnen zunächst
 einzeln und dann gemeinsam nach Anwendungsfällen suchen sollten.  Zur Erfassung
@@ -426,7 +426,7 @@ mehreren, zeitlich strikt begrenzten Phasen und ermöglichte es, innerhalb von
 90 Minuten zahlreiche Anwendungsfälle und Anforderungen an Normdatendienste
 zusammenzustellen. Die begleitenden Folien enthalten eine Einleitung und fassen
 das Vorgehen zusammen [@Voss2016b].&lt;/p&gt;
-&lt;h1 id=&quot;ergebnisse&quot;&gt;Ergebnisse&lt;/h1&gt;
+&lt;h1 id=&quot;ergebnisse&quot; tabindex=&quot;-1&quot;&gt;Ergebnisse&lt;/h1&gt;
 &lt;p&gt;Die folgende Liste enthält eine Auswahl von allgemeinen Anwendungsfällen und
 Anforderungen an Normdatendiensten, die im Rahmen der Session ermittelt wurden.&lt;/p&gt;
 &lt;ul&gt;
@@ -482,7 +482,7 @@ Anforderungen an Normdatendiensten, die im Rahmen der Session ermittelt wurden.&
 &lt;p&gt;&lt;strong&gt;Concept mining&lt;/strong&gt; zur Ermittlung von Begriffen oder Begriffskandidaten aus Texten&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;ausblick&quot;&gt;Ausblick&lt;/h1&gt;
+&lt;h1 id=&quot;ausblick&quot; tabindex=&quot;-1&quot;&gt;Ausblick&lt;/h1&gt;
 &lt;p&gt;Die vorliegende Sammlung bedarf noch einer genaueren Gruppierung, Priorisierung
 und Ausarbeitung der ermittelten Anwendungsfälle sowie des Abgleichs mit
 weiteren Anforderungskatalogen wie die Sammlung der &lt;a href=&quot;https://rd-alliance.org/groups/vocabulary-services-interest-group.html&quot; target=&quot;_blank&quot;&gt;RDA Vocabulary Services
@@ -497,7 +497,7 @@ facts...) kann über die &lt;a href=&quot;https://wiki.dnb.de/display/DINIAGKIM/
 Normdaten&lt;/a&gt; erfolgen.
 Für eine umfassende Umsetzung, Evaluation und Dokumentation der Anforderungen
 ist jedoch aufgrund des Arbeitsumfangs eine zusätzliche Förderung angebracht.&lt;/p&gt;
-&lt;h1 id=&quot;literaturnachweise&quot;&gt;Literaturnachweise&lt;/h1&gt;
+&lt;h1 id=&quot;literaturnachweise&quot; tabindex=&quot;-1&quot;&gt;Literaturnachweise&lt;/h1&gt;
 
     </content>
   </entry>
@@ -510,7 +510,7 @@ ist jedoch aufgrund des Arbeitsumfangs eine zusätzliche Förderung angebracht.&
     <content type="html">
       &lt;p&gt;This report gives an overview about Open Source web applications to create,
 manage, and publish Knowledge Organization Systems (KOS).&lt;/p&gt;
-&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+&lt;h1 id=&quot;background&quot; tabindex=&quot;-1&quot;&gt;Background&lt;/h1&gt;
 &lt;p&gt;To manage concordances between Knowledge Organization Systems (KOS) in project
 &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;coli-conc&lt;/a&gt;, access to each of these KOS is
 required.  To access and manage KOS there are several tools, as listed in a
@@ -519,7 +519,7 @@ narrowed down to web applications. The collection only contains applications
 with main focus on KOS management. More application exist to make use of
 controlled vocabularies as part of another task, &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; but their
 evaluation would require a much larger study.&lt;/p&gt;
-&lt;h1 id=&quot;open-source-web-applications-for-kos&quot;&gt;Open Source web applications for KOS&lt;/h1&gt;
+&lt;h1 id=&quot;open-source-web-applications-for-kos&quot; tabindex=&quot;-1&quot;&gt;Open Source web applications for KOS&lt;/h1&gt;
 &lt;p&gt;The list given in &lt;a href=&quot;http://coli-conc.gbv.de/publications/tr2.html&quot; target=&quot;_blank&quot;&gt;coli-conc report
 2&lt;/a&gt; has been updated with
 information about KOS editing and API features, source code repository, year of
@@ -700,7 +700,7 @@ last update, and rough number of contributors.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&quot;software-development&quot;&gt;Software development&lt;/h2&gt;
+&lt;h2 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software development&lt;/h2&gt;
 &lt;p&gt;The updated list contains 16 web applications for knowledge organization
 systems, written in six different programming languages (Java: 7, PHP: 5,
 JavaScript: 2, Ruby/Python/XSLT: 1 each).  All applications except SISSVoc and
@@ -712,15 +712,15 @@ content in machine-readable form.&lt;/p&gt;
 have not been updated since more then two years. All remaining projects except
 SISSVoc have been updated in the last nine month, showing active development.
 The number of contributors gives a rough estimate of the developer community.&lt;/p&gt;
-&lt;h2 id=&quot;typology-of-kos-applications&quot;&gt;Typology of KOS applications&lt;/h2&gt;
+&lt;h2 id=&quot;typology-of-kos-applications&quot; tabindex=&quot;-1&quot;&gt;Typology of KOS applications&lt;/h2&gt;
 &lt;p&gt;The applications can be grouped by several criteria for further evaluation.&lt;/p&gt;
-&lt;h3 id=&quot;kos-tools-vs.-general-ontology-tools&quot;&gt;KOS tools vs. general ontology tools&lt;/h3&gt;
+&lt;h3 id=&quot;kos-tools-vs.-general-ontology-tools&quot; tabindex=&quot;-1&quot;&gt;KOS tools vs. general ontology tools&lt;/h3&gt;
 &lt;p&gt;Semantic MediaWiki, Wikibase, and Web Protégé are no KOS applications in a
 stricter sense but they aim at the creation and management of ontologies,
 semantic neworks, or knowledge bases.  It is possible to use them for KOSs but
 more serious work requires some configuration, usage guidelines, and additional
 tools or extensions [@Voss2016].&lt;/p&gt;
-&lt;h3 id=&quot;kos-editors-vs.-kos-publishing-tools&quot;&gt;KOS editors vs. KOS publishing tools&lt;/h3&gt;
+&lt;h3 id=&quot;kos-editors-vs.-kos-publishing-tools&quot; tabindex=&quot;-1&quot;&gt;KOS editors vs. KOS publishing tools&lt;/h3&gt;
 &lt;p&gt;KOS editors can be used to create and modify taxonomies, thesauri, glossaries
 or other kinds of KOS. Nine applications (including the general ontology tools)
 can be used as KOS editor and five only provide read access. For instance
@@ -730,7 +730,7 @@ access to the resulting systems. KOS editors can further be grouped into simple
 KOS editors and tools for KOS management. The latter include an editorial
 workflow with user roles (e.g. editors and publishers) and publication
 states (e.g.  new, suggested, published, and deleted concepts).&lt;/p&gt;
-&lt;h3 id=&quot;resulting-categories&quot;&gt;Resulting categories&lt;/h3&gt;
+&lt;h3 id=&quot;resulting-categories&quot; tabindex=&quot;-1&quot;&gt;Resulting categories&lt;/h3&gt;
 &lt;p&gt;The analysis of Open Source KOS web application types results in four
 categories. KOS management tools and editors can mostly be used also for KOS
 publishing but with less access-oriented features.&lt;/p&gt;
@@ -772,7 +772,7 @@ format.&lt;/p&gt;
 git repositories.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h1&gt;
+&lt;h1 id=&quot;evaluation&quot; tabindex=&quot;-1&quot;&gt;Evaluation&lt;/h1&gt;
 &lt;p&gt;An in-deep evaluation would first require definition of criteria and goals.
 This report only gives an overview and recommendations for project coli-conc.
 The project does not include editing KOS but creation of uniform access methods
@@ -795,14 +795,14 @@ natively support an API for querying KOS information in JSKOS format: TemaTres,
 Skosmos, OpenSKOS (PHP) and SKOS Editor, Ginco, VocBench (Java). A PHP
 framework for JSKOS processing and access is already being developed as part of
 project coli-conc to build on.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr7.html#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;h1 id=&quot;summary&quot; tabindex=&quot;-1&quot;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;This report collected information about sixteen Open Source web applications
 for Knowledge Organization Systems (KOS). The applications can be grouped in
 four categories (ontology editor, KOS management, KOS editor, KOS publishing).
 The report does not include a detailed evaluation but recommendations for
 project coli-conc. Three PHP-based projects and three Java-based projects have
 been identified for possible collaboration in software development.&lt;/p&gt;
-&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+&lt;h1 id=&quot;references&quot; tabindex=&quot;-1&quot;&gt;References&lt;/h1&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;For instance Annotation
@@ -828,7 +828,7 @@ applications such as &lt;a href=&quot;http://annot.readthedocs.io/&quot; target=
     <content type="html">
       &lt;p&gt;Dieser Report fasst Ergebnisse eines Vergleichs von APIs zum Zugriff auf
 ausgewählte Wissensorganisationssysteme zusammen.&lt;/p&gt;
-&lt;h1 id=&quot;einf%C3%BChrung&quot;&gt;Einführung&lt;/h1&gt;
+&lt;h1 id=&quot;einf%C3%BChrung&quot; tabindex=&quot;-1&quot;&gt;Einführung&lt;/h1&gt;
 &lt;p&gt;Im Rahmen des Projekt &lt;a href=&quot;https://coli-conc.gbv.de/&quot; target=&quot;_blank&quot;&gt;coli-conc&lt;/a&gt; wurden in einem
 Workshop der DINI AG KIM allgemeine Anforderungen an Normdatendienste zum
 Zugriff auf verschiedene Wissenssorganisationssysteme ermittelt [@TR4]. Der
@@ -836,7 +836,7 @@ vorliegende Report untersucht die Eigenschaften einiger vorhandener
 Normdatendienste. Die Untersuchung basiert auf den Ergebnissen eines
 umfangreicheren Vergleichs von APIs zum Zugriff auf kontrollierte Vokabulare
 [@Horn2016].&lt;/p&gt;
-&lt;h1 id=&quot;untersuchte-normdatendienste&quot;&gt;Untersuchte Normdatendienste&lt;/h1&gt;
+&lt;h1 id=&quot;untersuchte-normdatendienste&quot; tabindex=&quot;-1&quot;&gt;Untersuchte Normdatendienste&lt;/h1&gt;
 &lt;p&gt;Untersucht wurden vier Schnittstellen zum Zugriff auf die folgenden Vokabulare:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -869,7 +869,7 @@ umfangreicheren Vergleichs von APIs zum Zugriff auf kontrollierte Vokabulare
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1 id=&quot;r%C3%BCckgabeformate&quot;&gt;Rückgabeformate&lt;/h1&gt;
+&lt;h1 id=&quot;r%C3%BCckgabeformate&quot; tabindex=&quot;-1&quot;&gt;Rückgabeformate&lt;/h1&gt;
 &lt;p&gt;Abgesehen von der RVK-API, die ein eigenes JSON- bzw. XML-Format verwendet,
 basieren die Rückgabeformate aller APIs auf RDF, das in unterschiedlichen
 Serialisierungen (RDF/XML, Turtle...) ausgewählt werden kann. Die RDF-Formate
@@ -878,7 +878,7 @@ Ontologie definiert wurde [@Haffner2016]. Das Format der STW beschränkt sich
 weitgehend auf SKOS. Die Library of Congress bietet mit MADS/RDF zusätzlich
 eine Erweiterung an.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fn5&quot; id=&quot;fnref5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt; Noch
 umfangreicher ist die GND-Ontologie mit 228 Eigenschaften.&lt;/p&gt;
-&lt;h1 id=&quot;umfang-der-zur%C3%BCckgelieferten-daten&quot;&gt;Umfang der zurückgelieferten Daten&lt;/h1&gt;
+&lt;h1 id=&quot;umfang-der-zur%C3%BCckgelieferten-daten&quot; tabindex=&quot;-1&quot;&gt;Umfang der zurückgelieferten Daten&lt;/h1&gt;
 &lt;p&gt;Trotz unterschiedlicher Rückgabeformate lassen sich Gemeinsamkeiten in den über
 die verschiedenen APIs abfragbaren Datenfeldern ausmachen. Die folgende
 Übersicht beschränkt sich auf einen Vergleich der abfragbaren Verknüpfungen:
@@ -949,7 +949,7 @@ als auch STW sind weiterhin (über de.wikipedia bzw. DBPedia) mit Wikipedia
 verknüpft&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fn6&quot; id=&quot;fnref6&quot;&gt;[6]&lt;/a&gt;&lt;/sup&gt;).  In den
 STW-Daten sind zusätzlich Verlinkungen auf Einträge im Katalog des ZBW
 enthalten.&lt;/p&gt;
-&lt;h1 id=&quot;abfragem%C3%B6glichkeiten-f%C3%BCr-typische-anwendungsf%C3%A4lle&quot;&gt;Abfragemöglichkeiten für typische Anwendungsfälle&lt;/h1&gt;
+&lt;h1 id=&quot;abfragem%C3%B6glichkeiten-f%C3%BCr-typische-anwendungsf%C3%A4lle&quot; tabindex=&quot;-1&quot;&gt;Abfragemöglichkeiten für typische Anwendungsfälle&lt;/h1&gt;
 &lt;p&gt;Die folgende Tabelle liefert einen Vergleich der APIs mit den von @TR4
 genannten Anwendungsfällen und Anforderungen mit Ausnahme von
 Schreib-Zugriffen.&lt;/p&gt;
@@ -1050,7 +1050,7 @@ Komplexität des Vokabulars zusammenhängt. Die API der LCSH kann mit ihrer
 Beschränkung auf einfachem Linked Open Data, d.h. Abfrage per bekannter URI,
 den wenigsten Anforderungen genügen. Die Typeahead-Funktionen sind bei allen
 APIs mangelhaft, da sie anscheinend nicht auf Ranking-Verfahren basieren.&lt;/p&gt;
-&lt;h1 id=&quot;zusammenfassung-und-ausblick&quot;&gt;Zusammenfassung und Ausblick&lt;/h1&gt;
+&lt;h1 id=&quot;zusammenfassung-und-ausblick&quot; tabindex=&quot;-1&quot;&gt;Zusammenfassung und Ausblick&lt;/h1&gt;
 &lt;p&gt;Zusammenfassend lässt sich feststellen dass die verschiedenen untersuchten
 Normdatendienste trotz grundsätzlicher Vergleichbarkeit sehr unterschiedlich
 ausfallen. Selbst die RDF-basierten APIs sind uneinheitlich umgesetzt. Generell
@@ -1066,7 +1066,7 @@ JSKOS-API wurde bereits unter dem Namen ELMA [@ELMA] festgelegt und umgesetzt.&l
 des Projektes neben Normdatendiensten für einzelne Vokabulare die APIs
 verschiedener Webanwendungen zum Zugriff auf Wissensorganisationssysteme
 verglichen werden [@TR7].&lt;/p&gt;
-&lt;h1 id=&quot;nachweise&quot;&gt;Nachweise&lt;/h1&gt;
+&lt;h1 id=&quot;nachweise&quot; tabindex=&quot;-1&quot;&gt;Nachweise&lt;/h1&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://rvk.uni-regensburg.de/Portal_API/&quot; target=&quot;_blank&quot;&gt;http://rvk.uni-regensburg.de/Portal_API/&lt;/a&gt; (nicht dokumentierter Endpunkt) &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr10.html#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
@@ -1097,7 +1097,7 @@ verglichen werden [@TR7].&lt;/p&gt;
 concordances between library knowledge organization systems that is being
 developed at the head office of GBV Common Library Network (VZG). A new
 implementation or Cocoda has been started from scratch.&lt;/p&gt;
-&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;h2 id=&quot;background&quot; tabindex=&quot;-1&quot;&gt;Background&lt;/h2&gt;
 &lt;p&gt;The aim of project coli-conc is an infrastructure to facilitate management and
 exchange of concordances between library knowledge organization systems. In
 particular this includes a web application to manage, create, and evaluate
@@ -1108,14 +1108,14 @@ a modularized web application. Based on experiences with two prototypes and the
 mapping data collected so far we started with a new implementation in May 2018.
 This report supersedes the Cocoda primer [@tr1] with an overview of the current
 technical architecture.&lt;/p&gt;
-&lt;h2 id=&quot;jskos-data-format&quot;&gt;JSKOS Data Format&lt;/h2&gt;
+&lt;h2 id=&quot;jskos-data-format&quot; tabindex=&quot;-1&quot;&gt;JSKOS Data Format&lt;/h2&gt;
 &lt;p&gt;The core of the concordances infrastructure turned out to be the &lt;a href=&quot;https://gbv.github.io/jskos/&quot; target=&quot;_blank&quot;&gt;JSKOS data
 format&lt;/a&gt; for knowledge organization systems. In
 short this format is an application profile of JSON-LD [@JSONLD] for SKOS
 [@SKOS] extended by support of mappings, concordances, usage statistics, and
 optional closed world statements [@JSKOS]. The specification has reached a
 stable state with only minor additions to be discussed.&lt;/p&gt;
-&lt;h2 id=&quot;cocoda-web-application&quot;&gt;Cocoda Web Application&lt;/h2&gt;
+&lt;h2 id=&quot;cocoda-web-application&quot; tabindex=&quot;-1&quot;&gt;Cocoda Web Application&lt;/h2&gt;
 &lt;p&gt;The new version of Cocoda is build as singe page web application using the &lt;a href=&quot;https://vuejs.org/&quot; target=&quot;_blank&quot;&gt;Vue
 JavaScript framework&lt;/a&gt; instead of AngularJS. We had some
 good experiences with the latter [@code4lib] but Vue turned out to be more
@@ -1155,7 +1155,7 @@ applications.&lt;/p&gt;
 with technical documentation published at &lt;a href=&quot;https://gbv.github.io/cocoda/&quot; target=&quot;_blank&quot;&gt;https://gbv.github.io/cocoda/&lt;/a&gt;. We
 use a Kanban board at &lt;a href=&quot;https://waffle.io/&quot; target=&quot;_blank&quot;&gt;Waffle.io&lt;/a&gt; for project management and
 &lt;a href=&quot;https://travis-ci.org/&quot; target=&quot;_blank&quot;&gt;travis-ci&lt;/a&gt; for continuous integration.&lt;/p&gt;
-&lt;h2 id=&quot;backend-web-services&quot;&gt;Backend Web Services&lt;/h2&gt;
+&lt;h2 id=&quot;backend-web-services&quot; tabindex=&quot;-1&quot;&gt;Backend Web Services&lt;/h2&gt;
 &lt;p&gt;The web application communicates with independent backend services, mainly in
 JSKOS format:&lt;/p&gt;
 &lt;ul&gt;
@@ -1165,7 +1165,7 @@ JSKOS format:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;mapping stores&lt;/strong&gt; allow creation, modification, and annotation of mappings&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;identiy providers&lt;/strong&gt; manage user accounts and provide access tokens via OAuth2&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;additional-data-processing&quot;&gt;Additional Data Processing&lt;/h2&gt;
+&lt;h2 id=&quot;additional-data-processing&quot; tabindex=&quot;-1&quot;&gt;Additional Data Processing&lt;/h2&gt;
 &lt;p&gt;Backend services and additional data processing pipelines are implemented with
 different technologies. In particular we use and contribute to:&lt;/p&gt;
 &lt;ul&gt;
@@ -1183,7 +1183,7 @@ and &lt;strong&gt;&lt;a href=&quot;https://wdmapper.readthedocs.io/&quot; target
 authority file extraction and mapping tools&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;h2 id=&quot;references&quot; tabindex=&quot;-1&quot;&gt;References&lt;/h2&gt;
 
     </content>
   </entry>
@@ -1195,7 +1195,7 @@ authority file extraction and mapping tools&lt;/p&gt;
     <summary>Vorhandene Mappings zwischen GND und anderen Vokabularen</summary>
     <content type="html">
       &lt;p&gt;Diese Übersicht fasst vorhandene Mappings zwischen der Gemeinsamen Normdatei (GND) und anderen Vokabularen zusammen soweit diese ermittelt werden konnten (Stand November 2018).&lt;/p&gt;
-&lt;h2 id=&quot;konkordanzen-auf-die-gnd&quot;&gt;Konkordanzen auf die GND&lt;/h2&gt;
+&lt;h2 id=&quot;konkordanzen-auf-die-gnd&quot; tabindex=&quot;-1&quot;&gt;Konkordanzen auf die GND&lt;/h2&gt;
 &lt;p&gt;Mappings von Einträgen anderer Vokbaulare zu GND-Datensätzen stammen aus verschiedenen Projekten und werden mit unterschiedlichen Verfahren erstellt und gepflegt.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1244,7 +1244,7 @@ authority file extraction and mapping tools&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Die umfangreichste Konkordanz mit der Virtual International Authority File (VIAF) wird algorithmisch bestimmt [@Hickey2014] während Mappings in Wikidata manuell und offen von Freiwilligen eingetragen werden. Zuvor wurden seit 2005 Wikipedia-Personenartikel mit PND-IDs versehen [@Voss2005].&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; VIAF und Wikidata weisen beide die Besonderheit auf, dass es sich um Mapping-Hubs handelt, die neben der GND mit weiteren Vokabularen verknüpft werden; sie können also auch genutzt werden um von GND indirekt auf andere Vokabulare zu mappen. Alle anderen hier aufgeführten Konkordanzen wurden von Expert*innen erstellt.&lt;/p&gt;
-&lt;h2 id=&quot;konkordanzen-von-der-gnd&quot;&gt;Konkordanzen von der GND&lt;/h2&gt;
+&lt;h2 id=&quot;konkordanzen-von-der-gnd&quot; tabindex=&quot;-1&quot;&gt;Konkordanzen von der GND&lt;/h2&gt;
 &lt;p&gt;Mappings von GND-Datensätzen werden zum größten Teil direkt in der GND eingetragen. Bei Personendatensätzen wird dafür PICA-Field &lt;code&gt;024&lt;/code&gt; mit &lt;a href=&quot;http://www.loc.gov/standards/sourcelist/standard-identifier.html&quot; target=&quot;_blank&quot;&gt;Standard Identifier Source Codes&lt;/a&gt; [@IdentifierSourceCodes] verwendet, dabei sind jedoch nur 1-zu-1-Mappings möglich. Die DDC-Mappings stehen mit unterschiedlichem Determiniertheitsgrad in PICA-Feld &lt;code&gt;083&lt;/code&gt;. Weitere Mappings sind bereits im RDF-Format verfügbar. Mit dem Projekt GNDmul sollen ab 2020 alle vorhandenen Mappings in der GND eingetragen und in verschiedenen Formaten verfügbar gemacht werden.&lt;/p&gt;
 &lt;!--Darüber hinaus gibt es innerhalb der GND 1-zu-n Mappings in Form von Hinweissätzen (z.B. Ötzi $\Rightarrow$ Hauslabjoch $+$ Gletscherleiche).--&gt;
 &lt;table&gt;
@@ -1313,9 +1313,9 @@ authority file extraction and mapping tools&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&quot;nutzung-der-gnd-konkordanzen&quot;&gt;Nutzung der GND-Konkordanzen&lt;/h2&gt;
+&lt;h2 id=&quot;nutzung-der-gnd-konkordanzen&quot; tabindex=&quot;-1&quot;&gt;Nutzung der GND-Konkordanzen&lt;/h2&gt;
 &lt;p&gt;Die Mappings aller vorhandenen Konkordanzen werden nach und nach in die coli-conc-Konkordanzdatenbank eingetragen und können dort abgefragt und heruntergeladen werden. Eine aktuelle Übersicht speziell von GND-Mappings findet sich unter &lt;a href=&quot;http://coli-conc.gbv.de/concordances/gnd&quot; target=&quot;_blank&quot;&gt;http://coli-conc.gbv.de/concordances/gnd&lt;/a&gt;. Zur Erstellung und Pflege weiterer Mappings steht die Webanwendung Cocoda zur Verfügung.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; Eine Auswertung vorhandener Mappings nach Abdeckungsgrad und Konsistenz steht noch aus.&lt;/p&gt;
-&lt;h2 id=&quot;literatur&quot;&gt;Literatur&lt;/h2&gt;
+&lt;h2 id=&quot;literatur&quot; tabindex=&quot;-1&quot;&gt;Literatur&lt;/h2&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Siehe &lt;a href=&quot;https://de.wikipedia.org/wiki/Hilfe:GND&quot; target=&quot;_blank&quot;&gt;https://de.wikipedia.org/wiki/Hilfe:GND&lt;/a&gt;. Die Wikipedia-Mappings sind weitgehend nach Wikidata migriert, werden aber von der deutschprachigen Wikipedia-Community noch parallel weitergepflegt. &lt;a href=&quot;https://gbv.github.io/coli-conc.gbv.de/publications/tr12.html#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
