@@ -102,7 +102,7 @@ a collection of knowledge organization systems encoded in JSKOS
     Representing Concepts through Description Logic Expressions for Knowledge Organization System (KOS) Mapping.
     In: Lykke, Marianne; Svarre, Tanja; Skov, Mette; Martínez-Ávila, Daniel (eds.):
     Proceedings of the Sixteenth International ISKO Conference, 2020. pp. 455-459.
-    <https://doi.org/10.5771/9783956507762-455>
+    <https://doi.org/10.5771/9783956507762-455> ([PDF](https://www.ergon-verlag.de/isko_ko/downloads/aiko_vol_17_2020_51.pdf))
 -   Balakrishnan, Uma; Voß, Jakob; Soergel, Dagobert: Towards integrated
     systems for KOS management, mapping, and access. Coli-conc and its
     collaborative computer-assisted KOS mapping tool Cocoda. In:

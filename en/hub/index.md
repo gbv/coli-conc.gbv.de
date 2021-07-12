@@ -22,7 +22,7 @@ The idea of a concept hub for mapping between vocabularies is als referred to as
     Representing Concepts through Description Logic Expressions for Knowledge Organization System (KOS) Mapping.
     In: Lykke, Marianne; Svarre, Tanja; Skov, Mette; Martínez-Ávila, Daniel (eds.):
     Proceedings of the Sixteenth International ISKO Conference, 2020. pp. 455-459.
-    <https://doi.org/10.5771/9783956507762-455>
+    <https://doi.org/10.5771/9783956507762-455> ([PDF](https://www.ergon-verlag.de/isko_ko/downloads/aiko_vol_17_2020_51.pdf))
 
 -   coli-conc Technical Report 3: [A novel approach to terminology mappings](https://coli-conc.gbv.de/publications/tr3.html). (April 1st, 2016) <https://doi.org/10.5281/zenodo.48740>.
 
