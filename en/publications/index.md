@@ -217,7 +217,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
   November 7ᵗʰ, 2018 in Regensburg. <https://doi.org/10.5281/zenodo.1477899>
 
 ### 2017
-- Infrastruktur zur Erstellung, Austausch und Pflege zwischen KOS in Anwendung auf bibliothekarische KOS at [BBK](https://www.ibi.hu-berlin.de/de/von-uns/bbk/termine/2410),Oktober 24, 2017 in Berlin
+
 - Voraussetzungen für die offene Nutzung der RVK. Presentation at [RVK Anwendertreffen](https://rvk.uni-regensburg.de/2-uncategorised/156-rvk-anwendertreffen-2017),
     November 8ᵗʰ, 2017 in Regensburg.
     <https://doi.org/10.5281/zenodo.1043635>
@@ -225,6 +225,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     [WikidataCon](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017),
     October, 28ᵗʰ, 2017 in Berlin.
     <https://doi.org/10.5281/zenodo.1037673>
+- Infrastruktur zur Erstellung, Austausch und Pflege zwischen KOS in Anwendung auf bibliothekarische KOS at [BBK](https://www.ibi.hu-berlin.de/de/von-uns/bbk/termine/2410),Oktober 24, 2017 in Berlin
 -   coli-conc: Mapping Knowledge Organization System. Presentation at
     [17ᵗʰ European NKOS
     Workshop](https://at-web1.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2017/programme.html),
