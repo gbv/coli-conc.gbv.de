@@ -18,8 +18,16 @@ Unterfeld `$A` ist im K10plus in Suchschlüssel IKT 8559 (SEQ=Sacherschliessungs
 
 * auf Anreicherung durch beliebige Mappings beruhen (siehe [vollständige Liste](https://opac.k10plus.de/DB=2.299/CMD?ACT=SRCHA&IKT=8659&TRM=coli-conc.*))
 * auf Anreicherung durch Mappings von einem bestimmten Vokabularen beruht (siehe [z.B. von RVK](https://opac.k10plus.de/DB=2.299/CMD?ACT=SRCHA&IKT=8659&TRM=coli+conc+rvk.*))
-* auf Anreicherung durch Mappings mit einer bestimmten Kombination von Vokabularen beruht (siehe [z.B. von RVK auf BK](https://opac.k10plus.de/DB=2.299/CMD?ACT=SRCHA&IKT=8659&TRM=coli+conc+rvk+bk) und [RVK-BK in Cocoda](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Furi.gbv.de%2Fterminology%2Frvk%2F&toScheme=http%3A%2F%2Furi.gbv.de%2Fterminology%2Fbk%2F)
+* auf Anreicherung durch Mappings mit einer bestimmten Kombination von Vokabularen beruht (siehe [z.B. von RVK auf BK](https://opac.k10plus.de/DB=2.299/CMD?ACT=SRCHA&IKT=8659&TRM=coli+conc+rvk+bk) und [RVK-BK in Cocoda](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Furi.gbv.de%2Fterminology%2Frvk%2F&toScheme=http%3A%2F%2Furi.gbv.de%2Fterminology%2Fbk%2F))
 * auf Anreicherung mit einem bestimmten Mapping beruht (siehe z.B. [RVK YP "Zahnmedizin" auf BK 44.96 "Zahnmedizin"](https://opac.k10plus.de/DB=2.299/CMD?ACT=SRCHA&IKT=8659&TRM=https+coli+conc+gbv+de+api+mappings+5812d5a4+4301+4677+9236+e6e3b8d68f24))
+
+{% endsection %}
+
+{% section %}
+
+## Implementierung
+
+Zunächst werden im K10plus BK-Notationen auf Grundlage von RVK-Notationen eingetragen. Weitere Informationen, Skripte und Beispiele dazu siehe [im git-repository](https://github.com/gbv/coli-rich/tree/main/rvk2bk).
 
 {% endsection %}
 
