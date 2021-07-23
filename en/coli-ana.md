@@ -12,7 +12,7 @@ intergrated into the infrastructure of coli-conc and information on the decompos
 PICA...). The results could be of a great value not only for subject indexers and for concept
 mapping, but also for the research community.
 
-A tool to analyze any given synthesized DDC number is made available for testing:
+A tool to analyze any given synthesized DDC number is made available for trial purposes:
 
 {% button "https://coli-conc.gbv.de/coli-ana/app/", "Start coli-ana release version" %}
 
@@ -35,7 +35,7 @@ For a given  synthesized DDC number, it can be hard to find out, how the number 
 * [T1--074](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F1--074%2Fe23%2F) {{ { en: "Museums, collections, exhibits", de: "Museen, Sammlungen, Ausstellungen" } | localize }}
 * [T2--7471](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F2--7471%2Fe23%2F) New York
 
- coli-ana  enables  [to analyze the DDC number](https://coli-conc.gbv.de/coli-ana/app/?notation=700.90440747471) and determine every single DDC class/concept that was used for building the number. The result can also [be queried via an API](https://coli-conc.gbv.de/coli-ana/app/analyze?notation=700.90440747471) in [JSKOS data format](https://gbv.github.io/jskos/) and in various other formats.
+ coli-ana  enables  [to analyze the DDC number](https://coli-conc.gbv.de/coli-ana/app/?notation=700.90440747471) and determine every single DDC class/concept that was used to build the number. The result can also [be queried via an API](https://coli-conc.gbv.de/coli-ana/app/analyze?notation=700.90440747471) in [JSKOS data format](https://gbv.github.io/jskos/) and in various other formats.
 
 {% endsection %}
 
