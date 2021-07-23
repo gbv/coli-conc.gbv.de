@@ -87,9 +87,9 @@ Details about each element of a built number are displayed on mouseover.
 
 It is planned to display rules applied in the analysis of each built number.
 
-### What other features does the coli-ana Webservice provide?
+#### What other features does the coli-ana Webservice provide?
 
-The webserive offers two other features:
+The webservice offers two other features:
 
 1. Deep Links to the title data of the union catalog K10plus
 2. A seamless switch to the mapping tool Cocoda
