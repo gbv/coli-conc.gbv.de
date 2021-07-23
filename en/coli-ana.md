@@ -76,8 +76,12 @@ There are two reasons why a result can differ from previous results:
 
 The database cache contains pre-analyzed numbers from the GVK union catalog and might not have used the current version of the number analyzer.
 
-{% endsection %}
 ### Where do I find details to each Concept?
-Details about every element of a built number are shown on mouseover
+
+Details about every element of a built number are shown on mouseover.
+
 ### How do I access the rules applied in the analysis of a built number?
-It is planned to display rules applied in the analysis of each built number
+
+It is planned to display rules applied in the analysis of each built number.
+
+{% endsection %}
