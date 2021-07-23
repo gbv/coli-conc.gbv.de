@@ -8,7 +8,7 @@ title: coli-ana
 **coli-ana** is a tool that analyzes and decomposes synthesized DDC numbers.
 The number analyzer (vz_day) has been developed as part of the VZG project
 colibri, of which coli-conc is also a sub-project. The results of coli-ana has been 
-intergrated into its infrastructure and information on the decomposed DDC numbers are provided in different formats (JSKOS, MARC,
+intergrated into the infrastructure of coli-conc and information on the decomposed DDC numbers are provided in different formats (JSKOS, MARC,
 PICA...). The results could be of a great value not only for subject indexers and for concept
 mapping, but also and for the research community.
 
