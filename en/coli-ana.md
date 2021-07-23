@@ -5,11 +5,11 @@ title: coli-ana
 
 {% section %}
 
-**coli-ana** is tool that analyzes and decomposes synthesized DDC numbers.
+**coli-ana** is a tool that analyzes and decomposes synthesized DDC numbers.
 The number analyzer (vz_day) has been developed as part of the VZG project
 colibri, of which coli-conc is also a sub-project. The results of coli-ana has been 
-intergrated into its infrastructure and information on decomposed DDC numbers are provided in different formats (JSKOS, MARC,
-PICA...). The results could be of a great value not only for subject indexers and concept
+intergrated into its infrastructure and information on the decomposed DDC numbers are provided in different formats (JSKOS, MARC,
+PICA...). The results could be of a great value not only for subject indexers and for concept
 mapping, but also and for the research community.
 
 A tool to analyze any given synthesized DDC number is made available for testing:
@@ -28,7 +28,7 @@ A tool to analyze any given synthesized DDC number is made available for testing
 
 ## Example
 
-For a given a synthesized DDC number, it can be hard to find out how the number was built. For instance, the DDC number **700.90440747471** contains the following DDC classes:
+For a given  synthesized DDC number, it can be hard to find out, how the number was built. For instance, the DDC number **700.90440747471** contains the following DDC classes:
 
 * [700](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F700%2Fe23%2F) {{ { en: "The arts", de: "Künste" } | localize }}
 * [T1--09044](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F1--09044%2Fe23%2F) {{ { en: "1940-1949", de: "*1940-1949" } | localize }}
@@ -81,7 +81,7 @@ The database cache contains pre-analyzed numbers from the GVK union catalog and 
 
 #### Where do I find details to each Concept?
 
-Details about every element of a built number are shown on mouseover.
+Details about each element of a built number are displayed on mouseover.
 
 #### How do I access the rules applied in the analysis of a built number?
 
