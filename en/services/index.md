@@ -12,7 +12,7 @@ subtitle:
 
 - [Cocoda]({{ "/cocoda/" | url }})
 
-  The Mapping Tool is our main application
+  The Mapping Tool is the main application of the infrastructure we provide.
 
 - [BARTOC](https://bartoc.org/)
 
@@ -20,7 +20,7 @@ subtitle:
 
 - [coli-ana]({{ "/coli-ana/" | url }})
 
-  A tool for analysis of synthesized DDC numbers is being worked on.
+  A tool and a webservice for analysis and decomposition of synthesized DDC numbers is on work.
 
 - [coli-rich]({{ "/coli-rich/" | url }})
 
@@ -39,7 +39,7 @@ Several web services are being developed to query information related to knowled
 
 - [DANTE API](https://api.dante.gbv.de/)
 
-  Access to terminologies and concepts from central terminology service of VZG.
+  Access to terminologies and concepts from central terminology service of the VZG.
 
 - [Occurrences API]({{ "/occurrences/" | url }})
 
@@ -51,7 +51,7 @@ Several web services are being developed to query information related to knowled
   
 - [Login Server API](https://coli-conc.gbv.de/login/)
 
-  Authentication for our services via [Login Server](https://github.com/gbv/login-server).
+  Authentication for the offered services via [Login Server](https://github.com/gbv/login-server).
 
 
 {% endsection %}
@@ -73,11 +73,11 @@ Several web services are being developed to query information related to knowled
 
 - [Wikidata Mappings]({{ "/concordances/wikidata/" | url }})
 
-  Collected mappings between Wikidata and other systems. Data extracted from Wikidata.
+  Collection of mappings between Wikidata and other systems. Data extracted from Wikidata.
 
 - [GND Mappings]({{ "/concordances/gnd/" | url }})
 
-  Collected mappings between the Integrated Authority File (GND) and other systems. Work in progress.
+  Collection of mappings between the Integrated Authority File (GND) with other systems. Work in progress.
 
 We have unified the access to sources that offer JSKOS data via registries. For more information, see [Data Sources and Registries]({{ "/registry/" | url }}).
 
