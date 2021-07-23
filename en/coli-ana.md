@@ -91,7 +91,7 @@ It is planned to display rules applied in the analysis of each built number.
 
 A base number of a DDC number is a number of any length to which other numbers are added. It is planned to highlight base numbers in the analysis.
 
-##### What other features does the coli-ana Webservice provide?
+##### What other features does the coli-ana webservice provide?
 
 The webservice offers two other features:
 
