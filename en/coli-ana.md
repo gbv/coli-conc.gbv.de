@@ -87,6 +87,10 @@ Details about each element of a built number are displayed on mouseover.
 
 It is planned to display rules applied in the analysis of each built number.
 
+#### How do I determine the base number of a given DDC number?
+
+A base number of a DDC number is a number of any length to which other numbers are added. It is planned to highlight base numbers in the analysis.
+
 #### What other features does the coli-ana Webservice provide?
 
 The webservice offers two other features:
