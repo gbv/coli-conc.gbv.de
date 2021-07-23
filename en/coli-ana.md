@@ -58,19 +58,19 @@ More information about coli-ana can be found in the presentation [Automatic Anal
 
 ## FAQ
 
-#### What is the difference between the development and the release version?
+##### What is the difference between the development and the release version?
 
 The development version contains all the latest features and changes. It usually represents the most current status of development of the tool. However, this means that it might also contain bugs or other issues that haven't been fixed yet.
 
 When the development version reaches a point where bugs are fixed and everything works well, it will be merged into the release version. Therefore, the release version is always a bit behind than the development version, but is more stable and less likely to break.
 
-#### What is the difference between "analyze" and "lookup"?
+##### What is the difference between "analyze" and "lookup"?
 
 In the coli-ana web interface, there are two main buttons: "analyze" and "lookup". "analyze" analyzes a given DDC number and shows how the number was built. This is usually performed on the fly and gives the latest analysis of the vz_day number analyzer.
 
 "lookup", however, uses pre-analyzed DDC numbers of the GVK union catalog (soon to be updated to the latest data of the K10plus union catalog) and searches for a given number within those analyses. This means that a lookup will show the DDC notations **which were used in the sythesis of one of the DDC built numbers**. This currently has limited application since the result sets are usually very large and can't be fully explored in the interface.
 
-#### I have got a different result for the same number. How can that happen?
+##### I have got a different result for the same number. How can that happen?
 
 There are two reasons why a result can differ from previous results:
 
@@ -79,19 +79,19 @@ There are two reasons why a result can differ from previous results:
 
 The database cache contains pre-analyzed numbers from the GVK union catalog and might not have used the current version of the number analyzer.
 
-#### Where do I find details to each Concept?
+##### Where do I find details to each Concept?
 
 Details about each element of a built number are displayed on mouseover.
 
-#### How do I access the rules applied in the analysis of a built number?
+##### How do I access the rules applied in the analysis of a built number?
 
 It is planned to display rules applied in the analysis of each built number.
 
-#### How do I determine the base number of a given DDC number?
+##### How do I determine the base number of a given DDC number?
 
 A base number of a DDC number is a number of any length to which other numbers are added. It is planned to highlight base numbers in the analysis.
 
-#### What other features does the coli-ana Webservice provide?
+##### What other features does the coli-ana Webservice provide?
 
 The webservice offers two other features:
 
