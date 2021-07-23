@@ -43,6 +43,9 @@ For a given a synthesized DDC number, it can be hard to find out how the number 
 
 ## Documentation
 
+Forthcoming presentation on coli-ana at SWIB Conference 2021: Automatic Analysis of the Dewey Decimal Classification:
+A Service of the Verbundzentrale des GBV
+
 A brief introduction to coli-ana was given at: [in this Code4Lib 2021 lightening talk](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s).
 
 The primary goal of coli-ana is to enrich the [K10plus union catalog](https://www.bszgbv.de/services/k10plus/). Bibliographic records with DDC number will be extended [in PICA format](https://format.k10plus.de/k10plushelp.pl?cmd=kat&val=5400&katalog=Standard).
