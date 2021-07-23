@@ -5,11 +5,11 @@ title: coli-ana
 
 {% section %}
 
-**coli-ana** is tool that analysis and decomposes synthesized DDC numbers.
+**coli-ana** is tool that analyzes and decomposes synthesized DDC numbers.
 The number analyzer (vz_day) has been developed as part of the VZG project
 colibri, of which coli-conc is also a sub-project. The results of coli-ana has been 
 intergrated into its infrastructure and information on decomposed DDC numbers are provided in different formats (JSKOS, MARC,
-PICA...). The results could be of a great value  not only for subject-indexers and concept
+PICA...). The results could be of a great value not only for subject indexers and concept
 mapping, but also and for the research community.
 
 A tool to analyze any given synthesized DDC number is made available for testing:
@@ -55,19 +55,19 @@ More information about coli-ana can be found in the presentation [Automatic Anal
 
 ## FAQ
 
-### What is the difference between the development and the release version?
+#### What is the difference between the development and the release version?
 
 The development version contains all the latest features and changes. It usually represents the most current status of development of the tool. However, this means that it might also contain bugs or other issues that haven't been fixed yet.
 
 When the development version reaches a point where bugs are fixed and everything works well, it will be merged into the release version. Therefore, the release version is always a bit behind than the development version, but is more stable and less likely to break.
 
-### What is the difference between "analyze" and "lookup"?
+#### What is the difference between "analyze" and "lookup"?
 
-In the coli-ana web interface, there are two main buttons: "analyze" and "lookup". "analyze" analyzes a given DDC number and shows how the number was built. This is usually  performed on the fly and gives the latest analysis of the vz_day number analyzer.
+In the coli-ana web interface, there are two main buttons: "analyze" and "lookup". "analyze" analyzes a given DDC number and shows how the number was built. This is usually performed on the fly and gives the latest analysis of the vz_day number analyzer.
 
 "lookup", however, uses pre-analyzed DDC numbers of the GVK union catalog (soon to be updated to the latest data of the K10plus union catalog) and searches for a given number within those analyses. This means that a lookup will show the DDC numbers **which were built using one of the given DDC numbers**. This currently has limited application since the result sets are usually very large and can't be fully explored in the interface.
 
-### I have gotten a different result for the same number. How can that happen?
+#### I have gotten a different result for the same number. How can that happen?
 
 There are two reasons why a result can differ from previous results:
 
@@ -76,11 +76,11 @@ There are two reasons why a result can differ from previous results:
 
 The database cache contains pre-analyzed numbers from the GVK union catalog and might not have used the current version of the number analyzer.
 
-### Where do I find details to each Concept?
+#### Where do I find details to each Concept?
 
 Details about every element of a built number are shown on mouseover.
 
-### How do I access the rules applied in the analysis of a built number?
+#### How do I access the rules applied in the analysis of a built number?
 
 It is planned to display rules applied in the analysis of each built number.
 
