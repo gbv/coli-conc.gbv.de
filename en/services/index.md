@@ -12,15 +12,15 @@ subtitle:
 
 - [Cocoda]({{ "/cocoda/" | url }})
 
-  The Mapping Tool is the main application of the infrastructure we provide.
+  The Mapping Tool is the main application of the infrastructure we provide
 
 - [BARTOC](https://bartoc.org/)
 
-  A database of Knowledge Organization Systems and KOS related registries.
+  A database of Knowledge Organization Systems and KOS related registries
 
 - [coli-ana]({{ "/coli-ana/" | url }})
 
-  A tool and a webservice for analysis and decomposition of synthesized DDC numbers is on work.
+  A tool and a webservice for analysis and decomposition of synthesized DDC numbers - on work
 
 - [coli-rich]({{ "/coli-rich/" | url }})
 
