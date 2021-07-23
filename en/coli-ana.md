@@ -68,7 +68,7 @@ When the development version reaches a point where bugs are fixed and everything
 
 In the coli-ana web interface, there are two main buttons: "analyze" and "lookup". "analyze" analyzes a given DDC number and shows how the number was built. This is usually performed on the fly and gives the latest analysis of the vz_day number analyzer.
 
-"lookup", however, uses pre-analyzed DDC numbers of the GVK union catalog (soon to be updated to the latest data of the K10plus union catalog) and searches for a given number within those analyses. This means that a lookup will show the DDC numbers **which were built using one of the given DDC numbers**. This currently has limited application since the result sets are usually very large and can't be fully explored in the interface.
+"lookup", however, uses pre-analyzed DDC numbers of the GVK union catalog (soon to be updated to the latest data of the K10plus union catalog) and searches for a given number within those analyses. This means that a lookup will show the DDC notations **which were used in the sythesis of one of the DDC built numbers**. This currently has limited application since the result sets are usually very large and can't be fully explored in the interface.
 
 #### I have got a different result for the same number. How can that happen?
 
