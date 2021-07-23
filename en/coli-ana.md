@@ -5,15 +5,14 @@ title: coli-ana
 
 {% section %}
 
-**coli-ana** is a project focused on the analysis of synthesized DDC numbers.
-The number analyzer (vz_day) is being developed as part of the VZG project
-colibri, of which coli-conc is also a sub-project. coli-conc plans to
-intergrate the results of coli-ana into its infrastructure and offer
-information on decomposed DDC numbers in different formats (JSKOS, MARC,
-PICA...). The results can be of a great value for subject-indexers, concept
-mapping, and for the research community.
+**coli-ana** is tool that analysis and decomposes synthesized DDC numbers.
+The number analyzer (vz_day) has been developed as part of the VZG project
+colibri, of which coli-conc is also a sub-project. The results of coli-ana has been 
+intergrated into its infrastructure and information on decomposed DDC numbers are provided in different formats (JSKOS, MARC,
+PICA...). The results could be of a great value  not only for subject-indexers and concept
+mapping, but also and for the research community.
 
-A tool to analyze a given synthesized DDC number is made available for testing:
+A tool to analyze any given synthesized DDC number is made available for testing:
 
 {% button "https://coli-conc.gbv.de/coli-ana/app/", "Start coli-ana release version" %}
 
@@ -29,14 +28,14 @@ A tool to analyze a given synthesized DDC number is made available for testing:
 
 ## Example
 
-Given a synthesized DDC number, it can be hard to find out how the number was built. For instance, the DDC number **700.90440747471** contains the following DDC classes:
+For a given a synthesized DDC number, it can be hard to find out how the number was built. For instance, the DDC number **700.90440747471** contains the following DDC classes:
 
 * [700](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F700%2Fe23%2F) {{ { en: "The arts", de: "Künste" } | localize }}
 * [T1--09044](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F1--09044%2Fe23%2F) {{ { en: "1940-1949", de: "*1940-1949" } | localize }}
 * [T1--074](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F1--074%2Fe23%2F) {{ { en: "Museums, collections, exhibits", de: "Museen, Sammlungen, Ausstellungen" } | localize }}
 * [T2--7471](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F2--7471%2Fe23%2F) New York
 
-With coli-ana it is possible [to analyze the DDC number](https://coli-conc.gbv.de/coli-ana/app/?notation=700.90440747471) and determine every single DDC class that was used for building the number. The result can also [be queried via an API](https://coli-conc.gbv.de/coli-ana/app/analyze?notation=700.90440747471) in [JSKOS data format](https://gbv.github.io/jskos/) and other formats.
+ coli-ana  enables  [to analyze the DDC number](https://coli-conc.gbv.de/coli-ana/app/?notation=700.90440747471) and determine every single DDC class/concept that was used for building the number. The result can also [be queried via an API](https://coli-conc.gbv.de/coli-ana/app/analyze?notation=700.90440747471) in [JSKOS data format](https://gbv.github.io/jskos/) and in various other formats.
 
 {% endsection %}
 
@@ -44,7 +43,7 @@ With coli-ana it is possible [to analyze the DDC number](https://coli-conc.gbv.d
 
 ## Documentation
 
-A brief introduction to coli-ana was given [in this Code4Lib 2021 lightening talk](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s).
+A brief introduction to coli-ana was given at: [in this Code4Lib 2021 lightening talk](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s).
 
 The primary application of coli-ana is to enrich the [K10plus union catalog](https://www.bszgbv.de/services/k10plus/). Bibliographic records with DDC number will be extended [in PICA format](https://format.k10plus.de/k10plushelp.pl?cmd=kat&val=5400&katalog=Standard).
 
