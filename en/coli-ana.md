@@ -45,7 +45,7 @@ For a given a synthesized DDC number, it can be hard to find out how the number 
 
 A brief introduction to coli-ana was given at: [in this Code4Lib 2021 lightening talk](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s).
 
-The primary application of coli-ana is to enrich the [K10plus union catalog](https://www.bszgbv.de/services/k10plus/). Bibliographic records with DDC number will be extended [in PICA format](https://format.k10plus.de/k10plushelp.pl?cmd=kat&val=5400&katalog=Standard).
+The primary goal of coli-ana is to enrich the [K10plus union catalog](https://www.bszgbv.de/services/k10plus/). Bibliographic records with DDC number will be extended [in PICA format](https://format.k10plus.de/k10plushelp.pl?cmd=kat&val=5400&katalog=Standard).
 
 More information about coli-ana can be found in the presentation [Automatic Analysis of DDC Numbers based on MARC21](https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2016/pdf/reiner_160425_EDUG_Symposium.pdf) given by Ulrike Reiner at the EDUG Symposium 2016 and in the article [Automatic Analysis of Dewey Decimal Classification Notations](https://www.gbv.de/Verbundzentrale/Publikationen/2008/2008/pdf/pdf_3936.pdf) (2008). An earlier attempt to decompose DDC numbers was conducted by Songqiao Liu, see the article [Decomposing DDC Synthesized Numbers](http://archive.ifla.org/IV/ifla62/62-sonl.htm) (1996).
 
@@ -67,7 +67,7 @@ In the coli-ana web interface, there are two main buttons: "analyze" and "lookup
 
 "lookup", however, uses pre-analyzed DDC numbers of the GVK union catalog (soon to be updated to the latest data of the K10plus union catalog) and searches for a given number within those analyses. This means that a lookup will show the DDC numbers **which were built using one of the given DDC numbers**. This currently has limited application since the result sets are usually very large and can't be fully explored in the interface.
 
-#### I have gotten a different result for the same number. How can that happen?
+#### I have got a different result for the same number. How can that happen?
 
 There are two reasons why a result can differ from previous results:
 
