@@ -12,11 +12,7 @@
 {% flex %}
 **{{ { en: "General", de: "Allgemein" } | localize }}**
 
-coli-conc@gbv.de
-
-{% small %}
 [Twitter](https://twitter.com/coli_conc)
-{% endsmall %}
 {% endflex %}
 {% endflexbox %}
 
