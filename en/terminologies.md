@@ -18,7 +18,8 @@ This list contains a collection of knowledge organization systems relevant to pr
   </thead>
   <tbody>
     {% for scheme in kos %}
-    {%- set regExp = r/^(DDC|RVK|BK|GND|BOS|ixtheo)$/ -%}
+    <!-- TODO: Determine via API field after changing Cocoda to use BARTOC -->
+    {%- set regExp = r/^(DDC|RVK|BK|GND|BOS|IxTheo)$/ -%}
     <tr>
       <td>
         {%- if regExp.test(scheme.notation[0]) -%}
