@@ -61,7 +61,7 @@ peters@gbv.de
 {% flex %}
 {{ userIcon | safe }}
 
-**{{ { en: "Public Relations", de: "Öffentlichkeitsarbeit" } | localize }}**
+**{{ { en: "Systems Librarian", de: "Systembibliothekarin" } | localize }}**
 
 Anne Schuchardt
 
