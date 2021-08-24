@@ -18,13 +18,13 @@ subtitle:
 
   A database of Knowledge Organization Systems and KOS related registries
 
-- [coli-ana]({{ "/coli-ana/" | url }})
-
-  A tool and a webservice for analysis and decomposition of synthesized DDC numbers - on work
-
 - [coli-rich]({{ "/coli-rich/" | url }})
 
   Catalog enrichment via concordances 
+
+- [coli-ana]({{ "/coli-ana/" | url }})
+
+  A tool and a webservice for analysis and decomposition of synthesized DDC numbers - on work
 
 {% endsection %}
 
