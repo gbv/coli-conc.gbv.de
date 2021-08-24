@@ -54,15 +54,4 @@ peters@gbv.de
 [GitHub](https://github.com/stefandesu)
 {% endsmall %}
 {% endflex %}
-{% flex %}
-{{ userIcon | safe }}
-
-**{{ { en: "Systems Librarian", de: "Systembibliothekarin" } | localize }}**
-
-Anne Schuchardt
-
-{% small %}
-schuchardt@gbv.de
-{% endsmall %}
-{% endflex %}
 {% endflexbox %}
