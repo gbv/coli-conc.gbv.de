@@ -6,7 +6,7 @@ tags:
 - blog
 ---
 
-Wir suchen zum nächstmöglichen Zeitpunkt als Verstärkung für [unser Team](https://coli-conc.gbv.de/contact/) eine\*n Systembibliothekar\*in. Die Stelle ist teilzeitgeeignet und ein Umzug nach Göttingen ist nicht notwendig, da wir primär vom Home‐Office aus arbeiten. Zu den geplanten Tätigkeiten gehört:
+Wir suchen zum nächstmöglichen Zeitpunkt als Verstärkung für [unser Team](https://coli-conc.gbv.de/contact/) eine\*n Systembibliothekar\*in bzw. Data Librarian. Die Stelle ist teilzeitgeeignet und ein Umzug nach Göttingen ist nicht notwendig, da wir primär vom Home‐Office aus arbeiten. Zu den geplanten Tätigkeiten gehört:
 
 * Erstellung und Bewertung von Normdaten-Konkordanzen und Vokabularpflege
 * Datenpflege, Datenkonvertierung und Aufbereitung von Statistiken (Data Science)
