@@ -16,7 +16,6 @@ title: Publications
 - [Screencasts](#screencasts)
 - [Software](#software)
 - [Specifications](#specifications)
-- [Data](#data)
 {% endflex %}
 {% endflexbox %}
 
@@ -70,6 +69,7 @@ All software developed in project coli-conc is made available as Open Source.
 
 {% endsection %}
 
+<!--
 {% section %}
 
 ## Data
@@ -93,6 +93,7 @@ See also [jskos-data](https://github.com/gbv/jskos-data) repository for
 a collection of knowledge organization systems encoded in JSKOS
 
 {% endsection %}
+-->
 
 {% section %}
 
