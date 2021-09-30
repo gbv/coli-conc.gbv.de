@@ -98,6 +98,12 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Reviewed Articles
 
+-   Balakrishnan, Peters, Voß: *Coli-conc – Eine Infrastruktur zur Nutzung und Erstellung von
+    Konkordanzen*. In: Qualität in der Inhaltserschließung, pp. 121-135
+    <https://doi.org/10.1515/9783110691597-008>
+-   Voß: *Datenqualität als Grundlage qualitativer Inhaltserschließung*
+    In: Qualität in der Inhaltserschließung, pp. 167-176
+    <https://doi.org/10.1515/9783110691597-010>
 -   Balakrishnan, Uma; Soergel, Dagobert; Helfer, Olivia:
     Representing Concepts through Description Logic Expressions for Knowledge Organization System (KOS) Mapping.
     In: Lykke, Marianne; Svarre, Tanja; Skov, Mette; Martínez-Ávila, Daniel (eds.):
