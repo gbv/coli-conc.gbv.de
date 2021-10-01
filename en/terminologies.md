@@ -18,22 +18,16 @@ This list contains a collection of knowledge organization systems relevant to pr
   </thead>
   <tbody>
     {% for scheme in kos %}
-    <!-- TODO: Determine via API field after changing Cocoda to use BARTOC -->
-    {%- set regExp = r/^(DDC|RVK|BK|GND|BOS|IxTheo)$/ -%}
     <tr>
       <td>
-        {%- if regExp.test(scheme.notation[0]) -%}
-          <a target="_blank" href="https://coli-conc.gbv.de/cocoda/app/?fromScheme={{ scheme.uri | urlencode }}">
-        {%- endif -%}
+        <a target="_blank" href="{{ scheme.uri }}">
         {%- if scheme.prefLabel -%}
           {{ scheme.prefLabel.de | default(scheme.prefLabel.en) }}
         {%- else -%}
           ?
         {%- endif -%}
         {%- if scheme.notation[0] %} ({{ scheme.notation[0] }}){%- endif -%}
-        {%- if regExp.test(scheme.notation and scheme.notation[0]) -%}
-          </a>
-        {%- endif -%}
+        </a>
       </td>
       <td>
         <code>{{ scheme.PICAPATH }}</code>
