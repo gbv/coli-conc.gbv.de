@@ -150,7 +150,7 @@ a collection of knowledge organization systems encoded in JSKOS
 -   Reiner, U.: Automatische DDC-Klassifizierung. In: Dialog mit Bibliotheken 2010/1. pp. 23-29. [urn:nbn:de:101-2011012860](https://nbn-resolving.org/urn:nbn:de:101-2011012860)
 -   Reiner, U.: Automatic Analysis of Dewey Decimal Classification Notations.
     In: 31. Jahrestagung der Gesellschaft für Klassifikation (2007) p. 697-704 [urn:nbn:de:swb:ch1-200701390](https://nbn-resolving.org/urn:nbn:de:swb:ch1-200701390)
--   Reiner, U: Automatic Analysis of Dewey Decimal Classification Notations. In: Proceedings of the 31st Annual Conference of GfKl (2007), pp 697-704. <https://doi.org/10.1007/978-3-540-78246-9_82> [PDF](https://www.gbv.de/Verbundzentrale/Publikationen/2008/2008/pdf/pdf_3936.pdf)
+-   Reiner, U: Automatic Analysis of Dewey Decimal Classification Notations. In: Proceedings of the 31st Annual Conference of GfKl 2008), pp 697-704. <https://doi.org/10.1007/978-3-540-78246-9_82> [PDF](https://www.gbv.de/Verbundzentrale/Publikationen/2008/2008/pdf/pdf_3936.pdf)
 
 {% endsection %}
 
