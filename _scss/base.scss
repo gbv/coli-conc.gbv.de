@@ -22,7 +22,7 @@ body {
   font-weight: weights.$regular;
   line-height: 1.5;
   font-size: fonts.$size-normal;
-  background-color: colors.$background-primary;
+  background-color: colors.$background-secondary;
 }
 
 * {
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 h1 {
-  color: colors.$orange;
+  color: colors.$primary;
   font-size: fonts.$size-largestest;
   margin: 10px 0 12px 0;
 }
@@ -59,7 +59,7 @@ h5, h6 {
   margin: 8px 0 20px 0;
   padding: 10px 30px;
   display: inline-block;
-  background-color: colors.$orange;
+  background-color: colors.$primary;
 }
 .section > h2:first-child, .section > h2:first-child > a, .section > h2:first-child > a:hover {
   color: colors.$white;
@@ -82,17 +82,17 @@ h5, h6 {
 
 // Normal links
 a {
-  color: colors.$orange;
+  color: colors.$primary;
   text-decoration: none;
   font-weight: weights.$bold;
 }
 a:hover {
-  color: colors.$lightorange;
+  color: colors.$primary-light;
 }
 
 // Buttons
 .button {
-  background-color: colors.$orange;
+  background-color: colors.$primary;
   color: colors.$white;
   padding: calc(2px + 4 * ((100vw - 300px) / 1300)) calc(15px + 10 * ((100vw - 300px) / 1300));
   text-align: center;
@@ -105,7 +105,7 @@ a:hover {
 }
 .button:hover {
   color: colors.$white;
-  background-color: colors.$lightorange;
+  background-color: colors.$primary-light;
   cursor: pointer;
 }
 
@@ -115,7 +115,7 @@ a:hover {
   color: colors.$text-primary;
 }
 .section:nth-child(2n+3) {
-  background-color: colors.$background-tertiary;
+  background-color: colors.$background-primary;
 }
 // section:after {
 //   content: "";
@@ -151,7 +151,7 @@ th, td {
   padding: 5px 5px;
 }
 .section tr:nth-child(even) {
-  background-color: colors.$highlight-primary;
+  background-color: colors.$background-accent;
 }
 table img {
   display: block;
@@ -162,24 +162,24 @@ pre {
   border-radius: 5px;
   margin: 0;
   padding: 4px 8px;
-  background-color: colors.$background-primary;
+  background-color: colors.$background-secondary;
 }
 .section pre {
-  background-color: colors.$highlight-primary;
+  background-color: colors.$background-accent;
 }
 
 .section img.image {
-  border: 3px solid colors.$background-tertiary;
+  border: 3px solid colors.$background-primary;
 }
 .section:nth-child(2n+3) img.image {
-  border: 3px solid colors.$background-primary;
+  border: 3px solid colors.$background-secondary;
 }
 
 .footer {
   padding: 10px;
   text-align: center;
   font-size: fonts.$size-small;
-  border-bottom: calc(5px + (100vw - 300px) / 50) solid colors.$background-tertiary;
+  border-bottom: calc(5px + (100vw - 300px) / 50) solid colors.$background-primary;
 }
 
 .badge {
@@ -194,11 +194,11 @@ pre {
   border-radius: .25rem;
 }
 .badge-default {
-  background-color: colors.$highlight-secondary;
-  color: colors.$text-secondary;
+  background-color: colors.$black;
+  color: colors.$text-highlight;
 }
 .badge-alternative {
-  background-color: colors.$highlight-primary;
+  background-color: colors.$background-accent;
   color: colors.$text-primary;
 }
 
@@ -274,8 +274,8 @@ pre {
 
 // User icon for index and contact
 .user-icon > g {
-  stroke: colors.$background-secondary;
+  stroke: colors.$background-highlight;
 }
 .user-icon > path {
-  fill: colors.$background-secondary;
+  fill: colors.$background-highlight;
 }

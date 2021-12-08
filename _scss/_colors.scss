@@ -1,16 +1,18 @@
-$orange: #b13f13;
-$lightorange: #d16842;
+// Main color scheme // -------------------------------------------------------
+
+$primary: #b13f13;
+$background-primary: #e9e1e1;
 $black: #212121;
 $white: #F2F1EF;
-$blue: #5780C1; // potentially not needed
 
-// TODO: Fix naming and clean up colors!
-$background-primary: #F6F4F4;
-$background-secondary: #332B2B;
-$background-tertiary: #E9E1E1;
+// Colors derived from main colors // -----------------------------------------
+
+$primary-light: scale-color($primary, $lightness: 20%, $saturation: -30%);
+
+$background-secondary: lighten($background-primary, 6%);
+// This results in #332b2b which is unfortunately hardcoded in some svg files...
+$background-highlight: scale-color(darken($background-primary, 70%), $red: -12%);
+$background-accent: scale-color(lighten($background-primary, 3%), $red: 10%);
 
 $text-primary: $black;
-$text-secondary: $white;
-
-$highlight-primary: #f1eaea;
-$highlight-secondary: $black;
+$text-highlight: $white;

@@ -24,14 +24,14 @@
   color: colors.$text-primary;
 }
 .header li.current > a {
-  background-color: colors.$background-secondary;
-  color: colors.$text-secondary;
+  background-color: colors.$background-highlight;
+  color: colors.$text-highlight;
 }
 .header li a:hover {
-  background-color: colors.$highlight-primary;
+  background-color: colors.$background-accent;
 }
 .header li.current > a:hover {
-  background-color: colors.$highlight-secondary;
+  background-color: colors.$black;
 }
 .header li.menu-item-reduced-padding a {
   padding: 15px 10px;
@@ -89,7 +89,7 @@
 }
 /* middle line */
 .header .menu-icon .navicon {
-  background: colors.$orange;
+  background: colors.$primary;
   display: block;
   width: 18px;
   height: 2px;
@@ -99,7 +99,7 @@
 /* top + bottom line */
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: colors.$orange;
+  background: colors.$primary;
   content: '';
   display: block;
   width: 100%;
@@ -173,7 +173,7 @@
   }
   .dropdown:hover .dropdown-menu {
     display: block;
-    box-shadow: 0 5px 5px colors.$highlight-primary;
+    box-shadow: 0 5px 5px colors.$background-accent;
   }
   .dropdown .dropdown-menu {
     position: absolute;
@@ -185,7 +185,7 @@
   .dropdown-menu > div {
     position: relative;
     z-index: 1000;
-    background-color: colors.$background-primary;
+    background-color: colors.$background-accent;
   }
   .dropdown-menu > div > a {
     text-align: left;
