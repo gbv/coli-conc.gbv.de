@@ -163,10 +163,6 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - [SI & IT 2022](https://si-it-workshop.gbv.de/)
 
-- BARTOC Editor Meeting 2021
-
-- coli-conc Expert Meeting 2021
-
 ### 2021
 
 - Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | url }}))
