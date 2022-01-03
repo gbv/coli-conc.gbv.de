@@ -54,4 +54,15 @@ peters@gbv.de
 [GitHub](https://github.com/stefandesu)
 {% endsmall %}
 {% endflex %}
+{% flex %}
+{{ userIcon | safe }}
+
+**{{ { en: "Systems Librarian", de: "Systembibliothekar" } | localize }}**
+
+David-Benjamin Rohrer
+
+{% small %}
+david.rohrer@gbv.de
+{% endsmall %}
+{% endflex %}
 {% endflexbox %}
