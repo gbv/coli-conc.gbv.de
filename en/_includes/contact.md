@@ -57,7 +57,7 @@ peters@gbv.de
 {% flex %}
 {{ userIcon | safe }}
 
-**{{ { en: "Systems Librarian", de: "Systembibliothekar" } | localize }}**
+**{{ { en: "System Librarian", de: "Systembibliothekar" } | localize }}**
 
 David-Benjamin Rohrer
 
