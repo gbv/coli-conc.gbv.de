@@ -165,7 +165,9 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2021
 
-- Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | url }}))
+-  Anreicherung der Sacherschließung durch Konkordanzen (coli-rich). VZG Aktuell, 2021 Ausgabe 2. 2021-12-01 ([PDF]({{ "/publications/2021-12-01-coli-rich-vzg-aktuell.pdf" | url }}))
+
+-  Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | url }}))
 
 - Vom Vokabularverzeichnis zum interdisziplinären KOS-Datendienst: 8 Jahre BARTOC. [109. Bib*tag](https://bibliothekartag2021.de/) 2021-06-16 [urn:nbn:de:0290-opus4-175636](https://nbn-resolving.org/urn:nbn:de:0290-opus4-175636)
 
