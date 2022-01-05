@@ -167,7 +167,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 -  Anreicherung der Sacherschließung durch Konkordanzen (coli-rich). VZG Aktuell, 2021 Ausgabe 2. 2021-12-01 ([PDF]({{ "/publications/2021-12-01-coli-rich-vzg-aktuell.pdf" | url }}))
 
--  Support of Metadata Mapping with coli-conc Infrastructure. [DCMI conference](https://www.dublincore.org/conferences/2021/). 2021-10-15 ([PDF]({{ "/publications/2021-10-15 DCMI Tutorial.pdf" | url }}))
+-  Support of Metadata Mapping with coli-conc Infrastructure. [DCMI conference](https://www.dublincore.org/conferences/2021/). 2021-10-15 ([PDF]({{ "/publications/2021-10-15-DCMI-Tutorial.pdf" | url }}))
 
 -  Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | url }}))
 
