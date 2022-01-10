@@ -370,7 +370,7 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
     12-16](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/vzg_aktuell_2013_01.pdf).
 -   Balakrishnan, U.: DFG-Projekt coli conc -- Projektphase I . In: VZG
     Aktuell. 2/2016 (September), p. 8-12 ([PDF](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/VZG_Aktuell_2016_02.pdf))
-    Anreicherung der Sacherschließung durch Konkordanzen (coli-rich). VZG Aktuell, 2021 Ausgabe 2, S. 19-22. 2021-12-01 ([PDF](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/VZG_Aktuell_2021_02.pdf))
+-   Anreicherung der Sacherschließung durch Konkordanzen (coli-rich). VZG Aktuell, 2021 Ausgabe 2, S. 19-22. 2021-12-01 ([PDF](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/VZG_Aktuell_2021_02.pdf))
 -   An EZB-DDC Condordance (2011). VZG-Project Colibri Sub: Project
     Coli-Conc. <https://doi.org/10.5281/zenodo.28263>.
 
