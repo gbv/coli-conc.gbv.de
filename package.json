@@ -13,6 +13,9 @@
   },
   "homepage": "https://github.com/gbv/coli-conc.gbv.de",
   "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --no-source-map _scss:_includes/css",
@@ -22,23 +25,24 @@
     "build-local": "node scripts/build.js --pathprefix=coli-conc-next --url=http://localhost/coli-conc-next/"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "axios": "^0.21.4",
-    "dotenv": "^10.0.0",
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@11ty/eleventy-upgrade-help": "^1.0.1",
+    "axios": "^0.24.0",
+    "dotenv": "^14.1.0",
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "markdown-it": "^12.2.0",
-    "markdown-it-anchor": "^8.3.1",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
     "markdown-it-footnote": "^3.0.3",
     "meow": "^9.0.0",
     "moment": "^2.29.1",
-    "sass": "^1.42.1",
-    "sharp": "^0.29.1"
+    "sass": "^1.48.0",
+    "sharp": "^0.29.3"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8.7.0",
     "eslint-config-gbv": "~1.0.3",
     "fs-extra": "^10.0.0"
   }
