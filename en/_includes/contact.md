@@ -16,13 +16,6 @@
 {% endflex %}
 {% endflexbox %}
 
-{% flexbox "row", "text-align: center;" %}
-{% flex %}
-
-{{ { en: "Feel free to create an issue on GitHub concerning [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) or any other [software component](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue).", de: "Bei Fragen zur Software, öffnen Sie gerne ein neues Issue auf GitHub: [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) oder [eine andere Softwarekomponente](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue)." } | localize }}  
-{% endflex %}
-{% endflexbox %}
-
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
 {% flex %}
 {{ userIcon | safe }}
@@ -71,5 +64,14 @@ David-Benjamin Rohrer
 {% small %}
 david.rohrer@gbv.de
 {% endsmall %}
+{% endflex %}
+{% endflexbox %}
+
+
+{% flexbox "row", "text-align: center;" %}
+{% flex %}
+
+{{ { en: "Feel free to create an issue on GitHub concerning [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues), or any other [software component](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue).", de: "Bei Fragen zur Software, öffnen Sie gerne ein neues Issue auf GitHub: [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) oder [eine andere Softwarekomponente](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue)." } | localize }}
+
 {% endflex %}
 {% endflexbox %}
