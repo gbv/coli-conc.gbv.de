@@ -19,7 +19,7 @@
 {% flexbox "row", "text-align: center;" %}
 {% flex %}
 
-{{ { en: "Feel free to create an issue on GitHub concerning [cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) or any other [software components](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue).", de: "Bei Fragen zur Software, öffnen Sie gerne ein neues Issue auf GitHub zu [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) oder [einer anderen Softwarekomponente](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue)." } | localize }}  
+{{ { en: "Feel free to create an issue on GitHub concerning [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) or any other [software component](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue).", de: "Bei Fragen zur Software, öffnen Sie gerne ein neues Issue auf GitHub: [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) oder [eine andere Softwarekomponente](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue)." } | localize }}  
 {% endflex %}
 {% endflexbox %}
 
