@@ -19,7 +19,7 @@
 {% flexbox "row", "text-align: center;" %}
 {% flex %}
 
-{{ { en: "Please create an issue on [GitHub](https://github.com/gbv/cocoda/issues) if you have any questions concerning the software", de: "Öffnen Sie gerne ein neues issue auf [GitHub](https://github.com/gbv/cocoda/issues), sollten Sie Fragen zur Software haben" } | localize }}  
+{{ { en: "Please create an issue on [GitHub](https://github.com/gbv/cocoda/issues) if you have any questions concerning the software.", de: "Öffnen Sie gerne ein neues issue auf [GitHub](https://github.com/gbv/cocoda/issues), sollten Sie Fragen zur Software haben." } | localize }}  
 {% endflex %}
 {% endflexbox %}
 
