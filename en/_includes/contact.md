@@ -66,3 +66,11 @@ david.rohrer@gbv.de
 {% endsmall %}
 {% endflex %}
 {% endflexbox %}
+
+{% flexbox "row", "text-align: center;" %}
+{% flex %}
+**{{ { en: "Comments concerning Software", de: "Anmerkungen zur Software" } | localize }}**
+
+{ { en: "Please create an issue on [GitHub](https://github.com/gbv/cocoda/issues)", de: "Bitte öffnen Sie einen neuen issue auf [GitHub](https://github.com/gbv/cocoda/issues)" } | localize }  
+{% endflex %}
+{% endflexbox %}
