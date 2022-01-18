@@ -16,6 +16,14 @@
 {% endflex %}
 {% endflexbox %}
 
+{% flexbox "row", "text-align: center;" %}
+{% flex %}
+**{{ { en: "Comments concerning the Software", de: "Anmerkungen zur Software" } | localize }}**
+
+{{ { en: "Please create an issue on [GitHub](https://github.com/gbv/cocoda/issues)", de: "Bitte öffnen Sie ein neues issue auf [GitHub](https://github.com/gbv/cocoda/issues)" } | localize }}  
+{% endflex %}
+{% endflexbox %}
+
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start;" %}
 {% flex %}
 {{ userIcon | safe }}
@@ -64,13 +72,5 @@ David-Benjamin Rohrer
 {% small %}
 david.rohrer@gbv.de
 {% endsmall %}
-{% endflex %}
-{% endflexbox %}
-
-{% flexbox "row", "text-align: center;" %}
-{% flex %}
-**{{ { en: "Comments concerning Software", de: "Anmerkungen zur Software" } | localize }}**
-
-{{ { en: "Please create an issue on [GitHub](https://github.com/gbv/cocoda/issues)", de: "Bitte öffnen Sie einen neuen issue auf [GitHub](https://github.com/gbv/cocoda/issues)" } | localize }}  
 {% endflex %}
 {% endflexbox %}
