@@ -165,6 +165,8 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2021
 
+-  coli-ana – Automatic analysis of the Dewey Decimal Classification, a service of the Verbundzentrale des GBV. [SWIB21](https://swib.org/swib21/programme.html). 2021-12-01. [PDF](https://swib.org/swib21/slides/03-06-balakrishnan.pdf), [Video](https://youtu.be/gNm8HuX71rI).
+
 -  Support of Metadata Mapping with coli-conc Infrastructure. [DCMI conference](https://www.dublincore.org/conferences/2021/). 2021-10-15 ([PDF]({{ "/publications/2021-10-15-DCMI-Tutorial.pdf" | url }}))
 
 -  Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | url }}))
