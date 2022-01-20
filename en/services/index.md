@@ -25,6 +25,10 @@ subtitle:
 - [coli-ana]({{ "/coli-ana/" | url }})
 
   A tool and a webservice for analysis and decomposition of synthesized DDC numbers - on work
+  
+-  [jskos-server](https://github.com/gbv/jskos-server)
+
+  JSKOS Server implements the JSKOS API web service and storage for JSKOS data
 
 {% endsection %}
 
