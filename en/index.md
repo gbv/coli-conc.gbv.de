@@ -45,16 +45,13 @@ cocodaInfoButton:
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start; margin-top: -10px;" %}
   {% flex %}
-  [{% image "/images/services-kos-registry5.svg", "width: 30vw; max-width: 140px; padding: 20px; border: none;", "KOS Registry" %}<br>{{ strings.sections.services.kosRegistry | localize }}]({{ "/terminologies/" | url }})
+  [{% image "/images/services-kos-registry5.svg", "width: 30vw; max-width: 140px; padding: 20px; border: none;", "Applications" %}<br>{{ strings.sections.services.kosRegistry | localize }}]({{ "/services/#applications" | url }})
   {% endflex %}
   {% flex %}
-  [{% image "/images/services-concordance-registry.svg", "width: 30vw; max-width: 140px; padding: 12px; border: none;", "Concordance Registry" %}<br>{{ strings.sections.services.concordanceRegistry | localize }}]({{ "/concordances/" | url }})
+  [{% image "/images/services-concordance-registry.svg", "width: 30vw; max-width: 140px; padding: 12px; border: none;", "Datasets" %}<br>{{ strings.sections.services.concordanceRegistry | localize }}]({{ "/services/#data-sets" | url }})
   {% endflex %}
   {% flex %}
   [{% image "/images/services-api.svg", "width: 30vw; max-width: 140px; padding: 7px; border: none;", "APIs" %}<br>APIs]({{ "/services/#apis" | url }})
-  {% endflex %}
-  {% flex %}
-  [{% image "/images/ellipsis.svg", "width: 30vw; max-width: 140px; padding: 30px; border: none;", "more services" %}<br>{{ { en: "... and more", de: "... und mehr" } | localize }}]({{ "/services/" | url }})
   {% endflex %}
 {% endflexbox %}
 
