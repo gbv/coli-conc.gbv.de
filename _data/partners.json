@@ -121,7 +121,7 @@
       }
     }
   ],
-  "projects-related": [
+  "projects_related": [
     {
       "url": "https://tools.wmflabs.org/mix-n-match/",
       "text": "mix'n'match",
