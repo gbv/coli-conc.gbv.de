@@ -22,7 +22,7 @@
 {% enddiv %}
 
 {{ {
-  en: "Some projects which are simmilar to coli-conc.",
+  en: "Some projects which are similar to coli-conc.",
   de: "Einige ähnliche Projekte wie coli-conc."
 } | localize }}
 
