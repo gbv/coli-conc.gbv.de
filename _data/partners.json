@@ -187,14 +187,8 @@
       }
     },
     {
-      "text": "ccmapper",
-      "description": {
-        "en": "Closed source web application by Pansoft to map thesauri and classification systems against DDC.",
-        "de": "Propretiäre Anwendung von Pansoft für das Mapping von Thesauri und Klassifikationen zur DDC."
-      }
-    },
-    {
       "text": "xTree connect",
+      "url": "",
       "description": {
         "en": "Closed source web application, part of xTree vocabulary management tool by digiCult.",
         "de": "Propretiäre Anwendung von digiCult. Teil des xTree vocabulary management tools."
@@ -202,6 +196,7 @@
     },
     {
       "text": "Mapping in KOS management software",
+      "url": "",
       "description": {
         "en": "Some KOS management software (e.g. PoolParty) also support mapping.",
         "de": "Einige KOS-Management-Tools (z.B. PoolParty) unterstützen ebenfalls das Mapping."
