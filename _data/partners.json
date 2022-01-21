@@ -120,5 +120,92 @@
         "en": "CCMapper is a mapping application specialized on mapping vocabularies against the Dewey Decimal Classification (DDC)."
       }
     }
+  ],
+  "projects-related": [
+    {
+      "url": "https://tools.wmflabs.org/mix-n-match/",
+      "text": "mix'n'match",
+      "description": {
+        "en": "Web application to match Wikidata items against individual concepts from authority files.",
+        "de": "Eine Anwendung für das Mappen von Wikidata-Einträgen zu einzelnen Konzepten aus Normdaten."
+      }
+    },
+    {
+      "text": "soweego",
+      "url": "https://meta.wikimedia.org/wiki/Grants:Project/Hjfocs/soweego",
+      "description": {
+        "en": "Another application to match Wikidata items against individual concepts from authority files.",
+        "de": "Ein weiteres Tool, um Wikidata-Einträge auf einzelne Konzepte aus Normdaten zu mappen."
+      }
+    },
+    {
+      "text": "OpenRefine",
+      "url": "http://openrefine.org/",
+      "description": {
+        "en": "Java application for data cleaning with strong support of mapping based on labels and optional properties (Reconciliation API).",
+        "de": "Eine Java-Anwendung für die Datenbereinigung."
+      }
+    },
+    {
+      "text": "NAISC-L",
+      "url": "https://www.scss.tcd.ie/~mckennl3/naisc/",
+      "description": {
+        "en": "Application for interlinking internal Linked Data (LD) entities.",
+        "de": "Anwendung, die das Verlinken von internen Linked Data (LD)-Einträgen unterstützt."
+      }
+    },
+    {
+      "text": "YAM++",
+      "url": "http://yamplusplus.lirmm.fr/",
+      "description": {
+        "en": "A web platform for ontology and thesaurus matching and mapping validation.",
+        "de": "Online-Plattform für das Mapping von Ontologien und Thesauri."
+      }
+    },
+    {
+      "text": "cultuurLink",
+      "url": "http://cultuurlink.beeldengeluid.nl/app/",
+      "description": {
+        "en": "Web application to map custom SKOS vocabularies against vocabularies in the Dutch cultural heritage hub (including AAT).",
+        "de": "Online-Tool für das Mapping von SKOS-Vokabularen gegen Vokabulare aus dem Dutch cultural heritage hub."
+      }
+    },
+    {
+      "text": "Amalgame",
+      "url": "http://semanticweb.cs.vu.nl/amalgame/",
+      "description": {
+        "en": "Open Source web-application for creating, analyzing and evaluating vocabulary alignments.",
+        "de": "Online-Tool (Open-Source) zur Erstellung, Analyse und Evaluation von Vokabular-Abgleichungen."
+      }
+    },
+    {
+      "text": "Ariadne",
+      "url": "http://heritagedata.org/vocabularyMatchingTool",
+      "description": {
+        "en": "Online Vocabulary Matching Tool.",
+        "de": "Online-Tool zur Erstellung von Mappings zwischen Vokabularen."
+      }
+    },
+    {
+      "text": "ccmapper",
+      "description": {
+        "en": "Closed source web application by Pansoft to map thesauri and classification systems against DDC.",
+        "de": "Propretiäre Anwendung von Pansoft für das Mapping von Thesauri und Klassifikationen zur DDC."
+      }
+    },
+    {
+      "text": "xTree connect",
+      "description": {
+        "en": "Closed source web application, part of xTree vocabulary management tool by digiCult.",
+        "de": "Propretiäre Anwendung von digiCult. Teil des xTree vocabulary management tools."
+      }
+    },
+    {
+      "text": "Mapping in KOS management software",
+      "description": {
+        "en": "Some KOS management software (e.g. PoolParty) also support mapping.",
+        "de": "Einige KOS-Management-Tools (z.B. PoolParty) unterstützen ebenfalls das Mapping."
+      }
+    }
   ]
 }
