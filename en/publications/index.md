@@ -16,7 +16,6 @@ title: Publications
 - [Screencasts](#screencasts)
 - [Software](#software)
 - [Specifications](#specifications)
-- [Related Projects](#related-projects)
 {% endflex %}
 {% endflexbox %}
 
@@ -377,24 +376,7 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
 -   An EZB-DDC Condordance (2011). VZG-Project Colibri Sub: Project
     Coli-Conc. <https://doi.org/10.5281/zenodo.28263>.
 
-{% endsection %}
-
-{% section %}
-
-## Related Projects
-
-[Cocoda](https://coli-conc.gbv.de/cocoda/) is not the first and only mapping tool. We look out for other software to incorporate best ideas into Cocoda!
-
--   [mix'n'match](https://tools.wmflabs.org/mix-n-match/): Web application to match Wikidata items against individual concepts from authority files (Open Source but only one instance in use).
--   [soweego](https://meta.wikimedia.org/wiki/Grants:Project/Hjfocs/soweego): Another application to match Wikidata items against individual concepts from authority files
--   [OpenRefine](http://openrefine.org/): Java application for data cleaning with strong support of mapping based on labels and optional properties ([Reconciliation API](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API)).
--   [NAISC-L](https://www.scss.tcd.ie/~mckennl3/naisc/): Application for interlinking internal Linked Data (LD) entities. Presented at SWIB19. Will be open sourced in 2020 after final usability tests.
--   [cultuurLink](http://cultuurlink.beeldengeluid.nl/app/): Web application to map custom SKOS vocabularies against vocabularies in the Dutch cultural heritage hub (including AAT).
--   [Amalgame](http://semanticweb.cs.vu.nl/amalgame/): AMsterdam ALignment GenerAtion MEtatool) is an Open Source web-application for creating, analyzing and evaluating vocabulary alignments.
--   [Ariadne](http://heritagedata.org/vocabularyMatchingTool): https://github.com/cbinding/VocabularyMatchingTool https://vmt.ariadne.d4science.org/vmt/vmt-app.html
--   ccmapper: Closed source web application by [Pansoft](http://www.pansoft.de/) to map thesauri and classification systems against DDC.
--   xTree connect: Closed source web application, part of [xTree vocabulary management tool](https://www.digicult-verbund.de/de/digicultxtree) by digiCult.
--   Mapping in KOS management software: Some KOS management software (e.g. PoolParty) also support mapping
+See also [related works](/partners/#related-works) by other organizations and individuals.
 
 {% endsection %}
 

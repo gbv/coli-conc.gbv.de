@@ -13,3 +13,9 @@ layout: layouts/page
 {% include locale + "/projects.md" %}
 
 {% endsection %}
+
+{% section %}
+
+{% include locale + "/related.md" %}
+
+{% endsection %}
