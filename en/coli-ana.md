@@ -43,8 +43,7 @@ coli-ana enables [to analyze the DDC number](https://coli-conc.gbv.de/coli-ana/a
 
 ## Documentation
 
-Forthcoming presentation on coli-ana at SWIB Conference 2021: *Automatic Analysis of the Dewey Decimal Classification:
-A Service of the Verbundzentrale des GBV*
+The presentation *Automatic Analysis of the Dewey Decimal Classification: A Service of the Verbundzentrale des GBV* at SWIB 2021 conference gives an overview about the project. See [video recording](https://youtu.be/gNm8HuX71rI) and [slides](https://doi.org/10.5281/zenodo.5883534).
 
 A brief introduction to coli-ana was given at: [in this Code4Lib 2021 lightening talk](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s).
 
@@ -64,12 +63,6 @@ The development version contains all the latest features and changes. It usually
 
 When the development version reaches a point where bugs are fixed and everything works well, it will be merged into the release version. Therefore, the release version is always a bit behind than the development version, but is more stable and less likely to break.
 
-##### What is the difference between "analyze" and "lookup"?
-
-In the coli-ana web interface, there are two main buttons: "analyze" and "lookup". "analyze" analyzes a given DDC number and shows how the number was built. This is usually performed on the fly and gives the latest analysis of the vc_day number analyzer.
-
-"lookup", however, uses pre-analyzed DDC numbers of the GVK union catalog (soon to be updated to the latest data of the K10plus union catalog) and searches for a given number within those analyses. This means that a lookup will show the DDC notations **which were used in the synthesis of one of the DDC built numbers**. This currently has limited application since the result sets are usually very large and can't be fully explored in the interface.
-
 ##### I have got a different result for the same number. How can that happen?
 
 There are two reasons why a result can differ from previous results:
@@ -81,21 +74,17 @@ The database cache contains pre-analyzed numbers from the GVK union catalog and 
 
 ##### Where do I find details to each DDC class?
 
-Details about each element of a built number are displayed on mouseover.
+Links with details about each element of a built number are available via icons right to each notation.
 
 ##### How do I access the rules applied in the analysis of a built number?
 
 It is planned to display rules applied in the analysis of each built number.
 
-##### How do I determine the base number of a given DDC number?
-
-A base number of a DDC number is a number of any length to which other numbers are added. It is planned to highlight base numbers in the analysis.
-
 ##### What other features does the coli-ana web-service provide?
 
-The webservice offers two other features:
+The webservice offers several other features:
 
-1. Deep links to the title data of the union catalog K10plus.
-2. A seamless transition to the mapping tool Cocoda.
+* A list of titles indexed with the current notation in K10plus union catalog. A deep link to search in the catalog interface is shown next to each notation.
+* Seamless transition to the mapping tool Cocoda.
 
 {% endsection %}
