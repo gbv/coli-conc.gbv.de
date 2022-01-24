@@ -16,6 +16,7 @@ title: Publications
 - [Screencasts](#screencasts)
 - [Software](#software)
 - [Specifications](#specifications)
+- [Related Projects](#related-projects)
 {% endflex %}
 {% endflexbox %}
 
