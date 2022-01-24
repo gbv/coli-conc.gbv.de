@@ -14,3 +14,9 @@
 -   xTree connect: Closed source web application, part of [xTree vocabulary management tool](https://www.digicult-verbund.de/de/digicultxtree) by digiCult.
 -   Mapping in KOS management software: Some KOS management software (e.g. PoolParty) also support mapping
 
+More information vocabulary mapping in general can be found
+
+* in German Wikipedia article [crosskonkordanz](https://de.wikipedia.org/wiki/Crosskonkordanz)
+* in English Wikipedia articles [semantic matching](https://en.wikipedia.org/wiki/Semantic_matching),
+  [ontology matching](https://en.wikipedia.org/wiki/Ontology_alignment)
+* at <http://www.ontologymatching.org/> (focus on Ontology matching)
