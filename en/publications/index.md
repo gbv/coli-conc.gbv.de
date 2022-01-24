@@ -382,6 +382,10 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
 
 ## Related Projects
 
+Some projects which are similar to coli-conc.
+
+-   [mix'n'match](https://tools.wmflabs.org/mix-n-match/): Web application to match Wikidata items against individual concepts from authority files (Open Source but only one instance in use).
+
 {% endsection %}
 
 {% section %}{% endsection %}
