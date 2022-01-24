@@ -378,4 +378,12 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
 
 {% endsection %}
 
+{% section %}
+
+## Related Projects
+
+{% include 'related_projects' %}
+
+{% endsection }
+
 {% section %}{% endsection %}
