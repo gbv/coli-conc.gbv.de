@@ -12,25 +12,77 @@
     type: application
     status: production
     language: JavaScript
-    travis: com
+    action: test
     repository: https://github.com/gbv/jskos-server
     release:
     description: JSKOS mapping provider
+-
+    name: bartoc.org
+    type: application
+    repository: https://github.com/gbv/bartoc.org
+    status: production
+    language: JavaScript
+    action:
+    description: BARTOC user interface
+-
+    name: jskos-cli
+    type: application
+    status: production
+    language: JavaScript
+    repository: https://github.com/gbv/jskos-cli
+    action: test
+    release: jskos-cli
+    description: Command Line Applications to process JSKOS data
+-
+    name: coli-ana
+    type: application
+    language: JavaScript
+    status: production
+    action: test
+    repository: https://github.com/gbv/coli-ana
+    description: API to analyze DDC numbers
+-
+    name: login-server
+    type: application
+    status: production
+    language: JavaScript
+    action: test
+    repository: https://github.com/gbv/login-server
+    release:
+    description: single sign-on login server
+-
+    name: login-client
+    type: library
+    status: production
+    language: JavaScript
+    action: test-and-build
+    repository: https://github.com/gbv/login-client
+    release: gbv-login-client
+    description: library for login-server
 -
     name: jskos-tools
     type: library
     status: production
     language: JavaScript
-    travis: com
+    action: test-and-build
     repository: https://github.com/gbv/jskos-tools
     release: jskos-tools
     description: JSKOS tool library
+-
+    name: cocoda-sdk
+    type: library
+    status: production
+    language: JavaScript
+    action: test-and-build
+    repository: https://github.com/gbv/cocoda-sdk
+    release: cocoda-sdk
+    description: SDK for Cocoda and coli-conc services
 -
     name: jskos-validate
     type: library
     status: production
     language: JavaScript
-    travis: com
+    action: test
     repository: https://github.com/gbv/jskos-validate
     release: jskos-validate
     description: JSKOS validation library
@@ -43,24 +95,6 @@
     repository: https://github.com/gbv/wikidata-jskos
     release:
     description: Access Wikidata in JSKOS format
--
-    name: login-server
-    type: application
-    status: production
-    language: JavaScript
-    travis: com
-    repository: https://github.com/gbv/login-server
-    release:
-    description: single sign-on login server
--
-    name: login-client
-    type: library
-    status: production
-    language: JavaScript
-    travis: com
-    repository: https://github.com/gbv/login-client
-    release: gbv-login-client
-    description: library for login-server
 -
     name: occurrences-api
     type: prototype
@@ -115,7 +149,20 @@
     repository: https://github.com/gbv/wdmapper
     release: wdmapper
     description: Wikidata authority file mapping tool
-
+-
+    name: nomisma-reconciliation
+    type: application
+    language: JavaScript
+    status: production
+    repository: https://github.com/gbv/nomisma-reconciliation
+    description: Proxy for the Nomisma OpenRefine Reconciliation API 
+-
+    name: cocoda-services
+    type: configuration
+    status: production
+    language: Bash
+    repository: https://github.com/gbv/cocoda-services
+    description: Coli-conc backend services
 -
     name: coli-conc-examples
     type: demo
@@ -177,15 +224,6 @@
     release: gbv/viaf-jskos
     description: PHP wrapper to access VIAF in JSKOS format
 -
-    name: bartoc-jskos
-    type: library
-    status: deprecated
-    language: PHP
-    travis: org
-    repository: https://github.com/gbv/bartoc-jskos
-    release: gbv/bartoc-jskos
-    description: PHP wrapper to access BARTIC in JSKOS format
--
     name: ng-suggest
     type: library
     status: prototype
@@ -204,15 +242,6 @@
     release: ng-skos
     description: AngularJS module for JSKOS
 -
-    name: cocoda-db
-    type: application
-    status: prototype
-    language: Perl
-    travis: org
-    repository: https://github.com/gbv/cocoda-db
-    release: https://github.com/gbv/cocoda-db/releases
-    description: database backend to store and serve JSKOS
--
     name: jskos-php-examples
     type: application
     status: demo
@@ -222,11 +251,16 @@
     release: https://jskos-php-examples.herokuapp.com/
     description: Sample applications of jskos-php (wrapper etc.)
 -
-    name: cocoda-mappings
+    name: jskos2marc
     type: library
     status: demo
-    language: multiple
-    travis:
-    repository: https://github.com/gbv/cocoda-mappings
-    release:
-    description: concordances, mappings and conversion scripts
+    language: PHP
+    repository: https://github.com/gbv/jskos2marc
+    description: Convert JSKOS authority records to MARC21
+-
+    name: cocoda-winibw
+    type: library
+    status: demo
+    language: JavaScript
+    repository: https://github.com/gbv/cocoda-winibw
+    description: Integration von WinIBW und Cocoda
