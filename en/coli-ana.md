@@ -22,6 +22,8 @@ A tool to analyze any given synthesized DDC number is made available for trial p
 [What is the difference?](#faq)
 {% endsmall %}
 
+A German summary of coli-ana and its application can be found [in this article (spring 2022)](https://coli-conc.gbv.de/de/blog/2022/02/04/coli-ana/).
+
 {% endsection %}
 
 {% section %}
