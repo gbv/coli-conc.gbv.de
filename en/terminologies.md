@@ -6,7 +6,7 @@ title:
 
 {% section %}
 
-This list contains a collection of knowledge organization systems relevant to project coli-conc. It is a subset of all systems known to coli-conc. It is a subset of the full [KOS Registry](https://github.com/gbv/kos-registry), the set of all systems known to the project (you can find the download to the latest release [here](https://github.com/gbv/kos-registry/releases/latest)). Please use [Cocoda]({{ "/cocoda/" | url }}) to select and browse within the systems!
+This list contains a collection of knowledge organization systems relevant to project coli-conc. It is a subset of [BARTOC](https://bartoc.org/) (see [the list there](http://bartoc.org/vocabularies?partOf=http://bartoc.org/en/node/18926)). Please use [Cocoda]({{ "/cocoda/" | url }}) to browse within the systems!
 
 <table>
   <thead>
