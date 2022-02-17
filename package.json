@@ -28,8 +28,8 @@
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-upgrade-help": "^1.0.1",
-    "axios": "^0.24.0",
-    "dotenv": "^14.1.0",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
@@ -38,11 +38,11 @@
     "markdown-it-footnote": "^3.0.3",
     "meow": "^9.0.0",
     "moment": "^2.29.1",
-    "sass": "^1.48.0",
-    "sharp": "^0.29.3"
+    "sass": "^1.49.7",
+    "sharp": "^0.30.1"
   },
   "devDependencies": {
-    "eslint": "^8.7.0",
+    "eslint": "^8.9.0",
     "eslint-config-gbv": "~1.0.3",
     "fs-extra": "^10.0.0"
   }
