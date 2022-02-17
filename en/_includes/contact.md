@@ -15,7 +15,7 @@
 
 coli-conc@gbv.de
 
-{{ { en: "For technical questions or feedback, feel free to create an issue on GitHub concerning [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues), or any other [software component](/publications/#software).", de: "Bei Fragen oder Feedback zur Software, öffnen Sie gerne ein neues Issue auf GitHub: [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) oder [ine andere Softwarekomponente](/publications/#software)." } | localize }}
+{{ { en: "For technical questions or feedback, feel free to create an issue on GitHub concerning [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues), or any other [software component](/publications/#software).", de: "Bei Fragen oder Feedback zur Software, öffnen Sie gerne ein neues Issue auf GitHub: [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) oder [eine andere Softwarekomponente](/publications/#software)." } | localize }}
 
 {% endflex %}
 {% endflexbox %}
