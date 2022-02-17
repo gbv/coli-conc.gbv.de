@@ -10,11 +10,11 @@
 
 {% flexbox "row", "text-align: center;" %}
 {% flex %}
-**{{ { en: "General", de: "Allgemein" } | localize }}**
 
-E-Mail: coli-conc@gbv.de
+**{{ { en: "Email for general or editorial feedback", de: "E-Mail für allgemeine oder redaktionelle Rückmeldungen" } | localize }}**:
 
-Twitter: [@coli_conc](https://twitter.com/coli_conc)
+coli-conc@gbv.de
+
 {% endflex %}
 {% endflexbox %}
 
@@ -72,8 +72,9 @@ david.rohrer@gbv.de
 
 {% flexbox "row", "text-align: center;" %}
 {% flex %}
+Twitter: [@coli_conc](https://twitter.com/coli_conc)
 
-{{ { en: "Feel free to create an issue on GitHub concerning [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues), or any other [software component](/publications/#software).", de: "Bei Fragen zur Software, öffnen Sie gerne ein neues Issue auf GitHub: [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) oder [ine andere Softwarekomponente](/publications/#software)." } | localize }}
+{{ { en: "For technical questions or feedback, feel free to create an issue on GitHub concerning [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues), or any other [software component](/publications/#software).", de: "Bei Fragen oder Feedback zur Software, öffnen Sie gerne ein neues Issue auf GitHub: [Cocoda](https://github.com/gbv/cocoda/issues), [BARTOC](https://github.com/gbv/bartoc.org/issues) oder [ine andere Softwarekomponente](/publications/#software)." } | localize }}
 
 {% endflex %}
 {% endflexbox %}
