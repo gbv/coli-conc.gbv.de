@@ -16,7 +16,7 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm run build -- --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io
-      - name: Invoke deployment hook
+      - name: Deployment webhook to update coli-conc.gbv.de
         uses: distributhor/workflow-webhook@v2
         env:
           webhook_url: ${{ secrets.WEBHOOK_URL }}
