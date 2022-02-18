@@ -1,4 +1,4 @@
-name: Eleventy Build
+name: Main Build
 on:
   push:
     branches:
@@ -7,8 +7,8 @@ on:
     - cron: '0 1 * * *'
 
 jobs:
-  build_deploy:
-    runs-on: ubuntu-latest
+  main_build:
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v2
@@ -16,8 +16,8 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm run build -- --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+      - name: Invoke deployment hook
+        uses: distributhor/workflow-webhook@v2
+        env:
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
+          webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
