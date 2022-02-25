@@ -1,5 +1,4 @@
 ---
-isFallback: true
 layout: layouts/blog
 title: Präsentationen zu BARTOC und Sacherschließung
 excerpt: Auf dem Bibliothekstag haben wir BARTOC und aktuelle Dienste und Projekte im Bereich Sacherschließung vorgestellt
@@ -29,4 +28,3 @@ Geplant ist die Erweiterung um mindestens folgende Vokabulare:
 * [Library of Congress Subject Headings (LCSH)](http://bartoc.org/en/node/454)
 * [Library of Congress Classification (LCC)](http://bartoc.org/en/node/486)
 * [National Library of Medicine Classification (NLM)](http://bartoc.org/en/node/528)
-
