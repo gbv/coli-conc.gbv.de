@@ -102,8 +102,40 @@ console.log(`- Copying resulting CSS into ${output}/css/...`)
 fs.copySync("_includes/css", `${output}/css`)
 console.log()
 
+let files = [], filesCopied = []
 
-// 2. Build English site
+// 2a. Find missing files in English site and copy from German site
+console.log("Copying missing files to English site...")
+files = getAllFiles(siteGerman)
+filesCopied = []
+try {
+  for (let file of files) {
+    const fileEnglish = file.replace(siteGerman, site)
+    if (!fs.existsSync(fileEnglish)) {
+      ensureDirectoryExistence(fileEnglish)
+      fs.copyFileSync(file, fileEnglish)
+      filesCopied.push(fileEnglish)
+      console.log(`- copied ${file} to ${fileEnglish}`)
+      // Add isFallback front matter variable to fallback site
+      if (!fileEnglish.includes("_includes")) {
+        let fileContent = fs.readFileSync(fileEnglish, "utf-8")
+        const addition = "isFallback: true"
+        if (fileContent.startsWith("---")) {
+          fileContent = fileContent.replace("---", `---\n${addition}`)
+        } else {
+          fileContent = `---\n${addition}\n---\n${fileContent}`
+        }
+        fs.writeFileSync(fileEnglish, fileContent)
+      }
+    }
+  }
+} catch (error) {
+  console.error("- Error while copying missing files to English site:", error)
+  console.log("- Contuining anyway...")
+}
+console.log()
+
+// 2b. Build English site
 console.log("Building English site...")
 execSync(
   `URL=${url} ` + `node_modules/.bin/eleventy --passthroughall ${pathprefix ? ` --pathprefix=${pathprefix}` : ""} --output=${output}`,
@@ -111,10 +143,22 @@ execSync(
 )
 console.log()
 
-// 3. Find missing files in German site and copy from English site
+// 2c. Delete copied files
+console.log("Deleting previously copied files...")
+for (let file of filesCopied) {
+  try {
+    fs.unlinkSync(file)
+    console.log(`- ${file} deleted`)
+  } catch(error) {
+    console.error(`- ${file} could not be deleted: ${error}`)
+  }
+}
+console.log()
+
+// 3a. Find missing files in German site and copy from English site
 console.log("Copying missing files to German site...")
-const files = getAllFiles(site)
-const filesCopied = []
+files = getAllFiles(site)
+filesCopied = []
 try {
   for (let file of files) {
     const fileGerman = file.replace(site, siteGerman)
@@ -142,7 +186,7 @@ try {
 }
 console.log()
 
-// 4. Build German site
+// 3b. Build German site
 console.log("Building German site...")
 try {
   execSync(
@@ -155,7 +199,7 @@ try {
 }
 console.log()
 
-// 5. Delete copied files
+// 3c. Delete copied files
 console.log("Deleting previously copied files...")
 for (let file of filesCopied) {
   try {
