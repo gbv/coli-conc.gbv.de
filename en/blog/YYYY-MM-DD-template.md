@@ -2,7 +2,7 @@
 layout: layouts/blog
 title: "Title of the page"
 excerpt: "Excerpt if necessary"
-# Uncomment this:
+# # Uncomment this:
 # tags:
 # - blog
 ---
