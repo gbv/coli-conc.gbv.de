@@ -17,7 +17,10 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
 {%- for post in pagination.items -%}
   {% div "entry" %}
     {% div "date" %}{{ post.date | date("YYYY-MM-DD") }}{% enddiv %}
-    {% div "title" %}[{{ post.data.title }}]({{ post.url | url }}){% enddiv %}
+    {% div "title" %}
+      [{{ post.data.title }}]({{ post.url | url }})
+      {% if post.data.originalLanguage %}{% badge post.data.originalLanguage %}{% endif %}
+    {% enddiv %}
     {% div "excerpt" %}{{ post.data.excerpt }}{% enddiv %}
   {% enddiv %}
 {%- endfor -%}

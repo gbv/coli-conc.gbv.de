@@ -3,8 +3,8 @@ module.exports = {
   locale: data => data.page.inputPath.includes("/de/") ? "de" : "en",
   source: data => {
     let source = `${data.pkg.homepage}/tree/main${data.page.inputPath.replace("./", "/")}`
-    if (data.isFallback) {
-      source = source.replace("/de/", "/en/")
+    if (data.originalLanguage) {
+      source = source.replace(/\/(en|de)\//, `/${data.originalLanguage}/`)
     }
     return source
   },
