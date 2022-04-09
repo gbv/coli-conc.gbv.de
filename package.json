@@ -37,7 +37,7 @@
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-footnote": "^3.0.3",
     "meow": "^9.0.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "sass": "^1.49.9",
     "sharp": "^0.30.2"
   },
