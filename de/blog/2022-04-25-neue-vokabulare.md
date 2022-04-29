@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog
-title: Neue Vocabulare verfügbar
+title: Neue Vokabulare verfügbar
 excerpt: Weitere Vokabulare in BARTOC und Cocoda verfügbar.
 tags:
 - blog
