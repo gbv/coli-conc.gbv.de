@@ -39,7 +39,7 @@
     "meow": "^9.0.0",
     "moment": "^2.29.3",
     "sass": "^1.51.0",
-    "sharp": "^0.30.4"
+    "sharp": "^0.30.5"
   },
   "devDependencies": {
     "eslint": "^8.14.0",
