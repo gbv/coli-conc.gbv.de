@@ -163,6 +163,10 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - [SI & IT 2022](https://si-it-workshop.gbv.de/)
 
+### 2022
+
+- coli-ana: Automatic analysis of the Dewey Decimal Classification. A service of the Verbundzentrale GBV (VZG). [ELAG 2022](https://elag2022.lnb.lv/). 2022-06-08. <https://doi.org/10.5281/zenodo.6623490>
+
 ### 2021
 
 -  coli-ana – Automatic analysis of the Dewey Decimal Classification, a service of the Verbundzentrale des GBV. [SWIB21](https://swib.org/swib21/programme.html). 2021-12-01. ([PDF](https://doi.org/10.5281/zenodo.5883534), [Video](https://youtu.be/gNm8HuX71rI))
