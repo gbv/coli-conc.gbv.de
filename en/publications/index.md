@@ -161,7 +161,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Upcoming
 
-- 21.06.2022: Presentation of coli-ana at HdM Stuttgart.
+- 21.06.2022: Presentation of coli-ana and BARTOC at [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-sommer-2022/).
 
 ### 2022
 
