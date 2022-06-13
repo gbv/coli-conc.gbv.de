@@ -161,7 +161,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Upcoming
 
-- [SI & IT 2022](https://si-it-workshop.gbv.de/)
+- 21.06.2022: Presentation of coli-ana at HdM Stuttgart.
 
 ### 2022
 
