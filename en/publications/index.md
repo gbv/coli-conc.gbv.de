@@ -159,10 +159,6 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
-## Upcoming
-
-
-
 ### 2022
 
 - coli-ana: Automatische Analyse der Dewey Dezimal Klassifikation. Eine Dienstleistung der Verbundzentrale des GBV. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-sommer-2022/). 2022-06-21. ([PDF]({{ "/publications/coli-ana-hdm2022.pdf" | url }}))
