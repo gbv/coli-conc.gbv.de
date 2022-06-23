@@ -34,6 +34,7 @@ module.exports = eleventyConfig => {
   const markdownIt = require("markdown-it")(markdownItOptions)
     .use(require("markdown-it-anchor"))
     .use(require("markdown-it-footnote"))
+    .use(require("markdown-it-multimd-table"))
     .disable("code")
 
   // Open external links in new tab, adapted from https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer
