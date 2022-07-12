@@ -6,7 +6,7 @@ tags:
 - blog
 ---
 
-Der [K10plus-Katalog](https://www.bszgbv.de/services/k10plus/) umfasst bibliographische Angaben und Bestandsnachweise der Bibliotheken des Südwestdeutsche Bibliotheksverbund (SWB), des Gemeinsamen Bibliotheksverbundes (GBV) und weiterer Forschungseinrichtungen. Mit mehr als 200 Millionen Nachweisen zu rund 80 MillionenPublikationen ist er der umfangreichste Katalog im deutschsprachigen Raum. Die Daten des K10plus sind [über Schnittstellen](https://wiki.k10plus.de/display/K10PLUS/Schnittstellen) und [als Datenbankdump](https://wiki.k10plus.de/display/K10PLUS/Open+Data) in MARC und RDF [als Open Data verfügbar](https://wiki.k10plus.de/display/K10PLUS/Open+Data).
+Der [K10plus-Katalog](https://www.bszgbv.de/services/k10plus/) umfasst bibliographische Angaben und Bestandsnachweise der Bibliotheken des Südwestdeutsche Bibliotheksverbund (SWB), des Gemeinsamen Bibliotheksverbundes (GBV) und weiterer Forschungseinrichtungen. Mit mehr als 200 Millionen Nachweisen zu rund 80 Millionen Publikationen ist er der umfangreichste Katalog im deutschsprachigen Raum. Die Daten des K10plus sind [über Schnittstellen](https://wiki.k10plus.de/display/K10PLUS/Schnittstellen) und [als Datenbankdump](https://wiki.k10plus.de/display/K10PLUS/Open+Data) in MARC und RDF [als Open Data verfügbar](https://wiki.k10plus.de/display/K10PLUS/Open+Data).
 
 Zur Auswertung von Sacherschließungsdaten wurde nun im Rahmen des [Projekt coli-conc](https://coli-conc.gbv.de/) ein Auszug des K10plus mit allen Sacherschließungsdaten als Forschungsdatensatz veröffentlicht:
 
