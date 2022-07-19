@@ -14,7 +14,7 @@ such as [WebDewey Search](https://deweysearchde.pansoft.de/webdeweysearch/).
 CCMapper is being extended for mapping Regensburger Verbundklassifikation (RVK)
 against DDC as part of project coli-conc. We provide:
 
-* an instance of [CCMapper for mapping RVK against DDC](https://ccmapper-de.pansoft.de/).
+* an instance of [CCMapper for mapping RVK against DDC](https://ccmapperde.pansoft.de/).
   Please contact us to get an account for testing!
 
 * an API to query mappings from CCMapper (based on regular exports) which include
