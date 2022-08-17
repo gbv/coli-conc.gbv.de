@@ -27,7 +27,7 @@ Unterfeld `$A` ist im K10plus in Suchschlüssel IKT 8559 (SEQ=Sacherschliessungs
 
 ## Implementierung
 
-Zunächst werden im K10plus BK-Notationen auf Grundlage von RVK-Notationen eingetragen. Weitere Informationen, Skripte und Beispiele dazu siehe [im git-repository](https://github.com/gbv/coli-rich/tree/main/rvk2bk).
+Zunächst werden im K10plus BK-Notationen auf Grundlage von RVK-Notationen eingetragen. Weitere Informationen, Skripte und Beispiele dazu siehe [im git-repository](https://github.com/gbv/coli-rich-scripts).
 
 {% endsection %}
 
