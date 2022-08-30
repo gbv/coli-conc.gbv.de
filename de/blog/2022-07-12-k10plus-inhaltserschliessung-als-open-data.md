@@ -16,3 +16,5 @@ Zur Auswertung von Sacherschließungsdaten wurde nun im Rahmen des [Projekt coli
 Die Datensätze umfassen rund 14 Gigabyte im [normalisierten PICA+ Format](https://format.gbv.de/pica/normalized). Eine Beschreibung der Daten und eine zufällige Stichprobe von 10.000 Datensätzen sind enthalten. Die Beschreibung der PICA-Felder ist unter <https://format.k10plus.de/avram.pl> abrufbar.
 
 Aufbauend auf diesem Forschungsdatensatz sollen weiter aufbereitete Daten und Auswertungen erstellt und publiziert werden. Hinweise zur Verarbeitung der Daten werden [in einem git-Repository](https://github.com/gbv/k10plus-subjects#readme) gesammelt.
+
+**P.S.:** Inzwischen gibt es auch eine reduzierte und bereinigte Version der Daten für ausgewählte Vokabulare als Tabelle und in RDF: <https://doi.org/10.5281/zenodo.7016625> (Stand Juni 2022 mit 82.937.252 Links von 24.009.936 Datensätzen).
