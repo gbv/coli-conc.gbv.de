@@ -21,6 +21,8 @@ class GNDService extends JSKOS\ConfiguredService {
         $result = new Result();
 
         foreach (explode('|', $query['uri'] ?? '') as $uri) {
+            # Also support https URIs (internally, this is still using http URIs)
+            $uri = str_replace("https://", "http://", $uri);
             $query['uri'] = $uri;
 
             $jskos = $this->queryUriSpace($query);
@@ -39,6 +41,12 @@ class GNDService extends JSKOS\ConfiguredService {
                     $this->mapper->applyAtResource($rdf->getGraph()->resource($uri), $concept);
                 } catch(Exception $e) {
                 }
+                # Save http URI in identifier and replace with https URI
+                if (empty($concept->identifier)) {
+                    $concept->identifier = [];
+                }
+                $concept->identifier->append($concept->uri);
+                $concept->uri = str_replace("http://", "https://", $concept->uri);
                 $result->append($concept);
             }
         }
