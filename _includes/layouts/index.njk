@@ -25,7 +25,7 @@ css:
 
   <div class="service">
     <p class="font-weight-bold">{{ { en: "A service provided by", de: "Ein Service der" } | localize }}</p>
-    <a href="https://www.gbv.de/Verbundzentrale{% if locale == "en" %}-en{% endif %}" target="_blank">
+    <a href="{{ "https://en.gbv.de/informations/Verbundzentrale-en" if locale != "de" else "https://www.gbv.de/informationen/Verbundzentrale" }}" target="_blank">
       <img
         src="{{ '/images/vzg-600px.png' | urla }}"
         srcset="{{ '/images/vzg-300px.png' | urla }} 300w, {{ '/images/vzg-600px.png' | urla }} 600w"
