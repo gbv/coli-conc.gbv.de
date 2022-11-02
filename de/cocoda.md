@@ -9,15 +9,13 @@ Cocoda ist eine Web&#173;anwendung zur Verwaltung und Erstellung von Mappings zw
 
 {% button "https://coli-conc.gbv.de/cocoda/app/", "Starte aktuelle Release-Version von Cocoda" %}
 
-→ [Starte Cocoda-Instanz optimiert für RVK](https://coli-conc.gbv.de/cocoda/rvk/)
-
 → [Starte Cocoda-Instanz optimiert für Wikidata](https://coli-conc.gbv.de/cocoda/wikidata/)
 
 {% clear %}
 
 ### Weitere Ressourcen
-<!--- 
-- PDFs für das Benutzerhandbuch: [A4 PDF](https://coli-conc.gbv.de/cocoda/user-manual-de.pdf) / [foldable sheets](https://coli-conc.gbv.de/cocoda/user-manual-de-book.pdf)) 
+<!---
+- PDFs für das Benutzerhandbuch: [A4 PDF](https://coli-conc.gbv.de/cocoda/user-manual-de.pdf) / [foldable sheets](https://coli-conc.gbv.de/cocoda/user-manual-de-book.pdf))
 --->
 - [Englisches Benutzerhandbuch](https://gbv.github.io/cocoda/dev/user-manual-en.html)
 - Unsere [aktuelle Entwicklungsversion](https://coli-conc.gbv.de/cocoda/dev/)
