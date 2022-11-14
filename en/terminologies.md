@@ -12,8 +12,7 @@ This list contains a collection of knowledge organization systems relevant to pr
   <thead>
     <tr>
       <th>Name</th>
-      <th>PICA</th>
-      <th>MARC</th>
+      <th>API</th>
     </tr>
   </thead>
   <tbody>
@@ -30,23 +29,7 @@ This list contains a collection of knowledge organization systems relevant to pr
         </a>
       </td>
       <td>
-        <code>{{ scheme.PICAPATH }}</code>
-      </td>
-      <td>
-        {%- set marcfield = scheme.MARCSPEC -%}
-        {%- if scheme.uri == "http://bartoc.org/en/node/241" -%}
-          {%- set marcfield = "082|083" -%}
-        {%- elif scheme.uri == "http://bartoc.org/en/node/496" -%}
-          {%- set marcfield = "080" -%}
-        {%- elif scheme.identifier -%}
-          <!--
-            var locid = scheme.identifier.find(id => id.startsWith("http://id.loc.gov/vocabulary/classSchemes/"))
-            if (locid) {
-              marcfield = '084{$2='+locid.substr(42)+'}'
-            }
-          -->
-        {%- endif -%}
-        <code>{{ marcfield }}</code>
+        {% for api in scheme.API %}<a target="_blank" href="{{ api.url }}">{{ api.label }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
       </td>
     </tr>
     {% endfor %}
