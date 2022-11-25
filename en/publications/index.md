@@ -161,7 +161,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2022
 
-- Einbindung von coli-conc Mappings in den Digitalen Assistenten (DA-3). [6. Online-Workshop Computerstützte Inhaltserschließung](https://wiki.dnb.de/display/COMUNIE). ([Folien]({{ "/publications/2022-11_Einbindung von coli-conc Mappings in den DA_final.pdf" | url}}))
+- Einbindung von coli-conc Mappings in den Digitalen Assistenten (DA-3). [6. Online-Workshop Computerstützte Inhaltserschließung](https://wiki.dnb.de/display/COMUNIE). ([Folien]({{ "/publications/2022-11_Einbindung-von-coli-conc-Mappings-in-den-DA_final.pdf" | url}}))
 - coli-ana: Automatische Analyse der Dewey Dezimal Klassifikation. Eine Dienstleistung der Verbundzentrale des GBV. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-sommer-2022/). 2022-06-21. ([PDF]({{ "/publications/coli-ana-hdm2022.pdf" | url }}))
 - coli-ana: Automatic analysis of the Dewey Decimal Classification. A service of the Verbundzentrale GBV (VZG). [ELAG 2022](https://elag2022.lnb.lv/). 2022-06-08. <https://doi.org/10.5281/zenodo.6623490>
 - coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-winter-2021-22/). 2022-01-25. ([PDF]({{ "/publications/2022-25-01-coli-conc-webseminar_hdm_final.pdf" | url }}))
