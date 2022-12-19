@@ -223,7 +223,7 @@ const foldersToDelete = [
 for (let folder of foldersToDelete) {
   folder = `${output}/${folder}`
   try {
-    fs.rmdirSync(folder, { recursive: true })
+    fs.rmSync(folder, { recursive: true })
     console.log(`- ${folder} deleted`)
   } catch(error) {
     console.log(`- ${folder} could not be deleted: ${error}`)
