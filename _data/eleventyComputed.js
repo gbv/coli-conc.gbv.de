@@ -1,3 +1,7 @@
+const gitCommit = require("child_process")
+  .execSync("git rev-parse --short HEAD")
+  .toString().trim()
+
 module.exports = {
   // Determine current locale from input path
   locale: data => data.page.inputPath.includes("/de/") ? "de" : "en",
@@ -10,4 +14,8 @@ module.exports = {
   },
   // Set the title
   title: data => data.title || (data.series && `${data.series} ${data.number}`) || data.strings.pages[data.page.fileSlug] || data.page.fileSlug,
+  buildInfo: data => ({
+    gitCommit,
+    gitCommitLink: `${data.pkg.homepage}/commit/${gitCommit}`,
+  }),
 }

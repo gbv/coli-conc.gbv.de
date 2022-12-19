@@ -5,6 +5,6 @@
 [Impressum](https://www.gbv.de/impressum)
 | [Barrierefreiheit]({{ "/erklaerung-zur-barrierefreiheit/" | url }})
 | [Datenschutz](https://www.gbv.de/datenschutz)
-| [Quellcode]({{ source }})
+| [Quellcode]({{ source }}) ([{{ buildInfo.gitCommit }}]({{ buildInfo.gitCommitLink }}))
 | [Twitter @coli_conc](https://twitter.com/coli_conc)
 | [News (RSS)]({{ "/rss/blog.xml" | url }})
