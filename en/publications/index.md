@@ -159,6 +159,10 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+### 2023
+
+- Terminology Services @ VZG. Presented at NFDI Terminology Services Working Group. 2023-01-12. https://doi.org/10.5281/zenodo.7528447
+
 ### 2022
 
 - Einbindung von coli-conc Mappings in den Digitalen Assistenten (DA-3). [6. Online-Workshop Computerstützte Inhaltserschließung](https://wiki.dnb.de/display/COMUNIE). 2022-11-16. ([PDF]({{ "/publications/2022-11_Einbindung-von-coli-conc-Mappings-in-den-DA_final.pdf" | url}}))
