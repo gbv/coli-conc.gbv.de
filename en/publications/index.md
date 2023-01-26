@@ -161,6 +161,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2023
 
+- BARTOC: Basic Register of Thesauri, Ontologies & Classifications. Presented at HdM Stuttgart. https://doi.org/10.5281/zenodo.7573589
 - Terminology Services @ VZG. Presented at NFDI Terminology Services Working Group. 2023-01-12. https://doi.org/10.5281/zenodo.7528447
 
 ### 2022
