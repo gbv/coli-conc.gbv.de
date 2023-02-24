@@ -367,6 +367,9 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
 
 ## Other Articles
 
+-   Basic Register of Thesauri, Ontologies & Classification (BARTOC):
+    DFG-Projektantrag. <https://doi.org/10.5281/zenodo.7673393>
+    (BARTOC grant proposal, abbreviated version)
 -   DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch,
     die Erstellung, und die Wartung von Konkordanzen zwischen
     bibliothekarischen Wissensorganisationssystemen (November
