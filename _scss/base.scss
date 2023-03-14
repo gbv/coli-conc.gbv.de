@@ -109,6 +109,14 @@ a:hover {
   cursor: pointer;
 }
 
+// Button click animation (makes buttons feel more "alive")
+.button {
+  transition: all .2s ease-in-out;
+}
+.button:not(:disabled):active {
+  transform: translateY(1px);
+}
+
 .section {
   position: relative;
   padding: calc(1px + (100vw - 300px) / 50) calc((100vw - 250px) / 6);
