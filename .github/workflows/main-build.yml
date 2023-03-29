@@ -8,16 +8,16 @@ on:
 
 jobs:
   main_build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: 18
       - run: npm install
       - run: npm run build -- --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io
       - name: Deployment webhook to update coli-conc.gbv.de
-        uses: distributhor/workflow-webhook@v2
+        uses: distributhor/workflow-webhook@v3
         env:
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
