@@ -100,10 +100,10 @@ a collection of knowledge organization systems encoded in JSKOS
 ## Reviewed Articles
 
 -   Balakrishnan, Peters, Voß: *Coli-conc – Eine Infrastruktur zur Nutzung und Erstellung von
-    Konkordanzen*. In: Qualität in der Inhaltserschließung, pp. 121-135
+    Konkordanzen*. In: Qualität in der Inhaltserschließung (2021), pp. 121-135
     <https://doi.org/10.1515/9783110691597-008>
 -   Voß: *Datenqualität als Grundlage qualitativer Inhaltserschließung*
-    In: Qualität in der Inhaltserschließung, pp. 167-176
+    In: Qualität in der Inhaltserschließung (2021), pp. 167-176
     <https://doi.org/10.1515/9783110691597-010>
 -   Balakrishnan, Uma; Soergel, Dagobert; Helfer, Olivia:
     Representing Concepts through Description Logic Expressions for Knowledge Organization System (KOS) Mapping.
@@ -161,7 +161,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2023
 
-- Datenorientierte Inhaltserschließung: Neue Dienste der VZG. BiblioCon 2023-04-25. ([PDF]({{ "/publications/bibliocon2023-inhaltserschliessung.pdf" | url }})
+- Datenorientierte Inhaltserschließung: Neue Dienste der VZG. BiblioCon 2023-04-25. ([PDF]({{ "/publications/bibliocon2023-inhaltserschliessung.pdf" | url }}))
 - Einführung in das Mapping-Tool Cocoda und das automatische Anreicherungsverfahren coli-rich. [1. Österreichischer Bibliothekskongress](https://www.uibk.ac.at/congress/bibliothek2023/). 2023-05-03. ([PDF]({{ "/publications/2023-05-03%20Cocoda%20%2B%20coli-rich%20(1.%20O%CC%88sterreichischer%20Bibliothekskongress).pdf" | url }}))
 - BARTOC: Basic Register of Thesauri, Ontologies & Classifications. Presented at HdM Stuttgart. https://doi.org/10.5281/zenodo.7573589
 - Terminology Services @ VZG. Presented at NFDI Terminology Services Working Group. 2023-01-12. https://doi.org/10.5281/zenodo.7528447
