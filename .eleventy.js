@@ -163,6 +163,10 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy("js")
   // Passthrough for files in static/ folder
   eleventyConfig.addPassthroughCopy({ static: "/" })
+  // Passthrough for certain file extensions
+  ;["json", "ndjson", "php", "bib", "yaml", "pdf"].forEach(ext => {
+    eleventyConfig.addPassthroughCopy(`en/**/*.${ext}`)
+  })
 
   // We can't use gitignore because Eleventy will ignore changes in CSS files
   eleventyConfig.setUseGitIgnore(false)

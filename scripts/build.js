@@ -138,7 +138,7 @@ console.log()
 // 2b. Build English site
 console.log("Building English site...")
 execSync(
-  `URL=${url} ` + `node_modules/.bin/eleventy --passthroughall ${pathprefix ? ` --pathprefix=${pathprefix}` : ""} --output=${output}`,
+  `URL=${url} ` + `node_modules/.bin/eleventy ${pathprefix ? ` --pathprefix=${pathprefix}` : ""} --output=${output}`,
   { stdio: "inherit" },
 )
 console.log()
@@ -219,6 +219,8 @@ const foldersToDelete = [
   `${siteGerman}/js`,
   `${siteGerman}/_includes`,
   "_includes",
+  // This is required for Eleventy v2 as the old --passthroughall option was removed and the German site build will now include the `en` directory with some unnecessary files
+  `${siteGerman}/en`,
 ]
 for (let folder of foldersToDelete) {
   folder = `${output}/${folder}`
