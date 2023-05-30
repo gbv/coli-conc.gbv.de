@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --no-source-map _scss:_includes/css",
-    "serve": "(sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --passthroughall --serve",
+    "serve": "(sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --serve",
     "build": "node scripts/build.js",
     "build-gh": "node scripts/build.js --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io",
     "build-local": "node scripts/build.js --pathprefix=coli-conc-next --url=http://localhost/coli-conc-next/"
