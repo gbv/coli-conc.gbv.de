@@ -161,25 +161,25 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2023
 
-- Datenorientierte Inhaltserschließung: Neue Dienste der VZG. BiblioCon 2023-05-25. ([PDF]({{ "/publications/bibliocon2023-inhaltserschliessung.pdf" | url }}))
-- Einführung in das Mapping-Tool Cocoda und das automatische Anreicherungsverfahren coli-rich. [1. Österreichischer Bibliothekskongress](https://www.uibk.ac.at/congress/bibliothek2023/). 2023-05-03. ([PDF]({{ "/publications/2023-05-03%20Cocoda%20%2B%20coli-rich%20(1.%20%C3%96sterreichischer%20Bibliothekskongress).pdf" | url }}))
+- Datenorientierte Inhaltserschließung: Neue Dienste der VZG. BiblioCon 2023-05-25. ([PDF]({{ "/publications/bibliocon2023-inhaltserschliessung.pdf" | urla }}))
+- Einführung in das Mapping-Tool Cocoda und das automatische Anreicherungsverfahren coli-rich. [1. Österreichischer Bibliothekskongress](https://www.uibk.ac.at/congress/bibliothek2023/). 2023-05-03. ([PDF]({{ "/publications/2023-05-03%20Cocoda%20%2B%20coli-rich%20(1.%20%C3%96sterreichischer%20Bibliothekskongress).pdf" | urla }}))
 - BARTOC: Basic Register of Thesauri, Ontologies & Classifications. Presented at HdM Stuttgart. https://doi.org/10.5281/zenodo.7573589
 - Terminology Services @ VZG. Presented at NFDI Terminology Services Working Group. 2023-01-12. https://doi.org/10.5281/zenodo.7528447
 
 ### 2022
 
 - Einbindung von coli-conc Mappings in den Digitalen Assistenten (DA-3). [6. Online-Workshop Computerstützte Inhaltserschließung](https://wiki.dnb.de/display/COMUNIE). 2022-11-16. ([PDF]({{ "/publications/2022-11_Einbindung-von-coli-conc-Mappings-in-den-DA_final.pdf" | url}}))
-- coli-ana: Automatische Analyse der Dewey Dezimal Klassifikation. Eine Dienstleistung der Verbundzentrale des GBV. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-sommer-2022/). 2022-06-21. ([PDF]({{ "/publications/coli-ana-hdm2022.pdf" | url }}))
+- coli-ana: Automatische Analyse der Dewey Dezimal Klassifikation. Eine Dienstleistung der Verbundzentrale des GBV. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-sommer-2022/). 2022-06-21. ([PDF]({{ "/publications/coli-ana-hdm2022.pdf" | urla }}))
 - coli-ana: Automatic analysis of the Dewey Decimal Classification. A service of the Verbundzentrale GBV (VZG). [ELAG 2022](https://elag2022.lnb.lv/). 2022-06-08. <https://doi.org/10.5281/zenodo.6623490>
-- coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-winter-2021-22/). 2022-01-25. ([PDF]({{ "/publications/2022-25-01-coli-conc-webseminar_hdm_final.pdf" | url }}))
+- coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-winter-2021-22/). 2022-01-25. ([PDF]({{ "/publications/2022-25-01-coli-conc-webseminar_hdm_final.pdf" | urla }}))
 
 ### 2021
 
 -  coli-ana – Automatic analysis of the Dewey Decimal Classification, a service of the Verbundzentrale des GBV. [SWIB21](https://swib.org/swib21/programme.html). 2021-12-01. ([PDF](https://doi.org/10.5281/zenodo.5883534), [Video](https://youtu.be/gNm8HuX71rI))
 
--  Support of Metadata Mapping with coli-conc Infrastructure. [DCMI conference](https://www.dublincore.org/conferences/2021/). 2021-10-15 ([PDF]({{ "/publications/2021-10-15-DCMI-Tutorial.pdf" | url }}))
+-  Support of Metadata Mapping with coli-conc Infrastructure. [DCMI conference](https://www.dublincore.org/conferences/2021/). 2021-10-15 ([PDF]({{ "/publications/2021-10-15-DCMI-Tutorial.pdf" | urla }}))
 
--  Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | url }}))
+-  Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | urla }}))
 
 - Vom Vokabularverzeichnis zum interdisziplinären KOS-Datendienst: 8 Jahre BARTOC. [109. Bib*tag](https://bibliothekartag2021.de/) 2021-06-16 [urn:nbn:de:0290-opus4-175636](https://nbn-resolving.org/urn:nbn:de:0290-opus4-175636)
 

@@ -119,7 +119,7 @@ Run all internal URLs through the `url` filter so that they will point to the co
 [some link]({{ "/path/" | url }})
 ```
 
-For static assets that stay the same for both the German and the English site (e.g. images), use the custom `urla` filter instead:
+For static assets that stay the same for both the German and the English site (e.g. images and PDFs), use the custom `urla` filter instead:
 
 ```md
 ![]({{ "/images/myimage.png" | urla }})
