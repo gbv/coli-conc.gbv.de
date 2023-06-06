@@ -161,6 +161,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2023
 
+- Datenorientierte Inhaltserschließung: Entwicklungen und Empfehlungen. Fachtagung Fachinformationssystem Bildung, Bonn (2023-06-07). <https://doi.org/10.5281/zenodo.8008918>
 - Datenorientierte Inhaltserschließung: Neue Dienste der VZG. BiblioCon 2023-05-25. ([PDF]({{ "/publications/bibliocon2023-inhaltserschliessung.pdf" | urla }}))
 - Einführung in das Mapping-Tool Cocoda und das automatische Anreicherungsverfahren coli-rich. [1. Österreichischer Bibliothekskongress](https://www.uibk.ac.at/congress/bibliothek2023/). 2023-05-03. ([PDF]({{ "/publications/2023-05-03%20Cocoda%20%2B%20coli-rich%20(1.%20%C3%96sterreichischer%20Bibliothekskongress).pdf" | urla }}))
 - BARTOC: Basic Register of Thesauri, Ontologies & Classifications. Presented at HdM Stuttgart. https://doi.org/10.5281/zenodo.7573589
