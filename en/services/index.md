@@ -45,9 +45,9 @@ Several web services are being developed to query information related to knowled
 
   Access to terminologies and concepts from central terminology service of the VZG
 
-- [Occurrences API]({{ "/occurrences/" | url }})
+- [Subjects and Occurrences API]({{ "/subjects/" | url }})
 
-  Look up occurrences and co-occurrences of concepts in library catalogs
+  Look up subjects and (co-)occurrences of concepts in library catalogs
 
 - [Wikidata JSKOS API](https://coli-conc.gbv.de/services/wikidata/)
 
