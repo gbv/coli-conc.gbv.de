@@ -143,7 +143,7 @@ a collection of knowledge organization systems encoded in JSKOS
 -   Ledl, Andreas and Voss, Jakob: Describing Knowledge Organization
     Systems in BARTOC and JSKOS. In: Proceedings of International
     Conference on Terminology and Knowledge Engineering (TKE 2016). p.
-    168-178. ISBN 978-87-999179-0-7 <http://hdl.handle.net/10760/29366>
+    168-178. ISBN 978-87-999179-0-7 [http://hdl.handle.net/10760/29366](http://eprints.rclis.org/29366/)
 -   Balakrishnan, U.: DFG-Projekt: Coli-Conc. Das Mapping Tool
     "Cocoda". In: O-Bib. Das Offene Bibliotheksjournal. Vol. 3, Nr. 1
     (2016). <https://doi.org/10.5282/o-bib/2016H1S11-16>
