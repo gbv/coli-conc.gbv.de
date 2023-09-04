@@ -6,5 +6,5 @@
 | [Barrierefreiheit]({{ "/erklaerung-zur-barrierefreiheit/" | url }})
 | [Datenschutz](https://www.gbv.de/datenschutz)
 | [Source]({{ source }}) ([{{ buildInfo.gitCommit }}]({{ buildInfo.gitCommitLink }}))
-| [Twitter @coli_conc](https://twitter.com/coli_conc)
+| [Mastodon](https://code4lib.social/@bartoc)
 | [News (RSS)]({{ "/rss/blog.xml" | url }})

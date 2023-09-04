@@ -85,8 +85,8 @@ melanie.janssen@gbv.de
 
 {% flexbox "row", "text-align: center;" %}
 {% flex %}
-Twitter:
+Mastodon:
 
-[@coli_conc](https://twitter.com/coli_conc)
+[@bartoc@code4lib.social](https://code4lib.social/@bartoc)
 {% endflex %}
 {% endflexbox %}
