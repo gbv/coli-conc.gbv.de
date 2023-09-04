@@ -359,11 +359,11 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of subprojects coli-ana, coli-auto, coli-corr and coli-conc.
 
--   VZG-Colibri-Bericht 1/2003: Ulrike Reiner: VZG-Projekt Colibri: Überblick, Stand, Ergebnisse Juli-Dezember 2003 (2003) ([PDF](https://verbundwiki.gbv.de/download/attachments/884990/colibri01-04-03-11-without-appendix.pdf))
--   VZG-Colibri-Bericht 2/2004: Ulrike Reiner: DDC-Notationsanalyse und synthese September 2004-Februar 2005. (2005) ([PDF]({{ "/publications/colibri03.pdf" | urla }}))
--   VZG-Colibri-Bericht 1/2008: Ulrike Reiner: Bewertung von automatisch DDC-klassifizierten Titeldatensätzen der Deutschen Nationalbibliothek (DNB). (2008) ([PDF]({{ "/publications/colibri05.pdf" | urla }}))
 -   VZG Colibri/DDC Report 1/2017: Ulrike Reiner: VZG Project Colibri/DDC. DDC Number Logicology. (August 2017) ([PDF]({{ "/publications/colibri07.pdf" | urla }}))
 -   VZG-Colibri-Bericht 1/2011: Uma Balakrishnan: An EZB-DDC Concordance (June 2011) <https://doi.org/10.5281/zenodo.28263>
+-   VZG-Colibri-Bericht 1/2008: Ulrike Reiner: Bewertung von automatisch DDC-klassifizierten Titeldatensätzen der Deutschen Nationalbibliothek (DNB). (2008) ([PDF]({{ "/publications/colibri05.pdf" | urla }}))
+-   VZG-Colibri-Bericht 2/2004: Ulrike Reiner: DDC-Notationsanalyse und synthese September 2004-Februar 2005. (2005) ([PDF]({{ "/publications/colibri03.pdf" | urla }}))
+-   VZG-Colibri-Bericht 1/2003: Ulrike Reiner: VZG-Projekt Colibri: Überblick, Stand, Ergebnisse Juli-Dezember 2003 (2003) ([PDF](https://verbundwiki.gbv.de/download/attachments/884990/colibri01-04-03-11-without-appendix.pdf))
 
 {% endsection %}
 
@@ -374,6 +374,9 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
 -   Basic Register of Thesauri, Ontologies & Classification (BARTOC):
     DFG-Projektantrag. <https://doi.org/10.5281/zenodo.7673393>
     (BARTOC grant proposal, February 2023, abbreviated version)
+-   Neue Schnittstellen und Datenanalysen. VZG Aktuell Ausgabe 2, 2023
+-   Automatische und semi-automatische Anreicherungsverfahren von Titeldatensätzen mit Sacherschließungsdaten auf Grundlage von coli-conc-Mappings im K10plus. VZG Aktuell 2023, Ausgabe 1, S. 19-22
+-   Anreicherung der Sacherschließung durch Konkordanzen (coli-rich). VZG Aktuell, 2021 Ausgabe 2, S. 19-22. 2021-12-01 ([PDF](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/VZG_Aktuell_2021_02.pdf))
 -   DFG-Antrag zur Entwicklung einer Infrastruktur für den Austausch,
     die Erstellung, und die Wartung von Konkordanzen zwischen
     bibliothekarischen Wissensorganisationssystemen (November
@@ -382,12 +385,9 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
 -   Projekt coli-conc Zwischenbericht 01.05.2018 - 30.04.2019.
     (coli-conc grant report) <https://doi.org/10.5281/zenodo.2668205>.
 -   Das Projekt „coli-conc" Ein Bericht zur semi-automatischen
-    Erstellung von Konkordanzen zur Dewey Dezimalklassifikation. (2013)
-    [PDF, page
-    12-16](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/vzg_aktuell_2013_01.pdf).
--   Balakrishnan, U.: DFG-Projekt coli conc -- Projektphase I . In: VZG
-    Aktuell. 2/2016 (September), p. 8-12 ([PDF](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/VZG_Aktuell_2016_02.pdf))
--   Anreicherung der Sacherschließung durch Konkordanzen (coli-rich). VZG Aktuell, 2021 Ausgabe 2, S. 19-22. 2021-12-01 ([PDF](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/VZG_Aktuell_2021_02.pdf))
+    Erstellung von Konkordanzen zur Dewey Dezimalklassifikation. (2013) p. 12-16
+    ([PDF](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/vzg_aktuell_2013_01.pdf))
+-   DFG-Projekt coli conc -- Projektphase I . In: VZG Aktuell. 2/2016 (September), p. 8-12 ([PDF](https://www.gbv.de/Verbundzentrale/Publikationen/broschueren/vzg-aktuell/VZG_Aktuell_2016_02.pdf))
 -   An EZB-DDC Condordance (2011). VZG-Project Colibri Sub: Project
     Coli-Conc. <https://doi.org/10.5281/zenodo.28263>.
 
