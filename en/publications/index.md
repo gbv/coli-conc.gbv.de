@@ -165,13 +165,15 @@ a collection of knowledge organization systems encoded in JSKOS
 - Datenorientierte Inhaltserschließung: Entwicklungen und Empfehlungen. Fachtagung Fachinformationssystem Bildung, Bonn. 2023-06-07. <https://doi.org/10.5281/zenodo.8008918>
 - Datenorientierte Inhaltserschließung: Neue Dienste der VZG. BiblioCon 2023-05-25. ([PDF]({{ "/publications/bibliocon2023-inhaltserschliessung.pdf" | urla }}))
 - Einführung in das Mapping-Tool Cocoda und das automatische Anreicherungsverfahren coli-rich. [1. Österreichischer Bibliothekskongress](https://www.uibk.ac.at/congress/bibliothek2023/). 2023-05-03. ([PDF]({{ "/publications/2023-05-03%20Cocoda%20%2B%20coli-rich%20(1.%20%C3%96sterreichischer%20Bibliothekskongress).pdf" | urla }}))
-- BARTOC: Basic Register of Thesauri, Ontologies & Classifications. Presented at HdM Stuttgart. https://doi.org/10.5281/zenodo.7573589
+- Colibri Initiatives: coli-ana & coli-conc. [EDUG 2023 Meeting](https://edug.pansoft.de/tiki-index.php?page=2023+Meeting) 2023-04-25 ([PDF](https://edug.pansoft.de/tiki-download_file.php?fileId=232))
+- BARTOC: Basic Register of Thesauri, Ontologies & Classifications. Presented at HdM Stuttgart. 2023-01-24. https://doi.org/10.5281/zenodo.7573589
 - Terminology Services @ VZG. Presented at NFDI Terminology Services Working Group. 2023-01-12. https://doi.org/10.5281/zenodo.7528447
 
 ### 2022
 
 - Einbindung von coli-conc Mappings in den Digitalen Assistenten (DA-3). [6. Online-Workshop Computerstützte Inhaltserschließung](https://wiki.dnb.de/display/COMUNIE). 2022-11-16. ([PDF]({{ "/publications/2022-11_Einbindung-von-coli-conc-Mappings-in-den-DA_final.pdf" | url}}))
 - coli-ana: Automatische Analyse der Dewey Dezimal Klassifikation. Eine Dienstleistung der Verbundzentrale des GBV. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-sommer-2022/). 2022-06-21. ([PDF]({{ "/publications/coli-ana-hdm2022.pdf" | urla }}))
+- Automatische Anreicherung der Sacherschließung des Verbundkatalogs K10plus mittels coli-rich. 8. Bibliothekskongress Leipzig. 2022-05-31
 - coli-ana: Automatic analysis of the Dewey Decimal Classification. A service of the Verbundzentrale GBV (VZG). [ELAG 2022](https://elag2022.lnb.lv/). 2022-06-08. <https://doi.org/10.5281/zenodo.6623490>
 - coli-conc: Einführung in die Dienste und das Mapping-Tool Cocoda. [HdM Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm-der-webinar-reihe-winter-2021-22/). 2022-01-25. ([PDF]({{ "/publications/2022-25-01-coli-conc-webseminar_hdm_final.pdf" | urla }}))
 
@@ -191,7 +193,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 - BARTOC: Looking both ways, then and now as it prepares for the future of Knowledge Organisation. [ISKO UK Research Observatory](https://www.iskouk.org/event-4255162). 2021-05-19 <https://doi.org/10.5281/zenodo.4766970>
 
-- BARTOC & coli-conc: The story of a partnership and future plans. [EDUG 2021](https://edug.pansoft.de/tiki-index.php?page=2021+meeting). 2021-05-06. ([PDF](https://coli-conc.gbv.de/publications/2021-05-06-bartoc-coli-conc.pdf))
+- BARTOC & coli-conc: The story of a partnership and future plans. [EDUG 2021 Meeting](https://edug.pansoft.de/tiki-index.php?page=2021+meeting). 2021-05-06. ([PDF](https://coli-conc.gbv.de/publications/2021-05-06-bartoc-coli-conc.pdf))
 
 - Analysis of Synthesized DDC Numbers. [Code4Lib 2021](https://2021.code4lib.org/). 2021-04-06 <https://doi.org/10.5281/zenodo.4637183> (see also [the recording](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s))
 
