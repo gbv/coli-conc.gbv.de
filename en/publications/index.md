@@ -161,6 +161,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2023
 
+- Mapping Knowledge Organization Systems with coli-conc infrastructure. ISKO UK Meetup. 2023-09-06 ([PDF]({{ "/publiations/2023-09-06-ISKO-UK-Meetup.pdf" | urla }}))
 - State of BARTOC 2023. Virtual BARTOC Editors Meeting. 2023-06-23. <https://doi.org/10.5281/zenodo.8069920>
 - Datenorientierte Inhaltserschließung: Entwicklungen und Empfehlungen. Fachtagung Fachinformationssystem Bildung, Bonn. 2023-06-07. <https://doi.org/10.5281/zenodo.8008918>
 - Datenorientierte Inhaltserschließung: Neue Dienste der VZG. BiblioCon 2023-05-25. ([PDF]({{ "/publications/bibliocon2023-inhaltserschliessung.pdf" | urla }}))
