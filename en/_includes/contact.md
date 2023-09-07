@@ -61,17 +61,6 @@ peters@gbv.de
 {% flex %}
 {{ userIcon | safe }}
 
-**{{ { en: "System Librarian", de: "Systembibliothekar" } | localize }}**
-
-David-Benjamin Rohrer
-
-{% small %}
-david.rohrer@gbv.de
-{% endsmall %}
-{% endflex %}
-{% flex %}
-{{ userIcon | safe }}
-
 **{{ { en: "System Librarian", de: "Systembibliothekarin" } | localize }}**
 
 Melanie Janßen
