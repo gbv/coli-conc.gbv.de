@@ -196,6 +196,8 @@ a collection of knowledge organization systems encoded in JSKOS
 
 -  Support of Metadata Mapping with coli-conc Infrastructure. [DCMI conference](https://www.dublincore.org/conferences/2021/). 2021-10-15 ([PDF]({{ "/publications/2021-10-15-DCMI-Tutorial.pdf" | urla }}))
 
+- Auswertung der Umfrage Bestandsaufnahme der lokalen Sacherschließung. 2021-08-26 ([PDF]({{ "/publications/umfrage-lokale-sacherschliessung-2021.pdf" | urla }}))
+
 -  Unified Access to controlled vocabularies with BARTOC. [Mini ELAG II](https://elag.org/2021/06/02/mini-elag-2021-program/). 2021-06-30  ([PDF]({{ "/publications/2021-06-30-minielag-bartoc.pdf" | urla }}))
 
 - Vom Vokabularverzeichnis zum interdisziplinären KOS-Datendienst: 8 Jahre BARTOC. [109. Bib*tag](https://bibliothekartag2021.de/) 2021-06-16 [urn:nbn:de:0290-opus4-175636](https://nbn-resolving.org/urn:nbn:de:0290-opus4-175636)
