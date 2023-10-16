@@ -7,15 +7,16 @@ title: Publications
 
 {% flexbox %}
 {% flex %}
+- [Screencasts](#screencasts)
+- [Software](#software)
+- [Specifications](#specifications)
+- [Mapping Guidelines](#mapping-guidelines)
+{% endflex %}
+{% flex %}
 - [Reviewed Articles](#reviewed-articles)
 - [Presentations and Workshops](#presentations-and-workshops)
 - [Project Reports](#project-reports)
 - [Other Articles](#other-articles)
-{% endflex %}
-{% flex %}
-- [Screencasts](#screencasts)
-- [Software](#software)
-- [Specifications](#specifications)
 {% endflex %}
 {% endflexbox %}
 
@@ -94,6 +95,17 @@ a collection of knowledge organization systems encoded in JSKOS
 
 {% endsection %}
 -->
+
+{% section %}
+
+## Mapping Guidelines
+
+* [RVK to BK]({{ "/publications/guidelines/Leitfaden%20zum%20Mapping%20von%20RVK%20auf%20BK.pdf" | urla }}) (PDF, German)
+* [RVK to DDC]({{ "/publications/guidelines/Leitfaden%20zum%20Mapping%20von%20RVK%20auf%20DDC.pdf" | urla }}) (PDF, German)
+* [Wikidata to BK](https://github.com/gbv/cocoda/wiki/Wikidata-Basisklassifikation) (GitHub, German)
+* [Wikidata to GND](https://github.com/gbv/cocoda/wiki/Wikidata-GND) (GitHub, German)
+
+{% endsection %}
 
 {% section %}
 
