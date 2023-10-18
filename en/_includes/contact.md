@@ -53,7 +53,7 @@ voss@gbv.de
 Stefan Peters
 
 {% small %}
-peters@gbv.de
+stefan.peters@gbv.de
 
 [GitHub](https://github.com/stefandesu)
 {% endsmall %}
