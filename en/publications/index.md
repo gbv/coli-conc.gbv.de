@@ -332,7 +332,12 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
     November 20ᵗʰ, 2013. ([PDF
     slides](https://www.gbv.de/Verbundzentrale/Publikationen/publikationen-der-vzg-2013/pdf/Balakrishnan_131120_RVK_WS_Konkordanz.pdf))
 
+-   Ulrike Reiner: Automatische DDC-Klassifizierung von bibliografischen Titeldatensätzen. 38. Deutscher Bibliothekartag, June 3, 2009
+    [PDF slides]({{ "/publications/2009-06-03-bibtag-ddc-klassifizierung.pdf" | urla}} (German)
+
 -   Computer-aided Assignment of DDC Numbers. [32nd Annual Conference of the German Classification Society](https://web.archive.org/web/20081222041725/http://gfkl2008.hsu-hh.de/) July 17, 2008. [urn:nbn:de:bsz:ch1-200801508](https://nbn-resolving.org/urn:nbn:de:bsz:ch1-200801508).
+
+-   Ulrike Reiner: Automatische Analyse von DDC-Notationen und DDC-Klassifizierung von GVK-Plus-Titeldatensätzen. Workshop zur Dewey-Dezimalklassikation "DDC-Einsichten und -Aussichten 2007", Göttingen. March, 1, 2007. [PDF Slides](https://www.gbv.de/informationen/Verbundzentrale/Publikationen/2007/2007/pdf/pdf_2836.pdf)
 
 -   Automatic Analysis of DDC Notations. Presented at EDUG Workshop June 11, 2007 [PDF](https://www.gbv.de/Verbundzentrale/Publikationen/2007/2007/pdf/pdf_3024.pdf)
 
