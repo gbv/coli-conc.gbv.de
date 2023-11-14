@@ -27,24 +27,24 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "axios": "^1.4.0",
+    "axios": "^1.6.1",
     "dotenv": "^16.3.1",
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
-    "jskos-tools": "^1.0.31",
+    "jskos-tools": "^1.0.34",
     "lodash": "^4.17.21",
-    "markdown-it": "^13.0.1",
+    "markdown-it": "^13.0.2",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-footnote": "^3.0.3",
-    "markdown-it-multimd-table": "^4.2.2",
+    "markdown-it-multimd-table": "^4.2.3",
     "meow": "^9.0.0",
     "moment": "^2.29.4",
-    "sass": "^1.64.1",
-    "sharp": "^0.32.4"
+    "sass": "^1.69.5",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
-    "eslint": "^8.45.0",
-    "eslint-config-gbv": "^1.0.5",
+    "eslint": "^8.53.0",
+    "eslint-config-gbv": "^1.1.0",
     "fs-extra": "^11.1.1"
   }
 }
