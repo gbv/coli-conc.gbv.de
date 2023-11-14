@@ -1,5 +1,7 @@
 node_modules
 .DS_Store
+# Static JS Dependencies are copied from node_modules/
+js/
 
 # Eleventy
 _site

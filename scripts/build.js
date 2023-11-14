@@ -104,6 +104,14 @@ console.log()
 
 let files = [], filesCopied = []
 
+// 1.5 Copy Static JS Dependencies
+console.log("Copy Static JS Dependencies...")
+execSync(
+  "npm run copyStaticDependencies",
+  { stdio: "inherit" },
+)
+console.log()
+
 // 2a. Find missing files in English site and copy from German site
 console.log("Copying missing files to English site...")
 files = getAllFiles(siteGerman)

@@ -19,7 +19,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --no-source-map _scss:_includes/css",
-    "serve": "(sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --serve",
+    "serve": "npm run copyStaticDependencies && (sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --serve",
+    "copyStaticDependencies": "mkdir -p js && cp node_modules/axios/dist/axios.min.js js/axios.min.js && cp node_modules/vue/dist/vue.min.js js/vue.min.js",
     "build": "node scripts/build.js",
     "build-gh": "node scripts/build.js --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io",
     "build-local": "node scripts/build.js --pathprefix=coli-conc-next --url=http://localhost/coli-conc-next/"
@@ -40,7 +41,8 @@
     "meow": "^9.0.0",
     "moment": "^2.29.4",
     "sass": "^1.69.5",
-    "sharp": "^0.32.6"
+    "sharp": "^0.32.6",
+    "vue": "^2.7.15"
   },
   "devDependencies": {
     "eslint": "^8.53.0",
