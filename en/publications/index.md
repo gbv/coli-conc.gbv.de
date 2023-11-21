@@ -173,6 +173,8 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2023
 
+- Ergebnisse des Infrastrukturprojekt coli-conc für die Sacherschließung. [RVK-Anwender*innen-treffen](https://rvk.uni-regensburg.de/images/stories/Anwendertreffen/Conf2023/Programm-Anwendertreffen-2023.pdf) 2023-11-21
+- Preparing BARTOC for the future of Knowledge Organisation. [NKOS Consolidated Workshop 2023](https://nkos.dublincore.org/2023NKOSworkshop/NKOS-2023-program.html) 2023-11-09 <https://zenodo.org/doi/10.5281/zenodo.10088230> (Slides) <https://www.youtube.com/watch?v=NyRlk29n3bk&t=26220s> (Recording)
 - Ergebnisse des Projekts coli-conc. Ein Rückblick auf mehr als 8 Jahre Sacherschließungs-Infrastruktur. [7. Workshop Computerunterstützte Inhaltserschließung](https://wiki.dnb.de/pages/viewpage.action?pageId=299762960) 2023-11-14 <https://doi.org/10.5281/zenodo.10124793>
 - Preparing BARTOC for the future of Knowledge Organisation. [NKOS Consolidated Workshop 2023](https://nkos.dublincore.org/2023NKOSworkshop/NKOS-2023-program.html) 2023-11-09 <https://doi.org/10.5281/zenodo.10088230>
 - Integrating Network of Terms into Cocoda Mapping Tool. [SWIB23](https://swib.org/swib23/) (Lightning Talk). 2023-09-12 ([PDF]({{ "/publications/2023-09-12-SWIB23-Lightning-Talk.pdf" | urla }}))
