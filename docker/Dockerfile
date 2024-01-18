@@ -9,16 +9,8 @@ RUN apk add --no-cache git
 RUN node -v
 RUN npm -v
 
-## Install dependencies (separate step to utilize caching)
-COPY package*.json ./
-RUN npm ci
-
-## Copy app source
-COPY . .
-
-## Make build.sh and entrypoint.sh available in root folder
-RUN cp docker/build.sh ./
-RUN cp docker/entrypoint.sh ./
+## Make Docker-related scripts available in root folder
+COPY docker/*.sh .
 
 ## Use http-server for serving the site
 RUN npm i -g http-server

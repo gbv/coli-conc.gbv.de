@@ -8,7 +8,7 @@ services:
   coli-conc-website:
     image: ghcr.io/gbv/coli-conc-website
     volumes:
-      # Store the built website in a volume so that it'll be available after container updates (to minimize downtime)
+      # Store the built website in a volume (optional, but prevents having to rebuild the site if the container is recreated)
       - ./data:/usr/src/app/_site
     environment:
       # URL for site: https://example.com/site/
@@ -23,13 +23,12 @@ Start the container:
 docker compose up -d
 ```
 
-The website needs to be built after each update, as it is dependent on the specified `URL` and `PATHPREFIX`. This build will be run in the background (if needed) each time the container is started.
+The website needs to be built after each update, as it is dependent on the specified `URL` and `PATHPREFIX`. This update and build will be run in the background (if needed) each time the container is started.
 
-To run the build manually:
+To run the update manually without restarting the container (should be zero downtime):
 
 ```sh
 docker compose exec -it coli-conc-website bash build.sh
 ```
 
-## To-Do
-- [ ] Only build the website if necessary (e.g. remember which Git tag the current build was based on)
+Note that the container will clone the `main` branch of the site on first launch, then update the site via Git each time `build.sh` is run or the container is restarted.
