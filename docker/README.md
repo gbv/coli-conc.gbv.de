@@ -23,7 +23,7 @@ Start the container:
 docker compose up -d
 ```
 
-The website needs to be built after each update, as it is dependent on the specified `URL` and `PATHPREFIX`. This build will be run in the background each time the container is started.
+The website needs to be built after each update, as it is dependent on the specified `URL` and `PATHPREFIX`. This build will be run in the background (if needed) each time the container is started.
 
 To run the build manually:
 
