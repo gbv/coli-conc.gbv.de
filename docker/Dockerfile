@@ -16,9 +16,11 @@ RUN npm ci
 ## Copy app source
 COPY . .
 
-## Make build.sh available in root folder
+## Make build.sh and entrypoint.sh available in root folder
 RUN cp docker/build.sh ./
+RUN cp docker/entrypoint.sh ./
 
 ## Use http-server for serving the site
 RUN npm i -g http-server
-CMD ["http-server", "-s", "-d", "false", "/usr/src/app/_site"]
+
+CMD ["bash", "entrypoint.sh"]
