@@ -239,3 +239,6 @@ for (let folder of foldersToDelete) {
     console.log(`- ${folder} could not be deleted: ${error}`)
   }
 }
+
+console.log()
+console.log("Build completed!")
