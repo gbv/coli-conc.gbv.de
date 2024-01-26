@@ -22,6 +22,8 @@ A tool to analyze any given synthesized DDC number is made available for trial p
 [What is the difference?](#faq)
 {% endsmall %}
 
+A snapshot with 473.161 decomposed DDC numbers from K10plus catalogue is made available as open data at <https://doi.org/10.5281/zenodo.10569320>.
+
 A German summary of coli-ana and its application can be found [in this article (spring 2022)](https://coli-conc.gbv.de/de/blog/2022/02/04/coli-ana/).
 
 {% endsection %}
