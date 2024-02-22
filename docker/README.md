@@ -37,7 +37,3 @@ docker compose exec -it coli-conc-website bash build.sh
 Note that the container will clone the `main` branch of the site on first launch, then update the site via Git each time `build.sh` is run or the container is restarted.
 
 The website will be served on port 80.
-
-## Publishing the Docker Image
-
-For maintainers: As the site within the container uses Git to keep itself updated, updates to the published image won't be necessary unless there are changes to the image itself (`Dockerfile` or any of the Docker-related scripts). To trigger an updated Docker image, go to https://github.com/gbv/coli-conc.gbv.de/actions/workflows/docker.yml and run the workflow on branch `main`.
