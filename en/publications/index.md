@@ -171,6 +171,11 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+### 2024
+
+- Mapping von Terminologien mit Cocoda für NFDI4Objects.
+  2024-03-15 <https://doi.org/10.5281/zenodo.10820784>
+
 ### 2023
 
 - Ergebnisse des Infrastrukturprojekt coli-conc für die Sacherschließung. [RVK-Anwender*innen-treffen](https://rvk.uni-regensburg.de/images/stories/Anwendertreffen/Conf2023/Programm-Anwendertreffen-2023.pdf) 2023-11-21 <https://zenodo.org/doi/10.5281/zenodo.10168248>
