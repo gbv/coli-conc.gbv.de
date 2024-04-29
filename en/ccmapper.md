@@ -3,7 +3,7 @@ layout: layouts/page
 title: CCMapper
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 **CCMapper** is a mapping application specialized on mapping vocabularies
 against the Dewey Decimal Classification (DDC). The web application was

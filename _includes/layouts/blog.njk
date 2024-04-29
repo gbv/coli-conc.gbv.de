@@ -3,7 +3,7 @@ layout: layouts/base.njk
 permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 ---
 
-{% section "text-center novpadding" %}
+{% section "text-center novpadding textPadding" %}
 
 # {{ title | localize }}
 {{ subtitle | localize }}
@@ -23,7 +23,7 @@ permalink: "/blog/{{ page.date | date('YYYY/MM/DD') }}/{{ page.fileSlug }}/"
 
 {% endsection %}
 
-{% section "", "padding-top: 5px;" %}
+{% section "textPadding", "padding-top: 5px;" %}
 {{ content | safe }}
 {% endsection %}
 

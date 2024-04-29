@@ -3,7 +3,7 @@ layout: layouts/page
 title: Erklärung zur Barrierefreiheit
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 Die Verbundzentrale des GBV (VZG) ist bemüht, ihre Webauftritte und mobile Anwendungen im Einklang mit den nationalen Rechtsvorschriften zur Umsetzung der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates, dem Niedersächsischen Behindertengleichstellungsgesetz (NBGG) sowie der Niedersächsischen Verordnung über barrierefreie Informationstechnik öffentlicher Stellen (NBITVO) barrierefrei zugänglich zu machen.
 

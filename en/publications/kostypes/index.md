@@ -4,7 +4,7 @@ title:
   en: "Publications: Classification of Knowledge Organization Systems"
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 {% macro liForConcept(concept, root = false) %}
   <li {% if concept.narrower.length -%}class="has-children"{%- endif -%}>
@@ -53,7 +53,7 @@ The number right of each KOS type indicate the <span class="badge badge-default"
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Background and References
 

@@ -3,7 +3,7 @@ layout: layouts/page
 title: GND Concordances
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 The **Integrated Authority File (GND)** is an authority file for Persons, Corporate bodies, Conferences and Events, Geographic Information, Topics and Works. It is operated cooperatively mostly by German libraries. Its content can be used under CC 1.0 in multiple formats. GND is being mapped to several other knowledge organization systems. For instance the GND database contains links to VIAF, ORCID, ISNI, Wikidata and other resources.
 

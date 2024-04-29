@@ -3,7 +3,7 @@ layout: layouts/page
 title: Regensburg Classification
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 The **Regensburg Classification** (Regensburger Verbundklassifikation, RVK) is one of the most used universal library classifications in Germany. The classification is managed by University Library Regensburg (see [RVK Portal](https://rvk.uni-regensburg.de/)) and provided as Open Data. We use these RVK dumps to include RVK into our tools. In particular we provide:
 

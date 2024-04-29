@@ -4,7 +4,7 @@ title: Typography
 ---
 
 {% for title in ["Light Section", "Dark Section"] %}
-{% section %}
+{% section "textPadding" %}
 
 ## {{ title }}
 

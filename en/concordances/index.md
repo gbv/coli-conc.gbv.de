@@ -6,7 +6,7 @@ js:
   axios: true
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 We collect concordances and mappings in a public database run with
 [jskos-server](https://github.com/gbv/jskos-server). The database can be

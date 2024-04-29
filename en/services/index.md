@@ -6,7 +6,7 @@ subtitle:
   en: We provide a several applictaions, data sets and APIs for public use.
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 ## Applications
 
@@ -32,7 +32,7 @@ subtitle:
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## APIs
 Several web services are being developed to query information related to knowledge organization systemes in [JSKOS format](https://gbv.github.io/jskos/).
@@ -60,7 +60,7 @@ Several web services are being developed to query information related to knowled
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Data Sets
 - [KOS Types]({{ "/publications/kostypes/" | url }})

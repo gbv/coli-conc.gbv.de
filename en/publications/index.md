@@ -3,7 +3,7 @@ layout: layouts/page
 title: Publications
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 {% flexbox %}
 {% flex %}
@@ -22,7 +22,7 @@ title: Publications
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Screencasts
 
@@ -58,7 +58,7 @@ All [software developed in project coli-conc](https://github.com/search?q=topic%
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Specifications
 
@@ -96,7 +96,7 @@ a collection of knowledge organization systems encoded in JSKOS
 {% endsection %}
 -->
 
-{% section %}
+{% section "textPadding" %}
 
 ## Mapping Guidelines
 
@@ -107,7 +107,7 @@ a collection of knowledge organization systems encoded in JSKOS
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Reviewed Articles
 
@@ -167,7 +167,7 @@ a collection of knowledge organization systems encoded in JSKOS
 {% endsection %}
 
 
-{% section %}
+{% section "textPadding" %}
 
 ## Presentations and Workshops
 
@@ -363,7 +363,7 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Project Reports
 
@@ -420,7 +420,7 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Other Articles
 

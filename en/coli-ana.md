@@ -3,7 +3,7 @@ layout: layouts/page
 title: coli-ana
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 **coli-ana** is a tool that analyzes and decomposes synthesized DDC numbers.
 The number analyzer (vc_day) has been developed as part of the VZG project
@@ -28,7 +28,7 @@ A German summary of coli-ana and its application can be found [in this article (
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Example
 
@@ -43,7 +43,7 @@ coli-ana enables [to analyze the DDC number](https://coli-conc.gbv.de/coli-ana/a
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Documentation
 
@@ -57,7 +57,7 @@ More information about coli-ana can be found in the presentation [Automatic Anal
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## FAQ
 

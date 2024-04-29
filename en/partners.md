@@ -14,7 +14,7 @@ layout: layouts/page
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 {% include locale + "/related.md" %}
 

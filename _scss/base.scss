@@ -117,10 +117,16 @@ a:hover {
   transform: translateY(1px);
 }
 
+$vSectionPadding: calc(1px + (100vw - 300px) / 50);
+$hSectionPaddingDefault: calc((100vw - 250px) / 6);
+$hSectionPaddingText: calc((100vw - 960px) / 2);
 .section {
   position: relative;
-  padding: calc(1px + (100vw - 300px) / 50) calc((100vw - 250px) / 6);
+  padding: $vSectionPadding $hSectionPaddingDefault;
   color: colors.$text-primary;
+}
+.section.textPadding {
+  padding: $vSectionPadding max($hSectionPaddingDefault, $hSectionPaddingText)
 }
 .section:nth-child(2n+3) {
   background-color: colors.$background-primary;

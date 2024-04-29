@@ -6,7 +6,7 @@ subtitle:
   e: A method for producing multilateral mapping, storing, and using mappings among many KOS.
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 ## Background
 
@@ -14,7 +14,7 @@ The idea of a concept hub for mapping between vocabularies is als referred to as
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Publications
 

@@ -4,7 +4,7 @@ title: coli-rich
 subtitle: catalog enrichment via concordances
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 The goal of **coli-rich** is enrichment of subject indexing in library catalogs based on mappings between different vocabularies.
 

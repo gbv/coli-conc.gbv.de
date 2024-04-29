@@ -4,13 +4,13 @@ title: coli-rich
 subtitle: Kataloganreicherung durch Konkordanzen
 ---
 
-{% section %}
+{% section "textPadding" %}
 
 Das Teilprojekt **coli-rich** hat zum Ziel, die vorhandene heterogene Sacherschließung in Bibliothekskatalogen mittels Konkordanzen zwischen verschiedenen Erschließungssystemen anzureichern.  Die Konkordanzen werden im Rahmen von coli-conc mit der Webanwendung [Cocoda](https://coli-conc.gbv.de/cocoda/) verwaltet.
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Eintragung im K10plus-Katalog
 
@@ -23,7 +23,7 @@ Unterfeld `$A` ist im K10plus in Suchschlüssel IKT 8559 (SEQ=Sacherschliessungs
 
 {% endsection %}
 
-{% section %}
+{% section "textPadding" %}
 
 ## Implementierung
 
