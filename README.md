@@ -69,9 +69,9 @@ The website links to several services that have to be run independently from hos
 - **CCMapper API**
    - Served under `/ccmapper/api/`
    - Instance of jskos-server only offering RVK-DDC mapping suggestions
-- **Occurrences API**
-   - Served under `/occurrences/api/`
-   - https://github.com/gbv/occurrences-api (to be replaced with https://github.com/gbv/occurrences-server)
+- **Subjects and Occurrences API**
+   - Served under `/subjects/`
+   - https://github.com/gbv/subjects-api
 - **Wikidata JSKOS API**
    - Served under `/services/wikidata/`
    - https://github.com/gbv/wikidata-jskos/
