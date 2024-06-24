@@ -34,7 +34,7 @@ const app = new Vue({
   async created() {
     // Load concordances from API
     const url = "https://coli-conc.gbv.de/api/concordances"
-    const result = await axios.get(url)
+    const result = await axios.get(url, { params: { limit: 10000 }})
     this.concordanceCount = result.data.length
     this.mappingsCount = result.data.reduce((total, current) => total + parseInt(current.extent) || 0, 0)
   },
