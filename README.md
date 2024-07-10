@@ -32,10 +32,8 @@ The site should be served on http://localhost:8080/. If the port is unavailable,
 Alternatively, if hot reloading is not required and you would like to locally preview the whole page (including the German version of the site), building the site is quick, and you can use a simple HTTP server like [http-server](https://www.npmjs.com/package/http-server) to serve the site:
 
 ```bash
-# Install http-server globally
-npm i -g http-server
 # Build and run (adjust port if necessary)
-PORT=8091; npm run build -- --url=http://localhost:$PORT; http-server -p $PORT _site
+PORT=8091; npm run build -- --url=http://localhost:$PORT; npx http-server -p $PORT _site
 ```
 
 The site should now be served on http://localhost:8081, including the German version.
