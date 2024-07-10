@@ -24,12 +24,13 @@ So far, we have collected ${concordanceCount} concordances with ${mappingsCount}
 {% section %}{% endsection %}
 
 <script>
-const app = new Vue({
-  delimiters: ["${", "}"],
-  el:'#main',
-  data: {
-    concordanceCount: "?",
-    mappingsCount: "?",
+const { createApp } = Vue
+const app = createApp({
+  data() {
+    return {
+      concordanceCount: "?",
+      mappingsCount: "?",
+    }
   },
   async created() {
     // Load concordances from API
@@ -39,4 +40,6 @@ const app = new Vue({
     this.mappingsCount = result.data.reduce((total, current) => total + parseInt(current.extent) || 0, 0)
   },
 })
+app.config.compilerOptions.delimiters = ['${', '}']
+app.mount('#main')
 </script>

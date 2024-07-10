@@ -240,7 +240,7 @@ This file can also be localized by adding the same file inside `de/_includes`.
 - Shared Markdown files **can't** have front matter. Front matter is included like it's Markdown content.
 
 ### How to Use Vue.js
-If there is a page with dynamic content, you can use Vue.js in the following way:
+If there is a page with dynamic content, you can use Vue.js (v3) in the following way:
 
 1. Add the following to your front matter:
 
@@ -251,22 +251,23 @@ If there is a page with dynamic content, you can use Vue.js in the following way
 
    This will include Vue.js on that page.
 
-2. Add a `<script>` tag where you initialize the Vue instance:
+2. Add a `<script>` tag where you create the Vue app:
 
    ```html
    <script>
-   const app = new Vue({
-      delimiters: ["${", "}"],
-      el:'#main',
-      data: {
-         // ...
+   const { createApp } = Vue
+   const app = createApp({
+      data() {
+         return {
+            // ...
+         }
       },
-      // ...
    })
+   // Required to avoid templating conflicts with Nunjucks
+   app.config.compilerOptions.delimiters = ['${', '}']
+   app.mount('#main')
    </script>
    ```
-
-   Note that we use different delimiters because Vue's delimiters overlap with those of the Nunjucks templating engine.
 
 3. Now you can refer to your data/computed inside the current page with `${variableName}`. You can also use Vue's attribute names (like `v-if` etc.) on your HTML tags.
 
