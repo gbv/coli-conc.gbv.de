@@ -1,5 +1,6 @@
 ---
 layout: layouts/page
+subtitle: "[![Status](https://coli-conc-status.fly.dev/api/badge/6/status)](https://coli-conc-status.fly.dev/status/all)"
 title:
   en: KOS Registry
 ---

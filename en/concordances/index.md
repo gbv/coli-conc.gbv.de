@@ -1,6 +1,7 @@
 ---
 layout: layouts/page
 title: Concordance Registry
+subtitle: "[![Status](https://coli-conc-status.fly.dev/api/badge/2/status)](https://coli-conc-status.fly.dev/status/all)"
 js:
   vue: true
   axios: true

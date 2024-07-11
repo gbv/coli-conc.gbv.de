@@ -1,6 +1,7 @@
 ---
 layout: layouts/page
 title: coli-ana
+subtitle: "[![Status](https://coli-conc-status.fly.dev/api/badge/20/status)](https://coli-conc-status.fly.dev/status/all)"
 ---
 
 {% section "textPadding" %}
