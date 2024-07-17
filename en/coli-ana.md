@@ -15,9 +15,9 @@ mapping, but also for the research community.
 
 A tool to analyze any given synthesized DDC number is made available for trial purposes:
 
-{% button "https://coli-conc.gbv.de/coli-ana/app/", "Start coli-ana release version" %}
+{% button "/coli-ana/app/", "Start coli-ana release version" %}
 
-→ [Start coli-ana development version](https://coli-conc.gbv.de/coli-ana/dev/)
+→ [Start coli-ana development version](/coli-ana/dev/)
 
 {% small %}
 [What is the difference?](#faq)
@@ -25,7 +25,7 @@ A tool to analyze any given synthesized DDC number is made available for trial p
 
 A snapshot with 473.161 decomposed DDC numbers from K10plus catalogue is made available as open data at <https://doi.org/10.5281/zenodo.10569320>.
 
-A German summary of coli-ana and its application can be found [in this article (spring 2022)](https://coli-conc.gbv.de/de/blog/2022/02/04/coli-ana/).
+A German summary of coli-ana and its application can be found [in this article (spring 2022)](/de/blog/2022/02/04/coli-ana/).
 
 {% endsection %}
 
@@ -40,7 +40,7 @@ For a given  synthesized DDC number, it can be hard to find out, how the number 
 * [T1--074](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F1--074%2Fe23%2F) {{ { en: "Museums, collections, exhibits", de: "Museen, Sammlungen, Ausstellungen" } | localize }}
 * [T2--7471](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fdewey.info%2Fscheme%2Fedition%2Fe23%2F&from=http%3A%2F%2Fdewey.info%2Fclass%2F2--7471%2Fe23%2F) New York
 
-coli-ana enables [to analyze the DDC number](https://coli-conc.gbv.de/coli-ana/app/?notation=700.90440747471) and determine every single DDC class that was used to build the number. The result can also [be queried via an API](https://coli-conc.gbv.de/coli-ana/app/analyze?notation=700.90440747471) in [JSKOS data format](https://gbv.github.io/jskos/) and in various other formats.
+coli-ana enables [to analyze the DDC number](/coli-ana/app/?notation=700.90440747471) and determine every single DDC class that was used to build the number. The result can also [be queried via an API](https://coli-conc.gbv.de/coli-ana/app/analyze?notation=700.90440747471) in [JSKOS data format](https://gbv.github.io/jskos/) and in various other formats.
 
 {% endsection %}
 

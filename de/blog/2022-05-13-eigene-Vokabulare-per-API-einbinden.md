@@ -16,4 +16,4 @@ Neben der Referenzimplementierung [JSKOS-Server](https://github.com/gbv/jskos-se
 
 Eine weitere Alternative ist die Nutzung einer API, die [von cocoda-sdk](https://github.com/gbv/cocoda-sdk#providers) unterstützt wird. Im Wesentlichen ist das bislang die freie Software [Skosmos](https://skosmos.org/). Die direkte Unterstützung von [Skohub](https://skohub.io/) unter weiterer etablierter Vokabular-Provider [ist geplant](https://github.com/gbv/cocoda-sdk/issues/29).
 
-Kommen Sie [gerne auf uns zu](https://coli-conc.gbv.de/contact/), wenn Sie weitere Informationen zur Anbindung ihrer Vokabulare benötigen!
+Kommen Sie [gerne auf uns zu](/contact/), wenn Sie weitere Informationen zur Anbindung ihrer Vokabulare benötigen!

@@ -23,7 +23,7 @@ Organization Systems (KOS).
 
 # Motivation
 
-Project [coli-conc](https://coli-conc.gbv.de/) aims at concordances between
+Project [coli-conc](/) aims at concordances between
 Knowledge Organization Systems (KOS). To manage such concordances it first
 requires access to KOS and its concepts. The lack of a satisfying general data
 format and method of access to KOS, apart from SKOS and SPARQL, resulted in the

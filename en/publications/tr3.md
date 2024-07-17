@@ -24,7 +24,7 @@ The need of mappings between terminologies, vocabularies, ontologies, and other
 kinds of knowledge organization systems has been articulated since introduction
 of such systems at large scale.^[For instance at the 1910 conference of the
 International Federation for Information and Documentation (FID).] For this
-reason [project coli-conc](https://coli-conc.gbv.de/) aims at developing an
+reason [project coli-conc](/) aims at developing an
 infrastructure to facilitate management and exchange of (cross-)concordances
 between terminologies.  This report outlines a novel architecure of terminology
 mappings to ultimately connect all knowledge organization systems.

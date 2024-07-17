@@ -19,7 +19,7 @@ language: english
 ---
 
 This report briefly summarizes prototype and architecture of a mapping tool
-that is being created as part of [project coli-conc](https://coli-conc.gbv.de/)
+that is being created as part of [project coli-conc](/)
 at the head office of GBV Common Library Network (VZG). Project coli-conc aims
 at developing an infrastructure to facilitate management and exchange of
 concordances between library knowledge organization systems. This includes a

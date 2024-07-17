@@ -1,6 +1,6 @@
 ## Related works
 
-[Cocoda](https://coli-conc.gbv.de/cocoda/) is not the first and only mapping tool. We look out for other software to incorporate best ideas into Cocoda!
+[Cocoda](/cocoda/) is not the first and only mapping tool. We look out for other software to incorporate best ideas into Cocoda!
 
 -   [mix'n'match](https://tools.wmflabs.org/mix-n-match/): Web application to match Wikidata items against individual concepts from authority files (Open Source but only one instance in use).
 -   [soweego](https://meta.wikimedia.org/wiki/Grants:Project/Hjfocs/soweego): Another application to match Wikidata items against individual concepts from authority files

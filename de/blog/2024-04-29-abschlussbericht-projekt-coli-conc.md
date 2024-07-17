@@ -10,7 +10,7 @@ Vor rund 10 Jahren begannen an der Verbundzentrale des GBV (VZG) die Planungen
 zur Entwicklung eines Werkzeugs zur Erstellung und Pflege von Konkordanzen
 zwischen bibliothekarischen Klassifikationen (siehe [Förderantrag aus dem
 November 2014](https://doi.org/10.5281/zenodo.28290)). Das Ergebnis ist nicht
-nur die Webanwendung [Cocoda](https://coli-conc.gbv.de/cocoda/), sondern eine
+nur die Webanwendung [Cocoda](/cocoda/), sondern eine
 ganze Infrastruktur aus Standards und Diensten für die Anwendung und
 Interoperabilität von
 [Wissensorganisationssystemen](https://www.isko.org/cyclo/kos). Eine Übersicht
@@ -22,4 +22,4 @@ für die nächsten Jahre sind unter anderem der Einsatz und Ausbau für die
 Nationale Forschungsdateninfrastruktur (NFDI) und umfangreiche Verbesserungen
 des Vokabularverzeichnisses [BARTOC](https://bartoc.org/). Bei Fragen zum Einsatz
 von Cocoda und anderen Ergebnissen von coli-conc, [sprechen Sie uns gerne
-an](https://coli-conc.gbv.de/contact/)!
+an](/contact/)!

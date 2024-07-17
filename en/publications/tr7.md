@@ -24,7 +24,7 @@ manage, and publish Knowledge Organization Systems (KOS).
 # Background
 
 To manage concordances between Knowledge Organization Systems (KOS) in project
-[coli-conc](https://coli-conc.gbv.de/), access to each of these KOS is
+[coli-conc](/), access to each of these KOS is
 required.  To access and manage KOS there are several tools, as listed in a
 first report [@ColiConcTR2]. This new report contains an update of this list,
 narrowed down to web applications. The collection only contains applications

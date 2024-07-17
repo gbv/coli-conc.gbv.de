@@ -6,7 +6,7 @@ tags:
 - blog
 ---
 
-Release 1.4.7 of the [mapping tool Cocoda](https://coli-conc.gbv.de/cocoda/) adds support of several English vocabularies, in particular:
+Release 1.4.7 of the [mapping tool Cocoda](/cocoda/) adds support of several English vocabularies, in particular:
 
 * [Medical Subject Headings (MeSH)](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fid.nlm.nih.gov%2Fmesh)
 * [Library of Congress Subject Headings (LCSH)](https://coli-conc.gbv.de/cocoda/app/?fromScheme=http%3A%2F%2Fid.loc.gov%2Fauthorities%2Fsubjects)

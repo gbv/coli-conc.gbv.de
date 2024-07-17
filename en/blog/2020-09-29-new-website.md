@@ -6,7 +6,7 @@ tags:
 - blog
 ---
 
-After more than five years, the coli-conc website at <https://coli-conc.gbv.de/> got a fresh layout and internal refactoring. All URLs should still be working! (If not, please let us know.) The sources are managed [in a public GitHub repository](https://github.com/gbv/coli-conc.gbv.de/) like [all of our software]({{ "/publications/#software" | url }}). Selected pages are available in both English and German.
+After more than five years, the coli-conc website at </> got a fresh layout and internal refactoring. All URLs should still be working! (If not, please let us know.) The sources are managed [in a public GitHub repository](https://github.com/gbv/coli-conc.gbv.de/) like [all of our software]({{ "/publications/#software" | url }}). Selected pages are available in both English and German.
 
 Instead of being served through PHP, the website is now built from Markdown files via a static site generator called [Eleventy](https://www.11ty.dev). This made it possible to better separate logic from content. Dynamic elements can be added client side with our favorite [JavaScript framework Vue](https://vuejs.org/).
 

@@ -28,7 +28,7 @@ The idea of a concept hub for mapping between vocabularies is als referred to as
 June 21st, 2019 at [ISKO-LC 2019 conference](https://isko-lc.org/) in Brüssel.
 <https://doi.org/10.5281/zenodo.3257136>
 
--   coli-conc Technical Report 3: [A novel approach to terminology mappings](https://coli-conc.gbv.de/publications/tr3.html). (April 1st, 2016) <https://doi.org/10.5281/zenodo.48740>.
+-   coli-conc Technical Report 3: [A novel approach to terminology mappings](/publications/tr3.html). (April 1st, 2016) <https://doi.org/10.5281/zenodo.48740>.
 
 -   Dunsire, G. and Nicholson, D.: Signposting the crossroads : terminology Web services and classification-based interoperability. In: Knowledge organization. 37(2010) no.4, S.280-286. <https://doi.org/10.5771/0943-7444-2010-4-280>
 

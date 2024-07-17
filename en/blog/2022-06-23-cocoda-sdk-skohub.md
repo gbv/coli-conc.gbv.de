@@ -6,7 +6,7 @@ tags:
 - blog
 ---
 
-We regularly inform about updates of [Cocoda mapping application](https://coli-conc.gbv.de/cocoda/) and [BARTOC terminology registry](https://bartoc.org/), but under the hood internal components get improved as well. The major software components developed within project coli-conc include [jskos-server](https://github.com/gbv/jskos-server), a web API to manage vocabularies, mappings and other terminology-related information in a database and [cocoda-sdk](https://github.com/gbv/cocoda-sdk), a software library to access terminologies from various sources. The latter just got an update to support access to vocabularies hosted via [SkoHub](https://skohub.io/) vocabulary publication software.
+We regularly inform about updates of [Cocoda mapping application](/cocoda/) and [BARTOC terminology registry](https://bartoc.org/), but under the hood internal components get improved as well. The major software components developed within project coli-conc include [jskos-server](https://github.com/gbv/jskos-server), a web API to manage vocabularies, mappings and other terminology-related information in a database and [cocoda-sdk](https://github.com/gbv/cocoda-sdk), a software library to access terminologies from various sources. The latter just got an update to support access to vocabularies hosted via [SkoHub](https://skohub.io/) vocabulary publication software.
 
 One goal of coli-conc is to provide an infrastructure to all kinds of vocabularies (terminologies such as authority files, classifications, and ontologies). These vocabularies can be managed by diverse organizations in many ways. Getting all vocabulary publishers to agree one common standard is futile, so we take another approach:
 

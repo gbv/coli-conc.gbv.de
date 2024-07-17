@@ -43,12 +43,12 @@ Als Eingabe dient jeweils die PPN eines Datensatz und das Datenbankkürzel einer
 
 Weitere Informationen und technische Details befinden sich im [coli-rich git Repository](https://github.com/gbv/coli-rich#readme).
 
-* [coli-rich Produktivinstanz](https://coli-conc.gbv.de/coli-rich/app/)
-* [coli-rich Entwicklungsinstanz](https://coli-conc.gbv.de/coli-rich/dev/)
+* [coli-rich Produktivinstanz](/coli-rich/app/)
+* [coli-rich Entwicklungsinstanz](/coli-rich/dev/)
 
 ## Benutzerinterface
 
-Mit dem [coli-rich Benutzerinterface](https://coli-conc.gbv.de/coli-rich/app/) lässt sich eine Konfiguration erstellen die bestimmt, welche Art von Anreicherung auf Grundlage welcher Mappings erstellt werden sollen. Auch lässt sich das Ergebnis der konfigurierten Anreicherung an beliebigen Datensätzen direkt ausprobieren.
+Mit dem [coli-rich Benutzerinterface](/coli-rich/app/) lässt sich eine Konfiguration erstellen die bestimmt, welche Art von Anreicherung auf Grundlage welcher Mappings erstellt werden sollen. Auch lässt sich das Ergebnis der konfigurierten Anreicherung an beliebigen Datensätzen direkt ausprobieren.
 
 Die vorgeschlagene Anreicherung kann beispielsweise mit der Software WinIBW in den betreffenden Datensatz eingetragen werden.
 
