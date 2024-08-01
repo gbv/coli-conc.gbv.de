@@ -219,6 +219,16 @@ for (let file of filesCopied) {
 }
 console.log()
 
+// 5. Other adjustments
+console.log("Other adjustments...")
+try {
+  // Manually alias 404 page to 404.html
+  fs.copyFileSync(`${output}/404/index.html`, `${output}/404.html`)
+} catch (error) {
+  console.error("An error occurred:", error)
+}
+console.log()
+
 // 6. Delete fonts and images folder in German site
 console.log("Delete some static and unnecessary files...")
 const foldersToDelete = [
