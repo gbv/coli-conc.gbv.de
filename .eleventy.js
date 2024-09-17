@@ -1,7 +1,7 @@
 const moment = require("moment")
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const yaml = require("js-yaml")
-const htmlmin = require("html-minifier")
+const htmlmin = require("html-minifier-terser")
 
 module.exports = eleventyConfig => {
 
