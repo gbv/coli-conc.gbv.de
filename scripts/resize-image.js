@@ -12,6 +12,7 @@ const cli = meow(`
   Examples
     $ ./resize-image.js image.png --widths=100,200,300
 `, {
+  importMeta: import.meta,
   flags: {
     widths: {
       type: "string",

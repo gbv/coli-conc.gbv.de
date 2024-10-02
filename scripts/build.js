@@ -15,6 +15,7 @@ const cli = meow(`
   Examples
     $ ./build.js --pathprefix=test
 `, {
+  importMeta: import.meta,
   flags: {
     pathprefix: {
       type: "string",
@@ -65,7 +66,7 @@ import { execSync } from "node:child_process"
 
 // from: https://stackoverflow.com/a/34509653/11050851
 function ensureDirectoryExistence(filePath) {
-  var dirname = path.dirname(filePath)
+  let dirname = path.dirname(filePath)
   if (fs.existsSync(dirname)) {
     return true
   }
