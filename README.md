@@ -7,7 +7,7 @@ The website uses [Eleventy](https://www.11ty.dev) as a static site generator. El
 ```bash
 git clone https://github.com/gbv/coli-conc.gbv.de.git
 cd coli-conc.gbv.de
-npm install
+npm ci
 ```
 
 ### Build
