@@ -1,4 +1,5 @@
 // Main color scheme // -------------------------------------------------------
+@use 'sass:color';
 
 $primary: #b13f13;
 $background-primary: #e9e1e1;
@@ -9,10 +10,10 @@ $white: #F2F1EF;
 
 $primary-light: scale-color($primary, $lightness: 20%, $saturation: -30%);
 
-$background-secondary: lighten($background-primary, 6%);
+$background-secondary: color.adjust($background-primary, $lightness: 6%, $space: hsl);
 // This results in #332b2b which is unfortunately hardcoded in some svg files...
-$background-highlight: scale-color(darken($background-primary, 70%), $red: -12%);
-$background-accent: scale-color(lighten($background-primary, 3%), $red: 10%);
+$background-highlight: scale-color(color.adjust($background-primary, $lightness: -70%, $space: hsl), $red: -12%);
+$background-accent: scale-color(color.adjust($background-primary, $lightness: 3%, $space: hsl), $red: 10%);
 
 $text-primary: $black;
 $text-highlight: $white;
