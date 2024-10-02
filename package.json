@@ -19,6 +19,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "fix": "eslint --fix",
+    "lint-staged": "lint-staged",
     "sass": "sass --no-source-map _scss:_includes/css",
     "serve": "npm run copyStaticDependencies && (sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --serve",
     "copyStaticDependencies": "mkdir -p js && cp node_modules/axios/dist/axios.min.js js/axios.min.js && cp node_modules/vue/dist/vue.global.prod.js js/vue.min.js",
@@ -26,6 +29,12 @@
     "build-gh": "node scripts/build.js --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io",
     "build-local": "node scripts/build.js --pathprefix=coli-conc-next --url=http://localhost/coli-conc-next/"
   },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix"
+    ]
+  },
+  "pre-commit": "lint-staged",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
@@ -48,6 +57,8 @@
   "devDependencies": {
     "eslint": "~9.11",
     "eslint-config-gbv": "~2.1",
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "lint-staged": "^15.2.10",
+    "pre-commit": "^1.2.2"
   }
 }
