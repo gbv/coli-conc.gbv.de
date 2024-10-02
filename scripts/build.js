@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const meow = require("meow")
+import meow from "meow"
 const defaultOutput = "_site"
 
 const cli = meow(`
@@ -59,9 +59,9 @@ if (output != defaultOutput) {
   console.log()
 }
 
-const fs = require("fs-extra")
-const path = require("path")
-const { execSync } = require("child_process")
+import fs from "fs-extra"
+import path from "node:path"
+import { execSync } from "node:child_process"
 
 // from: https://stackoverflow.com/a/34509653/11050851
 function ensureDirectoryExistence(filePath) {

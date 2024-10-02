@@ -1,6 +1,6 @@
-require("dotenv").config()
+import "dotenv/config"
 
-module.exports = () => {
+export default () => {
   const env = Object.assign({
     URL: "https://example.com",
   }, process.env)

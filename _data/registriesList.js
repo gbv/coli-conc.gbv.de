@@ -1,7 +1,7 @@
-const registries = require("./registries")
-const _ = require("lodash")
+import registries from "./registries.js"
+import _ from "lodash"
 
-module.exports = registries.map(r => ({
+export default registries.map(r => ({
   notation: _.get(r, "notation[0]", ""),
   uri: r.uri,
   label: _.get(r, "prefLabel.en") || _.get(r, "prefLabel.de") || "?",

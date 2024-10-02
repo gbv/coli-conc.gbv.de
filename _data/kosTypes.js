@@ -1,5 +1,6 @@
-const data = require("./kosTypes-data.json")
-const _ = require("lodash")
+import _ from "lodash"
+import fs from "fs"
+const data = JSON.parse(fs.readFileSync("./_data/kosTypes-data.json", "utf8"))
 
 // Build tree of concepts
 // Some of the code taken from https://github.com/gbv/coli-conc.gbv.de/blob/pre-2020/publications/kostypes/jskos-treeview.js
@@ -73,4 +74,4 @@ function fillChildren(current) {
 }
 fillChildren(topConcepts)
 
-module.exports = topConcepts
+export default topConcepts

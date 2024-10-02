@@ -1,9 +1,14 @@
-const moment = require("moment")
-const pluginRss = require("@11ty/eleventy-plugin-rss")
-const yaml = require("js-yaml")
-const htmlmin = require("html-minifier-terser")
+import moment from "moment"
+import pluginRss from "@11ty/eleventy-plugin-rss"
+import yaml from "js-yaml"
+import htmlmin from "html-minifier-terser"
 
-module.exports = eleventyConfig => {
+import markdownItPackage from "markdown-it"
+import markdownItAnchor from "markdown-it-anchor"
+import markdownItFootnote from "markdown-it-footnote"
+import markdownItMultimdTable from "markdown-it-multimd-table"
+
+export default async function (eleventyConfig) {
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss)
@@ -31,10 +36,10 @@ module.exports = eleventyConfig => {
     html: true,
     linkify: true,
   }
-  const markdownIt = require("markdown-it")(markdownItOptions)
-    .use(require("markdown-it-anchor"))
-    .use(require("markdown-it-footnote"))
-    .use(require("markdown-it-multimd-table"))
+  const markdownIt = markdownItPackage(markdownItOptions)
+    .use(markdownItAnchor)
+    .use(markdownItFootnote)
+    .use(markdownItMultimdTable)
     .disable("code")
 
   // Open external links in new tab, adapted from https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer

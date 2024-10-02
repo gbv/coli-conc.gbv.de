@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   sections: {
     news: {
       en: "News",

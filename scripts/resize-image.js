@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const meow = require("meow")
+import meow from "meow"
 
 const cli = meow(`
   Usage
@@ -22,7 +22,7 @@ const cli = meow(`
 
 const widths = cli.flags.widths.split(",").map(w => parseInt(w))
 
-const sharp = require("sharp")
+import sharp from "sharp"
 
 ;(async () => {
   for (let filename of cli.input) {

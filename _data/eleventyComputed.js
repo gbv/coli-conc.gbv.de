@@ -1,8 +1,8 @@
-const gitCommit = require("child_process")
-  .execSync("git rev-parse --short HEAD")
+import { execSync } from "node:child_process"
+const gitCommit = execSync("git rev-parse --short HEAD")
   .toString().trim()
 
-module.exports = {
+export default {
   // Determine current locale from input path
   locale: data => data.page.inputPath.includes("/de/") ? "de" : "en",
   source: data => {
