@@ -1,5 +1,5 @@
 import moment from "moment"
-import pluginRss from "@11ty/eleventy-plugin-rss"
+// import pluginRss from "@11ty/eleventy-plugin-rss"
 import yaml from "js-yaml"
 import htmlmin from "html-minifier-terser"
 
@@ -11,7 +11,9 @@ import markdownItMultimdTable from "markdown-it-multimd-table"
 export default async function (eleventyConfig) {
 
   // Add plugins
-  eleventyConfig.addPlugin(pluginRss)
+  // TODO: Currently, adding the RSS plugin breaks the German build, possibly due to it using the new "HTML <base>" plugin and rewriting all URLs.
+  // This needs to be fixed somehow.
+  // eleventyConfig.addPlugin(pluginRss)
 
   // Add yml
   eleventyConfig.addDataExtension("yml", contents => yaml.load(contents))
