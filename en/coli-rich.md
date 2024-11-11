@@ -10,5 +10,9 @@ The goal of **coli-rich** is enrichment of subject indexing in library catalogs 
 
 Mainly targeted at PICA-based library databases, the coli-rich application is documented in German. More information can be found [at the German version of this page]({{ "/de/coli-rich/" | url }}).
 
+A web application is currently in development:
+
+{% button "https://coli-conc.gbv.de/coli-rich/dev/", "Try out the coli-rich-web demo (German)" %}
+
 {% endsection %}
 

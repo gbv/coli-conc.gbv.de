@@ -29,6 +29,10 @@ Unterfeld `$A` ist im K10plus in Suchschlüssel IKT 8559 (SEQ=Sacherschliessungs
 
 Zunächst werden im K10plus BK-Notationen auf Grundlage von RVK-Notationen eingetragen. Weitere Informationen, Skripte und Beispiele dazu siehe [im git-repository](https://github.com/gbv/coli-rich-scripts).
 
+Darüber hinaus wird eine Webanwendung zur semi-automatischen Eintragung von Sacherschließungsvorschlägen auf Basis der coli-conc-Mappings entwickelt:
+
+{% button "https://coli-conc.gbv.de/coli-rich/dev/", "coli-rich-web Demo ausprobieren" %}
+
 {% endsection %}
 
 <!--
