@@ -1,0 +1,45 @@
+---
+pagination:
+  data: feeds
+  alias: feed
+  size: 1
+feeds:
+  - name: blog
+    title: coli-conc News
+permalink: rss/{{ feed.name }}.xml
+eleventyExcludeFromCollections: true
+metadata:
+  author:
+    name: coli-conc
+    email: coli-conc@gbv.de
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ feed.title | localize }}</title>
+  {% if feed.subtitle -%}
+  <subtitle>{{ feed.subtitle | localize }}</subtitle>
+  {% endif -%}
+  <link href="{{ env.URL + 'rss/' + feed.name + '.xml' }}" rel="self"/>
+  <link href="{{ env.URL }}"/>
+  <updated>{{ collections[feed.name] | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ env.URL }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for post in collections[feed.name] %}
+  {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(env.URL) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title | localize }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    {% if post.data.excerpt -%}
+    <summary>{{ post.data.excerpt }}</summary>
+    {% endif -%}
+    <content type="html">
+      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+    </content>
+  </entry>
+  {%- endfor %}
+</feed>

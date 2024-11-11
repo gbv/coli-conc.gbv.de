@@ -1,5 +1,5 @@
 import moment from "moment"
-// import pluginRss from "@11ty/eleventy-plugin-rss"
+import { dateToRfc3339, getNewestCollectionItemDate, absoluteUrl, convertHtmlToAbsoluteUrls } from "@11ty/eleventy-plugin-rss"
 import yaml from "js-yaml"
 import htmlmin from "html-minifier-terser"
 
@@ -10,10 +10,13 @@ import markdownItMultimdTable from "markdown-it-multimd-table"
 
 export default async function (eleventyConfig) {
 
-  // Add plugins
-  // TODO: Currently, adding the RSS plugin breaks the German build, possibly due to it using the new "HTML <base>" plugin and rewriting all URLs.
-  // This needs to be fixed somehow.
-  // eleventyConfig.addPlugin(pluginRss)
+  // Add filters from RSS plugin
+  // Note: The RSS plugin adds the "HTML <base>" plugin which messes with our URL filters.
+  // Therefore we add its filters manually which is enough to build the feed.
+  eleventyConfig.addFilter("getNewestCollectionItemDate", getNewestCollectionItemDate)
+  eleventyConfig.addFilter("dateToRfc3339", dateToRfc3339)
+  eleventyConfig.addFilter("absoluteUrl", absoluteUrl)
+  eleventyConfig.addAsyncFilter("htmlToAbsoluteUrls", convertHtmlToAbsoluteUrls)
 
   // Add yml
   eleventyConfig.addDataExtension("yml", contents => yaml.load(contents))
