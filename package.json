@@ -27,14 +27,14 @@
     "copyStaticDependencies": "mkdir -p js && cp node_modules/axios/dist/axios.min.js js/axios.min.js && cp node_modules/vue/dist/vue.global.prod.js js/vue.min.js",
     "build": "node scripts/build.js",
     "build-gh": "node scripts/build.js --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io",
-    "build-local": "node scripts/build.js --pathprefix=coli-conc-next --url=http://localhost/coli-conc-next/"
+    "build-local": "node scripts/build.js --pathprefix=coli-conc-next --url=http://localhost/coli-conc-next/",
+    "prepare": "husky || true"
   },
   "lint-staged": {
     "**/*.js": [
       "eslint --fix"
     ]
   },
-  "pre-commit": "lint-staged",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
@@ -58,7 +58,7 @@
     "eslint": "~9.16",
     "eslint-config-gbv": "~2.6",
     "fs-extra": "^11.2.0",
-    "lint-staged": "^15.2.11",
-    "pre-commit": "^1.2.2"
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11"
   }
 }
