@@ -38,11 +38,11 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
     "html-minifier-terser": "^7.2.0",
     "js-yaml": "^4.1.0",
-    "jskos-tools": "^1.0.42",
+    "jskos-tools": "^1.0.43",
     "lodash": "^4.17.21",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
@@ -50,15 +50,15 @@
     "markdown-it-multimd-table": "^4.2.3",
     "meow": "^13.2.0",
     "moment": "^2.30.1",
-    "sass": "^1.79.4",
+    "sass": "^1.83.0",
     "sharp": "^0.33.5",
-    "vue": "^3.5.10"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "eslint": "~9.11",
-    "eslint-config-gbv": "~2.1",
+    "eslint": "~9.16",
+    "eslint-config-gbv": "~2.6",
     "fs-extra": "^11.2.0",
-    "lint-staged": "^15.2.10",
+    "lint-staged": "^15.2.11",
     "pre-commit": "^1.2.2"
   }
 }
