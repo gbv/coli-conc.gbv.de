@@ -50,23 +50,12 @@ voss@gbv.de
 
 **{{ { en: "Software Development", de: "Software-Entwicklung" } | localize }}**
 
-Stefan Peters
+Rodolfo Marraffa
 
 {% small %}
-stefan.peters@gbv.de
+rodolfo.marraffa@gbv.de
 
-[GitHub](https://github.com/stefandesu)
-{% endsmall %}
-{% endflex %}
-{% flex %}
-{{ userIcon | safe }}
-
-**{{ { en: "System Librarian", de: "Systembibliothekar" } | localize }}**
-
-David-Benjamin Rohrer
-
-{% small %}
-david.rohrer@gbv.de
+[GitHub](https://github.com/rodolv-commons)
 {% endsmall %}
 {% endflex %}
 {% flex %}
