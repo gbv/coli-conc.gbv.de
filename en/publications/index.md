@@ -52,7 +52,7 @@ Short videos introducing our [services]({{ "/services/" | url }}).
 
 ## Software
 
-All [software developed in project coli-conc]([https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue&type=Repositories](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue+archived%3Afalse&type=repositories)) is made available as Open Source.
+All [software developed in project coli-conc](https://github.com/search?q=topic%3Acoli-conc+org%3Agbv+fork%3Atrue+archived%3Afalse&type=repositories) is made available as Open Source.
 
 {% include 'software-table.njk' %}
 
