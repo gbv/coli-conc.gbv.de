@@ -28,6 +28,8 @@ title: Publications
 
 Short videos introducing our [services]({{ "/services/" | url }}).
 
+-   [Cocoda Screencast](https://doi.org/10.5446/69732)
+    Explaining Cocoda in detail (2024/2025)
 -   [Analysis of Synthesized DDC Numbers](https://www.youtube.com/watch?v=pIY65nr8Byo&t=1441s) English Code4Lib 2021 lightening talk (2021-04-06)
 -   [Addition of vocabularies to BARTOC](https://av.tib.eu/media/51813)
     Showing how data is added to BARTOC (2021) <https://doi.org/10.5446/51813>
