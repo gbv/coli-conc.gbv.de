@@ -7,6 +7,16 @@ The Basic Register of Thesauri, Ontologies & Classifications (BARTOC) is a datab
 
 <div class="cocoda-clear"></div> <!-- see cocoda.scss for details -->
 
+<div class="cocoda">
+    <div class="small-hide"></div>
+    <img
+        src="/bartoc-screenshot-2025.png"
+        alt="BARTOC Screenshot">
+    <div class="small-hide">
+        {{ cocodaStuff | safe }}
+    </div>
+</div>
+
 {% button "https://bartoc.org/", "Search BARTOC" %}
 
 ### Additional Resources
