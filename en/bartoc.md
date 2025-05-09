@@ -5,12 +5,10 @@ title: BARTOC
 
 The Basic Register of Thesauri, Ontologies & Classifications (BARTOC) is a database of Knowledge Organization Systems and KOS related registries.
 
-<div class="cocoda-clear"></div> <!-- see cocoda.scss for details -->
-
 <div class="cocoda">
     <div class="small-hide"></div>
     <img
-        src="/bartoc-screenshot-2025.png"
+        src="/images/bartoc-screenshot-2025.png"
         alt="BARTOC Screenshot">
     <div class="small-hide">
         {{ cocodaStuff | safe }}
