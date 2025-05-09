@@ -16,6 +16,14 @@ css:
   </p>
 {% endset %}
 
+{% set bartocStuff %}
+  <h3>BARTOC</h3>
+  <p>
+    {% button "/bartoc/", cocodaInfoButton | localize %}
+    {% button "https://bartoc.org/", cocodaStartButton | localize, "small-hide", "margin: 2px;" %}
+  </p>
+{% endset %}
+
 {# We need a dummy element here so that the wave can be correctly positioned. #}
 {# Also, we're including the section here because the content below needs to start off as an odd element #}
 <div class="cocoda-wrapper" style="position: relative;">
@@ -43,17 +51,47 @@ css:
   {% endsection %}
   <div class="cocoda">
     <div class="small-hide"></div>
-    <img
-      src="{{ '/images/screenshot-index-1600px.png' | urla }}"
-      srcset="
-        {%- for width in [200,300,400,600,800,1000,1200,1400,1600] -%}
-        {{ ('/images/screenshot-index-'+width+'px.png') | urla }} {{ width }}w{% if not loop.last %},{% endif %}
-        {%- endfor -%}
-      "
-      sizes="(max-width: 800px) 50vw, 45vw"
-      alt="Cocoda Mapping Tool Screenshot">
+    <a href="/cocoda/">
+      <img
+        src="{{ '/images/screenshot-index-1600px.png' | urla }}"
+        srcset="
+          {%- for width in [200,300,400,600,800,1000,1200,1400,1600] -%}
+          {{ ('/images/screenshot-index-'+width+'px.png') | urla }} {{ width }}w{% if not loop.last %},{% endif %}
+          {%- endfor -%}
+        "
+        sizes="(max-width: 800px) 50vw, 45vw"
+        alt="Cocoda Mapping Tool Screenshot">
+    </a>
     <div class="small-hide">
       {{ cocodaStuff | safe }}
+    </div>
+  </div>
+
+  <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill-opacity="1" d="M0,256L60,245.3C120,235,240,213,360,224C480,235,600,277,720,298.7C840,320,960,320,1080,298.7C1200,277,1320,235,1380,213.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+  </svg>
+</div>
+
+{# Copy for BARTOC #}
+
+<div class="cocoda-wrapper" style="position: relative;">
+  {% section "text-center novpadding" %}
+
+  <div class="small-show">
+    {{ bartocStuff | safe }}
+  </div>
+
+  {% endsection %}
+  <div class="cocoda">
+    <div class="small-hide"></div>
+    <a href="/bartoc/">
+      <img
+        src="{{ '/images/bartoc-screenshot-2025.png' | urla }}"
+        sizes="(max-width: 800px) 50vw, 45vw"
+        alt="BARTOC Screenshot">
+    </a>
+    <div class="small-hide">
+      {{ bartocStuff | safe }}
     </div>
   </div>
 
