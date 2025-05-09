@@ -3,16 +3,6 @@ layout: layouts/page
 title: BARTOC
 ---
 
-<div class="cocoda">
-    <div class="small-hide"></div>
-    <img
-        src="/images/bartoc-screenshot-2025.png"
-        alt="BARTOC Screenshot">
-    <div class="small-hide">
-        {{ cocodaStuff | safe }}
-    </div>
-</div>
-
 The Basic Register of Thesauri, Ontologies & Classifications (BARTOC) is a database of Knowledge Organization Systems and KOS related registries.
 
 The main goal of BARTOC is to list as many Knowledge Organization Systems as possible at one place in order to achieve greater visibility, highlight their features, make them searchable and comparable, and foster knowledge sharing. BARTOC includes any kind of KOS from any subject area, in any language, any publication format, and any form of accessibility. BARTOC’s search interface is available in 20 European languages and provides two search options: Basic Search by keywords, and Advanced Search by taxonomy terms. A circle of editors has gathered around BARTOC from all across Europe and BARTOC has been approved by the International Society for Knowledge Organization (ISKO).

@@ -3,16 +3,6 @@ layout: layouts/page
 title: BARTOC
 ---
 
-<div class="cocoda">
-    <div class="small-hide"></div>
-    <img
-        src="/images/bartoc-screenshot-2025.png"
-        alt="BARTOC Screenshot">
-    <div class="small-hide">
-        {{ cocodaStuff | safe }}
-    </div>
-</div>
-
 BARTOC (Basic Register of Thesauri, Ontologies & Classifications) ist eine Datenbank von Wissensorganisationssystemen. Das Ziel von BARTOC ist die Dokumentation von Wissensorganisationssystemen, wie Klassifikationen, Thesauri und Normdateien. Damit soll eine höhere Sichtbarkeit erreicht und ihre Funktionen hervorgehoben werden. Sie sollen außerdem durchsuchbar und vergleichbar sein sowie den Wissensaustausch fördern. Im Gegensatz zu anderen Normdaten-Verzeichnissen umfasst BARTOC alle Arten von KOS, unabhängig von Fachgebiet, Sprache, Publikationsformat und Zugangsmöglichkeit. Außerdem sammelt sie weitere Normdaten-Verzeichnisse.
 
 BARTOC wurde im November 2013 von Andreas Ledl an der Universitätsbibliothek Basel geschaffen, um eine allgemeine Bibliographie zu erstellen und damit Informationskompetenz zu vermitteln.

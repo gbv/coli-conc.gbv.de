@@ -89,7 +89,7 @@ css:
         src="{{ '/images/bartoc-screenshot-index-1600px.png' | urla }}"
         srcset="
           {%- for width in [200,300,400,600,800,1000,1200,1400,1600] -%}
-          {{ ('/images/screenshot-index-'+width+'px.png') | urla }} {{ width }}w{% if not loop.last %},{% endif %}
+          {{ ('/images/bartoc-screenshot-index-'+width+'px.png') | urla }} {{ width }}w{% if not loop.last %},{% endif %}
           {%- endfor -%}
         "
         sizes="(max-width: 800px) 50vw, 45vw"
