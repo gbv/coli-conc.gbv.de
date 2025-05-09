@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: layouts/bartoc
 title: BARTOC
 ---
 
@@ -10,6 +10,7 @@ The main goal of BARTOC is to list as many Knowledge Organization Systems as pos
 BARTOC was founded by Andreas Ledl as the Basel Register of Thesauri, Ontologies & Classifications at Basel University Library, Switzerland. In 2020 the database moved to the Verbundzentrale des GBV (VZG), Germany and got renamed and ported from Drupal to a new technical infrastructure. The implementation is fully available as Open Source.
 
 {% button "https://bartoc.org/", "Search BARTOC" %}
+
 
 ### Additional Resources
 - Our [data as download](https://bartoc.org/download)
