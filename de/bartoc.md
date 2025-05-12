@@ -3,17 +3,19 @@ layout: layouts/page
 title: BARTOC
 ---
 
-BARTOC (Basic Register of Thesauri, Ontologies & Classifications) ist eine Datenbank von Wissensorganisationssystemen. Das Ziel von BARTOC ist die Dokumentation von Wissensorganisationssystemen, wie Klassifikationen, Thesauri und Normdateien. Damit soll eine höhere Sichtbarkeit erreicht und ihre Funktionen hervorgehoben werden. Sie sollen außerdem durchsuchbar und vergleichbar sein sowie den Wissensaustausch fördern. Im Gegensatz zu anderen Normdaten-Verzeichnissen umfasst BARTOC alle Arten von KOS, unabhängig von Fachgebiet, Sprache, Publikationsformat und Zugangsmöglichkeit. Außerdem sammelt sie weitere Normdaten-Verzeichnisse.
+Das **Basic Register of Thesauri, Ontologies & Classifications** (BARTOC) ist eine Datenbank von Wissensorganisationssystemen. Das Ziel von BARTOC ist die Dokumentation von Wissensorganisationssystemen, wie Klassifikationen, Thesauri und Normdateien. Damit soll eine höhere Sichtbarkeit erreicht und ihre Funktionen hervorgehoben werden. Sie sollen außerdem durchsuchbar und vergleichbar sein sowie den Wissensaustausch fördern. Im Gegensatz zu anderen Normdaten-Verzeichnissen umfasst BARTOC alle Arten von KOS, unabhängig von Fachgebiet, Sprache, Publikationsformat und Zugangsmöglichkeit. Außerdem sammelt sie weitere Normdaten-Verzeichnisse.
 
 BARTOC wurde im November 2013 von Andreas Ledl an der Universitätsbibliothek Basel geschaffen, um eine allgemeine Bibliographie zu erstellen und damit Informationskompetenz zu vermitteln.
 
-{% button "https://bartoc.org/", "Search BARTOC" %}
+{% button "https://bartoc.org/", "Open BARTOC" %}
 
 ### Weitere Ressourcen
-- Our [data as download](https://bartoc.org/download)
-- Public [source code repository](https://github.com/gbv/bartoc.org) and [issue tracker](https://github.com/gbv/bartoc.org/issues) on GitHub
+
+- Täglicher [Datenbankabzug von BARTOC](https://bartoc.org/download)
+- Öffentliches [Quellcode-Repository](https://github.com/gbv/bartoc.org) und [Issue-Tracker](https://github.com/gbv/bartoc.org/issues)
 
 ### Veröffentlichungen
+
 - [Addition of vocabularies to BARTOC](https://doi.org/10.5446/51813) (2021)
 - [NKOS 2022](https://nkos.dublincore.org/2022NKOSworkshop/Park-Collecting%20Distributed%20KOS.pdf)
 - [Code4Lib 2021](https://doi.org/10.5281/zenodo.4629366)
