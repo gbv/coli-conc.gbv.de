@@ -63,10 +63,10 @@ rodolfo.marraffa@gbv.de
 
 **{{ { en: "System Librarian", de: "Systembibliothekarin" } | localize }}**
 
-Melanie Janßen
+Mareike Röhl
 
 {% small %}
-melanie.janssen@gbv.de
+mareike.roehl@gbv.de
 {% endsmall %}
 {% endflex %}
 {% endflexbox %}
