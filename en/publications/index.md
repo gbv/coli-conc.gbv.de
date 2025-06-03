@@ -173,6 +173,12 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+### 2025
+
+- Sacherschließung in Forschungsdaten. Workshop Sacherschließung von Forschungsdaten.
+  2025-06-02 <https://doi.org/10.5281/zenodo.15573531>
+
+
 ### 2024
 
 - Mapping von Terminologien mit Cocoda für NFDI4Objects.
