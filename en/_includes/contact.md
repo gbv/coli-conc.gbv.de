@@ -67,6 +67,8 @@ Mareike Röhl
 
 {% small %}
 mareike.roehl@gbv.de
+
+[GitHub](https://github.com/mroehl86)
 {% endsmall %}
 {% endflex %}
 {% flex %}
