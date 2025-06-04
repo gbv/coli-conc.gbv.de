@@ -72,7 +72,7 @@ mareike.roehl@gbv.de
 {% flex %}
 {{ userIcon | safe }}
 
-**{{ { en: "System Librarian", de: "Systembibliothekar } | localize }}**
+**{{ { en: "System Librarian", de: "Systembibliothekar" } | localize }}**
 
 Domenic Schäfer
 
