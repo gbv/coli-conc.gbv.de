@@ -79,11 +79,22 @@ Domenic Schäfer
 {% small %}
 domenic.schaefer@gbv.de
 
+[GitHub](https://github.com/M-DS0002)
 {% endsmall %}
 {% endflex %}
 {% flex %}
 {{ userIcon | safe }}
 
+**{{ { en: "Software Development", de: "Software-Entwicklung" } | localize }}**
+
+Arno Kesper
+
+{% small %}
+arno.kesper@gbv.de
+
+[GitHub](https://github.com/kespera)
+{% endsmall %}
+{% endflex %}
 {% endflexbox %}
 
 
