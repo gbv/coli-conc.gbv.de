@@ -32,7 +32,7 @@ css:
   # {{ title | localize | safe }}
 
   <div class="service">
-    <p class="font-weight-bold">{{ { en: "A service provided by", de: "Ein Service der" } | localize }}</p>
+    <p class="font-weight-bold">{{ { en: "Services provided by", de: "Dienste der" } | localize }}</p>
     <a href="{{ "https://en.gbv.de/informations/Verbundzentrale-en" if locale != "de" else "https://www.gbv.de/informationen/Verbundzentrale" }}" target="_blank">
       <img
         src="{{ '/images/vzg-600px.png' | urla }}"
