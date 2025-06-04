@@ -69,6 +69,20 @@ Mareike Röhl
 mareike.roehl@gbv.de
 {% endsmall %}
 {% endflex %}
+
+**{{ { en: "System Librarian", de: "Systembibliothekar } | localize }}**
+
+Domenic Schäfer
+
+{% small %}
+domenic.schaefer@gbv.de
+
+[GitHub](https://github.com/rodolv-commons)
+{% endsmall %}
+{% endflex %}
+{% flex %}
+{{ userIcon | safe }}
+
 {% endflexbox %}
 
 
