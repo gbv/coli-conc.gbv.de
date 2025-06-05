@@ -175,6 +175,9 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2025
 
+- Der Einsatz von BARTOC und Cocoda für die NFDI.
+  2025-06-04 <https://doi.org/10.5281/zenodo.15601818>
+
 - Sacherschließung in Forschungsdaten. Workshop Sacherschließung von Forschungsdaten.
   2025-06-02 <https://doi.org/10.5281/zenodo.15573531>
 
