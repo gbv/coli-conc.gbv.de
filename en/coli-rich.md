@@ -12,7 +12,7 @@ Mainly targeted at PICA-based library databases, the coli-rich application is do
 
 {% button "https://coli-conc.gbv.de/coli-rich/app/", "Start the current release version (German)" %}
 
-<br><br>
+<br>
 
 → [Try out the coli-rich-web demo (German)](https://coli-conc.gbv.de/coli-rich/dev/)
 
