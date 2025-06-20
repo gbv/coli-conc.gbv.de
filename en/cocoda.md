@@ -10,6 +10,9 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 
 {% button "https://coli-conc.gbv.de/cocoda/app/", "Start the current Cocoda release version" %}
 
+→ [Try the Cocoda demo](https://coli-conc.gbv.de/cocoda/dev)  
+→ [Start the TS4NFDI Cocoda instance](https://coli-conc.gbv.de/cocoda/ts4nfdi)  
+→ [Start the NFDI4Objects Cocoda instance](https://coli-conc.gbv.de/cocoda/nfdi4objects)  
 → [Start Cocoda instance optimized for Wikidata](https://coli-conc.gbv.de/cocoda/wikidata/) (see [documentation in Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/Cocoda))
 
 ### Additional Resources
