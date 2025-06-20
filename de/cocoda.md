@@ -13,7 +13,7 @@ Cocoda ist eine Web&#173;anwendung zur Verwaltung und Erstellung von Mappings zw
 → [Teste die Cocoda-Entwicklungsversion](https://coli-conc.gbv.de/cocoda/dev)  
 → [Starte die TS4NFDI-Cocoda-Instanz](https://coli-conc.gbv.de/cocoda/ts4nfdi)  
 → [Starte die NFDI4Objects-Cocoda-Instanz](https://coli-conc.gbv.de/cocoda/nfdi4objects)  
-→ [Starte die für Wikidata optimierte Cocoda-Instanz.](https://coli-conc.gbv.de/cocoda/wikidata/)  
+→ [Starte die für Wikidata optimierte Cocoda-Instanz](https://coli-conc.gbv.de/cocoda/wikidata/)  
 
 ### Weitere Ressourcen
 <!---
