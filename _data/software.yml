@@ -179,51 +179,6 @@
     repository: https://github.com/gbv/coli-rich
     description: Enrichment of PICA catalog records with subject indexing data from concordances
 -
-    name: jskos-php
-    type: library
-    status: deprecated
-    language: PHP
-    travis: org
-    repository: https://github.com/gbv/jskos-php
-    release: gbv/jskos
-    description: PHP library for JSKOS
--
-    name: jskos-http
-    type: library
-    status: deprecated
-    language: PHP
-    travis: org
-    repository: https://github.com/gbv/jskos-http
-    release: gbv/jskos-http
-    description: JSKOS API implementation
--
-    name: jskos-rdf
-    type: library
-    status: deprecated
-    language: PHP
-    travis: org
-    repository: https://github.com/gbv/jskos-rdf
-    release: gbv/jskos-rdf
-    description: PHP library to process JSKOS and RDF data
--
-    name: orcid-jskos
-    type: library
-    status: deprecated
-    language: PHP
-    travis:
-    repository: https://github.com/gbv/orcid-jskos
-    release: gbv/orcid-jskos
-    description: PHP wrapper to access ORCID in JSKOS format
--
-    name: viaf-jskos
-    type: library
-    status: deprecated
-    language: PHP
-    travis: org
-    repository: https://github.com/gbv/viaf-jskos
-    release: gbv/viaf-jskos
-    description: PHP wrapper to access VIAF in JSKOS format
--
     name: ng-suggest
     type: library
     status: prototype
