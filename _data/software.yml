@@ -179,33 +179,6 @@
     repository: https://github.com/gbv/coli-rich
     description: Enrichment of PICA catalog records with subject indexing data from concordances
 -
-    name: ng-suggest
-    type: library
-    status: prototype
-    language: JavaScript
-    travis: org
-    repository: https://github.com/gbv/ng-suggest
-    release: ng-suggest
-    description: AngularJS module for Typeahead via OpenSearch Suggestions
--
-    name: ng-skos
-    type: library
-    status: prototype
-    language: JavaScript
-    travis: org
-    repository: https://github.com/gbv/ng-skos
-    release: ng-skos
-    description: AngularJS module for JSKOS
--
-    name: jskos-php-examples
-    type: application
-    status: demo
-    language: PHP
-    travis: org
-    repository: https://github.com/gbv/jskos-php-examples
-    release: https://jskos-php-examples.herokuapp.com/
-    description: Sample applications of jskos-php (wrapper etc.)
--
     name: jskos2marc
     type: library
     status: demo
