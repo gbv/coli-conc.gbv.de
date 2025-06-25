@@ -175,6 +175,9 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2025
 
+- TS4NFDI support for semantic metadata.
+  2025-06-25 <https://doi.org/10.5281/zenodo.15736141>
+
 - Software for management of knowledge organization systems.
   2025-06-16 <https://doi.org/10.5281/zenodo.15672523>
 
