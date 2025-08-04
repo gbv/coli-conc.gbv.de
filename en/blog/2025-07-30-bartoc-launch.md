@@ -1,4 +1,3 @@
-
 ---
 layout: layouts/blog
 title: "BARTOC launches – the team is complete"
