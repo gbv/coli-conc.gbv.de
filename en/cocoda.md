@@ -14,7 +14,7 @@ Cocoda is a web application to manage and create mappings between knowledge orga
 → [Start the TS4NFDI Cocoda instance](https://coli-conc.gbv.de/cocoda/ts4nfdi)  
 → [Start the NFDI4Objects Cocoda instance](https://coli-conc.gbv.de/cocoda/nfdi4objects)  
 → [Start Cocoda instance optimized for Wikidata](https://coli-conc.gbv.de/cocoda/wikidata/)  
-  (see [documentation in Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/Cocoda))
+  (see [documentation in Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/Cocoda))  
 → [Start the SBB Cocoda instance](https://coli-conc.gbv.de/cocoda/sbb/) 
 
 ### Additional Resources
