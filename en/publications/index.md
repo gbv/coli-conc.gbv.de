@@ -175,6 +175,9 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2025
 
+- Integration of mapping tool Cocoda with OntoPortal.
+  2025-09-29 <https://doi.org/10.5281/zenodo.17222813>
+
 - TS4NFDI support for semantic metadata.
   2025-06-25 <https://doi.org/10.5281/zenodo.15736141>
 
