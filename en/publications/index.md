@@ -175,6 +175,9 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2025
 
+- BARTOC terminology registry.
+  2025-10-02 <https://doi.org/10.5281/zenodo.17250608>
+
 - Integration of mapping tool Cocoda with OntoPortal.
   2025-09-29 <https://doi.org/10.5281/zenodo.17222813>
 
