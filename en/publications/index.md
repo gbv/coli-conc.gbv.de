@@ -175,6 +175,9 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2025
 
+- BARTOC Skosmos.
+  2025-11-17 <https://doi.org/10.5281/zenodo.17609074>
+
 - BARTOC terminology registry.
   2025-10-02 <https://doi.org/10.5281/zenodo.17250608>
 
