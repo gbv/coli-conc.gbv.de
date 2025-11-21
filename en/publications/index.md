@@ -175,8 +175,14 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2025
 
-- BARTOC Skosmos.
+- Purpose and properties of the JSKOS data format for knowledge graphs.
+  [SWIB25](https://swib.org/swib25/)  
+  2025-11-18 <https://doi.org/10.5281/zenodo.17648283>
+  [Video recording](https://www.youtube.com/watch?v=dvy3cRFtQIs&t=82s)
+
+- BARTOC Skosmos. [SWIB25](https://swib.org/swib25/)
   2025-11-17 <https://doi.org/10.5281/zenodo.17609074>
+  [Video recording](https://www.youtube.com/watch?v=1uC8Tv_0mV4)
 
 - BARTOC terminology registry.
   2025-10-02 <https://doi.org/10.5281/zenodo.17250608>
