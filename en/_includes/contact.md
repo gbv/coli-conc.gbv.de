@@ -74,19 +74,6 @@ mareike.roehl@gbv.de
 {% flex %}
 {{ userIcon | safe }}
 
-**{{ { en: "System Librarian", de: "Systembibliothekar" } | localize }}**
-
-Dr. Domenic Schäfer
-
-{% small %}
-domenic.schaefer@gbv.de
-
-[GitHub](https://github.com/M-DS0002)
-{% endsmall %}
-{% endflex %}
-{% flex %}
-{{ userIcon | safe }}
-
 **{{ { en: "Software Development", de: "Software-Entwicklung" } | localize }}**
 
 Arno Kesper
