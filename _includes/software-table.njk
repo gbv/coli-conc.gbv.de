@@ -21,10 +21,6 @@
          {%- if item.status == "production" %}<b>production</b>{%- else %}{{ item.status }}{%- endif %}
       </td>
       <td class="medium-hide">
-        {%- if item.travis -%}
-        {%- set url = item.repository | replace("github.com", "travis-ci." + item.travis) -%}
-        <a href="{{ url }}"><img alt="Travis badge" src="{{ url }}.svg"></a>
-        {%- endif -%}
         {%- if item.action -%}
         {%- set url = item.repository + "/actions/workflows/" + item.action + ".yml/badge.svg" -%}
         <a href="{{ url }}"><img alt="GitHub action badge" src="{{ url }}.svg"></a>

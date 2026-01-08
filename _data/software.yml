@@ -3,7 +3,7 @@
     type: application
     status: production
     language: JavaScript
-    travis: org
+    action: build
     repository: https://github.com/gbv/cocoda
     release:
     description: web application mapping tool
@@ -17,6 +17,15 @@
     release:
     description: JSKOS mapping provider
 -
+    name: jskos-proxy
+    type: application
+    status: production
+    language: JavaScript
+    action: test
+    repository: https://github.com/gbv/jskos-proxy
+    release:
+    description: JSKOS Browsing interface
+-
     name: bartoc.org
     type: application
     repository: https://github.com/gbv/bartoc.org
@@ -24,6 +33,22 @@
     language: JavaScript
     action:
     description: BARTOC user interface
+-
+    name: bartoc search
+    type: application
+    repository: https://github.com/gbv/bartoc-search
+    status: production
+    language: JavaScript
+    action: test
+    description: BARTOC search engine and discover interface
+-
+    name: bartoc-skosmos
+    type: application
+    repository: https://github.com/gbv/bartoc-skosmos
+    status: demo
+    language: JavaScript
+    action: 
+    description: User interface for BARTOC Skosmos
 -
     name: jskos-cli
     type: application
@@ -34,14 +59,6 @@
     release: jskos-cli
     description: Command Line Applications to process JSKOS data
 -
-    name: coli-ana
-    type: application
-    language: JavaScript
-    status: production
-    action: test
-    repository: https://github.com/gbv/coli-ana
-    description: API to analyze DDC numbers
--
     name: login-server
     type: application
     status: production
@@ -50,6 +67,33 @@
     repository: https://github.com/gbv/login-server
     release:
     description: single sign-on login server
+-
+    name: jskos-web
+    type: application
+    status: production
+    language: JavaScript
+    action: build
+    repository: https://github.com/gbv/jskos-web
+    release:
+    description: Web interface to view JSKOS data
+-
+    name: coli-ana
+    type: application
+    status: production
+    language: JavaScript
+    action: test
+    repository: https://github.com/gbv/coli-ana
+    release:
+    description: Web interface and API to analyze DDC numbers
+-
+    name: subjects-api
+    type: application
+    status: production
+    language: JavaScript
+    action: test
+    repository: https://github.com/gbv/subjects-api
+    release:
+    description: API to query catalog (co)occurrences
 -
     name: login-client
     type: library
@@ -78,11 +122,56 @@
     release: cocoda-sdk
     description: SDK for Cocoda and coli-conc services
 -
-    name: jskos-validate
+    name: jskos-vue
+    type: library
+    status: production
+    language: JavaScript
+    action: test-and-build
+    repository: https://github.com/gbv/jskos-vue
+    release: jskos-vue
+    description: Vue 3 library for JSKOS
+-
+    name: jskos-vue-tabs
+    type: library
+    status: production
+    language: JavaScript
+    action: test-and-build
+    repository: https://github.com/gbv/jskos-vue-tabs
+    release: jskos-vue-tabs
+    description: Tabs library for Vue 3
+-
+    name: cocoda-vue-tabs
+    type: library
+    status: production
+    language: JavaScript
+    action: 
+    repository: https://github.com/stefandesu/cocoda-vue-tabs
+    release: cocoda-vue-tabs
+    description: Tabs library Cocoda (Vue 2)
+-
+    name: vue-flexible-table
+    type: library
+    status: production
+    language: JavaScript
+    action: test-and-build
+    repository: https://github.com/gbv/vue-flexible-table
+    release: vue-flexible-table
+    description: Tabs library for Vue 3
+-
+    name: sssom-js
     type: library
     status: production
     language: JavaScript
     action: test
+    repository: https://github.com/gbv/sssom-js
+    release: sssom-js
+    description: Simple Standard for Sharing Ontology Mappings 
+-
+    name: jskos-validate
+    type: library
+    status: production
+    language: JavaScript
+    action: test-and-build
     repository: https://github.com/gbv/jskos-validate
     release: jskos-validate
     description: JSKOS validation library
@@ -91,52 +180,163 @@
     type: library
     status: production
     language: JavaScript
-    travis: com
+    action: test
     repository: https://github.com/gbv/wikidata-jskos
     release:
     description: Access Wikidata in JSKOS format
 -
-    name: occurrences-api
-    type: prototype
+    name: namespace-lookup
+    type: library
     status: production
-    language: Perl
-    travis: com
-    repository: https://github.com/gbv/occurrences-api
+    language: JavaScript
+    action: test
+    repository: https://github.com/gbv/namespace-lookup
+    release: namespace-lookup
+    description: Find the longest namespace that a string starts with 
+-
+    name: github-webhook-handler
+    type: library
+    status: production
+    language: JavaScript
+    action: 
+    repository: https://github.com/gbv/github-webhook-handler
+    release: github-webhook-handler
+    description: Handler for GitHub webhooks for automatic deployment 
+-
+    name: eslint-config-gbv
+    type: library
+    status: production
+    language: JavaScript
+    action: 
+    repository: https://github.com/gbv/eslint-config-gbv
+    release: eslint-config-gbv
+    description: Internal JavaScript linting rules for GBV projects
+-
+    name: json-anystream
+    type: library
+    status: production
+    language: JavaScript
+    action: test
+    repository: https://github.com/gbv/json-anystream
+    release: json-anystream
+    description: Stream JSON objects no matter what the source is
+-
+    name: coli-rich-web
+    type: application
+    language: JavaScript
+    status: production
+    action: build
+    repository: https://github.com/gbv/coli-rich-web
+    description: Enrichment of PICA catalog records with subject indexing data from concordances
+-
+    name: cocoda-versions
+    type: library
+    status: production
+    language: Docker
+    action: 
+    repository: https://github.com/gbv/cocoda-versions
+    release: 
+    description: Docker image to manage and serve multiple instances of Cocoda
+-
+    name: cocoda-locale-editor
+    type: application
+    status: demo
+    language: JavaScript
+    action: 
+    repository: https://github.com/gbv/cocoda-locale-editor
+    release: 
+    description: Web application to edit cocoda locales
+-
+    name: jskos2rdf
+    type: application
+    status: production
+    language: JavaScript
+    repository: https://github.com/gbv/jskos2rdf
     release:
-    description: API to query catalog (co)occurrences
+    description: Web service to convert JSKOS to RDF
+-
+    name: k10plus-ddc
+    type: application
+    status: test
+    language: JavaScript
+    repository: https://github.com/gbv/k10plus-ddc
+    release:
+    description: Scripts to analyze, convert and publish DDC numbers found K10plus
+-
+    name: jskos-metrics
+    type: application
+    status: test
+    language: multiple
+    repository: https://github.com/gbv/jskos-metrics
+    release:
+    description: Scripts to create statistical analysis of JSKOS data
+-
+    name: k10plus-subjects
+    type: application
+    status: test
+    language: JavaScript
+    repository: https://github.com/gbv/k10plus-subjects
+    release:
+    description: Subject analysis of records in K10plus catalogue
+-
+    name: coli-rich-rvk-bk
+    type: application
+    language: JavaScript
+    status: test
+    repository: https://github.com/gbv/coli-rich-rvk-bk
+    description: Enrichment of PICA catalog records with subject indexing data from concordances
+-
+    name: coli-rich-scripts
+    type: application
+    language: JavaScript
+    status: test
+    repository: https://github.com/gbv/coli-rich
+    description: Enrichment of PICA catalog records with subject indexing data from concordances
+-
+    name: coli-rich
+    type: application
+    language: JavaScript
+    status: archived
+    repository: https://github.com/gbv/coli-rich
+    description: Enrichment of PICA catalog records with subject indexing data from concordances
+-
+    name: coli-conc-docker
+    type: application
+    status: demo
+    language: Docker
+    action: 
+    repository: https://github.com/gbv/coli-conc-versions
+    release: 
+    description: how to set up your own coli-conc infrastructure using Docker
 -
     name: mc2skos
     type: application
-    status: production
+    status: unstable
     language: Python
-    travis: com
     repository: https://github.com/scriptotek/mc2skos
     release: mc2skos
     description: command-line tool to convert MARC to SKOS
 -
     name: skos2jskos
     type: application
-    status: production
+    status: unstable
     language: Perl
-    travis: org
     repository: https://github.com/gbv/skos2jskos
     release: App-skos2jskos
     description: Convert SKOS/RDF to JSKOS
 -
     name: bk2rdf
     type: application
-    status: production
+    status: unstable
     language: Perl
-    travis:
     repository: https://github.com/gbv/bk2rdf
-    release: https://github.com/gbv/bk2rdf
+    release:
     description: extract and enrich BK records to MARC
 -
     name: wikidata-taxonomy
     type: application
     status: production
     language: JavaScript
-    travis: org
     repository: https://github.com/nichtich/wikidata-taxonomy
     release: wikidata-taxonomy
     description: command-line tool to extract taxonomies from Wikidata
@@ -145,7 +345,6 @@
     type: application
     status: production
     language: Python
-    travis: org
     repository: https://github.com/gbv/wdmapper
     release: wdmapper
     description: Wikidata authority file mapping tool
@@ -157,11 +356,11 @@
     repository: https://github.com/gbv/nomisma-reconciliation
     description: Proxy for the Nomisma OpenRefine Reconciliation API 
 -
-    name: cocoda-services
+    name: coli-conc-server
     type: configuration
     status: production
-    language: Bash
-    repository: https://github.com/gbv/cocoda-services
+    language: multiple
+    repository: https://github.com/gbv/coli-conc-server
     description: Coli-conc backend services
 -
     name: coli-conc-examples
@@ -171,13 +370,13 @@
     repository: https://github.com/gbv/coli-conc-examples
     description: Examples of using coli-conc services and libraries
 -
-    name: coli-rich
+    name: jskos-geonames
     type: application
     language: JavaScript
     status: demo
-    travis: org
-    repository: https://github.com/gbv/coli-rich
-    description: Enrichment of PICA catalog records with subject indexing data from concordances
+    action: 
+    repository: https://github.com/gbv/jskos-geonames
+    description: Convert GeoNames into JSKOS format
 -
     name: jskos2marc
     type: library
