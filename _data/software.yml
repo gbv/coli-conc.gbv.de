@@ -145,7 +145,7 @@
     status: production
     language: JavaScript
     action: 
-    repository: https://github.com/stefandesu/cocoda-vue-tabs
+    repository: https://github.com/gbv/cocoda-vue-tabs
     release: cocoda-vue-tabs
     description: Tabs library Cocoda (Vue 2)
 -
