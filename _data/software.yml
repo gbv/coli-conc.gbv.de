@@ -200,7 +200,7 @@
     language: JavaScript
     action: 
     repository: https://github.com/gbv/github-webhook-handler
-    release: github-webhook-handler
+    release: 
     description: Handler for GitHub webhooks for automatic deployment 
 -
     name: eslint-config-gbv
