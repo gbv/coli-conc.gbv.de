@@ -32,7 +32,7 @@ cocodaInfoButton:
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start; margin-top: -10px;" %}
   {% flex %}
-  [{% image "/images/services-kos-registry5.svg", "width: 30vw; max-width: 140px; padding: 20px; border: none;", "Applications" %}<br>Applications]({{ "/services/#applications" | url }})
+  [{% image "/images/services-kos-registry5.svg", "width: 30vw; max-width: 140px; padding: 20px; border: none;", "Software" %}<br>Software]({{ "/publications/#software" | url }})
   {% endflex %}
   {% flex %}
   [{% image "/images/services-concordance-registry.svg", "width: 30vw; max-width: 140px; padding: 12px; border: none;", "Datasets" %}<br>Datasets]({{ "/services/#data-sets" | url }})
