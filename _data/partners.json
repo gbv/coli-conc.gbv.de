@@ -84,40 +84,50 @@
   ],
   "projects": [
     {
-      "url": "https://www.eurospider.com/de/relevancy-produkt/digitaler-assistent-da-3",
+      "url": "https://coli-conc.gbv.de/cocoda/",
+      "text": "Mapping Tool Cocoda",
+      "description": {
+        "en": "Cocoda helps manage mappings between knowledge organization systems.",
+        "de": "Cocoda hilft bei der Verwaltung von Mappings zwischen Wissensorganisationssystemen."
+      }
+    },
+    {
+      "text": "coli-rich",
+      "url": "https://coli-conc.gbv.de/coli-rich/",
+      "description": {
+        "en": "Semi-automatic insertion of subject indexing data into K10plus using coli-conc mappings.",
+        "de": "Semi-automatische Einspielung von Sacherschließungsdaten in K10plus auf Basis von coli-conc-Mappings."
+      }
+    },
+    {
+      "text": "coli-ana",
+      "url": "https://coli-conc.gbv.de/coli-ana/",
+      "description": {
+        "en": "Analyzes and decomposes synthesized DDC numbers.",
+        "de": "Analysiert und zerlegt synthetisierte DDC-Nummern."
+      }
+    },
+    {
+      "text": "Vocabulary Hosting Services",
+      "description": {
+        "en": "Provide and enable the use of controlled vocabularies.",
+        "de": "Stellt kontrollierte Vokabulare bereit und unterstützt deren Nutzung."
+      }
+    },
+    {
       "text": "Digitaler Assistent (DA-3)",
+      "url": "https://www.da-3.de/",
       "description": {
-        "en": "Digital Assistent is a web-based tool for computer-assisted subject indexing.",
-        "de": "Ein Tool zur Unterstützung verbaler und klassifikatorischer Erschließung von Büchern und Aufsätzen."
+        "en": "A web-based tool for computer-assisted subject indexing.",
+        "de": "Ein webbasiertes Werkzeug zur computergestützten Sacherschließung."
       }
     },
     {
-      "text": "KENOM",
-      "url": "https://www.kenom.de",
+      "text": "TS4NFDI",
+      "url": "https://terminology.services.base4nfdi.de/",
       "description": {
-        "en": "An online portal for numismatics.",
-        "de": "Kooperative Erschließung und Nutzung der Objektdaten von Münzsammlungen = ein Online-Portal zur Numismatik."
-      }
-    },
-    {
-      "text": "Concept Mapping Hub",
-      "url": "/hub/",
-      "description": {
-        "en": "A method for producing multilateral mapping, storing, and using mappings among many KOS."
-      }
-    },
-    {
-      "text": "MAQUIS",
-      "url": "http://pkiraly.github.io/about/",
-      "description": {
-        "en": "MAQUIS is a tool for measurement of quality and analysis of subject indexing."
-      }
-    },
-    {
-      "text": "CCMapper",
-      "url": "/ccmapper/",
-      "description": {
-        "en": "CCMapper is a mapping application specialized on mapping vocabularies against the Dewey Decimal Classification (DDC)."
+        "en": "TS4NFDI provides cross-cutting terminology services via APIs, a service portal, and JavaScript/React tools.",
+        "de": "TS4NFDI bietet übergreifende Terminologieservices mit API-Zugriff, Serviceportal und JavaScript/React-Tools."
       }
     }
   ]
