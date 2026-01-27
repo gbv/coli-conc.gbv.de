@@ -68,11 +68,13 @@ cocodaInfoButton:
 
 {% endsection %}
 
+{#
 {% section %}
 
 {% include locale + "/partners.md" %}
 
 {% endsection %}
+#}
 
 {% section %}
 
