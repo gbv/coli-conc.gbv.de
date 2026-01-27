@@ -35,7 +35,7 @@ balakrishnan@gbv.de
 {% flex %}
 {{ userIcon | safe }}
 
-**{{ { en: "Technical Coordination", de: "Technische Koordination" } | localize }}**
+**{{ { en: "Technical Lead", de: "Technischer Leiter" } | localize }}**
 
 Dr. Jakob Voß
 
@@ -43,6 +43,19 @@ Dr. Jakob Voß
 voss@gbv.de
 
 [GitHub](https://github.com/nichtich)
+{% endsmall %}
+{% endflex %}
+{% flex %}
+{{ userIcon | safe }}
+
+**{{ { en: "Data Librarian", de: "Datenbibliothekarin" } | localize }}**
+
+Mareike Röhl
+
+{% small %}
+mareike.roehl@gbv.de
+
+[GitHub](https://github.com/mroehl86)
 {% endsmall %}
 {% endflex %}
 {% flex %}
@@ -61,14 +74,14 @@ rodolfo.marraffa@gbv.de
 {% flex %}
 {{ userIcon | safe }}
 
-**{{ { en: "System Librarian", de: "Systembibliothekarin" } | localize }}**
+**{{ { en: "Software Development", de: "Software-Entwicklung" } | localize }}**
 
-Mareike Röhl
+Markus Matoni
 
 {% small %}
-mareike.roehl@gbv.de
+markus.matoni@gbv.de
 
-[GitHub](https://github.com/mroehl86)
+[GitHub](https://github.com/mmarkus1)
 {% endsmall %}
 {% endflex %}
 {% flex %}
