@@ -1,11 +1,11 @@
 ---
 layout: layouts/index
 title:
-  en: "Welcome to <span style='white-space: nowrap;'>coli-conc</span>"
-  de: "Willkommen bei <span style='white-space: nowrap;'>coli-conc</span>"
+  en: "Welcome to the Terminology Services Portal"
+  de: "Willkommen auf dem Terminologie-Services-Portal"
 subtitle:
-  en: Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems
-  de: Verwaltung und Bereitstellung von Konkordanzen zwischen bibliothekarischen Wissensorganisationsystemen
+  en: Services for structured subject indexing of information using controlled vocabularies.
+  de: Services für die strukturierte Sacherschließung von Informationen mit kontrollierten Vokabularen
 cocodaStartButton:
   en: Start
 cocodaInfoButton:
