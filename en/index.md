@@ -1,5 +1,6 @@
 ---
 layout: layouts/index
+hideLogo: true
 title:
   en: "Welcome to the Terminology Services Portal"
   de: "Willkommen auf dem Terminologie-Services-Portal"
