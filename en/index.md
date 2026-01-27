@@ -7,10 +7,6 @@ title:
 subtitle:
   en: Services for structured subject indexing of information using controlled vocabularies.
   de: Services für die strukturierte Sacherschließung von Informationen mit kontrollierten Vokabularen.
-cocodaStartButton:
-  en: Start
-cocodaInfoButton:
-  en: Information
 ---
 
 {#
