@@ -1,10 +1,12 @@
 
+{#
 ## {{ { en: "Projects", de: "Projekte" } | localize }}
 
 {{ {
   en: "Some of the major projects in which coli-conc is involved.",
   de: "Einige wichtige Projekte, in denen coli-conc involviert ist."
 } | localize }}
+#}
 
 {% div "", "display: flex; flex-direction: row; flex-wrap: wrap; align-items: flex-start; justify-content: space-evenly; margin-bottom: 10px;" %}
   {% for partner in partners.projects %}
