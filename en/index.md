@@ -22,6 +22,30 @@ cocodaInfoButton:
 
 {% section %}
 
+{% include locale + "/projects.md" %}
+
+{% endsection %}
+
+{% section %}
+
+## [{{ strings.sections.services | localize }}]({{ "/services/" | url }})
+
+{% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start; margin-top: -10px;" %}
+  {% flex %}
+  [{% image "/images/services-kos-registry5.svg", "width: 30vw; max-width: 140px; padding: 20px; border: none;", "Applications" %}<br>Applications]({{ "/services/#applications" | url }})
+  {% endflex %}
+  {% flex %}
+  [{% image "/images/services-concordance-registry.svg", "width: 30vw; max-width: 140px; padding: 12px; border: none;", "Datasets" %}<br>Datasets]({{ "/services/#data-sets" | url }})
+  {% endflex %}
+  {% flex %}
+  [{% image "/images/services-api.svg", "width: 30vw; max-width: 140px; padding: 7px; border: none;", "APIs" %}<br>APIs]({{ "/services/#apis" | url }})
+  {% endflex %}
+{% endflexbox %}
+
+{% endsection %}
+
+{% section %}
+
 ## [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
 {% div "news" %}
 {%- for post in collections.blog | reverse -%}
@@ -46,31 +70,7 @@ cocodaInfoButton:
 
 {% section %}
 
-## [{{ strings.sections.services | localize }}]({{ "/services/" | url }})
-
-{% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start; margin-top: -10px;" %}
-  {% flex %}
-  [{% image "/images/services-kos-registry5.svg", "width: 30vw; max-width: 140px; padding: 20px; border: none;", "Applications" %}<br>Applications]({{ "/services/#applications" | url }})
-  {% endflex %}
-  {% flex %}
-  [{% image "/images/services-concordance-registry.svg", "width: 30vw; max-width: 140px; padding: 12px; border: none;", "Datasets" %}<br>Datasets]({{ "/services/#data-sets" | url }})
-  {% endflex %}
-  {% flex %}
-  [{% image "/images/services-api.svg", "width: 30vw; max-width: 140px; padding: 7px; border: none;", "APIs" %}<br>APIs]({{ "/services/#apis" | url }})
-  {% endflex %}
-{% endflexbox %}
-
-{% endsection %}
-
-{% section %}
-
 {% include locale + "/partners.md" %}
-
-{% endsection %}
-
-{% section %}
-
-{% include locale + "/projects.md" %}
 
 {% endsection %}
 
