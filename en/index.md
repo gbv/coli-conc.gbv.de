@@ -12,11 +12,13 @@ cocodaInfoButton:
   en: Information
 ---
 
+{#
 {% section "textPadding" %}
 
 {% include locale + "/index-intro.md" %}
 
 {% endsection %}
+#}
 
 {% section %}
 
