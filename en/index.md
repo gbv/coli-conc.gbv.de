@@ -28,7 +28,7 @@ cocodaInfoButton:
 
 {% section %}
 
-## {{ strings.sections.services | localize }}
+## {{ { en: "Additional Services", de: "Zusätzliche Services" } | localize }}
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start; margin-top: -10px;" %}
   {% flex %}
