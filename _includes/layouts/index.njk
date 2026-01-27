@@ -9,19 +9,23 @@ css:
 
 {# Cocoda heading and buttons because they are used at two different places #}
 {% set cocodaStuff %}
+  {#
   <h3>Cocoda <span style="white-space: nowrap;">Mapping Tool</span></h3>
   <p>
     {% button "/cocoda/", cocodaInfoButton | localize %}
     {% button "https://coli-conc.gbv.de/cocoda/app/", cocodaStartButton | localize, "small-hide", "margin: 2px;" %}
   </p>
+  #}
 {% endset %}
 
 {% set bartocStuff %}
+  {#
   <h3>BARTOC</h3>
   <p>
     {% button "/bartoc/", cocodaInfoButton | localize %}
     {% button "https://bartoc.org/", cocodaStartButton | localize, "small-hide", "margin: 2px;" %}
   </p>
+  #}
 {% endset %}
 
 {# We need a dummy element here so that the wave can be correctly positioned. #}
