@@ -109,7 +109,7 @@
     {{ totalcss | safe }}
   </style>
 </head>
-<body id="top">
+<body id="top" class="{% if hideFundingNote %}hide-funding-note{% endif %}">
   {% if js and js.vue %}
   <script src="{{ '/js/vue.min.js' | urla }}"></script>
   {% endif %}
