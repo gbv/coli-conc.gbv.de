@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: "New Website"
 excerpt: "Our new website is now live!"
 tags:

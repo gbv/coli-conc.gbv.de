@@ -24,7 +24,7 @@ coli-conc@gbv.de
 {% flex %}
 {{ userIcon | safe }}
 
-**{{ { en: "Project Lead", de: "Projektleitung" } | localize }}**
+**{{ { en: "Lead, Terminology Services", de: "Leitung, Terminologie-Services" } | localize }}**
 
 Uma Balakrishnan
 

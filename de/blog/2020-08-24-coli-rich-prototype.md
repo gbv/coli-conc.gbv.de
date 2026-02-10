@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: Prototyp von coli-rich zur Kataloganreicherung
 excerpt: Webanwendung zur Anreicherung der Sacherschließung durch Mappings
 tags:

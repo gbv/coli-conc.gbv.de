@@ -1,49 +1,97 @@
+<div class="cards-bg-featured">
+  <div class="cc-services-section">
+    <h2>{{ { en: "coli-conc Services", de: "coli-conc Services" } | localize }}</h2>
+    <p class="cc-services_subtitle">
+      {{ {
+        en: "Enables interoperability of library knowledge organization systems (KOS).",
+        de: "Ermöglicht die Interoperabilität von bibliothekarischen Wissensorganisationssystemen (KOS)."
+      } | localize }}
+    </p>
+  </div>
 
-{#
-## {{ { en: "Projects", de: "Projekte" } | localize }}
-
-{{ {
-  en: "Some of the major projects in which coli-conc is involved.",
-  de: "Einige wichtige Projekte, in denen coli-conc involviert ist."
-} | localize }}
-#}
-
-{% div "", "display: flex; flex-direction: row; flex-wrap: wrap; align-items: flex-start; justify-content: space-evenly; margin-bottom: 10px;" %}
-  {% for partner in partners.projects %}
-    {% div "", "flex: 1 0 calc(33% - 20px); min-width: 255px; max-width: 450px; margin: 12px 10px; padding-left: 20px; border-left: 1px solid black;" %}
-      {% set text = partner.text | localize %}
-      {% set description = partner.description | localize %}
-      {% set partner_url = partner.url | url %}
-      {% set text_norm = (text | string | trim | lower) %}
-
-      {% div "font-size-large", "margin: 0 0 6px 0; line-height: 1.25;" %}
-        {% if text_norm == "vocabulary hosting services" %}
-          <span class="project-card-title">{{ text }}</span>
-        {% else %}
-          <a href="{{ partner_url }}" class="project-card-title">{{ text }}</a>
-        {% endif %}
-      {% enddiv %}
-
-      <p style="margin: 0;">
-        {{ description }}
-      </p>
-
-      {% if partner_url and ("cocoda" in partner_url) %}
-        <ul class="project-card-list">
-          <li><a href="https://coli-conc.gbv.de/cocoda/">Cocoda</a></li>
-          <li><a href="https://coli-conc.gbv.de/terminologies/">KOS Registry</a></li>
-          <li><a href="https://coli-conc.gbv.de/concordances/">Concordance Registry</a></li>
-          <li><a href="https://coli-conc.gbv.de/ccmapper/">CCMapper</a></li>
-        </ul>
-
-      {% elif "vocabulary hosting services" in (text | string | lower) %}
-        <ul class="project-card-list">
-          <li><a href="https://bartoc.org">BARTOC</a></li>
-          <li><a href="https://dante.gbv.de/">DANTE</a></li>
-          <li><a href="https://uri.gbv.de/terminology">VZG terminology</a></li>
-        </ul>
+  <div class="cards-row">
+    {# Loop through the partners.projects array. The variable "partner" represents the current project item. #}
+    {% for partner in partners.projects %}
+      {# Insert section heading before the 4th project #}
+      {% if loop.index == 4 %}
+        <div class="related-services-section">
+          <h2>{{ { en: "Related Services", de: "Verwandte Services" } | localize }}</h2>
+        </div>
       {% endif %}
 
-   {% enddiv %}
-  {% endfor %}
-{% enddiv %}
+      <div class="project-card">
+
+        {# Localize partner text/description and prepare a clean URL for later use in the template #}
+        {% set text = partner.text | localize %}
+        {% set description = partner.description | localize %}
+        {% set partner_url = partner.url | url %}
+
+        {# Helper variable for the title conditional below #}
+        {% set text_norm = (text | string | trim | lower) %}
+
+        {# Render title with special handling for "Metadata / Vocabulary Hosting Services" #}
+        <div class="project-card-header">
+          {% if text|trim == "Metadata / Vocabulary Hosting Services" %}
+            <span class="project-card-title font-size-large">{{ text }}</span>
+          {% else %}
+          <a href="{{ partner_url }}" class="project-card-title font-size-large">
+            {{ text }}
+          </a>
+          {% endif %}
+        </div>
+
+        {# Prepare and render project action buttons #}
+        {% set btns = partner.buttons %}
+
+        {# Render action buttons if button data is available.
+        Each button (Info / Start) is rendered only if its URL exists.
+        #}
+        {% if btns %}
+          <div class="project-card-actions">
+            {% if btns.info %}
+              <a href="{{ btns.info }}" class="button">Info</a>
+            {% endif %}
+            {% if btns.start %}
+              <a href="{{ btns.start }}" class="button">Start</a>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {# Render the localized project description #}
+        <p class="project-card-description">{{ description }}</p>
+
+        {# Render project-specific related links based on project type #}
+        {% if partner_url and ("cocoda" in partner_url) %}
+          <ul class="project-card-list">
+            <li><a href="https://coli-conc.gbv.de/cocoda/">Cocoda</a></li>
+            <li><a href="https://coli-conc.gbv.de/terminologies/">KOS Registry</a></li>
+            <li><a href="https://coli-conc.gbv.de/concordances/">Concordance Registry</a></li>
+            <li><a href="https://coli-conc.gbv.de/ccmapper/">CCMapper</a></li>
+          </ul>
+        {% elif "vocabulary hosting services" in (text | string | lower) %}
+          <ul class="project-card-list">
+            <li><a href="https://bartoc.org">BARTOC</a></li>
+            <li><a href="https://dante.gbv.de/">DANTE</a></li>
+            <li><a href="https://uri.gbv.de/terminology">VZG terminology</a></li>
+          </ul>
+        {% endif %}
+
+        {# Show project image with fallback and optional custom alt text #}
+        {% if partner.image %}
+          {% set img_alt = text ~ " screenshot" %}
+          {% if partner.imageAlt %}
+            {% set img_alt = partner.imageAlt | localize %}
+          {% endif %}
+
+          <div class="project-card-image">
+            <img
+              src="{{ partner.image | url }}"
+              alt="{{ img_alt }}"
+              loading="lazy"
+            >
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

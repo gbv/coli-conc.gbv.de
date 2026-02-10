@@ -1,11 +1,14 @@
 ---
 layout: layouts/page
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title:
   en: Services
 subtitle:
-  en: We provide a several applictaions, data sets and APIs for public use.
+  en: We provide several datasets and APIs for public use.
 ---
-
+{#
 {% section "textPadding" %}
 
 ## Applications
@@ -31,6 +34,7 @@ subtitle:
   JSKOS Server implements the JSKOS API web service and storage for JSKOS data
 
 {% endsection %}
+#}
 
 {% section "textPadding" %}
 
@@ -62,7 +66,7 @@ Several web services are being developed to query information related to knowled
 
 {% section "textPadding" %}
 
-## Data Sets
+## Datasets
 - [KOS Types]({{ "/publications/kostypes/" | url }})
 
   Classification of knowledge organization systems. Data extracted from Wikidata

@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: Eigene Vokabulare per API in Cocoda einbinden
 excerpt: Informationen zum Einbinden eigener Vokabulare in Cocoda anhand verschiedener Beispiele.
 tags:

@@ -1,5 +1,8 @@
 ---
 layout: layouts/page
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title:
   en: News and Blog
   de: Neuigkeiten und Blog

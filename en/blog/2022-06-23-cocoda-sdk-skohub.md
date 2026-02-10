@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: "Added support of SkoHub vocabularies"
 excerpt: "The software library cocoda-sdk can be used to access terminologies from various sources"
 tags:

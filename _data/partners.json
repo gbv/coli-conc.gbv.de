@@ -89,6 +89,13 @@
       "description": {
         "en": "Cocoda helps manage mappings between knowledge organization systems.",
         "de": "Cocoda hilft bei der Verwaltung von Mappings zwischen Wissensorganisationssystemen."
+      },
+        "image": "/images/cocoda-screenshot@2x.png",
+        "imageAlt": { "en": "Screenshot of Cocoda", "de": "Screenshot von Cocoda"
+      },
+        "buttons": {
+        "info": "https://coli-conc.gbv.de/cocoda/",
+        "start": "https://coli-conc.gbv.de/cocoda/app/"
       }
     },
     {
@@ -97,6 +104,15 @@
       "description": {
         "en": "Semi-automatic insertion of subject indexing data into K10plus using coli-conc mappings.",
         "de": "Semi-automatische Einspielung von Sacherschließungsdaten in K10plus auf Basis von coli-conc-Mappings."
+      },
+        "image": "/images/coli-rich-screenshot@2x.png",
+        "imageAlt": {
+        "en": "Screenshot of coli-rich",
+        "de": "Screenshot von coli-rich"
+      },
+        "buttons": {
+        "info": "https://coli-conc.gbv.de/coli-rich/",
+        "start": "https://coli-conc.gbv.de/coli-rich/app/"
       }
     },
     {
@@ -105,13 +121,27 @@
       "description": {
         "en": "Analyzes and decomposes synthesized DDC numbers.",
         "de": "Analysiert und zerlegt synthetisierte DDC-Nummern."
+      },
+      "image": "/images/coli-ana-screenshot@2x.png",
+      "imageAlt": {
+        "en": "Screenshot of coli-ana",
+        "de": "Screenshot von coli-ana"
+      },
+        "buttons": {
+        "info": "https://coli-conc.gbv.de/coli-ana/",
+        "start": "https://coli-conc.gbv.de/coli-ana/"
       }
     },
     {
-      "text": "Vocabulary Hosting Services",
+      "text": "Metadata / Vocabulary Hosting Services",
       "description": {
         "en": "Provide and enable the use of controlled vocabularies.",
         "de": "Stellt kontrollierte Vokabulare bereit und unterstützt deren Nutzung."
+      },
+      "image": "/images/bartoc-screenshot@2x.png",
+      "imageAlt": {
+        "en": "Screenshot of BARTOC",
+        "de": "Screenshot von BARTOC"
       }
     },
     {
@@ -120,6 +150,14 @@
       "description": {
         "en": "A web-based tool for computer-assisted subject indexing.",
         "de": "Ein webbasiertes Werkzeug zur computergestützten Sacherschließung."
+      },
+      "image": "/images/da-3-logo@2x.png",
+      "imageAlt": {
+        "en": "Logo of DA-3",
+        "de": "Logo von DA-3"
+      },
+        "buttons": {
+        "info": "https://www.da-3.de/"
       }
     },
     {
@@ -128,6 +166,14 @@
       "description": {
         "en": "TS4NFDI provides cross-cutting terminology services via APIs, a service portal, and JavaScript/React tools.",
         "de": "TS4NFDI bietet übergreifende Terminologieservices mit API-Zugriff, Serviceportal und JavaScript/React-Tools."
+      },
+      "image": "/images/ts4-nfdi-logo@2x.png",
+      "imageAlt": {
+        "en": "Logo of TS4",
+        "de": "Logo von TS4"
+      },
+        "buttons": {
+        "info": "https://terminology.services.base4nfdi.de/"
       }
     }
   ]

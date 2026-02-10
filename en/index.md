@@ -1,6 +1,7 @@
 ---
 layout: layouts/index
 hideLogo: true
+hideProjectsPartners: true
 title:
   en: "Welcome to the Terminology Services Portal"
   de: "Willkommen auf dem Terminologie-Services-Portal"
@@ -9,23 +10,15 @@ subtitle:
   de: Services für die strukturierte Sacherschließung von Informationen mit kontrollierten Vokabularen.
 ---
 
-{#
-{% section "textPadding" %}
-
-{% include locale + "/index-intro.md" %}
-
-{% endsection %}
-#}
-
 {% section %}
 
 {% include locale + "/projects.md" %}
 
 {% endsection %}
-
+{#
 {% section %}
 
-## {{ { en: "Additional Services", de: "Zusätzliche Services" } | localize }}
+## {{ { en: "Supporting Resources", de: "Unterstützende Ressourcen" } | localize }}
 
 {% flexbox "row", "flex-wrap: wrap; text-align: center; align-items: flex-start; margin-top: -10px;" %}
   {% flex %}
@@ -40,7 +33,7 @@ subtitle:
 {% endflexbox %}
 
 {% endsection %}
-
+#}
 {% section %}
 
 ## [{{ strings.sections.news | localize }}]({{ "/blog/" | url }})
@@ -64,14 +57,6 @@ subtitle:
 {% endif %}
 
 {% endsection %}
-
-{#
-{% section %}
-
-{% include locale + "/partners.md" %}
-
-{% endsection %}
-#}
 
 {% section %}
 

@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: "Vocabulary browsing in BARTOC"
 excerpt: "BARTOC is being extended to support unified vocabulary search and browsing."
 tags:

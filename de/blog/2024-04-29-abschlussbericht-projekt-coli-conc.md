@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: Abschlussbericht des Projekts coli-conc veröffentlicht
 excerpt: Der Abschlussbericht der letzten Entwicklungsphase des Projekts coli-conc ist von der DFG genehmigt und nun veröffentlicht worden.
 tags:

@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: Inhaltserschließung des K10plus als Open Data
 excerpt: Sacherschließungsdaten des K10plus-Katalog als Open Data veröffentlicht
 tags:

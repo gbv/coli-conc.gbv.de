@@ -1,5 +1,9 @@
 export default {
   sections: {
+    home: {
+      en: "Home",
+      de: "Startseite",
+    },
     news: {
       en: "News",
     },

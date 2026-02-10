@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: "Approval of DFG Funding"
 excerpt: "Approval of DFG funding for the final phase of project coli-conc (2021/2022)"
 tags:

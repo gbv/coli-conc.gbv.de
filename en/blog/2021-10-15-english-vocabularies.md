@@ -1,5 +1,8 @@
 ---
 layout: layouts/blog
+hideLogo: true
+hideFundingNote: true
+hideProjectsPartners: true
 title: "Cocoda supports MeSH, LCSH, LCNAF, and more"
 excerpt: "Cocoda 1.4.7 adds support of more English vocabularies such as MeSH and LCSH"
 tags:
