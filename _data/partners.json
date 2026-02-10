@@ -167,13 +167,16 @@
         "en": "TS4NFDI provides cross-cutting terminology services via APIs, a service portal, and JavaScript/React tools.",
         "de": "TS4NFDI bietet übergreifende Terminologieservices mit API-Zugriff, Serviceportal und JavaScript/React-Tools."
       },
-      "image": "/images/ts4-nfdi-logo@2x.png",
+      "image": {
+        "en": "/images/ts4-nfdi-logo@2x.png",
+        "de": "/de/images/ts4-nfdi-logo@2x.png"
+      },
       "imageAlt": {
         "en": "Logo of TS4",
-        "de": "Logo von TS4"
+      "de": "Logo von TS4"
       },
-        "buttons": {
-        "info": "https://terminology.services.base4nfdi.de/"
+      "buttons": {
+      "info": "https://terminology.services.base4nfdi.de/"
       }
     }
   ]

@@ -83,9 +83,15 @@
             {% set img_alt = partner.imageAlt | localize %}
           {% endif %}
 
+          {% if partner.image is string %}
+            {% set img_src = partner.image %}
+          {% else %}
+            {% set img_src = partner.image | localize %}
+          {% endif %}
+
           <div class="project-card-image">
             <img
-              src="{{ partner.image | url }}"
+              src="{{ img_src | url }}"
               alt="{{ img_alt }}"
               loading="lazy"
             >
