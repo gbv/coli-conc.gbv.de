@@ -91,7 +91,7 @@
 
           <div class="project-card-image">
             <img
-              src="{{ img_src | url }}"
+              src="{{ img_src }}"
               alt="{{ img_alt }}"
               loading="lazy"
             >
