@@ -128,11 +128,7 @@
     </label>
     <input type="checkbox" id="menu-button" aria-hidden="true" />
     <ul class="menu">
-      {% if locale == "de" %}
-        {% set homeLink = "/de/" | url %}
-      {% else %}
-        {% set homeLink = "/" | url %}
-      {% endif %}
+      {% set homeLink = (locale == "de" ? "/de/" : "/") | url %}
       {% set newsLink = "/blog/" | url %}
       {% set servicesLink = "/services/" | url %}
       {% set partnersLink = "/partners/" | url %}
