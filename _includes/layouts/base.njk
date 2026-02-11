@@ -128,16 +128,18 @@
     </label>
     <input type="checkbox" id="menu-button" aria-hidden="true" />
     <ul class="menu">
-      {% set homeLink = "/" | url %}
+      {% if locale == "de" %}
+        {% set homeLink = "/de/" | url %}
+      {% else %}
+        {% set homeLink = "/" | url %}
+      {% endif %}
       {% set newsLink = "/blog/" | url %}
       {% set servicesLink = "/services/" | url %}
       {% set partnersLink = "/partners/" | url %}
       {% set contactLink = "/contact/" | url %}
-      {% if locale == "en" %}
-      <li class="{% if page.url == '/' %}current{% endif %}">
-      <a href="{{ homeLink }}">{{ strings.sections.home | localize }}</a>
+      <li class="{% if page.url == homeLink %}current{% endif %}">
+        <a href="{{ homeLink }}">{{ strings.sections.home | localize }}</a>
       </li>
-      {% endif %}
       <li class="{% if page.url.startsWith('/blog/') %}current{% endif %}"><a href="{{ newsLink }}">{{ strings.sections.news | localize }}</a></li>
       <li class="dropdown {% if page.url.startsWith('/services/') %}current{% endif %}">
         <a href="{{ servicesLink }}">{{ strings.sections.services | localize }}</a>
