@@ -128,30 +128,33 @@
     </label>
     <input type="checkbox" id="menu-button" aria-hidden="true" />
     <ul class="menu">
-      {% set homeLink = "/de/" if locale == "de" else "/" %}
-      {% set newsLink = "/blog/" | url %}
-      {% set servicesLink = "/services/" | url %}
-      {% set partnersLink = "/partners/" | url %}
-      {% set contactLink = "/contact/" | url %}
+      {% set prefix = "/de" if locale == "de" else "" %}
+      {% set homeLink = prefix ~ "/" %}
+      {% set newsLink = prefix ~ "/blog/" %}
+      {% set servicesLink = prefix ~ "/services/" %}
+      {% set partnersLink = prefix ~ "/partners/" %}
+      {% set contactLink = prefix ~ "/contact/" %}
+      {% set publicationsLink = prefix ~ "/publications/" %}
+
       <li class="{% if page.url == homeLink %}current{% endif %}">
         <a href="{{ homeLink }}">{{ strings.sections.home | localize }}</a>
       </li>
-      <li class="{% if page.url.startsWith('/blog/') %}current{% endif %}"><a href="{{ newsLink }}">{{ strings.sections.news | localize }}</a></li>
-      <li class="dropdown {% if page.url.startsWith('/services/') %}current{% endif %}">
+      <li class="{% if page.url.startsWith(prefix ~ '/blog/') %}current{% endif %}"><a href="{{ newsLink }}">{{ strings.sections.news | localize }}</a></li>
+      <li class="dropdown {% if page.url.startsWith(prefix ~ '/services/') %}current{% endif %}">
         <a href="{{ servicesLink }}">{{ strings.sections.services | localize }}</a>
       </li>
-      <li class="dropdown {% if page.url.startsWith('/publications/') %}current{% endif %}">
-        <a href="{{ '/publications/' | url }}">{{ strings.sections.publications | localize }}</a>
+      <li class="dropdown {% if page.url.startsWith(prefix ~ '/publications/') %}current{% endif %}">
+        <a href="{{ publicationsLink }}">{{ strings.sections.publications | localize }}</a>
       </li>
       {% if not hideProjectsPartners %}
-      <li class="{% if page.url.startsWith('/partners/') %}current{% endif %}">
+      <li class="{% if page.url.startsWith(prefix ~ '/partners/') %}current{% endif %}">
         <a href="{{ partnersLink }}">{{ strings.pages.partners | localize }}</a>
       </li>
       {% endif %}
-      <li class="{% if page.url.startsWith('/contact/') %}current{% endif %}"><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>
+      <li class="{% if page.url.startsWith(prefix ~ '/contact/') %}current{% endif %}"><a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a></li>
       <li class="menu-item-language">
         {% if locale == "de" %}
-        <a href="{{ page.url | urla }}" title="Change language to English">
+        <a href="{{ page.url | replace('/de', '') }}" title="Change language to English">
           <span class="font-weight-light">EN</span><br>DE
           <div class="line"></div>
         </a>
