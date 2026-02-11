@@ -10,8 +10,12 @@
   </div>
 
   <div class="cards-row">
+
+    {% set prefix = "/de" if locale == "de" else "" %}
+
     {# Loop through the partners.projects array. The variable "partner" represents the current project item. #}
     {% for partner in partners.projects %}
+
       {# Insert section heading before the 4th project #}
       {% if loop.index == 4 %}
         <div class="related-services-section">
@@ -24,49 +28,70 @@
         {# Localize partner text/description and prepare a clean URL for later use in the template #}
         {% set text = partner.text | localize %}
         {% set description = partner.description | localize %}
-        {% set partner_url = partner.url | url %}
+
+        {# Localize coli-conc pages: EN => /..., DE => /de/... #}
+        {% if partner.url and partner.url.startsWith("https://coli-conc.gbv.de/") %}
+          {% set path = partner.url | replace("https://coli-conc.gbv.de", "") %}
+          {% set partner_url = prefix ~ path %}
+        {% else %}
+          {% set partner_url = partner.url %}
+        {% endif %}
 
         {# Helper variable for the title conditional below #}
         {% set text_norm = (text | string | trim | lower) %}
 
-        {# Render title with special handling for "Metadata / Vocabulary Hosting Services" #}
         <div class="project-card-header">
           {% if text|trim == "Metadata / Vocabulary Hosting Services" %}
             <span class="project-card-title font-size-large">{{ text }}</span>
           {% else %}
-          <a href="{{ partner_url }}" class="project-card-title font-size-large">
-            {{ text }}
-          </a>
+            <a href="{{ partner_url }}" class="project-card-title font-size-large">
+              {{ text }}
+            </a>
           {% endif %}
         </div>
 
         {# Prepare and render project action buttons #}
         {% set btns = partner.buttons %}
 
-        {# Render action buttons if button data is available.
-        Each button (Info / Start) is rendered only if its URL exists.
-        #}
         {% if btns %}
           <div class="project-card-actions">
+
+            {# Info button: localize coli-conc pages, but keep /app/ links unchanged #}
             {% if btns.info %}
-              <a href="{{ btns.info }}" class="button">Info</a>
+              {% if "/app/" in btns.info %}
+                <a href="{{ btns.info }}" class="button">Info</a>
+              {% elif btns.info.startsWith("https://coli-conc.gbv.de/") %}
+                {% set infoPath = btns.info | replace("https://coli-conc.gbv.de", "") %}
+                <a href="{{ prefix ~ infoPath }}" class="button">Info</a>
+              {% else %}
+                <a href="{{ btns.info }}" class="button">Info</a>
+              {% endif %}
             {% endif %}
+
+            {# Start button: keep /app/ links unchanged, localize other coli-conc pages #}
             {% if btns.start %}
-              <a href="{{ btns.start }}" class="button">Start</a>
+              {% if "/app/" in btns.start %}
+                <a href="{{ btns.start }}" class="button">Start</a>
+              {% elif btns.start.startsWith("https://coli-conc.gbv.de/") %}
+                {% set startPath = btns.start | replace("https://coli-conc.gbv.de", "") %}
+                <a href="{{ prefix ~ startPath }}" class="button">Start</a>
+              {% else %}
+                <a href="{{ btns.start }}" class="button">Start</a>
+              {% endif %}
             {% endif %}
+
           </div>
         {% endif %}
 
-        {# Render the localized project description #}
         <p class="project-card-description">{{ description }}</p>
 
         {# Render project-specific related links based on project type #}
         {% if partner_url and ("cocoda" in partner_url) %}
           <ul class="project-card-list">
-            <li><a href="https://coli-conc.gbv.de/cocoda/">Cocoda</a></li>
-            <li><a href="https://coli-conc.gbv.de/terminologies/">KOS Registry</a></li>
-            <li><a href="https://coli-conc.gbv.de/concordances/">Concordance Registry</a></li>
-            <li><a href="https://coli-conc.gbv.de/ccmapper/">CCMapper</a></li>
+            <li><a href="{{ prefix ~ '/cocoda/' }}">Cocoda</a></li>
+            <li><a href="{{ prefix ~ '/terminologies/' }}">KOS Registry</a></li>
+            <li><a href="{{ prefix ~ '/concordances/' }}">Concordance Registry</a></li>
+            <li><a href="{{ prefix ~ '/ccmapper/' }}">CCMapper</a></li>
           </ul>
         {% elif "vocabulary hosting services" in (text | string | lower) %}
           <ul class="project-card-list">
@@ -97,7 +122,10 @@
             >
           </div>
         {% endif %}
+
       </div>
+
     {% endfor %}
+
   </div>
 </div>
