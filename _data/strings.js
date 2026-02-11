@@ -9,7 +9,7 @@ export default {
     },
     services: {
       en: "Services",
-      de: "Dienste",
+      de: "Services",
       kosTypes: {
         en: "KOS Types",
         de: "KOS-Typen",
@@ -49,8 +49,8 @@ export default {
   },
   pages: {
     partners: {
-      en: "Partners & Projects",
-      de: "Partner & Projekte",
+      en: "Partners",
+      de: "Partner",
     },
   },
 }
