@@ -15,9 +15,14 @@ mapping, but also for the research community.
 
 A tool to analyze any given synthesized DDC number is made available for trial purposes:
 
-{% button "/coli-ana/app/", "Start coli-ana release version" %}
+{% set coliAnaApp = "/coli-ana/app/" | urla %}
+{% set coliAnaDev = "/coli-ana/dev/" | urla %}
 
-→ [Start coli-ana development version](/coli-ana/dev/)
+<a href="/coli-ana/app/" class="button">
+  Start coli-ana release version
+</a>
+
+→ [Start coli-ana development version]({{ coliAnaDev }})
 
 {% small %}
 [What is the difference?](#faq)

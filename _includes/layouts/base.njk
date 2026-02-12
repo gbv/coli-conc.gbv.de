@@ -154,8 +154,19 @@
         page.url.startsWith('/partners/') or page.url.startsWith('/de/partners/')
       %}
 
-      {# Reduced menu pages: Tool pages OR Partners pages #}
-      {% set isReducedMenuPage = isToolPage or isPartnersPage %}
+      {# Additional pages that should also get the reduced menu (EN + DE) #}
+      {% set isReducedStaticPage =
+        page.url.startsWith('/erklaerung-zur-barrierefreiheit/') or page.url.startsWith('/de/erklaerung-zur-barrierefreiheit/')
+        or page.url.startsWith('/terminologies/') or page.url.startsWith('/de/terminologies/')
+        or page.url.startsWith('/concordances/') or page.url.startsWith('/de/concordances/')
+        or page.url.startsWith('/ccmapper/') or page.url.startsWith('/de/ccmapper/')
+      %}
+
+      {# Hard exclude the index pages #}
+      {% set isHome = (page.url == '/' or page.url == '/de/') %}
+
+      {# Reduced menu pages: Tool pages OR Partners pages OR selected static pages (but never home) #}
+      {% set isReducedMenuPage = (not isHome) and (isToolPage or isPartnersPage or isReducedStaticPage) %}
 
       {% if isReducedMenuPage %}
 
@@ -206,13 +217,13 @@
           {% elif enUrl == '/de/' %}
             {% set enUrl = '/' %}
           {% endif %}
-          <a href="{{ enUrl }}" title="Change language to English">
+          <a href="{{ enUrl }}" aria-label="Change language to English">
             <span class="font-weight-light">EN</span><br>DE
             <div class="line"></div>
           </a>
         {% else %}
           {% set deUrl = page.url if page.url.startsWith('/de/') else '/de' + page.url %}
-          <a href="{{ deUrl }}" title="Wechsle Sprache zu Deutsch">
+          <a href="{{ deUrl }}" aria-label="Wechsle Sprache zu Deutsch">
             EN<br><span class="font-weight-light">DE</span>
             <div class="line"></div>
           </a>

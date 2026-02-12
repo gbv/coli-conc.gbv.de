@@ -24,14 +24,14 @@
   color: colors.$text-primary;
 }
 .header li.current > a {
-  background-color: colors.$background-highlight;
-  color: colors.$text-highlight;
+  background-color: transparent;
+  color: inherit;
 }
 .header li a:hover {
   background-color: colors.$background-accent;
 }
 .header li.current > a:hover {
-  background-color: colors.$black;
+  background-color: colors.$background-accent;
 }
 .header li.menu-item-reduced-padding a {
   padding: 15px 10px;
