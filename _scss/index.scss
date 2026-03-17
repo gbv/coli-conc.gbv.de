@@ -32,8 +32,15 @@
   padding: 0 5px;
 }
 
+.text-center p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .cocoda-wrapper .subtitle {
   margin: 10px 0 25px 0;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .cocoda {
@@ -78,7 +85,7 @@
 
 .cc-services-section h2,
 .related-services-section h2 {
-  font-size: 1.8rem;
+  font-size: 32px;
   color: #b13f13;
   text-align: center;
   margin: 0;
