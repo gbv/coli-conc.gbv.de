@@ -4,9 +4,49 @@ title: coli-rich
 subtitle: Kataloganreicherung durch Konkordanzen
 ---
 
-{% section "textPadding" %}
+{% section "text-center access" %}
 
-Das Teilprojekt **coli-rich** hat zum Ziel, die vorhandene heterogene Sacherschließung in Bibliothekskatalogen mittels Konkordanzen zwischen verschiedenen Erschließungssystemen anzureichern.  Die Konkordanzen werden im Rahmen von coli-conc mit der Webanwendung [Cocoda](https://coli-conc.gbv.de/cocoda/) verwaltet.
+<div class="card">
+  <h2 class="card-title">coli-rich aufrufen</h2>
+
+  <div class="card-actions">
+
+    <a href="https://coli-conc.gbv.de/coli-rich/app/"
+       class="cr-button">
+      Aktuelles Release starten →
+    </a>
+
+    <a href="https://coli-conc.gbv.de/coli-rich/dev/"
+       class="cr-button cr-button--secondary">
+      coli-rich-Web Demo ausprobieren →
+    </a>
+
+  </div>
+</div>
+
+{% endsection %}
+
+{% section "two-col" %}
+
+<div class="two-col-wrap">
+  <div class="two-col-item">
+
+  ### Was ist coli-rich?
+
+    **coli-rich** ergänzt die heterogene Sacherschließung in Bibliothekskatalogen durch Konkordanzen zwischen verschiedenen Erschließungssystemen.
+
+    Die Konkordanzen werden im Rahmen von coli-conc mit der Webanwendung [Cocoda](https://coli-conc.gbv.de/de/cocoda/) verwaltet.
+  
+  </div>
+
+  <div class="two-col-item">
+
+  ### Wofür wird coli-rich verwendet?
+
+    **coli-rich** supports subject indexing in library catalogs through the semi-automatic assignment of subject classifications to titles in the **K10plus database**.
+
+  </div>
+</div>
 
 {% endsection %}
 

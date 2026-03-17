@@ -1,20 +1,56 @@
 ---
 layout: layouts/page
 title: coli-rich
-subtitle: catalog enrichment via concordances
+subtitle: Catalog enrichment via concordances
 ---
 
-{% section "text-center" %}
+{% section "text-center access" %}
 
-The goal of **coli-rich** is enrichment of subject indexing in library catalogs based on mappings between different vocabularies.
+<div class="card">
+  <h2 class="card-title">Access coli-rich</h2>
 
-Mainly targeted at PICA-based library databases, the coli-rich application is documented in German. More information can be found [at the German version of this page]({{ "/de/coli-rich/" | url }}).
+  <div class="card-actions">
 
-{% button "https://coli-conc.gbv.de/coli-rich/app/", "Start the current release version (German)" %}
+    <a href="https://coli-conc.gbv.de/coli-rich/app/"
+       class="cr-button">
+      Start current release (German) →
+    </a>
 
+    <a href="https://coli-conc.gbv.de/coli-rich/dev/"
+       class="cr-button cr-button--secondary">
+      Try web demo (German) →
+    </a>
 
-→ [Try out the coli-rich-web demo (German)](https://coli-conc.gbv.de/coli-rich/dev/)
+  </div>
+</div>
 
 {% endsection %}
 
+{% section "two-col" %}
 
+<div class="two-col-wrap">
+  <div class="two-col-item">
+
+  ### What is coli-rich?
+
+    **coli-rich** enhances heterogeneous subject indexing in library catalogs through concordances between different indexing systems.
+
+    These concordances are managed as part of coli-conc using the [Cocoda](https://coli-conc.gbv.de/cocoda/) web application.
+
+  </div>
+
+  <div class="two-col-item">
+
+  ### What is coli-rich used for?
+
+    It is intended for subject indexers to support the semi-automatic assignment of subject classifications to titles in the **K10plus database**.
+
+  </div>
+</div>
+
+<p class="information">
+  More information can be found at the
+  <a href="https://coli-conc.gbv.de/de/coli-rich/">German version of this page</a>.
+</p>
+
+{% endsection %}
