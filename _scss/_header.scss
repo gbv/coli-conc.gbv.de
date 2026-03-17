@@ -10,12 +10,14 @@
   font-weight: weights.$bold;
   padding: 0 calc(0px + 25 * ((100vw - 300px) / 1300)) 0 calc(0px + 25 * ((100vw - 300px) / 1300));
 }
+
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
 }
+
 .header li a {
   display: block;
   padding: 15px 20px;
@@ -23,26 +25,32 @@
   text-align: center;
   color: colors.$text-primary;
 }
-.header li.current > a {
+
+.header li.current>a {
   background-color: transparent;
   color: inherit;
 }
+
 .header li a:hover {
   background-color: colors.$background-accent;
 }
-.header li.current > a:hover {
+
+.header li.current>a:hover {
   background-color: colors.$background-accent;
 }
+
 .header li.menu-item-reduced-padding a {
   padding: 15px 10px;
 }
+
 .header li.menu-item-language a {
   font-size: 14px;
   line-height: 24px;
   padding: 3px 10px;
   position: relative;
 }
-.header li.menu-item-language a > .line {
+
+.header li.menu-item-language a>.line {
   position: absolute;
   top: 27px;
   left: 0;
@@ -53,22 +61,26 @@
   max-width: 25px;
   margin: 0 auto;
 }
+
 .header .vzg-logo {
   float: left;
   padding: 10px 5px 0px 15px;
   height: 48px;
   text-decoration: none;
 }
-.vzg-logo > img {
+
+.vzg-logo>img {
   height: 28px;
 }
+
 .header .coli-conc-logo-small {
   float: left;
   text-decoration: none;
-  padding: 5px 0 0 10px;
-  height: 55px;
+  padding: 15px 0 0 10px;
+  height: 85px;
 }
-.header .coli-conc-logo-small > img {
+
+.header .coli-conc-logo-small>img {
   height: 100%;
 }
 
@@ -87,6 +99,7 @@
   position: relative;
   user-select: none;
 }
+
 /* middle line */
 .header .menu-icon .navicon {
   background: colors.$primary;
@@ -96,6 +109,7 @@
   position: relative;
   transition: background .2s ease-out;
 }
+
 /* top + bottom line */
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
@@ -107,9 +121,11 @@
   position: absolute;
   transition: all .2s ease-out;
 }
+
 .header .menu-icon .navicon:before {
   top: 5px;
 }
+
 .header .menu-icon .navicon:after {
   top: -5px;
 }
@@ -118,22 +134,27 @@
 .header #menu-button {
   display: none;
 }
-.header #menu-button:checked ~ .menu {
+
+.header #menu-button:checked~.menu {
   max-height: 320px;
 }
+
 /* hides middle line when checked (i.e. clicked) */
-.header #menu-button:checked ~ .menu-icon .navicon {
+.header #menu-button:checked~.menu-icon .navicon {
   background: transparent;
 }
+
 /* rotates top + bottom lines when checked */
-.header #menu-button:checked ~ .menu-icon .navicon:before {
+.header #menu-button:checked~.menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
-.header #menu-button:checked ~ .menu-icon .navicon:after {
+
+.header #menu-button:checked~.menu-icon .navicon:after {
   transform: rotate(45deg);
 }
-.header #menu-button:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header #menu-button:checked ~ .menu-icon:not(.steps) .navicon:after {
+
+.header #menu-button:checked~.menu-icon:not(.steps) .navicon:before,
+.header #menu-button:checked~.menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
@@ -146,35 +167,40 @@
   .header {
     padding-bottom: 30px;
   }
-  .header ul, .menu-icon {
+
+  .header ul,
+  .menu-icon {
     margin-top: 10px;
   }
+
   .header ul {
     overflow: visible;
   }
+
   .header li {
     float: left;
   }
+
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
+
   .header .menu-icon {
     display: none;
   }
-  .header .coli-conc-logo-small {
-    padding: 10px 0 0 0;
-    height: 70px;
-  }
+
   // Dropdown menu
   .dropdown {
     position: relative;
   }
+
   .dropdown:hover .dropdown-menu {
     display: block;
     box-shadow: 0 5px 5px colors.$background-accent;
   }
+
   .dropdown .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -182,15 +208,18 @@
     margin: 0;
     min-width: 100%;
   }
-  .dropdown-menu > div {
+
+  .dropdown-menu>div {
     position: relative;
     z-index: 1000;
     background-color: colors.$background-accent;
   }
-  .dropdown-menu > div > a {
+
+  .dropdown-menu>div>a {
     text-align: left;
   }
-  .vzg-logo > img {
+
+  .vzg-logo>img {
     margin-top: 12px;
   }
 }
