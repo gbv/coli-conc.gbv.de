@@ -1,35 +1,193 @@
-/**
-CSS for /cocoda page
-*/
+.intro-text {
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: 600;
+}
 
-.cocoda-video {
+:root {
+  --content-max: 1400px;
+  --card-max: 320px;
+}
+
+.cocoda-cards-grid {
+  margin: 2rem auto;
+  max-width: var(--content-max);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem 1.2rem;
+  justify-items: center;
+}
+
+.cocoda-cards-grid.cocoda-single {
+  grid-template-columns: 1fr;
+  margin-bottom: 30px;
+}
+
+.cocoda-cards-grid.cocoda-single .cocoda-card {
+  justify-self: center;
+  max-width: 680px;
+}
+
+.cocoda-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   width: 100%;
+  max-width: 430px;
+  padding: 1.5rem;
+
+  background: #e9e1e1;
+  color: #111;
+
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease;
+  gap: 0.9rem;
+  margin-bottom: 40px;
 }
-.cocoda-video > div {
-  margin: 10px auto;
-  width: 90%;
-  max-width: 600px;
-  border: 2px solid black;
+
+.cocoda-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
 }
-.cocoda-video > div > video {
+
+.cocoda-card p:empty {
+  display: none;
+}
+
+.cocoda-card-header {
+  display: grid;
+  grid-template-columns: 46px 1fr 46px;
+  align-items: center;
+  height: 35px;
+  gap: 0.6rem;
+}
+
+.cocoda-card-header h2 {
+  grid-column: 2;
+  text-align: center;
+  color: #a64a22;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.cocoda-card-preview {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.cocoda-card-preview img {
   display: block;
   width: 100%;
+  height: auto;
+  border-radius: 2px;
+  margin: 35px 0 5px;
 }
 
-// Center video for smaller screens
-@media (min-width: 1150px) {
-  .cocoda-video {
-    float: right;
-    width: auto;
-  }
-  .cocoda-video > div {
-    margin: 10px 0 10px 20px;
-  }
+.cocoda-card-link {
+  padding: 10px 32px;
+  font-size: 17px;
+  border-radius: 25px;
+
+  background: #a64a22;
+  color: #fff !important;
+  border: none;
+
+  display: inline-block;
+  width: fit-content;
 }
 
-// Only clear up to a certain screen width (after that, the buttons fit next to the video)
-@media (max-width: 1330px) {
-  .cocoda-clear {
-    clear: both;
+.cocoda-card-link:hover {
+  color: #fff;
+  background-color: rgb(200.2742857143, 98, 58.5257142857);
+}
+
+.two-col-wrap {
+  margin-top: 30px;
+}
+
+.two-col-item {
+  font-size: 18px;
+}
+
+.two-col-item+.two-col-item {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  padding-left: 60px;
+}
+
+.three-col-wrap {
+  max-width: 1100px;
+  margin: 0 auto 50px;
+  display: flex;
+  gap: 60px;
+}
+
+.three-col-item {
+  flex: 1;
+  min-width: 0;
+  font-size: 18px;
+}
+
+.three-col-item+.three-col-item {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  padding-left: 40px;
+}
+
+.three-col-item h3 {
+  margin-top: 30px;
+}
+
+.one-col-wrap {
+  max-width: 1100px;
+  margin: 40px auto 50px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.one-col-item {
+  text-align: center;
+  font-size: 18px;
+}
+
+.one-col-item ul {
+  display: inline-block;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .cocoda-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .three-col-wrap {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 20px;
+  }
+
+  .three-col-item+.three-col-item {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 16px;
+    margin-top: 8px;
+  }
+
+  .two-col-item+.two-col-item {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 16px;
+    margin-top: 8px;
+  }
+
+  .coli-conc-logo-small {
+    max-height: 60px;
+    display: block;
+    margin-left: 8px;
+    margin-top: 8px;
   }
 }
