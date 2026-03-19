@@ -9,7 +9,7 @@ subtitle: "[![Status](https://coli-conc-status.fly.dev/api/badge/8/status)](http
 Cocoda ist eine Webanwendung zur Verwaltung und Erstellung von Mappings zwischen Wissensorganisationssystemen,
 wie Klassifikationen, Normdateien und Thesauri.  
 Nutzen Sie Cocoda oder eine der verfügbaren projektspezifischen Instanzen.  
-Das [Cocoda-Handbuch](https://coli-conc.gbv.de/cocoda/app/user-manual-de.html) bietet eine kurze Einführung.
+Der [Cocoda-Screencast](https://doi.org/10.5446/69732) bietet eine kurze Einführung.
 
 </div>
 

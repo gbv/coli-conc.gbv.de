@@ -9,7 +9,7 @@ subtitle: "[![Status](https://coli-conc-status.fly.dev/api/badge/8/status)](http
 Cocoda is a web application to manage and create mappings between knowledge organization systems,
 such as classifications, authority files, and thesauri.  
 Use Cocoda or one of the available project-specific instances.  
-The [Cocoda manual](https://gbv.github.io/cocoda/dev/user-manual-en.html) gives a short introduction.
+The [Cocoda Screencast](https://doi.org/10.5446/69732) gives a short introduction.
 
 </div>
 
