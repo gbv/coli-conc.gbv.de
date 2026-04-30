@@ -17,6 +17,15 @@
     release:
     description: JSKOS mapping provider
 -
+    name: jskos-server-ui
+    type: application
+    status: unstable
+    language: JavaScript
+    action: test
+    repository: https://github.com/gbv/jskos-server-ui
+    release: jskos-server-ui
+    description: JSKOS Server UI - Manage JSKOS data
+-
     name: jskos-proxy
     type: application
     status: production
