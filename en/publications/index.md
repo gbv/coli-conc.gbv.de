@@ -176,6 +176,12 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ## Presentations and Workshops
 
+### 2026
+
+- BARTOC im Wandel: Neue Funktionen und Perspektiven.
+2026-05-12 <https://doi.org/10.5281/zenodo.20137670>
+
+
 ### 2025
 
 - Purpose and properties of the JSKOS data format for knowledge graphs.
@@ -401,6 +407,11 @@ May 10th, 2019 at [EDUG 2019 Meeting](http://edug.pansoft.de/tiki-index.php?page
 {% section "textPadding" %}
 
 ## Project Reports
+
+## BARTOC
+
+- BARTOC im Wandel: Neue Funktionen und Perspektiven.
+2026-05-12 <https://doi.org/10.5281/zenodo.20133235>
 
 ## coli-conc
 
