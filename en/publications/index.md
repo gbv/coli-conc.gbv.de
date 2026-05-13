@@ -1,8 +1,5 @@
 ---
 layout: layouts/page
-hideLogo: true
-hideFundingNote: true
-hideProjectsPartners: true
 title: Publications
 ---
 
