@@ -1,8 +1,5 @@
 ---
 layout: layouts/blog
-hideLogo: true
-hideFundingNote: true
-hideProjectsPartners: true
 title: "Stellenausschreibung"
 excerpt: "Wir suchen zum nächstmöglichen Zeitpunkt Verstärkung für unser Team"
 tags:

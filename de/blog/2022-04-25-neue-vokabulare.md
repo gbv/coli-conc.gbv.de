@@ -1,8 +1,5 @@
 ---
 layout: layouts/blog
-hideLogo: true
-hideFundingNote: true
-hideProjectsPartners: true
 title: Neue Vokabulare verfügbar
 excerpt: Weitere Vokabulare in BARTOC und Cocoda verfügbar.
 tags:

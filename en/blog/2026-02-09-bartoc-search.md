@@ -1,8 +1,5 @@
 ---
 layout: layouts/blog
-hideLogo: true
-hideFundingNote: true
-hideProjectsPartners: true
 title: "BARTOC Search: New Search Function"
 excerpt: "With BARTOC Search, users can now use a new search function and a new interface."
 

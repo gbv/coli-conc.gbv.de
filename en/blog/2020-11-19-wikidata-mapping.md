@@ -1,8 +1,5 @@
 ---
 layout: layouts/blog
-hideLogo: true
-hideFundingNote: true
-hideProjectsPartners: true
 title: "Mapping Wikidata and other vocabularies with Cocoda"
 excerpt: "At WikiCite Virtual conference we showed how to map Wikidata and other vocabularies with Cocoda mapping application"
 tags:

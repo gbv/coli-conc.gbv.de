@@ -1,8 +1,5 @@
 ---
 layout: layouts/blog
-hideLogo: true
-hideFundingNote: true
-hideProjectsPartners: true
 title: "BARTOC launches – the team is complete"
 excerpt: "The BARTOC team is now complete and ready to begin work."
 

@@ -1,8 +1,5 @@
 ---
 layout: layouts/blog
-hideLogo: true
-hideFundingNote: true
-hideProjectsPartners: true
 title: "DFG-Bewilligung"
 excerpt: "DFG-Bewilligung für die abschließende Phase des coli-conc Projekts (2021/2022)"
 tags:
