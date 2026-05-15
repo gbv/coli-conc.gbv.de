@@ -2,24 +2,21 @@
 @use "colors";
 @use "weights";
 
-.coli-conc-logo {
-  display: block;
-  margin-top: calc(0px + (10) * ((100vw - 300px) / 1300));
-}
-
-.coli-conc-logo > img {
-  max-width: 200px;
-  width: 20%;
-  min-width: 100px;
-}
-
 .cocoda-wrapper p {
   margin: 10px 0 15px 0;
 }
 
+.cc-subtitle {
+  text-align: center;
+  font-weight: 700;
+  line-height: 2;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
 .cocoda-wrapper h3 {
   margin: 0;
-  color: colors.$primary;
+  color: #b13f13;
 }
 
 .cocoda-wrapper .service {
@@ -33,8 +30,8 @@
 }
 
 .text-center p {
-    font-size: 18px;
-    font-weight: 600;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .cocoda-wrapper .subtitle {
@@ -83,19 +80,37 @@
   display: none;
 }
 
-.cc-services-section h2,
+.cc-services-section h2 {
+  font-size: 32px;
+  color: #b13f13;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
 .related-services-section h2 {
   font-size: 32px;
   color: #b13f13;
   text-align: center;
-  margin: 0;
+  margin: 40px 0 30px;
 }
 
 .related-services-section {
-  flex: 0 0 100%;
+  grid-column: 1 / -1;
   width: 100%;
-  margin: 45px 0 15px;
   text-align: center;
+}
+
+.main-vocabulary-section {
+  grid-column: 1 / -1;
+  width: 100%;
+  text-align: center;
+}
+
+.main-vocabulary-section h2 {
+  font-size: 32px;
+  color: #b13f13;
+  text-align: center;
+  margin: 40px 0 30px;
 }
 
 .cc-services_subtitle {
@@ -105,39 +120,47 @@
 
 .cards-bg-featured {
   background: #e9e1e1;
+  margin: 60px auto;
+  padding: 40px 24px;
+  box-sizing: border-box;
   max-width: 1400px;
-  padding: 40px 16px;
-  margin: 50px auto;
 }
 
 .cards-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  row-gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   align-items: stretch;
 }
 
+.cards-row .project-card:first-child {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 550px;
+  justify-self: center;
+  padding: 12px 20px 20px;
+}
+
+.cards-row .project-card:last-child {
+  grid-column: 2 / 3;
+}
+
+.cards-bg-featured > p {
+  display: none !important;
+}
+
 .project-card {
-  --media-h: clamp(120px, 22vw, 180px);
-  --gap: 20px;
-
-  flex: 1 0 calc(33% - 20px);
-  min-width: 255px;
-  max-width: 450px;
-  margin: 12px 10px;
-
-  min-height: 470px;
-
-  padding: 8px 20px 20px;
-  padding-bottom: calc(var(--media-h) + var(--gap));
-
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 0;
+  padding: 8px 16px 16px;
   position: relative;
   background: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   border-radius: 6px;
-
   text-align: left;
+  min-height: 480px;
 }
 
 .project-card-header {
@@ -147,6 +170,8 @@
 .project-card-title {
   display: block;
   margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
   color: #b13f13;
   font-weight: 800;
   line-height: 1.15;
@@ -158,10 +183,10 @@
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
-  margin: 0 0 4px 0;
   padding: 0;
   justify-content: flex-start;
   align-items: center;
+  margin: 10px 0;
 }
 
 .project-card-actions > p {
@@ -172,12 +197,14 @@
 
 .project-card-description {
   margin: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 16.4px;
 }
 
 .project-card .project-card-image {
-  position: absolute;
   inset-inline: 20px;
-  bottom: 20px;
+  margin-top: auto;
 }
 
 .project-card .project-card-image img {
@@ -195,13 +222,16 @@
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-
+  justify-content: center;
   font-weight: 700;
   font-family: Nunito, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  text-align: center;
   padding: 6px 18px;
   border-radius: 32px;
+  margin-bottom: 10px;
 }
 
 .button:hover {
@@ -209,32 +239,39 @@
   background-color: rgb(200.2742857143, 98, 58.5257142857);
 }
 
+.button-webdewey-search {
+  background-color: #c8c8c8;
+}
+
+.button-webdewey-deutsch {
+  background-color: #fc7303;
+}
+
 @media (max-width: 1024px) {
-  .project-card {
-    flex: 1 0 calc(50% - 20px);
-    max-width: 520px;
-    min-height: 520px;
+  .cards-row {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .project-card-actions .button {
+    width: 100%;
+    box-sizing: border-box;
     padding: 5px 14px;
     border-radius: 999px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .cards-row {
-    justify-content: center;
+    grid-template-columns: 1fr;
   }
 
   .project-card {
-    flex: 1 0 100%;
-    max-width: 520px;
-    margin: 12px 0;
     min-height: 0;
   }
 
   .project-card-actions .button {
+    width: 100%;
+    box-sizing: border-box;
     padding: 6px 16px;
   }
 }
