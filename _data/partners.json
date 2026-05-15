@@ -55,7 +55,7 @@
       "image": "gesis-300px.png",
       "image2x": "gesis-600px.png",
       "url": "https://www.gesis.org/home/",
-      "text": "gesis - Leipniz-Institut für Sozialwissenschaften",
+      "text": "gesis - Leibniz-Institut für Sozialwissenschaften",
       "flexBase": "25%",
       "imageWidth": "200px"
     },
@@ -84,33 +84,41 @@
   ],
   "projects": [
     {
-      "url": "https://coli-conc.gbv.de/cocoda/",
       "text": "Mapping Tool Cocoda",
+      "url": {
+        "en": "https://coli-conc.gbv.de/cocoda/",
+        "de": "https://coli-conc.gbv.de/de/cocoda/"
+      },
       "description": {
         "en": "Cocoda helps manage mappings between knowledge organization systems.",
-        "de": "Cocoda hilft bei der Verwaltung von Mappings zwischen Wissensorganisationssystemen."
+        "de": "Cocoda unterstützt die Verwaltung von Mappings zwischen Wissensorganisationssystemen."
       },
-        "image": "/images/cocoda-screenshot@2x.png",
-        "imageAlt": { "en": "Screenshot of Cocoda", "de": "Screenshot von Cocoda"
+      "image": "/images/cocoda-screenshot@2x.png",
+      "imageAlt": {
+        "en": "Screenshot of Cocoda",
+        "de": "Screenshot von Cocoda"
       },
-        "buttons": {
+      "buttons": {
         "info": "https://coli-conc.gbv.de/cocoda/",
         "start": "https://coli-conc.gbv.de/cocoda/app/"
       }
     },
     {
       "text": "coli-rich",
-      "url": "https://coli-conc.gbv.de/coli-rich/",
-      "description": {
-        "en": "Semi-automatic insertion of subject indexing data into K10plus using coli-conc mappings.",
-        "de": "Semi-automatische Einspielung von Sacherschließungsdaten in K10plus auf Basis von coli-conc-Mappings."
+      "url": {
+        "en": "https://coli-conc.gbv.de/coli-rich/",
+        "de": "https://coli-conc.gbv.de/de/coli-rich/"
       },
-        "image": "/images/coli-rich-screenshot@2x.png",
-        "imageAlt": {
+      "description": {
+        "en": "Tool for subject indexing in K10plus using coli-conc mappings.",
+        "de": "Tool zur Eintragung von Sacherschließungsdaten in K10plus auf Basis von coli-conc-Mappings."
+      },
+      "image": "/images/coli-rich-screenshot@2x.png",
+      "imageAlt": {
         "en": "Screenshot of coli-rich",
         "de": "Screenshot von coli-rich"
       },
-        "buttons": {
+      "buttons": {
         "info": "https://coli-conc.gbv.de/coli-rich/",
         "start": "https://coli-conc.gbv.de/coli-rich/app/"
       }
@@ -119,29 +127,43 @@
       "text": "coli-ana",
       "url": "https://coli-conc.gbv.de/coli-ana/",
       "description": {
-        "en": "Analyzes and decomposes synthesized DDC numbers.",
-        "de": "Analysiert und zerlegt synthetisierte DDC-Nummern."
+        "en": "Analyzes and decomposes synthesized DDC notations.",
+        "de": "Analysiert und zerlegt synthetisierte DDC-Notationen."
       },
       "image": "/images/coli-ana-screenshot@2x.png",
       "imageAlt": {
         "en": "Screenshot of coli-ana",
         "de": "Screenshot von coli-ana"
       },
-        "buttons": {
+      "buttons": {
         "info": "https://coli-conc.gbv.de/coli-ana/",
         "start": "https://coli-conc.gbv.de/coli-ana/app/"
       }
     },
     {
-      "text": "Metadata / Vocabulary Hosting Services",
+      "text": "Vocabulary Metadata Services",
+      "url": "https://bartoc.org/",
       "description": {
-        "en": "Provide and enable the use of controlled vocabularies.",
-        "de": "Stellt kontrollierte Vokabulare bereit und unterstützt deren Nutzung."
+        "en": "Enable description and management of structured controlled vocabularies and their relationships.",
+        "de": "Ermöglichen die Beschreibung und Verwaltung strukturierter kontrollierter Vokabulare und ihrer Beziehungen."
       },
       "image": "/images/bartoc-screenshot@2x.png",
       "imageAlt": {
         "en": "Screenshot of BARTOC",
         "de": "Screenshot von BARTOC"
+      }
+    },
+    {
+      "text": "Vocabulary Hosting Services",
+      "url": "https://dante.gbv.de/",
+      "description": {
+        "en": "Provide and enable the use of controlled vocabularies.",
+        "de": "Stellt kontrollierte Vokabulare bereit und unterstützt deren Nutzung."
+      },
+      "image": "/images/dante.png",
+      "imageAlt": {
+        "en": "Screenshot of DANTE",
+        "de": "Screenshot von DANTE"
       }
     },
     {
@@ -156,7 +178,7 @@
         "en": "Logo of DA-3",
         "de": "Logo von DA-3"
       },
-        "buttons": {
+      "buttons": {
         "info": "https://www.da-3.de/"
       }
     },
@@ -167,13 +189,97 @@
         "en": "TS4NFDI provides cross-cutting terminology services via APIs, a service portal, and JavaScript/React tools.",
         "de": "TS4NFDI bietet übergreifende Terminologieservices mit API-Zugriff, Serviceportal und JavaScript/React-Tools."
       },
-      "image": "/images/ts4-nfdi-logo@2x.png", 
+      "image": "/images/ts4-nfdi-logo@2x.png",
       "imageAlt": {
         "en": "Logo of TS4",
         "de": "Logo von TS4"
       },
       "buttons": {
-      "info": "https://terminology.services.base4nfdi.de/"
+        "info": "https://terminology.services.base4nfdi.de/"
+      }
+    },
+    {
+      "text": "Basisklassifikation (BK)",
+      "url": "https://www.basisklassifikation.eu/",
+      "description": {
+        "en": "Provides an additional subject-based access point and comprises around 2,100 notations.",
+        "de": "Dient als zusätzlicher Sucheinstieg über Fachgebiete und umfasst rund 2.100 Notationen."
+      },
+      "image": "/images/bk-logo@2x.png",
+      "imageAlt": {
+        "en": "Logo of BK",
+        "de": "Logo von BK"
+      },
+      "buttons": {
+        "info": "https://www.basisklassifikation.eu/"
+      }
+    },
+    {
+      "text": "Regensburger Verbundklassifikation (RVK)",
+      "url": "https://rvk.uni-regensburg.de/regensburger-verbundklassifikation-online",
+      "description": {
+        "en": "A major classification used by 140+ institutions in the German-speaking region.",
+        "de": "Ein bedeutendes Klassifikationssystem, genutzt von über 140 Einrichtungen im deutschsprachigen Raum."
+      },
+      "image": "/images/rvk-logo@2x.png",
+      "imageAlt": {
+        "en": "Logo of rvk",
+        "de": "Logo von rvk"
+      },
+      "buttons": {
+        "info": "https://rvk.uni-regensburg.de/regensburger-verbundklassifikation-online"
+      }
+    },
+    {
+      "text": {
+        "en": "Dewey Decimal Classification (DDC)",
+        "de": "Dewey-Dezimalklassifikation (DDC)"
+      },
+      "url": {
+        "en": "https://en.wikipedia.org/wiki/Dewey_Decimal_Classification",
+        "de": "https://de.wikipedia.org/wiki/Dewey-Dezimalklassifikation"
+      },
+      "description": {
+        "en": "The world’s most widely used library classification, mainly used for catalog searching in Germany.",
+        "de": "Die weltweit am häufigsten genutzte Bibliotheksklassifikation, vor allem für die Katalogsuche in Deutschland."
+      },
+      "image": "/images/ddc-logo@2x.png",
+      "imageAlt": {
+        "en": "ddc",
+        "de": "ddc"
+      },
+      "buttons": {
+        "info": {
+          "en": "https://en.wikipedia.org/wiki/Dewey_Decimal_Classification",
+          "de": "https://de.wikipedia.org/wiki/Dewey-Dezimalklassifikation"
+      },
+        "webDeweySearch": "https://deweysearchde.pansoft.de/webdeweysearch/mainClasses.html",
+        "webDeweyDeutsch": "https://deweyde.pansoft.de/"
+      }
+    },
+    {
+      "text": {
+        "en": "Integrated Authority File (GND)",
+        "de": "Gemeinsame Normdatei (GND)"
+      },
+      "url": {
+        "en": "https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html",
+        "de": "https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html"
+      }, 
+      "description": {
+        "en": "The GND links authority data on people, places, and works across institutions using unique identifiers.",
+        "de": "Die GND verknüpft Normdaten zu Personen, Orten und Werken über eindeutige Identifikatoren institutionsübergreifend."
+      },
+      "image": "/images/gnd-logo@2x.png",
+      "imageAlt": {
+        "en": "gnd",
+        "de": "gnd"
+      },
+      "buttons": {
+        "info": {
+          "en": "https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html",
+          "de": "https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html"
+        }
       }
     }
   ]
