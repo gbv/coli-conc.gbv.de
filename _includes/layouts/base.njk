@@ -109,7 +109,7 @@
     {{ totalcss | safe }}
   </style>
 </head>
-<body id="top" class="{% if hideFundingNote %}hide-funding-note{% endif %}">
+<body id="top">
   {% if js and js.vue %}
   <script src="{{ '/js/vue.min.js' | urla }}"></script>
   {% endif %}
@@ -118,11 +118,9 @@
   {% endif %}
 
   <header class="header">
-    {% if not hideLogo %}
     <div class="coli-conc-logo-small">
       <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
     </div>
-    {% endif %}
 
     <label class="menu-icon" for="menu-button" aria-hidden="true">
       <span class="navicon"></span>
@@ -142,77 +140,30 @@
       {% set contactLink = prefix ~ "/contact/" %}
       {% set publicationsLink = prefix ~ "/publications/" %}
 
-      {# Tool pages: reduce menu (language-independent match) #}
-      {% set isToolPage =
-        page.url.startsWith('/cocoda/') or page.url.startsWith('/de/cocoda/')
-        or page.url.startsWith('/coli-rich/') or page.url.startsWith('/de/coli-rich/')
-        or page.url.startsWith('/coli-ana/') or page.url.startsWith('/de/coli-ana/')
-      %}
+      <li class="{% if page.url == homeLink %}current{% endif %}">
+        <a href="{{ homeLink }}">{{ strings.sections.home | localize }}</a>
+      </li>
 
-      {# Partner pages: also reduce menu (language-independent match) #}
-      {% set isPartnersPage =
-        page.url.startsWith('/partners/') or page.url.startsWith('/de/partners/')
-      %}
+      <li class="{% if page.url.startsWith(prefix ~ '/blog/') %}current{% endif %}">
+        <a href="{{ newsLink }}">{{ strings.sections.news | localize }}</a>
+      </li>
 
-      {# Additional pages that should also get the reduced menu (EN + DE) #}
-      {% set isReducedStaticPage =
-        page.url.startsWith('/erklaerung-zur-barrierefreiheit/') or page.url.startsWith('/de/erklaerung-zur-barrierefreiheit/')
-        or page.url.startsWith('/terminologies/') or page.url.startsWith('/de/terminologies/')
-        or page.url.startsWith('/concordances/') or page.url.startsWith('/de/concordances/')
-        or page.url.startsWith('/ccmapper/') or page.url.startsWith('/de/ccmapper/')
-      %}
+      <li class="{% if page.url.startsWith(prefix ~ '/services/') %}current{% endif %}">
+        <a href="{{ servicesLink }}">{{ strings.sections.services | localize }}</a>
+      </li>
 
-      {# Hard exclude the index pages #}
-      {% set isHome = (page.url == '/' or page.url == '/de/') %}
+      <li class="{% if page.url.startsWith(prefix ~ '/publications/') %}current{% endif %}">
+        <a href="{{ publicationsLink }}">{{ strings.sections.publications | localize }}</a>
+      </li>
 
-      {# Reduced menu pages: Tool pages OR Partners pages OR selected static pages (but never home) #}
-      {% set isReducedMenuPage = (not isHome) and (isToolPage or isPartnersPage or isReducedStaticPage) %}
+      <li class="{% if page.url.startsWith(prefix ~ '/partners/') %}current{% endif %}">
+        <a href="{{ partnersLink }}">{{ strings.pages.partners | localize }}</a>
+      </li>
 
-      {% if isReducedMenuPage %}
+      <li class="{% if page.url.startsWith(prefix ~ '/contact/') %}current{% endif %}">
+        <a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a>
+      </li>
 
-        <li class="{% if page.url == homeLink %}current{% endif %}">
-          <a href="{{ homeLink }}">{{ strings.sections.home | localize }}</a>
-        </li>
-
-        <li class="{% if page.url.startsWith(prefix ~ '/partners/') %}current{% endif %}">
-          <a href="{{ partnersLink }}">{{ strings.pages.partners | localize }}</a>
-        </li>
-
-        <li class="{% if page.url.startsWith(prefix ~ '/contact/') %}current{% endif %}">
-          <a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a>
-        </li>
-
-      {% else %}
-
-        <li class="{% if page.url == homeLink %}current{% endif %}">
-          <a href="{{ homeLink }}">{{ strings.sections.home | localize }}</a>
-        </li>
-
-        <li class="{% if page.url.startsWith(prefix ~ '/blog/') %}current{% endif %}">
-          <a href="{{ newsLink }}">{{ strings.sections.news | localize }}</a>
-        </li>
-
-        <li class="{% if page.url.startsWith(prefix ~ '/services/') %}current{% endif %}">
-          <a href="{{ servicesLink }}">{{ strings.sections.services | localize }}</a>
-        </li>
-
-        <li class="{% if page.url.startsWith(prefix ~ '/publications/') %}current{% endif %}">
-          <a href="{{ publicationsLink }}">{{ strings.sections.publications | localize }}</a>
-        </li>
-
-        {% if not hideProjectsPartners %}
-          <li class="{% if page.url.startsWith(prefix ~ '/partners/') %}current{% endif %}">
-            <a href="{{ partnersLink }}">{{ strings.pages.partners | localize }}</a>
-          </li>
-        {% endif %}
-
-        <li class="{% if page.url.startsWith(prefix ~ '/contact/') %}current{% endif %}">
-          <a href="{{ contactLink }}">{{ strings.sections.contact | localize }}</a>
-        </li>
-
-      {% endif %}
-
-      {# Language switch: ALWAYS shown #}
       <li class="menu-item-language">
         {% if locale == "de" %}
           {% set enUrl = page.url %}
