@@ -3,6 +3,8 @@ layout: layouts/page
 title: Relaunch Basisklassifikation
 ---
 
+{% section "textPadding" %}
+
 ## E Einstieg & Nutzung
 
 *Startseite*
@@ -13,12 +15,18 @@ Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes
 
 #### Neuigkeiten & Updates
 
+{% div "section access", "padding: 0; background: transparent;" %}
+{% div "card", "margin-left: 0; margin-right: 0;" %}
+
 *Termin 1*
 
 - **Veranstaltung:** Österreichischer Verbundtag  
 - **Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
 - **Datum:** 7. Mai 2026  
 - **Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
+
+{% enddiv %}
+{% enddiv %}
 
 *Termin 2*
 
@@ -33,7 +41,9 @@ Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes
 - BK verstehen  
 - Daten & Downloads
 
----
+{% endsection %}
+
+{% section "textPadding" %}
 
 ## Klassifikation
 
@@ -81,7 +91,9 @@ Diese Prinzipien gewährleisten eine strukturierte, thematisch klare und interna
 
 - Klare Trennung von formalen und inhaltlichen Aspekten, wodurch nur der Sachaspekt erfasst wird
 
----
+{% endsection %}
+
+{% section "textPadding" %}
 
 ## Informationen
 
@@ -230,7 +242,9 @@ Eva Pessl
 Rabea Rudigier
 *Österreichische Nationalbibliothek*
 
----
+{% endsection %}
+
+{% section "textPadding" %}
 
 ## Community & Mitarbeit
 
@@ -322,7 +336,9 @@ Staatsbibliothek zu Berlin
 Diana Slawig
 Technische Informationsbibliothek
 
----
+{% endsection %}
+
+{% section "textPadding" %}
 
 ## Services & Daten
 
@@ -349,7 +365,9 @@ JSON
 
 - Beispielanfragen
 
----
+{% endsection %}
+
+{% section "textPadding" %}
 
 ## Aktuelles
 
@@ -363,7 +381,9 @@ Updates zur Klassifikation
 
 #### Community News
 
----
+{% endsection %}
+
+{% section "textPadding" %}
 
 ## Hilfe
 
@@ -375,7 +395,9 @@ FAQ
 
 #### Häufig gestellte Fragen
 
----
+{% endsection %}
+
+{% section "textPadding" %}
 
 ## Über die Website
 
@@ -398,3 +420,5 @@ Uma Balakrishnan
 ### Datenschutz
 
 ### Barrierefreiheit
+
+{% endsection %}
