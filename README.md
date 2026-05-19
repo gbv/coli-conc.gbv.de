@@ -21,22 +21,22 @@ npm run build -- --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io
 This would build the site to be deployed to https://gbv.github.io/coli-conc.gbv.de/. `--pathprefix` is optional and only needed if the site is not deployed to the root folder of a domain. `--url` is always necessary.
 
 ### Development
-A hot-reloading development server is included, though it **only serves the English version** of the site (note that the German version might still be accessible, but only because of an older build; both `build` and `serve` use the `_site` directory).
+A hot-reloading development server is included. It first runs a full local build so German fallback pages are available, then serves the English version at `/` and starts a second Eleventy watcher that rebuilds translated German pages into `_site/de`. The German version is available at `/de/` on the same local server. If you edit an English page that only exists as a German fallback, restart the dev server to refresh its `/de/` copy.
 
 ```bash
 npm run serve
 ```
 
-The site should be served on http://localhost:8080/. If the port is unavailable, the script will increment the port until an available port is found (please refer to the output).
+The site should be served on http://localhost:8080/. To use a different port, run `PORT=8091 npm run serve`.
 
-Alternatively, if hot reloading is not required and you would like to locally preview the whole page (including the German version of the site), building the site is quick, and you can use a simple HTTP server like [http-server](https://www.npmjs.com/package/http-server) to serve the site:
+Alternatively, if hot reloading is not required and you would like to locally preview a production-like build of the whole site, building the site is quick, and you can use a simple HTTP server like [http-server](https://www.npmjs.com/package/http-server) to serve the site:
 
 ```bash
 # Build and run (adjust port if necessary)
 PORT=8091; npm run build -- --url=http://localhost:$PORT; npx http-server -p $PORT _site
 ```
 
-The site should now be served on http://localhost:8081, including the German version.
+The site should now be served on the port from the command above, including the German version.
 
 ## Dependencies on Other Services
 The website links to several services that have to be run independently from hosting the website. It is likely necessary to configure a proxy so that certain services are correctly served under certain subfolders. The following is a (not yet exhaustive) list of those services:
@@ -184,12 +184,13 @@ For most content, you can just navigate to the page on https://gbv.github.io/col
 - Some pages import content from the `_includes` folder (see [below](#shared-markdown-content)). In that case, you need to find the respective file for that. Here is a list of files where this is currently the case:
 
    - The intro text below the Cocoda screenshot on the start page ([English](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/index-intro.md) / [German](https://github.com/gbv/coli-conc.gbv.de/blob/main/de/_includes/index-intro.md))
+   - The start page content ([English/German](https://github.com/gbv/coli-conc.gbv.de/blob/main/_includes/home-content.md)); `en/index.md` defines the page entry point and metadata, and the German start page is generated from it during the full build.
    - The footer text ([English](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/footer.md) / [German](https://github.com/gbv/coli-conc.gbv.de/blob/main/de/_includes/footer.md))
    - The partners page ([English/German](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/partners.md) - Warning: Heavy custom code here. The list of partner institutions and projects is actually defined in a [data file](https://github.com/gbv/coli-conc.gbv.de/blob/main/_data/partners.json))
    - The contact page ([English/German](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/contact.md) - Warning: Also heavy custom code here, but the content is defined inline.)
 
 - If a page is not translated, the Source link will refer to the English version of that page. See [Localization](#localization) for more info.
-- Some pages have heavy custom code, especially the index page ([`/en/index.md`](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/index.md)) and the KOS registry ([`/en/terminologies.md`](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/terminologies.md)). Please be careful when editing those pages.
+- Some pages have heavy custom code, especially the start page content ([`/_includes/home-content.md`](https://github.com/gbv/coli-conc.gbv.de/blob/main/_includes/home-content.md)) and the KOS registry ([`/en/terminologies.md`](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/terminologies.md)). Please be careful when editing those pages.
 
 Here's an explanation of some of the folders/files in this project:
 - `_data` - contains data which will be available to use via Nunjucks in all pages

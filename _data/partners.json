@@ -85,10 +85,7 @@
   "projects": [
     {
       "text": "Mapping Tool Cocoda",
-      "url": {
-        "en": "https://coli-conc.gbv.de/cocoda/",
-        "de": "https://coli-conc.gbv.de/de/cocoda/"
-      },
+      "url": "/cocoda/",
       "description": {
         "en": "Cocoda helps manage mappings between knowledge organization systems.",
         "de": "Cocoda unterstützt die Verwaltung von Mappings zwischen Wissensorganisationssystemen."
@@ -99,16 +96,13 @@
         "de": "Screenshot von Cocoda"
       },
       "buttons": {
-        "info": "https://coli-conc.gbv.de/cocoda/",
-        "start": "https://coli-conc.gbv.de/cocoda/app/"
+        "info": "/cocoda/",
+        "start": "/cocoda/app/"
       }
     },
     {
       "text": "coli-rich",
-      "url": {
-        "en": "https://coli-conc.gbv.de/coli-rich/",
-        "de": "https://coli-conc.gbv.de/de/coli-rich/"
-      },
+      "url": "/coli-rich/",
       "description": {
         "en": "Tool for subject indexing in K10plus using coli-conc mappings.",
         "de": "Tool zur Eintragung von Sacherschließungsdaten in K10plus auf Basis von coli-conc-Mappings."
@@ -119,13 +113,13 @@
         "de": "Screenshot von coli-rich"
       },
       "buttons": {
-        "info": "https://coli-conc.gbv.de/coli-rich/",
-        "start": "https://coli-conc.gbv.de/coli-rich/app/"
+        "info": "/coli-rich/",
+        "start": "/coli-rich/app/"
       }
     },
     {
       "text": "coli-ana",
-      "url": "https://coli-conc.gbv.de/coli-ana/",
+      "url": "/coli-ana/",
       "description": {
         "en": "Analyzes and decomposes synthesized DDC notations.",
         "de": "Analysiert und zerlegt synthetisierte DDC-Notationen."
@@ -136,8 +130,8 @@
         "de": "Screenshot von coli-ana"
       },
       "buttons": {
-        "info": "https://coli-conc.gbv.de/coli-ana/",
-        "start": "https://coli-conc.gbv.de/coli-ana/app/"
+        "info": "/coli-ana/",
+        "start": "/coli-ana/app/"
       }
     },
     {
@@ -200,7 +194,7 @@
     },
     {
       "text": "Basisklassifikation (BK)",
-      "url": "https://www.basisklassifikation.eu/",
+      "url": "/basisklassifikation/",
       "description": {
         "en": "Provides an additional subject-based access point and comprises around 2,100 notations.",
         "de": "Dient als zusätzlicher Sucheinstieg über Fachgebiete und umfasst rund 2.100 Notationen."

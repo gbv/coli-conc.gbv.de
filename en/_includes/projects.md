@@ -18,6 +18,23 @@
 
   <div class="cards-row">
     {%- set prefix = "/de" if locale == "de" else "" -%}
+    {%- macro siteUrl(url, localize = true) -%}
+      {%- set path = "" -%}
+      {%- if url and url.startsWith("https://coli-conc.gbv.de/") -%}
+        {%- set path = url | replace("https://coli-conc.gbv.de", "") -%}
+      {%- elif url and url.startsWith("/") -%}
+        {%- set path = url -%}
+      {%- endif -%}
+      {%- if path -%}
+        {%- if localize and prefix and not path.startsWith("/de/") -%}
+          {{- prefix ~ path -}}
+        {%- else -%}
+          {{- path -}}
+        {%- endif -%}
+      {%- else -%}
+        {{- url -}}
+      {%- endif -%}
+    {%- endmacro -%}
 
     {%- for partner in partners.projects -%}
 
@@ -36,13 +53,7 @@
       {%- set text = partner.text | localize -%}
       {%- set description = partner.description | localize -%}
       {%- set raw_url = partner.url | localize -%}
-
-      {%- if raw_url and raw_url.startsWith("https://coli-conc.gbv.de/") -%}
-        {%- set path = raw_url | replace("https://coli-conc.gbv.de", "") -%}
-        {%- set partner_url = prefix ~ path -%}
-      {%- else -%}
-        {%- set partner_url = raw_url -%}
-      {%- endif -%}
+      {%- set partner_url = siteUrl(raw_url) -%}
 
       <div class="project-card">
         <div class="project-card-header">
@@ -67,12 +78,9 @@
 
               {%- if infoUrl -%}
                 {%- if "/app/" in infoUrl -%}
-                  <a href="{{ infoUrl }}" class="button">Info</a>
-                {%- elif infoUrl.startsWith("https://coli-conc.gbv.de/") -%}
-                  {%- set infoPath = infoUrl | replace("https://coli-conc.gbv.de", "") -%}
-                  <a href="{{ prefix ~ infoPath }}" class="button">Info</a>
+                  <a href="{{ siteUrl(infoUrl, false) }}" class="button">Info</a>
                 {%- else -%}
-                  <a href="{{ infoUrl }}" class="button">Info</a>
+                  <a href="{{ siteUrl(infoUrl) }}" class="button">Info</a>
                 {%- endif -%}
               {%- endif -%}
             {%- endif -%}
@@ -80,12 +88,9 @@
             {# Start-Button #}
             {%- if btns.start -%}
               {%- if "/app/" in btns.start -%}
-                <a href="{{ btns.start }}" class="button">Start</a>
-              {%- elif btns.start.startsWith("https://coli-conc.gbv.de/") -%}
-                {%- set startPath = btns.start | replace("https://coli-conc.gbv.de", "") -%}
-                <a href="{{ prefix ~ startPath }}" class="button">Start</a>
+                <a href="{{ siteUrl(btns.start, false) }}" class="button">Start</a>
               {%- else -%}
-                <a href="{{ btns.start }}" class="button">Start</a>
+                <a href="{{ siteUrl(btns.start) }}" class="button">Start</a>
               {%- endif -%}
             {%- endif -%}
 

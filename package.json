@@ -23,7 +23,7 @@
     "fix": "eslint --fix",
     "lint-staged": "lint-staged",
     "sass": "sass --no-source-map _scss:_includes/css",
-    "serve": "npm run copyStaticDependencies && (sleep 5 && echo 'Warning: Only the English site will be served.') & npm run sass -- --watch & eleventy --serve",
+    "serve": "PORT=${PORT:-8080}; npm run build -- --url=http://localhost:$PORT && (echo \"Serving English at http://localhost:$PORT/ and German at http://localhost:$PORT/de/.\"; npm run sass -- --watch & URL=http://localhost:$PORT/de/ eleventy --watch --input=de --output=_site/de --pathprefix=de & URL=http://localhost:$PORT/ eleventy --serve --port=$PORT)",
     "copyStaticDependencies": "mkdir -p js && cp node_modules/axios/dist/axios.min.js js/axios.min.js && cp node_modules/vue/dist/vue.global.prod.js js/vue.min.js",
     "build": "node scripts/build.js",
     "build-gh": "node scripts/build.js --pathprefix=coli-conc.gbv.de --url=https://gbv.github.io",
