@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(135deg,#f5efe6 0%,#ede4d8 50%,#e8ddd0 100%);
+}
+
+.section.bkPage {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #ffffff;
+  border: 1px solid #e2d5c3;
+  box-shadow: 0 4px 6px rgba(90,62,40,0.04),
+              0 16px 48px rgba(90,62,40,0.10);
+  overflow: visible;
+  padding: 0;
+}
+
+.section.intro,
+.section.section1,
+.section.section2,
+.section.section3,
+.section.section4,
+.section.section5,
+.section.section6,
+.section.section7 {
+  padding: 3rem 4rem 3.5rem;
+  background: transparent;
+}

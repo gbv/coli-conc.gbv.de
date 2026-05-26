@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+
+  <style>
+    {% include "css/base.css" %}
+    {% for css_ in css %}
+      {% include "css/" + css_ + ".css" %}
+    {% endfor %}
+  </style>
+</head>
+
+<body>
+
+  {{ content | safe }}
+
+</body>
+</html>
