@@ -1,9 +1,37 @@
 ---
-layout: layouts/page
-title: Relaunch Basisklassifikation
+originalLanguage: de
+layout: layouts/basisklassifikation
+title: Basisklassifikation
+css: ["basisklassifikation"]
 ---
 
-{% section "textPadding" %}
+{% section "bkPage" %}
+
+{% section "header" %}
+
+<p class="eyebrow">
+  VERANSTALTUNGSANKÜNDIGUNG & PROJEKTINFORMATION
+</p>
+
+<div class="title-block">
+
+  <div class="title-deco"></div>
+ 
+  <div class="title-text">
+    <h1>
+      Relaunch <em>Basisklassifikation</em>
+    </h1>
+
+    <p class="title-sub">
+      Informationsportal zum BK-Relaunch
+    </p>
+  </div>
+
+</div>
+
+{% endsection %}
+
+{% section "intro" %}
 
 ## E Einstieg & Nutzung
 
@@ -15,35 +43,39 @@ Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes
 
 #### Neuigkeiten & Updates
 
-{% div "section access", "padding: 0; background: transparent;" %}
+{% div "section access basisklassifikation", "padding: 0; background: transparent;" %}
 {% div "card", "margin-left: 0; margin-right: 0;" %}
 
-*Termin 1*
+<div class="card-title">TERMIN 1</div>
 
-- **Veranstaltung:** Österreichischer Verbundtag  
-- **Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
-- **Datum:** 7. Mai 2026  
-- **Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
+**Veranstaltung:** Österreichischer Verbundtag  
+**Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
+**Datum:** 7. Mai 2026  
+**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
+
+{% enddiv %}
+
+{% div "card", "margin-left: 0; margin-right: 0;" %}
+
+<div class="card-title">TERMIN 2</div>
+
+**Veranstaltung:** BiblioCon  
+**Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
+**Datum:** 22. Mai 2026  
+**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
 
 {% enddiv %}
 {% enddiv %}
-
-*Termin 2*
-
-- **Veranstaltung:** BiblioCon  
-- **Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
-- **Datum:** 22. Mai 2026  
-- **Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
 
 #### Schnellzugang
 
-- Klassifikation durchsuchen  
-- BK verstehen  
-- Daten & Downloads
+Klassifikation durchsuchen  
+BK verstehen  
+Daten & Downloads
 
 {% endsection %}
 
-{% section "textPadding" %}
+{% section "section1" %}
 
 ## Klassifikation
 
@@ -93,7 +125,7 @@ Diese Prinzipien gewährleisten eine strukturierte, thematisch klare und interna
 
 {% endsection %}
 
-{% section "textPadding" %}
+{% section "section2" %}
 
 ## Informationen
 
@@ -244,7 +276,7 @@ Rabea Rudigier
 
 {% endsection %}
 
-{% section "textPadding" %}
+{% section "section3" %}
 
 ## Community & Mitarbeit
 
@@ -284,25 +316,29 @@ Rabea Rudigier
 
 #### BiblioCon / Österreichischer Verbundtag Mai 2026
 
-Totgesagte leben länger – Relaunch der Basisklassifikation
+{% div "section access", "padding: 0; background: transparent;" %}
+{% div "card", "margin-left: 0; margin-right: 0;" %}
 
-Termin 1
+*Totgesagte leben länger – Relaunch der Basisklassifikation*
 
-Veranstaltung
-Österreichischer Verbundtag
-Datum
-7. Mai 2026
-Vortragende
-Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+*Termin 1*
 
-Termin 2
+**Veranstaltung:** Österreichischer Verbundtag  
+**Datum:** 7. Mai 2026  
+**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
 
-Veranstaltung
-BiblioCon
-Datum
-22. Mai 2026
-Vortragende
-Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+{% enddiv %}
+
+{% div "card", "margin-left: 0; margin-right: 0;" %}
+
+*Termin 2*
+
+**Veranstaltung:** BiblioCon  
+**Datum:** 22. Mai 2026  
+**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
+
+{% enddiv %}
+{% enddiv %}
 
 #### Vortrag Abstract
 
@@ -320,10 +356,14 @@ Anhand konkreter Beispiele – etwa der Notwendigkeit neuer Klassen für die Ukr
 
 #### Anwendertreffen DA-3
 
-Veranstaltung
-Anwendertreffen DA-3
-Datum
-November 2026
+{% div "section access", "padding: 0; background: transparent;" %}
+{% div "card", "margin-left: 0; margin-right: 0;" %}
+
+**Veranstaltung:** Anwendertreffen DA-3  
+**Datum:** November 2026  
+
+{% enddiv %}
+{% enddiv %}
 
 #### Kontakt
 
@@ -338,7 +378,7 @@ Technische Informationsbibliothek
 
 {% endsection %}
 
-{% section "textPadding" %}
+{% section "section4" %}
 
 ## Services & Daten
 
@@ -367,7 +407,7 @@ JSON
 
 {% endsection %}
 
-{% section "textPadding" %}
+{% section "section5" %}
 
 ## Aktuelles
 
@@ -383,7 +423,7 @@ Updates zur Klassifikation
 
 {% endsection %}
 
-{% section "textPadding" %}
+{% section "section6" %}
 
 ## Hilfe
 
@@ -397,7 +437,7 @@ FAQ
 
 {% endsection %}
 
-{% section "textPadding" %}
+{% section "section7" %}
 
 ## Über die Website
 
@@ -420,5 +460,26 @@ Uma Balakrishnan
 ### Datenschutz
 
 ### Barrierefreiheit
+
+{% endsection %}
+
+{% section "footer" %}
+
+<div class="footer-left">
+  <p class="footer-label">Impressum</p>
+
+  <p class="footer-company">
+    Verbundzentrale des GBV (VZG)<br>
+    <span>
+      Platz der Göttinger Sieben 1, 37073 Göttingen · Uma Balakrishnan
+    </span>
+  </p>
+</div>
+
+<div class="footer-right">
+  Relaunch Basisklassifikation | Informationsportal
+</div>
+
+{% endsection %}
 
 {% endsection %}
