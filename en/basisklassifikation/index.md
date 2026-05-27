@@ -34,25 +34,26 @@ css: ["basisklassifikation"]
 
 {% section "intro" %}
 
-## E Einstieg & Nutzung
+<p class="section-eyebrow">Startseite</p>
 
-_Startseite_
-
-### Einstieg & Nutzung
+<h2 class="section-title">Einstieg &amp; <em>Nutzung</em></h2>
 
 Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes hierarchisches Klassifikationssystem zur systematischen Ordnung von Wissen und Literatur, welches aus 2086 Klassen mit Haupt- und Unterklassen besteht. Die BK wurde entwickelt, um eine einfache, aber umfassende Erschließung von Medieninhalten in Bibliotheken und anderen Informationseinrichtungen zu ermöglichen.
 
 - The Basisklassifikation page is currenty only available in German.
 
-#### Neuigkeiten & Updates
+<p class="sub-heading">Neuigkeiten &amp; Updates</p>
 
 - Please continue to the [German version]({{ "/de/basisklassifikation/" | url }}).
   {% div "section access basisklassifikation", "padding: 0; background: transparent;" %}
   {% div "card", "margin-left: 0; margin-right: 0;" %}
 
-<div class="card-title">TERMIN 1</div>
+<p class="label-tag">Termin 1</p>
 
-**Veranstaltung:** Österreichischer Verbundtag  
+<span class="field-label">Veranstaltung</span>
+
+<span class="field-value large">Österreichischer Verbundtag</span>
+
 **Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
 **Datum:** 7. Mai 2026  
 **Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
@@ -61,9 +62,12 @@ Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes
 
 {% div "card", "margin-left: 0; margin-right: 0;" %}
 
-<div class="card-title">TERMIN 2</div>
+<p class="label-tag">Termin 2</p>
 
-**Veranstaltung:** BiblioCon  
+<span class="field-label">Veranstaltung</span>
+
+<span class="field-value large">Österreichischer Verbundtag</span>
+
 **Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
 **Datum:** 22. Mai 2026  
 **Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
@@ -71,7 +75,7 @@ Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes
 {% enddiv %}
 {% enddiv %}
 
-#### Schnellzugang
+<p class="sub-heading">Schnellzugang</p>
 
 Klassifikation durchsuchen  
 BK verstehen  
@@ -81,25 +85,22 @@ Daten & Downloads
 
 {% section "section1" %}
 
-## Klassifikation
+<p class="section-eyebrow">Abschnitt 1</p>
 
-_Abschnitt 1_
+<h2 class="section-title">Die <em>Klassifikation</em></h2>
 
-### Die Klassifikation
+<p class="label-tag">1.1 — Überblick</p>
 
-_1.1 — Überblick_
-
-#### Was ist die Basisklassifikation?
+<p class="sub-heading">Was ist die Basisklassifikation?</p>
 
 Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes hierarchisches Klassifikationssystem zur systematischen Ordnung von Wissen und Literatur, welches aus 2086 Klassen mit Haupt- und Unterklassen besteht. Die BK wurde entwickelt, um eine einfache, aber umfassende Erschließung von Medieninhalten in Bibliotheken und anderen Informationseinrichtungen zu ermöglichen.
 
 Die Klassifizierung wurde Ende der 1980er Jahre unter Leitung der Königlichen Bibliothek der Niederlande eingeführt und ist seit 1990 in Gebrauch. Seither wird sie immer wieder neu bearbeitet. Die BK wird vor allem in den Niederlanden sowie im Gemeinsamen Bibliotheksverbund (GBV) verwendet. Der Österreichische Bibliothekenverbund setzt seit 2009 die Basisklassifikation als zusätzliches Schema zur Sacherschließung ein.
 
-_1.2 — Konzept und Methodik_
+<p class="label-tag">1.2 — Konzept und Methodik</p>
 
-#### Prinzipien der Wissensorganisation
+<p class="sub-heading">Prinzipien der Wissensorganisation</p>
 
-f
 Die Basisklassifikation ist aufgeteilt in 5 Bereiche mit insgesamt 48 Hauptklassen und 2086 Unterklassen.
 
 - **Hierarchische Ordnung:** Die BK ist klar hierarchisch aufgebaut. Jede Notation mit dem Format NN.NN zeigt die Einordnung in Haupt- und Unterklassen und stellt Beziehungen zwischen Sachgebieten her.
@@ -118,7 +119,7 @@ Diese Prinzipien gewährleisten eine strukturierte, thematisch klare und interna
 
 _Quelle: bk.txt_
 
-#### Vorteile der BK
+<p class="sub-heading">Vorteile der BK</p>
 
 - Hohe Übersichtlichkeit durch die festgelegte Notationsstruktur+
 
@@ -132,21 +133,19 @@ _Quelle: bk.txt_
 
 {% section "section2" %}
 
-## Informationen
+<p class="section-eyebrow">Abschnitt 2</p>
 
-_Abschnitt 2_
+<h2 class="section-title"><em>Informationen</em></h2>
 
-### Informationen
+<p class="label-tag">Der BK-Relaunch</p>
 
-_Der BK-Relaunch_
-
-#### Ziele
+<p class="sub-heading">Ziele</p>
 
 Das erste Ziel ist die Modernisierung und Aktualisierung der Basisklassifikation. Die letzte Überarbeitung fand vor ca. 20 Jahren statt. In der Zwischenzeit haben sich Wissenschaft und Gesellschaft stark gewandelt. Ein wichtiger Punkt der Überarbeitung ist es daher, den bisher bestehenden Eurozentrismus aufzuweichen.
 
 Ein weiteres Ziel ist es, die Basisklassifikation so weiterzuentwickeln, dass sie sowohl die computerunterstützte Inhaltserschließung als auch das Training KI-basierter Verfahren unterstützt. Ergänzend soll eine ständige BK-Redaktion eingerichtet werden, die eine kontinuierliche Anpassung der BK an zukünftige Anforderungen sicherstellt.
 
-#### Was ist bei der Überarbeitung wichtig
+<p class="sub-heading">Was ist bei der Überarbeitung wichtig</p>
 
 - Ein Relaunch der Basisklassifikation muss pragmatisch und restriktiv erfolgen – die Kontinuität der bisherigen Notationen soll gewahrt werden.
 
@@ -160,7 +159,7 @@ Ein weiteres Ziel ist es, die Basisklassifikation so weiterzuentwickeln, dass si
 
 - Vorschläge zur inhaltlichen Erschließung machen, die in halbautomatischen Tools wie dem Digitalen Assistenten (DA-3) redaktionell ausgewählt und übernommen werden.
 
-#### Roadmap
+<p class="sub-heading">Roadmap</p>
 
 - April — Redaktionssitzung in Zürich
 
@@ -180,16 +179,16 @@ Ein weiteres Ziel ist es, die Basisklassifikation so weiterzuentwickeln, dass si
 
 - Fortlaufend — Umkategorisierung
 
-_2.4 — Beispiele der Anwendung_
+<p class="label-tag">2.4 — Beispiele der Anwendung</p>
 
-#### Beispiele aus der Praxis
+<p class="sub-heading">Beispiele aus der Praxis</p>
 
 - Bibliothekskataloge
 - Discovery-Systeme
 - Forschungsportale
 - Metadatenprojekte
 
-#### Klassifikationslogik
+<p class="sub-heading">Klassifikationslogik</p>
 
 Die Basisklassifikation (BK) ist ein hierarchisches Klassifikationssystem, das aus 2086 Klassen besteht. Das Notationsformat ist immer NN.NN – zwei Zifferngruppen zu je zwei Ziffern. Die erste Gruppe kennzeichnet eine Hauptklasse (grobes Sachgebiet), die zweite Ebene spezifiziert das Thema innerhalb dieses Gebiets.
 
@@ -217,7 +216,7 @@ Die Systematik ermöglicht eine konsistente, systematische und transparente Ersc
 
 _Quelle: bk.txt_
 
-#### Unterschied zu anderen Klassifikationen
+<p class="sub-heading">Unterschied zu anderen Klassifikationen</p>
 
 Die Basisklassifikation (BK) unterscheidet sich von anderen Klassifikationssystemen (wie z.B. der Dewey Decimal Classification oder der Universal Decimal Classification) insbesondere durch folgende Merkmale:
 
@@ -233,7 +232,7 @@ Die Basisklassifikation (BK) unterscheidet sich von anderen Klassifikationssyste
 
 Im Unterschied zu DDC/UDC oder nationalen Spezialklassifikationen steht bei der Basisklassifikation somit stets die klare, nachnutzbare und vereinfachte Inhaltserschließung (fachsystematisch und aspektbezogen) im Vordergrund.
 
-#### Vergleich zu anderen Klassifikationen (RVK, DDC u. a.)
+<p class="sub-heading">Vergleich zu anderen Klassifikationen (RVK, DDC u. a.)</p>
 
 Die Basisklassifikation (BK) und die Regensburger Verbundklassifikation (RVK) sind beides bibliothekarische Ordnungssysteme, unterscheiden sich jedoch deutlich in Systematik, Zielsetzung und Anwendung:
 
@@ -249,9 +248,9 @@ Die Basisklassifikation (BK) und die Regensburger Verbundklassifikation (RVK) si
 
 Fazit: Die BK steht für Übersichtlichkeit, Schnelligkeit und breite Anwendbarkeit. Die RVK bietet deutlich höhere inhaltliche und formale Differenzierung, ist aber komplexer in der Pflege und Anwendung.
 
-_Governance & Organisation_
+<p class="label-tag">Governance &amp; Organisation</p>
 
-#### BK-Redaktion
+<p class="sub-heading">BK-Redaktion</p>
 
 ##### GBV / SWB (K10plus)
 
@@ -282,15 +281,13 @@ _Österreichische Nationalbibliothek_
 
 {% section "section3" %}
 
-## Community & Mitarbeit
+<p class="section-eyebrow">Abschnitt 3</p>
 
-_Abschnitt 3_
+<h2 class="section-title">Community &amp; <em>Mitarbeit</em></h2>
 
-### Community & Mitarbeit
+<p class="label-tag">3.1 — Mitarbeit</p>
 
-_3.1 — Mitarbeit_
-
-#### Wie Bibliotheken beitragen können
+<p class="sub-heading">Wie Bibliotheken beitragen können</p>
 
 - Vorschläge für Änderungen einreichen
 
@@ -298,9 +295,9 @@ _3.1 — Mitarbeit_
 
 - Versionierungen nachverfolgen
 
-_3.2 — Netzwerk_
+<p class="label-tag">3.2 — Netzwerk</p>
 
-#### Beteiligte Institutionen & Partner
+<p class="sub-heading">Beteiligte Institutionen &amp; Partner</p>
 
 - Beteiligte Bibliotheken
 
@@ -310,7 +307,7 @@ _3.2 — Netzwerk_
 
 _3.3 — Veranstaltungen & Workshops_
 
-#### Veranstaltungen
+<p class="sub-heading">Veranstaltungen</p>
 
 - Schulungen
 
@@ -318,14 +315,14 @@ _3.3 — Veranstaltungen & Workshops_
 
 - Präsentationen
 
-#### BiblioCon / Österreichischer Verbundtag Mai 2026
+<p class="sub-heading">BiblioCon / Österreichischer Verbundtag Mai 2026</p>
 
 {% div "section access", "padding: 0; background: transparent;" %}
 {% div "card", "margin-left: 0; margin-right: 0;" %}
 
 _Totgesagte leben länger – Relaunch der Basisklassifikation_
 
-_Termin 1_
+<p class="label-tag">Termin 1</p>
 
 **Veranstaltung:** Österreichischer Verbundtag  
 **Datum:** 7. Mai 2026  
@@ -335,7 +332,7 @@ _Termin 1_
 
 {% div "card", "margin-left: 0; margin-right: 0;" %}
 
-_Termin 2_
+<p class="label-tag">Termin 2</p>
 
 **Veranstaltung:** BiblioCon  
 **Datum:** 22. Mai 2026  
@@ -344,7 +341,7 @@ _Termin 2_
 {% enddiv %}
 {% enddiv %}
 
-#### Vortrag Abstract
+<p class="sub-heading" style="margin-top:2rem;">Vortrag Abstract</p>
 
 Die Basisklassifikation (BK) ist ein etabliertes Klassifikationssystem zur Sacherschließung in Bibliotheken und Informationseinrichtungen. Ihre klare Struktur und breite Anwendbarkeit machen sie seit Jahrzehnten zu einem zentralen Werkzeug für die systematische Ordnung von Wissen. Doch die letzte Überarbeitung liegt über 10 Jahre zurück – die Anforderungen an moderne Erschließungssysteme und die Schwerpunkte in der aktuellen Forschung haben sich grundlegend verändert.
 
@@ -358,7 +355,7 @@ Der Vortrag stellt den aktuellen Relaunch-Prozess der BK vor, der auf drei zentr
 
 Anhand konkreter Beispiele – etwa der Notwendigkeit neuer Klassen für die Ukraine, die Geschichte der Schweiz, performative Kunstformen und der Interdisziplinarität der Quantentechnologien – wird gezeigt, wie verbundübergreifende, redaktionelle Arbeit, technologische Innovation und wissenschaftlicher Diskurs zusammenwirken, um ein zukunftsfähiges Klassifikationssystem zu gestalten.
 
-#### Anwendertreffen DA-3
+<p class="sub-heading">Anwendertreffen DA-3</p>
 
 {% div "section access", "padding: 0; background: transparent;" %}
 {% div "card", "margin-left: 0; margin-right: 0;" %}
@@ -369,7 +366,7 @@ Anhand konkreter Beispiele – etwa der Notwendigkeit neuer Klassen für die Ukr
 {% enddiv %}
 {% enddiv %}
 
-#### Kontakt
+<p class="sub-heading">Kontakt</p>
 
 Rabea Rudigier
 Österreichische Nationalbibliothek
@@ -384,24 +381,22 @@ Technische Informationsbibliothek
 
 {% section "section4" %}
 
-## Services & Daten
+<p class="section-eyebrow">Abschnitt 4</p>
 
-_Abschnitt 4_
+<h2 class="section-title">Services &amp; <em>Daten</em></h2>
 
-### Services & Daten
+<p class="label-tag">4.1 — Downloads</p>
 
-4.1 — Downloads
-
-#### Datenformate
+<p class="sub-heading">Datenformate</p>
 
 CSV
 RDF
 SKOS
 JSON
 
-4.2 — API / Linked Data
+<p class="label-tag">4.2 — API / Linked Data</p>
 
-#### Schnittstelle & technische Dokumentation
+<p class="sub-heading">Schnittstelle &amp; technische Dokumentation</p>
 
 - Schnittstelle
 
@@ -413,43 +408,37 @@ JSON
 
 {% section "section5" %}
 
-## Aktuelles
+<p class="section-eyebrow">Abschnitt 5</p>
 
-_Abschnitt 5_
+<h2 class="section-title"><em>Aktuelles</em></h2>
 
-### Aktuelles
+<p class="label-tag">Updates zur Klassifikation</p>
 
-Updates zur Klassifikation
+<p class="sub-heading">Neue Versionen</p>
 
-#### Neue Versionen
-
-#### Community News
+<p class="sub-heading">Community News</p>
 
 {% endsection %}
 
 {% section "section6" %}
 
-## Hilfe
+<p class="section-eyebrow">Abschnitt 6</p>
 
-_Abschnitt 6_
+<h2 class="section-title"><em>Hilfe</em></h2>
 
-#### Hilfe
+<p class="label-tag">FAQ</p>
 
-FAQ
-
-#### Häufig gestellte Fragen
+<p class="sub-heading">Häufig gestellte Fragen</p>
 
 {% endsection %}
 
 {% section "section7" %}
 
-## Über die Website
+<p class="section-eyebrow">Abschnitt 7</p>
 
-_Abschnitt 7_
+<h2 class="section-title">Über die <em>Website</em></h2>
 
-### Über die Website
-
-Rechtliches & Kontakt
+<p class="label-tag">Rechtliches &amp; Kontakt</p>
 
 Impressum
 
@@ -461,9 +450,9 @@ Kontakt
 
 Uma Balakrishnan
 
-### Datenschutz
+<p class="sub-heading">Datenschutz</p>
 
-### Barrierefreiheit
+<p class="sub-heading">Barrierefreiheit</p>
 
 {% endsection %}
 
@@ -477,6 +466,7 @@ Uma Balakrishnan
       Verbundzentrale des GBV (VZG)<br>
      <span style="font-size:0.68rem;color:#b89878;">Platz der Göttinger Sieben 1, 37073 Göttingen &nbsp;·&nbsp; Uma Balakrishnan</span>
     </p>
+
   </div>
 
   <p class="footer-text">

@@ -87,6 +87,64 @@ body {
   background: transparent;
 }
 
+.section-eyebrow {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #b89878;
+    margin-bottom: 0.6rem;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4a3220;
+    line-height: 1.2;
+    margin-bottom: 1.8rem;
+}
+
+.section-title em {
+    font-style: italic;
+    color: #8c6848;
+}
+
+.sub-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #4a3220;
+    margin-bottom: 0.8rem;
+    margin-top: 2rem;
+}
+
+.label-tag {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #b07840;
+    margin-bottom: 0.5rem;
+}
+
+.field-label {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.58rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #b89878;
+}
+
+.field-value.large {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: #4a3220;
+}
+
 .section.footer {
   background: #4a3220;
   padding: 0;
