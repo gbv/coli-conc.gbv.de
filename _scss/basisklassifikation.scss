@@ -2,6 +2,68 @@ body {
   background: linear-gradient(135deg,#f5efe6 0%,#ede4d8 50%,#e8ddd0 100%);
 }
 
+.header {
+    padding: 3.5rem 4rem 2.5rem;
+    border-bottom: 1px solid #e2d5c3;
+    position: relative;
+}
+
+.top-bar {
+    background: #4a3220;
+    height: 7px;
+}
+
+.eyebrow {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 0.7rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: #b07840;
+    margin-bottom: 1.2rem;
+}
+
+.title-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.title-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.12;
+    color: #4a3220;
+    letter-spacing: -0.01em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title-text h1 em {
+    font-style: italic;
+    color: #8c6848;
+}
+
+.title-sub {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 0.82rem;
+    letter-spacing: 0.12em;
+    color:#8c6848;
+    margin-top: 0.5rem;
+}
+
+.title-deco {
+    flex-shrink: 0;
+    width: 3px;
+    height: 70px;
+    background: linear-gradient(to bottom, #4a3220, #b89878);
+    margin-top: 4px;
+}
+
 .section.bkPage {
   max-width: 900px;
   margin: 2rem auto;
@@ -23,4 +85,51 @@ body {
 .section.section7 {
   padding: 3rem 4rem 3.5rem;
   background: transparent;
+}
+
+.section.footer {
+  background: #4a3220;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+    background: #4a3220;
+    padding: 1.4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer p {
+  margin: 4.5px;
+}
+
+.footer-label {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.55rem;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #b89878;
+}
+
+.footer-company {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.70rem;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #faf7f3;
+    line-height: 1.8;
+}
+
+.footer-text {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.60rem;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #b89878;
+    text-align: right;
 }

@@ -7,6 +7,8 @@ css: ["basisklassifikation"]
 
 {% section "bkPage" %}
 
+<div class="top-bar"></div>
+
 {% section "header" %}
 
 <p class="eyebrow">
@@ -22,9 +24,8 @@ css: ["basisklassifikation"]
       Relaunch <em>Basisklassifikation</em>
     </h1>
 
-    <p class="title-sub">
-      Informationsportal zum BK-Relaunch
-    </p>
+   <p class="title-sub">Informationsportal zum BK-Relaunch</p>
+
   </div>
 
 </div>
@@ -35,25 +36,26 @@ css: ["basisklassifikation"]
 
 ## E Einstieg & Nutzung
 
-*Startseite*
+_Startseite_
 
 ### Einstieg & Nutzung
 
 Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes hierarchisches Klassifikationssystem zur systematischen Ordnung von Wissen und Literatur, welches aus 2086 Klassen mit Haupt- und Unterklassen besteht. Die BK wurde entwickelt, um eine einfache, aber umfassende Erschließung von Medieninhalten in Bibliotheken und anderen Informationseinrichtungen zu ermöglichen.
 
 - The Basisklassifikation page is currenty only available in German.
+
 #### Neuigkeiten & Updates
 
 - Please continue to the [German version]({{ "/de/basisklassifikation/" | url }}).
-{% div "section access basisklassifikation", "padding: 0; background: transparent;" %}
-{% div "card", "margin-left: 0; margin-right: 0;" %}
+  {% div "section access basisklassifikation", "padding: 0; background: transparent;" %}
+  {% div "card", "margin-left: 0; margin-right: 0;" %}
 
 <div class="card-title">TERMIN 1</div>
 
 **Veranstaltung:** Österreichischer Verbundtag  
 **Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
 **Datum:** 7. Mai 2026  
-**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
+**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
 
 {% enddiv %}
 
@@ -81,11 +83,11 @@ Daten & Downloads
 
 ## Klassifikation
 
-*Abschnitt 1*
+_Abschnitt 1_
 
 ### Die Klassifikation
 
-*1.1 — Überblick*
+_1.1 — Überblick_
 
 #### Was ist die Basisklassifikation?
 
@@ -93,9 +95,10 @@ Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes
 
 Die Klassifizierung wurde Ende der 1980er Jahre unter Leitung der Königlichen Bibliothek der Niederlande eingeführt und ist seit 1990 in Gebrauch. Seither wird sie immer wieder neu bearbeitet. Die BK wird vor allem in den Niederlanden sowie im Gemeinsamen Bibliotheksverbund (GBV) verwendet. Der Österreichische Bibliothekenverbund setzt seit 2009 die Basisklassifikation als zusätzliches Schema zur Sacherschließung ein.
 
-*1.2 — Konzept und Methodik*
+_1.2 — Konzept und Methodik_
 
 #### Prinzipien der Wissensorganisation
+
 f
 Die Basisklassifikation ist aufgeteilt in 5 Bereiche mit insgesamt 48 Hauptklassen und 2086 Unterklassen.
 
@@ -113,7 +116,7 @@ Die Basisklassifikation ist aufgeteilt in 5 Bereiche mit insgesamt 48 Hauptklass
 
 Diese Prinzipien gewährleisten eine strukturierte, thematisch klare und international nachnutzbare Ordnung und Wiederauffindbarkeit von Wissen innerhalb fächerübergreifender Systeme wie Bibliotheken.
 
-*Quelle: bk.txt*
+_Quelle: bk.txt_
 
 #### Vorteile der BK
 
@@ -131,11 +134,11 @@ Diese Prinzipien gewährleisten eine strukturierte, thematisch klare und interna
 
 ## Informationen
 
-*Abschnitt 2*
+_Abschnitt 2_
 
 ### Informationen
 
-*Der BK-Relaunch*
+_Der BK-Relaunch_
 
 #### Ziele
 
@@ -177,8 +180,7 @@ Ein weiteres Ziel ist es, die Basisklassifikation so weiterzuentwickeln, dass si
 
 - Fortlaufend — Umkategorisierung
 
-
-*2.4 — Beispiele der Anwendung*
+_2.4 — Beispiele der Anwendung_
 
 #### Beispiele aus der Praxis
 
@@ -204,8 +206,8 @@ Grundprinzipien der Klassifikationslogik:
 - Strukturierte Stellen wie „Geschichte", „Philosophie und Theorie", „Methoden und Techniken" zu Beginn einer Hauptklasse sind für Gesamtdarstellungen gedacht, können aber bei Bedarf ergänzend vergeben werden.
 
 - Die Kategorie „Sonstiges" (meist xx.99) darf nur verwendet werden, wenn kein passender spezifischer Begriff gefunden wird.
-Aspekte wie Zeit und Form werden nicht über die BK-Notation abgebildet, sondern über andere Sacherschließungselemente (z.B. Zeitschlagwörter, Formangaben).
-Formal- und Sachaspekt sind strikt zu trennen. Die Hauptklasse 01.00 ist nur für fachübergreifende Literatur gedacht und darf nicht für formale Publikationstypen (wie z. B. Adressbücher, Schulbücher) ergänzend genutzt werden.
+  Aspekte wie Zeit und Form werden nicht über die BK-Notation abgebildet, sondern über andere Sacherschließungselemente (z.B. Zeitschlagwörter, Formangaben).
+  Formal- und Sachaspekt sind strikt zu trennen. Die Hauptklasse 01.00 ist nur für fachübergreifende Literatur gedacht und darf nicht für formale Publikationstypen (wie z. B. Adressbücher, Schulbücher) ergänzend genutzt werden.
 
 Die Vergabe der Notation erfolgt nie ausschließlich über Registerbegriffe, sondern immer durch Prüfung des tatsächlichen Inhalts und der Systemstelle, um Mehrdeutigkeiten und fehlerhafte Zuordnungen zu vermeiden.
 
@@ -213,7 +215,7 @@ Beispiel: Umweltbelastung durch Industrie, Verkehr und private Haushalte: 43.50 
 
 Die Systematik ermöglicht eine konsistente, systematische und transparente Erschließung und Recherche von Publikationen nach Sachaspekten.
 
-*Quelle: bk.txt*
+_Quelle: bk.txt_
 
 #### Unterschied zu anderen Klassifikationen
 
@@ -247,34 +249,34 @@ Die Basisklassifikation (BK) und die Regensburger Verbundklassifikation (RVK) si
 
 Fazit: Die BK steht für Übersichtlichkeit, Schnelligkeit und breite Anwendbarkeit. Die RVK bietet deutlich höhere inhaltliche und formale Differenzierung, ist aber komplexer in der Pflege und Anwendung.
 
-*Governance & Organisation*
+_Governance & Organisation_
 
 #### BK-Redaktion
 
 ##### GBV / SWB (K10plus)
 
 Uma Balakrishnan
-*GBV / K10plus*
+_GBV / K10plus_
 
 Regine Beckmann
-*Staatsbibliothek zu Berlin*
+_Staatsbibliothek zu Berlin_
 
 Armin Kühn
-*BSZ Baden-Württemberg*
+_BSZ Baden-Württemberg_
 
 Diana Slawig
-*Technische Informationsbibliothek*
+_Technische Informationsbibliothek_
 
 ##### OBV
 
 Martina Cuba
-*Universität Wien*
+_Universität Wien_
 
 Eva Pessl
-*Universität Graz*
+_Universität Graz_
 
 Rabea Rudigier
-*Österreichische Nationalbibliothek*
+_Österreichische Nationalbibliothek_
 
 {% endsection %}
 
@@ -282,11 +284,11 @@ Rabea Rudigier
 
 ## Community & Mitarbeit
 
-*Abschnitt 3*
+_Abschnitt 3_
 
 ### Community & Mitarbeit
 
-*3.1 — Mitarbeit*
+_3.1 — Mitarbeit_
 
 #### Wie Bibliotheken beitragen können
 
@@ -296,7 +298,7 @@ Rabea Rudigier
 
 - Versionierungen nachverfolgen
 
-*3.2 — Netzwerk*
+_3.2 — Netzwerk_
 
 #### Beteiligte Institutionen & Partner
 
@@ -306,7 +308,7 @@ Rabea Rudigier
 
 - Eurospider Information Technology AG
 
-*3.3 — Veranstaltungen & Workshops*
+_3.3 — Veranstaltungen & Workshops_
 
 #### Veranstaltungen
 
@@ -321,23 +323,23 @@ Rabea Rudigier
 {% div "section access", "padding: 0; background: transparent;" %}
 {% div "card", "margin-left: 0; margin-right: 0;" %}
 
-*Totgesagte leben länger – Relaunch der Basisklassifikation*
+_Totgesagte leben länger – Relaunch der Basisklassifikation_
 
-*Termin 1*
+_Termin 1_
 
 **Veranstaltung:** Österreichischer Verbundtag  
 **Datum:** 7. Mai 2026  
-**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
+**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
 
 {% enddiv %}
 
 {% div "card", "margin-left: 0; margin-right: 0;" %}
 
-*Termin 2*
+_Termin 2_
 
 **Veranstaltung:** BiblioCon  
 **Datum:** 22. Mai 2026  
-**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan  
+**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
 
 {% enddiv %}
 {% enddiv %}
@@ -362,7 +364,7 @@ Anhand konkreter Beispiele – etwa der Notwendigkeit neuer Klassen für die Ukr
 {% div "card", "margin-left: 0; margin-right: 0;" %}
 
 **Veranstaltung:** Anwendertreffen DA-3  
-**Datum:** November 2026  
+**Datum:** November 2026
 
 {% enddiv %}
 {% enddiv %}
@@ -384,7 +386,7 @@ Technische Informationsbibliothek
 
 ## Services & Daten
 
-*Abschnitt 4*
+_Abschnitt 4_
 
 ### Services & Daten
 
@@ -413,7 +415,7 @@ JSON
 
 ## Aktuelles
 
-*Abschnitt 5*
+_Abschnitt 5_
 
 ### Aktuelles
 
@@ -429,7 +431,7 @@ Updates zur Klassifikation
 
 ## Hilfe
 
-*Abschnitt 6*
+_Abschnitt 6_
 
 #### Hilfe
 
@@ -443,7 +445,7 @@ FAQ
 
 ## Über die Website
 
-*Abschnitt 7*
+_Abschnitt 7_
 
 ### Über die Website
 
@@ -467,20 +469,20 @@ Uma Balakrishnan
 
 {% section "footer" %}
 
-<div class="footer-left">
-  <p class="footer-label">Impressum</p>
+<footer class="footer">
+  <div>
+    <p class="footer-label">Impressum</p>
 
-  <p class="footer-company">
-    Verbundzentrale des GBV (VZG)<br>
-    <span>
-      Platz der Göttinger Sieben 1, 37073 Göttingen · Uma Balakrishnan
-    </span>
+    <p class="footer-company">
+      Verbundzentrale des GBV (VZG)<br>
+     <span style="font-size:0.68rem;color:#b89878;">Platz der Göttinger Sieben 1, 37073 Göttingen &nbsp;·&nbsp; Uma Balakrishnan</span>
+    </p>
+  </div>
+
+  <p class="footer-text">
+    Relaunch Basisklassifikation | Informationsportal
   </p>
-</div>
-
-<div class="footer-right">
-  Relaunch Basisklassifikation | Informationsportal
-</div>
+</footer>
 
 {% endsection %}
 
