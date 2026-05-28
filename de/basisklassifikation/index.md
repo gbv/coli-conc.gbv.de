@@ -45,6 +45,10 @@ css: ["basisklassifikation"]
 
 </div>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="sub-heading">Neuigkeiten &amp; Updates</p>
 
 <p class="prose">Please continue to the <a href="{{ '/de/basisklassifikation/' | url }}">German version</a>.</p>
@@ -111,6 +115,10 @@ css: ["basisklassifikation"]
 
 </div>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="sub-heading">Schnellzugang</p>
 
 <div class="cta-row">
@@ -135,6 +143,10 @@ css: ["basisklassifikation"]
 
 <p class="prose">Die Klassifizierung wurde Ende der 1980er Jahre unter Leitung der Königlichen Bibliothek der Niederlande eingeführt und ist seit 1990 in Gebrauch. Seither wird sie immer wieder neu bearbeitet. Die BK wird vor allem in den Niederlanden sowie im Gemeinsamen Bibliotheksverbund (GBV) verwendet. Der Österreichische Bibliothekenverbund setzt seit 2009 die Basisklassifikation als zusätzliches Schema zur Sacherschließung ein.</p>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="label-tag">1.2 — Konzept und Methodik</p>
 
 <p class="sub-heading">Prinzipien der Wissensorganisation</p>
@@ -153,6 +165,10 @@ css: ["basisklassifikation"]
 <p class="prose" style="margin-top:1rem;">Diese Prinzipien gewährleisten eine strukturierte, thematisch klare und international nachnutzbare Ordnung und Wiederauffindbarkeit von Wissen innerhalb fächerübergreifender Systeme wie Bibliotheken.</p>
 
 <p style="font-family:'Jost',sans-serif;font-size:0.65rem;font-weight:300;color:#b89878;margin-top:0.5rem;letter-spacing:0.05em;">Quelle: bk.txt</p>
+
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
 
 <p class="sub-heading">Vorteile der BK</p>
 
@@ -179,6 +195,10 @@ css: ["basisklassifikation"]
 
 <p class="prose">Ein weiteres Ziel ist es, die Basisklassifikation so weiterzuentwickeln, dass sie sowohl die computerunterstützte Inhaltserschließung als auch das Training KI-basierter Verfahren unterstützt. Ergänzend soll eine ständige BK-Redaktion eingerichtet werden, die eine kontinuierliche Anpassung der BK an zukünftige Anforderungen sicherstellt.</p>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="sub-heading">Was ist bei der Überarbeitung wichtig</p>
 
 <ul class="bk-list">
@@ -190,25 +210,27 @@ css: ["basisklassifikation"]
       <li>Vorschläge zur inhaltlichen Erschließung machen, die in halbautomatischen Tools wie dem Digitalen Assistenten (DA-3) redaktionell ausgewählt und übernommen werden.</li>
 </ul>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="sub-heading">Roadmap</p>
 
-- April — Redaktionssitzung in Zürich
+<ul class="roadmap">
+      <li><strong>April</strong> — Redaktionssitzung in Zürich</li>
+      <li><strong>April – Mai</strong> — Erstellen von Scope Notes / Beschreibungen</li>
+      <li><strong>Mai – Juli</strong> — Expert:innen über die Vorschläge schauen lassen</li>
+      <li><strong>Juli</strong> — Abgleich</li>
+      <li><strong>September</strong> — Einpflege in DANTE</li>
+      <li><strong>Sep. – Okt.</strong> — Verweise erstellen / überprüfen</li>
+      <li><strong>Ende Oktober</strong> — BK Relaunch 1.0</li>
+      <li><strong>November</strong> — Kommunikation (u. a. DA-3-Workshop)</li>
+      <li><strong>Fortlaufend</strong> — Umkategorisierung</li>
+    </ul>
 
-- April – Mai — Erstellen von Scope Notes / Beschreibungen
-
-- Mai – Juli — Expert:innen über die Vorschläge schauen lassen
-
-- Juli — Abgleich
-
-- September — Einpflege in DANTE
-
-- Sep. – Okt. — Verweise erstellen / überprüfen
-
-- Ende Oktober — BK Relaunch 1.0
-
-- November — Kommunikation (u. a. DA-3-Workshop)
-
-- Fortlaufend — Umkategorisierung
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
 
 <p class="label-tag">2.4 — Beispiele der Anwendung</p>
 
@@ -220,6 +242,10 @@ css: ["basisklassifikation"]
       <li>Forschungsportale</li>
       <li>Metadatenprojekte</li>
 </ul>
+
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
 
 <p class="sub-heading">Klassifikationslogik</p>
 
@@ -246,6 +272,10 @@ css: ["basisklassifikation"]
 
 <p style="font-family:'Jost',sans-serif;font-size:0.65rem;font-weight:300;color:#b89878;margin-top:0.5rem;letter-spacing:0.05em;">Quelle: bk.txt</p>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="sub-heading">Unterschied zu anderen Klassifikationen</p>
 
 <p class="prose">Die Basisklassifikation (BK) unterscheidet sich von anderen Klassifikationssystemen (wie z.B. der Dewey Decimal Classification oder der Universal Decimal Classification) insbesondere durch folgende Merkmale:</p>
@@ -260,6 +290,10 @@ css: ["basisklassifikation"]
 
 <p class="prose" style="margin-top:1rem;">Im Unterschied zu DDC/UDC oder nationalen Spezialklassifikationen steht bei der Basisklassifikation somit stets die klare, nachnutzbare und vereinfachte Inhaltserschließung (fachsystematisch und aspektbezogen) im Vordergrund.</p>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="sub-heading">Vergleich zu anderen Klassifikationen (RVK, DDC u. a.)</p>
 
 <p class="prose">Die Basisklassifikation (BK) und die Regensburger Verbundklassifikation (RVK) sind beides bibliothekarische Ordnungssysteme, unterscheiden sich jedoch deutlich in Systematik, Zielsetzung und Anwendung:</p>
@@ -273,6 +307,10 @@ css: ["basisklassifikation"]
 </ul>
 
 <p class="prose" style="margin-top:1rem;"><strong>Fazit:</strong> Die BK steht für Übersichtlichkeit, Schnelligkeit und breite Anwendbarkeit. Die RVK bietet deutlich höhere inhaltliche und formale Differenzierung, ist aber komplexer in der Pflege und Anwendung.</p>
+
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
 
 <p class="label-tag">Governance &amp; Organisation</p>
 
@@ -343,6 +381,10 @@ css: ["basisklassifikation"]
       <li>Versionierungen nachverfolgen</li>
 </ul>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="label-tag">3.2 — Netzwerk</p>
 
 <p class="sub-heading">Beteiligte Institutionen &amp; Partner</p>
@@ -353,6 +395,10 @@ css: ["basisklassifikation"]
       <li>Eurospider Information Technology AG</li>
 </ul>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="label-tag">3.3 — Veranstaltungen & Workshops</p>
 
 <p class="sub-heading">Veranstaltungen</p>
@@ -362,6 +408,10 @@ css: ["basisklassifikation"]
       <li>Communitytreffen</li>
       <li>Präsentationen</li>
 </ul>
+
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
 
 <p class="sub-heading">BiblioCon / Österreichischer Verbundtag Mai 2026</p>
 
@@ -471,6 +521,10 @@ css: ["basisklassifikation"]
 
 </div>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="sub-heading">Anwendertreffen DA-3</p>
 
 <div class="card">
@@ -487,6 +541,10 @@ css: ["basisklassifikation"]
     <span class="field-value">November 2026</span>
   </div>
 
+</div>
+
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
 </div>
 
 <p class="sub-heading">Kontakt</p>
@@ -537,6 +595,10 @@ css: ["basisklassifikation"]
 
 </div>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="label-tag">4.2 — API / Linked Data</p>
 
 <p class="sub-heading">Schnittstelle &amp; technische Dokumentation</p>
@@ -546,6 +608,10 @@ css: ["basisklassifikation"]
       <li>Technische Dokumentation</li>
       <li>Beispielanfragen</li>
 </ul>
+
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
 
 {% endsection %}
 
@@ -560,6 +626,10 @@ css: ["basisklassifikation"]
 <p class="sub-heading">Neue Versionen</p>
 
 <div class="desc-box italic">Inhalt folgt.</div>
+
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
 
 <p class="sub-heading">Community News</p>
 
@@ -609,9 +679,17 @@ css: ["basisklassifikation"]
 
 </div>
 
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
+
 <p class="sub-heading">Datenschutz</p>
 
 <div class="desc-box italic">Inhalt folgt.</div>
+
+<div class="ornamental-divider">
+  <span class="ornament">✦ ✦ ✦</span>
+</div>
 
 <p class="sub-heading">Barrierefreiheit</p>
 

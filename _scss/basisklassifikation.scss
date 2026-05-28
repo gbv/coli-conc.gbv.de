@@ -124,6 +124,68 @@ p {
     color: #8c6848;
 }
 
+.ornamental-divider {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.ornamental-divider::before,
+.ornamental-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #d8c8b0;
+}
+
+.ornament {
+    color: #b89878;
+    font-size: 0.8rem;
+    letter-spacing: 0.3em;
+}
+
+.roadmap {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.8rem;
+    border-left: 2px solid #e2d5c3;
+    padding-left: 1.5rem;
+}
+
+.roadmap li {
+    position: relative;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.roadmap li strong {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #b07840;
+}
+
+.roadmap li::before {
+    content: '';
+    position: absolute;
+    left: -1.65rem;
+    top: 0.4rem;
+    width: 8px;
+    height: 8px;
+    background: #b89878;
+    border-radius: 50%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .sub-heading {
     font-family: 'Playfair Display', serif;
     font-size: 1.25rem;
