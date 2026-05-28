@@ -51,77 +51,72 @@ css: ["basisklassifikation"]
 
 <div class="grid-2">
 
-  <article class="card">
-    <div class="card-header">
-      <span class="card-num">01</span>
-      <span class="label-tag">Termin 1</span>
+  <div class="card">
+    <span class="card-num">01</span>
+    <p class="label-tag">Termin 1</p>
+
+    <div class="field-row">
+      <span class="field-label">Veranstaltung</span>
+      <span class="field-value large">Österreichischer Verbundtag</span>
     </div>
 
-    <h3 class="event-title">Österreichischer Verbundtag</h3>
-
-    <dl class="event-details">
-      <div>
-        <dt>Titel</dt>
-        <dd>Totgesagte leben länger – Relaunch Basisklassifikation</dd>
-      </div>
-
-      <div>
-        <dt>Datum</dt>
-        <dd>7. Mai 2026</dd>
-      </div>
-
-      <div>
-        <dt>Vortragende</dt>
-        <dd>Diana Slawig, Rabea Rudigier, Uma Balakrishnan</dd>
-      </div>
-    </dl>
-  </article>
-
-  <article class="card">
-    <div class="card-header">
-      <span class="card-num">02</span>
-      <span class="label-tag">Termin 2</span>
+    <div class="field-row">
+      <span class="field-label">Titel</span>
+      <span class="field-value">
+        Totgesagte leben länger – Relaunch Basisklassifikation
+      </span>
     </div>
 
-    <h3 class="event-title">BiblioCon</h3>
+    <div class="field-row">
+      <span class="field-label">Datum</span>
+      <span class="field-value">7. Mai 2026</span>
+    </div>
 
-    <dl class="event-details">
-      <div>
-        <dt>Titel</dt>
-        <dd>Totgesagte leben länger – Relaunch Basisklassifikation</dd>
-      </div>
+    <div class="field-row">
+      <span class="field-label">Vortragende</span>
+      <span class="field-value">
+        Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+      </span>
+    </div>
+  </div>
 
-      <div>
-        <dt>Datum</dt>
-        <dd>22. Mai 2026</dd>
-      </div>
+  <div class="card">
+    <span class="card-num">02</span>
+    <p class="label-tag">Termin 2</p>
 
-      <div>
-        <dt>Vortragende</dt>
-        <dd>Diana Slawig, Rabea Rudigier, Uma Balakrishnan</dd>
-      </div>
-    </dl>
-  </article>
+    <div class="field-row">
+      <span class="field-label">Veranstaltung</span>
+      <span class="field-value large">BiblioCon</span>
+    </div>
+
+    <div class="field-row">
+      <span class="field-label">Titel</span>
+      <span class="field-value">
+        Totgesagte leben länger – Relaunch Basisklassifikation
+      </span>
+    </div>
+
+    <div class="field-row">
+      <span class="field-label">Datum</span>
+      <span class="field-value">22. Mai 2026</span>
+    </div>
+
+    <div class="field-row">
+      <span class="field-label">Vortragende</span>
+      <span class="field-value">
+        Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+      </span>
+    </div>
+  </div>
 
 </div>
 
 <p class="sub-heading">Schnellzugang</p>
 
 <div class="cta-row">
-  <button class="cta-btn primary"
-          onclick="navTo('klassifikation')">
-    Klassifikation durchsuchen
-  </button>
-
-  <button class="cta-btn"
-          onclick="navTo('informationen')">
-    BK verstehen
-  </button>
-
-  <button class="cta-btn"
-          onclick="navTo('services')">
-    Daten &amp; Downloads
-  </button>
+      <button class="cta-btn primary" onclick="navTo('klassifikation')">Klassifikation durchsuchen</button>
+      <button class="cta-btn" onclick="navTo('informationen')">BK verstehen</button>
+      <button class="cta-btn" onclick="navTo('services')">Daten &amp; Downloads</button>
 </div>
 
 {% endsection %}

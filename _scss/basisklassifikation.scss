@@ -1,5 +1,9 @@
+
 body {
-  background: linear-gradient(135deg,#f5efe6 0%,#ede4d8 50%,#e8ddd0 100%);
+    background: linear-gradient(135deg, #f5efe6 0%, #ede4d8 50%, #e8ddd0 100%);
+    font-family: 'Cormorant Garamond', serif;
+    color: #2a1d10;
+    min-height: 100vh;
 }
 
 .header {
@@ -54,6 +58,15 @@ body {
     letter-spacing: 0.12em;
     color:#8c6848;
     margin-top: 0.5rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
 .title-deco {
@@ -143,6 +156,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 1.15rem;
     color: #4a3220;
+    font-weight: 700;
 }
 
 .field-value {
