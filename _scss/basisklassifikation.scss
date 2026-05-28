@@ -145,15 +145,41 @@ body {
     color: #4a3220;
 }
 
-.desc-box {
-    background: var(--bg-card);
-    border: 1px dashed var(--sand);
-    border-radius: 2px;
-    padding: 1.4rem 1.6rem;
-    font-size: 1.02rem;
-    font-weight: 300;
-    line-height: 1.8;
+.field-value {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2a1d10;
+    border-bottom: 1px solid #e2d5c3;
+    padding-bottom: 0.3rem;
+    min-height: 1.6rem;
+    line-height: 1.5;
+}
+
+.cta-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.cta-btn:hover, .cta-btn.primary {
+    background: #4a3220;
+    color: #faf7f3;
+    border-color: #4a3220;
+}
+
+.cta-btn {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 0.75rem 1.6rem;
+    border: 1px solid #8c6848;
+    background: none;
     color: #8c6848;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
 }
 
 .bk-list li {
@@ -184,8 +210,100 @@ body {
     color: #b89878;
 }
 
+.desc-box {
+    background: #fdf9f5;
+    border: 1px dashed #e2d5c3;
+    border-radius: 2px;
+    padding: 1.4rem 1.6rem;
+    font-size: 1.02rem;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #8c6848;
+}
+
 .desc-box.italic {
     font-style: italic;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.person-card {
+    background: #fdf9f5;
+    border: 1px solid #e2d5c3;
+    padding: 1.2rem 1.4rem;
+}
+
+.person-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4a3220;
+    margin-bottom: 0.2rem;
+}
+
+.person-inst {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    color: #8c6848;
+    margin-bottom: 0.15rem;
+}
+
+.card {
+    background: #fdf9f5;
+    border: 1px solid #e2d5c3;
+    border-top: 3px solid #8c6848;
+    padding: 1.6rem;
+    position: relative;
+    transition: box-shadow 0.2s;
+}
+
+.card-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f0e8de;
+    position: absolute;
+    top: 0.6rem;
+    right: 1rem;
+    line-height: 1;
+    user-select: none;
+}
+
+.field-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.pill-row {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-top: 0.8rem;
+}
+
+.pill {
+    font-family: 'Jost', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.4rem 1rem;
+    border: 1px solid #8c6848;
+    color: #8c6848;
 }
 
 .prose {

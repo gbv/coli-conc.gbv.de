@@ -49,41 +49,80 @@ css: ["basisklassifikation"]
 
 <p class="prose">Please continue to the <a href="{{ '/de/basisklassifikation/' | url }}">German version</a>.</p>
 
-{% div "section access basisklassifikation", "padding: 0; background: transparent;" %}
-{% div "card", "margin-left: 0; margin-right: 0;" %}
+<div class="grid-2">
 
-<p class="label-tag">Termin 1</p>
+  <article class="card">
+    <div class="card-header">
+      <span class="card-num">01</span>
+      <span class="label-tag">Termin 1</span>
+    </div>
 
-<span class="field-label">Veranstaltung</span>
+    <h3 class="event-title">Österreichischer Verbundtag</h3>
 
-<span class="field-value large">Österreichischer Verbundtag</span>
+    <dl class="event-details">
+      <div>
+        <dt>Titel</dt>
+        <dd>Totgesagte leben länger – Relaunch Basisklassifikation</dd>
+      </div>
 
-**Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
-**Datum:** 7. Mai 2026  
-**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+      <div>
+        <dt>Datum</dt>
+        <dd>7. Mai 2026</dd>
+      </div>
 
-{% enddiv %}
+      <div>
+        <dt>Vortragende</dt>
+        <dd>Diana Slawig, Rabea Rudigier, Uma Balakrishnan</dd>
+      </div>
+    </dl>
+  </article>
 
-{% div "card", "margin-left: 0; margin-right: 0;" %}
+  <article class="card">
+    <div class="card-header">
+      <span class="card-num">02</span>
+      <span class="label-tag">Termin 2</span>
+    </div>
 
-<p class="label-tag">Termin 2</p>
+    <h3 class="event-title">BiblioCon</h3>
 
-<span class="field-label">Veranstaltung</span>
+    <dl class="event-details">
+      <div>
+        <dt>Titel</dt>
+        <dd>Totgesagte leben länger – Relaunch Basisklassifikation</dd>
+      </div>
 
-<span class="field-value large">Österreichischer Verbundtag</span>
+      <div>
+        <dt>Datum</dt>
+        <dd>22. Mai 2026</dd>
+      </div>
 
-**Titel:** Totgesagte leben länger – Relaunch Basisklassifikation  
-**Datum:** 22. Mai 2026  
-**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+      <div>
+        <dt>Vortragende</dt>
+        <dd>Diana Slawig, Rabea Rudigier, Uma Balakrishnan</dd>
+      </div>
+    </dl>
+  </article>
 
-{% enddiv %}
-{% enddiv %}
+</div>
 
 <p class="sub-heading">Schnellzugang</p>
 
-Klassifikation durchsuchen  
-BK verstehen  
-Daten & Downloads
+<div class="cta-row">
+  <button class="cta-btn primary"
+          onclick="navTo('klassifikation')">
+    Klassifikation durchsuchen
+  </button>
+
+  <button class="cta-btn"
+          onclick="navTo('informationen')">
+    BK verstehen
+  </button>
+
+  <button class="cta-btn"
+          onclick="navTo('services')">
+    Daten &amp; Downloads
+  </button>
+</div>
 
 {% endsection %}
 
@@ -246,28 +285,50 @@ Daten & Downloads
 
 <p class="prose" style="margin-bottom:1rem;"><strong>GBV / SWB (K10plus)</strong></p>
 
-Uma Balakrishnan
-_GBV / K10plus_
+<div class="grid-2" style="margin-bottom:1.2rem;">
 
-Regine Beckmann
-_Staatsbibliothek zu Berlin_
+  <div class="person-card">
+    <p class="person-name">Uma Balakrishnan</p>
+    <p class="person-inst">GBV / K10plus</p>
+  </div>
 
-Armin Kühn
-_BSZ Baden-Württemberg_
+  <div class="person-card">
+    <p class="person-name">Regine Beckmann</p>
+    <p class="person-inst">Staatsbibliothek zu Berlin</p>
+  </div>
 
-Diana Slawig
-_Technische Informationsbibliothek_
+  <div class="person-card">
+    <p class="person-name">Armin Kühn</p>
+    <p class="person-inst">BSZ Baden-Württemberg</p>
+  </div>
+
+  <div class="person-card">
+    <p class="person-name">Diana Slawig</p>
+    <p class="person-inst">Technische Informationsbibliothek</p>
+  </div>
+
+</div>
 
 <p class="prose" style="margin-bottom:1rem;"><strong>OBV</strong></p>
 
-Martina Cuba
-_Universität Wien_
+<div class="grid-3">
 
-Eva Pessl
-_Universität Graz_
+  <div class="person-card">
+    <p class="person-name">Martina Cuba</p>
+    <p class="person-inst">Universität Wien</p>
+  </div>
 
-Rabea Rudigier
-_Österreichische Nationalbibliothek_
+  <div class="person-card">
+    <p class="person-name">Eva Pessl</p>
+    <p class="person-inst">Universität Graz</p>
+  </div>
+
+  <div class="person-card">
+    <p class="person-name">Rabea Rudigier</p>
+    <p class="person-inst">Österreichische Nationalbibliothek</p>
+  </div>
+
+</div>
 
 {% endsection %}
 
@@ -309,65 +370,156 @@ _Österreichische Nationalbibliothek_
 
 <p class="sub-heading">BiblioCon / Österreichischer Verbundtag Mai 2026</p>
 
-{% div "section access", "padding: 0; background: transparent;" %}
-{% div "card", "margin-left: 0; margin-right: 0;" %}
-
 <p class="sub-heading" style="font-size:1rem; margin-top:0.5rem; color:#8c6848; font-style:italic;">Totgesagte leben länger – Relaunch der Basisklassifikation</p>
 
-<p class="label-tag">Termin 1</p>
+<div class="grid-2" style="margin-top:1rem;">
 
-**Veranstaltung:** Österreichischer Verbundtag  
-**Datum:** 7. Mai 2026  
-**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+  <div class="card">
+    <span class="card-num">01</span>
+    <p class="label-tag">Termin 1</p>
 
-{% enddiv %}
+    <div class="field-row">
+      <span class="field-label">Veranstaltung</span>
+      <span class="field-value large">
+        Österreichischer Verbundtag
+      </span>
+    </div>
 
-{% div "card", "margin-left: 0; margin-right: 0;" %}
+    <div class="field-row">
+      <span class="field-label">Datum</span>
+      <span class="field-value">7. Mai 2026</span>
+    </div>
 
-<p class="label-tag">Termin 2</p>
+    <div class="field-row">
+      <span class="field-label">Vortragende</span>
+      <span class="field-value">
+        Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+      </span>
+    </div>
+  </div>
 
-**Veranstaltung:** BiblioCon  
-**Datum:** 22. Mai 2026  
-**Vortragende:** Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+  <div class="card">
+    <span class="card-num">02</span>
+    <p class="label-tag">Termin 2</p>
 
-{% enddiv %}
-{% enddiv %}
+    <div class="field-row">
+      <span class="field-label">Veranstaltung</span>
+      <span class="field-value large">BiblioCon</span>
+    </div>
+
+    <div class="field-row">
+      <span class="field-label">Datum</span>
+      <span class="field-value">22. Mai 2026</span>
+    </div>
+
+    <div class="field-row">
+      <span class="field-label">Vortragende</span>
+      <span class="field-value">
+        Diana Slawig, Rabea Rudigier, Uma Balakrishnan
+      </span>
+    </div>
+  </div>
+
+</div>
 
 <p class="sub-heading" style="margin-top:2rem;">Vortrag Abstract</p>
 
-Die Basisklassifikation (BK) ist ein etabliertes Klassifikationssystem zur Sacherschließung in Bibliotheken und Informationseinrichtungen. Ihre klare Struktur und breite Anwendbarkeit machen sie seit Jahrzehnten zu einem zentralen Werkzeug für die systematische Ordnung von Wissen. Doch die letzte Überarbeitung liegt über 10 Jahre zurück – die Anforderungen an moderne Erschließungssysteme und die Schwerpunkte in der aktuellen Forschung haben sich grundlegend verändert.
+<div class="desc-box">
 
-Der Vortrag stellt den aktuellen Relaunch-Prozess der BK vor, der auf drei zentralen Säulen basiert:
+  <p style="margin-bottom:0.8rem;">
+    Die Basisklassifikation (BK) ist ein etabliertes
+    Klassifikationssystem zur Sacherschließung in Bibliotheken und
+    Informationseinrichtungen. Ihre klare Struktur und breite
+    Anwendbarkeit machen sie seit Jahrzehnten zu einem zentralen
+    Werkzeug für die systematische Ordnung von Wissen.
+  </p>
 
-<ul class="bk-list">
-        <li><strong>Wissenschaftliche Aktualisierung:</strong> Anpassung an neue Forschungsfelder und Interdisziplinarität sowie die Überwindung eurozentristischer Perspektiven.</li>
-        <li><strong>Technologische Integration:</strong> Vorbereitung der BK für die automatisierte Erschließung, wie den Digitalen Assistenten DA-3.</li>
-        <li><strong>Strukturelle Konsistenz:</strong> Erhalt der Notationslogik zur Sicherstellung maschineller Verarbeitbarkeit.</li>
-</ul>
+  <p style="margin-bottom:0.8rem;">
+    Doch die letzte Überarbeitung liegt über 10 Jahre zurück –
+    die Anforderungen an moderne Erschließungssysteme und die
+    Schwerpunkte aktueller Forschung haben sich grundlegend verändert.
+  </p>
 
-Anhand konkreter Beispiele – etwa der Notwendigkeit neuer Klassen für die Ukraine, die Geschichte der Schweiz, performative Kunstformen und der Interdisziplinarität der Quantentechnologien – wird gezeigt, wie verbundübergreifende, redaktionelle Arbeit, technologische Innovation und wissenschaftlicher Diskurs zusammenwirken, um ein zukunftsfähiges Klassifikationssystem zu gestalten.
+  <p style="margin-bottom:0.8rem;">
+    Der Vortrag stellt den aktuellen Relaunch-Prozess der BK vor,
+    der auf drei zentralen Säulen basiert:
+  </p>
+
+  <ul class="bk-list">
+    <li>
+      <strong>Wissenschaftliche Aktualisierung:</strong>
+      Anpassung an neue Forschungsfelder und Interdisziplinarität
+      sowie die Überwindung eurozentristischer Perspektiven.
+    </li>
+
+    <li>
+      <strong>Technologische Integration:</strong>
+      Vorbereitung der BK für automatisierte Erschließungsverfahren
+      wie den Digitalen Assistenten DA-3.
+    </li>
+
+    <li>
+      <strong>Strukturelle Konsistenz:</strong>
+      Erhalt der Notationslogik zur Sicherstellung maschineller
+      Verarbeitbarkeit.
+    </li>
+  </ul>
+
+  <p style="margin-top:0.8rem;">
+    Anhand konkreter Beispiele – etwa neuer Klassen für die Ukraine,
+    die Geschichte der Schweiz, performative Kunstformen oder die
+    Interdisziplinarität der Quantentechnologien – wird gezeigt,
+    wie verbundübergreifende redaktionelle Arbeit, technologische
+    Innovation und wissenschaftlicher Diskurs zusammenwirken,
+    um ein zukunftsfähiges Klassifikationssystem zu gestalten.
+  </p>
+
+</div>
 
 <p class="sub-heading">Anwendertreffen DA-3</p>
 
-{% div "section access", "padding: 0; background: transparent;" %}
-{% div "card", "margin-left: 0; margin-right: 0;" %}
+<div class="card">
 
-**Veranstaltung:** Anwendertreffen DA-3  
-**Datum:** November 2026
+  <div class="field-row">
+    <span class="field-label">Veranstaltung</span>
+    <span class="field-value large">
+      Anwendertreffen DA-3
+    </span>
+  </div>
 
-{% enddiv %}
-{% enddiv %}
+  <div class="field-row">
+    <span class="field-label">Datum</span>
+    <span class="field-value">November 2026</span>
+  </div>
+
+</div>
 
 <p class="sub-heading">Kontakt</p>
 
-Rabea Rudigier
-Österreichische Nationalbibliothek
+<div class="grid-3">
 
-Regine Beckmann
-Staatsbibliothek zu Berlin
+  <div class="person-card">
+    <p class="person-name">Rabea Rudigier</p>
+    <p class="person-inst">
+      Österreichische Nationalbibliothek
+    </p>
+  </div>
 
-Diana Slawig
-Technische Informationsbibliothek
+  <div class="person-card">
+    <p class="person-name">Regine Beckmann</p>
+    <p class="person-inst">
+      Staatsbibliothek zu Berlin
+    </p>
+  </div>
+
+  <div class="person-card">
+    <p class="person-name">Diana Slawig</p>
+    <p class="person-inst">
+      Technische Informationsbibliothek
+    </p>
+  </div>
+
+</div>
 
 {% endsection %}
 
@@ -381,10 +533,14 @@ Technische Informationsbibliothek
 
 <p class="sub-heading">Datenformate</p>
 
-CSV
-RDF
-SKOS
-JSON
+<div class="pill-row">
+
+      <span class="pill">CSV</span>
+      <span class="pill">RDF</span>
+      <span class="pill">SKOS</span>
+      <span class="pill">JSON</span>
+
+</div>
 
 <p class="label-tag">4.2 — API / Linked Data</p>
 
@@ -408,7 +564,11 @@ JSON
 
 <p class="sub-heading">Neue Versionen</p>
 
+<div class="desc-box italic">Inhalt folgt.</div>
+
 <p class="sub-heading">Community News</p>
+
+<div class="desc-box italic">Inhalt folgt.</div>
 
 {% endsection %}
 
@@ -422,6 +582,8 @@ JSON
 
 <p class="sub-heading">Häufig gestellte Fragen</p>
 
+<div class="desc-box italic">Inhalt folgt.</div>
+
 {% endsection %}
 
 {% section "section7" %}
@@ -432,19 +594,33 @@ JSON
 
 <p class="label-tag">Rechtliches &amp; Kontakt</p>
 
-Impressum
+<div class="grid-2" style="margin-top:1rem;">
 
-Verbundzentrale des GBV (VZG)
-Platz der Göttinger Sieben 1
-37073 Göttingen
+  <div class="card">
+    <p class="event-tag"><strong>Impressum</strong></p>
 
-Kontakt
+    <p class="prose">
+      Verbundzentrale des GBV (VZG)<br>
+      Platz der Göttinger Sieben 1<br>
+      37073 Göttingen
+    </p>
+  </div>
 
-Uma Balakrishnan
+  <div class="card">
+    <p class="event-tag"><strong>Kontakt</strong></p>
+
+    <p class="prose">Uma Balakrishnan</p>
+  </div>
+
+</div>
 
 <p class="sub-heading">Datenschutz</p>
 
+<div class="desc-box italic">Inhalt folgt.</div>
+
 <p class="sub-heading">Barrierefreiheit</p>
+
+<div class="desc-box italic">Inhalt folgt.</div>
 
 {% endsection %}
 
