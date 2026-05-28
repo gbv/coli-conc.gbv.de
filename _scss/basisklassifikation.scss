@@ -314,26 +314,32 @@ p {
 }
 
 .person-card {
-    background: #fdf9f5;
-    border: 1px solid #e2d5c3;
-    padding: 1.2rem 1.4rem;
+  background: #fdf9f5;
+  border: 1px solid #e2d5c3;
+  padding: 1.2rem 1.4rem;
+  box-sizing: border-box;
 }
 
+.person-card p {
+  margin: 0;
+}
 .person-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #4a3220;
-    margin-bottom: 0.2rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.8;
+  color: #4a3220;
+  margin-bottom: 0.35rem;
 }
 
 .person-inst {
-    font-family: 'Jost', sans-serif;
-    font-size: 0.65rem;
-    font-weight: 300;
-    letter-spacing: 0.08em;
-    color: #8c6848;
-    margin-bottom: 0.15rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  color: #8c6848;
+  margin-bottom: 0.15rem;
 }
 
 .card {
