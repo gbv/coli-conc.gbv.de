@@ -153,20 +153,12 @@ Schnellzugang
 </p>
 
 <div class="cta-row">
-    <button class="cta-btn primary"
-            onclick="navTo('klassifikation')">
-        Klassifikation durchsuchen
-    </button>
-
-    <button class="cta-btn"
-            onclick="navTo('informationen')">
-        BK verstehen
-    </button>
-
-    <button class="cta-btn"
-            onclick="navTo('services')">
-        Daten &amp; Downloads
-    </button>
+      <button class="cta-btn primary" onclick="navTo('klassifikation')">
+      Klassifikation durchsuchen</button>
+      <button class="cta-btn" onclick="navTo('informationen')">
+      BK verstehen</button>
+      <button class="cta-btn" onclick="navTo('services')">
+      Daten &amp; Downloads</button>
 </div>
 
 {% endsection %}
