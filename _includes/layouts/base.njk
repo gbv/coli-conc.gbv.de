@@ -118,8 +118,14 @@
   {% endif %}
 
   <header class="header">
+
+    {% set prefix = "/de" if locale == "de" else "" %}
+    {% set homeLink = prefix ~ "/" %}
+
     <div class="coli-conc-logo-small">
-      <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
+      <a href="{{ homeLink }}">
+        <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
+      </a>
     </div>
 
     <label class="menu-icon" for="menu-button" aria-hidden="true">
