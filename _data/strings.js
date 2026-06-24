@@ -5,7 +5,8 @@ export default {
       de: "Startseite",
     },
     news: {
-      en: "News",
+      en: "News & Current Projects",
+      de: "Neuigkeiten & Aktuelle Projekte",
     },
     services: {
       en: "Services",
