@@ -8,7 +8,7 @@
 
 .cc-subtitle {
   text-align: center;
-  font-weight: 700;
+  font-weight: weights.$bold;
   line-height: 2;
   font-size: 20px;
   margin-top: 30px;
@@ -31,13 +31,13 @@
 
 .text-center p {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: weights.$regular;
 }
 
 .cocoda-wrapper .subtitle {
   margin: 10px 0 25px 0;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: weights.$bold;
 }
 
 .cocoda {
@@ -169,7 +169,7 @@
   margin-top: 20px;
   margin-bottom: 10px;
   color: colors.$primary;
-  font-weight: 800;
+  font-weight: weights.$bold;
   line-height: 1.15;
   text-decoration: none;
   white-space: normal;
@@ -193,7 +193,7 @@
 
 .project-card-description {
   margin: 0;
-  font-weight: 600;
+  font-weight: weights.$regular;
   line-height: 1.5;
   font-size: 16.4px;
 }
@@ -219,7 +219,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
+  font-weight: weights.$bold;
   font-family: Nunito, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   white-space: normal;
   overflow-wrap: anywhere;
