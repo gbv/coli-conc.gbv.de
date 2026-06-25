@@ -16,7 +16,7 @@
 
 .cocoda-wrapper h3 {
   margin: 0;
-  color: #b13f13;
+  color: colors.$primary;
 }
 
 .cocoda-wrapper .service {
@@ -78,14 +78,14 @@
 
 .cc-services-section h2 {
   font-size: 32px;
-  color: #b13f13;
+  color: colors.$primary;
   text-align: center;
   margin: 0 0 30px 0;
 }
 
 .related-services-section h2 {
   font-size: 32px;
-  color: #b13f13;
+  color: colors.$primary;
   text-align: center;
   margin: 40px 0 30px;
 }
@@ -104,7 +104,7 @@
 
 .main-vocabulary-section h2 {
   font-size: 32px;
-  color: #b13f13;
+  color: colors.$primary;
   text-align: center;
   margin: 40px 0 30px;
 }
@@ -115,7 +115,7 @@
 }
 
 .cards-bg-featured {
-  background: #e9e1e1;
+  background: colors.$background-primary;
   margin: 60px auto;
   padding: 40px 24px;
   box-sizing: border-box;
@@ -152,7 +152,7 @@
   margin: 0;
   padding: 8px 16px 16px;
   position: relative;
-  background: #fff;
+  background: colors.$white;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   border-radius: 6px;
   text-align: left;
@@ -168,7 +168,7 @@
   margin: 0;
   margin-top: 20px;
   margin-bottom: 10px;
-  color: #b13f13;
+  color: colors.$primary;
   font-weight: 800;
   line-height: 1.15;
   text-decoration: none;
@@ -213,8 +213,8 @@
 }
 
 .button {
-  background-color: #b13f13;
-  color: #fff;
+  background-color: colors.$primary;
+  color: colors.$white;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -231,8 +231,8 @@
 }
 
 .button:hover {
-  color: #fff;
-  background-color: rgb(200.2742857143, 98, 58.5257142857);
+  color: colors.$white;
+  background-color: colors.$primary-light;
 }
 
 .button-webdewey-search {
