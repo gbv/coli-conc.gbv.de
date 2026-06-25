@@ -58,14 +58,14 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: fonts.$size-medium;
   margin: 10px 0 10px 0;
 }
 
 h3 {
   font-size: fonts.$size-larger;
   margin: 10px 0 7px 0;
-  color: #b13f13;
+  color: colors.$primary;
 }
 
 h4 {
@@ -98,8 +98,8 @@ h6 {
 }
 
 .text-center p {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: fonts.$size-medium;
+  font-weight: weights.$regular;
 }
 
 .section ul {
@@ -249,7 +249,7 @@ pre {
 .news > .entry > .date {
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid colors.$black;
 }
 
 .news > .entry > .title {
@@ -275,7 +275,7 @@ pre {
   max-width: 560px;
   margin: 0 auto 18px;
   padding: 24px 20px;
-  background: #fff;
+  background: colors.$white;
   border: 1px solid #e2d8d3;
   border-radius: 14px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
@@ -285,7 +285,7 @@ pre {
 .section.access .card .card-title {
   margin: 0 0 22px;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: weights.$bold;
 }
 
 .section.access .card .card-actions {
@@ -307,13 +307,11 @@ pre {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #b13f13;
-  color: #fff;
+  background-color: colors.$primary;
+  color: colors.$white;
   text-decoration: none;
-  font-family: Nunito, "Trebuchet MS", "Lucida Grande",
-    "Lucida Sans Unicode", "Lucida Sans",
-    Tahoma, sans-serif;
-  font-weight: 700;
+  font-family: fonts.$main, fonts.$fallback;
+  font-weight: weights.$bold;
   font-size: 17px;
   line-height: 1.1;
   padding: 10px 24px;
@@ -325,7 +323,7 @@ pre {
 }
 
 .section.access .card .cr-button:hover {
-  background-color: rgb(200.2742857143, 98, 58.5257142857);
+  background-color: colors.$primary-light;
 }
 
 .section.access .card .cr-button:active {
@@ -334,7 +332,7 @@ pre {
 
 .section.access .card .cr-button--secondary {
   background-color: #f1ecea;
-  color: #b13f13;
+  color: colors.$primary;
   border: 1.5px solid #cfc7c3;
 }
 
@@ -366,15 +364,15 @@ pre {
 }
 
 .section.two-col .two-col-item p {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: fonts.$size-medium;
+  font-weight: weights.$regular;
   line-height: 1.6;
 }
 
 .information {
   text-align: center;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: weights.$bold;
 }
 
 .information a {
