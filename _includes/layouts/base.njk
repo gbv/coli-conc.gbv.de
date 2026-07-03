@@ -142,7 +142,7 @@
       {% set homeLink = prefix ~ "/" %}
       {% set newsLink = prefix ~ "/blog/" %}
       {% set servicesLink = prefix ~ "/services/" %}
-      {% set partnersLink = prefix ~ "/partners/" %}
+      {% set relatedToolsLink = prefix ~ "/related-tools/" %}
       {% set contactLink = prefix ~ "/contact/" %}
       {% set publicationsLink = prefix ~ "/publications/" %}
 
@@ -162,8 +162,8 @@
         <a href="{{ publicationsLink }}">{{ strings.sections.publications | localize }}</a>
       </li>
 
-      <li class="{% if page.url.startsWith(prefix ~ '/partners/') %}current{% endif %}">
-        <a href="{{ partnersLink }}">{{ strings.pages.partners | localize }}</a>
+      <li class="{% if page.url.startsWith(prefix ~ '/related-tools/') %}current{% endif %}">
+        <a href="{{ relatedToolsLink }}">{{ strings.pages["related-tools"] | localize }}</a>
       </li>
 
       <li class="{% if page.url.startsWith(prefix ~ '/contact/') %}current{% endif %}">

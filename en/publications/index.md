@@ -480,7 +480,7 @@ VZG-Project Colibri/DDC was started in 2003 by Ulrike Reiner. It consists of sub
 -   An EZB-DDC Condordance (2011). VZG-Project Colibri Sub: Project
     Coli-Conc. <https://doi.org/10.5281/zenodo.28263>.
 
-See also [related works](/partners/#related-works) by other organizations and individuals.
+See also [related tools](/related-tools/) by other organizations and individuals.
 
 {% endsection %}
 

@@ -68,6 +68,8 @@ The [Cocoda Screencast](https://doi.org/10.5446/69732) gives a short introductio
 
 - [Documentation in Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/Cocoda)
 
+- [Related Tools](https://coli-conc.gbv.de/related-tools/)
+
   </div>
 
   <div class="three-col-item">

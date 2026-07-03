@@ -49,9 +49,9 @@ export default {
     },
   },
   pages: {
-    partners: {
-      en: "Partners",
-      de: "Partner",
+    "related-tools": {
+      en: "Related Tools",
+      de: "Verwandte Tools",
     },
   },
 }
