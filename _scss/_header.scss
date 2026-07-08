@@ -163,6 +163,19 @@
   display: none;
 }
 
+// Smaller logo on mobile
+@media (max-width: 700px) {
+  .header .coli-conc-logo-small {
+    height: 70px;
+    padding: 10px 0 0 10px;
+  }
+
+  .header .coli-conc-logo-small img {
+    height: 100%;
+    width: auto;
+  }
+}
+
 @media (min-width: responsive.$small) {
   .header {
     padding-bottom: 30px;
