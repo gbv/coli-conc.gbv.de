@@ -137,3 +137,33 @@ Die Aktualisierung der aktuell mehr als 200 Millionen enthaltenen Titeldaten erf
 {% endif %}
 
 {% endsection %}
+
+{% section %}
+
+{% if locale == "en" %}
+
+## Offline Enrichment of the Basisklassifikation
+
+{% else %}
+
+## Offline Anreicherung der Basisklassifikation
+
+{% endif %}
+
+{% if locale == "en" %}
+
+Development of an automated method for enriching the Basisklassifikation (BK) using DA-3. Project with Eurospider.
+
+- [DA-3 (German)](https://www.da-3.de/)
+- [Eurospider](https://www.eurospider.com/en/relevancy-product/digital-assistant-da-3)
+
+{% else %}
+
+Entwicklung eines automatisierten Verfahrens zur Anreicherung der BK mit DA-3. Projekt mit der Firma Eurospider.
+
+- [DA-3 (German)](https://www.da-3.de/)
+- [Eurospider](https://www.eurospider.com/de/relevancy-produkt/digitaler-assistent-da-3)
+
+{% endif %}
+
+{% endsection %}
