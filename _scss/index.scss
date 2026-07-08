@@ -245,7 +245,15 @@
 
 @media (max-width: 1024px) {
   .cards-row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .cards-row .project-card:first-child,
+  .cards-row .project-card:last-child {
+    grid-column: auto;
+    width: auto;
+    max-width: none;
+    justify-self: stretch;
   }
 
   .project-card-actions .button {
