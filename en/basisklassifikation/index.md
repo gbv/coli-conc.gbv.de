@@ -36,7 +36,9 @@ css: ["basisklassifikation"]
 
 {% endsection %}
 
-{% section "intro" %}
+{% include "basisklassifikation-nav.njk" %}
+
+{% section "intro bk-tab einstieg active" %}
 
 <p class="section-eyebrow">
 Startseite
@@ -163,7 +165,7 @@ Schnellzugang
 
 {% endsection %}
 
-{% section "section1" %}
+{% section "section1 bk-tab klassifikation" %}
 
 <p class="section-eyebrow">
 Abschnitt 1
@@ -280,7 +282,7 @@ Vorteile der BK
 
 {% endsection %}
 
-{% section "section2" %}
+{% section "section2 bk-tab informationen" %}
 
 <p class="section-eyebrow">
 Abschnitt 2
@@ -700,7 +702,7 @@ BK-Redaktion
 
 {% endsection %}
 
-{% section "section3" %}
+{% section "section3 bk-tab community" %}
 
 <p class="section-eyebrow">
 Abschnitt 3
@@ -984,7 +986,7 @@ Kontakt
 
 {% endsection %}
 
-{% section "section4" %}
+{% section "section4 bk-tab services" %}
 
 <p class="section-eyebrow">
 Abschnitt 4</p>
@@ -1044,7 +1046,7 @@ Schnittstelle &amp; technische Dokumentation
 
 {% endsection %}
 
-{% section "section5" %}
+{% section "section5 bk-tab aktuelles" %}
 
 <p class="section-eyebrow">
 Abschnitt 5
@@ -1080,7 +1082,7 @@ Inhalt folgt.
 
 {% endsection %}
 
-{% section "section6" %}
+{% section "section6 bk-tab hilfe" %}
 
 <p class="section-eyebrow">
 Abschnitt 6
@@ -1104,7 +1106,7 @@ Inhalt folgt.
 
 {% endsection %}
 
-{% section "section7" %}
+{% section "section7 bk-tab ueber" %}
 
 <p class="section-eyebrow">
 Abschnitt 7

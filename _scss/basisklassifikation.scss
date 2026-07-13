@@ -77,6 +77,43 @@ p {
     margin-top: 4px;
 }
 
+.bk-nav {
+    display: flex;
+    background: #4a3220;
+}
+
+.bk-nav .nav-btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 1rem 0.5rem;
+    border: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    color: #faf7f3;
+}
+
+.bk-nav .nav-btn:last-child {
+    border-right: 0;
+}
+
+.bk-nav .nav-btn:hover,
+.bk-nav .nav-btn.primary {
+    background: rgba(176, 120, 64, 0.25);
+    color: #b07840;
+}
+
+.bk-nav .nav-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: #b89878;
+}
+
+.bk-nav .nav-label {
+    font-size: 0.58rem;
+}
+
 .section.bkPage {
   max-width: 900px;
   margin: 2rem auto;
