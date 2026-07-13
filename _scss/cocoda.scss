@@ -1,9 +1,13 @@
+@use "fonts";
+@use "weights";
+@use "colors";
+
 .intro-text {
   text-align: center;
   padding-bottom: 20px;
   line-height: 2;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: fonts.$size-medium;
+  font-weight: weights.$regular;
 }
 
 :root {
@@ -39,8 +43,8 @@
   max-width: 430px;
   padding: 1.5rem;
 
-  background: #e9e1e1;
-  color: #111;
+  background: colors.$background-primary;
+  color: colors.$black;
 
   border-radius: 3px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
@@ -92,7 +96,7 @@
   border-radius: 25px;
 
   background: #a64a22;
-  color: #fff !important;
+  color: colors.$white !important;
   border: none;
 
   display: inline-block;
@@ -100,8 +104,8 @@
 }
 
 .cocoda-card-link:hover {
-  color: #fff;
-  background-color: rgb(200.2742857143, 98, 58.5257142857);
+  color: colors.$white;
+  background-color: colors.$primary-light;
 }
 
 .two-col-wrap {

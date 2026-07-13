@@ -5,7 +5,8 @@ export default {
       de: "Startseite",
     },
     news: {
-      en: "News",
+      en: "News & Current Projects",
+      de: "Neuigkeiten & Aktuelle Projekte",
     },
     services: {
       en: "Services",
@@ -48,9 +49,9 @@ export default {
     },
   },
   pages: {
-    partners: {
-      en: "Partners",
-      de: "Partner",
+    "related-tools": {
+      en: "Related Tools",
+      de: "Verwandte Tools",
     },
   },
 }

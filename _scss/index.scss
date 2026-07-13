@@ -8,7 +8,7 @@
 
 .cc-subtitle {
   text-align: center;
-  font-weight: 700;
+  font-weight: weights.$bold;
   line-height: 2;
   font-size: 20px;
   margin-top: 30px;
@@ -16,7 +16,7 @@
 
 .cocoda-wrapper h3 {
   margin: 0;
-  color: #b13f13;
+  color: colors.$primary;
 }
 
 .cocoda-wrapper .service {
@@ -31,13 +31,13 @@
 
 .text-center p {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: weights.$regular;
 }
 
 .cocoda-wrapper .subtitle {
   margin: 10px 0 25px 0;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: weights.$bold;
 }
 
 .cocoda {
@@ -76,20 +76,16 @@
   fill: colors.$background-accent;
 }
 
-.footer .funding-note {
-  display: none;
-}
-
 .cc-services-section h2 {
   font-size: 32px;
-  color: #b13f13;
+  color: colors.$primary;
   text-align: center;
   margin: 0 0 30px 0;
 }
 
 .related-services-section h2 {
   font-size: 32px;
-  color: #b13f13;
+  color: colors.$primary;
   text-align: center;
   margin: 40px 0 30px;
 }
@@ -108,7 +104,7 @@
 
 .main-vocabulary-section h2 {
   font-size: 32px;
-  color: #b13f13;
+  color: colors.$primary;
   text-align: center;
   margin: 40px 0 30px;
 }
@@ -119,7 +115,7 @@
 }
 
 .cards-bg-featured {
-  background: #e9e1e1;
+  background: colors.$background-primary;
   margin: 60px auto;
   padding: 40px 24px;
   box-sizing: border-box;
@@ -172,8 +168,8 @@
   margin: 0;
   margin-top: 20px;
   margin-bottom: 10px;
-  color: #b13f13;
-  font-weight: 800;
+  color: colors.$primary;
+  font-weight: weights.$bold;
   line-height: 1.15;
   text-decoration: none;
   white-space: normal;
@@ -197,7 +193,7 @@
 
 .project-card-description {
   margin: 0;
-  font-weight: 600;
+  font-weight: weights.$regular;
   line-height: 1.5;
   font-size: 16.4px;
 }
@@ -217,13 +213,13 @@
 }
 
 .button {
-  background-color: #b13f13;
-  color: #fff;
+  background-color: colors.$primary;
+  color: colors.$white;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
+  font-weight: weights.$bold;
   font-family: Nunito, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   white-space: normal;
   overflow-wrap: anywhere;
@@ -235,8 +231,8 @@
 }
 
 .button:hover {
-  color: #fff;
-  background-color: rgb(200.2742857143, 98, 58.5257142857);
+  color: colors.$white;
+  background-color: colors.$primary-light;
 }
 
 .button-webdewey-search {
@@ -249,7 +245,15 @@
 
 @media (max-width: 1024px) {
   .cards-row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .cards-row .project-card:first-child,
+  .cards-row .project-card:last-child {
+    grid-column: auto;
+    width: auto;
+    max-width: none;
+    justify-self: stretch;
   }
 
   .project-card-actions .button {

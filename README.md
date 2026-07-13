@@ -186,7 +186,7 @@ For most content, you can just navigate to the page on https://gbv.github.io/col
    - The intro text below the Cocoda screenshot on the start page ([English](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/index-intro.md) / [German](https://github.com/gbv/coli-conc.gbv.de/blob/main/de/_includes/index-intro.md))
    - The start page content ([English/German](https://github.com/gbv/coli-conc.gbv.de/blob/main/_includes/home-content.md)); `en/index.md` defines the page entry point and metadata, and the German start page is generated from it during the full build.
    - The footer text ([English](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/footer.md) / [German](https://github.com/gbv/coli-conc.gbv.de/blob/main/de/_includes/footer.md))
-   - The partners page ([English/German](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/partners.md) - Warning: Heavy custom code here. The list of partner institutions and projects is actually defined in a [data file](https://github.com/gbv/coli-conc.gbv.de/blob/main/_data/partners.json))
+   - The Related Tools page ([English](...) - The content is defined in `en/related-tools.md` and `en/_includes/related.md`.)
    - The contact page ([English/German](https://github.com/gbv/coli-conc.gbv.de/blob/main/en/_includes/contact.md) - Warning: Also heavy custom code here, but the content is defined inline.)
 
 - If a page is not translated, the Source link will refer to the English version of that page. See [Localization](#localization) for more info.
@@ -195,7 +195,7 @@ For most content, you can just navigate to the page on https://gbv.github.io/col
 Here's an explanation of some of the folders/files in this project:
 - `_data` - contains data which will be available to use via Nunjucks in all pages
    - `eleventyComputed.js` - data variables that are computed from other data
-   - `partners.json` - list of partners for the Partners page/section
+   - `partners.json` - data used by the projects section
    - `software.yml` - list of software for the Software section in Publications
    - `strings.js` - defined localized strings (refer to this file whenever you see something like `strings.something | localize`)
 - `_includes`

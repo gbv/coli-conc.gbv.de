@@ -118,8 +118,14 @@
   {% endif %}
 
   <header class="header">
+
+    {% set prefix = "/de" if locale == "de" else "" %}
+    {% set homeLink = prefix ~ "/" %}
+
     <div class="coli-conc-logo-small">
-      <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
+      <a href="{{ homeLink }}">
+        <img src="{{ '/images/coli-conc.svg' | urla }}" alt="coli-conc Logo">
+      </a>
     </div>
 
     <label class="menu-icon" for="menu-button" aria-hidden="true">
@@ -136,7 +142,7 @@
       {% set homeLink = prefix ~ "/" %}
       {% set newsLink = prefix ~ "/blog/" %}
       {% set servicesLink = prefix ~ "/services/" %}
-      {% set partnersLink = prefix ~ "/partners/" %}
+      {% set relatedToolsLink = prefix ~ "/related-tools/" %}
       {% set contactLink = prefix ~ "/contact/" %}
       {% set publicationsLink = prefix ~ "/publications/" %}
 
@@ -156,8 +162,8 @@
         <a href="{{ publicationsLink }}">{{ strings.sections.publications | localize }}</a>
       </li>
 
-      <li class="{% if page.url.startsWith(prefix ~ '/partners/') %}current{% endif %}">
-        <a href="{{ partnersLink }}">{{ strings.pages.partners | localize }}</a>
+      <li class="{% if page.url.startsWith(prefix ~ '/related-tools/') %}current{% endif %}">
+        <a href="{{ relatedToolsLink }}">{{ strings.pages["related-tools"] | localize }}</a>
       </li>
 
       <li class="{% if page.url.startsWith(prefix ~ '/contact/') %}current{% endif %}">
