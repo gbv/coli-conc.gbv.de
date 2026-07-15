@@ -64,7 +64,7 @@ Neuigkeiten &amp; Updates
 </p>
 
 <p class="prose">
-Please continue to the <a href="{{ '/de/basisklassifikation/' | url }}">German version</a>.
+Please continue to the <a href="{{ '/de/basisklassifikation/relaunch/' | url }}">German version</a>.
 </p>
 
 <div class="grid-2">
