@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 490 480"
+     width="490"
+     height="480"
+     fill="none"
+     shape-rendering="geometricPrecision">
+
+  <defs>
+    <!-- Der dritte Balken wird dort ausgeblendet,
+         wo sich die transparente Innenfläche des zweiten Balkens befindet. -->
+    <mask id="hide-third-inside-second" maskUnits="userSpaceOnUse"
+          x="0" y="0" width="490" height="480">
+      <rect x="0" y="0" width="490" height="480" fill="white"/>
+      <rect x="127" y="115" width="94" height="335" rx="4" ry="4" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Balken 3, mit sauber ausgeschnittener Überlagerung -->
+  <g mask="url(#hide-third-inside-second)">
+    <path fill="#FFFFFF" fill-rule="evenodd"
+          d="M155 19
+             Q151 19 151 23
+             V393 Q151 397 155 397
+             H272 Q276 397 276 393
+             V23 Q276 19 272 19 Z
+             M165 29
+             Q161 29 161 33
+             V383 Q161 387 165 387
+             H261 Q265 387 265 383
+             V33 Q265 29 261 29 Z"/>
+  </g>
+
+  <!-- Balken 1 -->
+  <path fill="#FFFFFF" fill-rule="evenodd"
+        d="M23 61
+           Q19 61 19 65
+           V421 Q19 425 23 425
+           H124 Q128 425 128 421
+           V65 Q128 61 124 61 Z
+           M33 71
+           Q29 71 29 75
+           V411 Q29 415 33 415
+           H112 Q116 415 116 411
+           V75 Q116 71 112 71 Z"/>
+
+  <!-- Balken 2 -->
+  <path fill="#FFFFFF" fill-rule="evenodd"
+        d="M121 104
+           Q117 104 117 108
+           V457 Q117 461 121 461
+           H228 Q232 461 232 457
+           V108 Q232 104 228 104 Z
+           M131 115
+           Q127 115 127 119
+           V446 Q127 450 131 450
+           H217 Q221 450 221 446
+           V119 Q221 115 217 115 Z"/>
+
+  <!-- Balken 4: weiterhin 16 Einheiten tiefer -->
+  <g transform="translate(0 16)">
+    <path fill="#FFFFFF" fill-rule="evenodd"
+          d="M270 64
+             Q266 64 266 68
+             V393 Q266 397 270 397
+             H373 Q377 397 377 393
+             V68 Q377 64 373 64 Z
+             M280 75
+             Q276 75 276 79
+             V383 Q276 387 280 387
+             H363 Q367 387 367 383
+             V79 Q367 75 363 75 Z"/>
+  </g>
+</svg>

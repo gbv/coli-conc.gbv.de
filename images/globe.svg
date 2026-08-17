@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Globus</title>
+  <desc id="desc">Rotes Globus-Symbol in einem hellgelben Kreis</desc>
+  <circle cx="60" cy="60" r="58" fill="#fcecc7"/>
+  <g fill="none" stroke="#ce2a18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="60" cy="60" r="34"/>
+    <path d="M26 60h68M31 43c9 5 19 7 29 7s20-2 29-7M31 77c9-5 19-7 29-7s20 2 29 7"/>
+    <path d="M60 26c-10 10-15 21-15 34s5 24 15 34M60 26c10 10 15 21 15 34s-5 24-15 34"/>
+  </g>
+</svg>

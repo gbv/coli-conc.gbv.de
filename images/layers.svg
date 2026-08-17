@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Ebenen</title>
+  <desc id="desc">Rotes Ebenen-Symbol in einem hellgelben Kreis</desc>
+  <circle cx="60" cy="60" r="58" fill="#fcecc7" />
+  <g fill="none" stroke="#ce2a18" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 28 88 43 60 58 32 43 60 28Z" />
+    <path d="M37 53 32 56 60 71 88 56 83 53" />
+    <path d="M37 66 32 69 60 84 88 69 83 66" />
+  </g>
+</svg>

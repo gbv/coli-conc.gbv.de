@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Kalender</title>
+  <desc id="desc">Rotes Kalender-Symbol in einem hellgelben Kreis</desc>
+  <circle cx="60" cy="60" r="58" fill="#fcecc7"/>
+  <g fill="none" stroke="#ce2a18" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="28" y="32" width="64" height="60" rx="6"/>
+    <path d="M28 48h64M43 25v14M77 25v14"/>
+  </g>
+  <g fill="#ce2a18">
+    <rect x="40" y="57" width="8" height="8" rx="1.5"/>
+    <rect x="56" y="57" width="8" height="8" rx="1.5"/>
+    <rect x="72" y="57" width="8" height="8" rx="1.5"/>
+    <rect x="40" y="72" width="8" height="8" rx="1.5"/>
+    <rect x="56" y="72" width="8" height="8" rx="1.5"/>
+    <rect x="72" y="72" width="8" height="8" rx="1.5"/>
+  </g>
+</svg>
