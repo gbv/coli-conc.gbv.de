@@ -405,6 +405,13 @@ body {
   font-weight: 500;
 }
 
+.card-title-link {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  z-index: 10;
+}
+
 .card-subtitle {
   display: block;
   margin-top: 4px;
@@ -668,6 +675,8 @@ h2 {
   font-weight: 500;
   font-size: larger;
   text-decoration: none;
+  position: relative;
+  z-index: 10;
 }
 
 .card-1 li,

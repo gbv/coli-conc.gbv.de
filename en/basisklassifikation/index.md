@@ -28,7 +28,7 @@ css: ["bk-homepage"]
           <img src="../images/basisklassifikation.svg" alt="">
           <h2 class="card-title">Basisklassifikation</h2>
           <ul>
-            <li><a href="basisklassifikation/ueber-die-bk/" class="portal-link">Über die BK</a></li>
+            <li><a href="/basisklassifikation/ueber-die-bk/" class="portal-link">Über die BK</a></li>
           </ul>
           <p class="card-description">Klassifikation durchsuchen über BARTOC oder VZG Terminology.</p>
           <ul>
@@ -39,7 +39,9 @@ css: ["bk-homepage"]
 
         <div class="card-2">
           <img src="../images/anwendungsrichtlinien.svg" alt="">
-          <h2 class="card-title">Anwendungsrichtlinien</h2>
+          <a href="/basisklassifikation/anwendungsrichtlinien/" class="card-title-link">
+            <h2 class="card-title">Anwendungsrichtlinien</h2>
+          </a>
           <p>Richtlinien für die Anwendung der Basisklassifikation.</p>
         </div>
 
