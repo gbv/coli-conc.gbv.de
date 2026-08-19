@@ -1,18 +1,21 @@
+{% set prefix = "/de" if locale == "de" else "" %}
+
 <nav>
   <ul>
     <li class="nav-simple">
-      <a href="/basisklassifikation/allgemeine-infos/">
+      <a href="{{ prefix }}/basisklassifikation/allgemeine-infos/">
         Allgemeine Infos
       </a>
     </li>
+
     <li class="dropdown">
-      <a href="#">
+      <a>
         Basisklassifikation
         <span class="dropdown-arrow">▾</span>
       </a>
       <ul class="dropdown-menu">
         <li>
-          <a href="/basisklassifikation/ueber-die-bk/">Über die BK</a>
+          <a href="{{ prefix }}/basisklassifikation/ueber-die-bk/">Über die BK</a>
         </li>
         <li>
           <a href="https://uri.gbv.de/terminology/bk/">VZG Terminology</a>
@@ -22,13 +25,15 @@
         </li>
       </ul>
     </li>
+
     <li class="nav-simple">
-      <a href="/basisklassifikation/anwendungsrichtlinien/">
+      <a href="{{ prefix }}/basisklassifikation/anwendungsrichtlinien/">
         Anwendungsrichtlinien
       </a>
     </li>
+
     <li class="dropdown">
-      <a href="#">
+      <a>
         Erschließungstools
         <span class="dropdown-arrow">▾</span>
       </a>
@@ -38,16 +43,19 @@
         <li><a href="https://wiki.k10plus.de/spaces/K10PLUS/pages/64225355/Installationsanleitung+WinIBW3+K10plus">WinIBW</a></li>
       </ul>
     </li>
+
     <li class="dropdown">
-      <a href="#">
+      <a>
         BK-Projekte
         <span class="dropdown-arrow">▾</span>
       </a>
       <ul class="dropdown-menu">
         <li>
-          <a href="/basisklassifikation/relaunch/">BK-Relaunch</a>
+          <a href="{{ prefix }}/basisklassifikation/relaunch/">BK-Relaunch</a>
         </li>
-        <li><a href="/basisklassifikation/uebersetzungsprojekt/">BK-Übersetzung</a></li>
+        <li>
+          <a href="{{ prefix }}/basisklassifikation/uebersetzungsprojekt/">BK-Übersetzung</a>
+        </li>
       </ul>
     </li>
   </ul>
