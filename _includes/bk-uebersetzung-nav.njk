@@ -1,17 +1,19 @@
+{% set prefix = "/de" if locale == "de" else "" %}
+
 <nav>
   <ul>
     <li class="nav-simple">
-      <a href="/basisklassifikation/uebersetzungsprojekt/">
+      <a href="{{ prefix }}/basisklassifikation/uebersetzungsprojekt/">
         Home
       </a>
     </li>
     <li class="nav-simple">
-      <a href="/basisklassifikation/uebersetzungsprojekt/ueber-das-projekt/">
+      <a href="{{ prefix }}/basisklassifikation/uebersetzungsprojekt/ueber-das-projekt/">
         Über das Projekt
       </a>
     </li>
     <li class="nav-simple">
-      <a href="/basisklassifikation/uebersetzungsprojekt/teilnehmende-institutionen/">
+      <a href="{{ prefix }}/basisklassifikation/uebersetzungsprojekt/teilnehmende-institutionen/">
         Teilnehmende Institutionen
       </a>
     </li>

@@ -1,14 +1,16 @@
 ---
-originalLanguage: de
+originalLanguage: en
 layout: layouts/bk-homepage
 title: Übersetzungsprojekt
 css: ["bk-homepage"]
 ---
 
+{% set prefix = "/de" if locale == "de" else "" %}
+
 <div class="bk-homepage">
   <div class="hero">
 
-    <a href="/basisklassifikation/">
+    <a href="{{ prefix }}/basisklassifikation/">
       <img src="/images/logo-bk.png" alt="Basisklassifikation">
     </a>
 
