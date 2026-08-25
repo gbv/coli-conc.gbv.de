@@ -13,7 +13,7 @@ css: ["bk-relaunch"]
 {% section "header" %}
 
 <div>
-    <a href="/basisklassifikation/"><img src="/images/logo-bk.png" alt="Basisklassifikation" class="logo-img logo-bk"></a>
+    <a href="/basisklassifikation/"><img src="images/logo-bk.png" alt="Basisklassifikation" class="logo-img logo-bk"></a>
 </div>
 
 <div class="title-block">
@@ -30,7 +30,7 @@ css: ["bk-relaunch"]
   </div>
 </div>
 
-<img src="/images/partner-logos.png" alt="Partnerinstitutionen" class="partner-logos">
+<img src="images/partner-logos.png" alt="Partnerinstitutionen" class="partner-logos">
 
 {% endsection %}
 

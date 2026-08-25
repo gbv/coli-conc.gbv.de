@@ -9,7 +9,7 @@ css: ["bk-homepage"]
   <div class="subpage">
 
     <a href="/basisklassifikation/">
-      <img src="/images/logo-bk.png" alt="Basisklassifikation">
+      <img src="images/logo-bk.png" alt="Basisklassifikation">
     </a>
 
 {% include "bk-homepage-nav.njk" %}
@@ -27,7 +27,7 @@ css: ["bk-homepage"]
 
     <div class="key-facts">
       <div class="fact">
-        <img src="/images/layers.svg" alt="">
+        <img src="images/layers.svg" alt="">
         <div class="fact-text">
           <span class="fact-title">2.086 Klassen</span>
           <span class="fact-subtitle">mit Haupt- und Unterklassen</span>
@@ -35,7 +35,7 @@ css: ["bk-homepage"]
       </div>
 
       <div class="fact">
-        <img src="/images/calendar.svg" alt="">
+        <img src="images/calendar.svg" alt="">
         <div class="fact-text">
           <span class="fact-title">Seit 1990</span>
           <span class="fact-subtitle">im Einsatz</span>
@@ -43,7 +43,7 @@ css: ["bk-homepage"]
       </div>
 
       <div class="fact">
-        <img src="/images/globe.svg" alt="">
+        <img src="images/globe.svg" alt="">
         <div class="fact-text">
           <span class="fact-title">DACH-Länder & Niederlande </span>
           <span class="fact-subtitle">Verbreitung</span>
