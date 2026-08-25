@@ -10,7 +10,7 @@ css: ["bk-homepage"]
   <div class="subpage">
 
     <a href="/basisklassifikation/">
-      <img src="images/logo-bk.png" alt="Basisklassifikation">
+      <img src="/images/logo-bk.png" alt="Basisklassifikation">
     </a>
 
 {% include "bk-homepage-nav.njk" %}

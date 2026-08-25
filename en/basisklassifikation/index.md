@@ -9,7 +9,7 @@ css: ["bk-homepage"]
   <div class="hero">
 
     <a href="/basisklassifikation/">
-      <img src="images/logo-bk.png" alt="Basisklassifikation">
+      <img src="/images/logo-bk.png" alt="Basisklassifikation">
     </a>
 
 {% include "bk-homepage-nav.njk" %}
@@ -25,7 +25,7 @@ css: ["bk-homepage"]
 
       <div class="cards">
         <div class="card-1">
-          <img src="images/basisklassifikation.svg" alt="">
+          <img src="/images/basisklassifikation.svg" alt="">
           <h2 class="card-title">Basisklassifikation</h2>
           <ul>
             <li><a href="/basisklassifikation/ueber-die-bk/" class="portal-link">Über die BK</a></li>
@@ -38,7 +38,7 @@ css: ["bk-homepage"]
         </div>
 
         <div class="card-2">
-          <img src="images/anwendungsrichtlinien.svg" alt="">
+          <img src="/images/anwendungsrichtlinien.svg" alt="">
           <a href="/basisklassifikation/anwendungsrichtlinien/" class="card-title-link">
             <h2 class="card-title">Anwendungsrichtlinien</h2>
           </a>
@@ -46,7 +46,7 @@ css: ["bk-homepage"]
         </div>
 
         <div class="card-3">
-          <img src="images/erschliessungstools.svg" alt="">
+          <img src="/images/erschliessungstools.svg" alt="">
           <h2 class="card-title">Erschließungstools</h2>
           <p>Werkzeuge für die Erschließung mit der Basisklassifikation.</p>
           <ul>
@@ -57,7 +57,7 @@ css: ["bk-homepage"]
         </div>
 
         <div class="card-4">
-          <img src="images/news.svg" alt="">
+          <img src="/images/news.svg" alt="">
           <h2 class="card-title">BK-Projekte</h2>
           <p>Aktuelle Projekte zur Basisklassifikation.</p>
           <ul>
@@ -71,7 +71,7 @@ css: ["bk-homepage"]
 
   <div class="portal-links">
     <div class="portal-link-item">
-      <img src="images/bk-redaktion.svg" alt="">
+      <img src="/images/bk-redaktion.svg" alt="">
       <div class="portal-link-text">
         <span class="label">
           <a href="/basisklassifikation/bk-redaktion/">BK-Redaktion</a>
@@ -80,7 +80,7 @@ css: ["bk-homepage"]
     </div>
 
     <div class="portal-link-item">
-      <img src="images/arbeitspakete.svg" alt="">
+      <img src="/images/arbeitspakete.svg" alt="">
       <div class="portal-link-text">
         <span class="label">
           BK-Fachkoordination
@@ -89,7 +89,7 @@ css: ["bk-homepage"]
     </div>
 
     <div class="portal-link-item">
-      <img src="images/partnerinstitutionen.svg" alt="">
+      <img src="/images/partnerinstitutionen.svg" alt="">
       <div class="portal-link-text">
         <span class="label">
           Publikationen
@@ -98,7 +98,7 @@ css: ["bk-homepage"]
     </div>
 
     <div class="portal-link-item">
-      <img src="images/neuigkeiten.svg" alt="">
+      <img src="/images/neuigkeiten.svg" alt="">
       <div class="portal-link-text">
         <span class="label">
           <a href="/basisklassifikation/neuigkeiten/">Neuigkeiten &amp; Updates</a>

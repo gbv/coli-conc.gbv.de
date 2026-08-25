@@ -1,7 +1,9 @@
+{% set prefix = "/de" if locale == "de" else "" %}
+
 <nav>
   <ul>
     <li class="nav-simple">
-      <a href="./allgemeine-infos/">
+      <a href="{{ prefix }}/basisklassifikation/allgemeine-infos/">
         Allgemeine Infos
       </a>
     </li>
@@ -13,7 +15,7 @@
       </a>
       <ul class="dropdown-menu">
         <li>
-          <a href="ueber-die-bk/">Über die BK</a>
+          <a href="{{ prefix }}/basisklassifikation/ueber-die-bk/">Über die BK</a>
         </li>
         <li>
           <a href="https://uri.gbv.de/terminology/bk/">VZG Terminology</a>
@@ -25,7 +27,7 @@
     </li>
 
     <li class="nav-simple">
-      <a href="anwendungsrichtlinien/">
+      <a href="{{ prefix }}/basisklassifikation/anwendungsrichtlinien/">
         Anwendungsrichtlinien
       </a>
     </li>
@@ -49,10 +51,10 @@
       </a>
       <ul class="dropdown-menu">
         <li>
-          <a href="relaunch/">BK-Relaunch</a>
+          <a href="{{ prefix }}/basisklassifikation/relaunch/">BK-Relaunch</a>
         </li>
         <li>
-          <a href="uebersetzungsprojekt/">BK-Übersetzung</a>
+          <a href="{{ prefix }}/basisklassifikation/uebersetzungsprojekt/">BK-Übersetzung</a>
         </li>
       </ul>
     </li>

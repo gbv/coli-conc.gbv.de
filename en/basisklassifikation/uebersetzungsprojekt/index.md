@@ -11,7 +11,7 @@ css: ["bk-homepage"]
   <div class="hero">
 
     <a href="{{ prefix }}/basisklassifikation/">
-      <img src="images/logo-bk.png" alt="Basisklassifikation">
+      <img src="/images/logo-bk.png" alt="Basisklassifikation">
     </a>
 
 {% include "bk-uebersetzung-nav.njk" %}
