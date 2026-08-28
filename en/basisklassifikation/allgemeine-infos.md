@@ -94,6 +94,67 @@ css: ["bk-homepage"]
 
     <hr class="allgemeine-infos-divider">
 
+    <span class="header-allgemeine-infos">Datenformate & Schnittstellen</span>
+
+    <span class="allgemeine-infos-subheading">Datenformate</span>
+
+    <p class="allgemeine-infos-text">
+      Die Basisklassifikation steht in verschiedenen Datenformaten zum Download zur Verfügung:
+    </p>
+
+    <ul class="guideline-list">
+      <li>JSKOS</li>
+      <li>Turtle</li>
+      <li>RDF/XML</li>
+      <li>N-Triples</li>
+      <li>MARC JSON</li>
+      <li>MARCXML</li>
+    </ul>
+
+    <a href="https://uri.gbv.de/terminology/bk/" class="download-button">Zu den Downloads</a>
+
+    <span class="allgemeine-infos-subheading">Online-Zugriff</span>
+
+    <p class="allgemeine-infos-text">
+      Basisklassifikation im VZG Terminology Service
+    </p>
+
+    <ul class="online-zugriff-list">
+      <li>
+        <a class="allgemeine-infos-link"
+        href="https://uri.gbv.de/terminology/bk/"
+        target="_blank"
+        rel="noopener noreferrer">
+        VZG Terminology Service
+        </a>
+        <span class="link-description">
+          – mit persistenten URIs zur eindeutigen Identifikation einzelner BK-Klassen
+        </span>
+      </li>
+    </ul>
+
+    <span class="allgemeine-infos-subheading">API</span>
+
+    <p class="allgemeine-infos-text">
+      Schnittstelle & technische Dokumentation
+    </p>
+
+    <ul>
+      <li>
+        <a class="allgemeine-infos-link"
+        href="https://api.dante.gbv.de/"
+        target="_blank"
+        rel="noopener noreferrer">
+        DANTE API
+        </a>
+        <span class="link-description">
+          – Schnittstelle für den maschinellen Zugriff auf die Daten der Basisklassifikation mit technischer Dokumentation
+        </span>
+      </li>
+    </ul>
+
+    <hr class="allgemeine-infos-divider">
+
     <span class="header-allgemeine-infos">Hosting & Pflege</span>
 
     <p class="allgemeine-infos-text">

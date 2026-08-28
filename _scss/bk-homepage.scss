@@ -115,6 +115,25 @@ body {
   font-weight: 600;
 }
 
+.download-button {
+  display: inline-block;
+  padding: 6px 15px;
+  border: 1.5px solid #a52a2a;
+  color: #a52a2a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.2s;
+  margin-bottom: 30px;
+}
+
+.download-button:hover {
+  background-color: #a52a2a;
+  color: white;
+}
+
 .header-allgemeine-infos::after {
   content: "";
   display: block;
@@ -245,6 +264,26 @@ body {
   line-height: 1.8;
 }
 
+.allgemeine-infos-link {
+  color: #a52a2a;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.allgemeine-infos-link:hover {
+  color: #7a1f1f;
+  border-bottom-color: #7a1f1f;
+}
+
+.online-zugriff-list {
+  margin-bottom: 30px;
+}
+
+.link-description {
+  font-size: 20px;
+}
+
 .guideline-list {
   margin: 1em 0;
   padding-left: 40px;
@@ -350,12 +389,12 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .header-redaktion {
   display: block;
-  margin: 30px 0 20px;
+  margin: 40px 0 20px;
   font-size: 21px;
   font-weight: 600;
 }
@@ -370,15 +409,22 @@ body {
   border-radius: 3px;
 }
 
+.bk-redaktion-heading {
+  display: block;
+  margin: 30px 0 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .bk-redaktion-card {
   background: #f9e6b8;
   border-radius: 5px;
-  min-height: 0px;
+  height: 230px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
-  padding: 40px 40px 40px 30px;
+  padding: 30px;
   border: 2px solid rgba(214, 196, 124, .35);
   border-left: 5px solid #568b3d;
 }
@@ -416,6 +462,8 @@ body {
   display: block;
   margin-top: 4px;
   font-size: 18px;
+  line-height: 1.4;
+  min-height: 2.8em;
 }
 
 .card-description {
@@ -564,6 +612,11 @@ img {
   margin: 30px 0 50px;
 }
 
+.allgemeine-infos-subheading {
+  font-weight: 600;
+  font-size: 22px;
+}
+
 .allgemeine-infos-divider {
   border: none;
   border-top: 2px dotted #ce2a18;
@@ -590,6 +643,12 @@ img {
   background-color: #568b3d;
   border: none;
   margin: 30px 0;
+}
+
+.role-label {
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .neuigkeiten-title-section hr {
@@ -629,7 +688,7 @@ h2 {
 .cards {
   display: flex;
   float: right;
-  margin-top: -300px;
+  margin-top: -280px;
   margin-right: 40px;
   color: white;
 }
@@ -1220,12 +1279,12 @@ footer p {
     padding: 14px 12px;
   }
 
-  .title-section {
-    margin-top: clamp(170px, 12vw, 220px);
-    margin-left: clamp(20px, 2.5vw, 50px);
-    width: clamp(320px, 25vw, 420px);
-    transform: none;
-  }
+ .title-section {
+  margin-top: clamp(170px, 12vw, 220px);
+  margin-left: clamp(20px, 2.5vw, 50px);
+  width: clamp(320px, 25vw, 420px);
+  transform: translateY(-50px);
+}
 
  .title-section h1 {
     font-size: clamp(28px, 2.2vw, 40px);
@@ -1240,7 +1299,7 @@ footer p {
   .cards {
     display: flex;
     float: right;
-    margin-top: clamp(-350px, -18vw, -290px);
+    margin-top: clamp(-310px, -16vw, -250px);
     margin-right: clamp(15px, 1.5vw, 30px);
     gap: 0;
     color: white;
@@ -1606,6 +1665,20 @@ footer p {
     margin: 5px;
     padding: 16px;
   }
+
+  .bk-redaktion-card {
+    padding: 25px 15px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1550px) {
+
+  .bk-redaktion-card {
+    height: 280px;
+    padding: 25px 15px;
+  }
+
 }
 
 @media (min-width: 1400px) and (max-width: 1500px)
@@ -2693,6 +2766,19 @@ footer p {
     display: none !important;
     margin: 0 !important;
     padding: 0 !important;
+  }
+
+  .bk-redaktion-card {
+    justify-content: flex-start;
+  }
+
+  .card-subtitle {
+    min-height: 0;
+  }
+
+  .role-label {
+    margin-top: 30px;
+    padding-top: 0;
   }
 
 }

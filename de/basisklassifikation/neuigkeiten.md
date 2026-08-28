@@ -8,7 +8,7 @@ css: ["bk-homepage"]
 <div class="bk-homepage">
   <div class="subpage">
 
-    <a href="/basisklassifikation/">
+    <a href="/de/basisklassifikation/">
       <img src="/images/logo-bk.png" alt="Basisklassifikation">
     </a>
 
@@ -22,6 +22,8 @@ css: ["bk-homepage"]
       <h1 class="subpage-title">Neuigkeiten & Updates</h1>
       <hr>
     </div>
+
+    <h2 class="bk-redaktion-heading">Veranstaltungen 2026</h2>
 
     <div class="event-cards">
       <div class="event-entry">

@@ -37,6 +37,7 @@ css: ["bk-homepage"]
         <a class="card-email" href="mailto:balakrishnan@gbv.de">
           ✉ E-Mail schreiben
         </a>
+        <span class="role-label">Technik</span>
       </div>
 
       <div class="bk-redaktion-card">
@@ -45,6 +46,7 @@ css: ["bk-homepage"]
         <a class="card-email" href="mailto:regine.beckmann@sbb.spk-berlin.de">
           ✉ E-Mail schreiben
         </a>
+        <span class="role-label">Inhaltliche Betreuung</span>
       </div>
 
       <div class="bk-redaktion-card">
@@ -53,6 +55,7 @@ css: ["bk-homepage"]
         <a class="card-email" href="mailto:armin.kuehn@bsz-bw.de">
           ✉ E-Mail schreiben
         </a>
+        <span class="role-label">Technik</span>
       </div>
 
       <div class="bk-redaktion-card">
@@ -61,6 +64,7 @@ css: ["bk-homepage"]
         <a class="card-email" href="mailto:diana.slawig@tib.eu">
           ✉ E-Mail schreiben
         </a>
+        <span class="role-label">Organisation & inhaltliche Betreuung</span>
       </div>
     </div>
 
@@ -73,6 +77,7 @@ css: ["bk-homepage"]
         <a class="card-email" href="mailto:martina.cuba@univie.ac.at">
           ✉ E-Mail schreiben
         </a>
+        <span class="role-label">Inhaltliche Betreuung</span>
       </div>
 
       <div class="bk-redaktion-card">
@@ -81,6 +86,7 @@ css: ["bk-homepage"]
         <a class="card-email" href="mailto:eva.pessl@uni-graz.at">
           ✉ E-Mail schreiben
         </a>
+        <span class="role-label">Inhaltliche Betreuung</span>
       </div>
 
       <div class="bk-redaktion-card">
@@ -89,6 +95,7 @@ css: ["bk-homepage"]
         <a class="card-email" href="mailto:rabea.rudigier@onb.ac.at">
           ✉ E-Mail schreiben
         </a>
+        <span class="role-label">Organisation & inhaltliche Betreuung</span>
       </div>
     </div>
 

@@ -23,6 +23,8 @@ css: ["bk-homepage"]
       <hr>
     </div>
 
+    <h2 class="bk-redaktion-heading">Veranstaltungen 2026</h2>
+
     <div class="event-cards">
       <div class="event-entry">
         <div class="event-number">01</div>
