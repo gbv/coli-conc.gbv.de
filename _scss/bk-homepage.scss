@@ -429,20 +429,15 @@ body {
   border-left: 5px solid #568b3d;
 }
 
-.card-email {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 20px;
-  color: #568b3d;
+.contact-link {
+  font-weight: 600;
   text-decoration: none;
-  font-size: 17px;
-  font-weight: 500;
+  color: #568b3d;
+  font-size: 22px;
 }
 
-.card-email img {
-  width: 18px;
-  height: 18px;
+.contact-link:hover {
+  text-decoration: underline;
 }
 
 .card-title {
@@ -665,7 +660,7 @@ img {
   line-height: 1.4;
   margin: 0;
   max-width: 600px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .title-section hr {
