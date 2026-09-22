@@ -175,8 +175,10 @@ a collection of knowledge organization systems encoded in JSKOS
 
 ### 2026
 
+- Schnittstellen für Thesauri.
+  2026-09-22 <https://doi.org/10.5281/zenodo.22897156>
 - BARTOC im Wandel: Neue Funktionen und Perspektiven.
-2026-05-12 <https://doi.org/10.5281/zenodo.20137670>
+  2026-05-12 <https://doi.org/10.5281/zenodo.20137670>
 
 
 ### 2025
