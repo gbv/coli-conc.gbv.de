@@ -1,7 +1,7 @@
 ---
 originalLanguage: de
 layout: layouts/bk-homepage
-title: Teilnehmer-/Partnerinstitutionen
+title: Teilnehmende Institutionen
 css: ["bk-homepage"]
 ---
 
@@ -18,7 +18,7 @@ css: ["bk-homepage"]
 
   <div class="subpage-content">
 
-    <div class="subpage-title-section allgemeine-infos-title-section">
+    <div class="subpage-title-section">
       <h1 class="subpage-title">Teilnehmer-/Partnerinstitutionen</h1>
       <hr>
     </div>
