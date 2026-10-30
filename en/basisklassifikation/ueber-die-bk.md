@@ -18,14 +18,14 @@ css: ["bk-homepage"]
 
   <div class="subpage-content">
 
-    <div class="subpage-title-section allgemeine-infos-title-section">
+    <div class="subpage-title-section">
       <h1 class="subpage-title">Über die Basisklassifikation</h1>
       <hr>
     </div>
 
     <span class="header-allgemeine-infos">Prinzipien der Basisklassifikation</span>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Die Basisklassifikation ist in fünf Bereiche mit insgesamt 48 Hauptklassen und 2.086 Klassen gegliedert. Die Notationen folgen dem Format NN.NN: Die erste Zifferngruppe kennzeichnet die Hauptklasse als übergeordnetes Sachgebiet, die zweite spezifiziert das Thema innerhalb dieses Gebiets.
     </p>
 
@@ -56,11 +56,11 @@ css: ["bk-homepage"]
       </li>
     </ul>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       <strong>Beispiel:</strong> Bei einer Publikation über <em>Umweltbelastung durch Industrie, Verkehr und private Haushalte</em> wird <strong>43.50 Umweltbelastungen</strong> vergeben. Eine gleichzeitige Vergabe der spezifischeren Klassen <strong>43.62, 43.63</strong> und <strong>43.66</strong> erfolgt nicht.
     </p>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Diese Prinzipien ermöglichen eine konsistente, systematische und nachvollziehbare Erschließung von Publikationen nach ihren wesentlichen Sachaspekten.
     </p>
 
@@ -87,7 +87,7 @@ css: ["bk-homepage"]
 
     <span class="header-allgemeine-infos">Vergleich zu anderen Klassifikationen</span>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Die Basisklassifikation (BK) unterscheidet sich von anderen bibliothekarischen Klassifikationssystemen wie der Regensburger Verbundklassifikation (RVK), der Dewey Decimal Classification (DDC) oder der Universal Decimal Classification (UDC) insbesondere durch ihre vergleichsweise grobe Struktur und die konsequente Konzentration auf die wesentlichen Sachaspekte einer Publikation.
     </p>
 
@@ -115,7 +115,7 @@ css: ["bk-homepage"]
       </li>
     </ul>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Die BK zeichnet sich damit insbesondere durch ihre <strong>Übersichtlichkeit</strong>, <strong>vergleichsweise geringe Komplexität</strong> und <strong>konsequente Konzentration auf fachliche Sachaspekte</strong> aus. Gegenüber stärker ausdifferenzierten Klassifikationssystemen steht weniger eine möglichst detaillierte Abbildung sämtlicher Aspekte als vielmehr eine klare, einheitliche und nachnutzbare Inhaltserschließung im Vordergrund.
     </p>
 

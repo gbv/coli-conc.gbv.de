@@ -19,12 +19,12 @@ css: ["bk-homepage"]
 
   <div class="subpage-content">
 
-    <div class="subpage-title-section anwendungsrichtlinien-title-section">
+    <div class="subpage-title-section">
       <h1 class="subpage-title">Anwendungsrichtlinien</h1>
       <hr>
     </div>
 
-    <p class="guideline-text">
+    <p class="subpage-text">
       Die folgenden Anwendungsrichtlinien unterstützen die konsistente und fachgerechte Anwendung der Basisklassifikation in unterschiedlichen Fachgebieten. Über das Inhaltsverzeichnis ist ein direkter Einstieg in die einzelnen Richtlinien möglich.
     </p>
 
@@ -201,7 +201,7 @@ css: ["bk-homepage"]
 
     <div class="guideline-item">
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Historische Regionen werden nach Möglichkeit entsprechend den heutigen Staatsgrenzen zugeordnet.
       </p>
 
@@ -211,7 +211,7 @@ css: ["bk-homepage"]
         Literatur über das mittelalterliche Burgund erhält die Stelle <span class="notation">15.65 (Frankreich)</span>, wobei die außerhalb der heutigen französischen Staatsgrenzen liegenden Teile des damaligen Burgunds vernachlässigt werden.
       </div>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Die Notationen 15.06-15.09 (Politische Geschichte, Kulturgeschichte, Sozialgeschichte, Wirtschaftsgeschichte) werden vergeben, wenn es sich um Literatur über die dort genannten Teildisziplinen handelt. Sie werden außerdem in Kombination mit den Regionalstellen 15.25-15.96 vergeben, wenn sich der Inhalt des zu erschließenden Dokuments den in 15.06-15.09 genannten Aspekten zuordnen lässt. Sobald mehr als zwei dieser Aspekte behandelt werden, wird nur die Notation für die Regionalstelle vergeben.
       </p>
 
@@ -230,7 +230,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Entsprechend kann bei Literatur, die durch die Klassen 11.50-11.58 (Kirchengeschichte) sowie 86.09 (Rechts- und Verfassungsgeschichte) erschlossen wird, zusätzlich eine der Regionalstellen 15.25-15.96 vergeben werden.
       </p>
     </div>
@@ -240,7 +240,7 @@ css: ["bk-homepage"]
     <h3 id="philologie" class="section-heading">Anwendungsrichtlinien für die Basisklassifikation in den philologischen Fächern (Hauptklassen 17 und 18)</h3>
 
     <div class="guideline-item">
-      <p class="guideline-text">
+      <p class="subpage-text">
         Bei der Klassifikation philologischer Sachverhalte wird mit einer Kombination von Notationen der Hauptklassen 17 und 18 gearbeitet. In der Hauptklasse 18 wird die jeweilige Philologie bzw. der jeweilige Teilbereich einer Philologie, in der Hauptklasse 17 werden der betreffende Sachaspekt/die betreffenden Sachaspekte des zu klassifizierenden Dokuments notiert.<br>
         Eine Notation aus der Hauptklasse 17 wird immer zusammen mit einer Notation aus der Hauptklasse 18 vergeben.
       </p>
@@ -298,7 +298,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Eine Notation aus der Hauptklasse 18 wird zusammen mit einer Notation aus der Hauptklasse 17 vergeben. Zu beachten ist, dass für den Aspekt der "Sekundärliteratur zu literarischen Autoren" keine Notation im Bereich 17.XX existiert. Alle personenbezogene Sekundärliteratur erhält deshalb nur die Notation der Einzelphilologie insgesamt.
       </p>
 
@@ -331,7 +331,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Bei gattungsspezifischen oder motivgeschichtlichen Untersuchungen zu einem Autor oder einer Autorin kann zusätzlich auch eine Notation aus 17.XX vergeben werden.
       </p>
 
@@ -364,7 +364,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Personenbezogene Literatur zu Fachwissenschaftlerinnen und Fachwissenschaftlern erhält neben der entsprechenden 18.XX-Notation die zutreffende Fachnotation aus dem Bereich 17.XX.
       </p>
 
@@ -381,7 +381,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Die Notation 18.00 (Einzelne Sprachen und Literaturen allgemein) wird vergeben, wenn die Notation aus 17.XX keiner Philologie zugeordnet werden kann, oder wenn ein Dokument einen Sachverhalt auf mehr als drei Philologien anwendet.
       </p>
 
@@ -414,7 +414,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Für <strong>belletristische Primärliteratur</strong> wird eine Notation aus der Hauptklasse 18 für die Sprache(n) und die Notation 17.97 für Texte und Textsammlungen eines einzelnen Autors/einer einzelnen Autorin oder 17.98 für Textsammlungen mehrerer Autoren/Autorinnen vergeben. Es wird keine Notation für die literarische Gattung oder die Literaturkategorie (17.80-17.87) vergeben.
       </p>
 
@@ -439,7 +439,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Die Notationen 17.80-17.84 für literarische Gattungen und die Notation 17.87 für besondere Literaturkategorien werden ausschließlich für Sekundärliteratur zu den einzelnen Gattungen und Literaturkategorien verwendet.<br>
         <strong>Sprachwörterbücher</strong> werden folgendermaßen notiert:<br>
         <strong>Allgemeine Sprachwörterbücher:</strong> Notation aus Hauptklasse 18 für die Sprache(n) und die Notation 17.06 (Sprachwissenschaft: Allgemeines)
@@ -458,7 +458,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         <strong>Spezielle Sprachwörterbücher</strong> (Synonymen-, Fremdwörterbücher u. Ä.): Notation aus Hauptklasse 18 für die Sprache(n) und die Notation 17.59 (Lexikologie)
       </p>
 
@@ -475,7 +475,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         <strong>Fachliche Sprachwörterbücher:</strong> Notation des Fachgebiets, Notation aus Hauptklasse 18 für die Sprachen und die Notation 17.59 (Lexikologie)
       </p>
 
@@ -498,7 +498,7 @@ css: ["bk-homepage"]
     <h3 id="kunst" class="section-heading">Anwendungsrichtlinien für die Basisklassifikation im Fach Kunst (Hauptklasse 21)</h3>
 
     <div class="guideline-item">
-      <p class="guideline-text">
+      <p class="subpage-text">
         Folgende Klassen sind nur für allgemeine Literatur über das jeweilige Thema zu vergeben:
       </p>
 
@@ -520,7 +520,7 @@ css: ["bk-homepage"]
         </li>
       </ul>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Sofern es bei der zu erschließenden Literatur überwiegend um einen bestimmten Zeitraum oder um einzelne Künstlerinnen oder Künstler geht, müssen je nach Kunstform folgende Klassen verwendet werden:
       </p>
 
@@ -542,7 +542,7 @@ css: ["bk-homepage"]
         </li>
       </ul>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Dies gilt auch für zeitgenössische Kunst und für zeitgenössische Künstlerinnen und Künstler.
       </p>
     </div>
@@ -552,7 +552,7 @@ css: ["bk-homepage"]
     <h3 id="medizin" class="section-heading">Anwendungsrichtlinien für die Basisklassifikation im Fach Medizin (Hauptklasse 44)</h3>
 
     <div class="guideline-item">
-      <p class="guideline-text">
+      <p class="subpage-text">
         Im Bereich der Medizin können die Klassen 44.51 (Diagnostik) oder 44.52 (Therapie) als Zweitnotation vergeben werden.
       </p>
 
@@ -571,7 +571,7 @@ css: ["bk-homepage"]
         </tr>
       </table>
 
-      <p class="guideline-text">
+      <p class="subpage-text">
         Sofern sich eine klinische Disziplin Diagnose- und Therapiemethoden bedient, die eigentlich einer anderen Disziplin zuzuordnen sind, erhält das entsprechende Dokument die Notationen für beide Disziplinen.
       </p>
 

@@ -18,7 +18,7 @@ css: ["bk-homepage"]
 
   <div class="subpage-content">
 
-    <div class="subpage-title-section allgemeine-infos-title-section">
+    <div class="subpage-title-section">
       <h1 class="subpage-title">Allgemeine Infos</h1>
       <hr>
     </div>
@@ -51,7 +51,7 @@ css: ["bk-homepage"]
       </div>
     </div>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Die Basisklassifikation ist ein durch niederländische Bibliotheken entwickeltes
       hierarchisches Klassifikationssystem zur systematischen Ordnung von Wissen und
       Literatur, das aus 2.086 Klassen mit Haupt- und Unterklassen besteht.
@@ -65,7 +65,7 @@ css: ["bk-homepage"]
       <div class="info-column">
         <span class="header-allgemeine-infos">Entstehung und Entwicklung</span>
 
-        <p class="allgemeine-infos-text">
+        <p class="subpage-text">
           Die Klassifizierung wurde Ende der 1980er Jahre unter Leitung der Königlichen
           Bibliothek der Niederlande eingeführt und ist seit 1990 in Gebrauch. Seither
           wird sie weiterentwickelt.
@@ -75,7 +75,7 @@ css: ["bk-homepage"]
       <div class="info-column">
         <span class="header-allgemeine-infos">Verbreitung und Nutzung</span>
 
-        <p class="allgemeine-infos-text">
+        <p class="subpage-text">
           Die Basisklassifikation (BK) wurde in den Jahren 1992-1993 in den Niederlanden und in Deutschland von der Verbundzentrale des GBV (VZG) für den Gemeinsamen Bibliotheksverbund (GBV) eingeführt. Später übernahm auch die Deutsche Nationalbibliothek (DNB) die BK als Aufstellungssystematik. Seit 2009 wird sie zudem im Österreichischen Bibliothekenverbund für die Sacherschließung genutzt und findet auch in Bibliotheken der Schweiz Anwendung.
         </p>
       </div>
@@ -98,7 +98,7 @@ css: ["bk-homepage"]
 
     <span class="allgemeine-infos-subheading">Datenformate</span>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Die Basisklassifikation steht in verschiedenen Datenformaten zum Download zur Verfügung:
     </p>
 
@@ -115,7 +115,7 @@ css: ["bk-homepage"]
 
     <span class="allgemeine-infos-subheading">Online-Zugriff</span>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Basisklassifikation im VZG Terminology Service
     </p>
 
@@ -135,7 +135,7 @@ css: ["bk-homepage"]
 
     <span class="allgemeine-infos-subheading">API</span>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Schnittstelle & technische Dokumentation
     </p>
 
@@ -157,7 +157,7 @@ css: ["bk-homepage"]
 
     <span class="header-allgemeine-infos">Hosting & Pflege</span>
 
-    <p class="allgemeine-infos-text">
+    <p class="subpage-text">
       Die BK wird von der VZG in DANTE, dem Hosting-Dienst für Normdaten, gehostet und gepflegt.<br>
       Bei Fragen zum Hosting und zur Pflege der BK wenden Sie sich bitte an:
     </p>

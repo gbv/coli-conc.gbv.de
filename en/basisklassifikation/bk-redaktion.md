@@ -18,7 +18,7 @@ css: ["bk-homepage"]
 
   <div class="subpage-content">
 
-    <div class="subpage-title-section bk-redaktion-title-section">
+    <div class="subpage-title-section">
       <h1 class="subpage-title">BK-Redaktion</h1>
 
       <hr>
