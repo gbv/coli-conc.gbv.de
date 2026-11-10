@@ -526,6 +526,22 @@ nav ul li a {
   text-decoration: none;
 }
 
+.publication-list {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.publication-item {
+  margin-bottom: 25px;
+}
+
+.publication-link {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #ce2a18;
+}
+
 .dropdown {
   position: relative;
 }
@@ -3163,9 +3179,14 @@ nav ul li a {
     -ms-overflow-style: none;
   }
 
-    .footer-logos::-webkit-scrollbar {
+  .footer-logos::-webkit-scrollbar {
     display: none;
   }
+
+  .publication-list {
+        font-size: 16px;
+  }
+
 }
 
 @media (min-width: 1400px) and (max-width: 1450px) {

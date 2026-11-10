@@ -82,7 +82,7 @@ css: ["bk-homepage"]
     </div>
 
     <div class="portal-link-item">
-      <img src="/images/arbeitspakete.svg" alt="">
+      <img src="/images/fachkoordination.svg" alt="">
       <div class="portal-link-text">
         <span class="label">
           BK-Fachkoordination
@@ -91,10 +91,10 @@ css: ["bk-homepage"]
     </div>
 
     <div class="portal-link-item">
-      <img src="/images/partnerinstitutionen.svg" alt="">
+      <img src="/images/publikationen.svg" alt="">
       <div class="portal-link-text">
         <span class="label">
-          Publikationen
+          <a href="{{ prefix }}/basisklassifikation/publikationen/">Publikationen</a>
         </span>
       </div>
     </div>
