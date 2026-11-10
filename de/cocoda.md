@@ -40,6 +40,8 @@ Der [Cocoda-Screencast](https://doi.org/10.5446/69732) bietet eine kurze Einfüh
 - [NFDI4Objects Cocoda-Instanz](https://coli-conc.gbv.de/cocoda/nfdi4objects/)
 - [SBB Cocoda-Instanz](https://coli-conc.gbv.de/cocoda/sbb/)
 - [Für Wikidata optimierte Cocoda-Instanz](https://coli-conc.gbv.de/cocoda/wikidata/)
+- [NFDI4Objects Mapping-Editor für Denkmaldaten (PHS-Dat)](https://coli-conc.gbv.de/cocoda/phsdat/)
+
 
   </div>
 
