@@ -814,8 +814,48 @@ footer p {
   height: 70px;
 }
 
-.footer-logo-obvsg {
-  height: 75px;
+.footer-logo-vzg-neu {
+  height: 80px;
+}
+
+
+.bk-contact {
+  text-align: center;
+  font-size: 18px;
+}
+
+.bk-contact-heading {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bk-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.bk-contact-person {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bk-contact-person strong,
+.bk-contact-person a,
+.bk-contact-separator {
+  font-size: inherit;
+}
+
+.bk-contact-separator,
+.bk-contact-person a {
+  color: #b33333;
+}
+
+.bk-contact-person a {
+  font-weight: bold;
 }
 
 .guidelines-overview {
