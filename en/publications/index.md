@@ -20,6 +20,8 @@ title: Publications
 {% endflex %}
 {% endflexbox %}
 
+See also [publications about Basisklassifikation](../basisklassifikation/publikationen/).
+
 {% endsection %}
 
 {% section "textPadding" %}
